@@ -1,7 +1,17 @@
 import path from 'node:path'
 import { createTypeDocApp } from './typedoc-markdown.mjs'
 
-const __dirname = path.dirname(new URL(import.meta.url).pathname)
+// 1. 从 'url' 模块导入 fileURLToPath
+import { fileURLToPath } from 'node:url';
+
+// 2. 从 'path' 模块导入 dirname 和 join
+import { dirname, join } from 'node:path';
+
+// 3. 将当前模块的 URL 转换为文件路径 (__filename)
+const __filename = fileURLToPath(import.meta.url);
+
+// 4. 获取当前文件所在的目录路径 (__dirname)
+const __dirname = dirname(__filename);
 
 createTypeDocApp({
   textContentMappings: {

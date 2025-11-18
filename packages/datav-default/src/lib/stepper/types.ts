@@ -1,7 +1,5 @@
 import type { TypeConfigBase, TypeControl } from '../.types/base'
 
-
-
 //步进器。
 export interface TypeConfigStepper extends TypeConfigBase {
   name: string //	显示名	string	是	无。

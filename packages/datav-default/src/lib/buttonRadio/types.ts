@@ -1,6 +1,5 @@
 import type { TypeConfigBase, TypeControl } from '../.types/base'
 
-
 //单选按钮。
 export interface TypeConfigButtonRadio extends TypeConfigBase {
   name: string //	显示名	string	是	无。

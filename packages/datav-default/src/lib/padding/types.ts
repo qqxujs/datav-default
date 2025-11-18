@@ -1,6 +1,5 @@
 import type { TypeConfigBase, TypeControl } from '../.types/base'
 
-
 //边距高频套件。
 export enum TypeConfigPaddingComponents {
   top = 'top',

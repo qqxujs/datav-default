@@ -4,5 +4,5 @@ import type { TypeConfigBase, TypeControl } from '../.types/base'
 export interface TypeConfigBoolean extends TypeConfigBase {
   name: string //	显示名	string	是	无。
   type: TypeControl.boolean //	类型	string	是	无。
-  default?: boolean|string //	默认值	boolean	否	没填时为true。
+  default?: boolean | string //	默认值	boolean	否	没填时为true。
 }

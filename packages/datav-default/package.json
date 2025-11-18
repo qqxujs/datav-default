@@ -43,8 +43,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc && vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
   },
   "files": [
     "dist/*.js",

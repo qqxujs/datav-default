@@ -1,6 +1,5 @@
 import type { TypeConfigBase, TypeControl } from '../.types/base'
 
-
 //字体高频套件。
 export enum TypeConfigFontComponents {
   fontFamily = 'fontFamily',

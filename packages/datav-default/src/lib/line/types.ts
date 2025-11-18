@@ -4,7 +4,7 @@ import type { TypeConfigBase, TypeControl } from '../.types/base'
 export enum TypeConfigLineComponents {
   width = 'width',
   curve = 'curve',
-  style ='style',
+  style = 'style',
   color = 'color',
 }
 export interface TypeConfigLine extends TypeConfigBase {

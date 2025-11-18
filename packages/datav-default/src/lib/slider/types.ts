@@ -8,7 +8,7 @@ export enum TypeConfigSliderMode {
 export interface TypeConfigSlider extends TypeConfigBase {
   name: string //	显示名	string	是	无。
   type: TypeControl.slider //	类型	string	是	无。
-  default?: number|number[] //	默认值	number或array	否	不填时值为空。
+  default?: number | number[] //	默认值	number或array	否	不填时值为空。
   step?: number //	步⻓	number	否	无。
   min?: number //	最小值	number	否	无。
   max?: number //	最大值	number	否	无。

@@ -1,6 +1,5 @@
 import type { TypeConfigBase, TypeControl } from '../.types/base'
 
-
 //百分比值。
 export interface TypeConfigPercent extends TypeConfigBase {
   name: string //	显示名	string	是	无。

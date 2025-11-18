@@ -1,7 +1,7 @@
 import { getDefaultConfigForItem } from '../'
 import type { TypeConfigObject } from './types'
 
-export function getDefaultConfigForObject(config: TypeConfigObject):any {
+export function getDefaultConfigForObject(config: TypeConfigObject): any {
   const defaultValue = {}
   for (const key in config) {
     if (config.hasOwnProperty(key)) {

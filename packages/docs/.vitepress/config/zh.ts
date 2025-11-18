@@ -1,5 +1,7 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
+import datav from './datav/zh'
 
+console.log(datav)
 export const META_URL = 'https://pinia.vuejs.org'
 export const META_TITLE = 'Pinia 🍍'
 export const META_DESCRIPTION = '值得你喜欢的 Vue Store'
@@ -24,6 +26,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     outline: {
       label: '本页内容',
+      level: [2, 3]
     },
 
     docFooter: {
@@ -48,14 +51,6 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             text: '博客专栏',
             link: '//blog.qqxu.com',
           },
-          {
-            text: '更新日志',
-            link: 'https://github.com/vuejs/pinia/blob/v3/packages/pinia/CHANGELOG.md',
-          },
-          {
-            text: 'Vue.js 认证',
-            link: 'https://certificates.dev/vuejs/?friend=VUEROUTER&utm_source=pinia_vuejs&utm_medium=link&utm_campaign=pinia_vuejs_links&utm_content=navbar',
-          },
         ],
       },
       {
@@ -64,19 +59,6 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
       },
     ],
     sidebar: {
-      // '/api/': [
-      //   {
-      //     text: 'packages',
-      //     items: [
-      //       { text: 'pinia', link: '/api/modules/pinia.html' },
-      //       { text: '@pinia/nuxt', link: '/api/modules/pinia_nuxt.html' },
-      //       {
-      //         text: '@pinia/testing',
-      //         link: '/api/modules/pinia_testing.html',
-      //       },
-      //     ],
-      //   },
-      // ],
       '/': [
         {
           text: '介绍',
@@ -92,9 +74,9 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
           ],
         },
         {
-          text: '核心概念',
+          text: '自定义组件开发',
           items: [
-            { text: '定义 Store', link: '/core-concepts/' },
+            { text: '控件类型配置', link: '/user-guide/control-type-configuration/' },
             { text: 'State', link: '/core-concepts/state.html' },
             { text: 'Getter', link: '/core-concepts/getters.html' },
             { text: 'Action', link: '/core-concepts/actions.html' },
@@ -107,6 +89,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         },
         {
           text: '服务端渲染 (SSR)',
+          collapsed: false,
           items: [
             {
               text: 'Vue 与 Vite',
@@ -118,6 +101,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             },
           ],
         },
+        datav,
         {
           text: '手册',
           collapsed: false,

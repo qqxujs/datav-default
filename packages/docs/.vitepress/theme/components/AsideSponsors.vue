@@ -24,61 +24,17 @@ const asideSponsors = computed(() => {
           },
         ]
       : []),
-    {
-      size: 'mini',
-      items: sponsors.gold
-        .map((sponsor: Sponsor) => ({
-          name: sponsor.alt,
-          url: sponsor.href,
-          img: sponsor.imgSrcLight,
-        }))
-        .concat({
-          name: 'Become a sponsor',
-          url: 'https://github.com/sponsors/posva',
-          img: '/your-logo-here.svg',
-        }),
-    },
-    {
-      size: 'xmini',
-      // TODO: use gold instead once I have some
-      items: sponsors.silver.map((sponsor: Sponsor) => ({
-        name: sponsor.alt,
-        url: sponsor.href,
-        img: sponsor.imgSrcLight,
-      })),
-    },
   ]
 })
+
+
 </script>
 
 <template>
   <VPDocAsideSponsors :data="asideSponsors" />
 
-  <!-- <a
-    class="banner mp"
-    href="https://masteringpinia.com?utm=pinia-sidebar"
-    target="_blank"
-  >
-    <img width="22" height="22" src="/mp-pinia-logo.svg" />
-    <span>
-      <p class="extra-info">Complete guide to</p>
-      <p class="heading">Mastering Pinia</p>
-      <p class="extra-info">written by its creator</p>
-    </span>
-  </a> -->
 
-  <a
-    class="banner cert"
-    href="https://certificates.dev/vuejs/?friend=VUEROUTER&utm_source=pinia_vuejs&utm_medium=link&utm_campaign=pinia_vuejs_links&utm_content=sidebar"
-    target="_blank"
-  >
-    <img width="22" height="22" src="/vue-cert-logo.svg" />
-    <span>
-      <p class="extra-info">The official</p>
-      <p class="heading">Vue.js Certification</p>
-      <p class="extra-info">Get certified!</p>
-    </span>
-  </a>
+
 </template>
 
 <style scoped>

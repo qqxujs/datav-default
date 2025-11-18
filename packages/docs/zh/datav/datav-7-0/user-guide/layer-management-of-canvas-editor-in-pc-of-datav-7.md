@@ -1,0 +1,218 @@
+ 
+
+本文档介绍DataV图层栏的**组件图层功能**和**面板功能**。
+
+## **组件图层功能**
+
+**说明**
+
+组件图层移动可以使得组件在大屏上的排序更加有条理。
+
+-   位置层次越靠前，表示组件在画布中的显示越靠前。
+    
+-   位置层次越靠后，表示组件在画布中的显示越靠后。
+    
+-   当两个组件重叠时，位置靠前的组件会覆盖位置靠后的组件。
+    
+
+在组件图层面板，您可以对图层进行如下操作。
+
+**名称/图标**
+
+**功能**
+
+聚焦![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p524857.png)
+
+将当前组件移动到画布面板的中心位置，方便查看或进一步操作。
+
+锁定![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p524859.png)
+
+锁定当前图层，使被锁定的组件无法选中和编辑，只能在图层面板解锁。
+
+选择图层![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5410542071/p746846.png)
+
+单击此处，可以在下拉图层中选择需要跳转的图层。
+
+图层顺序![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5410542071/p746848.png)
+
+移动图层。
+
+-   置顶![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518081.png)：将当前图层置于画布编辑器的图层最上端。
+    
+-   置底![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518082.png)：将当前图层置于画布编辑器的图层最下端。
+    
+-   上移一层![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518083.png)：将当前图层的显示位置向上移动一层。
+    
+-   下移一层![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518084.png)：将当前图层的显示位置向下移动一层。
+    
+
+成组![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518085.png)/解组![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518087.png)
+
+将一个或多个组件捆绑为一个分组，可以进行组内设置。将多个组件成组后，可以右键选择**收藏**，收藏多个组件。组件成组后也可以设置组内背景样式。
+
+生成迭代器![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518088.png)
+
+迭代器即列表生成器。在组件成组后通过迭代器的数据驱动，生成一个列表，列表项的数量与迭代器数据中数组的长度一致。单击**取消迭代器**即可取消使用。
+
+**说明**
+
+迭代器绘制上限为100个迭代单元。
+
+-   **背景**：设置迭代器图表的背景颜色。
+    
+-   **超出滚动**：单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3848172171/p790268.png)图标，控制迭代单元在超出迭代器的图表范围时，在预览或发布页是否可滚动显示。
+    
+-   **隐藏滚动条**：单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3848172171/p790268.png)图标，控制是否隐藏滚动条。
+    
+-   **滚动条颜色**：设置滚动条的颜色。
+    
+
+使用轮播容器![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716244.png)/解除轮播容器![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716245.png)
+
+单击使用轮播容器，可以使组件进行轮播操作。
+
+进入蓝图编辑器![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716250.png)
+
+单击即可进入蓝图编辑器中。
+
+隐藏![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518094.png)
+
+隐藏当前图层，只能在图层面板重新显示。
+
+重命名![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716254.png)
+
+重命名当前图层。
+
+复制ID![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518095.png)
+
+复制当前组件或组的ID，在快捷搜索栏可以直接搜索。
+
+复制![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518096.png)
+
+复制当前组件/组。
+
+删除![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518097.png)
+
+删除当前组件/组。
+
+收藏![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518098.png)
+
+将组件或组收藏到**设计库** > **我的收藏**页签中，方便进行二次使用。
+
+## **面板功能**
+
+在**图层**面板，您可以做以下操作。
+
+**名称/图标**
+
+**功能**
+
+更新![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5410542071/p746870.png)
+
+查看当前画布中可以更新的组件清单，选择需要更新的组件。
+
+置顶面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5410542071/p746872.png)
+
+将**图层**面板固定在**画布编辑器**上，在打开其他面板时不会关闭该面板。
+
+关闭面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5410542071/p746881.png)
+
+关闭图层面板。
+
+上移一层![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518083.png)
+
+将当前图层的显示位置向上移动一层。
+
+下移一层![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518084.png)
+
+将当前图层的显示位置向下移动一层。
+
+置顶![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518081.png)
+
+将当前图层置于画布编辑器的图层最上层。
+
+置底![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518082.png)
+
+将当前图层置于画布编辑器的图层最下层。
+
+成组![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518085.png)/解组![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518087.png)
+
+将一个或多个组件捆绑为一个分组，可以进行组内设置。将多个组件[成组](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#d4672d304dge0)后，可以右键选择**收藏**，收藏多个组件。组件成组后也可以设置组内的背景样式。
+
+聚焦![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p524857.png)
+
+将当前组件移动到画布面板的中心位置，方便查看或进一步操作。
+
+锁定![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p524859.png)/解锁![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3178499661/p526506.png)
+
+锁定当前图层，使被锁定的组件无法选中和编辑。图层解锁后组件才可以被编辑。
+
+图层顺序![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5410542071/p746848.png)
+
+移动图层。
+
+-   置顶![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518081.png)：将当前图层置于画布编辑器的图层最上端。
+    
+-   置底![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518082.png)：将当前图层置于画布编辑器的图层最下端。
+    
+-   上移一层![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518083.png)：将当前图层的显示位置向上移动一层。
+    
+-   下移一层![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518084.png)：将当前图层的显示位置向下移动一层。
+    
+
+全部展开![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716234.png)/全部收起![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716235.png)
+
+将所有组或者轮播容器父节点全部展开或全部收齐，方便组件查找和编辑。
+
+生成迭代器![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518088.png)
+
+迭代器即列表生成器。在组件成组后通过迭代器的数据驱动，生成一个列表，列表项的数量与迭代器数据中数组的长度一致。单击**取消迭代器**即可取消使用。
+
+**说明**
+
+迭代器绘制上限为100个迭代单元。
+
+-   **背景**：设置迭代器图表的背景颜色。
+    
+-   **超出滚动**：单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3848172171/p790268.png)图标，控制迭代单元在超出迭代器的图表范围时，在预览或发布页是否可滚动显示。
+    
+-   **隐藏滚动条**：单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3848172171/p790268.png)图标，控制是否隐藏滚动条。
+    
+-   **滚动条颜色**：设置滚动条的颜色。
+    
+
+使用轮播容器![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716244.png)/解除轮播容器![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716245.png)
+
+点击[使用轮播容器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#d9d9ad604dx0n)，可以使组件进行轮播操作。
+
+进入蓝图编辑器![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716250.png)
+
+单击进入蓝图编辑器。
+
+在蓝图编辑器中定位![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716253.png)
+
+在图层面板单击图标，可以在蓝图画布中直接定位到具体的组件或组。
+
+隐藏![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518094.png)/显示![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518113.png)
+
+隐藏/显示当前图层。
+
+重命名![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7125704961/p716254.png)
+
+重命名当前图层。
+
+复制ID![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518095.png)
+
+复制当前组件或组的ID，在快捷搜索栏可以直接搜索。
+
+复制![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518096.png)
+
+复制当前组件/组。
+
+删除![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518097.png)
+
+删除当前组件/组。
+
+收藏![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4623269661/p518098.png)
+
+将组件或组收藏到**设计库** > **我的收藏**页签中，方便进行二次使用。

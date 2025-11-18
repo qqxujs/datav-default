@@ -1,0 +1,1836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<main><p>控件类型配置涵盖基础输入、数值调节等专业控件类型，帮助开发者快速配置组件的样式面板，满足企业级业务场景的定制化需求。本文将详细介绍各类控件的功能特性与配置方法。</p><div><section><h2><b>基础输入控件</b></h2><h3><b>boolean 布尔配置项</b></h3><p>适用于功能开关、条件判断等场景。已被<span></span><a href="#title-uhi-bvo-vbh" title="">switch 开关</a>代替，建议使用新配置项。 </p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1" data-spm-anchor-id="a2c4g.11186623.0.i1.88012f10TyF2CJ"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1" data-spm-anchor-id="a2c4g.11186623.0.i0.88012f10TyF2CJ"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为<code>true</code>。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p><code>true</code></p></td><td rowspan="1" colspan="1"><p><code>true</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5678788951/p93721.png" alt="boolean配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"boolean": {
+   "type": "boolean",
+   "name": "显示"
+}</code></pre>
+    </div>
+    <h3><b>keyBoard 热键定义器</b></h3><p>支持键盘按键映射输入。适用于快捷键配置、游戏控制等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时为<code>[16, 38]</code>。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p><code>[16,38]</code></p></td><td rowspan="1" colspan="1"><p><code>[16,38]</code></p></td><td rowspan="1" colspan="1"><p>快捷键的<span></span>ASCII。</p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8039788951/p92935.png" alt="keyBoard配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"keyboard": {
+   "name": "快捷键",
+   "type": "keyboard",  
+   "default": [16,38]
+}</code></pre>
+    </div>
+    <h3><b>number 数值输入框</b></h3><p>适用于尺寸、数量等数值参数场景。已被<span></span><a href="#title-heh-ock-xk1" title="">stepper 步进器</a>和<span></span><a href="#title-gw8-q52-e3c" title="">slider 滑动条</a>代替，建议使用新配置项。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认显示值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为<code>16</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>min</code></p></td><td rowspan="1" colspan="1"><p>最小值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p><code>min</code>、<code>range[0]</code>、<code>range.min</code>三者有其一就设置最小值成功，都没有时退化为<span></span>text，不保证运行正确。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>max</code></p></td><td rowspan="1" colspan="1"><p>最大值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p><code>max</code>、<code>range[1]</code>、<code>range.max</code>三者有其一就设置最大值成功，都没有时配置项类型退化为<span></span>text，不保证运行正确。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>range</code></p></td><td rowspan="1" colspan="1"><p>取值区间</p></td><td rowspan="1" colspan="1"><p>array<span></span>或<span></span>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>配置<code>range</code>则显示滑动条。<code>range</code>可以为数组<code>[10, 55]</code>，也可以为对象<code>{min: 10, max: 55}</code>，与<code>min</code>和<code>max</code>都没有时，配置项类型退化为<span></span>text，不保证运行正确。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p><code>12</code></p></td><td rowspan="1" colspan="1"><p><code>0</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>基础用法（不配置<code>range</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3819788951/p93709.png" alt="number配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"number": {
+    "type": "number",
+    "name": "字号",
+    "default": 22,
+    "min": 10,
+    "max": 55
+}</code></pre>
+    </div>
+    </li><li><p>带滑动条（配置<code>range</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3819788951/p93710.png" alt="number配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"number": {
+    "type": "number",
+    "name": "字号",
+    "default": 22,
+    "range": [
+      10,
+      55
+    ]
+}</code></pre>
+    </div>
+    </li></ul><h3><b>percent 百分比值</b></h3><p>适用于进度百分比、占比数据等场景。已被<span></span><a href="#title-gw8-q52-e3c" title="">slider 滑动条</a>代替，建议使用新配置项。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为<code>0</code>。最大值为<code>100</code>，最小值为<code>0</code>，步长为<code>1</code>。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p><code>20</code></p></td><td rowspan="1" colspan="1"><p><code>0</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2538788951/p93722.png" alt="percent配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"percent": {
+  "name": "百分比值",
+  "type": "percent",
+  "default": 20
+}</code></pre>
+    </div>
+    <h3><b>text 文本输入框</b></h3><p>⽀持定制前后缀，适用于标题文字、标签内容配置等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认显示值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>prefix</code></p></td><td rowspan="1" colspan="1"><p>前缀</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>suffix</code></p></td><td rowspan="1" colspan="1"><p>后缀</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>prefixIcon</code></p></td><td rowspan="1" colspan="1"><p>前缀图标名称</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>图标库中的名称，例如<code>link</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>suffixIcon</code></p></td><td rowspan="1" colspan="1"><p>后缀图标名称</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>图标库中的名称，例如<code>link</code>。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>"系列一"</code></p></td><td rowspan="1" colspan="1"><p><code>""</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0248829951/p92877.png" alt="text配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"link": {
+    "name": "跳转链接",
+    "type": "text",
+    "default": "http://datav.aliyun.com",
+    "prefixIcon": "link"
+  }</code></pre>
+    </div>
+    </section><section><h2><b>选择型控件</b></h2><h3><b>buttonRadio 单选按钮</b></h3><p>适用于可视化选项（如主题风格等）场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>options</code></p></td><td rowspan="1" colspan="1"><p>选项列表</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>对象数组，包含<code>label</code>和<code>value</code>字段。<code>label</code>为显示文本，<code>value</code>为文本值。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>evenlySplit</code></p></td><td rowspan="1" colspan="1"><p>均匀等分</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>使图标在⼀⾏中均匀分布。当和<code>optionCol</code>同时出现时，优先使用<code>evenlySplit</code>的值。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p><code>"left"</code></p></td><td rowspan="1" colspan="1"><p><code>""</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6598788951/p92918.png" alt="buttonRadio配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"algin": {
+    "name": "对齐方式",
+    "type": "buttonRadio",
+    "evenlySplit": true,
+    "options": [
+      {
+        "value": "left",
+        "label": "左对齐"
+      },
+      {
+        "value": "right",
+        "label": "居中对齐"
+      },
+      {
+        "value": "bottom",
+        "label": "右对齐"
+      }
+    ]
+  }</code></pre>
+    </div>
+    <h3><b>checkbox 复选框</b></h3><p>支持为选项设置宽度，适用于多选配置（如权限配置）等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>options</code></p></td><td rowspan="1" colspan="1"><p>选项列表</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>对象数组，包含<code>label</code>和<code>value</code>字段。<code>label</code>为显示文本，<code>value</code>为文本值。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>optionCol</code></p></td><td rowspan="1" colspan="1"><p>选项定宽</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>⽤来为选项设置固定宽度。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p><code>["left", "right"]</code></p></td><td rowspan="1" colspan="1"><p><code>[]</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1788788951/p92914.png" alt="checkbox配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"checkbox": {
+    "name": "地图内容",
+    "type": "checkbox",
+    "optionCol": 8,
+    "options": [
+      {
+        "value": "bg",
+        "label": "背景"
+      },
+      {
+        "value": "building",
+        "label": "建筑物"
+      },
+      {
+        "value": "road",
+        "label": "道路"
+      },
+      {
+        "value": "label",
+        "label": "标注"
+      }
+    ]
+}</code></pre>
+    </div>
+    <h3><b>iconRadio 单选图标</b></h3><p>适用于图形化选择（如图标库）等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>options</code></p></td><td rowspan="1" colspan="1"><p>选项列表</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>对象数组，包含<code>label</code>、<code>value</code>和<code>src</code>字段。<code>label</code>为显示文本，<code>value</code>为文本值，<code>src</code>为图片地址或图标名。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>optionCol</code></p></td><td rowspan="1" colspan="1"><p>选项定宽</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>⽤来为选项设定固定宽度。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>evenlySplit</code></p></td><td rowspan="1" colspan="1"><p>均匀等分</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>使图标在⼀⾏中均匀分布。当和<code>optionCol</code>同时出现时，优先使用<code>evenlySplit</code>的值。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>"left"</code></p></td><td rowspan="1" colspan="1"><p><code>""</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>使用图片<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2348788951/p92922.png" alt="iconRadio-使用图片配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"direction": {
+    "name": "移动方向",
+    "type": "iconRadio",
+    "options": [
+      {
+        "value": "left",
+        "label": "左侧",
+        "src": "https://img.alicdn.com/tfs/TB1.77AgxYaK1RjSZFnXXa80pXa-48-48.png"
+      },
+      {
+        "value": "right",
+        "label": "右侧",
+        "src": "https://img.alicdn.com/tfs/TB1sWoggwDqK1RjSZSyXXaxEVXa-48-48.png"
+      },
+      {
+        "value": "top",
+        "label": "上侧",
+        "src": "https://img.alicdn.com/tfs/TB1t0wjgCzqK1RjSZFjXXblCFXa-48-48.png"
+      },
+      {
+        "value": "bottom",
+        "label": "下侧",
+        "src": "https://img.alicdn.com/tfs/TB1UAAjgwHqK1RjSZFkXXX.WFXa-48-48.png"
+      }
+    ]
+  }</code></pre>
+    </div>
+    </li><li><p>使用图标<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2348788951/p92924.png" alt="iconRadio-配置示例-使用图标" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"algin": {
+    "name": "对齐方式",
+    "type": "iconRadio",
+    "evenlySplit": true,
+    "options": [
+      {
+        "value": "left",
+        "label": "左侧",
+        "src": "align-left"
+      },
+      {
+        "value": "right",
+        "label": "居中",
+        "src": "align-center"
+      },
+      {
+        "value": "bottom",
+        "label": "下侧",
+        "src": "align-right"
+      }
+    ]
+  }</code></pre>
+    </div>
+    </li></ul><h3><b>imageSelect 图片选择器</b></h3><p>适用于主题背景、图标选择等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>不填时使用<span></span>key<span></span>名作为显示名，例如<code>margin</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>options</code></p></td><td rowspan="1" colspan="1"><p>选项列表</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>对象数组，包含<code>label</code>、<code>value</code>和<code>src</code>字段。<code>label</code>为显示文本，<code>value</code>为文本值，<code>src</code>为图片地址或图标名。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>"left"</code></p></td><td rowspan="1" colspan="1"><p><code>""</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9838788951/p92927.png" alt="imageSelect配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes"><span>"bubbleKey"</span>: {
+    <span>"name"</span>: <span>"气泡类型"</span>,
+    <span>"type"</span>: <span>"imageSelect"</span>,
+    <span>"default"</span>: <span>"type1"</span>,
+    <span>"options"</span>: [
+      {
+        <span>"label"</span>: <span>"类型一"</span>,
+        <span>"value"</span>: <span>"type1"</span>,
+        <span>"src"</span>: <span>"https://img.alicdn.com/tfs/TB1BCgwoAT2gK0jSZFkXXcIQFXa-162-104.png"</span>
+      },
+      {
+        <span>"label"</span>: <span>"类型二"</span>,
+        <span>"value"</span>: <span>"type2"</span>,
+        <span>"src"</span>: <span>"https://img.alicdn.com/tfs/TB1EmgwoAT2gK0jSZFkXXcIQFXa-162-104.png"</span>
+      },
+      {
+        <span>"label"</span>: <span>"类型三"</span>,
+        <span>"value"</span>: <span>"type3"</span>,
+        <span>"src"</span>: <span>"https://img.alicdn.com/tfs/TB13x3soAP2gK0jSZPxXXacQpXa-162-104.png"</span>
+      },
+      {
+        <span>"label"</span>: <span>"类型四"</span>,
+        <span>"value"</span>: <span>"type4"</span>,
+        <span>"src"</span>: <span>"https://img.alicdn.com/tfs/TB1pKUuoAL0gK0jSZFxXXXWHVXa-162-104.png"</span>
+      }
+    ]
+  }</code></pre>
+    </div>
+    <h3><b>menu 菜单</b></h3><p>菜单用来组织配置项的结构，目前支持一级菜单和二级菜单。适用于分类层级选择（如省市）等场景。</p><h4><b>菜单样式</b></h4><ul><li><p>一级菜单<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8208430161/p93032.png" alt="一级菜单" loading="lazy"></p></li><li><p>二级菜单<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8208430161/p93033.png" alt="二级菜单" loading="lazy"></p></li></ul><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>children</code></p></td><td rowspan="1" colspan="1"><p>菜单内容</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>{}</code>。必须包含<code>mode</code>和<code>name</code>字段。 
+								</p><ul><li><p><code>mode</code>：是否嵌套了二级菜单，<code>"single"</code>表示仅有一级菜单，<code>"multiple"</code>表示有二级菜单。</p></li><li><p><code>name</code>：菜单名。</p></li></ul></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>不涉及</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"options": {
+   "menuA": {
+     "switch": true
+   },
+   "menuB": {
+     "menuB1": {
+       "text": "Hello"
+     },
+     "menuB2": {
+       "stepper": 2
+     }
+   }
+ }</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{}</code></pre>
+    </div>
+    </td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8847788951/p93034.png" alt="menu配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"options": {
+    "name": "菜单",
+    "type": "menu",
+    "children": {
+      "menuA": {
+        "name": "菜单A",
+        "mode": "single",
+        "children": {
+          "switch": {
+            "name": "开关",
+            "type": "switch",
+            "default": true
+          }
+        }
+      },
+      "menuB": {
+        "name": "菜单B",
+        "mode": "multiple",
+        "children": {
+          "menuB1": {
+            "name": "菜单B1",
+            "children": {
+              "text": {
+                "name": "文本",
+                "type": "text",
+                "default": "Hello"
+              }
+            }
+          },
+          "menuB2": {
+            "name": "菜单B2",
+            "children": {
+              "stepper": {
+                "name": "步进器",
+                "type": "stepper",
+                "default": 1
+              }
+            }
+          }
+        }
+      }
+    }
+}</code></pre>
+    </div>
+    <h3><b>radio 单选框</b></h3><p>适用于如性别选择等单选场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时默认没有选中项。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>options</code></p></td><td rowspan="1" colspan="1"><p>选择列表</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>对象数组，包含<code>label</code>和<code>value</code>字段。<code>label</code>为显示文本，<code>value</code>为文本值。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>optionCol</code></p></td><td rowspan="1" colspan="1"><p>选项定宽</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>⽤来为选项设定固定宽度。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>"left"</code></p></td><td rowspan="1" colspan="1"><p><code>""</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2097788951/p92896.png" alt="radio配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"align": {
+    "name": "对齐方式",
+    "type": "radio",
+    "optionCol": 12,
+    "options": [
+      {
+        "label": "左对齐",
+        "value": "left"
+      },
+      {
+        "label": "居中对齐",
+        "value": "center"
+      },
+      {
+        "label": "右对齐",
+        "value": "right"
+      }
+    ]
+}</code></pre>
+    </div>
+    <h3><b>search 下拉搜索框</b></h3><p>适应于大型数据集快速筛选等场景。已被<span></span><a href="#title-17x-y6h-gef" title="">select 选择器</a>代替，建议使用新配置项。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认显示值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为<code>options[0]</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>range</code></p></td><td rowspan="1" colspan="1"><p>取值区间</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>示例值如<code>[{name: "" ,value: ""}]</code>，也可以为<code>[{key: value}]</code> 型，也可以只有<code>[value]</code>。 没有时配置项类型退化为<span></span>text。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>"Microsoft Yahei"</code></p></td><td rowspan="1" colspan="1"><p><code>""</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8767788951/p93714.png" alt="search配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"search": {
+    "name": "字体",
+    "type": "search",
+    "default": "Microsoft Yahei",
+    "range": [
+      {
+        "微软雅黑": "Microsoft Yahei"
+      },
+      {
+        "宋体": "SimSun"
+      },
+      "tahoma",
+      "arial",
+      "sans-serif"
+    ]
+}</code></pre>
+    </div>
+    <h3><b>select 选择器</b></h3><p>⽀持开启过滤和⾃定义输⼊。当需要设置字体时，可开启字体渲染功能，预览字体样式。适用于枚举值选择（如国家列表）等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认显示值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为<code>options[0]</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>options</code></p></td><td rowspan="1" colspan="1"><p>选项列表</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>每一项都包含<code>label</code>和<code>value</code>。<code>label</code>表示显示文本，<code>value</code>表示文本的值。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>filterable</code></p></td><td rowspan="1" colspan="1"><p>是否⽀持过滤</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认：true。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>allowCustom</code></p></td><td rowspan="1" colspan="1"><p>是否⽀持⾃定义输⼊内容</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p><code>filterable</code>为<span></span>true<span></span>时生效。默认：true。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>useFont</code></p></td><td rowspan="1" colspan="1"><p>是否渲染字体</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>"left"</code></p></td><td rowspan="1" colspan="1"><p><code>""</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1619788951/p92880.png" alt="select配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"font": {
+    "name": "字体",
+    "type": "select",
+    "useFont": true,
+    "default": "SimSun",
+    "options": [
+      {
+        "value": "Microsoft Yahei",
+        "label": "微软雅黑"
+      },
+      {
+        "value": "SimSun",
+        "label": "宋体"
+      },
+      {
+        "value": "SimHei",
+        "label": "黑体"
+      }
+    ]
+}</code></pre>
+    </div>
+    <h3><b>switch 开关</b></h3><p>⽀持选择是否展示⽂字状态。适用于功能启用/禁用切换等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>statusText</code></p></td><td rowspan="1" colspan="1"><p>是否启用⽂字显示状态</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>false</code>。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p><code>true</code></p></td><td rowspan="1" colspan="1"><p><code>false</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9239788951/p92930.png" alt="switch配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"open": {
+    "name": "开关",
+    "type": "switch",
+    "default": true,
+    "statusText": true
+  }</code></pre>
+    </div>
+    <h3><b>timePicker 时间选择器</b></h3><p>支持自定义时间格式，并可选择固定时间或设置时间范围。适用于预约系统、计时器等应用场景。</p><p><b>配置项说明</b></p><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p jc="left">字段</p></td><td rowspan="1" colspan="1"><p jc="left">含义</p></td><td rowspan="1" colspan="1"><p jc="left">数据类型</p></td><td rowspan="1" colspan="1"><p jc="left">默认值</p></td><td rowspan="1" colspan="1"><p jc="left">备注</p></td></tr><tr><td rowspan="1" colspan="1"><p jc="left"><b>format</b></p></td><td rowspan="1" colspan="1"><p jc="left">日期格式</p></td><td rowspan="1" colspan="1"><p jc="left"><code>string</code></p></td><td rowspan="1" colspan="1"><p jc="left">"HH:mm:ss"</p></td><td rowspan="1" colspan="1"><p>时间日期格式化</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p jc="left">条件
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">数据类型
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">默认值
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">示例
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">备注
+</p><p></p></td></tr><tr><td rowspan="1" colspan="1"><p jc="left">-
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">string
+</p><p></p></td><td rowspan="1" colspan="1"><p>"00:00:00"
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">"00:00:00"
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">单时间选择
+</p><p></p></td></tr><tr><td rowspan="1" colspan="1"><p jc="left">-
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">array&lt;string&gt;
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">[]
+</p><p></p></td><td rowspan="1" colspan="1"><p>["00:00:00","00:00:20"]
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">时间范围选择
+</p><p></p></td></tr></tbody></table><h4><b>配置示例</b><img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7661037471/p942764.png" alt="image" placement="break" loading="lazy"></h4>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" index="0" outputclass="nohighlight"><code>time: {
+    type: 'timePicker',
+    name: '时间选择器',
+    format: 'HH:mm',
+  },
+  timeRange: {
+    type: 'timePicker',
+    name: '时间区间选择器',
+    format: 'hh:mm',
+  },</code></pre>
+    </div>
+    <h3><b>datePicker 日期选择器</b></h3><p>支持自定义日期格式，并可选择固定日期或设置日期范围。适用于票务预订、数据统计筛选等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p jc="left">字段</p></td><td rowspan="1" colspan="1"><p jc="left">含义</p></td><td rowspan="1" colspan="1"><p jc="left">数据类型</p></td><td rowspan="1" colspan="1"><p jc="left">默认值</p></td><td rowspan="1" colspan="1"><p jc="left">备注</p></td></tr><tr><td rowspan="1" colspan="1"><p jc="left"><b>format</b></p></td><td rowspan="1" colspan="1"><p jc="left">日期格式</p></td><td rowspan="1" colspan="1"><p jc="left"><code>string</code></p></td><td rowspan="1" colspan="1"><p jc="left">"YYYY-MM-DD"</p></td><td rowspan="1" colspan="1"><p></p></td></tr><tr><td rowspan="1" colspan="1"><p jc="left"><b>showTime</b></p></td><td rowspan="1" colspan="1"><p jc="left">是否展示时间部分</p></td><td rowspan="1" colspan="1"><p jc="left"><code>boolean</code></p></td><td rowspan="1" colspan="1"><p jc="left">false</p></td><td rowspan="1" colspan="1"><p jc="left">默认仅展示日期选择部分，设置为<span></span>true<span></span>可展示时间部分</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p jc="left">条件
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">数据类型
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">默认值
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">示例
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">备注
+</p><p></p></td></tr><tr><td rowspan="1" colspan="1"><p jc="left">-
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">string
+</p><p></p></td><td rowspan="1" colspan="1"><p>"2020-01-01"
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">"2020-01-01"
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">单日期选择
+</p><p></p></td></tr><tr><td rowspan="1" colspan="1"><p jc="left">-
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">array&lt;string&gt;
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">[]
+</p><p></p></td><td rowspan="1" colspan="1"><p>["2020.09.08", "2020.09.13"]
+</p><p></p></td><td rowspan="1" colspan="1"><p jc="left">日期范围选择
+</p><p></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7661037471/p942772.png" alt="image" placement="break" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight" index="0"><code>date: {
+    type: 'datePicker',
+    name: '日期选择器',
+    format: 'YYYY.MM.DD',
+  },
+  dateTime: {
+    type: 'datePicker',
+    name: '日期时间选择器',
+    showTime: true,
+    formart: 'YYYY-MM-DD HH:mm:ss',
+  },
+  dateRange: {
+    type: 'datePicker',
+    name: '日期区间选择器',
+    format: 'YYYY.MM.DD',
+  },
+  dateTimeRange: {
+    type: 'datePicker',
+    name: '日期时间区间选择器',
+    showTime: true,
+    formart: 'YYYY-MM-DD HH:mm:ss',
+  },</code></pre>
+    </div>
+    </section><section><h2><b>数值调节型控件</b></h2><h3><b>line 线套件</b></h3><p>由线粗细步进器、平滑⽅式图标单选器、样式选择器和纯⾊填充框组成。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>components</code></p></td><td rowspan="1" colspan="1"><p>配置项模块</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>默认值为：<code>["width","curve","style","color"]</code>。支持的模块包括<code>"width"</code>、<code>"curve"</code>、<code>"style"</code>和<code>"color"</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>enableHide</code></p></td><td rowspan="1" colspan="1"><p>配置项对应元素是否能够在画布隐藏</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>false</code>。设置为<code>true</code>时，显示显隐图标按钮，并在当前配置项中增加<code>show</code>字段。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>不配置<code>enableHide</code>，或将<code>enableHide</code>配置为<code>false</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "width": 4,
+ "curve": "smooth",
+ "style": "solid",
+ "color": "#00f"
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "width": 1,
+ "curve": "polyline",
+ "style": "solid",
+ "color": "#fff"
+}</code></pre>
+    </div>
+    </td></tr><tr><td rowspan="1" colspan="1"><p>将<code>enableHide</code>配置为<code>true</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "width": 4,
+ "curve": "smooth",
+ "style": "solid",
+ "color": "#00f",
+ "show": true
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "width": 1,
+ "curve": "polyline",
+ "style": "solid",
+ "color": "#fff",
+ "show": true
+}</code></pre>
+    </div>
+    </td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>基础用法（不配置<code>enableHide</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5937788951/p92999.png" alt="line配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"line": {
+    "name": "线套件",
+    "type": "line"
+}</code></pre>
+    </div>
+    </li><li><p>允许配置项对应元素隐藏（配置<code>enableHide</code>为<code>true</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6937788951/p93003.png" alt="line配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"line": {
+    "name": "线套件",
+    "type": "line",
+    "enableHide": true
+}</code></pre>
+    </div>
+    </li><li><p>配置项模块插拔（设置<code>components</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6937788951/p93001.png" alt="line配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"line": {
+    "name": "线套件",
+    "type": "line",
+    "enableHide": true,
+    "components": [
+      "style",
+      "color"
+    ]
+}</code></pre>
+    </div>
+    </li></ul><h3><b>slider 滑动条</b></h3><p>⽀持单滑块和双滑块，同时支持定制步⻓、最大值和最小值、前缀和后缀、精度，可开启范围显示。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>number<span></span>或<span></span>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>step</code></p></td><td rowspan="1" colspan="1"><p>步⻓</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>min</code></p></td><td rowspan="1" colspan="1"><p>最小值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>max</code></p></td><td rowspan="1" colspan="1"><p>最大值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>prefix</code></p></td><td rowspan="1" colspan="1"><p>前缀</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>suffix</code></p></td><td rowspan="1" colspan="1"><p>后缀</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>precision</code></p></td><td rowspan="1" colspan="1"><p>精度（⼩数位数）</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>显示精度，仅对⼩数值⽣效。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>mode</code></p></td><td rowspan="1" colspan="1"><p>滑块模式</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>可选值： 
+								</p><ul><li><p><code>single</code>：单滑块（默认）。</p></li><li><p><code>double</code>：双滑块。</p></li></ul></td></tr><tr><td rowspan="1" colspan="1"><p><code>showRange</code></p></td><td rowspan="1" colspan="1"><p>是否显示范围</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>当<code>mode</code>为<code>double</code>时⽣效，默认为<code>false</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>showCurrentRange</code></p></td><td rowspan="1" colspan="1"><p>是否显示当前范围</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>当<code>mode</code>为<code>single</code>时⽣效，默认为<code>true</code>。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>mode</code>为<code>single</code>（滑块模式为单滑块）</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p><code>22</code></p></td><td rowspan="1" colspan="1"><p><code>0</code></p></td></tr><tr><td rowspan="1" colspan="1"><p><code>mode</code>为<code>double</code>（滑块模式为双滑块）</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p><code>[10,30]</code></p></td><td rowspan="1" colspan="1"><p><code>[0,0]</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p><code>mode</code>为<code>single</code>（滑块模式为单滑块）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1377788951/p92933.png" alt="slider-单滑块-配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"slider": {
+    "name": "透明度",
+    "type": "slider",
+    "step": 0.1,
+    "min": 0,
+    "max": 1,
+    "suffix": "α",
+    "showRange": true
+  }</code></pre>
+    </div>
+    </li><li><p><code>mode</code>为<code>double</code>（滑块模式为双滑块）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2377788951/p92934.png" alt="slider-配置示例-双滑块" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"slider": {
+    "name": "过滤范围",
+    "type": "slider",
+    "mode": "double",
+    "step": 1,
+    "min": 10,
+    "max": 30,
+    "showCurrentRange": true
+  }</code></pre>
+    </div>
+    </li></ul><h3><b>stepper 步进器</b></h3><p>⽀持定制步⻓、最大值和最小值以及前缀和后缀。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>step</code></p></td><td rowspan="1" colspan="1"><p>步⻓</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>number<span></span>类型。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>min</code></p></td><td rowspan="1" colspan="1"><p>最小值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>number<span></span>类型。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>max</code></p></td><td rowspan="1" colspan="1"><p>最大值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>number<span></span>类型。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>prefix</code></p></td><td rowspan="1" colspan="1"><p>前缀</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>string<span></span>类型。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>suffix</code></p></td><td rowspan="1" colspan="1"><p>后缀</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>string<span></span>类型。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>precision</code></p></td><td rowspan="1" colspan="1"><p>精度（⼩数位数）</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>显示精度，仅对⼩数值⽣效。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p><code>12</code></p></td><td rowspan="1" colspan="1"><p><code>0</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2118788951/p92931.png" alt="stepper配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"stepper": {
+  "name": "移动距离",
+  "type": "stepper",
+  "step": 1,
+  "min": 0,
+  "max": 15,
+  "prefix": "上: ",
+  "suffix": "px"
+}</code></pre>
+    </div>
+    </section><section><h2 jc="start"><b>样式配置型控件</b></h2><h3><b>color 颜色选择器</b></h3><p>已被<span></span><a href="#title-79o-i1d-2sw" title="">fill 填充框</a>代替，建议使用新配置项。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认显示值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为<code>#000</code>。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>12</code></p></td><td rowspan="1" colspan="1"><p><code>"#000"</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8677788951/p93715.png" alt="color配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"color": {
+    "name": "字体颜色",
+    "type": "color",
+    "default": "#fff"
+}</code></pre>
+    </div>
+    <h3><b>fill 填充框</b></h3><p>⽀持三种填充类型以及他们的组合。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>string<span></span>或<span></span>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。取值请参见下文的<a href="https://help.aliyun.com/zh/datav/datav-7/user-guide/fill-1#section-rq9-fjf-bcl" title="">值说明</a>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>components</code></p></td><td rowspan="1" colspan="1"><p>填充类型</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>支持以下三种填充类型，以及它们的组合： 						</p><ul><li><p><code>flat</code>：纯⾊填充（默认）。</p></li><li><p><code>linearGradient</code>：渐变填充。</p></li><li><p><code>image</code>：图片填充。</p></li></ul><div><div><i></i><strong>说明 </strong></div><div><p>填充类型不同，对应的值也不同，详情请参见<a href="https://help.aliyun.com/zh/datav/datav-7/user-guide/fill-1#section-rq9-fjf-bcl" title="">值说明</a>。</p></div></div></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p>当仅有纯色填充时</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>"#333"</code></p></td><td rowspan="1" colspan="1"><p><code>"#000"</code></p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p>当仅有线性渐变填充时</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+ <span>"angle"</span>: <span>0</span>,
+ <span>"stops"</span>: [
+   {
+     <span>"offset"</span>: <span>0</span>,
+     <span>"color"</span>: <span>"#000"</span>
+   },
+   {
+     <span>"offset"</span>: <span>100</span>,
+     <span>"color"</span>: <span>"red"</span>
+   }
+ ]
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+ <span>"angle"</span>: <span>0</span>,
+ <span>"stops"</span>: [
+   {
+     <span>"offset"</span>: <span>0</span>,
+     <span>"color"</span>: <span>"#000"</span>
+   },
+   {
+     <span>"offset"</span>: <span>100</span>,
+     <span>"color"</span>: <span>"rgba(0,0,0,0.5)"</span>
+   }
+ ]
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p>当仅有图片填充时</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+<span>"fillType"</span>:<span>"cover"</span>,
+<span>"url"</span>:<span>"https://img.alicdn.com/tfs/TB16ag8v4z1gK0jSZSgXXavwpXa-96-96.png"</span>,
+<span>"tileSize"</span>: <span>100</span>
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+ <span>"fillType"</span>: <span>"stretch"</span>,
+ <span>"url"</span>: <span>"https://img.alicdn.com/tfs/TB19njRJ7zoK1RjSZFlXXai4VXa-16-16.png"</span>,
+ <span>"tileSize"</span>: <span>100</span>
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p>当支持多种填充类型时</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+<span>"type"</span>:<span>"linearGradient"</span>,
+<span>"value"</span>:
+  {
+    <span>"angle"</span>:<span>90</span>,
+      <span>"stops"</span>:[
+     {
+        <span>"color"</span>:<span>"#333"</span>,
+        <span>"offset"</span>:<span>0</span>
+     },
+     {
+        <span>"color"</span>:<span>"red"</span>,
+        <span>"offset"</span>:<span>100</span>
+     }
+      ]
+  }
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+ <span>"type"</span>: <span>"flat"</span>,
+ <span>"value"</span>: <span>"#000"</span>
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1"><ul><li><p><code>type</code>：当前应用的填充类型。</p></li><li><p><code>value</code>：填充值。</p></li></ul></td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>填充类型为<code>flat</code><img alt="fill-flat配置示例" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5958829951/p92949.png" placement="break" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes"><span>"flat"</span>: {
+    <span>"name"</span>: <span>"纯色填充"</span>,
+    <span>"type"</span>: <span>"fill"</span>,
+    <span>"default"</span>: <span>"#333"</span>
+}</code></pre>
+    </div>
+    </li><li><p>填充类型为<code>linearGradient</code><img alt="fill-linearGradient-配置示例" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5958829951/p92950.png" placement="break" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes"><span>"linearGradient"</span>: {
+    <span>"name"</span>: <span>"线性渐变填充"</span>,
+    <span>"type"</span>: <span>"fill"</span>,
+    <span>"components"</span>: [
+      <span>"linearGradient"</span>
+    ],
+    <span>"default"</span>: {
+      <span>"angle"</span>: <span>90</span>,
+      <span>"stops"</span>: [
+        {
+          <span>"color"</span>: <span>"#333"</span>,
+          <span>"offset"</span>: <span>0</span>
+        },
+        {
+          <span>"color"</span>: <span>"red"</span>,
+          <span>"offset"</span>: <span>100</span>
+        }
+      ]
+    }
+  }</code></pre>
+    </div>
+    </li><li><p>填充类型为<code>image</code><img alt="fill-image-配置示例" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5958829951/p92951.png" placement="break" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes"> <span>"image"</span>: {
+    <span>"name"</span>: <span>"图片填充"</span>,
+    <span>"type"</span>: <span>"fill"</span>,
+    <span>"components"</span>: [
+      <span>"image"</span>
+    ],
+    <span>"default"</span>: {
+      <span>"fillType"</span>: <span>"cover"</span>,
+      <span>"url"</span>: <span>"https://img.alicdn.com/tfs/TB16ag8v4z1gK0jSZSgXXavwpXa-96-96.png"</span>,
+      <span>"tileSize"</span>: <span>100</span>
+    }
+}</code></pre>
+    </div>
+    </li></ul><h3><b>font 字体套件</b></h3><p>由字体选择器、字体粗细选择器、字体⼤⼩步进器和纯⾊填充框组成。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>components</code></p></td><td rowspan="1" colspan="1"><p>配置项模块</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认值为<code>["fontFamily","fontWeight","fontSize","color"]</code>。支持的模块包括<code>"fontFamily"</code>、<code>"fontWeight"</code>、<code>"fontSize"</code>和<code>"color"</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>enableHide</code></p></td><td rowspan="1" colspan="1"><p>配置项对应元素是否能够在画布隐藏</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>false</code>。设置为<code>true</code>时，显示显隐图标按钮，并在当前配置项中增加<code>show</code>字段。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>不配置<code>enableHide</code>，或将<code>enableHide</code>配置为<code>false</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "fontFamily": "simSun",
+ "fontWeight": 400,
+ "color": "#333",
+ "fontSize": 12
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "fontFamily": "Microsoft Yahei",
+ "fontWeight": "normal",
+ "color": "#fff",
+ "fontSize": 12
+}</code></pre>
+    </div>
+    </td></tr><tr><td rowspan="1" colspan="1"><p>将<code>enableHide</code>配置为<code>true</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "fontFamily": "simSun",
+ "fontWeight": 400,
+ "color": "#333",
+ "fontSize": 12,
+ "show": true
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "fontFamily": "Microsoft Yahei",
+ "fontWeight": "normal",
+ "color": "#fff",
+ "fontSize": 12,
+ "show": true
+}</code></pre>
+    </div>
+    </td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>基础用法（不配置<code>enableHide</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9347788951/p93007.png" alt="font配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"font": {
+   "name": "文字套件",
+   "type": "font"
+}</code></pre>
+    </div>
+    </li><li><p>允许配置项对应元素隐藏（配置<code>enableHide</code>为<code>true</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9347788951/p93008.png" alt="font配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"font": {
+   "name": "文字套件",
+   "type": "font",
+   "enableHide": true
+}</code></pre>
+    </div>
+    </li><li><p>配置项模块插拔（设置<code>components</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9347788951/p93009.png" alt="font配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"font": {
+    "name": "文字套件",
+    "type": "font",
+    "enableHide": true,
+    "components": [
+      "fontSize",
+      "color"
+    ]
+}</code></pre>
+    </div>
+    </li></ul><h3><b>image 图片框</b></h3><p>适用于背景图/Logo<span></span>上传等场景。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认显示值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为空，无图片。</p></td></tr></tbody></table><div type="notice"><div><i></i><strong>重要 </strong></div><div><p>若图片链接为本地静态文件，则需要将图片放至当前控件目录的<span></span>resources<span></span>文件夹下，链接示例为<i>./resources/xxxx.png</i>。</p></div></div><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p><code>"https://img.alicdn.com/tfs/TB1cjY3ANTpK1RjSZFMXXbG_VXa-180-180.png"</code></p></td><td rowspan="1" colspan="1"><p><code>""</code></p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2078788951/p92926.png" alt="image配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+  "name" : "背景图",
+  "type" : "image",
+  "default": "http://datav.oss-cn-hangzhou.aliyuncs.com/uploads/images/c4ba3c6518c1997f4baa612a600c3fbe.png"
+}</code></pre>
+    </div>
+    <h3><b>multicolor </b>渐变颜色选择器</h3><p>可选单色或渐变色。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认显示值</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>需要包含以下参数： 
+								</p><ul><li><p><code>style</code>：可选值包括<code>single</code>和<code>double</code>。</p></li><li><p><code>value</code>：当<code>style</code>为<code>single</code>时的颜色值。</p></li><li><p><code>from</code>：当<code>style</code>为<code>double</code>时渐变的起始颜色值。</p></li><li><p><code>to</code>：当<code>style</code>为<code>double</code>时渐变的终点颜色值。</p></li><li><p><code>angle</code>：当<code>style</code>为<code>double</code>时，渐变颜色的角度。</p></li></ul></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>style</code>为<code>single</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "style": "single",
+ "value": "#ccc"
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "style": "single",
+ "value": "#000"
+}</code></pre>
+    </div>
+    </td></tr><tr><td rowspan="1" colspan="1"><p><code>style</code>为<code>double</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "style": "double",
+ "from": "#fff",
+ "to": "#ccc",
+ "angle": 0
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "style": "double",
+ "from": "#000",
+ "to": "rbga(0,0,0,.5)",
+ "angle": 0
+}</code></pre>
+    </div>
+    </td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0519788951/p93717.png" alt="multicolor配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"color": {
+    "name": "渐变颜色",
+    "type": "multicolor",
+    "default": {
+      "style": "double",
+      "from": "#000",
+      "to": "#fff",
+      "angle": 0
+    }
+}</code></pre>
+    </div>
+    <h3><b>tabs 标签组</b></h3><p>切换标签可展示当前标签下的内容，⽀持动态增减标签组。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>addable</code></p></td><td rowspan="1" colspan="1"><p>是否可以动态增减</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>true</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>template</code></p></td><td rowspan="1" colspan="1"><p>动态增减的模板</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>{}</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>children</code></p></td><td rowspan="1" colspan="1"><p>各标签组内容</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>[]</code>。⼦控件<span></span>key<span></span>字段不可使用关键字：<code>_icon</code>、<code>id</code>和<code>_label</code>。 </p><div><div><i></i><strong>说明 </strong></div><div><p>在每个⼦元素中，可以使⽤<code>_label</code>更改系列名（例如<code>系列⼀</code>改为<code>模板</code>），<code>_icon</code>更改图标。</p></div></div></td></tr><tr><td rowspan="1" colspan="1"><p><code>fold</code></p></td><td rowspan="1" colspan="1"><p>是否默认展开</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>true</code>。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p>不涉及</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>[
+ {
+   "name": "系列一"
+ },
+ {
+   "name": "系列二"
+ }
+]</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>[]</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1"><p>在每个子元素中，可以使用<code>_label</code>设置独立的<span></span>tab<span></span>名，使用<code>_icon</code>增加图标。</p></td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>可增减（配置<code>template</code>动态增加模板内容）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1518788951/p93021.png" alt="tabs配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code> "tabs": {
+    "name": "正常标签",
+    "type": "tabs",
+    "maxTabs": 10,
+    "default": [
+      {
+        "seriesName": "钢铁"
+      }
+    ],
+    "template": {
+      "name": "系列&lt;%= i + 1%&gt;",
+      "children": {
+        "seriesName": {
+          "type": "text",
+          "name": "系列名"
+        }
+      }
+    }
+}</code></pre>
+    </div>
+    </li><li><p>内容固定（不配置<code>template</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2518788951/p93025.png" alt="tabs配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"tabs": {
+    "name": "标签",
+    "type": "tabs",
+    "addable": false,
+    "children": [
+      {
+        "name": "用户信息",
+        "children": {
+          "serieName": {
+            "name": "姓名",
+            "type": "text"
+          }
+        }
+      },
+      {
+        "name": "是否应用",
+        "children": {
+          "switch": {
+            "name": "开关",
+            "type": "switch"
+          }
+        }
+      }
+    ]
+}</code></pre>
+    </div>
+    </li><li><p>使用独立的<span></span>icon<span></span>和<span></span>label<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2518788951/p93024.png" alt="tabs配置示例" loading="lazy"></p><p>此时需要通过值传入<span></span>icon<span></span>地址。</p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+  "tabs": {
+    "name": "标签",
+    "type": "tabs",
+    "default": [
+      {
+        "link": true,
+        "_label": "食品行业",
+        "_icon": "https://img.alicdn.com/tfs/TB1fck7voH1gK0jSZSyXXXtlpXa-201-200.png"
+      }
+    ],
+    "template": {
+      "name": "系列&lt;%= i + 1%&gt;",
+      "children": {
+        "link": {
+          "type": "switch",
+          "name": "Link"
+        }
+      }
+    }
+  }
+}</code></pre>
+    </div>
+    </li></ul></section><section><h2 jc="start"><b>布局容器型控件</b></h2><h3><b>array 数据系列</b></h3><p>适用于多个系列配置或多个颜色循环配色，已被<span></span><a href="#title-mrb-hun-og1" title="">tabs 标签组</a>代替，建议使用新配置项。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>对象数组，对象的属性应与<code>child</code>字段中定义的字段名一致。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>child</code></p></td><td rowspan="1" colspan="1"><p>对象名</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>请将该字段内的<code>type</code>设置为<code>object</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>child.child</code></p></td><td rowspan="1" colspan="1"><p>对象属性</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>定义对象属性及其默认值。</p></td></tr></tbody></table><div type="notice"><div><i></i><strong>重要 </strong></div><div><p>数据系列的<code>default</code>值必须为一个对象数组，且数组内对象中的属性必须在<code>child.child</code>字段中逐一进行定义，并设置属性的显示名、类型及默认值。</p></div></div><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>[
+{"name": "系列一", value: "进港"},
+{"name": "系列二", value: "出港"}
+]</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1"><p>[]</p></td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9229788951/p93718.png" alt="array数据示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"array": {
+    "name": "数据系列",
+    "type": "array",
+    "default": [
+      {
+        "name": "系列一",
+        "value": "进港"
+      },
+      {
+        "name": "系列二",
+        "value": "出港"
+      }
+    ],
+    "child": {
+      "name": "系列&lt;%=i+1%&gt;",
+      "type": "object",
+      "child": {
+        "name": {
+          "name": "系列值",
+          "type": "text",
+          "default": "系列"
+        },
+        "value": {
+          "name": "系列名",
+          "type": "text",
+          "default": ""
+        }
+      }
+    }
+}</code></pre>
+    </div>
+    <h3><b>group 配置项组</b></h3><p>可包含多个子配置项（建议多个同类元素配置项归于一个<span></span>group）。可用来组织内容，并支持折叠或展开组的内容。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>children</code></p></td><td rowspan="1" colspan="1"><p>组内元素</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>没填时为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>enableHide</code></p></td><td rowspan="1" colspan="1"><p>配置项对应元素是否能够在画布隐藏</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>false</code>。设置为<code>true</code>时，显示显隐图标按钮，并在当前配置项值中增加<code>show</code>字段。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>fold</code></p></td><td rowspan="1" colspan="1"><p>是否默认展开</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>不配置<code>enableHide</code>，或将<code>enableHide</code>配置为<code>false</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "number": 12,
+ "open": true
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{}</code></pre>
+    </div>
+    </td></tr><tr><td rowspan="1" colspan="1"><p>将<code>enableHide</code>配置为<code>true</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "number": 12,
+ "open": true,
+ "show": true
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "show": true
+}</code></pre>
+    </div>
+    </td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>基础用法（不配置<code>enableHide</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7858829951/p93013.png" alt="group配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"group": {
+    "name": "组",
+    "type": "group",
+    "children": {
+      "open": {
+        "name": "开关",
+        "type": "switch",
+        "col": 12
+      },
+      "size": {
+        "type": "stepper",
+        "caption": "大小",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "col": 12
+      }
+    }
+}</code></pre>
+    </div>
+    </li><li><p>允许配置项对应元素隐藏（配置<code>enableHide</code>为<code>true</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7858829951/p93014.png" alt="group配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"group": {
+    "name": "组",
+    "type": "group",
+    "enableHide": true,
+    "children": {
+      "open": {
+        "name": "开关",
+        "type": "switch",
+        "col": 12
+      },
+      "size": {
+        "type": "stepper",
+        "caption": "大小",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "col": 12
+      }
+    }
+}</code></pre>
+    </div>
+    </li></ul><h3><b>margin 外边距</b></h3><p>支持定义上下左右四个边的边距数值。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>components</code></p></td><td rowspan="1" colspan="1"><p>配置项模块</p></td><td rowspan="1" colspan="1"><p>array</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认值为<code>["top","bottom","left","right"]</code>。支持的模块包括<code>"top"</code>、<code>"bottom"</code>、<code>"left"</code>和<code>"right"</code>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>enableHide</code></p></td><td rowspan="1" colspan="1"><p>配置项对应元素是否能够在画布隐藏</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>false</code>。设置为<code>true</code>时，显示显隐图标按钮，并在当前配置项中增加<code>show</code>字段。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>不配置<code>enableHide</code>，或将<code>enableHide</code>配置为<code>false</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "top": 12,
+ "right": 24,
+ "bottom": 8,
+ "left": 24
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "top": 10,
+ "right": 10,
+ "bottom": 10,
+ "left": 10
+}</code></pre>
+    </div>
+    </td></tr><tr><td rowspan="1" colspan="1"><p>将<code>enableHide</code>配置为<code>true</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "top": 12,
+ "right": 24,
+ "bottom": 8,
+ "left": 24,
+ "show": true
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+ "top": 10,
+ "right": 10,
+ "bottom": 10,
+ "left": 10,
+ "show": true
+}</code></pre>
+    </div>
+    </td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>基础用法（不配置<code>enableHide</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0932869161/p92987.png" alt="margin配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+  "margin": {
+    "name": "外边距",
+    "type": "margin",
+    "default": { "top": 10, "left": 10, "right": 10, "bottom": 10 }
+  }
+}</code></pre>
+    </div>
+    </li><li><p>允许配置项对应元素隐藏（配置<code>enableHide</code>为<code>true</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0932869161/p92988.png" alt="margin配置示例2" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+  "margin": {
+    "name": "外边距",
+    "type": "margin",
+    "enableHide": true,
+    "default": { "top": 10, "left": 10, "right": 10, "bottom": 10 }
+  }
+}</code></pre>
+    </div>
+    </li><li><p>配置项模块插拔（设置<code>components</code>）<img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0932869161/p92990.png" alt="margin配置示例" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+  "marginComponents": {
+    "name": "外边距",
+    "type": "margin",
+    "enableHide": true,
+    "components": ["top", "bottom"]
+  }
+}</code></pre>
+    </div>
+    </li></ul><h3><b>padding 内边距</b></h3><p>支持定义上下左右四个边的内边距数值。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>min</code></p></td><td rowspan="1" colspan="1"><p>最小值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>0</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>max</code></p></td><td rowspan="1" colspan="1"><p>最大值</p></td><td rowspan="1" colspan="1"><p>number</p></td><td rowspan="1" colspan="1"><p>Infinity</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>无</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+  "top": 5,
+  "bottom": 10,
+  "left": 10,
+  "right": 5
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+  "top": 5,
+  "bottom": 10,
+  "left": 10,
+  "right": 5
+}</code></pre>
+    </div>
+    </td></tr></tbody></table><h4><b>配置示例</b></h4><p><img placement="break" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2334968061/p204904.png" alt="内边距" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>{
+  "padding": {
+    "type": "padding",
+    "name": "内边距",
+    "default": {
+      "top": 5,
+      "bottom": 10,
+      "left": 10,
+      "right": 5
+    },
+    "min": 0,
+    "max": 1000
+  }
+}</code></pre>
+    </div>
+    <h3><b>suite 通用套件</b></h3><p>由⼀组控件组成。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>不填时值为空。取值请参见<a href="https://help.aliyun.com/zh/datav/datav-7/user-guide/suite-1#section-gh3-w1b-nx8" title="">值说明</a>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>children</code></p></td><td rowspan="1" colspan="1"><p>控件模块</p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>{}</code>。取值请参见<a href="https://help.aliyun.com/zh/datav/datav-7/user-guide/suite-1#section-gh3-w1b-nx8" title="">值说明</a>。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>enableHide</code></p></td><td rowspan="1" colspan="1"><p>配置项对应元素是否能够在画布隐藏</p></td><td rowspan="1" colspan="1"><p>boolean</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>默认为<code>false</code>。设置为<code>true</code>时，显示显隐图标按钮，并在当前配置项中增加<code>show</code>字段。</p></td></tr></tbody></table><h4><b>值说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>条件</p></td><td rowspan="1" colspan="1"><p>数据类型</p></td><td rowspan="1" colspan="1"><p>示例</p></td><td rowspan="1" colspan="1"><p>默认值</p></td></tr><tr><td rowspan="1" colspan="1"><p>不配置<code>enableHide</code>，或将<code>enableHide</code>配置为<code>false</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+ <span>"number"</span>: <span>12</span>,
+ <span>"open"</span>: <span>true</span>
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{}</code></pre>
+    </div>
+    </td></tr><tr><td rowspan="1" colspan="1"><p>将<code>enableHide</code>配置为<code>true</code></p></td><td rowspan="1" colspan="1"><p>object</p></td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+ <span>"number"</span>: <span>12</span>,
+ <span>"open"</span>: <span>true</span>,
+ <span>"show"</span>: <span>true</span>
+}</code></pre>
+    </div>
+    </td><td rowspan="1" colspan="1">
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+ <span>"show"</span>: <span>true</span>
+}</code></pre>
+    </div>
+    </td></tr></tbody></table><h4><b>配置示例</b></h4><ul><li><p>基础用法（不配置<code>enableHide</code>）<img alt="suite配置示例" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1719330161/p92967.png" placement="break" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+  <span>"style"</span>: {
+    <span>"name"</span>: <span>"套件"</span>,
+    <span>"type"</span>: <span>"suite"</span>,
+    <span>"enableHide"</span>: <span>true</span>,
+    <span>"default"</span>: { <span>"show"</span>: <span>false</span>, <span>"open"</span>: <span>true</span>, <span>"size"</span>: <span>7</span> },
+    <span>"children"</span>: {
+      <span>"open"</span>: {
+        <span>"name"</span>: <span>"开关"</span>,
+        <span>"type"</span>: <span>"switch"</span>,
+        <span>"col"</span>: <span>12</span>
+      },
+      <span>"size"</span>: {
+        <span>"type"</span>: <span>"stepper"</span>,
+        <span>"caption"</span>: <span>"大小"</span>,
+        <span>"min"</span>: <span>0</span>,
+        <span>"max"</span>: <span>10</span>,
+        <span>"step"</span>: <span>1</span>,
+        <span>"col"</span>: <span>12</span>
+      }
+    }
+  }
+}</code></pre>
+    </div>
+    </li><li><p>允许配置项对应元素隐藏（配置<code>enableHide</code>为<code>true</code>）<img alt="suite-配置示例" src="https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1719330161/p92968.png" placement="break" loading="lazy"></p>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre outputclass="language-javascript" code-type="xCode"><code data-highlighted="yes">{
+  <span>"style"</span>: {
+    <span>"name"</span>: <span>"套件"</span>,
+    <span>"type"</span>: <span>"suite"</span>,
+    <span>"default"</span>: { <span>"show"</span>: <span>false</span>, <span>"open"</span>: <span>true</span>, <span>"size"</span>: <span>7</span> },
+    <span>"children"</span>: {
+      <span>"open"</span>: {
+        <span>"name"</span>: <span>"开关"</span>,
+        <span>"type"</span>: <span>"switch"</span>,
+        <span>"col"</span>: <span>12</span>
+      },
+      <span>"size"</span>: {
+        <span>"type"</span>: <span>"stepper"</span>,
+        <span>"caption"</span>: <span>"大小"</span>,
+        <span>"min"</span>: <span>0</span>,
+        <span>"max"</span>: <span>10</span>,
+        <span>"step"</span>: <span>1</span>,
+        <span>"col"</span>: <span>12</span>
+      }
+    }
+  }
+}</code></pre>
+    </div>
+    </li></ul></section><section><h2 jc="start"><b>特殊功能型控件</b></h2><h3><b>hidden 隐藏配置项</b></h3><p>配置后<span></span>DataV<span></span>不会渲染此配置。</p><h4><b>配置项说明</b></h4><table><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><colgroup></colgroup><tbody><tr><td rowspan="1" colspan="1"><p>字段名</p></td><td rowspan="1" colspan="1"><p>含义</p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>是否必选</p></td><td rowspan="1" colspan="1"><p>备注</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>name</code></p></td><td rowspan="1" colspan="1"><p>显示名</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>type</code></p></td><td rowspan="1" colspan="1"><p>类型</p></td><td rowspan="1" colspan="1"><p>string</p></td><td rowspan="1" colspan="1"><p>是</p></td><td rowspan="1" colspan="1"><p>无。</p></td></tr><tr><td rowspan="1" colspan="1"><p><code>default</code></p></td><td rowspan="1" colspan="1"><p>默认值</p></td><td rowspan="1" colspan="1"><p>string、number、array、object</p></td><td rowspan="1" colspan="1"><p>否</p></td><td rowspan="1" colspan="1"><p>设置默认不显示的值，但是会作为<span></span>config<span></span>传给方法。</p></td></tr></tbody></table><h4><b>配置示例</b></h4>
+    <div>
+      <div>
+        <div>
+        </div>
+        <div>
+          <i title="更改代码主题"></i>
+      <i title="复制代码"></i>
+        </div>
+      </div>
+      <pre code-type="xCode" outputclass="nohighlight"><code>"hiddenconfig": {
+  "name": "值",
+  "type" : "hidden",
+  "default": 22
+}</code></pre>
+    </div>
+    </section></div></main>
+</body>
+<script>
+  const elements = document.getElementsByTagName('*');
+
+for (let index = 0; index < elements.length; index++) {
+  const element = elements[index];
+  element.removeAttribute('id');
+
+  element.removeAttribute('class');
+
+  element.removeAttribute('data-tag');
+  element.removeAttribute('bordertype');
+  element.removeAttribute('colwidth');
+  element.removeAttribute('tablewidth');
+  element.removeAttribute('tablecolswidth');
+  element.removeAttribute('autofit');
+  element.removeAttribute('style');
+  element.removeAttribute('rowspan');
+  element.removeAttribute('colspan');
+  element.removeAttribute('data-spm-anchor-id');
+  element.removeAttribute('alt');
+  element.removeAttribute('placement');
+  element.removeAttribute('loading');
+  element.removeAttribute('href');
+  element.removeAttribute('colspan');
+  element.removeAttribute('colspan');
+  element.removeAttribute('colspan');
+}
+</script>
+</html>

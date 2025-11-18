@@ -1,0 +1,63 @@
+  底图层（v1.x版本）配置项详解-DataV数据可视化-阿里云
+
+底图层也叫地图瓦片层，是基础平面地图的子组件，支持独立的样式和数据配置，包括底图层的瓦片类型或地址、颜色、滤镜等，能够使用自定义的瓦片服务来设置基础平面地图的背景。本文介绍底图层各配置项的含义。
+
+**重要** 当前为v1.x版本的底图层子组件指导文档，如需查看该子组件v2.x版本的文档内容详情，请参见[底图层（v2.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/basemap-layer#concept-2401079)。
+
+单击**子组件管理**下方的**底图层**，进入配置面板配置**底图层**的样式和数据。
+
+**说明** 如果**子组件管理**中没有**底图层**，说明您还未添加**底图层**子组件，请参见[地图容器（v1.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-container-2#concept-z4z-2f5-q2b)进行添加。
+
+## 配置
+
+![底图层配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1658068951/p8534.png)
+
+-   **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+    
+-   **蒙版颜色**：底图层的蒙版颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+-   **透明度**：底图层的透明度，范围为0~1。
+-   **瓦片**：瓦片服务类型，也可以直接输入瓦片地址，按**Enter**键确定。DataV支持接入的地图瓦片服务包含以下几种。![底图层瓦片配置v1.x](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1658068951/p84828.jpg)
+    
+    **高德地图**
+    
+    -   高德电子地图：`http://webst02.is.autonavi.com/appmaptile?style=7&x={x}&y={y}&z={z}`
+    -   高德卫星图：`http://webst02.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}`
+    -   高德卫星图（路网、注记）：`http://webst02.is.autonavi.com/appmaptile?style=8&x={x}&y={y}&z={z}`
+    
+    **说明** 冒号后面为瓦片地址，当下拉列表中没有瓦片时，可以输入瓦片地址获得瓦片服务。
+    
+-   **自动刷新**：打开开关，系统会按照您设置的间隔时间，自动刷新瓦片数据。
+    
+    **说明** 当您使用的瓦片服务为高德热力或高德实时路况时，需开启此选项，用来自动刷新获取最新的瓦片数据。
+    
+    **刷新间隔**：瓦片自动刷新的时间间隔，单位为分钟。
+    
+-   **滤镜**：打开开关，可以为底图层添加滤镜效果，并通过**滤镜选项**设置滤镜的**亮度**、**对比度**、**灰度**、**色相**、**反转**、**饱和度**和**墨度**。
+
+## 数据
+
+此组件不需要配置数据。
+
+## 交互
+
+此组件没有交互事件。
+
+## 蓝图编辑器交互配置
+
+1.  在画布编辑器页面，单击**基础平面地图**子组件管理列表中**底图层**右侧的![导出到蓝图编辑器](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2434449951/p89089.jpg)图标。
+2.  单击页面左上角的![蓝图图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2434449951/p89087.jpg)图标。
+3.  在蓝图编辑器配置页面，单击导入节点栏内的**底图层**组件，在画布中可以看到如下图所示的底图层的蓝图编辑器配置参数。![底图层蓝图编辑器参数](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1658068951/p69512.png)
+    -   **事件**：无。
+    -   **动作**
+        
+        **动作**
+        
+        **说明**
+        
+        **显示**
+        
+        显示组件，不需要参数。
+        
+        **隐藏**
+        
+        隐藏组件，不需要参数。

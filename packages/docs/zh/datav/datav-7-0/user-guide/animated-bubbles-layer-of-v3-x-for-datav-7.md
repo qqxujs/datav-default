@@ -1,0 +1,308 @@
+ 
+
+本文介绍呼吸气泡层各配置项的含义。
+
+## **图表样式**
+
+呼吸气泡层是3D平面地图（v3.x版本）的子组件，支持独立的样式、数据和交互配置，包括呼吸气泡的形状、半径、颜色以及发光效果等，能够以呼吸气泡的形式表现地理位置上的点数据信息。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6357931961/p703290.png)
+
+## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6357931961/p703292.png)
+
+-   **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+    
+-   **通用**：设置呼吸气泡层的通用配置项。
+    
+    **参数**
+    
+    **说明**
+    
+    **不透明度**
+    
+    设置呼吸气泡层的不透明度值，取值范围为0~100，单位%，数值越大图层越不透明。
+    
+-   **图形**：设置呼吸气泡层的图形配置项，包括气泡的形状样式、半径大小样式、气泡的颜色样式和发光效果。
+    
+    **参数**
+    
+    **说明**
+    
+    **气泡形状**
+    
+    设置气泡的形状样式，您可以单击![上传](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7179810661/p476807.jpg)，上传本地图片自定义设置气泡形状。请参见[形状映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/shape-mapper-instructions)，配置不同气泡的映射形状样式。
+    
+    **气泡半径**
+    
+    设置呼吸气泡的半径大小值，请参见[尺寸映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/dimension-mapper-instructions)，配置不同气泡的映射半径大小。
+    
+    **气泡颜色**
+    
+    设置气泡的颜色样式，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同气泡的映射颜色样式。
+    
+    **发光效果**
+    
+    拖动滑块设置气泡的发光效果，取值范围为0~100。单击**发光效果**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**发光效果**的显隐。
+    
+-   **动效**：设置呼吸气泡的动画效果、缩放比例和变化速率。
+    
+    **参数**
+    
+    **说明**
+    
+    **动画效果**
+    
+    设置呼吸气泡层的动画效果，包括**呼吸**和**渐显**两种。
+    
+    **缩放比例**
+    
+    设置呼吸气泡层的缩放比例值，取值范围为1~2。
+    
+    **变化速率**
+    
+    设置呼吸气泡层的动效变化速率，取值范围为0~2，数值越大，气泡动画播放速率越快。
+    
+-   **标签**：设置呼吸气泡层内标签的样式参数。
+    
+    **参数**
+    
+    **说明**
+    
+    **显示标签**
+    
+    打开开关，呼吸气泡层显示标签样式。
+    
+    **显示方式**
+    
+    设置呼吸气泡层的标签显示的方式，可选，包括**全显**和**点击**两种方式。
+    
+    **内容样式**
+    
+    设置呼吸气泡层的标签的内容样式。单击**每行样式**右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个每行内容样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个每行内容样式的排列方式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中内容样式配置内容并新增一个同样配置的每行内容。
+    
+    -   **行字段**：行内容的字段名称，需要和数据面板中的字段相匹配。
+        
+    -   **字段样式**：设置行字段样式，包括字段的字体样式、字号大小、颜色和粗细值。
+        
+    -   **字段前缀**：设置字段前缀的具体内容 、内容间隔值、字体、字号大小、颜色和粗细值。单击**字段前缀**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**字段前缀**样式的显隐。
+        
+    -   **字段后缀**：设置字段后缀的具体内容 、内容间隔值、字体、字号大小、颜色和粗细值。单击**字段后缀**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**字段后缀**样式的显隐。
+        
+    -   **字段宽度**：标签的显示字段的宽度样式，包括字段的适应类型方式，可选**自适应**或**固定宽度**，并根据适应类型设置字段宽度的值，单位px。
+        
+    -   **行高比例**：标签的行高比例值，取值范围为1~2。
+        
+    -   **内容描边**：标签的内容描边样式，包括设置描边的颜色和描边粗细值，单击**内容描边**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**内容描边**的显隐。
+        
+    -   **内容阴影**：标签的内容阴影样式，包括设置阴影的颜色、阴影模糊值和阴影偏移度在x和y方向上的值，单击**内容阴影**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**内容阴影**的显隐。
+        
+    
+    **背景样式**
+    
+    设置呼吸气泡层内标签的背景样式参数，单击**背景样式**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**背景样式**的显隐。
+    
+    -   **背景类型**：标签背景的类型，可选**矢量**和**图片**。
+        
+    -   **背景颜色**：设置标签的背景颜色，仅在**背景类型**选择**矢量**时可配置。
+        
+    -   **边框样式**：设置标签边框的样式，包括边框的线类型，线宽的值和颜色。仅在**背景类型**选择**矢量**时可配置。
+        
+    -   **边框圆角**：设置标签边框的圆角在四个方向的值，单位px。仅在**背景类型**选择**矢量**时可配置。
+        
+    -   **图片模板**：选择背景图片的模板样式，仅在**图片模板**选择**图片**时可配置。
+        
+    -   **不透明度**：设置背景图片的不透明度值，取值范围为0~100，仅在**图片模板**选择**图片**时可配置。
+        
+    -   **内容边距**：设置标签中的内容距离上下左右四个方向的边距值。
+        
+    
+-   **交互**：呼吸气泡层的交互配置项。
+    
+    -   **图形交互**：单击**图形交互**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**图形交互**的显隐。
+        
+        **参数**
+        
+        **说明**
+        
+        **支持多选**
+        
+        打开开关，支持多选交互效果；关闭开关，不支持多选交互效果。
+        
+    -   **点击样式**：单击**点击样式**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**点击样式**的显隐。
+        
+        **参数**
+        
+        **说明**
+        
+        **气泡颜色**
+        
+        设置单击气泡时的颜色。
+        
+-   **条件**：条件样式说明。
+    
+    **条件样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体样式配置说明，请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
+    
+    **图形**：打开开关，配置该条件样式中的图形配置项；关闭开关，无法配置该条件样式下的图形配置项。
+    
+    **参数**
+    
+    **说明**
+    
+    **气泡形状**
+    
+    单击**气泡形状**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制该条件下的气泡形状样式的显隐。
+    
+    **气泡半径**
+    
+    单击**气泡半径**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制该条件下的气泡半径大小样式的显隐。
+    
+    **气泡颜色**
+    
+    单击**气泡颜色**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制该条件下的气泡颜色样式显隐。
+    
+
+## 数据源面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6357931961/p703293.png)
+
+**字段**
+
+**说明**
+
+`id`
+
+气泡的ID标识码。
+
+`lng`
+
+气泡的经度。
+
+`lat`
+
+气泡的纬度。
+
+`name`
+
+（可选）气泡的名称。
+
+`value`
+
+（可选）气泡的值。
+
+`markerField`
+
+（可选）气泡的形状映射字段。
+
+`radiusField`
+
+（可选）气泡的半径大小映射字段。
+
+`colorField`
+
+（可选）气泡的颜色映射字段。
+
+**数据项配置**
+
+**说明**
+
+**数据源**
+
+组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。
+
+**数据映射**
+
+当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。
+
+**过滤器**
+
+打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。
+
+**数据响应结果**
+
+实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。
+
+**禁止加载态**
+
+勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。
+
+**受控模式**
+
+勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。
+
+**自动更新请求**
+
+勾选复选框，可以手动输入轮询的时间频次设置动态轮询。清除后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和全局变量事件来触发请求更新数据。
+
+## 高级面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6357931961/p703294.png)
+
+**交互**
+
+**说明**
+
+**当点击点时**
+
+打开开关，开启组件交互功能。当单击选中某个数据项时抛出临时变量，默认抛出数据中的`id`、`lng`和`lat`等字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+
+## 蓝图交互
+
+1.  单击页面左上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7498599661/p528973.png)图标，进入**蓝图**页面。
+    
+2.  在**图层节点**页签下，添加当前组件至主画布中。
+    
+3.  查看蓝图配置参数。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7349421071/p742838.png)
+    
+    -   **事件**
+        
+        **事件**
+        
+        **说明**
+        
+        **当数据接口请求完成时**
+        
+        数据接口请求返回并经过过滤器处理后抛出的事件，同时抛出处理后的JSON格式的数据。具体数据示例请参见画布编辑器中组件右侧配置面板**数据源**页签的**数据响应结果**区域。
+        
+        **当点击点时**
+        
+        当单击呼吸气泡层上的点时抛出的事件，同时抛出该区域对应的数据项。
+        
+    -   **动作**
+        
+        **动作**
+        
+        **说明**
+        
+        **请求数据接口**
+        
+        重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如呼吸气泡层配置了API数据源为`https://api.test`，传到**请求数据接口**动作的数据为`{ id: '1'}`，则最终请求接口为`https://api.test?id=1`。
+        
+        **导入数据接口**
+        
+        按组件绘制格式处理数据后，导入组件，重新绘制。不需要重新请求服务端数据。具体数据示例请参见画布编辑器中组件右侧配置面板**数据源**页签的**数据响应结果**区域。
+        
+        **切换显隐**
+        
+        切换组件显示或者隐藏，不需要参数。
+        
+        **显示**
+        
+        显示组件，参考数据示例。
+        
+        ```
+        {
+          "animationType": "",//动画方式，可选值：fade，不填无动画。
+          "animationDuration": 1000,//动画延迟，单位ms。
+          "animationEasing": ""//动画曲线
+        }
+        ```
+        
+        **隐藏**
+        
+        隐藏组件，参考数据示例。
+        
+        ```
+        {
+          "animationType": "",//动画方式，可选值：fade，不填无动画。
+          "animationDuration": 1000,//动画延迟，单位ms。
+          "animationEasing": ""//动画曲线
+        }
+        ```
+        
+        **更新组件配置**
+        
+        动态更新组件的样式配置。需要先在组件的**样式**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。

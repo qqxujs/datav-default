@@ -38,14 +38,6 @@ export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             text: 'Discussions',
             link: 'https://github.com/vuejs/pinia/discussions',
           },
-          {
-            text: 'Changelog',
-            link: 'https://github.com/vuejs/pinia/blob/v3/packages/pinia/CHANGELOG.md',
-          },
-          {
-            text: 'Vue.js Certification',
-            link: 'https://certificates.dev/vuejs/?friend=VUEROUTER&utm_source=pinia_vuejs&utm_medium=link&utm_campaign=pinia_vuejs_links&utm_content=navbar',
-          },
         ],
       },
       {

@@ -1,0 +1,108 @@
+ 
+
+本文介绍边框各配置项的含义。
+
+## **图表样式**
+
+边框是媒体组件的一种，支持自定义选择边框的类型，支持为数据看板或数据看板的某个模块添加自定义的边框，能够使数据看板展示更加美观。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8639612961/p706737.png)
+
+## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7639612961/p706740.png)
+
+-   **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+    
+-   -   **尺寸**：包括组件的宽度和高度，单位为px。
+        
+    -   **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
+        
+    -   **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。
+        
+        -   手动输入角度值，控制组件的旋转角度。
+            
+        -   单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8222919661/p521797.png)图标，控制组件左右翻转样式。
+            
+        -   单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8222919661/p521798.png)图标，控制组件上下翻转样式。
+            
+    -   **不透明度**：取值范围为0~1。为**0**时，图表隐藏；为**1**时，图表全部显示。默认为**1**。
+        
+-   **框**：边框的样式，系统提供18种样式供您选择。并在下拉框中展示边框样式的缩略图。
+    
+
+## 数据源面板
+
+此组件不需要配置数据。
+
+## 高级面板
+
+此组件没有交互事件。
+
+## 蓝图交互
+
+1.  单击页面左上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7498599661/p528973.png)图标，进入**蓝图**页面。
+    
+2.  在**图层节点**页签下，添加当前组件至主画布中。
+    
+3.  查看蓝图配置参数。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7694153761/p549651.png)
+    
+    -   **事件**：无。
+        
+    -   **动作**
+        
+        **动作**
+        
+        **说明**
+        
+        **移动**
+        
+        将组件移动到指定位置，参考数据示例。
+        
+        ```
+            {
+              // 移动方式。绝对定位：to，相对定位：by。默认值：to。
+                "positionType": "to",
+              // 指定位置。x坐标，y坐标。
+              "attr": {
+                "x": 0,
+                "y": 0
+              },
+              // 动画方式。
+              "animation": {
+                "enable": false,
+                // 动画延时。
+                "animationDuration": 1000,
+                // 动画曲线。可选值为：linear|easeInOutQuad|easeInOutExpo。
+                "animationEasing": "linear"
+              }
+            }
+        ```
+        
+        **切换显隐**
+        
+        切换组件显示或者隐藏，不需要参数。
+        
+        **显示**
+        
+        显示组件，参考数据示例。
+        
+        ```
+        {
+          "animationType": "",//动画方式，可选值：fade，不填无动画。
+          "animationDuration": 1000,//动画延迟，单位ms。
+          "animationEasing": ""//动画曲线
+        }
+        ```
+        
+        **隐藏**
+        
+        隐藏组件，参考数据示例。
+        
+        ```
+        {
+          "animationType": "",//动画方式，可选值：fade，不填无动画。
+          "animationDuration": 1000,//动画延迟，单位ms。
+          "animationEasing": ""//动画曲线
+        }
+        ```
+        
+        **更新组件配置**
+        
+        动态更新组件的样式配置。需要先在组件的**样式**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。

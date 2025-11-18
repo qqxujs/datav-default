@@ -94,30 +94,38 @@ function F(e) {
   return d(e.default - 0) ? e.default : 0;
 }
 function L(e) {
-  const t = e.components || [f.flat], u = e.default;
+  const t = e.components || [
+    f.flat
+  ], u = e.default;
   if (t.length == 1) {
     if (t[0] == f.flat)
       return u || "#000";
     if (t[0] == f.linearGradient && l(u))
-      return ee({
-        angle: 0,
-        stops: [
-          {
-            offset: 0,
-            color: "#000"
-          },
-          {
-            offset: 1,
-            color: "#000"
-          }
-        ]
-      }, u);
+      return ee(
+        {
+          angle: 0,
+          stops: [
+            {
+              offset: 0,
+              color: "#000"
+            },
+            {
+              offset: 1,
+              color: "#000"
+            }
+          ]
+        },
+        u
+      );
     if (t[0] == f.image && l(u))
-      return ee({
-        fillType: "stretch",
-        url: "https://img.alicdn.com/tfs/TB19njRJ7zoK1RjSZFlXXai4VXa-16-16.png",
-        tileSize: 100
-      }, u);
+      return ee(
+        {
+          fillType: "stretch",
+          url: "https://img.alicdn.com/tfs/TB19njRJ7zoK1RjSZFlXXai4VXa-16-16.png",
+          tileSize: 100
+        },
+        u
+      );
   } else
     return u && u.type && u.value ? u : t.indexOf(f.flat) > -1 ? {
       type: "flat",
@@ -215,37 +223,68 @@ function S(e) {
   return t;
 }
 function se(e) {
-  if (e.type === r.boolean) return V(e);
-  if (e.type === r.keyBoard) return P(e);
-  if (e.type === r.number) return G(e);
-  if (e.type === r.percent) return A(e);
-  if (e.type === r.text) return B(e);
-  if (e.type === r.buttonRadio) return x(e);
-  if (e.type === r.checkbox) return $(e);
-  if (e.type === r.iconRadio) return I(e);
-  if (e.type === r.imageSelect) return H(e);
-  if (e.type === r.menu) return c(e);
-  if (e.type === r.radio) return y(e);
-  if (e.type === r.search) return O(e);
-  if (e.type === r.select) return X(e);
-  if (e.type === r.switch) return E(e);
-  if (e.type === r.timePicker) return K(e);
-  if (e.type === r.datePicker) return z(e);
-  if (e.type === r.line) return Y(e);
-  if (e.type === r.slider) return j(e);
-  if (e.type === r.stepper) return F(e);
-  if (e.type === r.color) return N(e);
-  if (e.type === r.fill) return L(e);
-  if (e.type === r.font) return M(e);
-  if (e.type === r.image) return W(e);
-  if (e.type === r.multicolor) return J(e);
-  if (e.type === r.tabs) return U(e);
-  if (e.type === r.array) return R(e);
-  if (e.type === r.group) return Z(e);
-  if (e.type === r.margin) return q(e);
-  if (e.type === r.padding) return Q(e);
-  if (e.type === r.suite) return o(e);
-  if (e.type === r.hidden) return _(e);
+  if (e.type === r.boolean)
+    return V(e);
+  if (e.type === r.keyBoard)
+    return P(e);
+  if (e.type === r.number)
+    return G(e);
+  if (e.type === r.percent)
+    return A(e);
+  if (e.type === r.text)
+    return B(e);
+  if (e.type === r.buttonRadio)
+    return x(e);
+  if (e.type === r.checkbox)
+    return $(e);
+  if (e.type === r.iconRadio)
+    return I(e);
+  if (e.type === r.imageSelect)
+    return H(e);
+  if (e.type === r.menu)
+    return c(e);
+  if (e.type === r.radio)
+    return y(e);
+  if (e.type === r.search)
+    return O(e);
+  if (e.type === r.select)
+    return X(e);
+  if (e.type === r.switch)
+    return E(e);
+  if (e.type === r.timePicker)
+    return K(e);
+  if (e.type === r.datePicker)
+    return z(e);
+  if (e.type === r.line)
+    return Y(e);
+  if (e.type === r.slider)
+    return j(e);
+  if (e.type === r.stepper)
+    return F(e);
+  if (e.type === r.color)
+    return N(e);
+  if (e.type === r.fill)
+    return L(e);
+  if (e.type === r.font)
+    return M(e);
+  if (e.type === r.image)
+    return W(e);
+  if (e.type === r.multicolor)
+    return J(e);
+  if (e.type === r.tabs)
+    return U(e);
+  if (e.type === r.array)
+    return R(e);
+  if (e.type === r.group)
+    return Z(e);
+  if (e.type === r.margin)
+    return q(e);
+  if (e.type === r.padding)
+    return Q(e);
+  if (e.type === r.suite)
+    return o(e);
+  if (e.type === r.hidden)
+    return _(e);
   if (!e.type) return C(e);
   console.log("Type not found:", e.type);
 }
@@ -266,37 +305,68 @@ function te(e) {
 }
 const he = te;
 function re(e) {
-  if (e.type === r.boolean) return V(e);
-  if (e.type === r.keyBoard) return P(e);
-  if (e.type === r.number) return G(e);
-  if (e.type === r.percent) return A(e);
-  if (e.type === r.text) return B(e);
-  if (e.type === r.buttonRadio) return x(e);
-  if (e.type === r.checkbox) return $(e);
-  if (e.type === r.iconRadio) return I(e);
-  if (e.type === r.imageSelect) return H(e);
-  if (e.type === r.menu) return c(e);
-  if (e.type === r.radio) return y(e);
-  if (e.type === r.search) return O(e);
-  if (e.type === r.select) return X(e);
-  if (e.type === r.switch) return E(e);
-  if (e.type === r.timePicker) return K(e);
-  if (e.type === r.datePicker) return z(e);
-  if (e.type === r.line) return Y(e);
-  if (e.type === r.slider) return j(e);
-  if (e.type === r.stepper) return F(e);
-  if (e.type === r.color) return N(e);
-  if (e.type === r.fill) return L(e);
-  if (e.type === r.font) return M(e);
-  if (e.type === r.image) return W(e);
-  if (e.type === r.multicolor) return J(e);
-  if (e.type === r.tabs) return U(e);
-  if (e.type === r.array) return R(e);
-  if (e.type === r.group) return Z(e);
-  if (e.type === r.margin) return q(e);
-  if (e.type === r.padding) return Q(e);
-  if (e.type === r.suite) return o(e);
-  if (e.type === r.hidden) return _(e);
+  if (e.type === r.boolean)
+    return V(e);
+  if (e.type === r.keyBoard)
+    return P(e);
+  if (e.type === r.number)
+    return G(e);
+  if (e.type === r.percent)
+    return A(e);
+  if (e.type === r.text)
+    return B(e);
+  if (e.type === r.buttonRadio)
+    return x(e);
+  if (e.type === r.checkbox)
+    return $(e);
+  if (e.type === r.iconRadio)
+    return I(e);
+  if (e.type === r.imageSelect)
+    return H(e);
+  if (e.type === r.menu)
+    return c(e);
+  if (e.type === r.radio)
+    return y(e);
+  if (e.type === r.search)
+    return O(e);
+  if (e.type === r.select)
+    return X(e);
+  if (e.type === r.switch)
+    return E(e);
+  if (e.type === r.timePicker)
+    return K(e);
+  if (e.type === r.datePicker)
+    return z(e);
+  if (e.type === r.line)
+    return Y(e);
+  if (e.type === r.slider)
+    return j(e);
+  if (e.type === r.stepper)
+    return F(e);
+  if (e.type === r.color)
+    return N(e);
+  if (e.type === r.fill)
+    return L(e);
+  if (e.type === r.font)
+    return M(e);
+  if (e.type === r.image)
+    return W(e);
+  if (e.type === r.multicolor)
+    return J(e);
+  if (e.type === r.tabs)
+    return U(e);
+  if (e.type === r.array)
+    return R(e);
+  if (e.type === r.group)
+    return Z(e);
+  if (e.type === r.margin)
+    return q(e);
+  if (e.type === r.padding)
+    return Q(e);
+  if (e.type === r.suite)
+    return o(e);
+  if (e.type === r.hidden)
+    return _(e);
   if (!e.type) return C(e);
   console.log("Type not found:", e.type);
 }

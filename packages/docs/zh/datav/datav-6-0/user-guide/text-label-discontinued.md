@@ -8,29 +8,29 @@
 
 文字标签配置面板参数说明。 
 
-| 参数    | 说明                                                                                                                                                               |
-| ---- | ---- |
-| 显示大小  | 拖动滑块修改数据来设置文字标签的显示大小，取值范围在0.01\~1000之间。                                                                                                                          |
-| 间距    | 拖动滑块修改数据来设置标签内文字距离标签框的左右上下距离值、文本之间的距离值和标签内图标与文字之间的距离值。                                                                                                           |
-| 背景    | 设置文字标签的背景颜色、背景边框的宽度和颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改颜色。                  |
-| 标题文本  | 设置标签的标题文本样式，包括文本字体样式、字号大小、字体颜色和字体粗细，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标题文本颜色。 |
-| 文本分割线 | 设置标题文本和内容文本直接的分割线的颜色和线宽度值，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线颜色。            |
-| 内容文本  | 设置标签的内容文本样式，包括文本字体样式、字号大小、字体颜色和字体粗细，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改内容文本颜色。 |
-| 图标    | 设置图标的宽度和高度值，通过宽度和高度值控制图标的大小。                                                                                                                                     |
+|    参数    |    说明    |
+|    ----    |    ----    |
+|    显示大小    |    拖动滑块修改数据来设置文字标签的显示大小，取值范围在0.01\~1000之间。    |
+|    间距    |    拖动滑块修改数据来设置标签内文字距离标签框的左右上下距离值、文本之间的距离值和标签内图标与文字之间的距离值。    |
+|    背景    |    设置文字标签的背景颜色、背景边框的宽度和颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改颜色。    |
+|    标题文本    |    设置标签的标题文本样式，包括文本字体样式、字号大小、字体颜色和字体粗细，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标题文本颜色。    |
+|    文本分割线    |    设置标题文本和内容文本直接的分割线的颜色和线宽度值，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线颜色。    |
+|    内容文本    |    设置标签的内容文本样式，包括文本字体样式、字号大小、字体颜色和字体粗细，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改内容文本颜色。    |
+|    图标    |    设置图标的宽度和高度值，通过宽度和高度值控制图标的大小。    |
 
 ## 数据
 
 ![文字标签数据面板](http://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5718068951/p85608.png) 
 
 __表 1\. 字段说明__
-| 字段      | 说明                                                |
-| ---- | ---- |
-| x       | 文字标签中心点所处的经度。                                     |
-| y       | 文字标签中心点所处的纬度。                                     |
-| z       | 文字标签中心点距离地表面的高度值。                                 |
-| title   | 文字标签标题的文字具体内容。                                    |
-| content | 文字标签正文内显示的文字具体内容。                                 |
-| iconUrl | （可选）文字标签内图标的URL路径。 **说明** 图标仅支持使用.png或者.jpg样式的图片。 |
+|    字段    |    说明    |
+|    ----    |    ----    |
+|    x    |    文字标签中心点所处的经度。    |
+|    y    |    文字标签中心点所处的纬度。    |
+|    z    |    文字标签中心点距离地表面的高度值。    |
+|    title    |    文字标签标题的文字具体内容。    |
+|    content    |    文字标签正文内显示的文字具体内容。    |
+|    iconUrl    |    （可选）文字标签内图标的URL路径。 **说明** 图标仅支持使用.png或者.jpg样式的图片。    |
 
 ## 交互
 
@@ -45,9 +45,9 @@ __表 1\. 字段说明__
   当数据接口请求完成时：数据接口请求返回并经过过滤器处理后抛出的事件，同时抛出处理后的JSON格式的数据。具体数据请参见上文的[数据示例](#section-emm-elk-oxi)。
   * 动作  
 
-| 动作     | 说明                                                                                                                       |
-| ---- | ---- |
-| 请求数据接口 | 重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如文字标签配置了API数据源为http://api.test，传到请求数据接口动作的数据为{ id: '1'}，则最终请求接口为http://api.test?id=1。 |
-| 导入数据接口 | 按组件绘制格式处理数据后，导入组件，重新绘制。不需要重新请求服务端数据。具体数据请参见上文的[数据示例](#section-emm-elk-oxi)。                                              |
-| 显示组件   | 显示组件，不需要参数。                                                                                                              |
-| 隐藏组件   | 隐藏组件，不需要参数。                                                                                                              |
+|    动作    |    说明    |
+|    ----    |    ----    |
+|    请求数据接口    |    重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如文字标签配置了API数据源为http://api.test，传到请求数据接口动作的数据为{ id: '1'}，则最终请求接口为http://api.test?id=1。    |
+|    导入数据接口    |    按组件绘制格式处理数据后，导入组件，重新绘制。不需要重新请求服务端数据。具体数据请参见上文的[数据示例](#section-emm-elk-oxi)。    |
+|    显示组件    |    显示组件，不需要参数。    |
+|    隐藏组件    |    隐藏组件，不需要参数。    |

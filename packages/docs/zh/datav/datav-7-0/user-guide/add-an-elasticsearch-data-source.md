@@ -57,12 +57,12 @@
   如果您需要删除AliyunServiceRoleForDataVDataSourceES（服务关联角色），请参见[删除服务关联角色](https://help.aliyun.com/zh/ram/user-guide/service-linked-roles#concept-2448621/section-b9f-8dv-b5q)。  
   更多关于服务关联角色的信息，请参见[服务关联角色](https://help.aliyun.com/zh/ram/user-guide/service-linked-roles#concept-2448621)。
 
-| **参数**       | **说明**                                                                                                                                                                                                                                                                                                  |
-| ---- | ---- |
-| **自定义数据源名称** | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                                                                                                        |
-| **Region**   | Elastic Search实例的地域（默认选择**华东1区**）。                                                                                                                                                                                                                                                                      |
-| **实例ID**     | 用于查询可用的Elastic Search实例ID。单击**获取实例列表**即可获取到Elastic Search的实例列表并进行查询，单击右侧下拉框选择列表中某一实例（或直接输入数据库名称选择已有实例）。 当单击**获取实例列表**时会自动创建角色访问权限，授权允许DataV使用此角色访问Elastic Search。 请参见[查看实例的基本信息](https://help.aliyun.com/zh/es/user-guide/view-the-basic-information-of-a-cluster-1#task-2449896)获取Elastic Search实例的ID。 |
-| **密码**       | 所选Elastic Search实例在被创建时设置的密码，不同实例的密码不同。                                                                                                                                                                                                                                                                 |  
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **自定义数据源名称**    |    数据源的显示名称，可以自由命名。    |
+|    **Region**    |    Elastic Search实例的地域（默认选择**华东1区**）。    |
+|    **实例ID**    |    用于查询可用的Elastic Search实例ID。单击**获取实例列表**即可获取到Elastic Search的实例列表并进行查询，单击右侧下拉框选择列表中某一实例（或直接输入数据库名称选择已有实例）。 当单击**获取实例列表**时会自动创建角色访问权限，授权允许DataV使用此角色访问Elastic Search。 请参见[查看实例的基本信息](https://help.aliyun.com/zh/es/user-guide/view-the-basic-information-of-a-cluster-1#task-2449896)获取Elastic Search实例的ID。    |
+|    **密码**    |    所选Elastic Search实例在被创建时设置的密码，不同实例的密码不同。    |    
 配置成功后，系统会自动进行测试连接。
 5. 信息填写完成后，单击**确定**，完成数据源的添加。  
 新添加的数据源会自动显示在数据源列表中。

@@ -27,16 +27,16 @@
     1. 打开**VPC**开关，进入**专有网络**模式。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9593458861/p690291.png)
     2. 填写数据库信息。  
 
-| **参数**    | **说明**                                                                                                                               |
-| ---- | ---- |
-| VPC ID    | Hologres实例绑定的指定VPC的VPC ID。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的指定VPC的**使用场景**列获取VPC ID。 |
-| VPC 实例 ID | Hologres实例绑定指定VPC后生成的ID。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的指定VPC的**使用场景**列获取VPC实例ID。  |
-| 名称        | 数据源的显示名称，可以自由命名。                                                                                                                     |
-| 域名        | Hologres实例的域名。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的指定VPC的**域名**列获取域名。                   |
-| 用户名       | 登录实时数仓Hologres实例账号的AccessKey ID。                                                                                                     |
-| 密码        | 登录实时数仓Hologres实例账号的AccessKey Secret。                                                                                                 |
-| 端口        | Hologres实例的指定VPC网络端口。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的指定VPC的**域名**列获取指定VPC的域名的端口。   |
-| 数据库       | 当前所选数据库的名称。                                                                                                                          |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    VPC ID    |    Hologres实例绑定的指定VPC的VPC ID。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的指定VPC的**使用场景**列获取VPC ID。    |
+|    VPC 实例 ID    |    Hologres实例绑定指定VPC后生成的ID。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的指定VPC的**使用场景**列获取VPC实例ID。    |
+|    名称    |    数据源的显示名称，可以自由命名。    |
+|    域名    |    Hologres实例的域名。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的指定VPC的**域名**列获取域名。    |
+|    用户名    |    登录实时数仓Hologres实例账号的AccessKey ID。    |
+|    密码    |    登录实时数仓Hologres实例账号的AccessKey Secret。    |
+|    端口    |    Hologres实例的指定VPC网络端口。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的指定VPC的**域名**列获取指定VPC的域名的端口。    |
+|    数据库    |    当前所选数据库的名称。    |
     3. 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能连通正常。
 
 **重要**  
@@ -46,14 +46,14 @@
     1. 关闭**VPC**开关，进入**经典网络**模式。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9593458861/p690297.png)
     2. 填写数据库信息。
 
-| **参数** | **说明**                                                                                                                  |
-| ---- | ---- |
-| 名称     | 数据源的显示名称，可以自由命名。                                                                                                        |
-| 域名     | Hologres实例的域名。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的经典网络域名中获取域名。            |
-| 用户名    | 登录实时数仓Hologres实例账号的AccessKey ID。                                                                                        |
-| 密码     | 登录实时数仓Hologres实例账号的AccessKey Secret。                                                                                    |
-| 端口     | Hologres实例的经典网络端口。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的经典网络域名中获取经典网络域名的端口。 |
-| 数据库    | 当前所选数据库的名称。                                                                                                             |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    名称    |    数据源的显示名称，可以自由命名。    |
+|    域名    |    Hologres实例的域名。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的经典网络域名中获取域名。    |
+|    用户名    |    登录实时数仓Hologres实例账号的AccessKey ID。    |
+|    密码    |    登录实时数仓Hologres实例账号的AccessKey Secret。    |
+|    端口    |    Hologres实例的经典网络端口。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的经典网络域名中获取经典网络域名的端口。    |
+|    数据库    |    当前所选数据库的名称。    |
     3. 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能连通正常。
 
 **重要**  
@@ -69,14 +69,14 @@
 4. 在列表中选择**外网**。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9593458861/p690300.png)
 5. 填写数据库信息。
 
-| **参数** | **说明**                                                                                                              |
-| ---- | ---- |
-| 名称     | 数据源的显示名称，可以自由命名。                                                                                                    |
-| 域名     | Hologres实例的域名。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的公网域名中获取域名。          |
-| 用户名    | 登录实时数仓Hologres实例账号的AccessKey ID。                                                                                    |
-| 密码     | 登录实时数仓Hologres实例账号的AccessKey Secret。                                                                                |
-| 端口     | Hologres实例的公网网络端口。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的公网域名中获取公网域名的端口。 |
-| 数据库    | 当前所选数据库的名称。                                                                                                         |  
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    名称    |    数据源的显示名称，可以自由命名。    |
+|    域名    |    Hologres实例的域名。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的公网域名中获取域名。    |
+|    用户名    |    登录实时数仓Hologres实例账号的AccessKey ID。    |
+|    密码    |    登录实时数仓Hologres实例账号的AccessKey Secret。    |
+|    端口    |    Hologres实例的公网网络端口。进入[Hologres管理控制台](https://hologram.console.aliyun.com/#/instance)的实例详情页，从**网络信息**的公网域名中获取公网域名的端口。    |
+|    数据库    |    当前所选数据库的名称。    |    
 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能连通正常。
 6. 测试连接通过后，单击**确定**，完成数据源添加。  
 新添加的数据源会自动列在数据源列表中。

@@ -4,11 +4,11 @@
 
 空间档案页面包括三大模块，分别是**建筑信息**、**地标建筑**和**精模建筑**。
 
-| **模块**   | **说明**                                                                                                                                      |
-| ---- | ---- |
-| **建筑信息** | 建筑信息模块用于查看建筑实体的基本属性信息，详情请参见[建筑信息](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/building-information-for-datav-6#concept-2043236)。  |
-| **地标建筑** | 地标建筑模块用于查看不同地方的标志性建筑和精模信息，详情请参见[地标建筑](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/landmark-building-for-datav-6#concept-2043237)。 |
-| **精模建筑** | 精模建筑模块用于查看通用精细建筑模型的信息和上传自定义模型内容，详情请参见[精模建筑](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/fine-mold-buildings#task-2077620)。        |
+|    **模块**    |    **说明**    |
+|    ----    |    ----    |
+|    **建筑信息**    |    建筑信息模块用于查看建筑实体的基本属性信息，详情请参见[建筑信息](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/building-information-for-datav-6#concept-2043236)。    |
+|    **地标建筑**    |    地标建筑模块用于查看不同地方的标志性建筑和精模信息，详情请参见[地标建筑](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/landmark-building-for-datav-6#concept-2043237)。    |
+|    **精模建筑**    |    精模建筑模块用于查看通用精细建筑模型的信息和上传自定义模型内容，详情请参见[精模建筑](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/fine-mold-buildings#task-2077620)。    |
 
 ## 筛选查看实体类型
 

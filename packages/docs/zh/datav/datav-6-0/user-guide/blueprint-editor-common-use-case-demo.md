@@ -112,14 +112,14 @@ return data[0].value - 40 >= 0 ? {
     data:[  
       {  
         name:"data_b",  //变量名可自定义，不重名即可  
-        value:data[0].value || 0  
+        value:data[0].value    ||    0  
       }  
     ]  
   };  
   ```  
   第二个处理方法示例代码如下：  
   ```  
-  let data_a = getLocalValue('data_a') || 0;  
+  let data_a = getLocalValue('data_a')    ||    0;  
   let res = data && data.length !== 0 ? data[0].value + data_a : data_a  
   return [{ value: res }];  
   ```
@@ -129,14 +129,14 @@ return data[0].value - 40 >= 0 ? {
     data:[  
       {  
         name:"data_a",  //变量名可自定义，不重名即可  
-        value:data[0].value || 0  
+        value:data[0].value    ||    0  
       }  
     ]  
   };  
   ```  
   第二个处理方法的示例代码：  
   ```  
-  let data_b = getLocalValue('data_b') || 0;  
+  let data_b = getLocalValue('data_b')    ||    0;  
   let res = data && data.length !== 0 ? data[0].value + data_b : data_b  
   return [{ value: res }];  
   ```

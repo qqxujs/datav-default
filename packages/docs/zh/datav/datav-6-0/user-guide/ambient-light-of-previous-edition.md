@@ -12,10 +12,10 @@
 * 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * 环境光层配置面板中的参数说明。
 
-| 参数   | 说明                                                                                                                             |
-| ---- | ---- |
-| 光照强度 | 拖动滑块设置环境光层的光照强度系数，取值范围为0\~10。                                                                                                  |
-| 光照颜色 | 环境光的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。 |
+|    参数    |    说明    |
+|    ----    |    ----    |
+|    光照强度    |    拖动滑块设置环境光层的光照强度系数，取值范围为0\~10。    |
+|    光照颜色    |    环境光的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
 
 ## 数据
 
@@ -29,7 +29,7 @@
   * 事件：无。
   * 动作
 
-| 动作   | 说明          |
-| ---- | ---- |
-| 显示组件 | 显示组件，不需要参数。 |
-| 隐藏组件 | 隐藏组件，不需要参数。 |
+|    动作    |    说明    |
+|    ----    |    ----    |
+|    显示组件    |    显示组件，不需要参数。    |
+|    隐藏组件    |    隐藏组件，不需要参数。    |

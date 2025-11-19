@@ -30,16 +30,16 @@
 **说明**  
   如果您需要新建数据库，请参见[创建数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/create-a-database-for-an-apsaradb-rds-for-mysql-instance#concept-cg3-ljq-wdb)。
 
-| **参数**        | **说明**                                                                                                                                                                                                                                             |
-| ---- | ---- |
-| **名称**        | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                                                   |
-| **VPC ID**    | VPC实例的ID，此VPC为您的RDS for MySQL实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在实例详情的数据库连接中获取。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854487.png)                                              |
-| **VPC 实例 ID** | VPC下数据库实例的ID，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854488.png)                                                                            |
-| **域名**        | 连接数据库的地址。 内网环境下的阿里云RDS for MySQL地址，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例详情数据库获取。**重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854493.png) |
-| **端口**        | 数据库设置的端口，默认为3306。                                                                                                                                                                                                                                  |
-| **用户名**       | 登录数据库的用户名。                                                                                                                                                                                                                                         |
-| **密码**        | 登录数据库的密码。                                                                                                                                                                                                                                          |
-| **数据库**       | 当前所选数据库的名称。                                                                                                                                                                                                                                        |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    数据源的显示名称，可以自由命名。    |
+|    **VPC ID**    |    VPC实例的ID，此VPC为您的RDS for MySQL实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在实例详情的数据库连接中获取。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854487.png)    |
+|    **VPC 实例 ID**    |    VPC下数据库实例的ID，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854488.png)    |
+|    **域名**    |    连接数据库的地址。 内网环境下的阿里云RDS for MySQL地址，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例详情数据库获取。**重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854493.png)    |
+|    **端口**    |    数据库设置的端口，默认为3306。    |
+|    **用户名**    |    登录数据库的用户名。    |
+|    **密码**    |    登录数据库的密码。    |
+|    **数据库**    |    当前所选数据库的名称。    |
   3. 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能正常连通。  
 ## 经典网络
 
@@ -49,14 +49,14 @@
 **说明**  
   如果您需要新建数据库，请参见[创建数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/create-a-database-for-an-apsaradb-rds-for-mysql-instance#concept-cg3-ljq-wdb)。
 
-| **参数**  | **说明**                                                                                                                                                                                                                                             |
-| ---- | ---- |
-| **名称**  | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                                                   |
-| **域名**  | 连接数据库的地址。 内网环境下的阿里云RDS for MySQL地址，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例详情数据库获取。**重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854493.png) |
-| **端口**  | 数据库设置的端口，默认为3306。                                                                                                                                                                                                                                  |
-| **用户名** | 登录数据库的用户名。                                                                                                                                                                                                                                         |
-| **密码**  | 登录数据库的密码。                                                                                                                                                                                                                                          |
-| **数据库** | 当前所选数据库的名称。                                                                                                                                                                                                                                        |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    数据源的显示名称，可以自由命名。    |
+|    **域名**    |    连接数据库的地址。 内网环境下的阿里云RDS for MySQL地址，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例详情数据库获取。**重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854493.png)    |
+|    **端口**    |    数据库设置的端口，默认为3306。    |
+|    **用户名**    |    登录数据库的用户名。    |
+|    **密码**    |    登录数据库的密码。    |
+|    **数据库**    |    当前所选数据库的名称。    |
   3. 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能连通正常。
 6. 测试连接通过后，单击**确定**，完成数据源添加。新添加的数据源会自动列在数据源列表中。
 
@@ -69,14 +69,14 @@
 如果需要设置外网地址，请参见[设置连接地址](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/configure-endpoints-1#concept-tv3-pq1-ydb)。
 5. 填写数据库信息。
 
-| **参数**  | **说明**                                                                                                                                                                                                                                                   |
-| ---- | ---- |
-| **名称**  | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                                                         |
-| **域名**  | 连接数据库的地址。 使用外网环境下的阿里云RDS for MySQL地址，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例详情数据库连接页面获取。**重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854500.png) |
-| **端口**  | 数据库设置的端口。                                                                                                                                                                                                                                                |
-| **用户名** | 登录数据库的用户名。                                                                                                                                                                                                                                               |
-| **密码**  | 登录数据库的密码。                                                                                                                                                                                                                                                |
-| **数据库** | 当前所选数据库的名称。                                                                                                                                                                                                                                              |  
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    数据源的显示名称，可以自由命名。    |
+|    **域名**    |    连接数据库的地址。 使用外网环境下的阿里云RDS for MySQL地址，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例详情数据库连接页面获取。**重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6536268271/p854500.png)    |
+|    **端口**    |    数据库设置的端口。    |
+|    **用户名**    |    登录数据库的用户名。    |
+|    **密码**    |    登录数据库的密码。    |
+|    **数据库**    |    当前所选数据库的名称。    |    
 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能连通正常。
 6. 测试连接通过后，单击**确定**，完成数据源添加。  
 新添加的数据源会自动列在数据源列表中。

@@ -24,13 +24,13 @@
 4. 填写**DataWorks数据服务**相关信息。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4414312761/p539763.png)
 
-| **参数**        | **说明**                                                          |
-| ---- | ---- |
-| **自定义数据源名称**  | 数据源的显示名称，可以自由命名。                                                |
-| **Region**    | DataWorks项目所在的地域。                                               |
-| **项目**        | DataWorks项目（工作空间）。                                              |
-| **AppKey**    | 拥有DataWorks数据服务中，某一项目访问权限的账号的AppKey，用于API调用（从DataWorks数据服务台获取）。 |
-| **AppSecret** | 拥有DataWorks数据服务中，某一项目访问权限的账号的AppSecret（从DataWorks数据服务台获取）。      |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **自定义数据源名称**    |    数据源的显示名称，可以自由命名。    |
+|    **Region**    |    DataWorks项目所在的地域。    |
+|    **项目**    |    DataWorks项目（工作空间）。    |
+|    **AppKey**    |    拥有DataWorks数据服务中，某一项目访问权限的账号的AppKey，用于API调用（从DataWorks数据服务台获取）。    |
+|    **AppSecret**    |    拥有DataWorks数据服务中，某一项目访问权限的账号的AppSecret（从DataWorks数据服务台获取）。    |
 
 **说明**  
 获取**AppKey**和**AppSecret**：在[DataWorks数据服务控制台](http://ds-cn-shanghai.data.aliyun.com)中，单击**服务管理API调用**，可获取您的**AppKey**和**AppSecret**。  

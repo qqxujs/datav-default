@@ -278,7 +278,7 @@ module.exports = Event.extend(function Base (container, config) {
   setColors: function () {  
     //比如  
     //var cfg = this.config;  
-    //cfg.color = cfg.theme.series[0] || cfg.color;  
+    //cfg.color = cfg.theme.series[0]    ||    cfg.color;  
   },  
   /**
    * 数据,设置和获取数据
@@ -300,9 +300,9 @@ module.exports = Event.extend(function Base (container, config) {
    */  
   mergeConfig: function (config) {  
     if (!config) { return this.config }  
-    this.config.theme = _.defaultsDeep(config.theme || {}, this.config.theme);  
+    this.config.theme = _.defaultsDeep(config.theme    ||    {}, this.config.theme);  
     this.setColors();  
-    this.config = _.defaultsDeep(config || {}, this.config);  
+    this.config = _.defaultsDeep(config    ||    {}, this.config);  
     return this.config;  
   },  
   /**
@@ -318,7 +318,7 @@ module.exports = Event.extend(function Base (container, config) {
     var cfg = this.config;  
     this.container.css({  
       'font-size': cfg.size + 'px',  
-      'color': cfg.color || '#fff'  
+      'color': cfg.color    ||    '#fff'  
     });  
   },  
   /**

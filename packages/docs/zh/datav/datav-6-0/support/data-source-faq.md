@@ -20,11 +20,11 @@
 
 ## 在使用数据源时，API、阿里云API网关和Open API这三种类型该如何选择？
 
-| 数据源类型    | 介绍                                                               | 在DataV中的应用场景                                                                                                                                                                                                                                                                                                                                                                              |
-| ---- | ---- | ---- |
-| API      | 通用的数据接口。                                                         | 如果您有直接可用的API，可使用DataV的API数据源连接。例如，已有站点提供的接口，或已购买的云服务搭建的接口等。具体使用操作请参见[添加API数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-an-api-data-source-1#task-2556009 "本文档介绍在DataV中添加API数据源的方法，以及相关参数配置说明。API指通用的数据接口，如果您已有可用的API接口，可在DataV中使用自己的API数据源连接。")。                                                                                                                        |
-| 阿里云API网关 | 阿里云的一款云产品，提供API托管服务。                                             | 如果您已有API中的逻辑在使用DataV的API数据源时不支持（例如计算签名等），可使用阿里云API网关托管您的API，DataV连接阿里云API网关数据源时可以间接调用您在API网关中托管的API，此时阿里云API网关相当于API的代理。具体使用操作请参见[添加阿里云API网关数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-an-api-gateway-data-source#task-2471948 "本文档介绍在DataV中添加阿里云API网关数据源的方法，以及相关参数配置说明。阿里云API网关即API托管服务，涵盖API发布、管理、运维、售卖的全生命周期管理。")。                                                 |
-| Open API | 阿里云提供的云产品开放接口的调用方式。使用Open API可以方便地调用各云产品提供的API接口，通常用于获取阿里云产品的信息。 | 如果您想获取阿里云产品的数据信息（例如ECS负载状况、SLS日志统计），在DataV中可以使用 Open API数据源。Open API仅支持调用阿里云产品提供的API。具体使用操作请参见[添加Open API数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-an-openapi-explorer-data-source#task-2471948 "本文为您介绍在DataV中添加Open API数据源的方法，以及相关参数配置说明。Open API是阿里云提供的云产品开放接口的调用方式，使用Open API可以方便地调用各云产品提供的API接口，轻松实现控制及查询等功能。在DataV中，最常见的场景是使用Open API调用其他的云产品的API，获取数据并展示出来。")。 |
+|    数据源类型    |    介绍    |    在DataV中的应用场景    |
+|    ----    |    ----    |    ----    |
+|    API    |    通用的数据接口。    |    如果您有直接可用的API，可使用DataV的API数据源连接。例如，已有站点提供的接口，或已购买的云服务搭建的接口等。具体使用操作请参见[添加API数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-an-api-data-source-1#task-2556009 "本文档介绍在DataV中添加API数据源的方法，以及相关参数配置说明。API指通用的数据接口，如果您已有可用的API接口，可在DataV中使用自己的API数据源连接。")。    |
+|    阿里云API网关    |    阿里云的一款云产品，提供API托管服务。    |    如果您已有API中的逻辑在使用DataV的API数据源时不支持（例如计算签名等），可使用阿里云API网关托管您的API，DataV连接阿里云API网关数据源时可以间接调用您在API网关中托管的API，此时阿里云API网关相当于API的代理。具体使用操作请参见[添加阿里云API网关数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-an-api-gateway-data-source#task-2471948 "本文档介绍在DataV中添加阿里云API网关数据源的方法，以及相关参数配置说明。阿里云API网关即API托管服务，涵盖API发布、管理、运维、售卖的全生命周期管理。")。    |
+|    Open API    |    阿里云提供的云产品开放接口的调用方式。使用Open API可以方便地调用各云产品提供的API接口，通常用于获取阿里云产品的信息。    |    如果您想获取阿里云产品的数据信息（例如ECS负载状况、SLS日志统计），在DataV中可以使用 Open API数据源。Open API仅支持调用阿里云产品提供的API。具体使用操作请参见[添加Open API数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-an-openapi-explorer-data-source#task-2471948 "本文为您介绍在DataV中添加Open API数据源的方法，以及相关参数配置说明。Open API是阿里云提供的云产品开放接口的调用方式，使用Open API可以方便地调用各云产品提供的API接口，轻松实现控制及查询等功能。在DataV中，最常见的场景是使用Open API调用其他的云产品的API，获取数据并展示出来。")。    |
 
 ## 什么情况下DataV不能直接使用API数据源，只能使用阿里云API网关数据源？
 

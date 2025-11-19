@@ -180,17 +180,17 @@ package.json文件是组件的配置文件。本文档介绍package.json文件�
 }  
 ```
 
-| 字段名                  | 含义            | 是否必选 | 备注                                                                                                                |
-| ---- | ---- | ---- | ---- |
-| apis                 | 组件接口          | 是    | 一个组件可以包含多个接口。                                                                                                     |
-| source               | 接口名           | 否    | 可自定义。                                                                                                             |
-| handler              | 处理接口返回的数据的方法名 | 是    | 该方法名必须在[index.js规范](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-an-index-js-file)源码中实现。 |
-| description          | 接口描述          | 否    | 无。                                                                                                                |
-| fields               | 接口所需字段        | 是    | 一个接口可以包含多个字段。                                                                                                     |
-| fields.x             | 字段名           | 是    | 可自定义。                                                                                                             |
-| fields.x.description | 字段描述          | 否    | 无。                                                                                                                |
-| fields.x.type        | 字段类型          | 否    | 包括number、string、boolean、object和array。                                                                             |
-| fields.x.optional    | 是否为可选字段       | 否    | 为boolean类型。true表示对应字段为可选字段，false表示对应字段为必选字段。                                                                      |
+|    字段名    |    含义    |    是否必选    |    备注    |
+|    ----    |    ----    |    ----    |    ----    |
+|    apis    |    组件接口    |    是    |    一个组件可以包含多个接口。    |
+|    source    |    接口名    |    否    |    可自定义。    |
+|    handler    |    处理接口返回的数据的方法名    |    是    |    该方法名必须在[index.js规范](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-an-index-js-file)源码中实现。    |
+|    description    |    接口描述    |    否    |    无。    |
+|    fields    |    接口所需字段    |    是    |    一个接口可以包含多个字段。    |
+|    fields.x    |    字段名    |    是    |    可自定义。    |
+|    fields.x.description    |    字段描述    |    否    |    无。    |
+|    fields.x.type    |    字段类型    |    否    |    包括number、string、boolean、object和array。    |
+|    fields.x.optional    |    是否为可选字段    |    否    |    为boolean类型。true表示对应字段为可选字段，false表示对应字段为必选字段。    |
 * `api_data`字段  
 该字段定义了接口数据，可以包含多个接口数据。接口名必须和`apis`中的接口名一致，限制为6KB（详情请参见注释）。  
 ```  
@@ -209,10 +209,10 @@ package.json文件是组件的配置文件。本文档介绍package.json文件�
 }  
 ```
 
-| 字段名       | 含义     | 是否必选 | 备注                      |
-| ---- | ---- | ---- | ---- |
-| api\_data | 组件接口数据 | 是    | 一个组件可以包含多个接口数据。         |
-| source    | 接口名    | 否    | 必须和apis字段中的接口名一致，限制6KB。 |
+|    字段名    |    含义    |    是否必选    |    备注    |
+|    ----    |    ----    |    ----    |    ----    |
+|    api\_data    |    组件接口数据    |    是    |    一个组件可以包含多个接口数据。    |
+|    source    |    接口名    |    否    |    必须和apis字段中的接口名一致，限制6KB。    |
 
 ## events交互事件规范
 
@@ -234,13 +234,13 @@ DataV的交互事件由`emit`（组件代码中触发`emit`）和`events`描述�
 }  
 ```
 
-| 字段名                      | 含义   | 是否必选 | 备注              |
-| ---- | ---- | ---- | ---- |
-| click-me                 | 事件名  | 是    | 可自定义。           |
-| description              | 事件描述 | 否    | 用于描述该事件的具体作用。   |
-| fields                   | 字段   | 是    | 可包含多个字段名及其描述信息。 |
-| fields.value             | 字段名  | 是    | 可自定义。           |
-| fields.value.description | 字段描述 | 否    | 无。              |
+|    字段名    |    含义    |    是否必选    |    备注    |
+|    ----    |    ----    |    ----    |    ----    |
+|    click-me    |    事件名    |    是    |    可自定义。    |
+|    description    |    事件描述    |    否    |    用于描述该事件的具体作用。    |
+|    fields    |    字段    |    是    |    可包含多个字段名及其描述信息。    |
+|    fields.value    |    字段名    |    是    |    可自定义。    |
+|    fields.value.description    |    字段描述    |    否    |    无。    |
 * `emit`触发  
 `emit`方法作为一个基础类方法，会将事件名及需要的数据作为参数抛出，其他组件即可通过变量名获取到该组件的参数值，需要在[index.js规范](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-an-index-js-file)源码中实现（详情请参见注释）。  
 ```  
@@ -297,15 +297,15 @@ DataV的行为事件定义是通过`publicHandler`注册而成，示例如下。
 * 当您还没有实现`show`、`hide`以及`updateOptions`方法时，DataV会自动帮您注册并实现这3个默认方法。
 * DataV为您注册的`updateOptions `需要您自行实现，如果没有实现，DataV会调用组件的`render`方法。
 
-| 字段名                     | 含义       | 是否必选 | 备注                                                |
-| ---- | ---- | ---- | ---- |
-| name                    | 事件名      | 是    | 在节点编程配置中使用。                                       |
-| description             | 事件描述     | 否    | 无严格的字数限制。                                         |
-| type                    | 事件第一入参类型 | 否    | 可选，固定为object。                                     |
-| fields                  | 字段       | 否    | 无。                                                |
-| fields.data.name        | 字段名      | 是    | 无。                                                |
-| fields.data.description | 字段描述     | 否    | 无。                                                |
-| fields.data.type        | 字段类型     | 是    | 可选，包括number、string、boolean、object和array。          |
-| fields.data.children    | 子节点      | 否    | 当fields.data.type为object或array时需要设置children 字段。   |
-| fields.data.default     | 默认值      | 否    | 当fields.data.type为number、string或boolean时，需要填写默认值。 |
-| fields.data.optional    | 是否可选     | 否    | 可选，为boolean类型。true表示对应字段为可选字段，false表示对应字段为必选字段。   |
+|    字段名    |    含义    |    是否必选    |    备注    |
+|    ----    |    ----    |    ----    |    ----    |
+|    name    |    事件名    |    是    |    在节点编程配置中使用。    |
+|    description    |    事件描述    |    否    |    无严格的字数限制。    |
+|    type    |    事件第一入参类型    |    否    |    可选，固定为object。    |
+|    fields    |    字段    |    否    |    无。    |
+|    fields.data.name    |    字段名    |    是    |    无。    |
+|    fields.data.description    |    字段描述    |    否    |    无。    |
+|    fields.data.type    |    字段类型    |    是    |    可选，包括number、string、boolean、object和array。    |
+|    fields.data.children    |    子节点    |    否    |    当fields.data.type为object或array时需要设置children 字段。    |
+|    fields.data.default    |    默认值    |    否    |    当fields.data.type为number、string或boolean时，需要填写默认值。    |
+|    fields.data.optional    |    是否可选    |    否    |    可选，为boolean类型。true表示对应字段为可选字段，false表示对应字段为必选字段。    |

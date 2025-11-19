@@ -54,14 +54,14 @@ DataV Proxy应用是一个可视化的DataV Proxy（DataV数据代理服务）�
   1. 单击**数据源配置**，选择数据源类型，单击**新增**。![配置数据源](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0710153951/p40925.png)
   2. 在弹出的对话框中，填写数据源的配置信息。![填写数据源配置信息](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0710153951/p40926.png)
 
-| **参数**   | **说明**                                                                                                                          |
-| ---- | ---- |
-| id       | 数据源的ID，自定义，不可重复。                                                                                                                |
-| host     | 数据库所在服务器的IP地址或域名。以RDS MySQL为例，此处需要填写RDS MySQL实例的**外网地址**，可在实例的**基本信息**页面获取，例如**rm-bp1xxxxxxxxxxxxxhmo.mysql.rds.aliyuncs.com**。 |
-| user     | 登录数据库的账号名称。                                                                                                                     |
-| password | 登录数据库的密码。                                                                                                                       |
-| database | 数据库名称。                                                                                                                          |
-| port     | 数据库端口号。 以RDS MySQL为例，端口号一般为**3306**。                                                                                            |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    id    |    数据源的ID，自定义，不可重复。    |
+|    host    |    数据库所在服务器的IP地址或域名。以RDS MySQL为例，此处需要填写RDS MySQL实例的**外网地址**，可在实例的**基本信息**页面获取，例如**rm-bp1xxxxxxxxxxxxxhmo.mysql.rds.aliyuncs.com**。    |
+|    user    |    登录数据库的账号名称。    |
+|    password    |    登录数据库的密码。    |
+|    database    |    数据库名称。    |
+|    port    |    数据库端口号。 以RDS MySQL为例，端口号一般为**3306**。    |
   3. 测试配置完成的数据源。  
 
     * 单击**链接数据库测试**，可测试数据库的连通性。
@@ -84,15 +84,15 @@ Windows下只有查看日志功能，无法进行指定行数和关键字匹配�
 2. 单击**我的数据** **\> 数据源管理** \> **添加数据**。
 3. 在**添加数据**对话框中，填写相关信息。![添加数据对话框](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1710153951/p59464.png)
 
-| **参数**     | **说明**                                                                      |
-| ---- | ---- |
-| **类型**     | 选择DataV数据代理服务。                                                              |
-| **名称**     | 数据源的名称，可自定义。                                                                |
-| **域名**     | DataV Proxy服务器所在IP地址或域名，可在[配置DataV Proxy应用](#title-n6h-4cv-0ae)章节获取。        |
-| **端口**     | DataV Proxy服务的启动端口，可在[配置DataV Proxy应用](#title-n6h-4cv-0ae)章节获取。一般为**8001**。 |
-| **Key**    | 对应[配置DataV Proxy应用](#title-n6h-4cv-0ae)章节第四步中生成的**key**。                    |
-| **Secret** | 对应[配置DataV Proxy应用](#title-n6h-4cv-0ae)章节第四步中生成的**secret**。                 |
-| **数据库**    | 展示DataV Proxy应用中已经添加的数据源的ID。                                                |  
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **类型**    |    选择DataV数据代理服务。    |
+|    **名称**    |    数据源的名称，可自定义。    |
+|    **域名**    |    DataV Proxy服务器所在IP地址或域名，可在[配置DataV Proxy应用](#title-n6h-4cv-0ae)章节获取。    |
+|    **端口**    |    DataV Proxy服务的启动端口，可在[配置DataV Proxy应用](#title-n6h-4cv-0ae)章节获取。一般为**8001**。    |
+|    **Key**    |    对应[配置DataV Proxy应用](#title-n6h-4cv-0ae)章节第四步中生成的**key**。    |
+|    **Secret**    |    对应[配置DataV Proxy应用](#title-n6h-4cv-0ae)章节第四步中生成的**secret**。    |
+|    **数据库**    |    展示DataV Proxy应用中已经添加的数据源的ID。    |    
 以上信息添加完成后，系统会自动进行测试连接。
 4. 单击**获取数据列表**，并在**获取数据列表**中选择一个数据源。 如果列表中展示DataV Proxy应用中已经添加的数据源ID，说明连接成功。
 

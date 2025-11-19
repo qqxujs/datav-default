@@ -13,12 +13,12 @@
 3. 从**类型**列表中，选择**阿里云API网关**。
 4. 填写API网关信息。
 
-| **参数**        | **说明**                                                                                                                                                                             |
-| ---- | ---- |
-| **名称**        | 数据源的显示名称，您可以自由命名。                                                                                                                                                                  |
-| **域名**        | API网关的调用域名。您可以进入[API网关控制台](https://apigateway.console.aliyun.com/)查看。                                                                                                              |
-| **AppKey**    | API网关接口的调用AppKey。请参见[创建应用](https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/getting-started/create-an-api-with-a-backend-service-of-the-http)，获取相关接口的AppKey。         |
-| **AppSecret** | API 网关接口的调用AppSecret。请参见[创建应用](https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/getting-started/create-an-api-with-a-backend-service-of-the-http)，获取相关接口的AppSecret 。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    数据源的显示名称，您可以自由命名。    |
+|    **域名**    |    API网关的调用域名。您可以进入[API网关控制台](https://apigateway.console.aliyun.com/)查看。    |
+|    **AppKey**    |    API网关接口的调用AppKey。请参见[创建应用](https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/getting-started/create-an-api-with-a-backend-service-of-the-http)，获取相关接口的AppKey。    |
+|    **AppSecret**    |    API 网关接口的调用AppSecret。请参见[创建应用](https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/getting-started/create-an-api-with-a-backend-service-of-the-http)，获取相关接口的AppSecret 。    |
 5. 信息填写完成后，单击**确定**，完成数据源的添加。  
 新添加的数据源会自动显示在数据源列表中。
 

@@ -14,13 +14,13 @@
 4. 填写Open API相关信息。  
 ![添加Open API数据源](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1305964951/p32819.png)
 
-| 参数         | 说明                                                                                                                                                                                                                      |
-| ---- | ---- |
-| 名称         | 数据源的显示名称，您可以自由命名。                                                                                                                                                                                                       |
-| EndPoint   | Open API的服务地址，需要您从云产品的API文档处获取。例如ECS的Open API服务地址为ecs.aliyuncs.com，云监控杭州region的Open API[服务地址](https://help.aliyun.com/zh/cms/developer-reference/request-methods#concept-hzl-jz5-zdb)为metrics.cn-hangzhou.aliyuncs.com。 |
-| APIVersion | 云产品的API版本，您可以从云产品的API文档获取，如云监控的[API版本](https://help.aliyun.com/zh/cms/developer-reference/request-methods#concept-hzl-jz5-zdb)为2017-03-01。                                                                              |
-| AppKey     | 可以调用Open API的账号的AccessKey ID。                                                                                                                                                                                           |
-| AppSecret  | 可以调用Open API的账号的AccessKey Secret。                                                                                                                                                                                       |
+|    参数    |    说明    |
+|    ----    |    ----    |
+|    名称    |    数据源的显示名称，您可以自由命名。    |
+|    EndPoint    |    Open API的服务地址，需要您从云产品的API文档处获取。例如ECS的Open API服务地址为ecs.aliyuncs.com，云监控杭州region的Open API[服务地址](https://help.aliyun.com/zh/cms/developer-reference/request-methods#concept-hzl-jz5-zdb)为metrics.cn-hangzhou.aliyuncs.com。    |
+|    APIVersion    |    云产品的API版本，您可以从云产品的API文档获取，如云监控的[API版本](https://help.aliyun.com/zh/cms/developer-reference/request-methods#concept-hzl-jz5-zdb)为2017-03-01。    |
+|    AppKey    |    可以调用Open API的账号的AccessKey ID。    |
+|    AppSecret    |    可以调用Open API的账号的AccessKey Secret。    |
 5. 信息填写完成后，单击确定，完成数据源的添加。  
 新添加的数据源会自动显示在数据源列表中。
 

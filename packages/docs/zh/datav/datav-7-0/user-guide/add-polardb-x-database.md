@@ -26,25 +26,25 @@ DataV-Board支持添加PolarDB-X 1.0和PolarDB-X 2.0数据源，本教程将使�
   1. 打开**VPC**开关，进入专有网络模式。
   2. 填写数据库配置信息。  
 
-| **参数**      | **说明**                                                                                                                                                                                                                                                           |
-| ---- | ---- |
-| **名称**      | 自定义的数据源名称。                                                                                                                                                                                                                                                       |
-| **VPC ID**  | VPC实例的ID，此VPC为您的PolarDB-X实例所在的VPC。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在实例**基本信息**页查看VPC ID。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9119693371/p880918.png) |
-| **VPC实例ID** | 可选VPC数据库实例 ID、 VPC 网络连接地址、VPC 网络IP地址其中一种。通过OpenAPI使用接口[DescribeDBInstanceAttribute](https://help.aliyun.com/zh/polardb/api-describedbinstanceattribute#doc-api-polardbx-DescribeDBInstanceAttribute)查询实例属性信息，获取实例详情中的**VPCInstanceId**。                          |
-| **域名**      | 访问PolarDB-X数据库实例使用的VPC地址。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在**基本信息** \> **连接信息**区域，查看内网地址。                                                                                             |
-| **端口**      | 数据库设置的端口号。                                                                                                                                                                                                                                                       |
-| **数据库登录信息** | 输入需要访问的PolarDB-X实例的登录用户及密码，自动获取数据库列表或自定义输入数据库名称。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在左侧导航栏的**配置与管理**目录下选择**数据库管理**、**账号管理**，查看数据库登录信息。                                                   |  
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    自定义的数据源名称。    |
+|    **VPC ID**    |    VPC实例的ID，此VPC为您的PolarDB-X实例所在的VPC。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在实例**基本信息**页查看VPC ID。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9119693371/p880918.png)    |
+|    **VPC实例ID**    |    可选VPC数据库实例 ID、 VPC 网络连接地址、VPC 网络IP地址其中一种。通过OpenAPI使用接口[DescribeDBInstanceAttribute](https://help.aliyun.com/zh/polardb/api-describedbinstanceattribute#doc-api-polardbx-DescribeDBInstanceAttribute)查询实例属性信息，获取实例详情中的**VPCInstanceId**。    |
+|    **域名**    |    访问PolarDB-X数据库实例使用的VPC地址。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在**基本信息** \> **连接信息**区域，查看内网地址。    |
+|    **端口**    |    数据库设置的端口号。    |
+|    **数据库登录信息**    |    输入需要访问的PolarDB-X实例的登录用户及密码，自动获取数据库列表或自定义输入数据库名称。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在左侧导航栏的**配置与管理**目录下选择**数据库管理**、**账号管理**，查看数据库登录信息。    |    
 ## 经典网络
 
   1. 关闭**VPC**开关，进入经典网络模式。
   2. 填写数据库配置信息。
 
-| **参数**      | **说明**                                                                                                                                                                                                         |
-| ---- | ---- |
-| **名称**      | 自定义的数据源名称。                                                                                                                                                                                                     |
-| **域名**      | 访问PolarDB-X数据库实例使用的经典网络地址。                                                                                                                                                                                     |
-| **端口**      | 数据库设置的端口号。                                                                                                                                                                                                     |
-| **数据库登录信息** | 输入需要访问的PolarDB-X实例的登录用户及密码，自动获取数据库列表或自定义输入数据库名称。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在左侧导航栏的**配置与管理**目录下选择**数据库管理**、**账号管理**，查看数据库登录信息。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    自定义的数据源名称。    |
+|    **域名**    |    访问PolarDB-X数据库实例使用的经典网络地址。    |
+|    **端口**    |    数据库设置的端口号。    |
+|    **数据库登录信息**    |    输入需要访问的PolarDB-X实例的登录用户及密码，自动获取数据库列表或自定义输入数据库名称。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在左侧导航栏的**配置与管理**目录下选择**数据库管理**、**账号管理**，查看数据库登录信息。    |
 6. 数据库信息填写完成后，单击**确定**，系统将自动测试连接。若测试通过，新添加的数据源将自动显示在数据源列表中。
 
 ## 通过外网添加数据源
@@ -55,12 +55,12 @@ DataV-Board支持添加PolarDB-X 1.0和PolarDB-X 2.0数据源，本教程将使�
 4. 在列表中选择**外网**。
 5. 填写数据库配置信息。
 
-| **参数**      | **说明**                                                                                                                                                                                                         |
-| ---- | ---- |
-| **名称**      | 自定义的数据源名称。                                                                                                                                                                                                     |
-| **域名**      | 访问PolarDB-X数据库实例使用的外网地址。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在**基本信息** \> **连接信息**区域，查看外网地址。                                            |
-| **端口**      | 数据库设置的端口号。                                                                                                                                                                                                     |
-| **数据库登录信息** | 输入需要访问的PolarDB-X实例的登录用户及密码，自动获取数据库列表或自定义输入数据库名称。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在左侧导航栏的**配置与管理**目录下选择**数据库管理**、**账号管理**，查看数据库登录信息。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    自定义的数据源名称。    |
+|    **域名**    |    访问PolarDB-X数据库实例使用的外网地址。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在**基本信息** \> **连接信息**区域，查看外网地址。    |
+|    **端口**    |    数据库设置的端口号。    |
+|    **数据库登录信息**    |    输入需要访问的PolarDB-X实例的登录用户及密码，自动获取数据库列表或自定义输入数据库名称。您可登录[PolarDB-X控制台](https://polardb-x.console.aliyun.com/cn-hangzhou/clustersX)，选择**PolarDB-X 2.0**页签，单击实例名称，在左侧导航栏的**配置与管理**目录下选择**数据库管理**、**账号管理**，查看数据库登录信息。    |
 6. 数据库信息填写完成后，单击**确定**，系统将自动测试连接。若测试通过，新添加的数据源将自动显示在数据源列表中。
 
 ## **后续步骤**

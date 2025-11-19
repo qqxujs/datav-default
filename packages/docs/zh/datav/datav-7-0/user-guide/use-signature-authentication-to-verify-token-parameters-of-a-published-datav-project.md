@@ -7,7 +7,7 @@
 1. **生成Token**：在数据看板开发完成后，使用Token验证的方式发布数据看板，具体请参见[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3390807271/p851124.png)
 2. **请求签名：**参见[携带自定义签名参数的URL计算](#section-sma-f4e-4vb)或者[不携带自定义签名参数的URL计算](#a71887dc69iy6)，计算数据看板的URL。
 
-  1. 将screenID与当前时间（毫秒）拼接起来，并用 |（竖线）分隔开。
+  1. 将screenID与当前时间（毫秒）拼接起来，并用    |（竖线）分隔开。
   2. （可选）确定需要签名计算的自定义参数名，必须符合参数规则。
   3. 使用Token通过HMAC-SHA256 base64，对上两步得到的Token验证码进行加密，获得加密后签名。
   4. 将时间和加密后的签名分别命名为`_datav_time`、`_datav_signature`。

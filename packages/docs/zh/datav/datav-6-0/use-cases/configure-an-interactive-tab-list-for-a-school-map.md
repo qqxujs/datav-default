@@ -103,10 +103,10 @@
 ![设置变量值](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2607716951/p54809.png)
   * schooltype=公办触发器的触发条件为：  
   ```  
-  return getCallbackValue('schoolType') && (getCallbackValue('schoolType') == "全选" || getCallbackValue('schoolType') == "公办");  
+  return getCallbackValue('schoolType') && (getCallbackValue('schoolType') == "全选"    ||    getCallbackValue('schoolType') == "公办");  
   ```  
   以上代码的作用是获取单选框中全局变量的值，判断当前单选框的状态。
   * schooltype=民办触发器的触发条件为：  
   ```  
-  return getCallbackValue('schoolType') && (getCallbackValue('schoolType') == "全选" || getCallbackValue('schoolType') == "民办");  
+  return getCallbackValue('schoolType') && (getCallbackValue('schoolType') == "全选"    ||    getCallbackValue('schoolType') == "民办");  
   ```

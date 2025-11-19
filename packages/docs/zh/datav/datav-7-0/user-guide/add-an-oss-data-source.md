@@ -18,12 +18,12 @@
 4. 填写OSS相关信息。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4314312761/p539746.png)
 
-| **参数**        | **说明**                                                                                                                                                                                                                                      |
-| ---- | ---- |
-| **自定义数据源名称**  | 数据源的显示名称，您可以自由命名。                                                                                                                                                                                                                           |
-| **AK ID**     | 拥有目标OSS访问权限的账号的AccessKey ID。                                                                                                                                                                                                                |
-| **AK Secret** | 拥有目标OSS访问权限的账号的AccessKey Secret。                                                                                                                                                                                                            |
-| **Region**    | 目标OSS的外网访问Region信息。进入[OSS控制台](https://oss.console.aliyun.com/)，单击您的Bucket名称进行获取。![OSS Region信息](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8005964951/p32341.png)上图中的OSS Bucket位于上海区域，所以**Region**填写为**oss-cn-shanghai**。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **自定义数据源名称**    |    数据源的显示名称，您可以自由命名。    |
+|    **AK ID**    |    拥有目标OSS访问权限的账号的AccessKey ID。    |
+|    **AK Secret**    |    拥有目标OSS访问权限的账号的AccessKey Secret。    |
+|    **Region**    |    目标OSS的外网访问Region信息。进入[OSS控制台](https://oss.console.aliyun.com/)，单击您的Bucket名称进行获取。![OSS Region信息](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8005964951/p32341.png)上图中的OSS Bucket位于上海区域，所以**Region**填写为**oss-cn-shanghai**。    |
 5. 信息填写完成后，单击**确定**，完成数据源的添加。  
 新添加的数据源会自动显示在数据源列表中。
 

@@ -39,12 +39,12 @@
 8. 单击**新建**，在**添加数据**对话框中，填入数据源相关信息，单击**确定**。  
 ![添加数据源数据](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0431839061/p51174.png)
 
-| **参数**        | **说明**                                                                                                                                                                                                  |
-| ---- | ---- |
-| **自定义数据源名称**  | 数据源的显示名称，您可以自由命名。                                                                                                                                                                                       |
-| **AppKey**    | 拥有目标SLS访问权限的账号的AccessKey ID。                                                                                                                                                                            |
-| **AppSecret** | 拥有目标SLS访问权限的账号的AccessKey Secret。                                                                                                                                                                        |
-| **EndPoint**  | 填写SLS服务的EndPoint。请参见[日志服务入口文档](https://help.aliyun.com/zh/sls/endpoints#reference-wgx-pwq-zdb)，根据您SLS服务的网络类型和所在区域进行填写。 例如VPC网络下，上海区域的**EndPoint** 填写为**https://cn-shanghai-intranet.log.aliyuncs.com**。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **自定义数据源名称**    |    数据源的显示名称，您可以自由命名。    |
+|    **AppKey**    |    拥有目标SLS访问权限的账号的AccessKey ID。    |
+|    **AppSecret**    |    拥有目标SLS访问权限的账号的AccessKey Secret。    |
+|    **EndPoint**    |    填写SLS服务的EndPoint。请参见[日志服务入口文档](https://help.aliyun.com/zh/sls/endpoints#reference-wgx-pwq-zdb)，根据您SLS服务的网络类型和所在区域进行填写。 例如VPC网络下，上海区域的**EndPoint** 填写为**https://cn-shanghai-intranet.log.aliyuncs.com**。    |
 9. 选择添加完成的数据源，并在数据查询框中输入如下示例脚本进行查询。  
 ```  
 {  
@@ -53,7 +53,7 @@
 "topic": "",  
 "from": "1518883200",  
 "to": "1518969600",  
-"query": "* | select count(1) as pv, date_format(from_unixtime(__time__ - __time__%3600) ,'%Y/%m/%d %H:%i:%s')   as time group by time  order by time limit 1000" ,  
+"query": "*    |    select count(1) as pv, date_format(from_unixtime(__time__ - __time__%3600) ,'%Y/%m/%d %H:%i:%s')   as time group by time  order by time limit 1000" ,  
 "line": 100,  
 "offset": 0  
 }  

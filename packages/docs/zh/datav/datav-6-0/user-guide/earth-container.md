@@ -34,21 +34,21 @@
 
 **高级渲染模式**
 
-| **参数**      | **说明**                                                        |
-| ---- | ---- |
-| **抗锯齿**     | 组件渲染时的抗锯齿效果，包括**SMAA 抗锯齿**、**FXAA 抗锯齿**和**无抗锯齿**，默认为**无抗锯齿**。 |
-| **bloom阈值** | bloom阈值，范围为0\~1。                                              |
-| **bloom半径** | bloom半径，范围为0\~5。                                              |
-| **bloom强度** | bloom强度，范围为0\~1。                                              |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **抗锯齿**    |    组件渲染时的抗锯齿效果，包括**SMAA 抗锯齿**、**FXAA 抗锯齿**和**无抗锯齿**，默认为**无抗锯齿**。    |
+|    **bloom阈值**    |    bloom阈值，范围为0\~1。    |
+|    **bloom半径**    |    bloom半径，范围为0\~5。    |
+|    **bloom强度**    |    bloom强度，范围为0\~1。    |
 * **背景设置**：3D地球的背景颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
 * **视点设置**：视点包含了**视角**、**经度**、**纬度**和**距离**四个参数，您可以根据摄像机原理调整这些参数，使地球按照您期望的大小和方向展示在可视化应用中。  
 
-| **参数**      | **说明**                                                                                                                     |
-| ---- | ---- |
-| **视角（fov）** | 表示相机的可视角度，可视角度越大，地球所占相机空间即越小。![视角说明图片](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8468068951/p21433.png) |
-| **纬度**      | 表示相机视点在地球上的纬度。                                                                                                             |
-| **经度**      | 表示相机视点在地球上的经度。                                                                                                             |
-| **距离**      | 指相机距离地球的距离，距离越大地球显示越小。                                                                                                     |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **视角（fov）**    |    表示相机的可视角度，可视角度越大，地球所占相机空间即越小。![视角说明图片](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8468068951/p21433.png)    |
+|    **纬度**    |    表示相机视点在地球上的纬度。    |
+|    **经度**    |    表示相机视点在地球上的经度。    |
+|    **距离**    |    指相机距离地球的距离，距离越大地球显示越小。    |
 * **自转速度**：地球的自转速度，范围为0\~10，为0时停止自转。
 * **地图交互**：打开开关，开启地图交互功能，在预览或发布页面支持鼠标单击、缩放等交互事件。
 * **子组件交互模式**：设置地球容器和子组件的交互模式，包括**鼠标点击**和**鼠标移动**。
@@ -70,10 +70,10 @@
   * **事件**：无。
   * **动作**
 
-| **动作**     | **说明**                                                                                                                                                                                                                                                                                                                                           |
-| ---- | ---- |
-| **显示**     | 显示组件，不需要参数。                                                                                                                                                                                                                                                                                                                                      |
-| **隐藏**     | 隐藏组件，不需要参数。                                                                                                                                                                                                                                                                                                                                      |
-| **更新组件配置** | 动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。                                                                                                                                                                                                                                                          |
-| **切换显隐状态** | 切换组件显示或者隐藏，参考数据示例如下。 return {   "animationIn": {     "animationType": "",// 动画方式，可选fade，不填无动画。     "animationDuration": 1000,// 显示延时，单位为ms。     "animationEasing": "linear"// 动画函数，可选linear\|easeInOutQuad|easeInOutExpo。   },   "animationOut": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   } } |
-| **移动**     | 将组件移动到指定位置，参考数据示例如下。 return {   // 移动方式。绝对定位：to，相对定位：by。默认值：to。   "positionType": "to",   // 指定位置。x坐标，y坐标。   "attr": {     "x": 0,     "y": 0   },   // 动画方式。   "animation": {     "enable": false,     // 动画延时。     "animationDuration": 1000,     // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。     "animationEasing": "linear"   } }      |
+|    **动作**    |    **说明**    |
+|    ----    |    ----    |
+|    **显示**    |    显示组件，不需要参数。    |
+|    **隐藏**    |    隐藏组件，不需要参数。    |
+|    **更新组件配置**    |    动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。    |
+|    **切换显隐状态**    |    切换组件显示或者隐藏，参考数据示例如下。 return {   "animationIn": {     "animationType": "",// 动画方式，可选fade，不填无动画。     "animationDuration": 1000,// 显示延时，单位为ms。     "animationEasing": "linear"// 动画函数，可选linear\|easeInOutQuad|easeInOutExpo。   },   "animationOut": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   } }    |
+|    **移动**    |    将组件移动到指定位置，参考数据示例如下。 return {   // 移动方式。绝对定位：to，相对定位：by。默认值：to。   "positionType": "to",   // 指定位置。x坐标，y坐标。   "attr": {     "x": 0,     "y": 0   },   // 动画方式。   "animation": {     "enable": false,     // 动画延时。     "animationDuration": 1000,     // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。     "animationEasing": "linear"   } }    |

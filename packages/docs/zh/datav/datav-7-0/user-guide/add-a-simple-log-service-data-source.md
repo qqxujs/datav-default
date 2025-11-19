@@ -18,12 +18,12 @@
 4. 填写**简单日志服务SLS**相关信息。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9272082761/p539752.png)
 
-| **参数**        | **说明**                                                                                                                                                                                                  |
-| ---- | ---- |
-| **自定义数据源名称**  | 数据源的显示名称，您可以自由命名。                                                                                                                                                                                       |
-| **AppKey**    | 拥有目标SLS访问权限的账号的AccessKey ID。                                                                                                                                                                            |
-| **AppSecret** | 拥有目标SLS访问权限的账号的AccessKey Secret。                                                                                                                                                                        |
-| **EndPoint**  | 填写SLS服务的EndPoint。请参见[日志服务入口文档](https://help.aliyun.com/zh/sls/endpoints#reference-wgx-pwq-zdb)，根据您SLS服务的网络类型和所在区域进行填写。 例如VPC网络下，上海区域的**EndPoint** 填写为**https://cn-shanghai-intranet.log.aliyuncs.com**。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **自定义数据源名称**    |    数据源的显示名称，您可以自由命名。    |
+|    **AppKey**    |    拥有目标SLS访问权限的账号的AccessKey ID。    |
+|    **AppSecret**    |    拥有目标SLS访问权限的账号的AccessKey Secret。    |
+|    **EndPoint**    |    填写SLS服务的EndPoint。请参见[日志服务入口文档](https://help.aliyun.com/zh/sls/endpoints#reference-wgx-pwq-zdb)，根据您SLS服务的网络类型和所在区域进行填写。 例如VPC网络下，上海区域的**EndPoint** 填写为**https://cn-shanghai-intranet.log.aliyuncs.com**。    |
 5. 信息填写完成后，单击**确定**，完成数据源的添加。  
 新添加的数据源会自动显示在数据源列表中。
 

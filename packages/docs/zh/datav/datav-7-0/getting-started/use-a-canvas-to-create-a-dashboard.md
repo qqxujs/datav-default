@@ -78,14 +78,14 @@
 2. [创建RDS MySQL数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-mysql-data-source)。  
 数据源的核心参数配置如下。
 
-| **参数**                 | **描述**                                                                                                                                                                                                                                                                            |
-| ---- | ---- |
-| **类型**                 | 选择RDS MySQL，网络类型选择**内网**的**华东1**（即杭州地域）。                                                                                                                                                                                                                                          |
-| **名称**                 | 自定义数据源名称。本文示例为mysql\_data。                                                                                                                                                                                                                                                        |
-| **VPC ID**及**VPC实例ID** | VPC ID：RDS MySQL实例所绑定的专有网络ID。VPC实例ID：RDS MySQL实例ID。您可进入[RDS实例列表](https://rdsnext.console.aliyun.com/rdsList/basic?spm=a2c4g.11186623.0.0.4c5d4fa0BACSmz)查看。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6951214271/p828085.png)                          |
-| **域名**及**端口**          | 域名：RDS MySQL实例所绑定专有网络的内网地址。端口：RDS MySQL实例所绑定专有网络的内网端口。您可在[RDS实例列表](https://rdsnext.console.aliyun.com/rdsList/basic?spm=a2c4g.11186623.0.0.4c5d4fa0BACSmz)，单击目标实例名称，进入实例详情页，按下图步骤查看。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6951214271/p828086.png) |
-| **用户名**及**密码**         | 数据库登录账号及密码。本示例数据库账号为user\_test，密码为您自定义的数据库密码。                                                                                                                                                                                                                                     |
-| **数据库**                | 单击**获取数据列表**，在下拉框选择已创建的数据库。本示例为mysqltest。                                                                                                                                                                                                                                         |
+|    **参数**    |    **描述**    |
+|    ----    |    ----    |
+|    **类型**    |    选择RDS MySQL，网络类型选择**内网**的**华东1**（即杭州地域）。    |
+|    **名称**    |    自定义数据源名称。本文示例为mysql\_data。    |
+|    **VPC ID**及**VPC实例ID**    |    VPC ID：RDS MySQL实例所绑定的专有网络ID。VPC实例ID：RDS MySQL实例ID。您可进入[RDS实例列表](https://rdsnext.console.aliyun.com/rdsList/basic?spm=a2c4g.11186623.0.0.4c5d4fa0BACSmz)查看。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6951214271/p828085.png)    |
+|    **域名**及**端口**    |    域名：RDS MySQL实例所绑定专有网络的内网地址。端口：RDS MySQL实例所绑定专有网络的内网端口。您可在[RDS实例列表](https://rdsnext.console.aliyun.com/rdsList/basic?spm=a2c4g.11186623.0.0.4c5d4fa0BACSmz)，单击目标实例名称，进入实例详情页，按下图步骤查看。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6951214271/p828086.png)    |
+|    **用户名**及**密码**    |    数据库登录账号及密码。本示例数据库账号为user\_test，密码为您自定义的数据库密码。    |
+|    **数据库**    |    单击**获取数据列表**，在下拉框选择已创建的数据库。本示例为mysqltest。    |
 
 ## **步骤一：创建数据看板**
 

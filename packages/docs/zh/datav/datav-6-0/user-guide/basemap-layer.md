@@ -22,16 +22,16 @@
 * **透明度**：底图层的透明度，范围为0\~1。
 * **瓦片**：瓦片服务类型，下拉列表中可选**高德电子地图**和**高德卫星图**。如果您想使用其他瓦片服务，可以直接输入瓦片地址，按**Enter**键确定。DataV支持接入的地图瓦片服务如下表所示。
 
-| **地图类型**      | **瓦片服务类型**                                                               | **瓦片地址**                                                                 |
-| ---- | ---- | ---- |
-| 高德地图          | 高德电子地图                                                                   | http://webst02.is.autonavi.com/appmaptile?style=7&x={x}&y={y}&z={z}      |
-| 高德卫星图         | http://webst02.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}      |                                                                          |
-| 高德卫星图（路网、注记）  | http://webst02.is.autonavi.com/appmaptile?style=8&x={x}&y={y}&z={z}      |                                                                          |
-| 天地图           | 天地图\_矢量切片                                                                | https://t1.tianditu.gov.cn/DataServer?T=vec\_w&x={x}&y={y}&l={z}&tk=您的密钥 |
-| 天地图\_矢量切片\_注记 | https://t1.tianditu.gov.cn/DataServer?T=cva\_w&x={x}&y={y}&l={z}&tk=您的密钥 |                                                                          |
-| 天地图\_影像       | https://t5.tianditu.gov.cn/DataServer?T=img\_w&x={x}&y={y}&l={z}&tk=您的密钥 |                                                                          |
-| 天地图\_影像\_边界路网 | https://t3.tianditu.gov.cn/DataServer?T=ibo\_w&x={x}&y={y}&l={z}&tk=您的密钥 |                                                                          |
-| 天地图\_影像\_注记   | https://t3.tianditu.gov.cn/DataServer?T=cia\_w&x={x}&y={y}&l={z}&tk=您的密钥 |                                                                          |
+|    **地图类型**    |    **瓦片服务类型**    |    **瓦片地址**    |
+|    ----    |    ----    |    ----    |
+|    高德地图    |    高德电子地图    |    http://webst02.is.autonavi.com/appmaptile?style=7&x={x}&y={y}&z={z}    |
+|    高德卫星图    |    http://webst02.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}    |    |
+|    高德卫星图（路网、注记）    |    http://webst02.is.autonavi.com/appmaptile?style=8&x={x}&y={y}&z={z}    |    |
+|    天地图    |    天地图\_矢量切片    |    https://t1.tianditu.gov.cn/DataServer?T=vec\_w&x={x}&y={y}&l={z}&tk=您的密钥    |
+|    天地图\_矢量切片\_注记    |    https://t1.tianditu.gov.cn/DataServer?T=cva\_w&x={x}&y={y}&l={z}&tk=您的密钥    |    |
+|    天地图\_影像    |    https://t5.tianditu.gov.cn/DataServer?T=img\_w&x={x}&y={y}&l={z}&tk=您的密钥    |    |
+|    天地图\_影像\_边界路网    |    https://t3.tianditu.gov.cn/DataServer?T=ibo\_w&x={x}&y={y}&l={z}&tk=您的密钥    |    |
+|    天地图\_影像\_注记    |    https://t3.tianditu.gov.cn/DataServer?T=cia\_w&x={x}&y={y}&l={z}&tk=您的密钥    |    |
 
 **重要**  
 如果您使用的是天地图瓦片服务，需要在原有瓦片获取的请求参数中添加您的授权参数信息。您先在天地图API网站控制台免费申请注册开发许可（Key），详细请参见[天地图应用开发许可申请说明](http://lbs.tianditu.gov.cn/authorization/authorization.html)。
@@ -63,8 +63,8 @@
   * **事件**：无。
   * **动作**
 
-| **动作**     | **说明**                                                                  |
-| ---- | ---- |
-| **设置瓦片路径** | 设置瓦片的路径，动作传入数据为object类型。参考数据示例如下。{   "tileUrl": ""  //瓦片路径需要设置x,y,z参数 } |
-| **显示**     | 显示组件，不需要参数。                                                             |
-| **隐藏**     | 隐藏组件，不需要参数。                                                             |
+|    **动作**    |    **说明**    |
+|    ----    |    ----    |
+|    **设置瓦片路径**    |    设置瓦片的路径，动作传入数据为object类型。参考数据示例如下。{   "tileUrl": ""  //瓦片路径需要设置x,y,z参数 }    |
+|    **显示**    |    显示组件，不需要参数。    |
+|    **隐藏**    |    隐藏组件，不需要参数。    |

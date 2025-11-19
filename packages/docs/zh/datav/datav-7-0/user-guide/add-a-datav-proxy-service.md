@@ -93,16 +93,16 @@ DataV Proxy是DataV数据代理服务的配置工具，可帮助DataV访问本�
 2. 在DataV Proxy配置页面的左侧导航栏，单击**数据源配置**，选择**mysql**，单击**新增**。
 3. 在**新建数据源**对话框配置参数信息。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5753912471/p926561.png)
 
-| **参数**          | **说明**                                                                                                                                                   |
-| ---- | ---- |
-| **id**          | 自定义的数据源ID，不可重复。                                                                                                                                          |
-| **host**        | 数据库所在服务器的IP地址或域名。此处需填写RDS MySQL实例的**外网地址**，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页获取。例如，rm-bp1xxxxxxxxxxxxxhmo.mysql.rds.aliyuncs.com。 |
-| **user**        | 登录数据库的账号名称。                                                                                                                                              |
-| **password**    | 登录数据库的密码。                                                                                                                                                |
-| **database**    | 数据库名称。                                                                                                                                                   |
-| **port**        | 数据库端口号。 RDS MySQL端口号通常为3306。                                                                                                                             |
-| **maxPoolSize** | 连接池中允许的最大数据库连接数量。                                                                                                                                        |
-| **timeout**     | 等待获取连接的最长时间，单位为ms。                                                                                                                                       |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **id**    |    自定义的数据源ID，不可重复。    |
+|    **host**    |    数据库所在服务器的IP地址或域名。此处需填写RDS MySQL实例的**外网地址**，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页获取。例如，rm-bp1xxxxxxxxxxxxxhmo.mysql.rds.aliyuncs.com。    |
+|    **user**    |    登录数据库的账号名称。    |
+|    **password**    |    登录数据库的密码。    |
+|    **database**    |    数据库名称。    |
+|    **port**    |    数据库端口号。 RDS MySQL端口号通常为3306。    |
+|    **maxPoolSize**    |    连接池中允许的最大数据库连接数量。    |
+|    **timeout**    |    等待获取连接的最长时间，单位为ms。    |
 4. 测试数据源连通性。  
 
   * 单击**SQL测试**，可在弹出的对话框中输入SQL语句，测试数据库中的数据是否符合要求。
@@ -161,15 +161,15 @@ Linux及Mac查询时支持指定日志行数范围、匹配关键字。
 3. 在**类型**列表中，选择**DataV数据代理服务**。
 4. 配置DataV数据代理服务所要访问的数据库信息。
 
-| **参数**             | **说明**                                                                                                                                                                                              |
-| ---- | ---- |
-| **名称**             | 自定义的数据源名称。                                                                                                                                                                                          |
-| **域名**             | DataV Proxy启动时的IP地址或域名。若您使用的是ECS服务器，则此处配置为ECS服务器的公网IP。                                                                                                                                              |
-| **端口**             | DataV Proxy启动时的端口号，默认为8001。                                                                                                                                                                         |
-| **路径**             | （可选）DataV Proxy启动时指定的[prefix](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-proxy-requests#5559e6ee008a9)值。若未指定，则不填。**说明** Prefix是一个URL路径的前缀，指定后，所有匹配该前缀的请求都会被转发到DataV Proxy服务。 |
-| **Method**         | （可选）请求的方法。默认为GET，当请求参数过长时建议选择POST。                                                                                                                                                                  |
-| **Key**和**Secret** | DataV Proxy生成的**Access Key**和**Access Secret**。可参见[密钥配置](#bdb67e7c16k1m)。                                                                                                                           |
-| **数据库**            | 单击**获取数据列表**，选择DataV Proxy中已添加的数据库。该数据库即为DataV通过数据代理服务所访问的数据库。                                                                                                                                      |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    自定义的数据源名称。    |
+|    **域名**    |    DataV Proxy启动时的IP地址或域名。若您使用的是ECS服务器，则此处配置为ECS服务器的公网IP。    |
+|    **端口**    |    DataV Proxy启动时的端口号，默认为8001。    |
+|    **路径**    |    （可选）DataV Proxy启动时指定的[prefix](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-proxy-requests#5559e6ee008a9)值。若未指定，则不填。**说明** Prefix是一个URL路径的前缀，指定后，所有匹配该前缀的请求都会被转发到DataV Proxy服务。    |
+|    **Method**    |    （可选）请求的方法。默认为GET，当请求参数过长时建议选择POST。    |
+|    **Key**和**Secret**    |    DataV Proxy生成的**Access Key**和**Access Secret**。可参见[密钥配置](#bdb67e7c16k1m)。    |
+|    **数据库**    |    单击**获取数据列表**，选择DataV Proxy中已添加的数据库。该数据库即为DataV通过数据代理服务所访问的数据库。    |
 5. 连接成功后，单击**确定**，完成数据源的添加。
 
 ## 后续步骤

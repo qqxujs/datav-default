@@ -20,25 +20,25 @@
 * **不透明度**：取值范围为0\~1。为**0**时，图表隐藏；为**1**时，图表全部显示。默认为**1**。
 * **图标资源**：图标资源的类型，可选**通用**、**行业**或**自定义**。  
 
-| **参数**  | **说明**                                                                                                                                                                                                                                                                                                                                  |
-| ---- | ---- |
-| **通用**  | 单击**图标类型**右侧![下拉框选择按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8034208061/p200640.jpg)，在图标库下拉列表内选择某个图标。单击**图标类型**中的图标，在图标库下拉列表内选择某个图标。单击**图标类型**中的图标或者双击**图标类型**图标右侧的文字区域，在横线上自定义输入图标的名字，即可快速从下拉框图标库内搜索对应的图标并选中使用该图标。![双击文字处](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8034208061/p200641.png) |
-| **行业**  | 单击下方**交通**、**医疗**和**工业**三个**行业**配置项中的任意一个选项。针对不同**行业**配置项，选择对应的**图标类型**，**图标类型**具体选择操作方法，请参见上方**通用**类型的配置方法。                                                                                                                                                                                                                            |
-| **自定义** | 您可以在下方**图标类型**右侧输入框内输入图标对应的Unicode字体文件，即可在DataV中使用该自定义图标；也可参见上方**通用**类型的配置方法，选择下拉列表内的某个已有的图标资源。**说明** 您可在[www.iconfont.cn](https://www.iconfont.cn/)中自定义制作图标，并将制作的图标项目生成的Unicode字体文件输入到**图表类型**右侧自定义输入框内，即可在DataV中使用该自定义图标。                                                                                                             |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **通用**    |    单击**图标类型**右侧![下拉框选择按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8034208061/p200640.jpg)，在图标库下拉列表内选择某个图标。单击**图标类型**中的图标，在图标库下拉列表内选择某个图标。单击**图标类型**中的图标或者双击**图标类型**图标右侧的文字区域，在横线上自定义输入图标的名字，即可快速从下拉框图标库内搜索对应的图标并选中使用该图标。![双击文字处](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8034208061/p200641.png)    |
+|    **行业**    |    单击下方**交通**、**医疗**和**工业**三个**行业**配置项中的任意一个选项。针对不同**行业**配置项，选择对应的**图标类型**，**图标类型**具体选择操作方法，请参见上方**通用**类型的配置方法。    |
+|    **自定义**    |    您可以在下方**图标类型**右侧输入框内输入图标对应的Unicode字体文件，即可在DataV中使用该自定义图标；也可参见上方**通用**类型的配置方法，选择下拉列表内的某个已有的图标资源。**说明** 您可在[www.iconfont.cn](https://www.iconfont.cn/)中自定义制作图标，并将制作的图标项目生成的Unicode字体文件输入到**图表类型**右侧自定义输入框内，即可在DataV中使用该自定义图标。    |
 * **图标样式**：图标的样式。  
 
-| **颜色** | 图标的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。 |
-| ---- | ---- |
-| **边距** | 图标与组件四边的距离百分比值，单位为%，取值范围为-100\~100。数值设置越小，图标显示越大，数值小到一定数值后图标会超出组件外框大小；数值大到一定值，图标会小到消失看不见。                                     |
+|    **颜色**    |    图标的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    ----    |    ----    |
+|    **边距**    |    图标与组件四边的距离百分比值，单位为%，取值范围为-100\~100。数值设置越小，图标显示越大，数值小到一定数值后图标会超出组件外框大小；数值大到一定值，图标会小到消失看不见。    |
 * **背景样式**：图标的背景样式 ，单击![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标控制背景的显隐。
 
-| **参数**   | **说明**                                                                                                                          |
-| ---- | ---- |
-| **背景色**  | 图标的背景颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。 |
-| **背景圆角** | 图标背景框的圆角大小，单位为px。数值为0的时候没有圆角，背景框为方形，设置值越大，背景框圆角弧度值越大。                                                                           |
-| **边框粗细** | 背景边框的粗细。                                                                                                                        |
-| **边框类型** | 背景边框的类型，可选**实线**、**虚线**和**点线**。                                                                                                 |
-| **边框颜色** | 背景边框的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **背景色**    |    图标的背景颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **背景圆角**    |    图标背景框的圆角大小，单位为px。数值为0的时候没有圆角，背景框为方形，设置值越大，背景框圆角弧度值越大。    |
+|    **边框粗细**    |    背景边框的粗细。    |
+|    **边框类型**    |    背景边框的类型，可选**实线**、**虚线**和**点线**。    |
+|    **边框颜色**    |    背景边框的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 * **旋转动画**：打开开关，图标开启绕中心点顺时针旋转的动画样式；关闭开关，图标无法旋转。
 
 ## 数据面板
@@ -47,11 +47,11 @@
 
 ## 交互面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1056081861/p633208.png)
 
-| **交互事件**   | **说明**                                                                                                                                                                                                                         |
-| ---- | ---- |
-| **当点击时**   | 选中**启用**，开启组件交互功能。当单击图标时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。      |
-| **当鼠标移入时** | 选中**启用**，开启组件交互功能。当鼠标移入到图标位置时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 |
-| **当鼠标移出时** | 选中**启用**，开启组件交互功能。当鼠标从图标位置移出时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 |
+|    **交互事件**    |    **说明**    |
+|    ----    |    ----    |
+|    **当点击时**    |    选中**启用**，开启组件交互功能。当单击图标时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
+|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。当鼠标移入到图标位置时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
+|    **当鼠标移出时**    |    选中**启用**，开启组件交互功能。当鼠标从图标位置移出时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
 
 ## 蓝图编辑器交互配置
 
@@ -61,17 +61,17 @@
 
   * **事件**
 
-| **事件**     | **说明**                           |
-| ---- | ---- |
-| **当点击时**   | 当单击图标时抛出的事件，同时抛出该图标对应的数据项。       |
-| **当鼠标移入时** | 当鼠标移动到图标位置时抛出的事件，同时抛出该图标对应的数据项。  |
-| **当鼠标移出时** | 当鼠标从图标位置处移出时抛出的事件，同时抛出该图标对应的数据项。 |
+|    **事件**    |    **说明**    |
+|    ----    |    ----    |
+|    **当点击时**    |    当单击图标时抛出的事件，同时抛出该图标对应的数据项。    |
+|    **当鼠标移入时**    |    当鼠标移动到图标位置时抛出的事件，同时抛出该图标对应的数据项。    |
+|    **当鼠标移出时**    |    当鼠标从图标位置处移出时抛出的事件，同时抛出该图标对应的数据项。    |
   * **动作**
 
-| **动作**     | **说明**                                                                                                                                                                                                                                                                                                                                       |
-| ---- | ---- |
-| **更新组件配置** | 动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。                                                                                                                                                                                                                                                      |
-| **显示**     | 显示组件，参考数据示例如下。 return {   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" };                                                                                                                                                                                                                                 |
-| **隐藏**     | 隐藏组件，参考数据示例如下。 return {   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" };                                                                                                                                                                                                                                 |
-| **切换显隐状态** | 切换组件显示或者隐藏，参考数据示例如下。 return {   "animationIn": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   },   "animationOut": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   } };                                                                             |
-| **移动**     | 将组件移动到指定位置，参考数据示例如下。 return {   // 移动方式。绝对定位：to，相对定位：by。默认值：to。   "positionType": "to",   // 指定位置。x坐标，y坐标。   "attr": {     "x": 0,     "y": 0   },   // 动画方式。   "animation": {     "enable": false,     // 动画延时。     "animationDuration": 1000,     // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。     "animationEasing": "linear"   } }; |
+|    **动作**    |    **说明**    |
+|    ----    |    ----    |
+|    **更新组件配置**    |    动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。    |
+|    **显示**    |    显示组件，参考数据示例如下。 return {   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" };    |
+|    **隐藏**    |    隐藏组件，参考数据示例如下。 return {   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" };    |
+|    **切换显隐状态**    |    切换组件显示或者隐藏，参考数据示例如下。 return {   "animationIn": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   },   "animationOut": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   } };    |
+|    **移动**    |    将组件移动到指定位置，参考数据示例如下。 return {   // 移动方式。绝对定位：to，相对定位：by。默认值：to。   "positionType": "to",   // 指定位置。x坐标，y坐标。   "attr": {     "x": 0,     "y": 0   },   // 动画方式。   "animation": {     "enable": false,     // 动画延时。     "animationDuration": 1000,     // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。     "animationEasing": "linear"   } };    |

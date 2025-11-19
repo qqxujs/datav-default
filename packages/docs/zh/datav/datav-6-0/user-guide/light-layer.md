@@ -12,16 +12,16 @@
 * **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **环境光**
 
-| **参数** | **说明**                                                                                                                         |
-| ---- | ---- |
-| **颜色** | 环境光的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。 |
-| **强度** | 环境光的亮度。                                                                                                                        |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **颜色**    |    环境光的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **强度**    |    环境光的亮度。    |
 * **自发光**
 
-| **参数** | **说明**                                                                                                                         |
-| ---- | ---- |
-| **颜色** | 自发光的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。 |
-| **强度** | 自发光的亮度。                                                                                                                        |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **颜色**    |    自发光的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **强度**    |    自发光的亮度。    |
 * **半径**：光照范围的半径值，取值范围为1\~16。
 
 ## 数据面板
@@ -41,7 +41,7 @@
   * **事件**：无。
   * **动作**
 
-| **动作**   | **说明**      |
-| ---- | ---- |
-| **显示组件** | 显示组件，不需要参数。 |
-| **隐藏组件** | 隐藏组件，不需要参数。 |
+|    **动作**    |    **说明**    |
+|    ----    |    ----    |
+|    **显示组件**    |    显示组件，不需要参数。    |
+|    **隐藏组件**    |    隐藏组件，不需要参数。    |

@@ -41,7 +41,7 @@ getThemableConfig: function (themeConfig) {
         global: {  
           color: textColor,  
           backgroundColor: _.map(_.get(this.config, "options.global.backgroundColor"), (d, i) => {  
-            return palette[i] || palette[i % palette.length]  
+            return palette[i]    ||    palette[i % palette.length]  
           })  
         }  
       }  

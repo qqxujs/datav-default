@@ -9,19 +9,19 @@
   1. 进入[阿里云流计算开发平台](https://stream.console.aliyun.com/)，单击开发 \> 作业开发 \> 新建作业，创建一个名称为test的开发作业。![创建开发作业](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2578205851/p13883.png)
   2. 单击左侧菜单栏的数据存储，右键单击DataHub 数据存储，选择注册数据存储，填入相关信息，单击注册。![注册数据存储](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3578205851/p13896.png)  
 
-| 参数       | 说明                                                                                |
-| ---- | ---- |
-| 数据存储类型   | DataHub数据存储。                                                                      |
-| EndPoint | 通过[DataHub访问域名](https://help.aliyun.com/zh/datahub/product-overview/endpoints)获取。 |
-| Project  | DataHub的项目名称，可在[DataHub控制台](https://datahub.console.aliyun.com/)中获取。              |
+|    参数    |    说明    |
+|    ----    |    ----    |
+|    数据存储类型    |    DataHub数据存储。    |
+|    EndPoint    |    通过[DataHub访问域名](https://help.aliyun.com/zh/datahub/product-overview/endpoints)获取。    |
+|    Project    |    DataHub的项目名称，可在[DataHub控制台](https://datahub.console.aliyun.com/)中获取。    |
   3. 使用同样的方式注册RDS数据存储，参数说明如下。![注册RDS存储](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3578205851/p13897.png)  
 
-| 参数       | 说明                             |
-| ---- | ---- |
-| Instance | RDS的实例ID，可在RDS实例的基本信息页面获取。     |
-| DBName   | 数据库名称，可在RDS实例的数据库管理页面获取。       |
-| Username | 数据库绑定的账号名称，可通过RDS实例的数据库管理页面获取。 |
-| Password | 创建数据库时设置的密码。                   |  
+|    参数    |    说明    |
+|    ----    |    ----    |
+|    Instance    |    RDS的实例ID，可在RDS实例的基本信息页面获取。    |
+|    DBName    |    数据库名称，可在RDS实例的数据库管理页面获取。    |
+|    Username    |    数据库绑定的账号名称，可通过RDS实例的数据库管理页面获取。    |
+|    Password    |    创建数据库时设置的密码。    |    
   注册完成后，系统显示如下。![系统显示情况](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3578205851/p13898.png)
   4. 依次双击DataHub 数据存储 \> 项目名称（datahub\_test\_datav） \> 表名（mytable），选择右侧的作为输入表引用，在开发作业中引用数据源。![在开发作业中引用数据源](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3578205851/p13906.png)
   5. 依次双击RDS 数据存储 \> 数据库名称（datav\_test） \> 表名（target\_table），选择右侧的作为结果表引用，在开发作业中引用目标表。![引用目标表](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3578205851/p13907.png)

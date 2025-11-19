@@ -20,11 +20,11 @@
 
 图层节点配置的功能介绍如下表。
 
-| **操作**    | **说明**                                                                                                                                                                    |
-| ---- | ---- |
-| 添加        | 单击图层节点右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2502919661/p521438.png)图标或直接拖拽至蓝图画布中，实现添加操作。                                               |
-| 删除        | 在蓝图画布中，右键单击指定节点，选择**删除选中**，可将当前节点从蓝图画布中移除。**重要** 移除节点时，会同时移除选中的连线，且无法恢复，请谨慎操作。                                                                                            |
-| 搜索        | 在蓝图编辑器的主画布上方单击**搜索**，进入搜索面板，使用全局搜索功能，输入需要查找的图层节点。详情请参见[界面功能索引](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#93d8769ba1ukz)。 |
-| 聚焦        | 鼠标悬浮在节点上方。单击![{6D8C7713-5E6F-49D9-B20F-13A9DA2B3C8D}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2374097471/p915190.png)图标，在蓝图画布中定位当前图层节点。              |
-| 在画布编辑器中定位 | 鼠标悬浮在节点上方，单击![{D16EF17A-AE37-42F3-85E9-B1B784CCA144}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2374097471/p915198.png)图标，在画布编辑器中定位当前图层节点的位置。          |
-| 主画布       | 蓝图编辑器的主画布中其它操作请参见[主画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#d777870f4914m)。                                       |
+|    **操作**    |    **说明**    |
+|    ----    |    ----    |
+|    添加    |    单击图层节点右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2502919661/p521438.png)图标或直接拖拽至蓝图画布中，实现添加操作。    |
+|    删除    |    在蓝图画布中，右键单击指定节点，选择**删除选中**，可将当前节点从蓝图画布中移除。**重要** 移除节点时，会同时移除选中的连线，且无法恢复，请谨慎操作。    |
+|    搜索    |    在蓝图编辑器的主画布上方单击**搜索**，进入搜索面板，使用全局搜索功能，输入需要查找的图层节点。详情请参见[界面功能索引](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#93d8769ba1ukz)。    |
+|    聚焦    |    鼠标悬浮在节点上方。单击![{6D8C7713-5E6F-49D9-B20F-13A9DA2B3C8D}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2374097471/p915190.png)图标，在蓝图画布中定位当前图层节点。    |
+|    在画布编辑器中定位    |    鼠标悬浮在节点上方，单击![{D16EF17A-AE37-42F3-85E9-B1B784CCA144}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2374097471/p915198.png)图标，在画布编辑器中定位当前图层节点的位置。    |
+|    主画布    |    蓝图编辑器的主画布中其它操作请参见[主画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#d777870f4914m)。    |

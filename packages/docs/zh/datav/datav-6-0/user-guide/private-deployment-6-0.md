@@ -77,7 +77,7 @@
     /*  
     host: [],   // 使用第三方域名时需要。
   */  
-    // 默认账户: admin | 密码: hello_****, // 默认登录密码，如需新增，在此添加  
+    // 默认账户: admin    |    密码: hello_****, // 默认登录密码，如需新增，在此添加  
   };  
   ```
   5. 启动和检查服务。服务默认为停止状态。  
@@ -152,25 +152,25 @@
 
     * **离线打包文件**  
 
-| **文件**        | **说明**        |
-| ---- | ---- |
-| config.json   | 可视化应用基础信息。    |
-| data.json     | 数据配置内容。       |
-| filters.json  | 过滤器内容。        |
-| modules.js    | 组件资源文件。       |
-| packages.json | 组件信息。         |
-| screen.json   | 可视化应用配置项，已加密。 |
-| screen.key    | 可视化应用许可文件。    |
+|    **文件**    |    **说明**    |
+|    ----    |    ----    |
+|    config.json    |    可视化应用基础信息。    |
+|    data.json    |    数据配置内容。    |
+|    filters.json    |    过滤器内容。    |
+|    modules.js    |    组件资源文件。    |
+|    packages.json    |    组件信息。    |
+|    screen.json    |    可视化应用配置项，已加密。    |
+|    screen.key    |    可视化应用许可文件。    |
     * **本地修改后文件**  
       当该离线可视化应用对应的线上内容有变更时，可以保留下列文件，重新打包线上可视化应用，覆盖离线打包文件即可（可视化应用发布后才会生成以下文件）。
 
-| **文件**               | **说明**            |
-| ---- | ---- |
-| config-new.json      | 修改后的可视化应用基础信息。    |
-| data-new.json        | 修改后的数据配置内容。       |
-| filters-new.json     | 修改后的过滤器内容。        |
-| screen-new.json      | 修改后的可视化应用配置项，已加密。 |
-| interaction-new.json | 修改后的蓝图编辑器配置文件。    |
+|    **文件**    |    **说明**    |
+|    ----    |    ----    |
+|    config-new.json    |    修改后的可视化应用基础信息。    |
+|    data-new.json    |    修改后的数据配置内容。    |
+|    filters-new.json    |    修改后的过滤器内容。    |
+|    screen-new.json    |    修改后的可视化应用配置项，已加密。    |
+|    interaction-new.json    |    修改后的蓝图编辑器配置文件。    |
 3. 连接数据源。  
 私有部署采用DatavProxy数据源方式（⽀持MySQL、SQLServer、Oracle和PostgreSQL），详情请参见[如何使用DataV Proxy](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)和[添加DataV数据代理服务](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-a-datav-proxy-data-source#task-2470476)。
 4. 配置数据源。  

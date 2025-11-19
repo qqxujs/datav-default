@@ -20,10 +20,10 @@
 * **不透明度**：取值范围为0\~1。为**0**时，图表隐藏；为**1**时，图表全部显示。默认为**1**。
 * **全局**
 
-| **参数**   | **说明**                                                                                                                                 |
-| ---- | ---- |
-| **装饰元素** | 装饰元素的类型，系统提供55种装饰元素供您选择，并在下拉框中展示装饰元素的缩略图。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6682271861/p633071.png) |
-| **透明度**  | 装饰元素的透明度。                                                                                                                              |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **装饰元素**    |    装饰元素的类型，系统提供55种装饰元素供您选择，并在下拉框中展示装饰元素的缩略图。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6682271861/p633071.png)    |
+|    **透明度**    |    装饰元素的透明度。    |
 
 ## 数据面板
 
@@ -42,10 +42,10 @@
   * **事件**：无。
   * **动作**
 
-| **动作**     | **说明**                                                                                                                                                                                                                                                                                                                                       |
-| ---- | ---- |
-| **更新组件配置** | 动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。                                                                                                                                                                                                                                                      |
-| **显示**     | 显示组件，参考数据示例如下。 return {   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" };                                                                                                                                                                                                                                 |
-| **隐藏**     | 隐藏组件，参考数据示例如下。 return {   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" };                                                                                                                                                                                                                                 |
-| **切换显隐状态** | 切换组件显示或者隐藏，参考数据示例如下。 return {   "animationIn": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   },   "animationOut": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   } };                                                                             |
-| **移动**     | 将组件移动到指定位置，参考数据示例如下。 return {   // 移动方式。绝对定位：to，相对定位：by。默认值：to。   "positionType": "to",   // 指定位置。x坐标，y坐标。   "attr": {     "x": 0,     "y": 0   },   // 动画方式。   "animation": {     "enable": false,     // 动画延时。     "animationDuration": 1000,     // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。     "animationEasing": "linear"   } }; |
+|    **动作**    |    **说明**    |
+|    ----    |    ----    |
+|    **更新组件配置**    |    动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。    |
+|    **显示**    |    显示组件，参考数据示例如下。 return {   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" };    |
+|    **隐藏**    |    隐藏组件，参考数据示例如下。 return {   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" };    |
+|    **切换显隐状态**    |    切换组件显示或者隐藏，参考数据示例如下。 return {   "animationIn": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   },   "animationOut": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   } };    |
+|    **移动**    |    将组件移动到指定位置，参考数据示例如下。 return {   // 移动方式。绝对定位：to，相对定位：by。默认值：to。   "positionType": "to",   // 指定位置。x坐标，y坐标。   "attr": {     "x": 0,     "y": 0   },   // 动画方式。   "animation": {     "enable": false,     // 动画延时。     "animationDuration": 1000,     // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。     "animationEasing": "linear"   } };    |

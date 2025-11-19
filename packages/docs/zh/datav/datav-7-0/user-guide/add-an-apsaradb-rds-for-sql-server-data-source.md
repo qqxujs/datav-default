@@ -27,34 +27,34 @@
     1. 打开**VPC**开关，进入专有网络模式。
     2. 填写数据库信息。
 
-| **参数**            | **说明**                                                                                                                                                                                                                                                                                                                                                    |
-| ---- | ---- |
-| **名称**            | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                                                                                                                                                          |
-| **VPC ID**        | VPC实例的ID，此VPC为您的RDS for SQLServer实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在**实例列表**的**网络类型**中获取。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6289667571/p1006441.png)                                                                                                                                         |
-| **VPC 实例 ID**     | VPC下数据库实例的ID，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。**说明** 通常您可以直接在数据库产品的控制台查看数据库实例的VPC实例ID。但是由于VPC网络实现机制的原因，有时控制台显示的实例ID并不是DataV数据源配置 VPC网络需要的实例ID。因此您需要通过数据库产品的OPEN API获取DataV需要的VPC实例ID，通常为数据库实例详情中的VpcCloudInstanceId或VpcInstanceId，具体数据库产品获取VPC实例ID的接口，请参见[查询实例详情](https://help.aliyun.com/zh/rds/api-query-instance-details)。 |
-| **SQL Server 版本** | 可选，当您使用SQL Server2012之前的版本时，需要选择此选项。                                                                                                                                                                                                                                                                                                                      |
-| **域名**            | 连接数据库的URL地址。 **重要** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。例如使用内网环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxx33150.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。                                                                                                               |
-| **端口**            | 数据库设置的端口。                                                                                                                                                                                                                                                                                                                                                 |
-| **用户名**           | 登录数据库的用户名。                                                                                                                                                                                                                                                                                                                                                |
-| **密码**            | 登录数据库的密码。                                                                                                                                                                                                                                                                                                                                                 |
-| **数据库**           | 当前所选数据库的名称。                                                                                                                                                                                                                                                                                                                                               |
-| **encrypt**       | 开启后，可兼容微软Azure的SQL Server数据库。                                                                                                                                                                                                                                                                                                                             |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    数据源的显示名称，可以自由命名。    |
+|    **VPC ID**    |    VPC实例的ID，此VPC为您的RDS for SQLServer实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在**实例列表**的**网络类型**中获取。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6289667571/p1006441.png)    |
+|    **VPC 实例 ID**    |    VPC下数据库实例的ID，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。**说明** 通常您可以直接在数据库产品的控制台查看数据库实例的VPC实例ID。但是由于VPC网络实现机制的原因，有时控制台显示的实例ID并不是DataV数据源配置 VPC网络需要的实例ID。因此您需要通过数据库产品的OPEN API获取DataV需要的VPC实例ID，通常为数据库实例详情中的VpcCloudInstanceId或VpcInstanceId，具体数据库产品获取VPC实例ID的接口，请参见[查询实例详情](https://help.aliyun.com/zh/rds/api-query-instance-details)。    |
+|    **SQL Server 版本**    |    可选，当您使用SQL Server2012之前的版本时，需要选择此选项。    |
+|    **域名**    |    连接数据库的URL地址。 **重要** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。例如使用内网环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxx33150.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。    |
+|    **端口**    |    数据库设置的端口。    |
+|    **用户名**    |    登录数据库的用户名。    |
+|    **密码**    |    登录数据库的密码。    |
+|    **数据库**    |    当前所选数据库的名称。    |
+|    **encrypt**    |    开启后，可兼容微软Azure的SQL Server数据库。    |
     3. 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能连通正常。
   * 经典网络
 
     1. 关闭**VPC**开关，进入经典网络模式。
     2. 填写数据库信息。
 
-| **参数**            | **说明**                                                                                                                                                                                                                                      |
-| ---- | ---- |
-| **名称**            | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                                            |
-| **SQL Server 版本** | 可选，当您使用SQL Server2012之前的版本时，需要选择此选项。                                                                                                                                                                                                        |
-| **域名**            | 连接数据库的URL地址。 **重要** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。例如使用内网环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxx33150.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
-| **端口**            | 数据库设置的端口。                                                                                                                                                                                                                                   |
-| **用户名**           | 登录数据库的用户名。                                                                                                                                                                                                                                  |
-| **密码**            | 登录数据库的密码。                                                                                                                                                                                                                                   |
-| **数据库**           | 当前所选数据库的名称。                                                                                                                                                                                                                                 |
-| **encrypt**       | 开启后，可兼容微软Azure的SQL Server数据库。                                                                                                                                                                                                               |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    数据源的显示名称，可以自由命名。    |
+|    **SQL Server 版本**    |    可选，当您使用SQL Server2012之前的版本时，需要选择此选项。    |
+|    **域名**    |    连接数据库的URL地址。 **重要** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。例如使用内网环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxx33150.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。    |
+|    **端口**    |    数据库设置的端口。    |
+|    **用户名**    |    登录数据库的用户名。    |
+|    **密码**    |    登录数据库的密码。    |
+|    **数据库**    |    当前所选数据库的名称。    |
+|    **encrypt**    |    开启后，可兼容微软Azure的SQL Server数据库。    |
     3. 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能正常连通。
 6. 测试连接成功后，单击**确定**，完成数据源添加。  
 添加完成后，数据源会自动显示在数据源列表中。
@@ -68,16 +68,16 @@
 如果需要设置外网地址，请参见[设置连接地址](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/configure-endpoints-1#concept-tv3-pq1-ydb)。
 5. 填写数据库信息。
 
-| **参数**            | **说明**                                                                                                                                                                                                                                     |
-| ---- | ---- |
-| **名称**            | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                                           |
-| **SQL Server 版本** | 可选，当您使用SQL Server2012之前的版本时，需要选择此选项。                                                                                                                                                                                                       |
-| **域名**            | 连接数据库的URL地址。 **重要** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。例如使用外环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxxxxxdo.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
-| **端口**            | 数据库设置的端口。                                                                                                                                                                                                                                  |
-| **用户名**           | 登录数据库的用户名。                                                                                                                                                                                                                                 |
-| **密码**            | 登录数据库的密码。                                                                                                                                                                                                                                  |
-| **数据库**           | 当前所选数据库的名称。                                                                                                                                                                                                                                |
-| **encrypt**       | 开启后，可兼容微软Azure的SQL Server数据库。                                                                                                                                                                                                              |  
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **名称**    |    数据源的显示名称，可以自由命名。    |
+|    **SQL Server 版本**    |    可选，当您使用SQL Server2012之前的版本时，需要选择此选项。    |
+|    **域名**    |    连接数据库的URL地址。 **重要** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。例如使用外环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxxxxxdo.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。    |
+|    **端口**    |    数据库设置的端口。    |
+|    **用户名**    |    登录数据库的用户名。    |
+|    **密码**    |    登录数据库的密码。    |
+|    **数据库**    |    当前所选数据库的名称。    |
+|    **encrypt**    |    开启后，可兼容微软Azure的SQL Server数据库。    |    
 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能连通正常。
 6. 测试连接通过后，单击**确定**，完成数据源添加。  
 新添加的数据源会自动列在数据源列表中。

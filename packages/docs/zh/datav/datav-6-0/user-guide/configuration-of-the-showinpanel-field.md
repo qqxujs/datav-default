@@ -20,13 +20,13 @@
 }
 ```
 
-| 参数          | 说明                                                                                                                                                                                                                                        |
-| ---- | ---- |
-| conditions  | 配置条件，array类型。其中的每一项用长度为3的数组描述一个判断条件，数组中包含path、operator和value。                                                                                                                                                                             |
-| path        | 配置条件依赖的配置项的路径，支持绝对路径和相对路径： 绝对路径：从顶层根节点开始，使用.来拼接路径，例如chart.legend。相对路径：从当前配置开始，用.来定位路径，例如.type ..legend.show。                                                                                                                              |
-| operator    | 操作符，支持的类型包括： eq：相等$ne：不相等$gt：大于$lt：小于$gte：大于等于$lte：小于等于$in：在数组中$nin：不在数组中                                                                                                                                                                 |
-| value       | 配置项的值。 以[使用场景](#section-9fz-qsx-0nl)为例，当dataType与time同级，且dataType值等于time时，显示数据格式。conditions配置如下。 相对路径 \[".type", "$eq", "time"\]绝对路径 \["options.axis.xaxis.type", "$eq", "time"\]                                                         |
-| logicalType | conditions定义了若干条件，logicalType则定义了条件之间的逻辑关系。可选值包括$and（与）和$or（或），默认为$and。 当logicalType为$and时，可以只配置conditions数组。例如当b.switch等于true并且a.switch不等于false时，显示对应的配置项，showInPanel配置如下。 \[\["b.switch", "$eq", true\], \["a.switch", "$ne", false\]\] |
+|    参数    |    说明    |
+|    ----    |    ----    |
+|    conditions    |    配置条件，array类型。其中的每一项用长度为3的数组描述一个判断条件，数组中包含path、operator和value。    |
+|    path    |    配置条件依赖的配置项的路径，支持绝对路径和相对路径： 绝对路径：从顶层根节点开始，使用.来拼接路径，例如chart.legend。相对路径：从当前配置开始，用.来定位路径，例如.type ..legend.show。    |
+|    operator    |    操作符，支持的类型包括： eq：相等$ne：不相等$gt：大于$lt：小于$gte：大于等于$lte：小于等于$in：在数组中$nin：不在数组中    |
+|    value    |    配置项的值。 以[使用场景](#section-9fz-qsx-0nl)为例，当dataType与time同级，且dataType值等于time时，显示数据格式。conditions配置如下。 相对路径 \[".type", "$eq", "time"\]绝对路径 \["options.axis.xaxis.type", "$eq", "time"\]    |
+|    logicalType    |    conditions定义了若干条件，logicalType则定义了条件之间的逻辑关系。可选值包括$and（与）和$or（或），默认为$and。 当logicalType为$and时，可以只配置conditions数组。例如当b.switch等于true并且a.switch不等于false时，显示对应的配置项，showInPanel配置如下。 \[\["b.switch", "$eq", true\], \["a.switch", "$ne", false\]\]    |
 
 ## 示例一
 

@@ -10,22 +10,22 @@
 
 在预置模型库页面中，您可以进行如下功能操作： 
 
-| 功能     | 操作说明                                                                                                                                                                                                                                                                                                          |
-| ---- | ---- |
-| 预览精模信息 | 在预置模型库页签中，会显示当前系统内所有预置精模建筑的内容。您可以移动鼠标到某个模型处，单击预览，可查看精模模型的详细配置信息。精模模型和地标建筑的预览模型对话框内容一致，具体请参见[地标建筑模型信息](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/landmark-building-for-datav-6#section-3kl-zms-zrr)。![预览模型入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243889.png) |
-| 搜索精模   | 您可以单击页面上方的搜索模型输入框处，自定义输入模型的名称后，单击右侧的![搜索框](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243433.jpg)即可查找到所需的精模建筑内容。![搜索精模建筑](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243891.png)                                                                  |
+|    功能    |    操作说明    |
+|    ----    |    ----    |
+|    预览精模信息    |    在预置模型库页签中，会显示当前系统内所有预置精模建筑的内容。您可以移动鼠标到某个模型处，单击预览，可查看精模模型的详细配置信息。精模模型和地标建筑的预览模型对话框内容一致，具体请参见[地标建筑模型信息](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/landmark-building-for-datav-6#section-3kl-zms-zrr)。![预览模型入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243889.png)    |
+|    搜索精模    |    您可以单击页面上方的搜索模型输入框处，自定义输入模型的名称后，单击右侧的![搜索框](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243433.jpg)即可查找到所需的精模建筑内容。![搜索精模建筑](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243891.png)    |
 
 ## 我的模型页面管理
 
 在我的模型页面中，您可以进行如下功能操作： 
 
-| 功能     | 操作说明                                                                                                                                                                                                                                                                                                                  |
-| ---- | ---- |
-| 上传模型   | 在我的模型页签中，单击上传模型按钮，即可打开上传模型对话框，具体上传精模建筑模型步骤请参见[上传精模建筑模型](#section-6yx-ayu-52o)。                                                                                                                                                                                                                                        |
-| 预览精模信息 | 在我的模型页签中，会显示当前页面内所有自定义上传完成后的精模建筑模型。您可以移动鼠标到某个模型处，并单击预览，可查看精模模型的详细配置信息。精模模型和地标建筑的预览模型对话框内容一致，具体请参见[地标建筑模型信息](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/landmark-building-for-datav-6#section-3kl-zms-zrr)。![预览精模建筑入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243908.png) |
-| 搜索精模   | 您可以单击页面上方的搜索模型输入框处，自定义输入模型的名称后，单击右侧的![搜索框](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243433.jpg)即可查找到所需的自定义精模建筑内容。                                                                                                                                                                     |
-| 编辑模型   | 您可以移动鼠标到某个模型处，并单击![编辑模型](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243909.jpg)图标，即可打开编辑模型对话框，您可以对已上传的模型重新自定义设置模型名称、模型风格、模型等级和制作商等内容。模型基本信息配置，请参见[上传精模建筑模型](#section-6yx-ayu-52o)中的步骤4的内容。                                                                                              |
-| 删除模型   | 您可以移动鼠标到某个模型处，单击![删除图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243914.jpg)图标，删除当前模型。                                                                                                                                                                                                |
+|    功能    |    操作说明    |
+|    ----    |    ----    |
+|    上传模型    |    在我的模型页签中，单击上传模型按钮，即可打开上传模型对话框，具体上传精模建筑模型步骤请参见[上传精模建筑模型](#section-6yx-ayu-52o)。    |
+|    预览精模信息    |    在我的模型页签中，会显示当前页面内所有自定义上传完成后的精模建筑模型。您可以移动鼠标到某个模型处，并单击预览，可查看精模模型的详细配置信息。精模模型和地标建筑的预览模型对话框内容一致，具体请参见[地标建筑模型信息](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/landmark-building-for-datav-6#section-3kl-zms-zrr)。![预览精模建筑入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243908.png)    |
+|    搜索精模    |    您可以单击页面上方的搜索模型输入框处，自定义输入模型的名称后，单击右侧的![搜索框](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243433.jpg)即可查找到所需的自定义精模建筑内容。    |
+|    编辑模型    |    您可以移动鼠标到某个模型处，并单击![编辑模型](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243909.jpg)图标，即可打开编辑模型对话框，您可以对已上传的模型重新自定义设置模型名称、模型风格、模型等级和制作商等内容。模型基本信息配置，请参见[上传精模建筑模型](#section-6yx-ayu-52o)中的步骤4的内容。    |
+|    删除模型    |    您可以移动鼠标到某个模型处，单击![删除图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5110270261/p243914.jpg)图标，删除当前模型。    |
 
 ## 上传精模建筑模型
 
@@ -46,12 +46,12 @@
 4. 在完善模型信息对话框中，您可以完善当前模型的基本信息。  
 ![完善模型信息](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6110270261/p243927.jpg)
 
-| 模型信息 | 说明                     |
-| ---- | ---- |
-| 模型名称 | 自定义设置上传的模型名称。          |
-| 模型风格 | 选择模型风格类型，可选极简、赛博朋克和低面。 |
-| 模型等级 | 您可以选择模型的等级，共有五个等级可供挑选。 |
-| 制作商  | 选择模型制作商的类型，可选原厂、其他和预言。 |
+|    模型信息    |    说明    |
+|    ----    |    ----    |
+|    模型名称    |    自定义设置上传的模型名称。    |
+|    模型风格    |    选择模型风格类型，可选极简、赛博朋克和低面。    |
+|    模型等级    |    您可以选择模型的等级，共有五个等级可供挑选。    |
+|    制作商    |    选择模型制作商的类型，可选原厂、其他和预言。    |
 5. 在完善模型信息对话框中，您还可以查看当前上传的模型的视角，并拖动鼠标自定义调整模型视角至合适的角度，并且系统会自动保存该视角作为封面截图。
 6. 填写完模型信息和调整视角后，您可以单击对话框右下角的保存即可保存当前所有的模型配置。
 7. 上传模型成功后，在我的模型页签内，查看新建的模型。  

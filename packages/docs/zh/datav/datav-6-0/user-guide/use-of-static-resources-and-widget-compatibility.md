@@ -133,9 +133,9 @@ render: function (data, config) {
   },  
 mergeConfig: function (config) {  
     if (!config) {return this.config}  
-    this.config.theme = _.defaultsDeep(config.theme || {}, this.config.theme);  
+    this.config.theme = _.defaultsDeep(config.theme    ||    {}, this.config.theme);  
     this.setColors();  
-    this.config = _.defaultsDeep(config || {}, this.config);  
+    this.config = _.defaultsDeep(config    ||    {}, this.config);  
     return this.config;  
   },  
 });  
@@ -189,7 +189,7 @@ module.exports = Event.extend(function Base(container, config) {
   },  
   mergeConfig: function (config) {  
     if (!config) {return this.config}  
-    this.config = _.defaultsDeep(config || {}, this.config);  
+    this.config = _.defaultsDeep(config    ||    {}, this.config);  
     return this.config;  
   },  
 ...  
@@ -204,10 +204,10 @@ module.exports = Event.extend(function Base(container, config) {
 
 如果您遇到了组件实在无法兼容的情况，那您需要将兼容更新与主版本更新进行平衡。
 
-| 更新方式  | 优点                                   | 缺点                     |
-| ---- | ---- | ---- |
-| 兼容更新  | 组件使用者体验更优，实时更新享用组件最新功能，减少替换组件带来的工作量。 | 组件兼容逻辑导致组件代码变长，维护难度升高。 |
-| 主版本更新 | 组件开发者体验更优，组件逻辑简单，维护容易；代码量少，加载更快。     | 组件使用者的老组件无法获得迭代更新。     |
+|    更新方式    |    优点    |    缺点    |
+|    ----    |    ----    |    ----    |
+|    兼容更新    |    组件使用者体验更优，实时更新享用组件最新功能，减少替换组件带来的工作量。    |    组件兼容逻辑导致组件代码变长，维护难度升高。    |
+|    主版本更新    |    组件开发者体验更优，组件逻辑简单，维护容易；代码量少，加载更快。    |    组件使用者的老组件无法获得迭代更新。    |
 
 因此，每一种更新方式都有它的优缺点，您需要根据实际使用的场景，平衡选择您需要更新组件的方式。
 

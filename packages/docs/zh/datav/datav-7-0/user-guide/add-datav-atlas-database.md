@@ -28,11 +28,11 @@
 3. 从**类型**列表中，选择**DataV Atlas地理数据服务**。
 4. 填写数据源配置信息。
 
-| **参数**       | **说明**                                                                                                                                                                                                                          |
-| ---- | ---- |
-| **自定义数据源名称** | 自定义的数据源名称。                                                                                                                                                                                                                      |
-| **服务地址**     | DataV Atlas提供的服务地址和数据服务访问令牌。您可登录[DataV Atlas控制台](https://atlas.datav.aliyun.com/)，在**开放中心** \> **数据服务** \> **数据服务令牌**中获取服务地址和访问令牌。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3769394371/p886860.png) |
-| **访问令牌**     |                                                                                                                                                                                                                                 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **自定义数据源名称**    |    自定义的数据源名称。    |
+|    **服务地址**    |    DataV Atlas提供的服务地址和数据服务访问令牌。您可登录[DataV Atlas控制台](https://atlas.datav.aliyun.com/)，在**开放中心** \> **数据服务** \> **数据服务令牌**中获取服务地址和访问令牌。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3769394371/p886860.png)    |
+|    **访问令牌**    |    |
 5. 配置信息填写完成后，单击**确定**，完成数据源的添加。新添加的数据源会自动显示在数据源列表中。
 
 ## 使用DataV Atlas数据服务
@@ -47,13 +47,13 @@
 3. 在画布中添加基础平面地图4.0组件并添加矢量散点层子组件。添加组件操作请参见[组件画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
 4. 单击选中矢量散点层，在画布右侧的组件配置面板中选择**数据源**，配置数据源连接信息。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3769394371/p892283.png)
 
-| **参数**      | **说明**                                                         |
-| ---- | ---- |
-| **数据源类型**   | 选择DataV Atlas地理数据服务。                                           |
-| **选择已有数据源** | 选择已经创建的DataV Atlas地理数据服务，单击**创建**可以[创建数据源](#step-a2u-zlg-ewm)。 |
-| **选择API**   | 下拉选择已授权给服务令牌的数据服务。**重要** 数据服务必须在DataV Atlas中处于在线状态才能被选择。       |
-| **要素ID字段**  | 配置该项作为地理要素唯一标识，以保证跨瓦片交互选中正常运行。                                 |
-| **数据映射**    | 选择要可视化的数据字段，字段列表是在DataV Atlas中发布数据服务时勾选的统计字段。                  |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **数据源类型**    |    选择DataV Atlas地理数据服务。    |
+|    **选择已有数据源**    |    选择已经创建的DataV Atlas地理数据服务，单击**创建**可以[创建数据源](#step-a2u-zlg-ewm)。    |
+|    **选择API**    |    下拉选择已授权给服务令牌的数据服务。**重要** 数据服务必须在DataV Atlas中处于在线状态才能被选择。    |
+|    **要素ID字段**    |    配置该项作为地理要素唯一标识，以保证跨瓦片交互选中正常运行。    |
+|    **数据映射**    |    选择要可视化的数据字段，字段列表是在DataV Atlas中发布数据服务时勾选的统计字段。    |
 5. 进入**样式** \> **图形**页，对配置的映射字段开启视觉映射。颜色映射选择的是数值字段，需要选择数值连续或数值分区类型；形状映射选择的是文本字段，需要选择名词分类。数据映射相关配置，请参见[数据视觉映射](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/visual-mapping-of-data-of-datav-6/#DAS)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3769394371/p891302.png)
 
 如果您在使用DataV-Board产品时有任何疑惑或建议，请及时[联系我们](https://help.aliyun.com/zh/datav/datav-7-0/support/contact-us-for-datav-7)。

@@ -308,7 +308,7 @@ const brushStr = Object.values(brushes).map(({ selections }) => {
 }).find(d => !!d);  
 drillStr = drillStack.map(d => d.fields[0].values[0]).join('>');  
 return [{  
-  value: (brushStr || drillStr) ? alias.slice(6) : '无',  
+  value: (brushStr    ||    drillStr) ? alias.slice(6) : '无',  
 }];  
 ```
 
@@ -319,9 +319,9 @@ const brushStr = Object.values(brushes).map(({ selections }) => {
   return selections && selections.map(d => d.values[0]).join('X');  
 }).find(d => !!d);  
 drillStr = drillStack.map(d => d.fields[0].values[0]).join('>');  
-const str = brushStr && `选择 ${brushStr}` || drillStr && `下钻 ${drillStr}`;  
+const str = brushStr && `选择 ${brushStr}`    ||    drillStr && `下钻 ${drillStr}`;  
 return [{  
-  value: str || '',  
+  value: str    ||    '',  
 }];  
 ```
 

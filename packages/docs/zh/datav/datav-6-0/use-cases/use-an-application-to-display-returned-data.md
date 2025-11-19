@@ -26,12 +26,12 @@
   3. 在**添加数据**对话框中填写DataWorks数据服务项目信息，本案例的配置信息如下图所示。  
   ![添加数据](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8822440561/p431917.png)
 
-| **参数**                   | **说明**                                                                                                                                                                  |
-| ---- | ---- |
-| **自定义数据源名称**             | 数据源的显示名称，可以自由命名。                                                                                                                                                        |
-| **项目**                   | DataWorks项目（工作空间）。                                                                                                                                                      |
-| **Region**               | 需要与您的DataWorks项目在同一Region下。                                                                                                                                             |
-| **AppKey**/**AppSecret** | 参考[使用DataWorks数据服务生成API中的第三步](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#step3)，获取**AppKey**和**AppSecret**。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **自定义数据源名称**    |    数据源的显示名称，可以自由命名。    |
+|    **项目**    |    DataWorks项目（工作空间）。    |
+|    **Region**    |    需要与您的DataWorks项目在同一Region下。    |
+|    **AppKey**/**AppSecret**    |    参考[使用DataWorks数据服务生成API中的第三步](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#step3)，获取**AppKey**和**AppSecret**。    |
 2. 在可视化应用中调用数据服务API。
 
   1. 在DataV控制台中，单击**我的可视化** \> **PC端创建**。

@@ -11,12 +11,12 @@
 * **查看系统主题中的色块色值**：鼠标移动到某一个系统主题上，每次经过一个色块即可获取当前色块的色值，方便您确定配色的具体情况。 ![色块色值显示](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95241.png)
 * **管理已保存主题**
 
-| **操作**   | **描述**                                                                                                                                                                                                                                                                                                                                            |
-| ---- | ---- |
-| 选择已保存的主题 | 单击**已保存主题**下拉框，可在**已保存主题**列表中，查看保存过的自定义主题方案。单击选中某个主题，可在移动端可视化应用直接预览效果。 **重要** 初始状态下，**已保存主题**列表为空。                                                                                                                                                                                                                                                |
-| 编辑主题名称   | 单击![编辑图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95242.jpg)图标，可以修改选中主题的名称。 ![编辑主题名称](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95244.png)                                                                                                                                        |
-| 删除主题     | 单击![删除图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95246.jpg)图标，可以删除选中主题。 ![删除主题](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95248.png)**重要** 主题删除后不可恢复，请谨慎操作。                                                                                                                      |
-| 修改色块颜色   | 选择某个已保存主题中的色块，单击色块中的![编辑图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95242.jpg)图标。在颜色选择器框内，自定义选择所需要的颜色。确定后，单击外框任意地方即可完成色块颜色的修改。 ![颜色修改替换功能](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95251.png)**说明** **我的主题**功能面板中，所有在**已保存主题**界面内的主题色块都可以自定义修改色块颜色，**系统主题**下的主题色块是系统固定配色，不支持修改。 |
+|    **操作**    |    **描述**    |
+|    ----    |    ----    |
+|    选择已保存的主题    |    单击**已保存主题**下拉框，可在**已保存主题**列表中，查看保存过的自定义主题方案。单击选中某个主题，可在移动端可视化应用直接预览效果。 **重要** 初始状态下，**已保存主题**列表为空。    |
+|    编辑主题名称    |    单击![编辑图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95242.jpg)图标，可以修改选中主题的名称。 ![编辑主题名称](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95244.png)    |
+|    删除主题    |    单击![删除图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95246.jpg)图标，可以删除选中主题。 ![删除主题](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95248.png)**重要** 主题删除后不可恢复，请谨慎操作。    |
+|    修改色块颜色    |    选择某个已保存主题中的色块，单击色块中的![编辑图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95242.jpg)图标。在颜色选择器框内，自定义选择所需要的颜色。确定后，单击外框任意地方即可完成色块颜色的修改。 ![颜色修改替换功能](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p95251.png)**说明** **我的主题**功能面板中，所有在**已保存主题**界面内的主题色块都可以自定义修改色块颜色，**系统主题**下的主题色块是系统固定配色，不支持修改。    |
 
 ## 自定义主题
 

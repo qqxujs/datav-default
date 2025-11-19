@@ -171,7 +171,7 @@ return data.map(item => {
 ```  
  const toFixDecimal = (num, ...args) => {  
      const digit = typeof args[0] === 'number' ? args[0] : 2;  
-     const options = typeof args[0] === 'object' ? args[0] : (args[1] || {});  
+     const options = typeof args[0] === 'object' ? args[0] : (args[1]    ||    {});  
      const { keepInt = true } = options;  
      const value = Number.parseFloat(num);  
      if (keepInt) {  

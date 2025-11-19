@@ -124,13 +124,13 @@
 * x：各扇形的类目，对应系列的名称。
 * y：各扇形的值，决定各扇形占整个饼图的百分比。
 
-| **配置项**    | **说明**                                                                                                                                                                |
-| ---- | ---- |
-| **受控模式**   | 打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。                                                                                              |
-| **自动更新请求** | 选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。                                                                                            |
-| **数据源**    | 单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。 |
-| **数据过滤器**  | 数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。 |
-| **数据响应结果** | 展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。                                |
+|    **配置项**    |    **说明**    |
+|    ----    |    ----    |
+|    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
+|    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互
 
@@ -144,20 +144,20 @@
 
   * **事件**
 
-| **事件**            | **说明**                                                                           |
-| ---- | ---- |
-| **当多维度饼图接口请求完成时** | 数据接口请求返回并经过过滤器处理后抛出的事件，同时抛出处理后的JSON格式的数据。具体数据请参见上文的[数据示例](#section-vzq-pvr-q2b)。 |
-| **当点击数据项时**       | 当单击多维度饼图的扇形时抛出的事件，同时抛出该扇形对应的数据项。                                                 |
+|    **事件**    |    **说明**    |
+|    ----    |    ----    |
+|    **当多维度饼图接口请求完成时**    |    数据接口请求返回并经过过滤器处理后抛出的事件，同时抛出处理后的JSON格式的数据。具体数据请参见上文的[数据示例](#section-vzq-pvr-q2b)。    |
+|    **当点击数据项时**    |    当单击多维度饼图的扇形时抛出的事件，同时抛出该扇形对应的数据项。    |
   * **动作**
 
-| **动作**        | **说明**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ---- | ---- |
-| **请求多维度饼图接口** | 重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如多维度饼图配置了API数据源为http://api.test，传到**请求多维度饼图接口**动作的数据为{ id: '1'}，则最终请求接口为http://api.test?id=1。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **导入多维度饼图接口** | 按组件绘制格式处理数据后，导入组件，重新绘制。不需要重新请求服务端数据。具体数据请参见上文的[数据示例](#section-vzq-pvr-q2b)。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **高亮**        | 高亮数据项对应的元素。参考数据示例如下。{   data: {     x: '2010/01/01' //可列举多个高亮条件，类似filter。   },   options: {     style: {       fill: 'red'     },     selectMode: 'single',     cancelHighlightFirst: true   } }                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **取消高亮**      | 取消数据项对应元素的高亮。参考数据示例如下。{   data: {     x: '2010/01/01'   },   options: {     mode: 'single' // 当为single时，多个数据项命中时，只取消一个高亮；当为multiple时，多个数据项命中时，取消所有高亮。   } }                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **更新组件配置**    | 动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **显示**        | 显示组件，不需要参数。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **隐藏**        | 隐藏组件，不需要参数。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| **切换显隐状态**    | 切换组件显示或者隐藏。参考数据示例如下。    {       // 显示为true，隐藏为false。       "status": true,       // 显示动画。       "animationIn": {         // 动画方式，可选fade，不填无动画。         "animationType": "fade",         // 显示延时，单位为ms。         "animationDuration": 1000,         // 显示动画函数，可选linear\|easeInOutQuad|easeInOutExpo。         "animationEasing": "linear"       },       // 隐藏动画。       "animationOut": {         // 动画方式，可选fade，不填无动画。         "animationType": "fade",         // 隐藏延时，单位为ms。         "animationDuration": 1000,         // 隐藏动画函数，可选linear|easeInOutQuad|easeInOutExpo。         "animationEasing": "linear"       }     } |
-| **移动**        | 将组件移动到指定位置。参考数据示例如下。    {       // 移动方式。绝对定位：to，相对定位：by。默认值：to。         "positionType": "to",       // 指定位置。x坐标，y坐标。       "attr": {         "x": 0,         "y": 0       },       // 动画方式。       "animation": {         "enable": false,         // 动画延时。         "animationDuration": 1000,         // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。         "animationEasing": "linear"       }     }                                                                                                                                                                                                                 |
+|    **动作**    |    **说明**    |
+|    ----    |    ----    |
+|    **请求多维度饼图接口**    |    重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如多维度饼图配置了API数据源为http://api.test，传到**请求多维度饼图接口**动作的数据为{ id: '1'}，则最终请求接口为http://api.test?id=1。    |
+|    **导入多维度饼图接口**    |    按组件绘制格式处理数据后，导入组件，重新绘制。不需要重新请求服务端数据。具体数据请参见上文的[数据示例](#section-vzq-pvr-q2b)。    |
+|    **高亮**    |    高亮数据项对应的元素。参考数据示例如下。{   data: {     x: '2010/01/01' //可列举多个高亮条件，类似filter。   },   options: {     style: {       fill: 'red'     },     selectMode: 'single',     cancelHighlightFirst: true   } }    |
+|    **取消高亮**    |    取消数据项对应元素的高亮。参考数据示例如下。{   data: {     x: '2010/01/01'   },   options: {     mode: 'single' // 当为single时，多个数据项命中时，只取消一个高亮；当为multiple时，多个数据项命中时，取消所有高亮。   } }    |
+|    **更新组件配置**    |    动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。    |
+|    **显示**    |    显示组件，不需要参数。    |
+|    **隐藏**    |    隐藏组件，不需要参数。    |
+|    **切换显隐状态**    |    切换组件显示或者隐藏。参考数据示例如下。    {       // 显示为true，隐藏为false。       "status": true,       // 显示动画。       "animationIn": {         // 动画方式，可选fade，不填无动画。         "animationType": "fade",         // 显示延时，单位为ms。         "animationDuration": 1000,         // 显示动画函数，可选linear\|easeInOutQuad|easeInOutExpo。         "animationEasing": "linear"       },       // 隐藏动画。       "animationOut": {         // 动画方式，可选fade，不填无动画。         "animationType": "fade",         // 隐藏延时，单位为ms。         "animationDuration": 1000,         // 隐藏动画函数，可选linear|easeInOutQuad|easeInOutExpo。         "animationEasing": "linear"       }     }    |
+|    **移动**    |    将组件移动到指定位置。参考数据示例如下。    {       // 移动方式。绝对定位：to，相对定位：by。默认值：to。         "positionType": "to",       // 指定位置。x坐标，y坐标。       "attr": {         "x": 0,         "y": 0       },       // 动画方式。       "animation": {         "enable": false,         // 动画延时。         "animationDuration": 1000,         // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。         "animationEasing": "linear"       }     }    |

@@ -146,11 +146,11 @@
 
 ### **配置字段说明**
 
-| **字段** | **说明**                         |
-| ---- | ---- |
-| dim    | 用于配置雷达图中每个维度的类目，即维度的名称。        |
-| value  | 用于配置雷达图中每个维度的值。                |
-| s      | （可选） 系列值，与样式面板中的**系列**配置项配合使用。 |
+|    **字段**    |    **说明**    |
+|    ----    |    ----    |
+|    dim    |    用于配置雷达图中每个维度的类目，即维度的名称。    |
+|    value    |    用于配置雷达图中每个维度的值。    |
+|    s    |    （可选） 系列值，与样式面板中的**系列**配置项配合使用。    |
 
 ## 交互面板
 
@@ -158,11 +158,11 @@
 
 ### **交互说明**
 
-| **交互**        | **说明**                                                                                                                                                                                                        |
-| ---- | ---- |
-| **当点击数据项时**   | 选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的value和dim字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。 |
-| **当点击坐标轴标签时** | 选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击某个坐标轴标签时抛出回调值，默认抛出数据中的value和dim字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。 |
-| **当图例点击时**    | 选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的selected字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。     |
+|    **交互**    |    **说明**    |
+|    ----    |    ----    |
+|    **当点击数据项时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的value和dim字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    **当点击坐标轴标签时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击某个坐标轴标签时抛出回调值，默认抛出数据中的value和dim字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    **当图例点击时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的selected字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
 
 ## 蓝图编辑器交互配置
 
@@ -172,26 +172,26 @@
 
   * 事件
 
-| **事件**         | **说明**                                                                                                           |
-| ---- | ---- |
-| **当数据接口请求完成时** | 数据接口请求返回并经过过滤器处理后抛出的事件，同时抛出处理后的JSON格式的数据。具体数据示例请参见画布编辑器中组件右侧配置面板**数据**页签的**数据响应结果**区域。                           |
-| **当数据接口请求失败时** | 数据接口请求失败时（请求失败的情况可能是：网络问题或接口报错等）返回并经过过滤器处理后抛出的事件，同时抛出处理后的JSON格式的数据。具体数据示例请参见画布编辑器中组件右侧配置面板**数据**页签的**数据响应结果**区域。 |
-| **当点击数据项时**    | 当单击雷达图的扇区时抛出的事件，同时抛出该扇区对应的数据项。                                                                                   |
-| **当点击坐标轴标签时**  | 当单击雷达图的坐标轴标签时抛出的事件，同时抛出该标签对应的数据项。                                                                                |
-| **当图例点击时**     | 当单击雷达图的图例时抛出的事件，同时抛出该柱子对应的数据项。                                                                                   |
+|    **事件**    |    **说明**    |
+|    ----    |    ----    |
+|    **当数据接口请求完成时**    |    数据接口请求返回并经过过滤器处理后抛出的事件，同时抛出处理后的JSON格式的数据。具体数据示例请参见画布编辑器中组件右侧配置面板**数据**页签的**数据响应结果**区域。    |
+|    **当数据接口请求失败时**    |    数据接口请求失败时（请求失败的情况可能是：网络问题或接口报错等）返回并经过过滤器处理后抛出的事件，同时抛出处理后的JSON格式的数据。具体数据示例请参见画布编辑器中组件右侧配置面板**数据**页签的**数据响应结果**区域。    |
+|    **当点击数据项时**    |    当单击雷达图的扇区时抛出的事件，同时抛出该扇区对应的数据项。    |
+|    **当点击坐标轴标签时**    |    当单击雷达图的坐标轴标签时抛出的事件，同时抛出该标签对应的数据项。    |
+|    **当图例点击时**    |    当单击雷达图的图例时抛出的事件，同时抛出该柱子对应的数据项。    |
   * 动作
 
-| **动作**     | **说明**                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ---- | ---- |
-| **请求数据接口** | 重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如雷达图配置了API数据源为https://api.test，传到**请求数据接口**动作的数据为{ id: '1'}，则最终请求接口为https://api.test?id=1。                                                                                                                                                                                                                                                                                         |
-| **导入数据接口** | 按组件绘制格式处理数据后，导入组件，重新绘制。不需要重新请求服务端数据。具体数据示例请参见画布编辑器中组件右侧配置面板**数据**页签的**数据响应结果**区域。                                                                                                                                                                                                                                                                                                                                     |
-| **高亮显示**   | 动作传入数据为object类型，参数包括seriesName（系列名）、seriesIndex（系列索引）、dataIndex（数据索引）和name（数据名）。数据示例：{       "seriesName": "",       "seriesIndex": 1,       "dataIndex": 1,       "name": "" }                                                                                                                                                                                                                                       |
-| **取消高亮**   | 动作传入数据为object类型，参数包括seriesName（系列名）、seriesIndex（系列索引）、dataIndex（数据索引）和name（数据名）。数据示例：{       "seriesName": "",       "seriesIndex": 1,       "dataIndex": 1,       "name": "" }                                                                                                                                                                                                                                       |
-| **显示提示框**  | 动作传入数据为object类型，参数包括dataindex（数据索引）、name（数据名）、x（横坐标位置）和y（纵坐标位置）。数据示例：{      "dataIndex": 1,       "name": "",       "x": 1,       "y": 1 }                                                                                                                                                                                                                                                                            |
-| **隐藏提示框**  | 隐藏提示框，不需要参数。                                                                                                                                                                                                                                                                                                                                                                                                          |
-| **图例控制**   | 动作传入数据为object类型，参数包括type（图例动作类型）和name（图例名称）。数据示例：{       "type": "legendToggleSelect",       "name": "" }                                                                                                                                                                                                                                                                                                             |
-| **更新组件配置** | 动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。                                                                                                                                                                                                                                                                                                                               |
-| **显示**     | 显示组件，参考数据示例如下。return{   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" }                                                                                                                                                                                                                                                                                                             |
-| **隐藏**     | 隐藏组件，参考数据示例如下。return{   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" }                                                                                                                                                                                                                                                                                                             |
-| **切换显隐状态** | 切换组件显示或者隐藏，参考数据示例如下。return {   "animationIn": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   },   "animationOut": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   } }                                                                                                                                                        |
-| **移动**     | 将组件移动到指定位置，参考数据示例如下。    return{             // 移动方式。绝对定位：to，相对定位：by。默认值：to。         "positionType": "to",       // 指定位置。x坐标，y坐标。       "attr": {         "x": 0,         "y": 0       },       // 动画方式。       "animation": {         "enable": false,         // 动画延时。         "animationDuration": 1000,         // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。         "animationEasing": "linear"       }     } |
+|    **动作**    |    **说明**    |
+|    ----    |    ----    |
+|    **请求数据接口**    |    重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如雷达图配置了API数据源为https://api.test，传到**请求数据接口**动作的数据为{ id: '1'}，则最终请求接口为https://api.test?id=1。    |
+|    **导入数据接口**    |    按组件绘制格式处理数据后，导入组件，重新绘制。不需要重新请求服务端数据。具体数据示例请参见画布编辑器中组件右侧配置面板**数据**页签的**数据响应结果**区域。    |
+|    **高亮显示**    |    动作传入数据为object类型，参数包括seriesName（系列名）、seriesIndex（系列索引）、dataIndex（数据索引）和name（数据名）。数据示例：{       "seriesName": "",       "seriesIndex": 1,       "dataIndex": 1,       "name": "" }    |
+|    **取消高亮**    |    动作传入数据为object类型，参数包括seriesName（系列名）、seriesIndex（系列索引）、dataIndex（数据索引）和name（数据名）。数据示例：{       "seriesName": "",       "seriesIndex": 1,       "dataIndex": 1,       "name": "" }    |
+|    **显示提示框**    |    动作传入数据为object类型，参数包括dataindex（数据索引）、name（数据名）、x（横坐标位置）和y（纵坐标位置）。数据示例：{      "dataIndex": 1,       "name": "",       "x": 1,       "y": 1 }    |
+|    **隐藏提示框**    |    隐藏提示框，不需要参数。    |
+|    **图例控制**    |    动作传入数据为object类型，参数包括type（图例动作类型）和name（图例名称）。数据示例：{       "type": "legendToggleSelect",       "name": "" }    |
+|    **更新组件配置**    |    动态更新组件的样式配置。需要先在组件的**配置**面板中，单击**复制配置到剪贴板**，获取组件配置数据。再根据需要在蓝图编辑器配置页面的数据处理节点中更改对应样式的字段值。    |
+|    **显示**    |    显示组件，参考数据示例如下。return{   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" }    |
+|    **隐藏**    |    隐藏组件，参考数据示例如下。return{   "animationType": "",   "animationDuration": 1000,   "animationEasing": "linear" }    |
+|    **切换显隐状态**    |    切换组件显示或者隐藏，参考数据示例如下。return {   "animationIn": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   },   "animationOut": {     "animationType": "",     "animationDuration": 1000,     "animationEasing": "linear"   } }    |
+|    **移动**    |    将组件移动到指定位置，参考数据示例如下。    return{             // 移动方式。绝对定位：to，相对定位：by。默认值：to。         "positionType": "to",       // 指定位置。x坐标，y坐标。       "attr": {         "x": 0,         "y": 0       },       // 动画方式。       "animation": {         "enable": false,         // 动画延时。         "animationDuration": 1000,         // 动画曲线。可选值为：linear\|easeInOutQuad|easeInOutExpo。         "animationEasing": "linear"       }     }    |

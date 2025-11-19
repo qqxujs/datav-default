@@ -37,15 +37,15 @@
 
 通过全局搜索功能，可以快速搜索并添加所需组件库、图层、字体、全局变量、设计库及指令；查看当前看板所使用的组件、变量、字体、数据源请求等汇总信息；以及批量替换组件所使用的字体。
 
-| **相关操作** | **描述**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| ---- | ---- |
-| 输入+      | 搜索[组件库](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-library-management)中的组件，单击或拖拽可添加至画布。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862335.png)                                                                                                                                                                                                                                                                                                                             |
-| 输入/      | 搜索当前画布中的[图层](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-management-of-canvas-editor-in-pc-of-datav-7#undefined)，单击即可快速定位至指定图层。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862343.png)                                                                                                                                                                                                                                                                                       |
-| 输入\~     | 搜索当前画布中使用的字体，可查看使用每种字体的组件数量。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862345.png)图标，可快速定位使用该字体的组件，同时，支持批量替换组件使用的字体。您也可通过[其他设置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/smart-theme-for-canvas-on-pcs#f059156079qzm)批量更改看板中图表使用的字体。**说明** ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862441.png)图标表示您本地未安装相应字体。若选择该字体，则组件文本会显示为默认的字体样式。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862346.png) |
-| 输入：      | 搜索当前画布中的[全局变量](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables)，单击即可快速定位至该变量。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862380.png)                                                                                                                                                                                                                                                                                                                              |
-| 输入#      | 搜索[设计库](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/design-library)中的素材，单击或拖拽可添加至画布。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862382.png)                                                                                                                                                                                                                                                                                                                                        |
-| 输入\>     | 查看指令快捷键，例如，**刷新画布**、**全选**、**撤销**、**保存**等。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862386.png)**说明** 部分指令单击即可生效，具体请以实际界面功能为准。                                                                                                                                                                                                                                                                                                                                                             |
-| 查看统计信息   | 单击**查看页面统计**，可查看当前看板中的组件、蓝图节点、交互连线、数据请求、字体等统计信息。单击带下划线的数字，可跳转至对应搜索功能。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862387.png)                                                                                                                                                                                                                                                                                                                                                                 |
+|    **相关操作**    |    **描述**    |
+|    ----    |    ----    |
+|    输入+    |    搜索[组件库](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-library-management)中的组件，单击或拖拽可添加至画布。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862335.png)    |
+|    输入/    |    搜索当前画布中的[图层](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-management-of-canvas-editor-in-pc-of-datav-7#undefined)，单击即可快速定位至指定图层。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862343.png)    |
+|    输入\~    |    搜索当前画布中使用的字体，可查看使用每种字体的组件数量。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862345.png)图标，可快速定位使用该字体的组件，同时，支持批量替换组件使用的字体。您也可通过[其他设置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/smart-theme-for-canvas-on-pcs#f059156079qzm)批量更改看板中图表使用的字体。**说明** ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862441.png)图标表示您本地未安装相应字体。若选择该字体，则组件文本会显示为默认的字体样式。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862346.png)    |
+|    输入：    |    搜索当前画布中的[全局变量](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables)，单击即可快速定位至该变量。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862380.png)    |
+|    输入#    |    搜索[设计库](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/design-library)中的素材，单击或拖拽可添加至画布。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862382.png)    |
+|    输入\>    |    查看指令快捷键，例如，**刷新画布**、**全选**、**撤销**、**保存**等。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862386.png)**说明** 部分指令单击即可生效，具体请以实际界面功能为准。    |
+|    查看统计信息    |    单击**查看页面统计**，可查看当前看板中的组件、蓝图节点、交互连线、数据请求、字体等统计信息。单击带下划线的数字，可跳转至对应搜索功能。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890769271/p862387.png)    |
 
 ## **常用管理**
 
@@ -71,10 +71,10 @@
 
 在画布上方工具栏，通过单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4643919661/p517862.png)图标查看当前画布中的错误信息，包括但不限于**组件数据获取失败**、**过滤器执行错误**。
 
-| **报错类型**     | **说明**                                                                                                                                                 |
-| ---- | ---- |
-| **组件数据获取失败** | 组件请求数据源发生错误时，产生该报错。数据源的请求可能发生在组件首次加载时、组件自动更新时和全局变量触发更新时等。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8295287761/p576811.png) |
-| **过滤器执行错误**  | 组件请求数据源成功返回数据后，经过过滤器时产生报错，将记录为过滤器报错。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8295287761/p576809.png)                      |
+|    **报错类型**    |    **说明**    |
+|    ----    |    ----    |
+|    **组件数据获取失败**    |    组件请求数据源发生错误时，产生该报错。数据源的请求可能发生在组件首次加载时、组件自动更新时和全局变量触发更新时等。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8295287761/p576811.png)    |
+|    **过滤器执行错误**    |    组件请求数据源成功返回数据后，经过过滤器时产生报错，将记录为过滤器报错。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8295287761/p576809.png)    |
 
 ## **预览/发布数据看板**
 

@@ -50,22 +50,22 @@ module.exports = (stage) => {
 
 ```
 interface IStage {
-  get: (id: string) => ICompatibleComponent | undefined;
-  getAll: () => Record<string, ICompatibleComponent | undefined>;
+  get: (id: string) => ICompatibleComponent    |    undefined;
+  getAll: () => Record<string, ICompatibleComponent    |    undefined>;
   on: (eventName: string, listener: (...args: any[]) => void) => () => void;
   emit: (eventName: string, ...args: any[]) => void;
   exec: (methodName: string, ...args: any[]) => void;
   expose: (methodMap: Record<string, (...args: any[]) => void>) => void;
-  getComponent: (id: string) => IDatavComponent | undefined | null;
+  getComponent: (id: string) => IDatavComponent    |    undefined    |    null;
   getVariable: (
     id: string,
   ) =>
-    | {
+    |    {
         value: any;
         set: (value: any) => void;
         onChange: (cb: (current: any, prev: any) => void) => IDisposer;
       }
-    | undefined;
+    |    undefined;
 }
 
 type IDisposer = () => void;
@@ -92,7 +92,7 @@ interface IMoveConfig {
     x: number;
     y: number;
   };
-  positionType: 'to' | 'by';
+  positionType: 'to'    |    'by';
 }
 
 type ICompatibleComponent = IDatavComponent & {

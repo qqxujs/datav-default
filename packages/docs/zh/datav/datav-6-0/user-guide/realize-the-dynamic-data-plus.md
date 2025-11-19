@@ -30,7 +30,7 @@
    data: [  
    {  
    name: "up",  
-   value: data[0].value || 0  
+   value: data[0].value    ||    0  
    }  
    ]  
   };  
@@ -41,20 +41,20 @@
    data: [  
    {  
    name: "down",  
-   value: data[0].value || 0  
+   value: data[0].value    ||    0  
    }  
    ]  
   };  
   ```  
   ```  
   //A+变量B  
-  let dowm = getLocalValue('dowm') || 0;  
+  let dowm = getLocalValue('dowm')    ||    0;  
   let res = data && data.length !== 0 ? data[0].value + dowm : down  
   return [{ value: res }];  
   ```  
   ```  
   //B+变量A  
-  let up = getLocalValue('up') || 0;  
+  let up = getLocalValue('up')    ||    0;  
   let res = data && data.length !== 0 ? data[0].value + up : up  
   return [{ value: res }];  
   ```

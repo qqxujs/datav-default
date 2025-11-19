@@ -16,16 +16,16 @@
 
 #### **配置项说明**
 
-| **参数**   | **说明**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| ---- | ---- |
-| **链接地址** | 目标跳转页面的链接地址。包括**固定值**和**动态值**。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **新开页面** | 打开开关，新开一个网页页面打开跳转链接地址；关闭开关，在原有网页页面打开跳转链接地址。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| **请求参数** | 跳转页面时可自定义请求参数的**参数名**和**参数值**内容。单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521580.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521581.png)图标，添加或删除一个请求参数。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521582.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521583.png)图标配置多个请求参数的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521584.png)图标，即可复制当前选中请求参数配置内容并新增一个同样配置的请求参数。 |
+|    **参数**    |    **说明**    |
+|    ----    |    ----    |
+|    **链接地址**    |    目标跳转页面的链接地址。包括**固定值**和**动态值**。    |
+|    **新开页面**    |    打开开关，新开一个网页页面打开跳转链接地址；关闭开关，在原有网页页面打开跳转链接地址。    |
+|    **请求参数**    |    跳转页面时可自定义请求参数的**参数名**和**参数值**内容。单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521580.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521581.png)图标，添加或删除一个请求参数。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521582.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521583.png)图标配置多个请求参数的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5072919661/p521584.png)图标，即可复制当前选中请求参数配置内容并新增一个同样配置的请求参数。    |
 
 ### **锚点配置面板**
 
 #### ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3122680861/p624371.png)**动作参数说明**
 
-| **动作**   | **说明**              |
-| ---- | ---- |
-| **打开页面** | 输入上游节点的输出结果，用于打开页面。 |
+|    **动作**    |    **说明**    |
+|    ----    |    ----    |
+|    **打开页面**    |    输入上游节点的输出结果，用于打开页面。    |

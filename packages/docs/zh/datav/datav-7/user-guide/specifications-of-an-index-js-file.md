@@ -6,16 +6,16 @@ index.js文件是组件的主入口文件。本文档提供了一个示例供您
 
 ## 常用函数
 
-| 函数                                       | 说明                                                                                                                                                                                        |
-| ---- | ---- |
-| render(array: data)                      | 默认渲染方法。当组件被初始化后，组件渲染逻辑被调用，入参为数据。需要能够支持重渲染，即保证同样的数据输入，能够渲染出同样的效果。                                                                                                                          |
-| updateOptions(object: config)            | 更新组件配置，接收的入参config是修改后的新配置。                                                                                                                                                               |
-| emit(string: event\_name, object: value) | 抛出事件，抛出的value需要为object类型。此方法需要在package.json的events中声明后，节点编程中才会出现此事件。也可以在交互面板中使用。                                                                                                          |
-| resize(int: width, int: height)          | 缩放，当组件被拖拽、缩放时被调用。                                                                                                                                                                         |
-| clear()                                  | 清理，当组件被清理时被调用。                                                                                                                                                                            |
-| destroy()                                | 销毁，当组件被销毁时调用。                                                                                                                                                                             |
-| require(\*)                              | 支持 js、html。                                                                                                                                                                               |
-| getThemableConfig(themeConfig)           | 设置主题配置，当配置组件的主题时被调用，返回主题与组件配置的映射关系，同时使⽤themeConfig中提供的主题配置项进行主题配置。调用前需要在组件配置中，使用supportTheme字段声明组件是否支持主题配置，设置为true表示支持，更多详情请参见[getThemableConfig(themeConfig)函数说明](#section-ck7-stj-ehj)。 |
+|    函数    |    说明    |
+|    ----    |    ----    |
+|    render(array: data)    |    默认渲染方法。当组件被初始化后，组件渲染逻辑被调用，入参为数据。需要能够支持重渲染，即保证同样的数据输入，能够渲染出同样的效果。    |
+|    updateOptions(object: config)    |    更新组件配置，接收的入参config是修改后的新配置。    |
+|    emit(string: event\_name, object: value)    |    抛出事件，抛出的value需要为object类型。此方法需要在package.json的events中声明后，节点编程中才会出现此事件。也可以在交互面板中使用。    |
+|    resize(int: width, int: height)    |    缩放，当组件被拖拽、缩放时被调用。    |
+|    clear()    |    清理，当组件被清理时被调用。    |
+|    destroy()    |    销毁，当组件被销毁时调用。    |
+|    require(\*)    |    支持 js、html。    |
+|    getThemableConfig(themeConfig)    |    设置主题配置，当配置组件的主题时被调用，返回主题与组件配置的映射关系，同时使⽤themeConfig中提供的主题配置项进行主题配置。调用前需要在组件配置中，使用supportTheme字段声明组件是否支持主题配置，设置为true表示支持，更多详情请参见[getThemableConfig(themeConfig)函数说明](#section-ck7-stj-ehj)。    |
 
 ## getThemableConfig(themeConfig)函数说明
 

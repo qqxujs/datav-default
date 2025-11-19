@@ -20,7 +20,7 @@
 **说明** 如果您需要新建数据库，请参见[创建数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/create-a-database-for-an-apsaradb-rds-for-mysql-instance#concept-cg3-ljq-wdb)。
 
 | **参数**     | **说明**                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---- | ---- |
 | **名称**     | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | **VPC ID** | VPC实例的ID，此VPC为您的RDS for PostgreSQL实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在**实例列表** \> **基本信息** \> **网络类型**中获取。![获取VPC ID](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8244964951/p55693.png)                                                                                                                                                                                                          |
 | **实例 ID**  | VPC下数据库实例的ID，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。**说明** 通常您可以直接在数据库产品的控制台查看数据库实例的VPC实例ID。但是由于VPC网络实现机制的原因，有时控制台显示的实例ID并不是DataV数据源配置 VPC网络需要的实例ID。因此您需要通过数据库产品的OPEN API获取DataV需要的VPC实例ID，通常为数据库实例详情中的VpcCloudInstanceId或VpcInstanceId，具体数据库产品获取VPC实例ID的接口，请参见[DescribeDBInstanceAttribute - 查询实例详情](https://help.aliyun.com/zh/rds/developer-reference/api-rds-2014-08-15-describedbinstanceattribute#main-107864)。 |
@@ -37,7 +37,7 @@
 **说明** 如果您需要新建数据库，请参见[创建数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/create-a-database-for-an-apsaradb-rds-for-mysql-instance#concept-cg3-ljq-wdb)。
 
 | **参数**  | **说明**                                                                                                                                                                                                            |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---- | ---- |
 | **名称**  | 数据源的显示名称，可以自由命名。                                                                                                                                                                                                  |
 | **域名**  | 连接数据库的地址。 **重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。例如使用内网环境下的阿里云RDS for PostgreSQL，域名示例为：pgm-bpxxxxxxxxxxxxxx15970.pg.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
 | **端口**  | 数据库设置的端口。                                                                                                                                                                                                         |
@@ -59,7 +59,7 @@
 ![添加RDS for PostgreSQL数据源（外网）](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6981415261/p7871.png)
 
 | **参数**  | **说明**                                                                                                                                                                                                         |
-| ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---- | ---- |
 | **名称**  | 数据源的显示名称，可以自由命名。                                                                                                                                                                                               |
 | **域名**  | 连接数据库的地址。 **重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。例如使用外网环境下的阿里云RDS for PostgreSQL，域名示例为：pgm-bpxxxxxxxxxxxxxxqo.pg.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
 | **端口**  | 数据库设置的端口。                                                                                                                                                                                                      |

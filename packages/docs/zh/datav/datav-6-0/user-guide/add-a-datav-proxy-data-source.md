@@ -19,7 +19,7 @@
 ![添加DataV数据代理服务](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2367092951/p7911.png)
 
 | **参数**     | **说明**                                                                                                                                                                            |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---- | ---- |
 | **名称**     | 数据源的显示名称，可以自由命名。                                                                                                                                                                  |
 | **域名**     | DataV Proxy服务器所在IP地址或域名，如果您使用的是ECS服务器，则应该配置为ECS服务器的公网IP。详情请参见[如何使用DataV Proxy](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。 |
 | **端口**     | DataV Proxy安装完成后，系统会自动生成端口号，一般为8001。详情请参见[如何使用DataV Proxy](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。                     |

@@ -29,7 +29,7 @@
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9232680861/p624324.png)
 
 | **参数**   | **说明**                                                                                                         |
-| -------- | -------------------------------------------------------------------------------------------------------------- |
+| ---- | ---- |
 | **判断类型** | 选择不同的判断类型，可以**同时满足所有条件**触发或者**满足任一条件**触发。                                                                      |
 | **条件列表** | 设置不同的数据过滤器达到设置条件的目的，具体操作请参见[过滤器配置与应用](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。 |
 
@@ -38,7 +38,7 @@
 以**多路判断**为例，介绍锚点配置的相关参数和操作。**新增事件**或**新增动作**可以新增多个锚点，方便与其他组件交互。您可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4820082761/p521471.png)图标重命名锚点名称，单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4820082761/p521467.png)图标和![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4820082761/p521468.png)图标进行锚点排序，单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4820082761/p521470.png)图标查看参数提示，也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4820082761/p521469.png)图标删除锚点。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9232680861/p624326.png)
 
 | **事件/动作** | **说明**             |
-| --------- | ------------------ |
+| ---- | ---- |
 | **判断**    | 输入上游节点的输出结果，用于判断。  |
 | **满足**    | 上游节点输出的结果，满足设定条件。  |
 | **不满足**   | 上游节点输出的结果，不满足设定条件。 |

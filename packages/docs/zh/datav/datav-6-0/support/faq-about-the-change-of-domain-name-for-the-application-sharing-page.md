@@ -26,7 +26,7 @@
 * 勾选**需要cookie**：需根据请求字段`request.headers.referer`动态返回可被跨域请求的响应头`response headers`，示例如下。
 
 | **当前页面地址**                                        | 请求字段**request.headers.referer**              | **满足要求的响应头response headers**                            |
-| ------------------------------------------------- | -------------------------------------------- | ------------------------------------------------------- |
+| ---- | ---- | ---- |
 | 编辑页：https://datav.aliyun.com/v/editor/216787      | https://datav.aliyun.com/admin/screen/216787 | Access-Control-Allow-Origin: https://datav.aliyun.com   |
 | 发布分享页（域名变更前）：https://datav.aliyuncs.com/share/xxx | https://datav.aliyuncs.com/share/xxx         | Access-Control-Allow-Origin: https://datav.aliyuncs.com |
 | 发布分享页（域名变更后）：https://b.datav.run/share/xxx        | https://b.datav.run/share/xxx                | Access-Control-Allow-Origin: https://b.datav.run        |
@@ -45,7 +45,7 @@
   * `https://b.datav.run`
 
 | **DataV数据代理服务** | **旧跨域Origins配置**                                                                                      | **新跨域Origins配置**                                                                                                                             |
-| --------------- | ----------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---- | ---- | ---- |
 | 未配置跨域Origins    | 不涉及                                                                                                   | 不涉及                                                                                                                                          |
 | 已配置跨域Origins    | https://datav.aliyuncs.com http://datav.aliyuncs.com https://datav.aliyun.com http://datav.aliyun.com | https://datav.aliyuncs.com http://datav.aliyuncs.com https://datav.aliyun.com http://datav.aliyun.com https://b.datav.run http://b.datav.run |
 
@@ -70,7 +70,7 @@
 * X-Frame-Options：ALLOW-FROM URL，表示允许指定的源（URI）在iframe中嵌入该页面。
 
 | **当前页面地址**                                        | **request.headers.referer**              | **满足要求的响应头 response headers**                          |
-| ------------------------------------------------- | ---------------------------------------- | ------------------------------------------------------ |
+| ---- | ---- | ---- |
 | 编辑页：https://datav.aliyun.com/v/editor/216787      | https://datav.aliyun.com/v/editor/216787 | X-Frame-Options: ALLOW-FROM https://datav.aliyun.com   |
 | 发布分享页（域名变更前）：https://datav.aliyuncs.com/share/xxx | https://datav.aliyuncs.com/share/xxx     | X-Frame-Options: ALLOW-FROM https://datav.aliyuncs.com |
 | 发布分享页（域名变更后）：https://b.datav.run/share/xxx        | https://b.datav.run/share/xxx            | X-Frame-Options: ALLOW-FROM https://b.datav.run        |

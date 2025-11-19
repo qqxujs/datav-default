@@ -27,7 +27,7 @@ DataV-Board支持接入自建数据库。当您使用虚拟机或者ECS自建数
 在使用数据源时，API、阿里云API网关和Open API这三种类型该如何选择？
 
 | **数据源类型** | **类型说明**                                                         | **使用场景**                                                                                                                                                                                                                             |
-| --------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---- | ---- | ---- |
 | API       | 通用的数据接口。                                                         | 若您有直接可用的API，可使用API数据源连接。例如，已有站点提供的接口，或已购买的云服务搭建的接口等。具体使用操作请参见[添加API数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-api-data-sources)。                                                                                 |
 | 阿里云API网关  | 阿里云的一款云产品，提供API托管服务。                                             | 若您已有API中的逻辑在使用API数据源时不支持（例如计算签名等），可使用阿里云API网关托管您的API。DataV-Board连接阿里云API网关数据源时可以间接调用您在API网关中托管的API，此时阿里云API网关相当于API的代理。具体使用操作请参见[添加阿里云API网关数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-api-gateway-data-sources)。 |
 | Open API  | 阿里云提供的云产品开放接口的调用方式。使用Open API可以方便地调用各云产品提供的API接口，通常用于获取阿里云产品的信息。 | 若您想获取阿里云产品的数据信息（例如ECS负载状况、SLS日志统计），可以使用Open API数据源。Open API仅支持调用阿里云产品提供的API。具体使用操作请参见[添加Open API数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-api-data-source)。                                                  |
@@ -48,7 +48,7 @@ DataV-Board支持的数据源非常丰富，包含数据库类、大数据存储
 * 勾选白名单设置的数据源，一定要在数据库配置白名单方可正常连接。
 
 | **数据源类型**                                                                                                                            | **数据源**                                                                                                               | **公网连接**                                                                                    | **VPC连接**                                                                                   | **白名单设置**                                                                                  | **备注说明**                                                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---- | ---- | ---- | ---- | ---- | ---- |
 | 数据库类                                                                                                                                 | [添加RDS for MySQL数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-mysql-data-source) | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png) | 无。                                                                                                                                                                 |
 | [添加RDS for PostgreSQL数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-postgresql-data-source)      | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png)                            | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png)  | 无。                                                                                         |                                                                                                                                                                    |
 | [添加RDS for SQLServer数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-sql-server-data-source)       | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png)                            | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0128623461/p393956.png)  | 当 SQLServer 是微软 Azure 时必须勾选**encrypt**。                                                    |                                                                                                                                                                    |
@@ -92,7 +92,7 @@ DataV-Board支持的数据源非常丰富，包含数据库类、大数据存储
 **数据库类数据源支持地域：**
 
 | 地域        | 地域 ID                 |
-| --------- | --------------------- |
+| ---- | ---- |
 | 华东1（杭州）   | cn-hangzhou           |
 | 华东2（上海）   | cn-shanghai           |
 | 华南1（深圳）   | cn-shenzhen           |
@@ -107,7 +107,7 @@ DataV-Board支持的数据源非常丰富，包含数据库类、大数据存储
 **DataWorks服务支持地域：**
 
 | 地域      | 地域 ID       |
-| ------- | ----------- |
+| ---- | ---- |
 | 华东1（杭州） | cn-hangzhou |
 | 华东2（上海） | cn-shanghai |
 | 华南1（深圳） | cn-shenzhen |
@@ -116,7 +116,7 @@ DataV-Board支持的数据源非常丰富，包含数据库类、大数据存储
 **Elastic Search服务支持地域：**
 
 | 地域         | 地域 ID          |
-| ---------- | -------------- |
+| ---- | ---- |
 | 华东1（杭州）    | cn-hangzhou    |
 | 华东2（上海）    | cn-shanghai    |
 | 华南1（深圳）    | cn-shenzhen    |

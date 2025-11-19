@@ -17,7 +17,7 @@
 ![添加业务实时监控服务ARMS数据源](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1405964951/p34197.png)
 
 | 参数        | 说明                                          |
-| --------- | ------------------------------------------- |
+| ---- | ---- |
 | 自定义数据源名称  | 数据源的显示名称，您可以自由命名。                           |
 | AK ID     | 拥有ARMS访问权限的账号的AccessKey ID（从ARMS控制台获取）。     |
 | AK Secret | 拥有ARMS访问权限的账号的AccessKey Secret（从ARMS控制台获取）。 |

@@ -1,10 +1,10 @@
-  开发自定义组件封装ECharts图表-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 您可在ECharts官网找到适合自己需求的图表，例如本教程的案例柱状图动画延迟。
 
 ## 抽离配置与数据
 
-根据案例左侧代码栏中的配置，可以将一整个option抽离出配置与数据。案例的完整代码如下所示。
+根据案例左侧代码栏中的配置，可以将一整个option抽离出配置与数据。案例的完整代码如下所示。 
 
 ```
 var xAxisData = [];
@@ -69,10 +69,10 @@ option = {
 
 其中含有数据项的配置，如下所示。
 
--   option.xAxis.data
--   option.series\[x\].data
+* option.xAxis.data
+* option.series\[x\].data
 
-为了转换为DataV能识别的细化到数据元的数据，您可进行如下操作。
+为了转换为DataV能识别的细化到数据元的数据，您可进行如下操作。 
 
 ```
 [
@@ -88,19 +88,19 @@ option = {
 
 ## 填写package.json
 
-将梳理的配置和数据按照 [package.json 规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1#concept-yhh-qcl-q2b "package.json文件是组件的配置文件。本文档介绍package.json文件的字段详情，您可以参考本文档的字段说明，根据自身需求，灵活修改package.json文件，自定义组件样式。") 写入package.json，需要注意以下几点。
+将梳理的配置和数据按照 [package.json 规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1#concept-yhh-qcl-q2b "package.json文件是组件的配置文件。本文档介绍package.json文件的字段详情，您可以参考本文档的字段说明，根据自身需求，灵活修改package.json文件，自定义组件样式。") 写入package.json，需要注意以下几点。 
 
--   可以删除自己组件不需要的配置。
--   若需要案例代码中没有的配置，可从[ECharts配置项手册](https://echarts.apache.org/zh/option.html?spm=a2c4g.11186623.2.5.wQf3kR#title)中获取。
--   ECharts配置项种类繁多，大部分都已支持，但是不支持：
-    -   配置项是函数。
-    -   ECharts自己的类型，例如echarts.datatool.xxx。
-    -   目前也暂不支持一个配置项有多种类型，例如既可以是text类型，也可以是number类型。
--   配置结构与ECharts一致，若确实不能一致，需要在index.js中自己实现转换（所以也可以支持echarts.datatool等echarts类型）。
+* 可以删除自己组件不需要的配置。
+* 若需要案例代码中没有的配置，可从[ECharts配置项手册](https://echarts.apache.org/zh/option.html?spm=a2c4g.11186623.2.5.wQf3kR#title)中获取。
+* ECharts配置项种类繁多，大部分都已支持，但是不支持：  
+  * 配置项是函数。
+  * ECharts自己的类型，例如echarts.datatool.xxx。
+  * 目前也暂不支持一个配置项有多种类型，例如既可以是text类型，也可以是number类型。
+* 配置结构与ECharts一致，若确实不能一致，需要在index.js中自己实现转换（所以也可以支持echarts.datatool等echarts类型）。
 
-可单击[此处](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn_zh/1553830969679/package.json)下载package.json完整示例文件。
+可单击[此处](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn%5Fzh/1553830969679/package.json)下载package.json完整示例文件。 
 
-示例文件中的ECharts转换后的部分package.json，如下所示：
+示例文件中的ECharts转换后的部分package.json，如下所示： 
 
 ```
 {
@@ -1327,12 +1327,11 @@ option = {
 
 ## 编写index.js
 
-参见[index.js规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1#concept-bmf-nxl-q2b "index.js文件是组件的主入口文件。本文档提供了一个示例供您参考，并介绍了index.js文件中的常用函数。")文档，按照以下方法编写index.js文件：
+参见[index.js规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1#concept-bmf-nxl-q2b "index.js文件是组件的主入口文件。本文档提供了一个示例供您参考，并介绍了index.js文件中的常用函数。")文档，按照以下方法编写index.js文件： 
+1. 在初始化方法中，执行 EChart.init。
+2. 在渲染方法中，执行 chart.setOption。
+3. 在缩放方法中，执行 chart.resize。
+4. 在清空方法中，执行 chart.clear。
+5. 在销毁方法中，执行 chart.dispose。
 
-1.  在初始化方法中，执行 EChart.init。
-2.  在渲染方法中，执行 chart.setOption。
-3.  在缩放方法中，执行 chart.resize。
-4.  在清空方法中，执行 chart.clear。
-5.  在销毁方法中，执行 chart.dispose。
-
-可单击[此处](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn_zh/1553838110521/index.js)下载 index.js 完整示例文件。
+可单击[此处](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn%5Fzh/1553838110521/index.js)下载 index.js 完整示例文件。

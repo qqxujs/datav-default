@@ -1,17 +1,14 @@
-  账号使用与购买FAQ-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 本文介绍与DataV账号相关的常见问题及相应的解决方法。
 
 ## 可以使用子账号登录DataV控制台吗？
 
-您可以使用子账号登录DataV控制台，具体方法如下：
+您可以使用子账号登录DataV控制台，具体方法如下： 
 
-1.  参见[创建RAM用户](https://help.aliyun.com/zh/ram/user-guide/create-a-ram-user#task-187540)创建子账号。
-    
-2.  使用主账号进入DataV[配置工作空间](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-a-workspace#section-jk0-z0o-ait)，为已创建的子账号成员授予不同权限。
-    
-    子账号可授权设置成**管理员**或**开发者**，授权后子账号可以直接登录使用DataV。
-    
+1. 参见[创建RAM用户](https://help.aliyun.com/zh/ram/user-guide/create-a-ram-user#task-187540)创建子账号。
+2. 使用主账号进入DataV[配置工作空间](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-a-workspace#section-jk0-z0o-ait)，为已创建的子账号成员授予不同权限。  
+子账号可授权设置成**管理员**或**开发者**，授权后子账号可以直接登录使用DataV。
 
 ## DataV可以和别人共享使用账号吗？如果可以，最多可以添加几个子账号？
 
@@ -25,6 +22,6 @@ DataV不支持账号间的数据迁移。您可以通过添加子账号并授权
 
 企业版到期后，就可以重新购买基础版。您账号下在DataV编辑的内容不会受到影响。
 
-## 可否提升 DataV 当中的项目数上限？
+## 可否提升 DataV 当中的项目数上限？ 
 
-目前企业版已经支持屏幕数量扩展，请通过[阿里云市场](https://market.aliyun.com/?spm=5176.19720258.J_8058803260.16.5a642c4aIeCe9Z)购买。
+目前企业版已经支持屏幕数量扩展，请通过[阿里云市场](https://market.aliyun.com/?spm=5176.19720258.J%5F8058803260.16.5a642c4aIeCe9Z)购买。

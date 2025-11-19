@@ -1,10 +1,10 @@
- 
+<!DOCTYPE html> 
 
 您可在ECharts官网找到适合自己需求的图表，例如本教程的案例柱状图动画延迟。
 
 ## 抽离配置与数据
 
-根据案例左侧代码栏中的配置，可以将一整个option抽离出配置与数据。案例的完整代码如下所示。
+根据案例左侧代码栏中的配置，可以将一整个option抽离出配置与数据。案例的完整代码如下所示。 
 
 ```
 var xAxisData = [];
@@ -69,12 +69,10 @@ option = {
 
 其中含有数据项的配置，如下所示。
 
--   option.xAxis.data
-    
--   option.series\[x\].data
-    
+* option.xAxis.data
+* option.series\[x\].data
 
-为了转换为DataV能识别的细化到数据元的数据，您可进行如下操作。
+为了转换为DataV能识别的细化到数据元的数据，您可进行如下操作。 
 
 ```
 [
@@ -92,24 +90,18 @@ option = {
 
 将梳理的配置和数据按照 [package.json规范](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-a-package-json-file) 写入_package.json_，需要注意以下几点。
 
--   可以删除自己组件不需要的配置。
-    
--   若需要案例代码中没有的配置，可从[ECharts配置项手册](https://echarts.apache.org/zh/option.html?spm=a2c4g.11186623.2.5.wQf3kR#title)中获取。
-    
--   ECharts配置项种类繁多，大部分都已支持，但是不支持：
-    
-    -   配置项是函数。
-        
-    -   ECharts自己的类型，例如echarts.datatool.xxx。
-        
-    -   目前也暂不支持一个配置项有多种类型，例如既可以是text类型，也可以是number类型。
-        
--   配置结构与ECharts一致，若确实不能一致，需要在_index.js_中自己实现转换（所以也可以支持echarts.datatool等echarts类型）。
-    
+* 可以删除自己组件不需要的配置。
+* 若需要案例代码中没有的配置，可从[ECharts配置项手册](https://echarts.apache.org/zh/option.html?spm=a2c4g.11186623.2.5.wQf3kR#title)中获取。
+* ECharts配置项种类繁多，大部分都已支持，但是不支持：  
 
-可单击[此处](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn_zh/1553830969679/package.json)下载_package.json_完整示例文件。
+  * 配置项是函数。
+  * ECharts自己的类型，例如echarts.datatool.xxx。
+  * 目前也暂不支持一个配置项有多种类型，例如既可以是text类型，也可以是number类型。
+* 配置结构与ECharts一致，若确实不能一致，需要在_index.js_中自己实现转换（所以也可以支持echarts.datatool等echarts类型）。
 
-示例文件中的ECharts转换后的部分_package.json_，如下所示：
+可单击[此处](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn%5Fzh/1553830969679/package.json)下载_package.json_完整示例文件。
+
+示例文件中的ECharts转换后的部分_package.json_，如下所示： 
 
 ```
 {
@@ -1336,17 +1328,12 @@ option = {
 
 ## 编写index.js
 
-参见[index.js规范](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-an-index-js-file)文档，按照以下方法编写_index.js_文件：
+参见[index.js规范](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-an-index-js-file)文档，按照以下方法编写_index.js_文件： 
 
-1.  在初始化方法中，执行 _EChart.init_。
-    
-2.  在渲染方法中，执行 _chart.setOption_。
-    
-3.  在缩放方法中，执行 _chart.resize_。
-    
-4.  在清空方法中，执行 _chart.clear_。
-    
-5.  在销毁方法中，执行 _chart.dispose_。
-    
+1. 在初始化方法中，执行 _EChart.init_。
+2. 在渲染方法中，执行 _chart.setOption_。
+3. 在缩放方法中，执行 _chart.resize_。
+4. 在清空方法中，执行 _chart.clear_。
+5. 在销毁方法中，执行 _chart.dispose_。
 
-可单击[此处](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn_zh/1553838110521/index.js)下载 _index.js_ 完整示例文件。
+可单击[此处](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn%5Fzh/1553838110521/index.js)下载 _index.js_ 完整示例文件。

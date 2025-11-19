@@ -1,4 +1,4 @@
- 
+<!DOCTYPE html> 
 
 本文介绍DataV产品现有的增值功能，您可以通过付费购买，享有增值功能权益。
 
@@ -6,7 +6,7 @@
 
 DataV产品的增值功能目前有**组件收藏数量扩展包**和**屏幕数量扩展包**两种。
 
-**说明**
+**说明** 
 
 目前阿里云暂时不提供大屏定制开发的功能，如果您有定制需求，可以自主寻找合适的厂商进行开发。后续关于该功能的开放，您可以关注DataV官方平台发布的信息。
 
@@ -22,20 +22,16 @@ DataV提供将配置好的单个组件或者组件组合收藏起来（包括所
 
 购买组件收藏数量扩展包后，可以增加收藏组件数量的上限。新增的组件数量配额将会添加到工作空间管理中，您可以自行将配额分配至所需的工作空间中。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0571712961/p706821.png)
 
-**说明**
+**说明** 
 
 购买该扩展包后，可为阿里云账号永久提升组件收藏数量上限。该功能有效期与账号有效期同步，账号到期后仅需为DataV控制台登录账号续费即可，无需额外为扩展的收藏容量付费。
 
 ### **购买步骤**
 
-1.  登录[DataV控制台](https://datav.aliyun.com/v/console/)。
-    
-2.  单击**工作台**页面右上角的**用户中心**。
-    
-3.  在用户中心页面，单击**组件收藏数量扩展包**区域的**去购买**。
-    
-4.  按照界面指引完成购买操作。计费详情，请参见[产品计费](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
-    
+1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
+2. 单击**工作台**页面右上角的**用户中心**。
+3. 在用户中心页面，单击**组件收藏数量扩展包**区域的**去购买**。
+4. 按照界面指引完成购买操作。计费详情，请参见[产品计费](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
 
 ## 屏幕数量扩展包
 
@@ -45,16 +41,13 @@ DataV提供屏幕数量扩展包，用来扩充可创建项目数量。
 
 购买屏幕数量扩展包后，可以增加可用项目的数量。新增的屏幕数量配额将添加到工作空间管理中，您可以自行将配额分配至所需的工作空间中。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0571712961/p706821.png)
 
-**说明**
+**说明** 
 
 购买该扩展包后，可以为阿里云账号增加可用屏幕数量。该功能有效期与账号有效期同步，账号到期后仅需为DataV控制台登录账号续费即可，无需额外对屏幕扩展包续费。
 
 ### **购买步骤**
 
-1.  登录[DataV控制台](https://datav.aliyun.com/v/console/)。
-    
-2.  单击**工作台**页面右上角的**用户中心**。
-    
-3.  在用户中心页面，单击**屏幕数量扩展包**区域的**去购买**。
-    
-4.  按照界面指引完成购买操作。计费详情，请参见[产品计费](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
+1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
+2. 单击**工作台**页面右上角的**用户中心**。
+3. 在用户中心页面，单击**屏幕数量扩展包**区域的**去购买**。
+4. 按照界面指引完成购买操作。计费详情，请参见[产品计费](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。

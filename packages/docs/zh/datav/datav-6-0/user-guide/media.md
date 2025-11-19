@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+
+* [阿里云流播放器](/zh/datav/datav-6-0/user-guide/alibaba-cloud-stream-player)
+* [箭头标绘](/zh/datav/datav-6-0/user-guide/arrow-drawing)
+* [自定义背景块](/zh/datav/datav-6-0/user-guide/customized-background-1)
+* [边框](/zh/datav/datav-6-0/user-guide/border-1)
+* [模型查看器](/zh/datav/datav-6-0/user-guide/model-viewer-1)
+* [装饰](/zh/datav/datav-6-0/user-guide/graphic)
+* [萤石云播放器](/zh/datav/datav-6-0/user-guide/fluorite-cloud-player)
+* [图标](/zh/datav/datav-6-0/user-guide/icon)
+* [标志墙](/zh/datav/datav-6-0/user-guide/logo-wall-1)
+* [单张图片](/zh/datav/datav-6-0/user-guide/single-image)
+* [音频](/zh/datav/datav-6-0/user-guide/audio)
+* [RTMP视频流播放器](/zh/datav/datav-6-0/user-guide/rtmp-supported-live-stream-player)
+* [轮播图](/zh/datav/datav-6-0/user-guide/image-carousel)
+* [装饰条](/zh/datav/datav-6-0/user-guide/decoration-bar-1)
+* [视频](/zh/datav/datav-6-0/user-guide/video)
+* [色块](/zh/datav/datav-6-0/user-guide/colored-area)
+
+[上一篇: 步骤条](/zh/datav/datav-6-0/user-guide/steps "步骤条") [下一篇: 阿里云流播放器](/zh/datav/datav-6-0/user-guide/alibaba-cloud-stream-player "阿里云流播放器")

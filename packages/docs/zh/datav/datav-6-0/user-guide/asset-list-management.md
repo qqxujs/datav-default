@@ -1,4 +1,4 @@
-  搭建物料用于数据可视化看板搭建-资产列表管理-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 随着DataV数据可视化产品的搭建物料数量及丰富度的提升，传统的组件概念已经不能覆盖所有搭建物料的概念。本文详细介绍资产列表的含义及其能实现的所有功能。
 
@@ -6,12 +6,9 @@
 
 在**全部资产**下拉列表中，展示了您的账号内包括的所有的资产包。这些展示的资产包可分为三大类：![资产分类](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p298324.png)
 
--   **官方**：由DataV官方提供的资产包。
-    
--   **第三方**：由其他第三方公司及个人提供或者授权的资产包，资产包下的资产左下角会带有![第三方资产](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p284585.jpg)图标。![第三方示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p284592.jpg)
-    
--   **自定义**：您自定义的资产包或者由他人授权具有可写权限的资产包，资产包下的资产左下角会带有![自定义图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p284587.jpg)图标。![自定义资产](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p284593.jpg)
-    
+* **官方**：由DataV官方提供的资产包。
+* **第三方**：由其他第三方公司及个人提供或者授权的资产包，资产包下的资产左下角会带有![第三方资产](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p284585.jpg)图标。![第三方示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p284592.jpg)
+* **自定义**：您自定义的资产包或者由他人授权具有可写权限的资产包，资产包下的资产左下角会带有![自定义图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p284587.jpg)图标。![自定义资产](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3301927261/p284593.jpg)
 
 ## 资产包切换
 
@@ -33,12 +30,8 @@
 
 资产列表作为一个包括所有搭建物料的综合面板，资产列表中的内容包括：组件、区块、素材和模型等。
 
--   资产面板中**组件**类型的资产包括常规组件类型资产和BI分析组件类型资产，详细使用文档请参见[组件指南](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#concept-lsz-bc4-t2b)。
-    
--   资产面板新增了**区块**类型的资产，详细使用文档请参见[区块管理](https://help.aliyun.com/zh/datav/overview-of-blocks#concept-2085792)。
-    
--   资产面板新增了**素材**类型的资产，详细使用文档请参见[素材概述](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/material-overview#concept-2142437)。
-    
--   资产面板新增了**模型**类型的资产，详细使用文档请参见[模型概述](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/model-overview#concept-2156551)。
-    
--   资产列表面板内所有的资产内容均可添加到画布编辑器中并对资产进行多种操作和配置特定样式，资产在画布编辑器内的操作和配置详情，请参见[资产管理](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-a-widget#task-1392432)。
+* 资产面板中**组件**类型的资产包括常规组件类型资产和BI分析组件类型资产，详细使用文档请参见[组件指南](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#concept-lsz-bc4-t2b)。
+* 资产面板新增了**区块**类型的资产，详细使用文档请参见[区块管理](https://help.aliyun.com/zh/datav/overview-of-blocks#concept-2085792)。
+* 资产面板新增了**素材**类型的资产，详细使用文档请参见[素材概述](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/material-overview#concept-2142437)。
+* 资产面板新增了**模型**类型的资产，详细使用文档请参见[模型概述](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/model-overview#concept-2156551)。
+* 资产列表面板内所有的资产内容均可添加到画布编辑器中并对资产进行多种操作和配置特定样式，资产在画布编辑器内的操作和配置详情，请参见[资产管理](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-a-widget#task-1392432)。

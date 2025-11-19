@@ -1,4 +1,4 @@
-  自定义组件静态资源使用与兼容更新-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 本文从静态资源的使用和组件兼容更新两方面介绍自定义组件开发问题的解决方法。
 
@@ -10,7 +10,7 @@
 
 错误展示：在自定义组件中，使用了一张静态图片，在本地运行时没有问题，但是打包传到DataV环境测试时，会出现找不到该图片的情况。
 
-**说明**
+**说明** 
 
 在可视化应用中图片的查找路径是在screen下，由于路径查找错误可能会导致找不到图片。
 
@@ -50,12 +50,9 @@ https://img.alicdn.com/imgextra/i2/O1CN01ldWLoO1DJoLjOxRKU_!!6000000000196-0-tps
 this.container.html(`<img src=${cfg.path}>`);
 ```
 
-**说明**
-
--   新建的文件夹名称是固定的，必须是resources。
-    
--   注册的目的是方便DataV将静态资源打包进组件中。
-    
+**说明** 
+* 新建的文件夹名称是固定的，必须是resources。
+* 注册的目的是方便DataV将静态资源打包进组件中。
 
 ![方法二](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4682269361/p369247.png)
 
@@ -94,16 +91,14 @@ this.container.html(`<img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiI
 
 主版本更新：是指组件发生不兼容修改，比如组件的配置项和代码进行了大范围修改，甚至是重构，已经无法兼容时，此时主版本号X需要递增，次版本号和修订号置为0，例如：0.1.2更新到1.0.0。
 
--   次版本更新：是指组件发生兼容新功能的修改，比如组件新增了背景色的配置项，此时次版本号Y需要递增，主版本号不变，修订号置为0，例如：1.2.3更新到1.3.0。
-    
--   修订号更新：是指组件只发生了代码的修正，比如组件中修改了某个配置项的属性值，此时修订号Z 需要递增，主版本号和次版本号不变，例如：1.2.3更新到1.2.4。
-    
+* 次版本更新：是指组件发生兼容新功能的修改，比如组件新增了背景色的配置项，此时次版本号Y需要递增，主版本号不变，修订号置为0，例如：1.2.3更新到1.3.0。
+* 修订号更新：是指组件只发生了代码的修正，比如组件中修改了某个配置项的属性值，此时修订号Z 需要递增，主版本号和次版本号不变，例如：1.2.3更新到1.2.4。
 
 ### 解决方法
 
 怎么兼容组件更新？本文将介绍组件更新的过程，例如给标题组件添加背景色配置项，单击组件更新后，背景色配置项并没有加上，而当单击背景色配置项后，才会出现背景色。结合下图分析，您可以了解组件一键更新的过程：![组件更新过程](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369283.png)
 
-**说明**
+**说明** 
 
 如果您给组件新增配置时，将老版本组件升级到新版本组件使用了新的代码，但是配置还是用老组件的配置，会出现找不到新增的配置，出现兼容问题。
 
@@ -111,136 +106,108 @@ this.container.html(`<img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iaWNvbiI
 
 首先您可以查看更新前后的配置项对比：
 
--   原版本组件配置项结构：![原版本组件](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369326.png)
-    
--   添加背景色配置项后的结构：![添加背景色后](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369328.png)
-    
--   通用实现方法：在入口文件index.js的构造器中兼容背景色的配置。
-    
-    ```
-    module.exports = Event.extend(function Base(container, config) {
-      this.config = {
-        theme: {},
-        backgroundColor: "yellowGreen"         //本行代码属于关键代码
-      }
-      this.container = $(container);           //容器
-      this.apis = config.apis;                 //hook一定要有
-      this._data = null;                       //数据
-      this.chart = null;                       //图表
-      this.init(config);
-    }, {
-    render: function (data, config) {
-        data = this.data(data);
-        var cfg = this.mergeConfig(config);
-        //更新图表
-        //this.chart.render(data, cfg);
-    
-        this.container.html(data[0].value);
-        this.container.css({backgroundColor: cfg.backgroundColor});
-    
-        //如果有需要的话,更新样式
-        this.updateStyle();
-      },
-    mergeConfig: function (config) {
-        if (!config) {return this.config}
-        this.config.theme = _.defaultsDeep(config.theme || {}, this.config.theme);
-        this.setColors();
-        this.config = _.defaultsDeep(config || {}, this.config);
-        return this.config;
-      },
-    });
-    ```
-    
+* 原版本组件配置项结构：![原版本组件](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369326.png)
+* 添加背景色配置项后的结构：![添加背景色后](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369328.png)
+* 通用实现方法：在入口文件index.js的构造器中兼容背景色的配置。  
+```  
+module.exports = Event.extend(function Base(container, config) {  
+  this.config = {  
+    theme: {},  
+    backgroundColor: "yellowGreen"         //本行代码属于关键代码  
+  }  
+  this.container = $(container);           //容器  
+  this.apis = config.apis;                 //hook一定要有  
+  this._data = null;                       //数据  
+  this.chart = null;                       //图表  
+  this.init(config);  
+}, {  
+render: function (data, config) {  
+    data = this.data(data);  
+    var cfg = this.mergeConfig(config);  
+    //更新图表  
+    //this.chart.render(data, cfg);  
+    this.container.html(data[0].value);  
+    this.container.css({backgroundColor: cfg.backgroundColor});  
+    //如果有需要的话,更新样式  
+    this.updateStyle();  
+  },  
+mergeConfig: function (config) {  
+    if (!config) {return this.config}  
+    this.config.theme = _.defaultsDeep(config.theme || {}, this.config.theme);  
+    this.setColors();  
+    this.config = _.defaultsDeep(config || {}, this.config);  
+    return this.config;  
+  },  
+});  
+```
 
 ![组件兼容更新](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369394.png)
 
--   配置项变更兼容：直播视频中以DataV5.x版本的**柱状图**组件的配置项修改为例，在分组模式下，将**组内间距**和**组间间距**配置项放在一个suite中，并添加开关配置。![更改前后配置项对比](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369395.png)
-    
-    -   原版本组件配置项结构：![原配置项结构](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369397.png)
-        
-    -   更改后组件配置项结构：![更改后配置项结构](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369398.png)
-        
-    -   实现方法：首先需要判断您使用的是新组件还是老版本升级的组件：
-        
-    -   如果您直接使用v5.1.3的新组件，则直接使用新的配置；
-        
-    -   如果您是在v5.1.2的老版本上升级的，那么需要兼容老配置的默认值。
-        
--   兼容逻辑：您可以直接在代码中判断新配置项是否存在，而在构造器index.js中不兼容默认值。如果新配置项存在（说明是用户新添加的组件），则使用新配置项；如果新配置不存在（说明是从老版本升级上来的），则使用老配置。实现代码如下。
-    
-    ```
-    module.exports = Event.extend(function Base(container, config) {
-      this.config = {
-        options: {
-          chart: {
-            // 1. 此处不做任何兼容
-          }
-        }
-      }
-    },{
-      render: function (data, config) {
-        let cfg = this.mergeConfig(config);
-        
-        // 2. 此处判断新配置项是否存在
-        const {
-          chart: {
-            groupSpaceSet,
-            groupSpace,
-            groupInnerSpace,
-          }
-        } = cfg;
-        
-        // 此处的兼容特殊，不是单纯的配置项增加或者删除，他是同一个功能配置经过名称和结构内容修改变成新配置项，
-        /*** 兼容逻辑是：构造器index.js中不兼容默认值，直接在代码中判断新配置项是否存在。
-            如果新配置项存在（说明是用户新添加的组件），则使用新配置项；
-            如果新配置不存在（说明是从老版本升级上来的），则使用老配置。***/
-        
-        // 组内间距
-        const dodgePadding = _.isUndefined(groupSpaceSet) 
-                            ? groupInnerSpace
-                            : (groupSpaceSet.show ? groupSpaceSet.groupInnerSpace : null);
-        // 组间间距
-        const intervalPadding = _.isUndefined(groupSpaceSet)
-                            ? groupSpace
-                            : (groupSpaceSet.show ? groupSpaceSet.groupSpace : null);
-      },
-      mergeConfig: function (config) {
-        if (!config) {return this.config}
-        this.config = _.defaultsDeep(config || {}, this.config);
-        return this.config;
-      },
-    ...
-    });
-    ```
-    
-    **说明**
-    
-    组件兼容更新时，还包括数据兼容更新，类似于配置项兼容更新。当数据结构更改时，需要判断您传入的数据是老数据结构还是新数据结构。如果是老数据结构，需要将老数据结构转化为新数据结构；如果是新数据结构，那么不需要做数据变更兼容，直接进行主版本更新即可。
-    
-    ![配置型更改兼容](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890279361/p369446.png)
-    
+* 配置项变更兼容：直播视频中以DataV5.x版本的**柱状图**组件的配置项修改为例，在分组模式下，将**组内间距**和**组间间距**配置项放在一个suite中，并添加开关配置。![更改前后配置项对比](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369395.png)
+
+  * 原版本组件配置项结构：![原配置项结构](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369397.png)
+  * 更改后组件配置项结构：![更改后配置项结构](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5682269361/p369398.png)
+  * 实现方法：首先需要判断您使用的是新组件还是老版本升级的组件：
+  * 如果您直接使用v5.1.3的新组件，则直接使用新的配置；
+  * 如果您是在v5.1.2的老版本上升级的，那么需要兼容老配置的默认值。
+* 兼容逻辑：您可以直接在代码中判断新配置项是否存在，而在构造器index.js中不兼容默认值。如果新配置项存在（说明是用户新添加的组件），则使用新配置项；如果新配置不存在（说明是从老版本升级上来的），则使用老配置。实现代码如下。  
+```  
+module.exports = Event.extend(function Base(container, config) {  
+  this.config = {  
+    options: {  
+      chart: {  
+        // 1. 此处不做任何兼容  
+      }  
+    }  
+  }  
+},{  
+  render: function (data, config) {  
+    let cfg = this.mergeConfig(config);  
+      
+    // 2. 此处判断新配置项是否存在  
+    const {  
+      chart: {  
+        groupSpaceSet,  
+        groupSpace,  
+        groupInnerSpace,  
+      }  
+    } = cfg;  
+      
+    // 此处的兼容特殊，不是单纯的配置项增加或者删除，他是同一个功能配置经过名称和结构内容修改变成新配置项，  
+    /*** 兼容逻辑是：构造器index.js中不兼容默认值，直接在代码中判断新配置项是否存在。  
+        如果新配置项存在（说明是用户新添加的组件），则使用新配置项；  
+        如果新配置不存在（说明是从老版本升级上来的），则使用老配置。***/  
+      
+    // 组内间距  
+    const dodgePadding = _.isUndefined(groupSpaceSet)  
+                        ? groupInnerSpace  
+                        : (groupSpaceSet.show ? groupSpaceSet.groupInnerSpace : null);  
+    // 组间间距  
+    const intervalPadding = _.isUndefined(groupSpaceSet)  
+                        ? groupSpace  
+                        : (groupSpaceSet.show ? groupSpaceSet.groupSpace : null);  
+  },  
+  mergeConfig: function (config) {  
+    if (!config) {return this.config}  
+    this.config = _.defaultsDeep(config || {}, this.config);  
+    return this.config;  
+  },  
+...  
+});  
+```
+
+**说明**  
+组件兼容更新时，还包括数据兼容更新，类似于配置项兼容更新。当数据结构更改时，需要判断您传入的数据是老数据结构还是新数据结构。如果是老数据结构，需要将老数据结构转化为新数据结构；如果是新数据结构，那么不需要做数据变更兼容，直接进行主版本更新即可。  
+![配置型更改兼容](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8890279361/p369446.png)
 
 ### 无法兼容处理方法
 
 如果您遇到了组件实在无法兼容的情况，那您需要将兼容更新与主版本更新进行平衡。
 
-更新方式
-
-优点
-
-缺点
-
-兼容更新
-
-组件使用者体验更优，实时更新享用组件最新功能，减少替换组件带来的工作量。
-
-组件兼容逻辑导致组件代码变长，维护难度升高。
-
-主版本更新
-
-组件开发者体验更优，组件逻辑简单，维护容易；代码量少，加载更快。
-
-组件使用者的老组件无法获得迭代更新。
+| 更新方式  | 优点                                   | 缺点                     |
+| ----- | ------------------------------------ | ---------------------- |
+| 兼容更新  | 组件使用者体验更优，实时更新享用组件最新功能，减少替换组件带来的工作量。 | 组件兼容逻辑导致组件代码变长，维护难度升高。 |
+| 主版本更新 | 组件开发者体验更优，组件逻辑简单，维护容易；代码量少，加载更快。     | 组件使用者的老组件无法获得迭代更新。     |
 
 因此，每一种更新方式都有它的优缺点，您需要根据实际使用的场景，平衡选择您需要更新组件的方式。
 

@@ -1,4 +1,4 @@
-  产品核心优势与强大功能特性-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 本文为您介绍DataV-Board（数据看板）的主要优势功能。
 
@@ -30,7 +30,7 @@
 
 将游戏级三维渲染的能力引入地理场景，借助GPU计算能力实现海量数据渲染，提供低成本、可复用的三维数据可视化方案，适用于智慧城市、智慧交通、安防监控和商业智能等场景。![1648630901154-10msize](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4347953761/p550801.webp)
 
-## **多种数据源接入**
+## **多种数据源接入** 
 
 支持接入包括阿里云分析型数据库、关系型数据库、本地CSV上传文件和在线API等多种数据源，并支持动态请求。![数据源(2)(2) - Trim.gif](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0409838961/p732075.gif)
 
@@ -42,6 +42,6 @@
 
 支持自定义三维模型上传与展示，极大丰富了数据大屏的三维表现力。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0409838961/p732150.png)
 
-## **安全性高**
+## **安全性高** 
 
 支持发布链接访问和二维码分享访问，通过密码/Token的方式进行访问权限控制，保护您的数据隐私安全。![1.jpg](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0409838961/p732157.jpg)

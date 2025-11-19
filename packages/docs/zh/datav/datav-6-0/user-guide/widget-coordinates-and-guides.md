@@ -1,4 +1,4 @@
-  使用坐标和辅助线精准定位排布组件-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 本文介绍如何使用DataV画布编辑器的组件坐标和辅助线，通过组件的坐标和辅助线，您可以在数字大屏中精准地对组件进行定位排布。
 
@@ -12,10 +12,7 @@
 
 DataV画布中提供了辅助线的功能，使用方法如下。
 
-1.  移动鼠标至左侧或上方标尺处。
-    
-2.  选择标尺上某一位置，单击鼠标即可出现辅助线。
-    
-3.  双击添加的辅助线，可删除该辅助线。
-    
-4.  在画布左上角，单击辅助线隐藏图标![辅助线图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6457929951/p9213.png)，可隐藏所有辅助线。再次单击显示所有辅助线。 ![辅助线添加隐藏操作](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6457929951/p9215.gif)
+1. 移动鼠标至左侧或上方标尺处。
+2. 选择标尺上某一位置，单击鼠标即可出现辅助线。
+3. 双击添加的辅助线，可删除该辅助线。
+4. 在画布左上角，单击辅助线隐藏图标![辅助线图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6457929951/p9213.png)，可隐藏所有辅助线。再次单击显示所有辅助线。 ![辅助线添加隐藏操作](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6457929951/p9215.gif)

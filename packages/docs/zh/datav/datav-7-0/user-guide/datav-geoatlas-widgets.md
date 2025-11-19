@@ -1,15 +1,12 @@
- 
+<!DOCTYPE html> 
 
 DataV.GeoAtlas是一款线上地理小工具，能进行地理范围选择、数据编辑和层级生成等功能。本文简述DataV.GeoAtlas工具的基本情况。
 
-DataV.GeoAtlas工具主要由**范围选择器**、**数据编辑器**和**层级生成器**三个子工具模块组成，您可以通过打开[DataV.GeoAtlas地理小工具系列](https://datav.aliyun.com/portal/school/atlas/area_selector?spm=a2crr.23498931.0.0.787b15ddCThiIb)，线上体验并使用DataV.GeoAtlas工具的功能。
+DataV.GeoAtlas工具主要由**范围选择器**、**数据编辑器**和**层级生成器**三个子工具模块组成，您可以通过打开[DataV.GeoAtlas地理小工具系列](https://datav.aliyun.com/portal/school/atlas/area%5Fselector?spm=a2crr.23498931.0.0.787b15ddCThiIb)，线上体验并使用DataV.GeoAtlas工具的功能。
 
-**说明**
-
--   DataV.GeoAtlas工具中的数据来自高德开放平台，仅供学习和交流使用。如有版权相关问题，请前往[高德开放平台](http://lbs.amap.com/)进行确认。
-    
--   DataV.GeoAtlas工具仅支持选择中国地图相关数据，其他国家和地区的数据需要您自行获取。
-    
+**说明** 
+* DataV.GeoAtlas工具中的数据来自高德开放平台，仅供学习和交流使用。如有版权相关问题，请前往[高德开放平台](http://lbs.amap.com/)进行确认。
+* DataV.GeoAtlas工具仅支持选择中国地图相关数据，其他国家和地区的数据需要您自行获取。
 
 ## 范围选择器
 

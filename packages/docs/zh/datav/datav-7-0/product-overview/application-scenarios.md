@@ -1,4 +1,4 @@
-  产品典型应用场景看板示例-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 DataV数据可视化经过多年的可视化应用实践操作，已形成多样化的典型场景。例如：运营数据看板、地理数据看板、城市交通看板、指挥中心看板等。您可以[开通DataV-Board服务](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/activate-datav-1)，体验DataV数据可视化内各类优质行业模板，快速搭建属于自己的数据看板。
 

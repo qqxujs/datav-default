@@ -1,15 +1,13 @@
-  解决API数据源的跨域访问问题-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 当您在DataV中使用API数据源时，可能会遇到跨域的问题。本文为您介绍跨域问题的产生背景，并提供几种常见的解决跨域问题的方法。
 
 ## 背景信息
 
-用户A想创建一个可视化应用，用于向客户展示数据。当**数据源类型**选择**API**时，可能出现以下两种情况。
+用户A想创建一个可视化应用，用于向客户展示数据。当**数据源类型**选择**API**时，可能出现以下两种情况。 
 
--   若为远程服务器上的API，则可以勾选**服务器代理请求（因跨域无法访问时可勾选）**。勾选**服务器代理请求（因跨域无法访问时可勾选）**时，由DataV后台的服务器对API发起请求，超时时间为10秒，无法修改。![服务器代理请求入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8459822951/p8623.png)
-    
--   若为本地API，则不勾选**服务器代理请求（因跨域无法访问时可勾选）**，且接口需要进行跨域数据配置。不勾选**服务器代理请求（因跨域无法访问时可勾选）**时，是由本地浏览器对该API进行访问，超时时间由浏览器来决定。
-    
+* 若为远程服务器上的API，则可以勾选**服务器代理请求（因跨域无法访问时可勾选）**。勾选**服务器代理请求（因跨域无法访问时可勾选）**时，由DataV后台的服务器对API发起请求，超时时间为10秒，无法修改。![服务器代理请求入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8459822951/p8623.png)
+* 若为本地API，则不勾选**服务器代理请求（因跨域无法访问时可勾选）**，且接口需要进行跨域数据配置。不勾选**服务器代理请求（因跨域无法访问时可勾选）**时，是由本地浏览器对该API进行访问，超时时间由浏览器来决定。
 
 ## 什么是跨域数据配置
 
@@ -23,84 +21,66 @@ XMLHttpRequest 无法加载 http://userB.com/page2。所请求的资源不带有
 
 ## **跨域问题形成的原因**
 
-由于每个网站都包含各种用户接口、订单接口和文章接口，这意味着每个人都可以将这些接口返回的数据放入自己的网站，甚至是实时放入。因此浏览器采用同源策略，用于限制一个源站点的脚本获取其他源站点的资源。
+由于每个网站都包含各种用户接口、订单接口和文章接口，这意味着每个人都可以将这些接口返回的数据放入自己的网站，甚至是实时放入。因此浏览器采用同源策略，用于限制一个源站点的脚本获取其他源站点的资源。 
 
-**说明**
+**说明** 
 
 同源：如果两个页面的协议（HTTP）、端口（80） 和主机（userA.com）相同，那么这两个页面被认为是来自同一个源。
 
 ## 解决方案
 
--   A.x.com和B.x.com跨域
-    
-    如果两个网站的子域不同，会存在跨域问题。例如`http://56.alibaba.com/`和`http://trade.alibaba.com/`。
-    
-    在页面中加入如下代码，将该页面声明为更高级别的域。
-    
-    ```
-    <script>
-      document.domain = "x.com";
-    </script>
-    ```
-    
--   JSONP
-    
-    虽然JSONP是最经典、高效、浏览器兼容最好的解决方案，但由于它有非常高的跨站脚本攻击风险，所以**DataV不支持这种方式**。您可查阅相关资料了解具体信息。
-    
--   跨域资源共享
-    
-    **说明**
-    
-    跨域资源共享：Cross Origin Resource Sharing，简称为CORS。已经与大多数较新的浏览器兼容。
-    
-    -   基本原理：在源站点B（本地API）中加入自定义的HTTP头部，使其他网站可以访问其资源。
-        
-    -   配置方法：
-        
-        -   若源站点B的接口数据需要被某一个网站使用，在数据服务器返回的报头信息中加入以下内容。
-            
-            ```
-            Access-Control-Allow-Origin: http://userA.com
-            ```
-            
-        -   若源站点B的接口数据需要被多个网站使用，必须使用一个程序来动态生成报头信息。以PHP代码为例。
-            
-            ```
-            <?php 
-            if (is_my_code($_SERVER['HTTP_ORIGIN'])) {
-            header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
-            }
-            ?>
-            ```
-            
-        -   若源站点B的接口数据需要被所用的网站使用，可以使用`“*”`。
-            
-            ```
-            Access-Control-Allow-Origin: *
-            ```
-            
-    -   添加Cookie操作：默认情况下CORS中不包含Cookie信息。如果您想添加Cookie，可执行以下步骤。
-        
-        1.  添加`withCredentials`参数，以jQuery为例。
-            
-            ```
-            $.ajax({
-             url: "http://userB.com/page2",
-             xhrFields: {
-               withCredentials: true
-             }
-            });
-            ```
-            
-        2.  将服务器设置为允许使用报头凭证，但不允许使用通配符`“*”`，以PHP为例。
-            
-            ```
-            <?php 
-            if (is_my_code($_SERVER['HTTP_ORIGIN'])) {
-            header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}"); // Disallow “*”
-            header("Access-Control-Allow-Credentials:true");
-            }
-            ?>
-            ```
-            
-            更多详细信息请参见[HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access_control_CORS)。
+* A.x.com和B.x.com跨域  
+如果两个网站的子域不同，会存在跨域问题。例如`http://56.alibaba.com/`和`http://trade.alibaba.com/`。  
+在页面中加入如下代码，将该页面声明为更高级别的域。  
+```  
+<script>  
+  document.domain = "x.com";  
+</script>  
+```
+* JSONP  
+虽然JSONP是最经典、高效、浏览器兼容最好的解决方案，但由于它有非常高的跨站脚本攻击风险，所以**DataV不支持这种方式**。您可查阅相关资料了解具体信息。
+* 跨域资源共享
+
+**说明**  
+跨域资源共享：Cross Origin Resource Sharing，简称为CORS。已经与大多数较新的浏览器兼容。
+
+  * 基本原理：在源站点B（本地API）中加入自定义的HTTP头部，使其他网站可以访问其资源。
+  * 配置方法：
+
+    * 若源站点B的接口数据需要被某一个网站使用，在数据服务器返回的报头信息中加入以下内容。  
+      ```  
+      Access-Control-Allow-Origin: http://userA.com  
+      ```
+    * 若源站点B的接口数据需要被多个网站使用，必须使用一个程序来动态生成报头信息。以PHP代码为例。  
+      ```  
+      <?php  
+      if (is_my_code($_SERVER['HTTP_ORIGIN'])) {  
+      header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");  
+      }  
+      ?>  
+      ```
+    * 若源站点B的接口数据需要被所用的网站使用，可以使用`“*”`。  
+      ```  
+      Access-Control-Allow-Origin: *  
+      ```
+  * 添加Cookie操作：默认情况下CORS中不包含Cookie信息。如果您想添加Cookie，可执行以下步骤。
+
+    1. 添加`withCredentials`参数，以jQuery为例。  
+      ```  
+      $.ajax({  
+       url: "http://userB.com/page2",  
+       xhrFields: {  
+         withCredentials: true  
+       }  
+      });  
+      ```
+    2. 将服务器设置为允许使用报头凭证，但不允许使用通配符`“*”`，以PHP为例。  
+      ```  
+      <?php  
+      if (is_my_code($_SERVER['HTTP_ORIGIN'])) {  
+      header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}"); // Disallow “*”  
+      header("Access-Control-Allow-Credentials:true");  
+      }  
+      ?>  
+      ```  
+      更多详细信息请参见[HTTP访问控制（CORS）](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Access%5Fcontrol%5FCORS)。

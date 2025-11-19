@@ -1,4 +1,4 @@
-  各版本功能规格差异说明-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 本文为您介绍DataV-Board 7.0（数据看板）不同版本规格的介绍及功能详情。
 
@@ -6,12 +6,10 @@
 
 DataV-Board 7.0（数据看板）提供了**个人版**、**企业版（新）**、**专业版（新）**和**尊享版（新）**等正式版本，以及用于体验产品功能的试用版本（即**专业版试用**）供您选择。
 
--   正式版本：支持的购买时长选择更多、支持的功能更丰富。
-    
--   试用版本：仅支持新用户购买，且每位新用户只能购买一次（购买后可使用一个月）。
-    
+* 正式版本：支持的购买时长选择更多、支持的功能更丰富。
+* 试用版本：仅支持新用户购买，且每位新用户只能购买一次（购买后可使用一个月）。
 
-**说明**
+**说明** 
 
 试用版仅用于体验产品功能，建议您选择正式版本使用。
 
@@ -19,414 +17,47 @@ DataV-Board 7.0（数据看板）提供了**个人版**、**企业版（新）**
 
 ## **各版本支持的功能详情**
 
-各版本的功能支持情况如下表。更多详情，请参见[产品详情页](https://www.aliyun.com/product/bigdata/datav?spm=5176.8789780.J_3207526240.51.3dbb45b5OHdxMq)的产品版本介绍。
+各版本的功能支持情况如下表。更多详情，请参见[产品详情页](https://www.aliyun.com/product/bigdata/datav?spm=5176.8789780.J%5F3207526240.51.3dbb45b5OHdxMq)的产品版本介绍。
 
-**说明**
+**说明** 
 
 ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)代表支持，![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)代表不支持。
 
-**模块**
-
-**功能**
-
-**专业版试用**
-
-**个人版**
-
-**企业版(新)**
-
-**专业版(新)**
-
-**尊享版(新)**
-
-**产品资源数量**
-
-工作空间数量
-
-1个
-
-1 个
-
-2个
-
-5个
-
-100个
-
-用户数数量
-
-2人
-
-1人
-
-2人
-
-5人
-
-100人
-
-看板项目数量
-
-5个
-
-5 个
-
-20个
-
-80个
-
-1000个
-
-演示预案数量
-
-5个
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-20个
-
-40个
-
-100个
-
-组件收藏数量
-
-5个
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-20个
-
-40个
-
-1000个
-
-设计资产存储空间
-
-512MB
-
-50MB
-
-5GB
-
-10GB
-
-99GB
-
-自定义组件数量
-
-3个
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-3个
-
-无限制
-
-无限制
-
-三维城市场景数量
-
-1个
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-10个
-
-50个
-
-可视化模板
-
-所有模板
-
-不含三维模板
-
-不含三维模板
-
-所有模板
-
-所有模板
-
-**看板发布**
-
-看板发布部署
-
-公共云
-
-公共云
-
-公共云
-
-公共云
-
--   公共云
-    
--   本地部署
-    
-
-**数据可视化加速器**
-
-数据源接入限制
-
-支持如下数据源：
-
--   静态文件
-    
--   RDS for MySQL
-    
--   RDS for PostgreSQL
-    
--   RDS for SQLServer
-    
--   AnalyticDB for MySQL
-    
--   AnalyticDB for PostgreSQL
-    
--   API
-    
--   数据集
-    
--   矢量地图数据服务
-    
--   宜搭数据源
-    
--   Quick BI 数据源
-    
-
-仅支持静态文件导入
-
-无限制
-
-无限制
-
-无限制
-
-三维城市构建-GIS服务接入能力
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-时空数据加速
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-**DataV.AI**
-
-AI助手
-
-限额5次/月
-
-限额5次/月
-
-限额600次/月
-
-限额1500次/月
-
-限额30000次/月
-
-三维城市自动构建能力
-
-49平方公里
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-49平方公里
-
-无限制
-
-**集成开发**
-
-二次开发SDK
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-**企业应用开发**
-
-大屏嵌入
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-自定义组件开发
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-低代码组件开发
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-**编辑器**
-
-画布编辑器
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-蓝图编辑器
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-演示预案编辑器
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-**可视化组件能力**
-
-常规图表组件
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-高级交互组件
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-三维模型查看器
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-3D平面地图组件
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-二维平面地图组件
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-球体组件
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)
-
-**说明**
-
--   项目：是指可创建的数据看板，购买不同的版本可创建不同数量的项目。如果需要创建更多的项目，可**购买扩展包**实现。如您在企业版账号下已创建了20个项目，如需创建第21个，则需要购买扩展包。
-    
--   工作空间：不同的工作空间数据是隔离的，但所有工作空间创建的项目总数不能超过购买版本的最大数量。如果需要创建更多的工作空间，可**购买扩展包**实现。
-    
--   用户数：所有用户总数不能超过购买版本的最大数量。如果需要更多的用户，可**购买扩展包**实现。
-    
--   可视化组件：数据看板是由多个组件构成，您可以通过对组件进行配置来完成您的看板设计，同时DataV产品也开通了自定义组件开发功能，您可以根据自己的需求进行组件开发。
-    
--   本地部署：即私有化部署，仅尊享版支持。您可将DataV开发的页面打包下载，安装部署到企业内网中运行，部署均在线下完成，数据完全隔离，保障了数据的安全性。同时尊享版共提供100台服务器的部署授权（不包含硬件），保障产品更好地在企业内网中运行。
-    
--   二次开发：请参见[DataV-Board 二次开发教程说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/secondary-development)。
+| **模块**           | **功能**                                                                                      | **专业版试用**                                                                                                                                | **个人版**                                                                                     | **企业版(新)**                                                                                  | **专业版(新)**                                                                                  | **尊享版(新)**                                                                                 |
+| ---------------- | ------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **产品资源数量**       | 工作空间数量                                                                                      | 1个                                                                                                                                       | 1 个                                                                                         | 2个                                                                                          | 5个                                                                                          | 100个                                                                                       |
+| 用户数数量            | 2人                                                                                          | 1人                                                                                                                                       | 2人                                                                                          | 5人                                                                                          | 100人                                                                                        |                                                                                            |
+| 看板项目数量           | 5个                                                                                          | 5 个                                                                                                                                      | 20个                                                                                         | 80个                                                                                         | 1000个                                                                                       |                                                                                            |
+| 演示预案数量           | 5个                                                                                          | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | 20个                                                                                         | 40个                                                                                         | 100个                                                                                        |                                                                                            |
+| 组件收藏数量           | 5个                                                                                          | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | 20个                                                                                         | 40个                                                                                         | 1000个                                                                                       |                                                                                            |
+| 设计资产存储空间         | 512MB                                                                                       | 50MB                                                                                                                                     | 5GB                                                                                         | 10GB                                                                                        | 99GB                                                                                        |                                                                                            |
+| 自定义组件数量          | 3个                                                                                          | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | 3个                                                                                          | 无限制                                                                                         | 无限制                                                                                         |                                                                                            |
+| 三维城市场景数量         | 1个                                                                                          | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | 10个                                                                                         | 50个                                                                                         |                                                                                            |
+| 可视化模板            | 所有模板                                                                                        | 不含三维模板                                                                                                                                   | 不含三维模板                                                                                      | 所有模板                                                                                        | 所有模板                                                                                        |                                                                                            |
+| **看板发布**         | 看板发布部署                                                                                      | 公共云                                                                                                                                      | 公共云                                                                                         | 公共云                                                                                         | 公共云                                                                                         | 公共云本地部署                                                                                    |
+| **数据可视化加速器**     | 数据源接入限制                                                                                     | 支持如下数据源：静态文件RDS for MySQLRDS for PostgreSQLRDS for SQLServerAnalyticDB for MySQLAnalyticDB for PostgreSQLAPI数据集矢量地图数据服务宜搭数据源Quick BI 数据源 | 仅支持静态文件导入                                                                                   | 无限制                                                                                         | 无限制                                                                                         | 无限制                                                                                        |
+| 三维城市构建-GIS服务接入能力 | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| 时空数据加速           | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| **DataV.AI**     | AI助手                                                                                        | 限额5次/月                                                                                                                                   | 限额5次/月                                                                                      | 限额600次/月                                                                                    | 限额1500次/月                                                                                   | 限额30000次/月                                                                                 |
+| 三维城市自动构建能力       | 49平方公里                                                                                      | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | 49平方公里                                                                                      | 无限制                                                                                         |                                                                                            |
+| **集成开发**         | 二次开发SDK                                                                                     | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png) |
+| **企业应用开发**       | 大屏嵌入                                                                                        | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)                                               | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png) |
+| 自定义组件开发          | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| 低代码组件开发          | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| **编辑器**          | 画布编辑器                                                                                       | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)                                               | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png) |
+| 蓝图编辑器            | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)                                               | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| 演示预案编辑器          | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| **可视化组件能力**      | 常规图表组件                                                                                      | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)                                               | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png) |
+| 高级交互组件           | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| 三维模型查看器          | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)                                               | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| 3D平面地图组件         | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png)                                              | ![不支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891393.png) | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| 二维平面地图组件         | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)                                               | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+| 球体组件             | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)                                               | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  | ![支持](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2143664371/p891392.png)  |                                                                                            |
+
+**说明** 
+* 项目：是指可创建的数据看板，购买不同的版本可创建不同数量的项目。如果需要创建更多的项目，可**购买扩展包**实现。如您在企业版账号下已创建了20个项目，如需创建第21个，则需要购买扩展包。
+* 工作空间：不同的工作空间数据是隔离的，但所有工作空间创建的项目总数不能超过购买版本的最大数量。如果需要创建更多的工作空间，可**购买扩展包**实现。
+* 用户数：所有用户总数不能超过购买版本的最大数量。如果需要更多的用户，可**购买扩展包**实现。
+* 可视化组件：数据看板是由多个组件构成，您可以通过对组件进行配置来完成您的看板设计，同时DataV产品也开通了自定义组件开发功能，您可以根据自己的需求进行组件开发。
+* 本地部署：即私有化部署，仅尊享版支持。您可将DataV开发的页面打包下载，安装部署到企业内网中运行，部署均在线下完成，数据完全隔离，保障了数据的安全性。同时尊享版共提供100台服务器的部署授权（不包含硬件），保障产品更好地在企业内网中运行。
+* 二次开发：请参见[DataV-Board 二次开发教程说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/secondary-development)。

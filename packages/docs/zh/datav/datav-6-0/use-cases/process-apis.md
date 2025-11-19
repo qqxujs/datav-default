@@ -1,91 +1,80 @@
-  使用Node.js为DataV时间轴构建数据接口-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 根据时间轴的特性，如果您需要时间轴变化的同时，等值面的数据也发生变化，那么可以开发一个接口或者数据库，能根据时间参数来获取不同时间段的全国各个监测站点的数据。本文档为您介绍如何使用Node.js完成接口的开发和发布（您也可以使用其他的开发语言，原理相同）。
 
 ## 背景信息
 
-推荐您将上一步已经[处理完成的数据](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/process-data#concept-sbr-ss3-52b "本文档为您介绍如何将CSV格式的文件处理成JSON格式的数据。")包装成一个简单的接口，并在DataV地图组件的数据面板配置API数据源，调用此接口，来完成这个需求。
+推荐您将上一步已经[处理完成的数据](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/process-data#concept-sbr-ss3-52b "本文档为您介绍如何将CSV格式的文件处理成JSON格式的数据。")包装成一个简单的接口，并在DataV地图组件的数据面板配置API数据源，调用此接口，来完成这个需求。 
 
-接口信息如下：
-
--   请求地址：/api
--   请求方式：GET
--   请求参数：
-    -   参数名称：date。
-    -   参数类型：string，示例2017012722，时间格式为YYYYmmDDHH。
+接口信息如下： 
+* 请求地址：/api
+* 请求方式：GET
+* 请求参数：  
+  * 参数名称：date。
+  * 参数类型：string，示例2017012722，时间格式为YYYYmmDDHH。
 
 ## 操作步骤
 
-1.  [安装Node.js](https://nodejs.org/en/download/)（包括npm）并使用npm install <module\_name>命令安装依赖模块。
-2.  处理下载的所有数据，Node.js提供了一个glob模块可以对文件夹下的所有数据进行批量处理。
-    
-    ```
-    var fs = require('fs');
-    var csv = require("fast-csv");
-    var glob = require('glob');
-    var mapdata = require('./站点列表经纬度映射.json');
-    glob("./站点_20170101-20170202/*.csv", function (err, files) {
-    files.forEach(function (file) {
-     var filename = file.replace(/^.*[\\\/]/, '').split('.')[0].split('_')[2];
-     var datas = {};
-     csv
-       .fromPath(file, { headers: true, objectMode: true })
-       .on("data", function (data) {
-         if (data.type === 'AQI') {
-           datas[data.hour] = [];
-           for (var key in data) {
-             if (mapdata[key]) {
-               datas[data.hour].push({
-                 name: mapdata[key].name,
-                 value: +data[key],
-                 code: mapdata[key].code,
-                 city: mapdata[key].city,
-                 lng: +mapdata[key].lng,
-                 lat: +mapdata[key].lat
-               })
-             }
-           }
-         }
-       })
-       .on("end", function () {
-         fs.writeFile('./data/' + filename + '.json', JSON.stringify(datas));
-         console.log("done");
-       });
-    });
-    });
-    ```
-    
-    运行结果如下。![运行结果](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0034386851/p9273.png)
-    
-3.  使用glob模块对数据进行一次整合。
-    
-    将如下示例程序保存为js脚本文件，并在Node.js环境中运行。
-    
-    ```
-    //以下方式不适用大批量的数据。
-    //将文件名也就是日期作为key，对应的内容作为值，得到一个all.json整合文件。
-    var fs = require('fs');
-    var csv = require("fast-csv");
-    var glob = require('glob');
-    glob("./data/*.json", function (err, files) {
-    var datas = {};
-    files.forEach(function (file) {
-     var filename = file.replace(/^.*[\\\/]/, '').split('.')[0];
-     datas[filename] = require(file);
-    });
-    fs.writeFile('./data/all.json', JSON.stringify(datas));
-    console.log('done');
-    });
-    ```
-    
-4.  在Node.js环境下，使用Node.js的express框架初始化一个express项目，并按照上面的接口需求增加一个简单的接口，示例程序如下所示。
-    
-    ![示例程序](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0034386851/p9274.png)
-    
-    **说明** 为了避免跨域请求的问题，您可以在app.js文件中增加cors模块。
-    
-    ![增加cors模块程序](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0034386851/p9275.png)
-    
-5.  接口处理完成后，在Node.js环境下使用npm start命令测试接口，测试成功的截图如下所示。
-    
-    ![测试数据截图](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1034386851/p9276.png)
+1. [安装Node.js](https://nodejs.org/en/download/)（包括npm）并使用npm install <module\_name>命令安装依赖模块。
+2. 处理下载的所有数据，Node.js提供了一个glob模块可以对文件夹下的所有数据进行批量处理。  
+```  
+var fs = require('fs');  
+var csv = require("fast-csv");  
+var glob = require('glob');  
+var mapdata = require('./站点列表经纬度映射.json');  
+glob("./站点_20170101-20170202/*.csv", function (err, files) {  
+files.forEach(function (file) {  
+ var filename = file.replace(/^.*[\\\/]/, '').split('.')[0].split('_')[2];  
+ var datas = {};  
+ csv  
+   .fromPath(file, { headers: true, objectMode: true })  
+   .on("data", function (data) {  
+     if (data.type === 'AQI') {  
+       datas[data.hour] = [];  
+       for (var key in data) {  
+         if (mapdata[key]) {  
+           datas[data.hour].push({  
+             name: mapdata[key].name,  
+             value: +data[key],  
+             code: mapdata[key].code,  
+             city: mapdata[key].city,  
+             lng: +mapdata[key].lng,  
+             lat: +mapdata[key].lat  
+           })  
+         }  
+       }  
+     }  
+   })  
+   .on("end", function () {  
+     fs.writeFile('./data/' + filename + '.json', JSON.stringify(datas));  
+     console.log("done");  
+   });  
+});  
+});  
+```  
+运行结果如下。![运行结果](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0034386851/p9273.png)
+3. 使用glob模块对数据进行一次整合。  
+将如下示例程序保存为js脚本文件，并在Node.js环境中运行。  
+```  
+//以下方式不适用大批量的数据。  
+//将文件名也就是日期作为key，对应的内容作为值，得到一个all.json整合文件。  
+var fs = require('fs');  
+var csv = require("fast-csv");  
+var glob = require('glob');  
+glob("./data/*.json", function (err, files) {  
+var datas = {};  
+files.forEach(function (file) {  
+ var filename = file.replace(/^.*[\\\/]/, '').split('.')[0];  
+ datas[filename] = require(file);  
+});  
+fs.writeFile('./data/all.json', JSON.stringify(datas));  
+console.log('done');  
+});  
+```
+4. 在Node.js环境下，使用Node.js的express框架初始化一个express项目，并按照上面的接口需求增加一个简单的接口，示例程序如下所示。  
+![示例程序](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0034386851/p9274.png)
+
+**说明** 为了避免跨域请求的问题，您可以在app.js文件中增加cors模块。  
+![增加cors模块程序](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0034386851/p9275.png)
+5. 接口处理完成后，在Node.js环境下使用npm start命令测试接口，测试成功的截图如下所示。  
+![测试数据截图](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1034386851/p9276.png)

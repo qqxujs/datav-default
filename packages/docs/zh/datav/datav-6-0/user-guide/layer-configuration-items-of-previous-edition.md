@@ -1,32 +1,24 @@
-  三维城市构建器图层配置项详解-DataV数据可视化-阿里云
+<!DOCTYPE html> 
 
 本文对三维城市构建器项目内的图层配置项进行了概括性说明。
 
 在场景编辑器中，单击左侧图层面板内的某一个图层，场景编辑器右侧会出现图层的配置项面板。包括配置和数据两个标签页。![配置项面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419739.png)
-
--   在配置页签中，您可以配置场景内图层的样式，每个图层的配置项内容都是不同的，具体配置方法请参见本章节中各组件的说明文档。
--   在数据页签中，不同的图层在数据面板上的配置内容不一样，图层可分为基底组件、数据图元组件、栅格瓦片、地形瓦片、三维瓦片和其他六类。
-    -   基底组件：在基底组件数据面板中，您可以单击面板内的重新选择数据，打开选择范围对话框，重新选择仅针对当前图层对应的数据范围，详情请参见[使用官方基底数据方式创建](https://help.aliyun.com/document_detail/193468.html#section-bsj-xjl-qx7)中的选择场景范围区域步骤。
-        
-        图 1. 基底道路图层示例数据面板样式
-        
-        ![基底数据道路图层示例数据面板样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2621411561/p266288.png)
-        
-    -   数据图元组件、栅格瓦片、地形瓦片、三维瓦片和其他：在这五个类型图层数据面板中，数据配置和普通图表组件一致，可配置自己的数据源内容。
-        
-        图 2. 数据图元三维图标图层数据面板示例
-        
-        ![业务数据三维图标图层数据面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2621411561/p266297.png)
-        
+* 在配置页签中，您可以配置场景内图层的样式，每个图层的配置项内容都是不同的，具体配置方法请参见本章节中各组件的说明文档。
+* 在数据页签中，不同的图层在数据面板上的配置内容不一样，图层可分为基底组件、数据图元组件、栅格瓦片、地形瓦片、三维瓦片和其他六类。
+  * 基底组件：在基底组件数据面板中，您可以单击面板内的重新选择数据，打开选择范围对话框，重新选择仅针对当前图层对应的数据范围，详情请参见[使用官方基底数据方式创建](https://help.aliyun.com/document%5Fdetail/193468.html#section-bsj-xjl-qx7)中的选择场景范围区域步骤。  
+  图 1\. 基底道路图层示例数据面板样式  
+  ![基底数据道路图层示例数据面板样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2621411561/p266288.png)
+  * 数据图元组件、栅格瓦片、地形瓦片、三维瓦片和其他：在这五个类型图层数据面板中，数据配置和普通图表组件一致，可配置自己的数据源内容。  
+  图 2\. 数据图元三维图标图层数据面板示例  
+  ![业务数据三维图标图层数据面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2621411561/p266297.png)
 
 ## 配置空间构建数据源
 
 如果您在创建三维城市项目时，使用了空间构建数据模式，并且项目内包含各种适用业务展示图层效果的空间数据内容。在场景编辑器内配置图层的数据面板时，您还可以使用空间构建数据源的内容。以区域柱状图对应数据为例。具体操作如下：
 
-1.  在图层配置面板中选择数据页签，单击面板下方的数据源类型下拉框，选择空间构建数据源。
-2.  在面板下方的数据项目下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
-3.  选择完数据项目后，在数据集下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
-    
-    **说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。
-    
-    ![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)
+1. 在图层配置面板中选择数据页签，单击面板下方的数据源类型下拉框，选择空间构建数据源。
+2. 在面板下方的数据项目下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
+3. 选择完数据项目后，在数据集下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
+
+**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
+![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)

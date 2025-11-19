@@ -1,44 +1,32 @@
- 
+<!DOCTYPE html> 
 
 分享数据看板时，可使用Token方式进行访问验证，该方式通过认证和授权机制，保证了数据看板分享过程的安全、高效和灵活。采用Token后，DataV-Board支持使用“携带自定义签名参数”或“不携带自定义签名参数”方式访问数据看板。“携带自定义签名参数”方式可对看板交互时传递的参数进行签名鉴权，保证看板的URL访问链接不被篡改，从而提高看板数据及用户信息的安全性。
 
 ## 使用流程
 
-1.  **生成Token**：在数据看板开发完成后，使用Token验证的方式发布数据看板，具体请参见[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3390807271/p851124.png)
-    
-2.  **请求签名：**参见[携带自定义签名参数的URL计算](#section-sma-f4e-4vb)或者[不携带自定义签名参数的URL计算](#a71887dc69iy6)，计算数据看板的URL。
-    
-    1.  将screenID与当前时间（毫秒）拼接起来，并用 |（竖线）分隔开。
-        
-    2.  （可选）确定需要签名计算的自定义参数名，必须符合参数规则。
-        
-    3.  使用Token通过HMAC-SHA256 base64，对上两步得到的Token验证码进行加密，获得加密后签名。
-        
-    4.  将时间和加密后的签名分别命名为`_datav_time`、`_datav_signature`。
-        
-    5.  将它们依次放入`URL`的querystring中。
-        
-3.  **发送请求：**使用上一步中计算得到的URL访问数据看板。
-    
-4.  **验证签名：**在访问过程中，系统会自动进行参数签名校验。校验成功后，即可访问到分享的数据看板。
-    
-    **说明**
-    
-    对于携带自定义签名参数的数据看板，如果当您修改了签名参数，再次访问此URL时，访问会被拒绝。
-    
+1. **生成Token**：在数据看板开发完成后，使用Token验证的方式发布数据看板，具体请参见[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3390807271/p851124.png)
+2. **请求签名：**参见[携带自定义签名参数的URL计算](#section-sma-f4e-4vb)或者[不携带自定义签名参数的URL计算](#a71887dc69iy6)，计算数据看板的URL。
+
+  1. 将screenID与当前时间（毫秒）拼接起来，并用 |（竖线）分隔开。
+  2. （可选）确定需要签名计算的自定义参数名，必须符合参数规则。
+  3. 使用Token通过HMAC-SHA256 base64，对上两步得到的Token验证码进行加密，获得加密后签名。
+  4. 将时间和加密后的签名分别命名为`_datav_time`、`_datav_signature`。
+  5. 将它们依次放入`URL`的querystring中。
+3. **发送请求：**使用上一步中计算得到的URL访问数据看板。
+4. **验证签名：**在访问过程中，系统会自动进行参数签名校验。校验成功后，即可访问到分享的数据看板。
+
+**说明**  
+对于携带自定义签名参数的数据看板，如果当您修改了签名参数，再次访问此URL时，访问会被拒绝。
 
 ## 携带自定义签名参数的访问
 
 ## 前提条件
 
-在使用Token自定义参数签名校验前，请确保：
+在使用Token自定义参数签名校验前，请确保： 
 
--   数据看板使用Token验证的方式进行发布，具体请参见[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。
-    
--   数据看板以GET方式在URL中传递参数（直接在URL后面加参数）。
-    
--   数据看板URL中传递的参数要求不能被篡改。
-    
+* 数据看板使用Token验证的方式进行发布，具体请参见[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。
+* 数据看板以GET方式在URL中传递参数（直接在URL后面加参数）。
+* 数据看板URL中传递的参数要求不能被篡改。
 
 ## 使用场景
 
@@ -50,13 +38,13 @@
 
 需要加入签名的参数，其参数名需以`datav_sign_`开头，后面可以带任何有效的参数名字符。由此可得此参数名的正则表达式为`/^datav_sign_.*/`。
 
-**说明**
+**说明** 
 
 不符合签名参数规则的参数，将不会进行参数签名校验，允许修改参数值。签名参数按升序排序。
 
 ## 携带自定义签名参数的URL计算
 
-Node.js代码示例如下。
+Node.js代码示例如下。 
 
 ```
 const crypto = require('crypto');

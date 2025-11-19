@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 地图容器（v3.x版本） %{#313888}% 
 
 地图容器是基础平面地图中用于承载地图本身和各子组件的容器，支持添加区域热力层、点热力层等子组件，支持配置地图的位置、颜色、鼠标交互事件等，能够多角度、多形式地渲染全国各城市地理位置的实时数据。本文介绍基础平面地图容器各配置项的含义。
 
@@ -33,8 +33,8 @@
   * 复制、重命名、删除子组件：鼠标移至已经添加的子组件上，单击右侧的![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6278068951/p39964.png)图标，复制子组件。单击![编辑图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7278068951/p39965.png)图标，修改子组件名称。单击![删除图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7278068951/p39966.png)图标，删除子组件。  
 
 **说明**  
-  更多子组件的相关操作请参见[管理地图子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/manage-child-widgets-of-a-map-widget#task-2376365)。
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+  更多子组件的相关操作请参见[管理地图子组件](/zh/datav/datav-6-0/user-guide/manage-child-widgets-of-a-map-widget#task-2376365)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -47,14 +47,14 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    ****地图背景**    |    地图的背景颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    ****地图背景**    |    地图的背景颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    ****地图缩放**    |    控制地图父容器的缩放范围及默认级别。 ****缩放范围**：缩放范围控制父容器只能在缩放范围内操作，取值范围0\~22。****默认级别**：默认级别设置父容器默认显示级别，需要设置在缩放范围内，取值范围0\~22。**说明** 地图缩放支持分数级缩放。缩放级别控制父容器只能在缩放范围内操作；默认级别设置父容器默认显示级别，需要设置在缩放范围内。    |
 |    ****地图中心**    |    地图中心的经纬度。    |
 |    ****比例尺控件**    |    单击****比例尺控件**右侧的![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，可在地图上显示比例尺控件。开启后，可调整比例尺控件的字体颜色、边框颜色和在水平和垂直方向的偏移值。    |    
 您也可以通过配置数据源来更改地图中心点和缩放等级。![设置数据](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6065383661/p494408.jpg)
 
 **说明**  
-如需定位到其他省份的地图区域，需要使用[区域热力层（v3.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/choropleth-layer-of-v3-x#concept-2103430)或[自定义区域下钻层（v3.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/custom-section-drill-down-layer-of-v3-x#concept-2103460)来实现。
+如需定位到其他省份的地图区域，需要使用[区域热力层（v3.x版本）](/zh/datav/datav-6-0/user-guide/choropleth-layer-of-v3-x#concept-2103430)或[自定义区域下钻层（v3.x版本）](/zh/datav/datav-6-0/user-guide/custom-section-drill-down-layer-of-v3-x#concept-2103460)来实现。
 * ****坐标**：地图的坐标系类型，可选****通用坐标**或****自定义**两个类型。
 
 |    **参数**    |    **说明**    |
@@ -87,15 +87,15 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8235667761/p575057.png)
 
-选中****启用**，开启组件交互功能。当****地图移动时**和****地图移动结束**时，会抛出您自定义的变量值。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。
+选中****启用**，开启组件交互功能。当****地图移动时**和****地图移动结束**时，会抛出您自定义的变量值。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。
 
-它的部分子组件支持交互配置，即回调ID，例如：区域热力层、区域下钻热力层、线热力层、散点层。通过回调ID，可以实现地图的交互功能，具体请参见 [配置组件交互](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-interactions#concept-xmk-kjt-q2b)和[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。
+它的部分子组件支持交互配置，即回调ID，例如：区域热力层、区域下钻热力层、线热力层、散点层。通过回调ID，可以实现地图的交互功能，具体请参见 [配置组件交互](/zh/datav/datav-6-0/user-guide/configure-widget-interactions#concept-xmk-kjt-q2b)和[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。
 
 ## 蓝图编辑器交互配置
 

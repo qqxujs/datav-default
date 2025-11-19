@@ -4,7 +4,7 @@
 
 ## **前提条件**
 
-已[创建移动端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
+已[创建移动端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
 
 ## 进入工具栏配置页面
 

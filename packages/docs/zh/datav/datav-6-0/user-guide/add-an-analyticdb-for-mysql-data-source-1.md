@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加AnalyticDB for MySQL数据源 %{#59715}% 
 
 本文为您介绍在DataV中添加AnalyticDB for MySQL数据源的方法。
 
@@ -18,7 +18,7 @@
 |    ----    |    ----    |
 |    **名称**    |    数据源的显示名称，可以自由命名。    |
 |    **VPC ID**    |    VPC实例的ID，此VPC为您的AnalyticDB for MySQL实例所在的VPC。可进入[AnalyticDB控制台](https://ads.console.aliyun.com/adb/instances)中获取。    |
-|    **实例ID**    |    VPC下数据库实例的ID，可在[AnalyticDB控制台](https://ads.console.aliyun.com/adb/instances)中获取。**说明** 通常您可以直接在数据库产品的控制台查看数据库实例的VPC实例ID。但是由于VPC网络实现机制的原因，有时控制台显示的实例ID并不是DataV数据源配置VPC网络需要的实例ID。因此您需要通过数据库产品的OpenAPI获取DataV需要的VPC实例ID，通常为数据库实例详情中的**VPCCloudInstanceId**或**VPCInstanceId**，具体数据库产品获取VPC实例ID的接口，请使用[DescribeDBClusterAttribute - 查询集群的详细属性](https://help.aliyun.com/zh/analyticdb/analyticdb-for-mysql/developer-reference/api-adb-2019-03-15-describedbclusterattribute)接口获取VPC实例ID。    |
+|    **实例ID**    |    VPC下数据库实例的ID，可在[AnalyticDB控制台](https://ads.console.aliyun.com/adb/instances)中获取。**说明** 通常您可以直接在数据库产品的控制台查看数据库实例的VPC实例ID。但是由于VPC网络实现机制的原因，有时控制台显示的实例ID并不是DataV数据源配置VPC网络需要的实例ID。因此您需要通过数据库产品的OpenAPI获取DataV需要的VPC实例ID，通常为数据库实例详情中的**VPCCloudInstanceId**或**VPCInstanceId**，具体数据库产品获取VPC实例ID的接口，请使用[DescribeDBClusterAttribute - 查询集群的详细属性](/zh/analyticdb/analyticdb-for-mysql/developer-reference/api-adb-2019-03-15-describedbclusterattribute)接口获取VPC实例ID。    |
 |    **域名**    |    连接数据库的地址。 **重要** 该地址是需要DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。例如使用外网环境下的阿里云AnalyticDB for MySQL，域名示例为：am-bp1uxxxxxxxxxxxxxx0o.ads.aliyuncs.com，可在[AnalyticDB控制台](https://ads.console.aliyun.com/adb/instances)的集群信息页面获取。    |
 |    **端口**    |    数据库设置的端口，默认为3306。    |
 |    **用户名**    |    登录数据库的用户名。    |

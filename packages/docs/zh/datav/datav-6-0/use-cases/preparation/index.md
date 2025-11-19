@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 准备工作 %{#87659}% 
 
 * [了解相关功能](/zh/datav/datav-6-0/use-cases/related-features-used-in-applications-about-air-quality-changes)
 * [获取数据](/zh/datav/datav-6-0/use-cases/obtain-data)

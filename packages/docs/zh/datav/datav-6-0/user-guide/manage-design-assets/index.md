@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 设计资产管理 %{#279585}% 
 
 * [设计资产概述](/zh/datav/datav-6-0/user-guide/design-assets-overview)
 * [使用界面功能说明](/zh/datav/datav-6-0/user-guide/use-interface-function-description)

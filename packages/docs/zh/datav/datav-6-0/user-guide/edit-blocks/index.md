@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 编辑区块 %{#281115}% 
 
 本文为您介绍区块编辑器的结构和功能，帮助您快速了解区块编辑器开发区块。
 
@@ -6,7 +6,7 @@
 
 **重要** 
 
-区块编辑器的整体样式及功能使用方法，与画布编辑器保持一致，具体区块编辑器的功能及组件的使用说明请参见[PC端画布编辑器概览](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/overview-of-canvas-editor-on-pc#concept-dcw-y54-p2b)和[资产管理](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/group-multiple-widgets#task-2375486)。
+区块编辑器的整体样式及功能使用方法，与画布编辑器保持一致，具体区块编辑器的功能及组件的使用说明请参见[PC端画布编辑器概览](/zh/datav/datav-6-0/user-guide/overview-of-canvas-editor-on-pc#concept-dcw-y54-p2b)和[资产管理](/zh/datav/datav-6-0/user-guide/group-multiple-widgets#task-2375486)。
 
  区块编辑器页面概览![区块编辑器页面概览](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1090903461/p392321.png)
 
@@ -17,11 +17,11 @@
 |    序号    |    名称    |    说明    |
 |    ----    |    ----    |    ----    |
 |    1    |    工具栏    |    工具栏位于编辑器页面的最上方，您可以通过工具栏所提供的功能，切换编辑器页面、控制页面内模块显隐、配置区块设置以及预览或者发布制作好的区块。    |
-|    2    |    图层    |    在图层列表中，可以看到画布中各个组件的图层位置，您可以根据区块需要，手动调整每个组件图层的上下位置关系和图层组件的缩略图样式，区块编辑器中的图层功能与可视化应用内的画布编辑器功能基本一致，具体功能详情请参见[视图切换](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/switch-views#concept-xjd-vyg-t2b)和[组件图层位置移动](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/move-the-layers-of-widgets#concept-krw-sph-t2b)。    |
+|    2    |    图层    |    在图层列表中，可以看到画布中各个组件的图层位置，您可以根据区块需要，手动调整每个组件图层的上下位置关系和图层组件的缩略图样式，区块编辑器中的图层功能与可视化应用内的画布编辑器功能基本一致，具体功能详情请参见[视图切换](/zh/datav/datav-6-0/user-guide/switch-views#concept-xjd-vyg-t2b)和[组件图层位置移动](/zh/datav/datav-6-0/user-guide/move-the-layers-of-widgets#concept-krw-sph-t2b)。    |
 |    3    |    组件列表    |    在组件列表中，可以查看并搜索各种类型的组件，可以将组件拖动到区块画布中进行配置，完成区块的开发。    |
-|    4    |    区块设置    |    单击区块画布的空白处，页面右侧会显示区块编辑器的基本配置参数。 在区块配置参数处，您可以调整区块的常用尺寸及区块大小、设置区块的背景颜色和图片、选择区块适配缩放方式调整栅格间距。详情请参见[区块设置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/overview-of-block-editor#section-vun-908-3w4)。    |
-|    5    |    组件配置项    |    单击区块画布中任意一个组件，区块编辑器页面右侧会自动弹出组件配置项参数页面。区块编辑器内的组件配置项方法和可视化应用中的画布编辑器配置参数方法一致，具体配置方法请参见[组件指南](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#concept-lsz-bc4-t2b)。    |
-|    6    |    组件数据源    |    单击区块画布中任意一个组件，区块编辑器页面右侧会自动弹出组件数据源配置页面。区块编辑器内的组件数据源支持的类型，包括**静态数据源**和**API**两种类型。在区块数据源面板中支持自动更新数据源内容，且**API**类型数据支持**GET**、**POST**和**PUT**三种请求方式，数据源配置面板支持使用数据过滤器，同时支持通过蓝图重新发起请求。具体数据源配置的方法请参见[设置资产数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-the-data-source-for-a-widget#task-2376923)和[过滤器使用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    4    |    区块设置    |    单击区块画布的空白处，页面右侧会显示区块编辑器的基本配置参数。 在区块配置参数处，您可以调整区块的常用尺寸及区块大小、设置区块的背景颜色和图片、选择区块适配缩放方式调整栅格间距。详情请参见[区块设置](/zh/datav/datav-6-0/user-guide/overview-of-block-editor#section-vun-908-3w4)。    |
+|    5    |    组件配置项    |    单击区块画布中任意一个组件，区块编辑器页面右侧会自动弹出组件配置项参数页面。区块编辑器内的组件配置项方法和可视化应用中的画布编辑器配置参数方法一致，具体配置方法请参见[组件指南](/zh/datav/datav-6-0/user-guide/configure-item-description#concept-lsz-bc4-t2b)。    |
+|    6    |    组件数据源    |    单击区块画布中任意一个组件，区块编辑器页面右侧会自动弹出组件数据源配置页面。区块编辑器内的组件数据源支持的类型，包括**静态数据源**和**API**两种类型。在区块数据源面板中支持自动更新数据源内容，且**API**类型数据支持**GET**、**POST**和**PUT**三种请求方式，数据源配置面板支持使用数据过滤器，同时支持通过蓝图重新发起请求。具体数据源配置的方法请参见[设置资产数据源](/zh/datav/datav-6-0/user-guide/configure-the-data-source-for-a-widget#task-2376923)和[过滤器使用](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 
 ## 区块设置
 

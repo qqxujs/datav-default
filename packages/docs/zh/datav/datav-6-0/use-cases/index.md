@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 实践教程 %{#406208}% 
 
 * [蓝图编辑器案例演示](/zh/datav/datav-6-0/use-cases/blueprint-editor-use-case-demo/)
 * [使用宜搭应用创建DataV大屏](/zh/datav/datav-6-0/use-cases/use-yida-to-create-a-datav-project/)

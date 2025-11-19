@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 移动端组件 %{#186599}% 
 
 * [基础区域图](/zh/datav/datav-6-0/user-guide/basic-area-charts)
 * [堆叠区域图](/zh/datav/datav-6-0/user-guide/stacked-area-chart)

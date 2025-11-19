@@ -1,8 +1,8 @@
-<!DOCTYPE html> 
+# 从这里开始 %{#59606}% 
 
 **重要** 
 
-DataV-Board 6.0功能已停止更新，若您使用最新7.0版本，请前往[DataV-Board 7.0](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/introduction-to-core-competencies)了解相关内容。
+DataV-Board 6.0功能已停止更新，若您使用最新7.0版本，请前往[DataV-Board 7.0](/zh/datav/datav-7-0/getting-started/introduction-to-core-competencies)了解相关内容。
 
 DataV-Board 6.0（数据看板）旨在让更多的人看到数据可视化的魅力，帮助非专业的工程师通过图形化的界面轻松搭建专业水准的可视化应用，满足您会议展览、业务监控、风险预警和地理信息分析等多种业务的展示需求。本文为您介绍DataV-Board产品功能和功能体验等内容。
 
@@ -10,31 +10,31 @@ DataV-Board 6.0（数据看板）旨在让更多的人看到数据可视化的�
 
 DataV-Board将为您提供如下功能服务：
 
-* **我的可视化**：[我的可视化界面说明](https://help.aliyun.com/zh/datav/datav-6-0/videos/introduction-to-the-projects-page#concept-2005492)。
+* **我的可视化**：[我的可视化界面说明](/zh/datav/datav-6-0/videos/introduction-to-the-projects-page#concept-2005492)。
 
   * 创建可视化应用：DataV支持通过PC端、移动端创建模板和空白画布搭建可视化应用。
   * 管理可视化应用：在我的可视化管理页面，对可视化应用可进行分组、排序、搜索、编辑、重命名、复制、删除、分享、预览及发布等管理操作。
   * 管理画布编辑器：在编辑可视化应用的画布编辑器界面中，设置屏幕的基本样式、添加组件并在画布中进行组件布局及内容配置，使用组件坐标和辅助线功能，实现组件图层切换视图及位置移动效果，使用美化工具箱内的智能主题及一键美化功能，在工具栏内配置滤镜效果和搜索画布中的图层。
   * 管理蓝图编辑器：在蓝图编辑器页面，通过可视化连线的方式，定义图层与图层之间的交互行为，帮助您自由管理可视化应用中多个组件之间的交互关系。
-* **三维城市构建器**：[三维城市构建器快速入门](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/getting-started-with-3d-city-builder-professional-edition#task-1994930)。
+* **三维城市构建器**：[三维城市构建器快速入门](/zh/datav/datav-6-0/user-guide/getting-started-with-3d-city-builder-professional-edition#task-1994930)。
 
   * 创建三维城市项目：三维城市构建器项目，支持通过使用官方基底数据和空间构建数据两种方式创建，可在项目中添加多个城市基底子组件和数据映射子组件。
   * 管理三维城市项目：在三维城市构建器管理页面，可对项目进行分组、排序、搜索、编辑、重命名、删除、复制、预览及管理项目历史版本等操作。
   * 管理场景编辑器：三维城市构建器场景编辑器内提供了场景区域数据编辑、场景编辑、分镜与关键帧编辑等功能，使您可以所见即所得地进行三维场景搭建，并能与可视化应用中其他二维图表交互串联。
   * 图层配置说明：三维城市构建器项目中可添加配置六种类型的图层，包括基底图层、数据图元图层、栅格瓦片、地形瓦片、三维瓦片及其他。
   * 配置蓝图编辑器：三维城市构建器项目场景编辑器内，您可以将图层、关键帧和场景分别导出到蓝图编辑器，并进入蓝图编辑器内进行逻辑交互的编排。
-* **我的数据**：[我的数据界面说明](https://help.aliyun.com/zh/datav/datav-6-0/videos/description-of-the-my-data-page#concept-2005491)。
+* **我的数据**：[我的数据界面说明](/zh/datav/datav-6-0/videos/description-of-the-my-data-page#concept-2005491)。
 
   * 数据源管理：数据源管理面板中，您可以配置数据库白名单、配置多种类型数据源并对添加完成的数据源进行编辑、筛选、排序和删除等操作。
   * 数据集管理：数据集管理面板中，您可以添加适配的数据源、添加数据集、对添加完成的数据集进行编辑、筛选、排序和删除等操作。
   * 代码片段管理：在代码片段管理页面，您可以新建代码片段、编辑、重命名、删除以及排序代码片段，创建后的代码片段可在编辑过滤器时通过右键菜单引用。
-* **我的资产**：[我的资产界面说明](https://help.aliyun.com/zh/datav/datav-6-0/videos/description-of-my-widget-page#concept-2005490)。
+* **我的资产**：[我的资产界面说明](/zh/datav/datav-6-0/videos/description-of-my-widget-page#concept-2005490)。
 
   * 我的区块：区块是基于基础组件封装的一个黑盒工具，可以定义内部外部的数据传输，对内可以封装业务相关的组件样式、组件布局、默认数据（不包含除静态数据和API外的数据源）和蓝图逻辑，对外可定义业务相关的区块数据接口。
   * 设计资产：设计资产指的是用以增强可视化应用视觉效果的设计元素，包括图片、视频和模型等。设计资产管理的功能可以帮助用户更好地管理自己的设计资产，实现资产的分类、复用和分享，并提升可视化应用设计的效率与效果。
   * 组件收藏夹：在画布编辑器中可收藏可视化应用中的任意组件，方便后期有需要时，随时调用收藏栏中的组件，收藏后的组件会在组件收藏夹管理面板显示。
   * 我的组件包：在我的组件包管理页面，您可以创建组件包、编辑组件包，将开发完成的组件上传至组件包中进行管理，并对特定人员进行授权，实现组件共享。
-* **工作空间**：[工作空间管理和用户中心说明](https://help.aliyun.com/zh/datav/datav-6-0/videos/workspace-management-and-user-center#concept-2005493)。
+* **工作空间**：[工作空间管理和用户中心说明](/zh/datav/datav-6-0/videos/workspace-management-and-user-center#concept-2005493)。
 
   * 新增工作空间：每新增一个全新的工作空间，都对应一个全新的DataV控制台，您可以在新增工作空间时配置空间的名称、项目配额、收藏组件配额和三维城市配额。
   * 添加RAM用户：为工作空间添加RAM用户，以及用户在工作空间中的权限，可配置权限为管理员或开发者。
@@ -62,6 +62,6 @@ DataV-Board将为您提供如下功能服务：
 
 快速入门文档介绍使用DataV数据可视化需要的步骤，帮助您快速开通DataV服务、通过模板或空白画布搭建可视化应用和修改可视化应用在画布编辑器中的各项功能配置。
 
-1. [开通DataV服务](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/activate-datav#task-2323429)
-2. [模板搭建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/template-overview#concept-qlf-ryr-52b)
-3. [空白画布搭建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/blank-template-overview#concept-ghf-wyr-52b)
+1. [开通DataV服务](/zh/datav/datav-6-0/getting-started/activate-datav#task-2323429)
+2. [模板搭建可视化应用](/zh/datav/datav-6-0/getting-started/template-overview#concept-qlf-ryr-52b)
+3. [空白画布搭建可视化应用](/zh/datav/datav-6-0/getting-started/blank-template-overview#concept-ghf-wyr-52b)

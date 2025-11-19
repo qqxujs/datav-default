@@ -8,7 +8,7 @@
 
 **使用场景**：**键盘**节点用于需要键盘参与交互的场景。例如，使用上下左右方向键控制一张图片的移动。
 
-添加**键盘**节点至蓝图画布中，可查看**键盘**节点支持的事件和动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**键盘**节点至蓝图画布中，可查看**键盘**节点支持的事件和动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 #### ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6332680861/p624367.png)
 

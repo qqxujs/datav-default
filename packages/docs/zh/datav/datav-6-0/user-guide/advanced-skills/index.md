@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 进阶案例 %{#125630}% 
 
 * [蓝图编辑器常见案例教学](/zh/datav/datav-6-0/user-guide/blueprint-editor-common-use-case-demo)
 * [蓝图编辑器精选案例实战](/zh/datav/datav-6-0/user-guide/blueprint-editor-selected-cases)

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 热力线层 %{#95976}% 
 
 本文介绍热力线层的图表样式和各配置项的含义。
 
@@ -9,20 +9,20 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1455778761/p582767.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **虚线**：打开开关，将热力线层以虚线的形式展示，并可以配置虚线的长度和虚线实线比。
 * **高度**：热力线层相对于地球的高度。
 * **最大宽度**：热力线的最大宽度，通过数据中的value值来调整线的宽度。
 * **渐变速度**：热力线层渐隐渐显的速度，值越大则速度越快。
 * **最小值颜色**：数据中value值最小的线的颜色。
-* **最大值颜色**：数据中value值最大的线的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+* **最大值颜色**：数据中value值最大的线的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
 * **最大透明度**：热力线的最大透明度，根据数据中每条线对应的value值来设置线透明度。
 
 ## 数据面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1455778761/p582770.png)
 
-该组件数据为GeoJson格式，关于数据格式以及数据获取方法，请参见[地图数据格式](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-data-format#concept-ewk-2f5-q2b)。其中每条线的`value`值可在`properties`字段中配置。
+该组件数据为GeoJson格式，关于数据格式以及数据获取方法，请参见[地图数据格式](/zh/datav/datav-6-0/user-guide/map-data-format#concept-ewk-2f5-q2b)。其中每条线的`value`值可在`properties`字段中配置。
 
 **说明** 
 
@@ -33,8 +33,8 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板

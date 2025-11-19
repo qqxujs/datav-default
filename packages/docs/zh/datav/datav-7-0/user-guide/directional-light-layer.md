@@ -8,9 +8,9 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4966841961/p703628.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **光照强度**：平行光的光照亮度，取值范围为0\~100。
-* **颜色**：平行光的光照颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
+* **颜色**：平行光的光照颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
 * **位置X**、**位置Y**、**位置Z**：平行光层的坐标位置，位置X、Y、Z分别表示右手坐标系中的X、Y、Z分轴方向。
 
 ## 数据源面板

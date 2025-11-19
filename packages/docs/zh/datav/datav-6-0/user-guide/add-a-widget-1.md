@@ -4,7 +4,7 @@
 
 ## 前提条件
 
-已创建[可视化应用项目](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
+已创建[可视化应用项目](/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
 
 ## **进入资产管理**
 
@@ -148,7 +148,7 @@
 
 ## **升级收藏资产为区块**
 
-将鼠标移至收藏的资产上，单击**升级成区块**图标即可选择[升级收藏资产为区块](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/manage-a-block#a60066dd8eeb1)。
+将鼠标移至收藏的资产上，单击**升级成区块**图标即可选择[升级收藏资产为区块](/zh/datav/datav-6-0/user-guide/manage-a-block#a60066dd8eeb1)。
 
 ## **资产成组**
 

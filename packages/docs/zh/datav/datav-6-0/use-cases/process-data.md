@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 处理数据 %{#87663}% 
 
 本文档为您介绍如何将CSV格式的文件处理成JSON格式的数据。
 
@@ -17,7 +17,7 @@ GeoJSON是一种地理交换格式，如需了解更多关于GeoJSON的内容，
 1. 使用以下的Node.js脚本处理全国监测站点的CSV格式文件。  
 
 **说明**  
-获取全国监测站点的CSV格式文件，请参见[获取数据](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/obtain-data#concept-s55-ptq-p2b)。  
+获取全国监测站点的CSV格式文件，请参见[获取数据](/zh/datav/datav-6-0/use-cases/obtain-data#concept-s55-ptq-p2b)。  
 ```  
 var csv = require("fast-csv");  
 var fs = require('fs');  

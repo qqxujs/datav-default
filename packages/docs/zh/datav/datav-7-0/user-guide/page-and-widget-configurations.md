@@ -13,7 +13,7 @@
 |    ----    |    ----    |
 |    **尺寸**    |    调整画布的尺寸，默认为1920×1080，单位为px。    |
 |    **不透明度**    |    调整画布的透明程度。数值越小，越透明，取值范围为0\~1内的数值。    |
-|    **背景**    |    调整画布的背景颜色，具体请参见[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#title-xn5-o3p-m2s)。    |
+|    **背景**    |    调整画布的背景颜色，具体请参见[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#title-xn5-o3p-m2s)。    |
 |    **缩放方式**    |    根据数据看板展示的屏幕尺寸，选择合适的缩放方式。若您的数据看板为非标准屏幕尺寸，建议使用**全屏铺满**模式。    |
 |    **背景自动填充**    |    开启后，数据看板的预览页或发布页中的空白部分将自动填充**背景**样式。    |
 |    **关闭组件加载状态**    |    控制在预览页或发布页查看数据看板时，是否呈现组件的数据加载状态，该状态表示组件正在请求加载数据。如您需查看组件的数据请求状态，可开启该功能。示例数字翻牌器设置1秒/次自动更新数据，其数据加载状态如下。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8428693371/p886427.png)    |
@@ -21,4 +21,4 @@
 
 ## **组件设置**
 
-组件设置包括组件样式设置，组件数据源设置和组件高级设置，具体详情请参见[配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)。
+组件设置包括组件样式设置，组件数据源设置和组件高级设置，具体详情请参见[配置项说明](/zh/datav/datav-7-0/user-guide/configuration-items)。

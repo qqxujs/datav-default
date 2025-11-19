@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 模型加载器 %{#194335}% 
 
 模型加载器是城市三维场景构建器的要素图层，适用于查看模型数据，如gltf格式的模型。模型加载器支持独立的样式和数据配置，包括模型加载器的动画配置、样式配置和阴影设置等样式配置。本文介绍模型加载器配置项的含义。
 
@@ -6,12 +6,12 @@
 
 **说明** 
 
-如果图层列表中没有**模型加载器**，说明您还未添加**模型加载器**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
+如果图层列表中没有**模型加载器**，说明您还未添加**模型加载器**图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
 
 ## 配置
 
 ![模型加载器配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7590349161/p188050.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * 模型加载器配置面板参数说明。
 
 |    **参数**    |    **说明**    |

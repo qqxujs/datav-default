@@ -11,7 +11,7 @@
 |    **模式**    |    **说明**    |
 |    ----    |    ----    |
 |    **视图模式**    |    在视图模式下，直观查看示例数据接口的样式，并按照示例样式自定义配置数据接口的内容，无需编写代码。 视图模式配置面板示例![视图模式配置面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6669864261/p283671.png)    |
-|    **代码模式**    |    在代码模式下，您可以根据示例接口代码，自定义编写所需数据接口的代码。实现新增或配置数据接口的内容。![代码模式面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6669864261/p283672.png)**说明** 配置数据接口代码规范，请参见[组件开发包文件概览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-widget-development-package)。    |
+|    **代码模式**    |    在代码模式下，您可以根据示例接口代码，自定义编写所需数据接口的代码。实现新增或配置数据接口的内容。![代码模式面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6669864261/p283672.png)**说明** 配置数据接口代码规范，请参见[组件开发包文件概览](/zh/datav/datav-7-0/user-guide/overview-of-widget-development-package)。    |
 
 ## 配置数据接口
 
@@ -40,7 +40,7 @@
 
 在区块编辑器中配置完数据接口后，您可以在画布编辑器中使用区块时，查看到区块的所有数据接口信息，具体在可视化应用中配置并查看接口信息的步骤如下。
 
-1. 在区块编辑器中，对配置的数据接口内容，进行预览和测试数据接口内容，接口测试无误后，发布区块，详情请参见[预览区块](https://help.aliyun.com/zh/datav/preview-blocks)和[发布区块](https://help.aliyun.com/zh/datav/publish-blocks)。![测试区块并发布](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4643285261/p290517.png)
+1. 在区块编辑器中，对配置的数据接口内容，进行预览和测试数据接口内容，接口测试无误后，发布区块，详情请参见[预览区块](/zh/datav/preview-blocks)和[发布区块](/zh/datav/publish-blocks)。![测试区块并发布](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4643285261/p290517.png)
 2. 切换到控制台上的**工作台**页面，将鼠标悬浮至一个数据看板上方，单击**编辑**进入画布编辑器。
 3. 单击**组件库**页签，选择**区块**模块，在区块列表内可查看到发布后的所有区块内容。
 4. 单击所需区块，即可添加该区块到画布编辑器中。

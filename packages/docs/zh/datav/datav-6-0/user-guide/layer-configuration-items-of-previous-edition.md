@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 图层配置项说明 %{#194319}% 
 
 本文对三维城市构建器项目内的图层配置项进行了概括性说明。
 
@@ -20,5 +20,5 @@
 2. 在面板下方的数据项目下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
 3. 选择完数据项目后，在数据集下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
-**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
+**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
 ![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)

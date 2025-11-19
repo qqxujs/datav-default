@@ -4,7 +4,7 @@
 
 ## **进入我的项目**
 
-在[空间数据平台](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/spatial-data-construction-platform/#section-2u1-gkv-0nt)的左侧标签栏中选择**我的项目**。
+在[空间数据平台](/zh/datav/datav-7-0/user-guide/spatial-data-construction-platform/#section-2u1-gkv-0nt)的左侧标签栏中选择**我的项目**。
 
 ## **创建项目**
 
@@ -74,4 +74,4 @@
 
 ## **项目编辑器管理**
 
-[项目编辑器页面](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-a-project-editor-page)提供四大功能区域管理：空间实体、通用元素、数据详情和地图空间范围。
+[项目编辑器页面](/zh/datav/datav-7-0/user-guide/manage-a-project-editor-page)提供四大功能区域管理：空间实体、通用元素、数据详情和地图空间范围。

@@ -52,7 +52,7 @@
 ### **前提条件**
 
 * 已登录[DataV控制台](https://datav.aliyun.com)。
-* 已进入[画布编辑器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-pcs)页面。
+* 已进入[画布编辑器](/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-pcs)页面。
 
 ### 交互事件
 
@@ -75,7 +75,7 @@
 **说明**  
   单击事件右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4388247271/p853579.png)图标，可以查看当前事件的出参说明。
   3. 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4388247271/p787217.png)图标，打开**动作触发条件**开关。
-  4. 单击**新增条件**，设置条件配置项当`id等于1`，即当点击的Tab是第一个Tab时。详细使用方法请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4388247271/p787318.png)
+  4. 单击**新增条件**，设置条件配置项当`id等于1`，即当点击的Tab是第一个Tab时。详细使用方法请参见[条件树使用说明](/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4388247271/p787318.png)
 
 **说明**  
   您也可以切换至代码编辑模式，使用JavaScript语法进行配置。
@@ -91,7 +91,7 @@
 7. （可选）您也可以在自动逻辑关系的基础上修改触发条件、响应动作和对应的过滤器，当此处的配置变化时，相对应的高级面板的配置项也会变化。
 
 **说明**  
-  * 当您需要较复杂的交互时，请在[蓝图编辑器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#33c87b8250iar)中进行设置。
+  * 当您需要较复杂的交互时，请在[蓝图编辑器](/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#33c87b8250iar)中进行设置。
 
 ## 组件和全局变量的交互
 
@@ -99,7 +99,7 @@
 
 **说明** 
 
-您也可以使用蓝图编辑器实现该交互场景，详细操作请参见[案例演示](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/general-title#b031155036tkq)。
+您也可以使用蓝图编辑器实现该交互场景，详细操作请参见[案例演示](/zh/datav/datav-7-0/user-guide/general-title#b031155036tkq)。
 
 ![2024-09-26_15-57-03 (1)](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4388247271/p854324.gif)
 
@@ -149,9 +149,9 @@ function filter(data) {
 
 **说明**  
   * 变量名称修改为全局变量后，在需要响应全局变量的组件中即可使用当前变量来获取参数值。可以通过设置不同的全局变量名称，以区分使用不同参数。
-  * 全局变量具体使用方法请参见[使用全局变量](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables)。
+  * 全局变量具体使用方法请参见[使用全局变量](/zh/datav/datav-7-0/user-guide/use-global-variables)。
 4. 选中当前组件，右键单击**进入蓝图编辑器**。可以看到全局变量和组件已自动使用虚线连接。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4388247271/p787209.png)
-5. （可选）您可以再添加**数据处理**节点或其他**逻辑节点**进行二次操作。示例请参见[作为交互事件参数传递](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables#fba45a00666xv)。
+5. （可选）您可以再添加**数据处理**节点或其他**逻辑节点**进行二次操作。示例请参见[作为交互事件参数传递](/zh/datav/datav-7-0/user-guide/use-global-variables#fba45a00666xv)。
 
 上述方案不再建议使用，替代方案为交互事件实现关联全局变量。用交互事件配置来实现时，配置项如下。
 

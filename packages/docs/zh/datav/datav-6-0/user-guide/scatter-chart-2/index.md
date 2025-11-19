@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 散点图 %{#90678}% 
 
 * [气泡图（v5.0及以上版本）](/zh/datav/datav-6-0/user-guide/bubble-chart-of-v5-0-and-later)
 * [气泡图（v4.x版本）](/zh/datav/datav-6-0/user-guide/bubble-chart-of-v4-x)

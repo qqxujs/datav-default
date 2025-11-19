@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 区域热力层 %{#147692}% 
 
 本文介绍区域热力层的图标样式和各配置项的含义。
 
@@ -9,12 +9,12 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7728778761/p583057.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **填充颜色**：区域的填充颜色。  
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **最小值**    |    数据面板中最小的value值所对应区域的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **最小值**    |    数据面板中最小的value值所对应区域的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    **最大值**    |    数据面板中最大的value值所对应区域的颜色。    |
 |    **无值**    |    系统在获取区域热力边界数据时，如果缺少了某个区域的数据（当区域热力图数据中没有对应的地理边界数据中的adcode值时），这个区域的颜色就会显示为**无值**的颜色。    |
 * **边线配置**
@@ -36,15 +36,15 @@
 |    adcode    |    地区代码。    |
 |    value    |    地区对应的数值，与**最大值**、**最小值**、**无数据**配置项相匹配来渲染区域的颜色。 **说明** DataV会根据数据的value区间得出区域值区间，从而计算出从最小值到最大值的颜色渐变区间。    |
 * ### **地理边界**![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7728778761/p583065.png)  
-通过配置地理边界geojson数据接口，可将提取到的区域GeoJSON边界数据应用到DataV中。配置方法同**基础平面地图**组件的**区域热力层**配置，具体请参见[地理边界geojson数据接口](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/choropleth-layer#uicontrol-srh-ycj-zn9)。
+通过配置地理边界geojson数据接口，可将提取到的区域GeoJSON边界数据应用到DataV中。配置方法同**基础平面地图**组件的**区域热力层**配置，具体请参见[地理边界geojson数据接口](/zh/datav/datav-6-0/user-guide/choropleth-layer#uicontrol-srh-ycj-zn9)。
 
 __表 1\. 配置项说明__
 |    **配置项**    |    **说明**    |
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板

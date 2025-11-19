@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 水平基本柱状图（v3.x版本） %{#154389}% 
 
 水平基本柱状图是柱状图的一种，支持自定义x轴区间、多系列数据配置以及堆叠式的数据展示，可以在较小的可视化应用空间内，智能地展示多维的数据差异。本文介绍水平基本柱状图各配置项的含义。
 
@@ -6,9 +6,9 @@
 
 **重要** 
 
-本文介绍v3.x版本的水平基本柱状图的配置项，如需查看v3.0以下版本或者v4.0及以上版本，请参见[水平基本柱图（v3.0以下版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/stacked-bar-chart-of-v3-0-and-earlier#concept-slz-1tj-bfb)或[水平基本柱状图（v4.0及以上版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/the-horizontal-stacked-bar-chart-widget#concept-2448735)。
+本文介绍v3.x版本的水平基本柱状图的配置项，如需查看v3.0以下版本或者v4.0及以上版本，请参见[水平基本柱图（v3.0以下版本）](/zh/datav/datav-6-0/user-guide/stacked-bar-chart-of-v3-0-and-earlier#concept-slz-1tj-bfb)或[水平基本柱状图（v4.0及以上版本）](/zh/datav/datav-6-0/user-guide/the-horizontal-stacked-bar-chart-widget#concept-2448735)。
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -30,7 +30,7 @@
   * **最多加载**：自定义输入数据加载限制数量，系统最多加载您输入的数据记录条数进行布局、绘制与计算，以保证可视化应用展示效果。
   * **柱图样式**：柱图中每个柱子的样式。  
 
-**背景颜色**：柱子的背景颜色，可参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+**背景颜色**：柱子的背景颜色，可参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
   * **值标签**：每个柱子值标签的样式，可单击![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标控制值标签的显隐。 ![水平基本柱图值标签样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6728068951/p85230.png)
 
 |    **参数**    |    **说明**    |
@@ -237,7 +237,7 @@
 
 ## 交互
 
-选中**启用**，开启组件交互功能。当单击水平基本柱状图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的x、y和s值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 
+选中**启用**，开启组件交互功能。当单击水平基本柱状图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的x、y和s值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 
 
 ## 蓝图编辑器交互配置
 

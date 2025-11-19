@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 信息组件 %{#92326}% 
 
 * [倒计时](/zh/datav/datav-6-0/user-guide/the-countdown-widget)
 * [业务指标趋势](/zh/datav/datav-6-0/user-guide/indicator-trend-chart)

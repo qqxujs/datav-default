@@ -12,7 +12,7 @@
 
 开始本示例前，您需完成以下准备工作：
 
-* [开通DataV-Board专业版产品](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/activate-datav-1)
+* [开通DataV-Board专业版产品](/zh/datav/datav-7-0/getting-started/activate-datav-1)
 * 准备模型资源  
 本案例将使用[高塔](https://cdn-upload.datav.aliyun.com/upload/download/1640847537101-ZEo22OsN.glb)模型和液压臂模型资源进行演示，您需将该资源下载至本地，后续上传至DataV-Board使用。
 
@@ -20,7 +20,7 @@
   * 液压臂模型资源将通过CDN进行获取。
   * 案例提供的模型资源为样例数据，仅用于学习和交流。
 * （可选）创建项目分组  
-系统默认不提供分组，创建的项目会处于未分组状态，您可[按需创建项目分组](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-project-groups)。
+系统默认不提供分组，创建的项目会处于未分组状态，您可[按需创建项目分组](/zh/datav/datav-7-0/user-guide/manage-project-groups)。
 
 ## **操作流程**
 
@@ -66,7 +66,7 @@ DataV-Board提供了丰富的模型样式设置。下面将通过调整模型样
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3977751371/p871858.png)
 
 **说明**  
-DataV-Board提供了丰富的模型样式设置，更多模型样式配置详情，请参见[模型查看器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/model-viewer)。
+DataV-Board提供了丰富的模型样式设置，更多模型样式配置详情，请参见[模型查看器](/zh/datav/datav-7-0/user-guide/model-viewer)。
 
 ### **步骤四：数据看板添加组件**
 
@@ -93,7 +93,7 @@ Tab列表组件数据源代码如下
 ```
 
 **说明**  
-DataV-Board内置文本展示、常规图表、多媒体展示、交互组件等100+图表/表单模块，覆盖常规需求。更多模型样式配置详情，请参见[组件管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-management/)。
+DataV-Board内置文本展示、常规图表、多媒体展示、交互组件等100+图表/表单模块，覆盖常规需求。更多模型样式配置详情，请参见[组件管理](/zh/datav/datav-7-0/user-guide/widget-management/)。
 
 ### **步骤五：添加全局变量**
 
@@ -361,7 +361,7 @@ return config[data.id];
 ```
 
 **说明**  
-getCallbackValue是DataV-Board中提供的过滤器获取全局变量数据的方法。详情请参见[使用全局变量](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables)。
+getCallbackValue是DataV-Board中提供的过滤器获取全局变量数据的方法。详情请参见[使用全局变量](/zh/datav/datav-7-0/user-guide/use-global-variables)。
 
 ### **步骤七：预览和发布数据看板**
 
@@ -374,5 +374,5 @@ getCallbackValue是DataV-Board中提供的过滤器获取全局变量数据的�
 
 ## **相关文档**
 
-* 更多看板的创建方式，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用模板创建移动端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)、[使用AI智能生成PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban#undefined)。
-* 更多看板的配置操作（例如，组件配置、蓝图应用、全局变量），请参见[可视化工作台](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/visualization-console/)、[进阶教程](https://help.aliyun.com/zh/datav/datav-7/videos/advanced-tutorials/)。
+* 更多看板的创建方式，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用模板创建移动端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)、[使用AI智能生成PC端看板](/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban#undefined)。
+* 更多看板的配置操作（例如，组件配置、蓝图应用、全局变量），请参见[可视化工作台](/zh/datav/datav-7-0/user-guide/visualization-console/)、[进阶教程](/zh/datav/datav-7/videos/advanced-tutorials/)。

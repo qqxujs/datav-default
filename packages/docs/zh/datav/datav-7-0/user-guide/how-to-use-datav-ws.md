@@ -61,7 +61,7 @@
   2. 根据演示机器的IP地址，在演示机器的蓝图编辑器内添加一个**WebSocket**节点，并变更**WebSocket**节点的**socket服务地址**为：`ws://机器IP地址:8181`，即可完成多个同网段数据看板的互相通信功能。
 
 **说明**  
-  跨屏演示请参见[实现跨屏联动](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/implement-interactions-between-widgets-in-two-projects)。
+  跨屏演示请参见[实现跨屏联动](/zh/datav/datav-7-0/user-guide/implement-interactions-between-widgets-in-two-projects)。
 
 ### **配置模型服务**
 

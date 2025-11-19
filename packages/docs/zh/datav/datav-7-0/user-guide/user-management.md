@@ -30,8 +30,8 @@
 
 ## **前提条件**
 
-* 已[开通DataV-Board服务](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/activate-datav-1)。
-* （可选）[创建RAM用户](https://help.aliyun.com/zh/ram/user-guide/create-a-ram-user)。若工作空间需要添加成员进行协同开发，请先创建相应RAM用户。
+* 已[开通DataV-Board服务](/zh/datav/datav-7-0/getting-started/activate-datav-1)。
+* （可选）[创建RAM用户](/zh/ram/user-guide/create-a-ram-user)。若工作空间需要添加成员进行协同开发，请先创建相应RAM用户。
 
 ## **进入工作空间管理**
 

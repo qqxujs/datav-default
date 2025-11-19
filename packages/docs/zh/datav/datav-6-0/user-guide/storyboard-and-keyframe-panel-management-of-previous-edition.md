@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 分镜与关键帧面板管理 %{#193475}% 
 
 场景编辑器下方的分镜与关键帧面板，重新梳理了图层、场景和分镜的概念及功能，每个场景下可以创建多个相同图层要素的动画。本文介绍三维城市构建器分镜与关键帧面板内各个模块功能的使用方法。
 
@@ -29,7 +29,7 @@
 
 * 选中当前帧：单击时间轴画布中任意一处即可选中此处为当前场景下对应的某一帧，用蓝色线条展示，选中当前帧后可在左侧关键帧属性中添加或修改关键帧属性。![选择关键帧](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8000259161/p180384.png)
 * 拖动当前帧：单击时间轴画布中任意一处选中此处为当前场景下对应的某一帧后，您可以随意拖动当前帧，即可调整当前帧在时间轴上的位置。![拖动当前帧](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8000259161/p266085.gif)
-* 配置关键帧属性：默认状态下的关键帧属性仅为相机和时间系统属性。您还可以在图层管理列表中添加图层到关键帧属性，并调整每个图层在当前关键帧内的属性，详情请参见图层面板管理中的[添加和移除关键帧属性](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-9xq-95p-hu7)。
+* 配置关键帧属性：默认状态下的关键帧属性仅为相机和时间系统属性。您还可以在图层管理列表中添加图层到关键帧属性，并调整每个图层在当前关键帧内的属性，详情请参见图层面板管理中的[添加和移除关键帧属性](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-9xq-95p-hu7)。
   * 相机：展开相机列表，您可以自定义拖动滑块调整经度、纬度、高度、倾斜、平移和视角的参数。![完成保存](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9406648461/p421239.png)
   * 时间系统：展开时间系统列表，在时间参数配置项，您可以自定义为当前场景内的当前帧选择一个具体的所处时间。![配置时间系统](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9406648461/p421242.jpg)  
 完成各项关键属性参数配置后，单击关键帧属性右侧的保存按钮（![保存](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4510986061/p187168.png)），即可保存各种属性配置到当前关键帧内。

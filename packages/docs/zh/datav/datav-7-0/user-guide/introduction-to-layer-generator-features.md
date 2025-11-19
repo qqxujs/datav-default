@@ -78,7 +78,7 @@
 2. 在**工作台**页面，选择任一**数据看板**，单击**编辑**，进入画布编辑器页面。
 
 **说明**  
-如果**工作台**页面中没有数据看板，请先[创建一个数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
+如果**工作台**页面中没有数据看板，请先[创建一个数据看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
 3. 单击左侧导航栏的**组件库**，进入组件管理页面。
 4. 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1661947571/p1005801.png)图标，进入地图组件列表。
 5. 单击**基础平面地图4.0**组件，并在组件配置面板中，新增一个**自定义区域下钻层**子组件。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1661947571/p1005805.png)

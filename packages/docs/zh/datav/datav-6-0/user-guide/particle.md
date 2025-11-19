@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 粒子 %{#154403}% 
 
 粒子是三维城市地图的子组件，支持独立的样式和数据配置，包括粒子的叠加模式、默认样式和样式配置类型等。粒子的作用是表达区域范围内一些点数据的样式。本文介绍粒子配置项的含义。
 
@@ -11,7 +11,7 @@
 
 |    参数    |    说明    |
 |    ----    |    ----    |
-|    颜色    |    设置粒子默认颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改颜色。    |
+|    颜色    |    设置粒子默认颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改颜色。    |
 |    透明度    |    拖动滑块修改数据，设置粒子的透明度值。取值范围围0\~1。    |
 |    图标    |    在图标设置区域。 鼠标移动到图片位置，单击删除可删除当前图标，然后单击图标区域或者拖动本地图片到区域内即可添加一个粒子图标。 鼠标移动到图片位置，单击更改可重新上传本地图片。 您也可以输入图片的URL地址，将远程服务器上的图片作为粒子图标。 **说明** 图标仅支持使用.png或者.jpg样式的图片。    |
 |    大小    |    拖动滑块修改数据，设置粒子的大小值。取值范围围0\~10000。    |
@@ -36,7 +36,7 @@ __表 1\. 字段说明__
 
 ## 交互
 
-点击事件：选中启用，开启组件交互功能。可在单击粒子触发事件时抛出回调值，默认抛出数据中的data和clickPosition字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。 
+点击事件：选中启用，开启组件交互功能。可在单击粒子触发事件时抛出回调值，默认抛出数据中的data和clickPosition字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。 
 
 ## 蓝图编辑器交互配置
 

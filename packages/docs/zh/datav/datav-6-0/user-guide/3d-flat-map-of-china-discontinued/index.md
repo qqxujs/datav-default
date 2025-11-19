@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 3D平面中国地图（组件已下线） %{#147679}% 
 
 * [地图容器](/zh/datav/datav-6-0/user-guide/map-container-1)
 * [散点层](/zh/datav/datav-6-0/user-guide/scatter-layer-1)

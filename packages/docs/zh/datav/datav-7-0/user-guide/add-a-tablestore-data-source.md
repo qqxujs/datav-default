@@ -8,7 +8,7 @@
 
 **重要** 
 
-您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV-Board能正常访问您的数据库。详情请参见[配置数据库白名单](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
+您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV-Board能正常访问您的数据库。详情请参见[配置数据库白名单](/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
 
 ## 使用限制
 
@@ -27,7 +27,7 @@
 |    **名称**    |    数据源的显示名称，您可以自由命名。    |
 |    **AK ID**    |    拥有TableStore访问权限的账号的AccessKey ID。    |
 |    **AK Secret**    |    拥有TableStore访问权限的账号的AccessKey Secret。    |
-|    **外网**    |    TableStore的[服务地址](https://help.aliyun.com/zh/tablestore/endpoints#concept-bsx-btj-bfb)，需要根据访问的TableStore实例来填写。    |
+|    **外网**    |    TableStore的[服务地址](/zh/tablestore/endpoints#concept-bsx-btj-bfb)，需要根据访问的TableStore实例来填写。    |
 5. 信息填写完成后，单击**确定**，完成数据源的添加。  
 新添加的数据源会自动显示在数据源列表中。
 
@@ -37,9 +37,9 @@
 2. 在**工作台**页面中，将鼠标移动至需要编辑的数据看板上，单击**编辑**。
 
 **重要**  
-如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
+如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
 3. 在画布编辑页面，单击画布中的某一组件。  
-如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
+如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
 4. 在画布右侧的组件配置面板中选择**数据源**。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0024312761/p539649.png)
 5. 在**设置数据源**模块中，选择**数据源类型**为**TableStore**。
@@ -47,8 +47,8 @@
 7. 在**选择操作**列表中选择需要的操作。  
 系统支持以下两种操作：  
 
-  * `getRow`：对应TableStore的GetRow API，详情请参见[GetRow API 参考](https://help.aliyun.com/zh/tablestore/developer-reference/getrow#reference-oty-2q3-bfb)。
-  * `getRange`：对应TableStore的GetRange API，详情请参见[GetRange API 参考](https://help.aliyun.com/zh/tablestore/developer-reference/getrange#reference3923)。
+  * `getRow`：对应TableStore的GetRow API，详情请参见[GetRow API 参考](/zh/tablestore/developer-reference/getrow#reference-oty-2q3-bfb)。
+  * `getRange`：对应TableStore的GetRange API，详情请参见[GetRange API 参考](/zh/tablestore/developer-reference/getrange#reference3923)。
   * `SQL`：SQL查询操作。
 8. 在**选择操作**编辑框中输入查询语句。
 
@@ -109,7 +109,7 @@
 1. 准备TableStore数据。
 
   1. 登录[TableStore控制台](https://otsnext.console.aliyun.com/)。
-  2. 在TableStore控制台中创建实例和数据表，具体请参见[创建实例](https://help.aliyun.com/zh/tablestore/create-instances#task472)和[创建数据表](https://help.aliyun.com/zh/tablestore/create-tables#task-55212-zh)。  
+  2. 在TableStore控制台中创建实例和数据表，具体请参见[创建实例](/zh/tablestore/create-instances#task472)和[创建数据表](/zh/tablestore/create-tables#task-55212-zh)。  
   如下图创建了一个名称为**test**的实例，里面有3行数据，每行数据有两个列：`id(主键, integer)`和`test(string)`。![Table Store数据](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6028370261/p32810.png)
 2. 配置数据源。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9762082761/p539725.png)
@@ -125,8 +125,8 @@
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置和使用常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置和使用常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

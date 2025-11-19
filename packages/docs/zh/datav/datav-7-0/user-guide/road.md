@@ -6,7 +6,7 @@
 
 **说明** 
 
-如果图层列表中没有**道路**，说明您还未添加**道路**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
+如果图层列表中没有**道路**，说明您还未添加**道路**图层，请参见[添加子组件](/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5952429861/p693636.png)
 
@@ -37,7 +37,7 @@
 
 ## 数据面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5952429861/p693639.png)
 
-**重新选择数据**：在数据面板内可以单击下方**重新选择数据**，打开**选择范围**对话框，重新选择仅针对道路图层的数据范围，详情请参见[使用官方基底数据创建](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/create-a-3d-city#6623dda05fs3d)中的选择场景范围区域的操作步骤。
+**重新选择数据**：在数据面板内可以单击下方**重新选择数据**，打开**选择范围**对话框，重新选择仅针对道路图层的数据范围，详情请参见[使用官方基底数据创建](/zh/datav/datav-7-0/user-guide/create-a-3d-city#6623dda05fs3d)中的选择场景范围区域的操作步骤。
 
 **刷新数据**：刷新数据面板上已添加的数据内容。
 

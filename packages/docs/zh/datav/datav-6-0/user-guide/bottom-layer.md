@@ -1,18 +1,18 @@
-<!DOCTYPE html> 
+# 底图层（v1.x版本） %{#74189}% 
 
 底图层也叫地图瓦片层，是基础平面地图的子组件，支持独立的样式和数据配置，包括底图层的瓦片类型或地址、颜色、滤镜等，能够使用自定义的瓦片服务来设置基础平面地图的背景。本文介绍底图层各配置项的含义。
 
-**重要** 当前为v1.x版本的底图层子组件指导文档，如需查看该子组件v2.x版本的文档内容详情，请参见[底图层（v2.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/basemap-layer#concept-2401079)。
+**重要** 当前为v1.x版本的底图层子组件指导文档，如需查看该子组件v2.x版本的文档内容详情，请参见[底图层（v2.x版本）](/zh/datav/datav-6-0/user-guide/basemap-layer#concept-2401079)。
 
 单击**子组件管理**下方的**底图层**，进入配置面板配置**底图层**的样式和数据。 
 
-**说明** 如果**子组件管理**中没有**底图层**，说明您还未添加**底图层**子组件，请参见[地图容器（v1.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-container-2#concept-z4z-2f5-q2b)进行添加。
+**说明** 如果**子组件管理**中没有**底图层**，说明您还未添加**底图层**子组件，请参见[地图容器（v1.x版本）](/zh/datav/datav-6-0/user-guide/map-container-2#concept-z4z-2f5-q2b)进行添加。
 
 ## 配置
 
 ![底图层配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1658068951/p8534.png) 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
-* **蒙版颜色**：底图层的蒙版颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **蒙版颜色**：底图层的蒙版颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
 * **透明度**：底图层的透明度，范围为0\~1。
 * **瓦片**：瓦片服务类型，也可以直接输入瓦片地址，按**Enter**键确定。DataV支持接入的地图瓦片服务包含以下几种。![底图层瓦片配置v1.x](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1658068951/p84828.jpg)  
 

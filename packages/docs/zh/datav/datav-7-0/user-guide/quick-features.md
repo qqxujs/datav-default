@@ -33,4 +33,4 @@
 
 快速连线功能为7.0版本产品新增功能，请根据[新版控制台](https://datav.aliyun.com/v/console/)环境进行操作。
 
-您可以左键单击选中两个锚点，使用ctrl+l/cmd+l，即可在两个锚点之间自动添加一条连线。连线的其他操作请参见[连线操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#section-w05-9to-kmy)。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5225704961/p716481.png)
+您可以左键单击选中两个锚点，使用ctrl+l/cmd+l，即可在两个锚点之间自动添加一条连线。连线的其他操作请参见[连线操作](/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#section-w05-9to-kmy)。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5225704961/p716481.png)

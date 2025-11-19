@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# DataV封装ECharts功能介绍 %{#378173}% 
 
 本文从index.js文件、package.json文件以及实操演示三个方面介绍DataV自定义组件如何封装Echarts。
 
@@ -43,9 +43,9 @@ index.js是编写组件渲染方法和业务逻辑数据处理的脚本文件，
 以下通过实操演示如何接入ECharts组件到DataV页面中。
 
 1. 配置组件包。  
-通过命令行生成组件包，关于组件包的生成方式请参见：[组件开发快速入门](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/getting-started-for-developers)生成组件包部分。  
-关于各配置的说明请参见：[控件配置规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/control-configurations)。  
-package.json包的内容，关于package.json文件规范请参见：[package.json规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1)。  
+通过命令行生成组件包，关于组件包的生成方式请参见：[组件开发快速入门](/zh/datav/datav-6-0/user-guide/getting-started-for-developers)生成组件包部分。  
+关于各配置的说明请参见：[控件配置规范](/zh/datav/datav-6-0/user-guide/control-configurations)。  
+package.json包的内容，关于package.json文件规范请参见：[package.json规范](/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1)。  
 ```  
 {  
   "name": "@jxb-test/b",         //填写公网组件包的英文名，后面为组件自身的英文名  
@@ -144,7 +144,7 @@ package.json包的内容，关于package.json文件规范请参见：[package.js
 ```
 
 **说明**  
-将梳理的配置和数据按照[package.json规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1)写入package.json，需要注意以下几点。
+将梳理的配置和数据按照[package.json规范](/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1)写入package.json，需要注意以下几点。
 
   * 可以删除自己组件不需要的配置。
   * 若需要案例代码中没有的配置，可从[ECharts配置项手册](https://echarts.apache.org/)中获取。
@@ -154,7 +154,7 @@ package.json包的内容，关于package.json文件规范请参见：[package.js
     * ECharts自己的类型，例如echarts.datatool.xxx。
     * 目前也暂不支持一个配置项有多种类型，例如既可以是text类型，也可以是number类型。
   * 配置结构与ECharts一致，若确实不能一致，需要在index.js中自定义实现转换（所以也可以支持echarts.datatool等echarts类型）。  
-indnex.js包的内容，关于index.js规范请参见：[index.js规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1)。  
+indnex.js包的内容，关于index.js规范请参见：[index.js规范](/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1)。  
 ```  
 var Event = require('bcore/event');  
 var $ = require('jquery');  
@@ -339,7 +339,7 @@ module.exports = Event.extend(function Base (container, config) {
 ```
 
 **说明**  
-参见[index.js规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1)文档，按照以下方法编写index.js文件：
+参见[index.js规范](/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1)文档，按照以下方法编写index.js文件：
 
   * 在初始化方法中，执行`EChart.init`。
   * 在渲染方法中，执行`chart.setOption`。

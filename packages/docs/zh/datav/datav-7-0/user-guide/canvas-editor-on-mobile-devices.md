@@ -25,7 +25,7 @@ DataV移动端可视化界面针对移动设备特性深度优化，提供流式
 
 ## 进入画布编辑器
 
-如果页面中没有移动端数据看板，您需要先[创建移动端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
+如果页面中没有移动端数据看板，您需要先[创建移动端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 在**全部应用**界面，鼠标悬停至目标移动端看板，单击**编辑**，进入看板画布编辑器页面。
@@ -41,11 +41,11 @@ DataV移动端可视化界面针对移动设备特性深度优化，提供流式
 |    **序号**    |    **名称**    |    **说明**    |
 |    ----    |    ----    |    ----    |
 |    1    |    工具栏    |    工具栏位于编辑器页面的最上方，您可以通过工具栏所提供的功能，切换画布视图，添加项目过滤器、更新组件、使用美化工具箱、查看帮助文档以及预览或者发布制作好的移动端可视化应用。    |
-|    2    |    图层（又称元素大纲树面板）    |    在图层列表中，可以看到流式布局画布中各个布局容器的层级关系，您可以根据可视化应用需要，手动调整最外侧布局容器在图层的上下位置关系。详情请参见[图层位置移动](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/move-a-layer)。    |
-|    3    |    布局容器与组件列表    |    在布局容器中，可以看到三种不同样式的容器，您可以单击或拖动一种容器到流式布局画布中，并对布局容器进行配置。组件列表中，可以查看各种类型的组件，可以将组件拖动到画布中进行配置，完成可视化应用项目的开发。详情请参见[布局容器与组件管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layout-container-and-component-management)和[添加组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-widget-2)。    |
-|    4    |    页面设置    |    单击流式布局画布外的空白处，页面右侧会显示**页面设置**面板。 在页面设置中，您可以调整屏幕的屏内边距、设置背景颜色和图片，截取或上传可视化应用的缩略图做封面。企业版及以上用户还支持去除DataV水印的功能。详情请参见[页面设置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-mobile-devices#section-btq-lz4-p2b)。    |
-|    5    |    布局容器配置    |    单击流式布局画布中任意一个布局容器，页面右侧会显示**布局容器配置**面板。在配置面板中，您可以调整容器的背景颜色和裁剪样式、设置容器的大小高度值和容器的圆角大小、设置容器四周外间距和内边距的值等功能。详情请参见[布局容器配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-mobile-devices#title-eet-wyd-qpm)。    |
-|    6    |    格子配置    |    单击流式布局画布中任意一个空白格子，页面右侧会显示**格子配置**面板。在配置面板中，您可以调整格子的布局占比和其他高级配置等功能。详情请参见[格子配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-mobile-devices#title-zvt-gn1-yfo)。    |
+|    2    |    图层（又称元素大纲树面板）    |    在图层列表中，可以看到流式布局画布中各个布局容器的层级关系，您可以根据可视化应用需要，手动调整最外侧布局容器在图层的上下位置关系。详情请参见[图层位置移动](/zh/datav/datav-7-0/user-guide/move-a-layer)。    |
+|    3    |    布局容器与组件列表    |    在布局容器中，可以看到三种不同样式的容器，您可以单击或拖动一种容器到流式布局画布中，并对布局容器进行配置。组件列表中，可以查看各种类型的组件，可以将组件拖动到画布中进行配置，完成可视化应用项目的开发。详情请参见[布局容器与组件管理](/zh/datav/datav-7-0/user-guide/layout-container-and-component-management)和[添加组件](/zh/datav/datav-7-0/user-guide/add-a-widget-2)。    |
+|    4    |    页面设置    |    单击流式布局画布外的空白处，页面右侧会显示**页面设置**面板。 在页面设置中，您可以调整屏幕的屏内边距、设置背景颜色和图片，截取或上传可视化应用的缩略图做封面。企业版及以上用户还支持去除DataV水印的功能。详情请参见[页面设置](/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-mobile-devices#section-btq-lz4-p2b)。    |
+|    5    |    布局容器配置    |    单击流式布局画布中任意一个布局容器，页面右侧会显示**布局容器配置**面板。在配置面板中，您可以调整容器的背景颜色和裁剪样式、设置容器的大小高度值和容器的圆角大小、设置容器四周外间距和内边距的值等功能。详情请参见[布局容器配置](/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-mobile-devices#title-eet-wyd-qpm)。    |
+|    6    |    格子配置    |    单击流式布局画布中任意一个空白格子，页面右侧会显示**格子配置**面板。在配置面板中，您可以调整格子的布局占比和其他高级配置等功能。详情请参见[格子配置](/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-mobile-devices#title-zvt-gn1-yfo)。    |
 |    7    |    组件设置    |    单击流式布局画布中任意一个组件，页面右侧会自动弹出**配置**、**数据**和**交互**三个页签。配置方法请参见配置项说明。    |
 
 ### **页面设置**
@@ -90,4 +90,4 @@ DataV移动端可视化界面针对移动设备特性深度优化，提供流式
 |    **名称**    |    **描述**    |
 |    ----    |    ----    |
 |    布局占比    |    设置格子在布局容器内的占比程度，单位为%。    |
-|    高级配置    |    设置格子的高级配置样式，请参考[布局容器配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-mobile-devices#title-eet-wyd-qpm)设置格子高级配置的内容。    |
+|    高级配置    |    设置格子的高级配置样式，请参考[布局容器配置](/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-mobile-devices#title-eet-wyd-qpm)设置格子高级配置的内容。    |

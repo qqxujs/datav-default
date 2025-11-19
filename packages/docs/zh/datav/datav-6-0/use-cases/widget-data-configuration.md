@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 配置组件数据 %{#406491}% 
 
 本文为您介绍在DataV快乐转转转模板可视化应用中修改转盘抽奖内具体奖品数据的方法。
 
 ## 前提条件
 
-已完成可视化应用的创建，详情请参见[创建模板可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/create-happy-rotation-template-applications#task-2041978 "本文为您介绍使用快乐转转转模板创建可视化应用的方法。")。 
+已完成可视化应用的创建，详情请参见[创建模板可视化应用](/zh/datav/datav-6-0/getting-started/create-happy-rotation-template-applications#task-2041978 "本文为您介绍使用快乐转转转模板创建可视化应用的方法。")。 
 
 ## 操作步骤
 

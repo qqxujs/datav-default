@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 柱状图 %{#89789}% 
 
 * [玉珏图（v5.0及以上版本）](/zh/datav/datav-6-0/user-guide/radial-bar-chart-of-v5-0-and-later)
 * [弧形柱状图](/zh/datav/datav-6-0/user-guide/the-radial-bar-chart-widget)

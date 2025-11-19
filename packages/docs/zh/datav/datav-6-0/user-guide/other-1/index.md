@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 其他组件 %{#111924}% 
 
 * [矩形树图](/zh/datav/datav-6-0/user-guide/treemap-chart)
 * [抽奖轮播图](/zh/datav/datav-6-0/user-guide/the-lucky-draw-carousel-chart)

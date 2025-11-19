@@ -8,10 +8,10 @@
 
 若您在连接数据源时出现报错，请优先排查以下原因：
 
-1. 对于数据库类的数据源，请确保正确[配置数据库白名单](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
+1. 对于数据库类的数据源，请确保正确[配置数据库白名单](/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
 
   * **阿里云数据库**：请在数据库**白名单与安全组**配置中添加指定IP地址。
-  * **阿里云ECS上自建数据库**：请在ECS的[添加安全组规则](https://help.aliyun.com/zh/ecs/user-guide/add-a-security-group-rule#concept-sm5-2wz-xdb)、系统防火墙和数据库白名单添加指定IP地址 。
+  * **阿里云ECS上自建数据库**：请在ECS的[添加安全组规则](/zh/ecs/user-guide/add-a-security-group-rule#concept-sm5-2wz-xdb)、系统防火墙和数据库白名单添加指定IP地址 。
   * **本地的自建数据库**：请在该物理机的系统防火墙、网络防火墙和数据库白名单添加指定IP地址。
 2. 请确认网络类型与数据源实际类型是否一致。
 
@@ -21,10 +21,10 @@
 
   * 请确保数据库用户名拥有**List**权限，以便获取数据表列表。
   * 请确保AccessKey ID拥有**Read**权限，以便访问实例。
-4. 数据代理服务连接失败，请参见[数据代理请求常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-proxy-requests)。
+4. 数据代理服务连接失败，请参见[数据代理请求常见问题](/zh/datav/datav-7-0/support/faq-about-data-proxy-requests)。
 5. 若以下完全正确，仍然连接超时，可能是DataV-Board的10秒连接超时限制。超时问题，具体可参考[性能问题](#f66b447cc7ggf)。
 
-若仍连接失败，请复制完整错误信息，[联系我们](https://help.aliyun.com/zh/datav/datav-7-0/support/contact-us-for-datav-7)进行问题排查。
+若仍连接失败，请复制完整错误信息，[联系我们](/zh/datav/datav-7-0/support/contact-us-for-datav-7)进行问题排查。
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5189846371/p899202.png)
 
@@ -74,8 +74,8 @@ DataV-Board设置了数据库请求时间限制，即如果数据查询时间超
 
 * 针对查询条件所使用的字段添加索引，减少扫描行数，从而加速查询。
 * 在数据库中增加定时任务，定时计算所需要的业务指标并更新结果表。组件直接查询结果表的数据，无需每次执行SQL查询获取组件数据。
-* 通过自建API 服务（[需支持跨域](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-api-data-sources#0d32c9a98a1l2)），从而避免查询超时。
-* 通过[DataV数据代理服务](https://help.aliyun.com/zh/datav/how-to-use-datav-proxy)方式，突破系统10秒连接超时限制。
+* 通过自建API 服务（[需支持跨域](/zh/datav/datav-7-0/user-guide/add-api-data-sources#0d32c9a98a1l2)），从而避免查询超时。
+* 通过[DataV数据代理服务](/zh/datav/how-to-use-datav-proxy)方式，突破系统10秒连接超时限制。
 
 ### **API接口内部业务调用链路较长，导致查询超时**
 
@@ -91,8 +91,8 @@ DataV-Board设置了数据库请求时间限制，即如果数据查询时间超
 
 系统默认采取使用**TLS**加密协议，保护您的数据安全。 若您有所顾忌，可采取以下两种方式：
 
-* 使用[DataV数据代理服务](https://help.aliyun.com/zh/datav/how-to-use-datav-proxy)方式，无需暴露数据库的公网IP，就可以连接自建的数据库，提高数据安全性。
-* 可使用尊享版本进行本地部署，具体操作请参见[产品升级](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/service-upgrades-and-downgrades)。
+* 使用[DataV数据代理服务](/zh/datav/how-to-use-datav-proxy)方式，无需暴露数据库的公网IP，就可以连接自建的数据库，提高数据安全性。
+* 可使用尊享版本进行本地部署，具体操作请参见[产品升级](/zh/datav/datav-7-0/product-overview/service-upgrades-and-downgrades)。
 
 ## **数据一致性问题**
 

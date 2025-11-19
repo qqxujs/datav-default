@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 关系图 %{#92445}% 
 
 * [关系网络](/zh/datav/datav-6-0/user-guide/the-network-diagram-widget)
 * [流程图](/zh/datav/datav-6-0/user-guide/the-flowchart-widget)

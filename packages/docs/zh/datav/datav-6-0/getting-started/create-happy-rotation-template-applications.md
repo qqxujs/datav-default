@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 创建模板可视化应用 %{#203667}% 
 
 本文为您介绍使用快乐转转转模板创建可视化应用的方法。
 
 ## 前提条件
 
-已开通DataV服务，详情请参见[开通DataV服务](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/activate-datav#task-2323429 "本文为您介绍开通DataV服务的方法。")。 
+已开通DataV服务，详情请参见[开通DataV服务](/zh/datav/datav-6-0/getting-started/activate-datav#task-2323429 "本文为您介绍开通DataV服务的方法。")。 
 
 ## 操作步骤
 

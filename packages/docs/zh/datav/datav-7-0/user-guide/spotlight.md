@@ -6,7 +6,7 @@
 
 **说明** 
 * 当前组件目前仅供**DataV专业版**及以上版本用户使用。如需使用该组件，请先将版本升级至专业版及以上版本。
-* 如果图层列表中没有**聚光灯**，说明您还未添加**聚光灯**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
+* 如果图层列表中没有**聚光灯**，说明您还未添加**聚光灯**图层，请参见[添加子组件](/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
 
 ## 样式面板
 
@@ -15,7 +15,7 @@
 请您避免添加多个聚光灯，防止因性能开销过大导致页面卡顿或加载缓慢。
 
 ![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2950859861/p694405.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **通用**
 
 |    **参数**    |    **说明**    |
@@ -26,7 +26,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **光照颜色**    |    聚光灯光照的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)修改颜色。    |
+|    **光照颜色**    |    聚光灯光照的颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)修改颜色。    |
 |    **光照强度**    |    拖动滑块设置聚光灯光照强度系数，取值范围为0\~10。    |
 |    **衰减系数**    |    拖动滑块设置聚光灯的灯光投射衰减系数值，取值范围为0\~2。    |
 |    **视角**    |    拖动滑块设置聚光灯的灯光视角，取值范围为0\~0.5。    |

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 二次开发 %{#169802}% 
 
 DataV-Board（数据看板）尊享版提供二次开发功能，提供比蓝图编辑器更高的灵活度，可实现更复杂和灵活的看板效果。
 
@@ -14,7 +14,7 @@ DataV-Board（数据看板）尊享版提供二次开发功能，提供比蓝图
 
 ## 使用限制
 
-仅限尊享版用户，若您还不是尊享版用户请先进行[产品升级](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/service-upgrades-and-downgrades)。
+仅限尊享版用户，若您还不是尊享版用户请先进行[产品升级](/zh/datav/datav-7-0/product-overview/service-upgrades-and-downgrades)。
 
 ## hook脚本开发使用方法
 

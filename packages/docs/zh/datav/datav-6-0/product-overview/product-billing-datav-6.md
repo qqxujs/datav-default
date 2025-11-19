@@ -44,15 +44,15 @@ DataV-Board产品其他资源计费标准请见下表。
 
 ## **续费说明**
 
-产品实例到期后，将会有停机风险，系统会提醒或通知您请及时续费。为了避免对您的服务造成影响，您可以设置[手动续费](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/expiration-and-renewal#section-ctr-7b2-w1w)或[自动续费](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/expiration-and-renewal#section-3fd-zgi-fet)。
+产品实例到期后，将会有停机风险，系统会提醒或通知您请及时续费。为了避免对您的服务造成影响，您可以设置[手动续费](/zh/datav/datav-6-0/product-overview/expiration-and-renewal#section-ctr-7b2-w1w)或[自动续费](/zh/datav/datav-6-0/product-overview/expiration-and-renewal#section-3fd-zgi-fet)。
 
 ## **产品升级与降配说明**
 
-产品支持灵活调整配置，您可以根据业务需求随时进行[升级与降配操作](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/product-upgrades-and-downgrades)。
+产品支持灵活调整配置，您可以根据业务需求随时进行[升级与降配操作](/zh/datav/datav-6-0/product-overview/product-upgrades-and-downgrades)。
 
 ## **退订说明**
 
-如您无需再使用已购买的DataV-Board产品，则可按需执行[退订](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/how-to-refund)操作。
+如您无需再使用已购买的DataV-Board产品，则可按需执行[退订](/zh/datav/datav-6-0/product-overview/how-to-refund)操作。
 
 ## **计费常见问题**
 

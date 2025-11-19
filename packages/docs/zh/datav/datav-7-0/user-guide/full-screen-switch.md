@@ -8,7 +8,7 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7944471961/p705364.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -17,9 +17,9 @@
     * 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8222919661/p521797.png)图标，控制组件左右翻转样式。
     * 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8222919661/p521798.png)图标，控制组件上下翻转样式。
   * **不透明度**：取值范围为0\~1。为**0**时，图表隐藏；为**1**时，图表全部显示。默认为**1**。
-* **全屏显示**：配置全屏显示的图标。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。
-* **退出全屏**：配置退出全屏的图标。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。
-* **背景颜色**：图片底部的填充色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
+* **全屏显示**：配置全屏显示的图标。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。
+* **退出全屏**：配置退出全屏的图标。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。
+* **背景颜色**：图片底部的填充色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
 * **圆角**：配置组件的背景形状。默认为**50%**显示为圆形。如果为**0%**，则显示为正方形。
 
 **说明**  

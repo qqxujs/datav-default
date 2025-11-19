@@ -28,11 +28,11 @@
 * 复制、删除、重命名子组件：鼠标移至已经添加的子组件上，单击鼠标右键，分别选择**复制**、**删除**子组件，完成复制和删除操作。双击子组件，完成重命名操作。
 
 **说明**  
-更多子组件操作请参见[管理地图子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-map-subcomponents-4-0)。
+更多子组件操作请参见[管理地图子组件](/zh/datav/datav-7-0/user-guide/manage-map-subcomponents-4-0)。
 
 ## 样式面板![{42C56920-58D3-4BBD-8FDD-6369AF24CB83}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0718967371/p899868.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **基础配置：**
 
   * **尺寸**：包括组件的宽度和高度，单位为px。
@@ -49,7 +49,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **地图背景**    |    地图的背景颜色，请参见[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
+|    **地图背景**    |    地图的背景颜色，请参见[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
 |    **地图缩放**    |    控制地图父容器的缩放范围及默认级别。 **缩放范围**：缩放范围控制父容器只能在缩放范围内操作，取值范围0\~22。**默认级别**：默认级别设置父容器默认显示级别，需要设置在缩放范围内，取值范围为0\~22。**说明** 地图缩放支持分数级缩放。缩放级别控制父容器只能在缩放范围内操作；默认级别设置父容器默认显示级别，需要设置在缩放范围内。    |
 |    **地图中心**    |    配置经纬度信息，来控制地图中心的位置。    |
 |    **地图旋转**    |    地图的旋转角度。    |
@@ -73,7 +73,7 @@
 
 ## 高级面板![{0E5ACB51-B6FE-4AF0-AAE9-0807117B184D}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0718967371/p899888.png)
 
-通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
 
 ## 蓝图交互
 

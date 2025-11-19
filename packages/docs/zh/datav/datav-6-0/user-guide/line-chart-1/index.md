@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 折线图 %{#87881}% 
 
 * [三维折线图](/zh/datav/datav-6-0/user-guide/3d-line-chart)
 * [区域翻牌器（v3.0及以上版本）](/zh/datav/datav-6-0/user-guide/the-area-chart-with-ticker-board)

@@ -8,7 +8,7 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4722661961/p704815.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -22,7 +22,7 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **大小**    |    图标的大小，若不需要图标则设置为0。    |
-|    **颜色**    |    图标的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
+|    **颜色**    |    图标的颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
 |    **边距**    |    图标与时间器文本之间的距离。    |
 * **时间器**
 
@@ -50,8 +50,8 @@
 
 |    **交互事件**    |    **说明**    |
 |    ----    |    ----    |
-|    **当时间变化时**    |    打开开关，开启关联全局变量功能。在当前时间发生变化时，系统会自动抛出临时变量，默认抛出time（当前时间）字段值，详细配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。**重要** 在当前时间发生变化时，系统会隔一段时间再抛出临时变量，此时可在样式面板的**回调配置** \>**回调抛出间隔**中设置，默认为3000ms。    |
-|    **当时间到设置时间时**    |    打开开关，开启关联全局变量功能。当时间到设置的时间时，系统会自动抛出临时变量，默认抛出time（当前时间）字段值，详细配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当时间变化时**    |    打开开关，开启关联全局变量功能。在当前时间发生变化时，系统会自动抛出临时变量，默认抛出time（当前时间）字段值，详细配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。**重要** 在当前时间发生变化时，系统会隔一段时间再抛出临时变量，此时可在样式面板的**回调配置** \>**回调抛出间隔**中设置，默认为3000ms。    |
+|    **当时间到设置时间时**    |    打开开关，开启关联全局变量功能。当时间到设置的时间时，系统会自动抛出临时变量，默认抛出time（当前时间）字段值，详细配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
 
 ## 蓝图交互
 

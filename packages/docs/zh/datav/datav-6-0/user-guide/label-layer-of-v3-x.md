@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 标签层（v3.x版本） %{#609888}% 
 
 本文介绍标签层的图表样式和各配置项的含义。
 
@@ -10,7 +10,7 @@
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1474768761/p581840.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **通用**：设置标签层的通用配置项。
 
 |    **参数**    |    **说明**    |
@@ -18,7 +18,7 @@
 |    **不透明度**    |    标签层的不透明度，范围为0\~100，单位%。数值越大标签层越不透明。    |
 * **图形**：设置标签层的图形配置项。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1474768761/p581841.png)
 
-  * **图标形状**：设置标签层在3D平面地图上显示的图标形状，单击![上传](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8748020661/p476928.jpg)，上传本地图片自定义设置图标形状。请参见[形状映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-shape-mapper#concept-2067398)，配置不同图标的形状映射样式。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1474768761/p581842.png)
+  * **图标形状**：设置标签层在3D平面地图上显示的图标形状，单击![上传](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8748020661/p476928.jpg)，上传本地图片自定义设置图标形状。请参见[形状映射器使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-shape-mapper#concept-2067398)，配置不同图标的形状映射样式。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1474768761/p581842.png)
   * **图标尺寸**：标签层图标的尺寸样式参数。
 
 |    **参数**    |    **说明**    |
@@ -68,7 +68,7 @@
 |    **轮播时长**    |    标签层图标的轮播时长，显示方式选择轮播时展示。**进入时长**：设置标签进入时长，范围为0\~5，单位秒。**停留时长**：设置标签停留时长，范围为1\~500，单位秒。**消失时长**：设置标签消失时长，范围为0\~5，单位秒。    |
 * **条件**：条件样式说明。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1474768761/p581844.png)
 
-**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中的条件样式配置并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
+**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中的条件样式配置并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
 
 **图形**：设置该条件下标签层内的图形样式。单击**图形**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制该条件下标签层内对应图形的显隐。
 
@@ -126,19 +126,19 @@ __表 2\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 数据面板（分析模式）
 
 **重要** 
 
-在地图中以分析模式创建，添加子组件时，图层栏内会自动在当前子组件上方对应生成一个分析器，且需要提前创建数据集以供分析模式子组件选择并配置使用，创建数据集和分析器交互使用说明详情，请参见[添加数据集](https://help.aliyun.com/document%5Fdetail/215456.html#task-2060897)和[BI分析器交互使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#concept-2114138)。
+在地图中以分析模式创建，添加子组件时，图层栏内会自动在当前子组件上方对应生成一个分析器，且需要提前创建数据集以供分析模式子组件选择并配置使用，创建数据集和分析器交互使用说明详情，请参见[添加数据集](https://help.aliyun.com/document%5Fdetail/215456.html#task-2060897)和[BI分析器交互使用说明](/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#concept-2114138)。
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8307833371/p882675.png)
 
-**标签层**子组件BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
+**标签层**子组件BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
 
 ### **配置字段说明**
 
@@ -162,7 +162,7 @@ __表 2\. 配置项说明__
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    当点击点时    |    选中**启用**，开启组件交互功能。**标签层**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    当点击点时    |    选中**启用**，开启组件交互功能。**标签层**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
 
 ## 蓝图编辑器交互配置
 

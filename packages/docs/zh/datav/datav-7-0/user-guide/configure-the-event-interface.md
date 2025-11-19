@@ -11,7 +11,7 @@
 |    **模式**    |    **说明**    |
 |    ----    |    ----    |
 |    **视图模式**    |    在视图模式下，直观查看示例事件的样式，并按照示例样式自定义配置事件的内容，无需编写代码。 视图模式下事件示例样式![视图模式下事件示例样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7749222571/p283765.png)    |
-|    **代码模式**    |    在代码模式下，您可以根据示例事件代码，自定义编写所需事件的代码。实现新增或配置事件的内容。 代码模式下事件示例样式![代码模式下事件示例样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7749222571/p283766.png)**说明** 配置事件接口代码规范，请参见[组件开发包文件概览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-widget-development-package)。    |
+|    **代码模式**    |    在代码模式下，您可以根据示例事件代码，自定义编写所需事件的代码。实现新增或配置事件的内容。 代码模式下事件示例样式![代码模式下事件示例样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7749222571/p283766.png)**说明** 配置事件接口代码规范，请参见[组件开发包文件概览](/zh/datav/datav-7-0/user-guide/overview-of-widget-development-package)。    |
 
 ## 配置事件接口
 
@@ -39,7 +39,7 @@
 
 在区块编辑器中配置完事件接口后，您可以在画布编辑器中使用区块时，查看到区块的所有事件接口信息，具体在可视化应用中配置并查看接口信息的步骤如下。
 
-1. 在区块编辑器中，对配置的事件接口内容，进行预览和测试数据接口内容，接口测试无误后，发布区块，详情请参见[预览区块](https://help.aliyun.com/zh/datav/preview-blocks)和[发布区块](https://help.aliyun.com/zh/datav/publish-blocks)。![测试监听事件响应示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9704285261/p283988.png)
+1. 在区块编辑器中，对配置的事件接口内容，进行预览和测试数据接口内容，接口测试无误后，发布区块，详情请参见[预览区块](/zh/datav/preview-blocks)和[发布区块](/zh/datav/publish-blocks)。![测试监听事件响应示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9704285261/p283988.png)
 2. 切换到**工作台**页面，将鼠标悬浮至一个数据看板上方，单击**编辑**进入画布编辑器。
 3. 单击**组件库**页签，选择**区块**模块，在区块列表内可查看到发布后的所有区块内容。
 4. 单击所需区块，即可添加该区块到画布编辑器中。

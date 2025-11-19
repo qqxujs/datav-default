@@ -24,7 +24,7 @@
 
 ## 如何配置交互功能？
 
-交互功能目前处于测试阶段。配置交互功能的方法请参见[图表联动](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。
+交互功能目前处于测试阶段。配置交互功能的方法请参见[图表联动](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。
 
 ## 如何通过URL传参控制显示的数据？
 
@@ -51,5 +51,5 @@
 ## **如何给整个组添加点击事件？**
 
 * **问题描述**：在DataV-Board 7.0中，如何给一个组添加点击事件，去触发执行相关指令？
-* **解决方案：**可为当前[组](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-management-of-canvas-editor-in-pc-of-datav-7)添加一张图片或标题组件，并设置为透明样式，通过点击透明组件或图片触发相应事件。
-* **操作示例：**示例按下图步骤，添加通用标题至当前组（即由饼图和轮播列表生成的组）的最上层，并设置标题组件为透明状态。后续您可按需为标题组件[添加相关指令](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)，实现点击组件触发相应事件。更多组件操作，请参考[PC组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widgets-on-pcs/)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6233900371/p864085.png)
+* **解决方案：**可为当前[组](/zh/datav/datav-7-0/user-guide/layer-management-of-canvas-editor-in-pc-of-datav-7)添加一张图片或标题组件，并设置为透明样式，通过点击透明组件或图片触发相应事件。
+* **操作示例：**示例按下图步骤，添加通用标题至当前组（即由饼图和轮播列表生成的组）的最上层，并设置标题组件为透明状态。后续您可按需为标题组件[添加相关指令](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)，实现点击组件触发相应事件。更多组件操作，请参考[PC组件](/zh/datav/datav-7-0/user-guide/widgets-on-pcs/)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6233900371/p864085.png)

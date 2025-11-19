@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 工具栏 %{#2923978}% 
 
 本文档提供移动端画布编辑器工具栏的完整操作说明，涵盖辅助线、画布图层搜索等功能。
 
 ## 进入工具栏配置
 
-如果页面中没有移动端数据看板，您需要先[创建移动端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
+如果页面中没有移动端数据看板，您需要先[创建移动端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 在**全部应用**界面，鼠标悬停至目标移动端看板，单击**编辑**，进入看板画布编辑器页面。

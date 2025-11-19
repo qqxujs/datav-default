@@ -13,7 +13,7 @@
 
   * **MAC**：适用于macOS操作系统。
   * **WIN**：适用于Windows操作系统。
-  * **Terminal**：适用于Linux操作系统，单击**下载**后会跳转至开发指南的[组件开发快速入门](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/get-started-with-widget-development-of-datav-7)文档，请参考文档安装开发工具套件。
+  * **Terminal**：适用于Linux操作系统，单击**下载**后会跳转至开发指南的[组件开发快速入门](/zh/datav/datav-7-0/user-guide/get-started-with-widget-development-of-datav-7)文档，请参考文档安装开发工具套件。
 5. （MAC和WIN版本）下载完成后，双击应用进行安装。
 
 ## 登录桌面版开发工具
@@ -68,11 +68,11 @@
 |    ----    |    ----    |
 |    **组件名称**    |    输入组件名称。    |
 |    **组件类型**    |    单击下拉框选择组件类型。    |
-|    **发布ID**    |    单击下拉框选择可用的组件包，如果没有可用的组件包，可单击**\+ 自定义**，跳转到DataV控制台上创建组件包，具体方法请参见[管理组件包](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-widget-packages)。    |
+|    **发布ID**    |    单击下拉框选择可用的组件包，如果没有可用的组件包，可单击**\+ 自定义**，跳转到DataV控制台上创建组件包，具体方法请参见[管理组件包](/zh/datav/datav-7-0/user-guide/manage-widget-packages)。    |
 |    **组件ID**    |    输入组件ID，例如**basic-text**。    |
 3. 信息填写完成后，单击**创建**即可完成组件的创建。  
 组件创建成功后，即可在中心画布区中查看组件，并在右侧的配置栏对组件进行配置。![查看已创建的组件界面](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8938829951/p41177.png)  
-组件创建成功后，在本地的组件包文件夹下会生成_index.js_和_package.json_文件，参考[组件开发包文件概览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-widget-development-package)编辑这两个文件，可自定义组件的配置项。![自定义组件配置项](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8938829951/p41181.png)
+组件创建成功后，在本地的组件包文件夹下会生成_index.js_和_package.json_文件，参考[组件开发包文件概览](/zh/datav/datav-7-0/user-guide/overview-of-widget-development-package)编辑这两个文件，可自定义组件的配置项。![自定义组件配置项](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8938829951/p41181.png)
 
 ## 预览组件
 

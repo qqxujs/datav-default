@@ -16,7 +16,7 @@
 4. 在发布弹窗中，单击发布大屏。
 
 **说明**  
-当数据看板**已发布**后，发布页内容会被锁定，每次编辑后可以通过**快照管理**，快速同步发布内容。具体请参见[快照管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)。
+当数据看板**已发布**后，发布页内容会被锁定，每次编辑后可以通过**快照管理**，快速同步发布内容。具体请参见[快照管理](/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)。
 
 ## **查看访问统计**
 
@@ -38,7 +38,7 @@
 
 **说明** 
 
-**专业版试用**产品没有**用户识别码**，仅支持将自己的数据看板拷贝给个人版及以上版本的用户，但无法通过拷屏功能接收其他用户的数据看板。版本规格详情，请参见[规格说明](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/datav-editions)。
+**专业版试用**产品没有**用户识别码**，仅支持将自己的数据看板拷贝给个人版及以上版本的用户，但无法通过拷屏功能接收其他用户的数据看板。版本规格详情，请参见[规格说明](/zh/datav/datav-7-0/product-overview/datav-editions)。
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 在**工作台**页面，选择任一**数据看板**。
@@ -61,11 +61,11 @@
 
 ## **拷屏到工作空间**
 
-请参见[工作空间管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/workspace-overview#91745de15ebn1)。
+请参见[工作空间管理](/zh/datav/datav-7-0/user-guide/workspace-overview#91745de15ebn1)。
 
 ## **移动到项目分组**
 
-请参见[项目分组管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-project-groups#af708e705ful5)。
+请参见[项目分组管理](/zh/datav/datav-7-0/user-guide/manage-project-groups#af708e705ful5)。
 
 ## **重命名项目**
 
@@ -90,11 +90,11 @@
 
 ## **编辑数据看板**
 
-请参见[PC端画布编辑器概览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-pcs)。
+请参见[PC端画布编辑器概览](/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-pcs)。
 
 ## **管理配额**
 
-请参见[新增工作空间](https://help.aliyun.com/zh/datav/create-a-workspace-1)。
+请参见[新增工作空间](/zh/datav/create-a-workspace-1)。
 
 ## **显示全部**
 

@@ -8,7 +8,7 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2632661961/p704723.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -23,7 +23,7 @@
 |    ----    |    ----    |
 |    **图表边距**    |    单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制图表边距的显隐。打开开关后，可配置词云区域与组件上下左右四个边界之间的距离，单位默认px。    |
 |    **形状**    |    设置词条均匀展示在图片形状的样式。可选**椭圆**、**矩形**和**自定义**。**说明** 当选择**自定义**时，您可以在下方**图形**配置项中自定义设置一个图片URL地址或base64，词云中的词语只渲染图片的深色部位，浅色的部位如白色区域不渲染词图语。当使用图片的URL地址时，图片的大小不宜过大，不然图片加载时间过长。    |
-|    **颜色**    |    词云中词语的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)配置不同词语的颜色映射样式。    |
+|    **颜色**    |    词云中词语的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)配置不同词语的颜色映射样式。    |
 |    **词语样式**    |    词语的样式，包括词语的字体样式、字体粗细、最小字号、最大字号、词语距离组件的边距和是否保持词语位置不变。    |
 * **动画**：词云的动画效果样式。
 
@@ -44,7 +44,7 @@
 |    **提示框标题**    |    提示框标题的文字内容。单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标可开启或关闭提示框标题样式。    |
 |    **标题样式**    |    提示框内标题的样式，包括标题的字体样式、文字粗细、字号大小和颜色。    |
 |    **内容显示**    |    单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个提示框内容显示系列。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个提示框内容显示系列的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中提示框内容显示系列配置内容并新增一个同样配置的提示框内容显示系列。**字段名**：提示框内容的字段名称，需要和数据面板中的字段相匹配。**显示名**：提示框内容的显示名称。**前后缀**：提示框内容的前缀和后缀。    |
-|    **数值格式**    |    选择针对value字段生效的数值格式。详情请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。    |
+|    **数值格式**    |    选择针对value字段生效的数值格式。详情请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。    |
 |    **内容间距**    |    提示框中内容之间的距离。    |
 |    **内容文本**    |    提示框中内容文本的样式，包括文字字体样式、文字粗细、字号和颜色。    |
 |    **弹窗背景**    |    提示框的弹窗背景样式。 **背景边距**：提示框弹窗背景在水平和垂直方向的边距值。**背景颜色**：提示框的背景颜色。**边框样式**：提示框边框的样式，包括边框线的类型、圆角大小、线宽大小和边框线的颜色。    |
@@ -67,7 +67,7 @@
 |    **分类图例**    |    分类型图例的样式。**图例标记**：图例标记的形状和尺寸之大小。**图例间距**：不同分类图例之间在横向和纵向的距离。**最大宽度**：设置图例的最大宽度，单位为px。**允许翻页**：打开开关，开启图例翻页功能，可配置图例数量过多需要翻页显示时的页码样式和箭头样式；关闭开关，图例内容全部展示在一页中，无法翻页显示。**最大行数**：图例最大的显示行数，若超过最大行数，图例将翻页显示。**页码样式**：翻页页码的样式，包括页码的字体、文字粗细、字号大小和颜色。**箭头样式**：翻页样式内箭头的尺寸大小、箭头默认颜色及禁用颜色。    |
 * **条件**：数据条件系列样式说明。
 
-**数据条件系列**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
+**数据条件系列**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
 
 **图变颜色**：打开开关，配置该系列条件样式中的词语颜色；关闭开关，无法配置该系列条件下的词语颜色。
 
@@ -83,7 +83,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -93,8 +93,8 @@
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当数据项选中时**    |    打开开关，开启关联关键变量功能。当单击选中某个数据项时抛出临时变量，默认抛出数据中的name、value和colorField字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
-|    **当图例被点击时**    |    打开开关，开启关联关键变量功能。当单击某个图例时抛出变量，默认抛出数据中的value和checked字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当数据项选中时**    |    打开开关，开启关联关键变量功能。当单击选中某个数据项时抛出临时变量，默认抛出数据中的name、value和colorField字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当图例被点击时**    |    打开开关，开启关联关键变量功能。当单击某个图例时抛出变量，默认抛出数据中的value和checked字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
 
 ## 蓝图交互
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 控件类型配置 %{#2878868}% 
 
 控件类型配置涵盖基础输入、数值调节等专业控件类型，帮助开发者快速配置组件的样式面板，满足企业级业务场景的定制化需求。本文将详细介绍各类控件的功能特性与配置方法。
 
@@ -915,8 +915,8 @@ date: {
 |    ----    |    ----    |    ----    |    ----    |    ----    |
 |    name    |    显示名    |    string    |    是    |    无。    |
 |    type    |    类型    |    string    |    是    |    无。    |
-|    default    |    默认值    |    string或object    |    否    |    不填时值为空。取值请参见下文的[值说明](https://help.aliyun.com/zh/datav/datav-7/user-guide/fill-1#section-rq9-fjf-bcl)。    |
-|    components    |    填充类型    |    array    |    否    |    支持以下三种填充类型，以及它们的组合： flat：纯⾊填充（默认）。linearGradient：渐变填充。image：图片填充。**说明** 填充类型不同，对应的值也不同，详情请参见[值说明](https://help.aliyun.com/zh/datav/datav-7/user-guide/fill-1#section-rq9-fjf-bcl)。    |
+|    default    |    默认值    |    string或object    |    否    |    不填时值为空。取值请参见下文的[值说明](/zh/datav/datav-7/user-guide/fill-1#section-rq9-fjf-bcl)。    |
+|    components    |    填充类型    |    array    |    否    |    支持以下三种填充类型，以及它们的组合： flat：纯⾊填充（默认）。linearGradient：渐变填充。image：图片填充。**说明** 填充类型不同，对应的值也不同，详情请参见[值说明](/zh/datav/datav-7/user-guide/fill-1#section-rq9-fjf-bcl)。    |
 
 #### **值说明**
 
@@ -1286,8 +1286,9 @@ date: {
 #### **配置示例**
 
 * 基础用法（不配置`enableHide`）![group配置示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7858829951/p93013.png)  
-```  
-"group": {  
+```javascript
+{
+  "group": {  
     "name": "组",  
     "type": "group",  
     "children": {  
@@ -1305,10 +1306,11 @@ date: {
         "col": 12  
       }  
     }  
-}  
+  } 
+} 
 ```
 * 允许配置项对应元素隐藏（配置`enableHide`为`true`）![group配置示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7858829951/p93014.png)  
-```  
+```javascript  
 "group": {  
     "name": "组",  
     "type": "group",  
@@ -1435,8 +1437,8 @@ date: {
 |    ----    |    ----    |    ----    |    ----    |    ----    |
 |    name    |    显示名    |    string    |    是    |    无。    |
 |    type    |    类型    |    string    |    是    |    无。    |
-|    default    |    默认值    |    object    |    否    |    不填时值为空。取值请参见[值说明](https://help.aliyun.com/zh/datav/datav-7/user-guide/suite-1#section-gh3-w1b-nx8)。    |
-|    children    |    控件模块    |    object    |    否    |    默认为{}。取值请参见[值说明](https://help.aliyun.com/zh/datav/datav-7/user-guide/suite-1#section-gh3-w1b-nx8)。    |
+|    default    |    默认值    |    object    |    否    |    不填时值为空。取值请参见[值说明](/zh/datav/datav-7/user-guide/suite-1#section-gh3-w1b-nx8)。    |
+|    children    |    控件模块    |    object    |    否    |    默认为{}。取值请参见[值说明](/zh/datav/datav-7/user-guide/suite-1#section-gh3-w1b-nx8)。    |
 |    enableHide    |    配置项对应元素是否能够在画布隐藏    |    boolean    |    否    |    默认为false。设置为true时，显示显隐图标按钮，并在当前配置项中增加show字段。    |
 
 #### **值说明**

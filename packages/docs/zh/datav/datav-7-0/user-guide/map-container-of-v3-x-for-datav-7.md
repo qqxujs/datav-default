@@ -29,11 +29,11 @@
 * 复制、删除、重命名子组件：鼠标移至已经添加的子组件上，单击鼠标右键，分别选择**复制**、**删除**子组件，完成复制和删除操作。双击子组件，完成重命名操作。
 
 **说明**  
-更多子组件操作请参见[管理地图子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-components-of-a-map-widget)。
+更多子组件操作请参见[管理地图子组件](/zh/datav/datav-7-0/user-guide/manage-components-of-a-map-widget)。
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8231511071/p742470.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -46,14 +46,14 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **地图背景**    |    地图的背景颜色，请参见[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
+|    **地图背景**    |    地图的背景颜色，请参见[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
 |    **地图缩放**    |    控制地图父容器的缩放范围及默认级别。 **缩放范围**：缩放范围控制父容器只能在缩放范围内操作，取值范围0\~22。**默认级别**：默认级别设置父容器默认显示级别，需要设置在缩放范围内，取值范围0\~22。**说明** 地图缩放支持分数级缩放。缩放级别控制父容器只能在缩放范围内操作；默认级别设置父容器默认显示级别，需要设置在缩放范围内。    |
 |    **地图中心**    |    地图中心的经纬度。    |
 |    **比例尺控件**    |    单击**比例尺控件**右侧的![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808332271/p274464.jpg)图标，可在地图上显示比例尺控件。开启后，可调整比例尺控件的字体颜色、边框颜色和在水平和垂直方向的偏移值。    |    
 您也可以通过配置**数据源**来更改地图中心点和缩放等级。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5995666071/p764160.png)
 
 **说明**  
-如需定位到其他省份的地图区域，需要使用[区域热力层（v3.x版本）](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/choropleth-layers-of-v3-x)或[自定义区域下钻层（v3.x版本）](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/custom-section-drill-down-layers-of-v3-x)来实现。
+如需定位到其他省份的地图区域，需要使用[区域热力层（v3.x版本）](/zh/datav/datav-7-0/user-guide/choropleth-layers-of-v3-x)或[自定义区域下钻层（v3.x版本）](/zh/datav/datav-7-0/user-guide/custom-section-drill-down-layers-of-v3-x)来实现。
 * **坐标**：地图的坐标系类型，可选**通用坐标**或**自定义**两个类型。
 
 |    **参数**    |    **说明**    |
@@ -81,7 +81,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -89,7 +89,7 @@
 
 ## 高级面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5995666071/p764165.png)
 
-打开开关，开启组件交互功能。当**地图移动时**和**地图移动结束**时，会抛出您自定义的变量值,具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+打开开关，开启组件交互功能。当**地图移动时**和**地图移动结束**时，会抛出您自定义的变量值,具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
 
 ## 蓝图交互
 

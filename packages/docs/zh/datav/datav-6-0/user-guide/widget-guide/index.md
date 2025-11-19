@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 组件指南 %{#53526}% 
 
 * [配置项说明](/zh/datav/datav-6-0/user-guide/configure-item-description)
 * [DataV GeoAtlas地理小工具](/zh/datav/datav-6-0/user-guide/datav-geoatlas-widget/)

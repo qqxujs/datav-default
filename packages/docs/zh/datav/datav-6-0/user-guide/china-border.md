@@ -1,17 +1,17 @@
-<!DOCTYPE html> 
+# 中国国家边界 %{#184425}% 
 
 中国国家边界是基础平面地图的子组件，支持独立的样式和数据配置，包括底中国国家边界、省界和海岸线的线条样式的配置，也可对地图内各省和直辖市地区的标注进行统一的配置等。本文介绍中国国家边界各配置项的含义。
 
 单击子组件管理下方的中国国家边界，进入配置面板配置中国国家边界的样式和数据。 
 
-**说明** 如果子组件管理中没有中国国家边界，说明您还未添加中国国家边界子组件，请参见[地图容器（v2.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-container#concept-2400968 "地图容器是基础平面地图中用于承载地图本身和各子组件的容器，支持添加区域热力层、点热力层等子组件，支持配置地图的位置、颜色、鼠标交互事件等，能够多角度、多形式地渲染全国各城市地理位置的实时数据。本文介绍基础平面地图容器各配置项的含义。")进行添加。 
+**说明** 如果子组件管理中没有中国国家边界，说明您还未添加中国国家边界子组件，请参见[地图容器（v2.x版本）](/zh/datav/datav-6-0/user-guide/map-container#concept-2400968 "地图容器是基础平面地图中用于承载地图本身和各子组件的容器，支持添加区域热力层、点热力层等子组件，支持配置地图的位置、颜色、鼠标交互事件等，能够多角度、多形式地渲染全国各城市地理位置的实时数据。本文介绍基础平面地图容器各配置项的含义。")进行添加。 
 
 ## 配置
 
 ![中国国家地图配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1018670061/p168789.png)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
 * 可见级别：设置中国国家边界的可见级别值，在设定的级别范围内中国国家边界可见，级别之外不可见。
-* 填充颜色：数据中最大、最小及为数据为空的value值对应区域的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。  
+* 填充颜色：数据中最大、最小及为数据为空的value值对应区域的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。  
 
 **说明** 填充颜色配置项功能，对应数据面板中的fillColor字段。如果两者都进行了配置，DataV优先使用数据中的配置。  
 ![填充色数据面板配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0581670061/p168920.png)
@@ -26,15 +26,15 @@
 
 |    参数    |    说明    |
 |    ----    |    ----    |
-|    图标颜色    |    区域内图标的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    图标颜色    |    区域内图标的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    文本样式    |    图标内的文本内容的样式，包括文本的字体样式、文字粗细、字号大小、文字颜色和文字阴影色。    |
 * 附图：中国国家边界地图右下角附图内容的样式，单击左侧![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，即可控制附图的显隐。  
 
 |    参数    |    说明    |
 |    ----    |    ----    |
-|    陆地填充色    |    附图中陆地部分的填充颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
-|    海洋填充色    |    附图中海洋部分的填充颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
-|    边框颜色    |    附图部分的边框线颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    陆地填充色    |    附图中陆地部分的填充颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    海洋填充色    |    附图中海洋部分的填充颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    边框颜色    |    附图部分的边框线颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    边框粗细    |    附图部分的边框线的粗细值，单位为px，取值范围1\~20。    |
 |    右侧距离    |    附图部分离组件范围最右侧的距离，单位为px，取值范围0\~500。    |
 |    底部距离    |    附图部分离组件范围最底部的距离，单位为px，取值范围0\~500。    |
@@ -154,8 +154,8 @@ __表 2\. 配置项说明__
 |    ----    |    ----    |
 |    受控模式    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    自动更新请求    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875 "本文档介绍配置资产数据的方法，以及资产数据面板的内容，包括数据接口、数据源、数据过滤器和数据轮询频次等。")。    |
-|    数据过滤器    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击添加过滤器，可在设置数据源面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674 "您可以使用数据过滤器，自定义数据过滤代码，实现数据结构转换、数据筛选展示和一些简单的计算。本文介绍新版DataV资产数据过滤器的使用方法。")。    |
+|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875 "本文档介绍配置资产数据的方法，以及资产数据面板的内容，包括数据接口、数据源、数据过滤器和数据轮询频次等。")。    |
+|    数据过滤器    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击添加过滤器，可在设置数据源面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674 "您可以使用数据过滤器，自定义数据过滤代码，实现数据结构转换、数据筛选展示和一些简单的计算。本文介绍新版DataV资产数据过滤器的使用方法。")。    |
 |    数据响应结果    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互

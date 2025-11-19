@@ -1,15 +1,15 @@
-<!DOCTYPE html> 
+# 扫光层 %{#214209}% 
 
 扫光层是城市三维场景构建器的图层，一般作为组件特效，可以表达对态势的扫描和展现科技感。扫光层目前仅适配模型加载器组件，支持独立的样式配置。本文介绍扫光层各配置项的含义。
 
 单击图层管理下方的扫光层图层，进入配置面板配置扫光层图层的样式和数据。 
 
-**说明** 如果图层管理中没有扫光层，说明您还未添加扫光层图层，请参见[使用默认基底数据方式创建组件后添加图层](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层管理中没有扫光层，说明您还未添加扫光层图层，请参见[使用默认基底数据方式创建组件后添加图层](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
 ![扫光层配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0153088161/p246383.jpg)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置对话框中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索组件配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索组件配置功能，您可以快速定位到组件的对应配置项、在搜索配置页面直接修改配置样式、以及复用同类型的配置样式。")。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置对话框中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索组件配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索组件配置功能，您可以快速定位到组件的对应配置项、在搜索配置页面直接修改配置样式、以及复用同类型的配置样式。")。
 * 扫光层配置面板参数说明。  
 
 |    参数    |    说明    |
@@ -20,7 +20,7 @@
 |    锋面类型    |    设置扫光样式的锋面类型，可选平面和曲面。    |
 |    扫描轴向    |    设置扫光的扫描沿轴线的方向，可选X轴、Y轴和Z轴。    |
 |    正负方向    |    设置扫光的方向，可选正向和负向。    |
-|    颜色    |    设置扫光的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
+|    颜色    |    设置扫光的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
 |    深度检测    |    打开开关，组件会判断扫光层与其他三维物体相对相机的前后位置，开启深度检测会得到三维场景中正确的物体前后遮挡效果；关闭开关，不判断前后位置关系，减少计算性能开销。    |
 |    扫光长度    |    拖动滑块，调整扫光动画的范围长度值，取值范围为0\~0.04。    |
 |    扫光速度    |    拖动滑块，调整扫光动画的速度值，取值范围为0.001\~1。    |

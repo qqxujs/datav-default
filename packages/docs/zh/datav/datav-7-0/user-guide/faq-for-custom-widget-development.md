@@ -2,7 +2,7 @@
 
 ## 哪里有组件的案例？
 
-命令行安装datav-cli，使用datav init命令下载安装模版组件，详情请参见[组件开发快速入门](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/get-started-with-widget-development-of-datav-7)。
+命令行安装datav-cli，使用datav init命令下载安装模版组件，详情请参见[组件开发快速入门](/zh/datav/datav-7-0/user-guide/get-started-with-widget-development-of-datav-7)。
 
 ## 为什么我的组件发布不成功？
 
@@ -24,7 +24,7 @@
 
 ## 如何写一个ECharts组件？
 
-详情请参见[ECharts组件封装指南](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/echarts-widget-encapsulation-guide)。
+详情请参见[ECharts组件封装指南](/zh/datav/datav-7-0/user-guide/echarts-widget-encapsulation-guide)。
 
 ## 为什么本地的图片上传后不成功？
 
@@ -59,8 +59,8 @@
 
 ## 为什么我的组件被购买后，购买者无法找到？
 
-因为组件分类的设置不对，详情请参见[type字段](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-a-package-json-file#section-nsx-3xl-q2b)。
+因为组件分类的设置不对，详情请参见[type字段](/zh/datav/datav-7/user-guide/specifications-of-a-package-json-file#section-nsx-3xl-q2b)。
 
 ## 桌面版开发工具登录时，使用什么用户名？
 
-DataV控制台右上角显示的阿里云账号用户名，详情请参见[桌面版开发工具使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/desktop-developer-tool-instructions)。
+DataV控制台右上角显示的阿里云账号用户名，详情请参见[桌面版开发工具使用说明](/zh/datav/datav-7-0/user-guide/desktop-developer-tool-instructions)。

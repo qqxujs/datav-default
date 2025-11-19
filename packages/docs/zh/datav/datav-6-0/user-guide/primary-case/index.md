@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 初级案例 %{#123763}% 
 
 * [实现弹幕效果](/zh/datav/datav-6-0/user-guide/realize-the-bullet-screen-effect)
 * [实现跨屏联动](/zh/datav/datav-6-0/user-guide/realize-the-cross-screen-linkage)

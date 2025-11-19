@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 水平胶囊柱状图（v3.0及以上版本） %{#154390}% 
 
 本文介绍水平胶囊柱状图的图表样式和配置面板的功能。
 
 **重要** 
 
-本文介绍v3.0及以上版本的水平胶囊柱状图的配置项，如需查看v3.0以下版本，请参见[水平胶囊柱图（v3.0以下版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/rounded-bar-chart-of-v3-0-and-earlier#concept-xbw-dvj-bfb)。
+本文介绍v3.0及以上版本的水平胶囊柱状图的配置项，如需查看v3.0以下版本，请参见[水平胶囊柱图（v3.0以下版本）](/zh/datav/datav-6-0/user-guide/rounded-bar-chart-of-v3-0-and-earlier#concept-xbw-dvj-bfb)。
 
 ## **图表样式**
 
@@ -14,7 +14,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1428596761/p571092.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -33,7 +33,7 @@
 |    ----    |    ----    |
 |    **柱内间距**    |    柱子到胶囊壳的距离，取值范围为0\~10，单位为px。    |
 |    **描边颜色**    |    胶囊柱子描边的颜色。    |
-|    **外框颜色**    |    胶囊外部边框的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **外框颜色**    |    胶囊外部边框的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    **外框粗细**    |    胶囊外部边框的粗细。    |
   * **值标签**：每个柱子值标签的样式，可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808332271/p274464.jpg)图标控制值标签的显隐。  
 
@@ -129,7 +129,7 @@
 
 ## 交互面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1428596761/p571105.png)
 
-选中**启用**，开启组件交互功能。当单击水平胶囊柱状图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的x、y和s值，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。 
+选中**启用**，开启组件交互功能。当单击水平胶囊柱状图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的x、y和s值，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。 
 
 ## 蓝图编辑器交互配置
 

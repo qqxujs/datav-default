@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# PC端画布编辑器 %{#125626}% 
 
 * [PC端画布编辑器概览](/zh/datav/datav-6-0/user-guide/overview-of-canvas-editor-on-pc)
 * [图层管理](/zh/datav/datav-6-0/user-guide/manage-layers/)

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 配置学区地图蓝图编辑器交互 %{#130128}% 
 
 * [创建学区地图可视化应用](/zh/datav/datav-6-0/use-cases/create-a-school-map-application)
 * [配置学区地图Tab列表交互](/zh/datav/datav-6-0/use-cases/configure-an-interactive-tab-list-for-a-school-map)

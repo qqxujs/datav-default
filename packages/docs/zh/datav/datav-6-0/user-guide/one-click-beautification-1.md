@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 一键美化 %{#162765}% 
 
 通过一键美化功能，您可以快速调整可视化应用的布局，并通过内置样式丰富可视化应用的内容，快速解决在设计可视化应用时遇到的整体样式配置困难的问题。本文介绍如何使用DataV一键美化功能。
 
@@ -61,7 +61,7 @@
 ## 使用流程
 
 1. 登录[DataV控制台](https://datav.aliyun.com/)。
-2. 在**我的可视化**页面，[使用模板创建PC端可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application)或单击一个已有可视化应用的**编辑**。
+2. 在**我的可视化**页面，[使用模板创建PC端可视化应用](/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application)或单击一个已有可视化应用的**编辑**。
 3. 进入画布编辑器页面，单击编辑器页面上方的![美化工具箱](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5462542261/p279008.png)图标。
 4. 在美化工具箱面板，单击**一键美化**。  
 当**一键美化**功能界面显示未启用时，您可以选择单击![未启用图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3557929951/p98501.jpg)图标或页面内的**快速开启**启用该功能。

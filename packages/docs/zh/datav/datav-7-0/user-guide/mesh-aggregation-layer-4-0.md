@@ -8,7 +8,7 @@
 
 ## 样式面板![{70B2ADC8-1E98-4621-82F6-96B5CD0297D7}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9959088371/p903390.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **快速样式**：格网聚合层子组件具备快速样式功能，您可以根据实际应用场景选择不同的样式。
 * **通用**：设置格网聚合层的通用配置项。
 
@@ -23,8 +23,8 @@
 |    **格网类型**    |    选择不同的格网类型，包括**标准**、**蜂窝**和**圆形**。    |
 |    **聚合函数**    |    选择不同的聚合函数，地图会通过聚合函数重新计算，改变地图的显示样式，聚合函数包括但不限于**计数(COUNT)**、**求和(SUM)**、**均值(AVG)**、**最大值(MAX)**、**最小值(MIN)**。    |
 |    **聚合半径**    |    根据地图实际距离标注当前聚合图形的半径，范围为0\~1000，单位km。    |
-|    **格网尺寸**    |    设置格网的尺寸大小，请参见[尺寸映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/dimension-mapper-instructions)，配置不同格网的映射尺寸样式。    |
-|    **格网颜色**    |    设置格网的颜色样式，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同格网的映射颜色样式。    |
+|    **格网尺寸**    |    设置格网的尺寸大小，请参见[尺寸映射器使用说明](/zh/datav/datav-7-0/user-guide/dimension-mapper-instructions)，配置不同格网的映射尺寸样式。    |
+|    **格网颜色**    |    设置格网的颜色样式，请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同格网的映射颜色样式。    |
 |    **格网描边**    |    设置以当前格网半径为基准的格网描边线的颜色和描边线的粗细值，取值范围为0\~50。    |
 |    **格网阴影**    |    设置格网阴影样式的颜色、阴影的模糊度值以及阴影基于格网中心点水平方向/垂直方向的偏移。    |
 |    **格网标注**    |    单击左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制格网标注样式的显隐。**文本样式**：设置标注文字的字体、文字粗细、字号和颜色。    |
@@ -41,7 +41,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -51,7 +51,7 @@
 
 ![{62F5B4A4-51B9-4FBB-88F3-8ADF9D60D409}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9959088371/p907135.png)
 
-通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
 
 ## 蓝图交互
 

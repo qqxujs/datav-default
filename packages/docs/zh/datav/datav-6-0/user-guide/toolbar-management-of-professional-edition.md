@@ -6,7 +6,7 @@
 
 ### **前提条件**
 
-已经创建[三维城市项目](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/create-3d-city-projects)。
+已经创建[三维城市项目](/zh/datav/datav-6-0/user-guide/create-3d-city-projects)。
 
 ### **进入场景编辑器**
 
@@ -19,7 +19,7 @@
 
 ### **切换编辑器**
 
-1. 在**场景编辑器**页面内 ，单击页面左上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6379972761/p515886.png)图标，即可进入[蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor)，进行后续相关操作。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6379972761/p515888.png)
+1. 在**场景编辑器**页面内 ，单击页面左上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6379972761/p515886.png)图标，即可进入[蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor)，进行后续相关操作。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6379972761/p515888.png)
 2. 单击蓝图编辑器页面左上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6379972761/p515891.png)图标，切换回场景编辑器，继续完成后续编辑操作**。**  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6379972761/p515890.png)
 
@@ -63,7 +63,7 @@
 2. 在**发布项目**弹窗中，输入**本次发布备注**后，单击**发布**。
 
 **说明**  
-发布后的三维城市可以在画布编辑器中**城市**页签中找到，您也可以参见[场景编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/scene-editor-management-of-professional-edition/)，重新修改该三维城市的内容。
+发布后的三维城市可以在画布编辑器中**城市**页签中找到，您也可以参见[场景编辑器](/zh/datav/datav-6-0/user-guide/scene-editor-management-of-professional-edition/)，重新修改该三维城市的内容。
 
 #### **使用三维城市**
 
@@ -81,7 +81,7 @@
 2. 在**新建场景**对话框内，输入新建场景的名称后单击**确定**，创建一个新场景。
 
 **说明**  
-新创建的空白场景会继承当前场景的相机视角，但不会自动包含任何图层。您可以通过[图层面板](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition)添加新图层，或将现有场景的图层分配至新场景中。
+新创建的空白场景会继承当前场景的相机视角，但不会自动包含任何图层。您可以通过[图层面板](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition)添加新图层，或将现有场景的图层分配至新场景中。
 
 ### **基础管理操作**
 
@@ -121,8 +121,8 @@
 
 ## **配置区块接口**
 
-工具栏提供数据接口、事件接口和动作接口的配置功能，可根据需求灵活[配置使用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-block-interfaces-for-professional-edition)。
+工具栏提供数据接口、事件接口和动作接口的配置功能，可根据需求灵活[配置使用](/zh/datav/datav-6-0/user-guide/configure-block-interfaces-for-professional-edition)。
 
-* **数据接口配置：**单击**场景编辑器**页面右上角工具栏内的![{4FED921C-3A19-4FE9-9882-A761F17C9589}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0750845471/p947777.png)图标，打开**数据接口设置**弹窗，在弹窗内您可以[配置数据接口](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-a-data-interface)的具体内容。
-* **事件接口配置**：单击**场景编辑器**页面右上角工具栏内的![{FD3F4A07-2D3E-4396-82C9-3376E21E76A3}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0750845471/p947774.png)图标，打开**事件设置**对话框，在弹窗内您可以[配置事件接口](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-an-event-interface)的具体内容。
-* **动作接口配置：**单击**场景编辑器**页面右上角工具栏内的![{9DA1A83E-3212-460D-BB09-2E452F6A7D2C}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0750845471/p947776.png)图标，打开**动作设置**对话框，在弹窗内您可以[配置动作接口](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-an-action-interface)的具体内容。
+* **数据接口配置：**单击**场景编辑器**页面右上角工具栏内的![{4FED921C-3A19-4FE9-9882-A761F17C9589}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0750845471/p947777.png)图标，打开**数据接口设置**弹窗，在弹窗内您可以[配置数据接口](/zh/datav/datav-6-0/user-guide/configure-a-data-interface)的具体内容。
+* **事件接口配置**：单击**场景编辑器**页面右上角工具栏内的![{FD3F4A07-2D3E-4396-82C9-3376E21E76A3}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0750845471/p947774.png)图标，打开**事件设置**对话框，在弹窗内您可以[配置事件接口](/zh/datav/datav-6-0/user-guide/configure-an-event-interface)的具体内容。
+* **动作接口配置：**单击**场景编辑器**页面右上角工具栏内的![{9DA1A83E-3212-460D-BB09-2E452F6A7D2C}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0750845471/p947776.png)图标，打开**动作设置**对话框，在弹窗内您可以[配置动作接口](/zh/datav/datav-6-0/user-guide/configure-an-action-interface)的具体内容。

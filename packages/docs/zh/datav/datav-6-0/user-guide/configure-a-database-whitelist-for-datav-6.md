@@ -1,12 +1,12 @@
-<!DOCTYPE html> 
+# 配置数据库白名单 %{#64686}% 
 
 本文档为您介绍配置DataV数据库白名单的方法。在添加数据源之前，您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV能正常访问您的数据库。
 
-* 如果您使用的数据源来自阿里云RDS数据库，请参考[通过客户端、命令行连接RDS MySQL实例](https://help.aliyun.com/zh/rds/use-a-database-client-or-the-cli-to-connect-to-an-apsaradb-rds-for-mysql-instance-2#concept-pdr-k2f-vdb)，在RDS数据库配置中加入如下IP地址。
-* 如果您使用的数据源来自阿里云ECS上自建的数据库，需要在ECS的[安全组规则](https://help.aliyun.com/zh/ecs/user-guide/add-a-security-group-rule#concept-sm5-2wz-xdb)、系统防火墙和您的数据库白名单中都加入如下IP地址 。
+* 如果您使用的数据源来自阿里云RDS数据库，请参考[通过客户端、命令行连接RDS MySQL实例](/zh/rds/use-a-database-client-or-the-cli-to-connect-to-an-apsaradb-rds-for-mysql-instance-2#concept-pdr-k2f-vdb)，在RDS数据库配置中加入如下IP地址。
+* 如果您使用的数据源来自阿里云ECS上自建的数据库，需要在ECS的[安全组规则](/zh/ecs/user-guide/add-a-security-group-rule#concept-sm5-2wz-xdb)、系统防火墙和您的数据库白名单中都加入如下IP地址 。
 * 如果您使用的数据源来自于本地的自建数据库，需要在该物理机的系统防火墙、网络上的防火墙和您的数据库白名单中都加入如下IP地址。
 
-请根据您[连接数据库的场景](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/configure-endpoints-1#concept-tv3-pq1-ydb)，选择如下所示的白名单进行配置。
+请根据您[连接数据库的场景](/zh/rds/apsaradb-rds-for-mysql/configure-endpoints-1#concept-tv3-pq1-ydb)，选择如下所示的白名单进行配置。
 
 ## 外网白名单
 

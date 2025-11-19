@@ -16,7 +16,7 @@
 * **事件接口**：用于接收内部组件的事件，并向外抛出数据。
 * **动作接口**：用于接收外部组件触发的动作，并使得内部组件执行相应的业务逻辑。
 
-您在使用区块时，只需要将区块作为一个整体，了解并设置对外定义的**区块接口**即可，无需关注内部逻辑。如果你要在区块编辑器中配置并使用区块接口，详情请参见[使用区块接口](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-block-interfaces)。
+您在使用区块时，只需要将区块作为一个整体，了解并设置对外定义的**区块接口**即可，无需关注内部逻辑。如果你要在区块编辑器中配置并使用区块接口，详情请参见[使用区块接口](/zh/datav/datav-7-0/user-guide/use-block-interfaces)。
 
 ## 区块示例说明
 
@@ -33,16 +33,16 @@
 ## 区块使用常见问题
 
 * Q：区块内是否有组件？  
-A：您可以拖拽区块编辑器图层栏内的组件到画布中[配置区块组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-block-components/)。
+A：您可以拖拽区块编辑器图层栏内的组件到画布中[配置区块组件](/zh/datav/datav-7-0/user-guide/configure-block-components/)。
 * Q：区块内是否有交互？  
-A：您可以将区块导出到蓝图编辑器，在蓝图编辑器中，将区块接口节点与区块中对应的组件节点连线，完成所需的业务逻辑的交互配置，详情请参见[使用区块接口](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-block-interfaces)。
+A：您可以将区块导出到蓝图编辑器，在蓝图编辑器中，将区块接口节点与区块中对应的组件节点连线，完成所需的业务逻辑的交互配置，详情请参见[使用区块接口](/zh/datav/datav-7-0/user-guide/use-block-interfaces)。
 * Q：区块内部和外部是否有交互？  
-A：您可以通过创建区块的接口并在可视化大屏内使用区块的接口，详情请参见[使用区块接口](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-block-interfaces)和[管理区块](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-blocks#584a2e3cea9c7)。
+A：您可以通过创建区块的接口并在可视化大屏内使用区块的接口，详情请参见[使用区块接口](/zh/datav/datav-7-0/user-guide/use-block-interfaces)和[管理区块](/zh/datav/datav-7-0/user-guide/manage-blocks#584a2e3cea9c7)。
 * Q：区块功能怎么调试？  
-A：您可以通过使用[区块预览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-blocks#4bf6588a0epqa)功能，调试配置完成的区块接口等功能。
+A：您可以通过使用[区块预览](/zh/datav/datav-7-0/user-guide/manage-blocks#4bf6588a0epqa)功能，调试配置完成的区块接口等功能。
 * Q：区块搭建完成后，如何在可视化应用画布编辑器中使用？  
-A：您可以先将区块发布，再进入可视化应用画布编辑器中，在编辑器中打开组件库，选择区块模块，在区块列表中查看已搭建的区块内容，也可添加所需区块，详情请参见[发布区块](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-blocks#9292da93090fq)和[管理区块](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-blocks#584a2e3cea9c7)。
+A：您可以先将区块发布，再进入可视化应用画布编辑器中，在编辑器中打开组件库，选择区块模块，在区块列表中查看已搭建的区块内容，也可添加所需区块，详情请参见[发布区块](/zh/datav/datav-7-0/user-guide/manage-blocks#9292da93090fq)和[管理区块](/zh/datav/datav-7-0/user-guide/manage-blocks#584a2e3cea9c7)。
 * Q：区块新版本发布后，如何一键升级可视化应用中正在使用的旧区块？  
 A：您可以在画布编辑器中，单击目标区块，进入区块的右侧面板，在面板右上角单击升级区块版本，升级区块的方法与升级组件内容一致。
 * Q：如何快速便捷的创建区块？  
-A：除了在**区块**面板创建空白区块之外，还支持在工作台页面的**组件收藏**面板中[升级收藏资产为区块](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-blocks#title-wix-kiw-5vl)。
+A：除了在**区块**面板创建空白区块之外，还支持在工作台页面的**组件收藏**面板中[升级收藏资产为区块](/zh/datav/datav-7-0/user-guide/manage-blocks#title-wix-kiw-5vl)。

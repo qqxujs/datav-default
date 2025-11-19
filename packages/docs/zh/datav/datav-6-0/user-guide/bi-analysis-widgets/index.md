@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# BI分析组件 %{#289066}% 
 
 * [玉珏图](/zh/datav/datav-6-0/user-guide/radial-bar-chart)
 * [柱状图](/zh/datav/datav-6-0/user-guide/column-chart-for-datav-6)

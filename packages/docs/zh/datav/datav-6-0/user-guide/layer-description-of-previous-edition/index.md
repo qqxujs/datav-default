@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 图层说明 %{#194317}% 
 
 * [图层配置项说明](/zh/datav/datav-6-0/user-guide/layer-configuration-items-of-previous-edition)
 * [基底图层](/zh/datav/datav-6-0/user-guide/base-layer-of-previous-edition/)

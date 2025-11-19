@@ -4,7 +4,7 @@
 
 ## **前提条件**
 
-1. 已创建数据看板，支持[使用模板创建](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布创建](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)、[使用AI智能生成](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)。
+1. 已创建数据看板，支持[使用模板创建](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布创建](/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)、[使用AI智能生成](/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)。
 2. 已启用智能主题。  
 您需进入数据看板的画布编辑页面，单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2819700371/p862772.png)图标或**快速开启**，启用智能主题，步骤如下。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2819700371/p862767.png)
 
@@ -62,7 +62,7 @@
 
 可批量设置数据看板组件的图表文字样式。包括字体样式、文字粗细、文字大小及文字颜色（暗色和亮色），还可根据看板情况设置图表复杂度，包括简单、通用和详细。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2819700371/p862926.png)
 
-* [字体样式](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/font-library)：单击图表字体的下拉框，即可选择或搜索所需文字样式。
+* [字体样式](/zh/datav/datav-7-0/user-guide/font-library)：单击图表字体的下拉框，即可选择或搜索所需文字样式。
 
 **说明**  
 若选择未安装的字体，则组件文本会自动转换为系统默认的字体样式。
@@ -70,4 +70,4 @@
 
 ## **后续步骤**
 
-主题配置完成后，您可[预览并发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard)，在线展示数据看板的主题效果。
+主题配置完成后，您可[预览并发布数据看板](/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard)，在线展示数据看板的主题效果。

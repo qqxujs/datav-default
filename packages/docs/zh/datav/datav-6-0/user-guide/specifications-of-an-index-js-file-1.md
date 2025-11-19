@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# index.js规范 %{#86892}% 
 
 index.js文件是组件的主入口文件。本文档提供了一个示例供您参考，并介绍了index.js文件中的常用函数。
 

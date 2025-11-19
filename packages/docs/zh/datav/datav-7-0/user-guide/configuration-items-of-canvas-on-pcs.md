@@ -10,9 +10,9 @@
 
 **说明**  
   * 当您在组件样式的配置过程中涉及到非数据视觉映射类颜色相关的配置项时，请参见[颜色选择器](#section-kdw-vj4-t2b)进行配置。
-  * 当您在组件样式的配置过程中涉及到数据视觉映射类颜色相关的配置项时，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)进行配置。
-* 在**数据源**面板中，您可以切换数据源类型、切换编辑样式（**可视化编辑**和**代码编辑**）、设置数据映射、复制数据、全屏编辑数据，其中**切换编辑样式**、**复制数据**和**全屏编辑数据**适用于所有的组件，配置方法请参见下文的[复制数据](#section-r41-kfw-v46)和[全屏编辑数据](#section-hei-gh3-12g)；其余配置方法请参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4967530961/p698068.png)
-* 在**高级**面板中，您可以配置各组件之间的和组件与全局变量之间的交互事件，配置方法请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7274900371/p787192.png)
+  * 当您在组件样式的配置过程中涉及到数据视觉映射类颜色相关的配置项时，请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)进行配置。
+* 在**数据源**面板中，您可以切换数据源类型、切换编辑样式（**可视化编辑**和**代码编辑**）、设置数据映射、复制数据、全屏编辑数据，其中**切换编辑样式**、**复制数据**和**全屏编辑数据**适用于所有的组件，配置方法请参见下文的[复制数据](#section-r41-kfw-v46)和[全屏编辑数据](#section-hei-gh3-12g)；其余配置方法请参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4967530961/p698068.png)
+* 在**高级**面板中，您可以配置各组件之间的和组件与全局变量之间的交互事件，配置方法请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7274900371/p787192.png)
 
 ## **基础属性**
 
@@ -119,7 +119,7 @@
   * **均分方式**：设置多个组件的均分方式，包括水平均分和竖直均分。
   * **对象位置**：设置多个组件左上角顶点相对于画布的位置。
   * **对象尺寸**：设置多个组件的宽度和高度值。
-* **序号2**：当所有选中的组件都支持快捷配置时显示。具体支持快捷配置的组件请参见[快捷配置组件列表](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#6db57f707799q)。
+* **序号2**：当所有选中的组件都支持快捷配置时显示。具体支持快捷配置的组件请参见[快捷配置组件列表](/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#6db57f707799q)。
 
   * **图表颜色**：设置多个组件的图表颜色。
   * **图表文字**：设置多个组件的图表文字的字体、字体粗细、字号和颜色。
@@ -128,4 +128,4 @@
 
 ## 相关文档
 
-更多配置项的常见问题，请参见[配置项常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-configuration-items)。
+更多配置项的常见问题，请参见[配置项常见问题](/zh/datav/datav-7-0/support/faq-about-configuration-items)。

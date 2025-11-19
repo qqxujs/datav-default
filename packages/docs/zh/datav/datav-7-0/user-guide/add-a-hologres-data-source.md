@@ -8,7 +8,7 @@
 
 **重要** 
 
-您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV-Board能正常访问您的数据库。详情请参见[配置数据库白名单](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
+您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV-Board能正常访问您的数据库。详情请参见[配置数据库白名单](/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
 
 ## 使用限制
 
@@ -83,8 +83,8 @@
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

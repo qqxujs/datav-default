@@ -2,7 +2,7 @@
 
 全局节点可以帮助您在蓝图编辑器中，设置组件的初始化状态。本文介绍在蓝图编辑器中，配置全局节点的方法。
 
-添加**全局节点**到蓝图画布中，可查看**全局节点**支持的事件和动作。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**全局节点**到蓝图画布中，可查看**全局节点**支持的事件和动作。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0332680861/p624335.png)
 

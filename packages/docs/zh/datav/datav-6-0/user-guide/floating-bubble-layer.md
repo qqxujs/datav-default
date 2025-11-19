@@ -1,17 +1,17 @@
-<!DOCTYPE html> 
+# 流式气泡层（v2.x版本） %{#153636}% 
 
 流式气泡层是基础平面地图的子组件，支持独立的样式和数据配置，包括气泡的大小、位置、颜色、动画效果以及经纬度等，能够以流式气泡的形式表现地理位置上的点数据信息。本文介绍流式气泡层各配置项的含义。
 
-**重要** 当前为v2.x版本的流式气泡层子组件指导文档，如需查看该子组件v1.x版本的文档内容详情，请参见[流式气泡层（v1.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/stream-bubble-layer#concept-azx-zlt-cgb)。
+**重要** 当前为v2.x版本的流式气泡层子组件指导文档，如需查看该子组件v1.x版本的文档内容详情，请参见[流式气泡层（v1.x版本）](/zh/datav/datav-6-0/user-guide/stream-bubble-layer#concept-azx-zlt-cgb)。
 
 ## 配置
 
 单击子组件管理下方的流式气泡层，进入配置面板配置流式气泡层的样式和数据。 
 
-**说明** 如果子组件管理中没有流式气泡层，说明您还未添加流式气泡层子组件，请参见[地图容器（v2.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-container#concept-2400968)进行添加。
+**说明** 如果子组件管理中没有流式气泡层，说明您还未添加流式气泡层子组件，请参见[地图容器（v2.x版本）](/zh/datav/datav-6-0/user-guide/map-container#concept-2400968)进行添加。
 
 ![流式气泡层配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1958068951/p81502.jpg)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * 可见级别：设置流式气泡层的可见级别值，在设定的级别范围内流式气泡层可见，级别之外不可见。
 * 默认配置：设置流式气泡图标的图片样式路径、图片尺寸和图标偏移量等参数。  
 
@@ -26,7 +26,7 @@
 
 |    参数    |    说明    |
 |    ----    |    ----    |
-|    文本样式    |    设置浮框内文本的字体、文字粗细、字号和颜色。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行颜色修改。    |
+|    文本样式    |    设置浮框内文本的字体、文字粗细、字号和颜色。请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行颜色修改。    |
 |    文本对齐    |    设置流式气泡浮框内信息的多行对齐方式，包括左对齐、居中和右对齐。仅当数据中的info信息设置为多行时有效。    |
 |    行高比例    |    设置流式气泡浮框的行高比例值。    |
 |    外边距    |    设置流式气泡浮框内文本与浮框四边的距离。    |
@@ -59,8 +59,8 @@ __表 2\. 配置项说明__
 |    ----    |    ----    |
 |    受控模式    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    自动更新请求    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    数据过滤器    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击添加过滤器，可在设置数据源面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    数据过滤器    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击添加过滤器，可在设置数据源面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    数据响应结果    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互

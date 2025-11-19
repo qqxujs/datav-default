@@ -8,7 +8,7 @@
 
 ## 样式面板![{BC988C13-30B4-4160-AF2D-0B36E7016C00}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5700188371/p901878.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **通用**：高德底图层通用配置参数。
 
 |    **参数**    |    **说明**    |
@@ -44,7 +44,7 @@
 
 ## 高级面板![{7C727D6B-4628-49FD-898D-A9D51C0CC851}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5700188371/p901890.png)
 
-通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
 
 **说明** 
 

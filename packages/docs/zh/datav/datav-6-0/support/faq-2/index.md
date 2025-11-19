@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 常见问题 %{#57581}% 
 
 * [配置项常见问题](/zh/datav/datav-6-0/support/configuration-items-faq)
 * [组件使用常见问题](/zh/datav/datav-6-0/support/component-usage-faq)

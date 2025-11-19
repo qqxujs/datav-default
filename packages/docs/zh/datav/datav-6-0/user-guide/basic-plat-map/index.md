@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 基础平面地图 2.0（组件已下线） %{#74179}% 
 
 * [基础平面地图一键迁移功能说明](/zh/datav/datav-6-0/user-guide/one-click-migration-of-basic-flat-maps)
 * [地图数据格式](/zh/datav/datav-6-0/user-guide/map-data-format)

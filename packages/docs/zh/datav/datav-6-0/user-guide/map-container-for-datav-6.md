@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 地图容器 %{#154405}% 
 
 地图容器是三维城市地图中用于承载地图本身和各子组件的容器，支持添加地理围栏、文字标签等子组件，支持配置地图的基础属性和快速样式，能够多角度、多形式地渲染城市地理的3D效果。本文介绍三维城市地图容器各配置项的含义。
 
@@ -54,8 +54,8 @@
     5. 配置完成后，单击![返回图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6278068951/p89236.jpg)图标，返回到三维城市地图配置面板，配置其他子组件。
   * 复制/编辑/删除子组件：鼠标移至已经添加的子组件上，单击右侧的![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6278068951/p39964.png)图标，复制子组件。单击![编辑图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7278068951/p39965.png)图标，修改子组件名称。单击![删除图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7278068951/p39966.png)图标，删除子组件。  
 
-**说明** 更多子组件的相关操作请参见[管理地图子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/manage-child-widgets-of-a-map-widget#task-2376365 "本文档介绍地图子组件管理的操作步骤和基本功能，方便您更加快速准确地使用地图组件。")。
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置对话框中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索组件配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索组件配置功能，您可以快速定位到组件的对应配置项、在搜索配置页面直接修改配置样式、以及复用同类型的配置样式。")。
+**说明** 更多子组件的相关操作请参见[管理地图子组件](/zh/datav/datav-6-0/user-guide/manage-child-widgets-of-a-map-widget#task-2376365 "本文档介绍地图子组件管理的操作步骤和基本功能，方便您更加快速准确地使用地图组件。")。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置对话框中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索组件配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索组件配置功能，您可以快速定位到组件的对应配置项、在搜索配置页面直接修改配置样式、以及复用同类型的配置样式。")。
 * 图表尺寸：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * 图表位置：包括组件的横坐标和纵坐标，单位为px。横坐标为组件左上角距离页面左边界的像素距离，纵坐标为组件左上角距离页面上边界的像素距离。
 * 旋转角度：以组件的中心为中心点，进行旋转，单位为度（°）。  

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 蓝图编辑器精选案例实战 %{#388478}% 
 
 针对蓝图编辑器的常见问题，本文通过理论介绍及实操演示提出问题的解决方法。
 
@@ -52,7 +52,7 @@ DataV小课堂直播视频：[蓝图编辑器精选案例实战直播视频使�
 配置案例交互操作步骤如下，具体实操请参见[ 如何实现跨屏联动](#title-80m-p9x-8kf)。
 
 1. 建立两个屏幕的WebSocket服务，其中自建和下载DataV-WS服务包的方法请参见  
-[自建WebSocket节点服务说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/process-data-1#concept-2333445/section-lun-rky-rx9)和[下载DataV-WS服务包](https://help.aliyun.com/document%5Fdetail/164991.html)。
+[自建WebSocket节点服务说明](/zh/datav/datav-6-0/user-guide/process-data-1#concept-2333445/section-lun-rky-rx9)和[下载DataV-WS服务包](https://help.aliyun.com/document%5Fdetail/164991.html)。
 2. 分别创建控制端和接收端2个可视化应用。
 3. 控制端使用**Tab列表**组件导出到蓝图编辑器，接收端使用**通用标题**组件导出到蓝图编辑器。
 4. 配置发送端的蓝图配置。![蓝图配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4533641461/p379232.png)
@@ -133,7 +133,7 @@ return {
 ###  如何实现跨屏联动
 
 1. 建立两个可视化应用的WebSocket服务，其中自建和下载DataV-WS服务包的方法请参见  
-[自建WebSocket节点服务说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/process-data-1#concept-2333445/section-lun-rky-rx9)和[下载DataV-WS服务包](https://help.aliyun.com/document%5Fdetail/164991.html)。
+[自建WebSocket节点服务说明](/zh/datav/datav-6-0/user-guide/process-data-1#concept-2333445/section-lun-rky-rx9)和[下载DataV-WS服务包](https://help.aliyun.com/document%5Fdetail/164991.html)。
 2. 分别创建控制端和接收端2个可视化应用。
 3. 在控制端可视化应用中，添加**Tab列表**组件，并将其导出到蓝图编辑器。
 4. 在蓝图编辑器画布中添加**串行数据处理**以及**WebSocket**节点，按照如下图连线。![跨屏联动蓝图配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6533641461/p379471.png)

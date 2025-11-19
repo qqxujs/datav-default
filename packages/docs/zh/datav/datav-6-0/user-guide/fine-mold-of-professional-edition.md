@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 精模 %{#422802}% 
 
 精模是三维城市构建器的基底图层，支持独立的样式和数据配置，包括精模的阴影设置和精模的动效效果等。本文介绍精模配置项的含义。
 
 在场景编辑器左侧图层列表中，单击精模图层，进入配置面板配置精模图层的配置和数据面板。 
 
-**说明** 如果图层列表中没有精模，说明您还未添加精模图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层列表中没有精模，说明您还未添加精模图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
@@ -39,7 +39,7 @@
 
 ![精模数据面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3513587561/p425456.jpg)
 
-重新选择数据：在数据面板内可以单击下方重新选择数据，打开选择范围对话框，重新选择仅针对精模图层的数据范围，详情请参见[使用官方基底数据方式创建](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/create-3d-city-projects#section-bsj-xjl-qx7)中的选择场景范围区域的操作步骤。 
+重新选择数据：在数据面板内可以单击下方重新选择数据，打开选择范围对话框，重新选择仅针对精模图层的数据范围，详情请参见[使用官方基底数据方式创建](/zh/datav/datav-6-0/user-guide/create-3d-city-projects#section-bsj-xjl-qx7)中的选择场景范围区域的操作步骤。 
 
 刷新数据：在数据面板内可以单击下方刷新数据，针对在空间构建里数据发生变更后，精模组件的数据没有变化，对数据进行刷新。 
 

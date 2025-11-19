@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# DataV自定义组件开发介绍 %{#378275}% 
 
 本文面向具有前端开发功底的前端开发者，如果发现DataV的组件或者素材满足不了使用场景时，可以采用自定义组件的形式开发所需要的组件。
 
 ## 开发环境
 
-您可以进入[Node.js官网](https://nodejs.org/)，下载并安装Node.js，推荐Node版本在8.0.0及以上且在10.12.0以下，版本过高过低均不可以使用。同时推荐使用nvm管理Node，详细安装过程请参见[组件开发快速入门](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/getting-started-for-developers)。
+您可以进入[Node.js官网](https://nodejs.org/)，下载并安装Node.js，推荐Node版本在8.0.0及以上且在10.12.0以下，版本过高过低均不可以使用。同时推荐使用nvm管理Node，详细安装过程请参见[组件开发快速入门](/zh/datav/datav-6-0/user-guide/getting-started-for-developers)。
 
 **说明** 
 
@@ -126,13 +126,13 @@ npm install datav-cli -g
 
 index.js为主程序入口，package.json为配置文件。![文件结构](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6475330461/p375508.png)
 
-其中index.js文件中的主要方法如下，其它方法及配置规范请参见[index.js规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1)。
+其中index.js文件中的主要方法如下，其它方法及配置规范请参见[index.js规范](/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1)。
 
 * Init()：初始化。
 * render(array: data)：默认渲染方法（组件渲染数据）。
 * destroy()：销毁，当组件被销毁时调用。
 
-package.json常用字段规范如下，其它字段配置规范请参见[package.json规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1)。
+package.json常用字段规范如下，其它字段配置规范请参见[package.json规范](/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1)。
 
 * 组件类型名称样式定义。
 * 交互事件规范。
@@ -142,7 +142,7 @@ package.json常用字段规范如下，其它字段配置规范请参见[package
 
 ### 实操教学
 
-配置package.json文件，请参见[package.json规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1)：
+配置package.json文件，请参见[package.json规范](/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1)：
 
 ```
 {
@@ -231,9 +231,9 @@ package.json常用字段规范如下，其它字段配置规范请参见[package
 
 **说明** 
 
-关于颜色的配置详情请参见[color](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color)。
+关于颜色的配置详情请参见[color](/zh/datav/datav-6-0/user-guide/color)。
 
-配置index.js文件，请参见[index.js规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1)：
+配置index.js文件，请参见[index.js规范](/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1)：
 
 ```
 var Event = require('bcore/event');
@@ -405,7 +405,7 @@ module.exports = Event.extend(function Base(container, config) {
 开发者识别码查看方式，在DataV控制台首页，选择**我的资产** \> **我的组件包**，单击**开发者识别码**进行复制，然后粘贴到输入框中即可。  
 ![登录方法](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6475330461/p375840.png)
 6. 自定义开发组件时，组件发布失败怎么办？  
-您可以通过检查配置文件package.json中的`name`字段是否修改成已审核通过的组件包英文名，进一步确认组件是否有发布权限，其中`name`字段的正确格式为**@namespace/xxx**，其它解决方案您可以参见[自定义组件开发常见问题](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/faq-about-custom-component-development)。
+您可以通过检查配置文件package.json中的`name`字段是否修改成已审核通过的组件包英文名，进一步确认组件是否有发布权限，其中`name`字段的正确格式为**@namespace/xxx**，其它解决方案您可以参见[自定义组件开发常见问题](/zh/datav/datav-6-0/user-guide/faq-about-custom-component-development)。
 
 ## **视频链接**
 

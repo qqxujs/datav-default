@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 仪表盘 %{#289075}% 
 
 本文介绍仪表盘的图表样式和配置面板的功能。
 
 **重要** 
 
-在画布编辑器中添加BI分析组件时，图层栏内会自动在当前BI组件上方对应生成一个分析器，且需要提前创建数据集以供BI分析组件选择并配置使用，创建数据集和分析器交互使用说明详情，请参见[添加数据集](https://help.aliyun.com/document%5Fdetail/215456.html#task-2060897)和[BI分析器交互使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#concept-2114138)。
+在画布编辑器中添加BI分析组件时，图层栏内会自动在当前BI组件上方对应生成一个分析器，且需要提前创建数据集以供BI分析组件选择并配置使用，创建数据集和分析器交互使用说明详情，请参见[添加数据集](https://help.aliyun.com/document%5Fdetail/215456.html#task-2060897)和[BI分析器交互使用说明](/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#concept-2114138)。
 
 ## **图表样式**
 
@@ -15,7 +15,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7102636761/p561638.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -34,7 +34,7 @@
 |    **背景颜色**    |    仪表盘的背景颜色，当背景色为透明时，无法体现出米轨的特性。仅在**展示形式**为**米轨**时可配置。    |
 |    **环形半径**    |    仪表盘米轨环样式中的内环半径值和外环半径的值，数值越大半径越大，单位%。    |
 |    **仪表颜色**    |    仪表盘中仪表的颜色样式，可选**双色**或**多色**。**双色仪表**：配置双色仪表中的两种颜色，仅在**仪表颜色**为**双色**时可配置。**多色仪表**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个颜色样式系列。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个颜色样式系列的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中颜色样式系列配置内容并新增一个同样配置的颜色样式系列。仅在**仪表颜色**为**多色**时可配置。**占比**：当前系列颜色在仪表盘中的占比值大小，单位%。**颜色**：当前系列的颜色。    |
-|    **多色仪表**    |    单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一种仪表颜色。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多种仪表颜色的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中的仪表颜色并新增一个同样颜色的仪表。 占比：仪表颜色占总体仪表的比例，单位为%。颜色：设置仪表的填充样式。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，配置仪表的颜色样式。    |
+|    **多色仪表**    |    单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一种仪表颜色。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多种仪表颜色的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中的仪表颜色并新增一个同样颜色的仪表。 占比：仪表颜色占总体仪表的比例，单位为%。颜色：设置仪表的填充样式。请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，配置仪表的颜色样式。    |
 |    **环形描边**    |    仪表盘的环形描边样式，包括环形描边的线型样式、线的粗细值和线的颜色。**说明** 当线的类型选择**虚线**或**点线**时，还可以配置线的间断长度值和每一个间断线之间的距离。    |
 |    **中心指示**    |    仪表盘中心指示部分的样式，可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制中心指示样式的显隐。**指针线型**：仪表盘中心指针的线类型、线的粗细和线颜色。**说明** 当线的类型选择**虚线**或**点线**时，还可以配置线的间断长度值和每一个间断线之间的距离。**圆心样式**：中心指针圆心的样式，包括圆心的大小值和颜色。**圆心描边**：圆心描边线样式，包括线条的类型、线的粗细和线的颜色。**说明** 当线的类型选择**虚线**或**点线**时，还可以配置线的间断长度值和每一个间断线之间的距离。    |
 |    **中心文本**    |    仪表盘中心指示部分的文本样式，可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制中心指示样式的显隐。**显示内容**：仪表盘中心文本别的显示文本内容。**相对偏移**：仪表中心文本相对仪表盘在垂直和水平方向偏移量，单位为px。**文本样式**：仪表中心文本的样式，包括文本的字体样式、文字粗细、字号和颜色。**文本描边**：仪表中心文本内容的描边样式，包括文本描边的宽度值和描边颜色。    |
@@ -48,12 +48,12 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **显示格式**    |    角度轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。    |
+|    **显示格式**    |    角度轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。    |
 |    **标签展示**    |    标签的展示样式，包括：角度轴轴标签的前后缀内容、标签的角度值和偏移量。    |
 |    **文本样式**    |    角度轴轴标签文本的字体样式、文字粗细、字号和颜色。    |
 * **条件**：条件样式说明。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7102636761/p561643.png)
 
-**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中数据系列配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
+**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中数据系列配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
 
   * **前后缀**：当前系列条件下仪表盘中心内容显示的前后缀设置。
   * **显示数值**：仪表盘的数值显示，可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制数值的显隐。
@@ -79,8 +79,8 @@
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 数据面板（分析模式）
@@ -92,7 +92,7 @@
 * 数据源**仪表盘接口**由静态数据切换至DataV数据集。
 * 更新DataV数据集配置（此操作不会使字段配置丢失）。
 
-![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7102636761/p561651.png)BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
+![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7102636761/p561651.png)BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
 
 ### **配置字段说明**
 

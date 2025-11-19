@@ -1,8 +1,8 @@
-<!DOCTYPE html> 
+# 自定义组件开发常见问题 %{#86898}% 
 
 ## 哪里有组件的案例？
 
-命令行安装datav-cli，使用datav init命令下载安装模版组件，详情请参见[安装DataV开发工具套件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/getting-started-for-developers#concept-k5c-j1l-q2b "本文介绍使用DataV开发工具完成组件开发的方法。")。 
+命令行安装datav-cli，使用datav init命令下载安装模版组件，详情请参见[安装DataV开发工具套件](/zh/datav/datav-6-0/user-guide/getting-started-for-developers#concept-k5c-j1l-q2b "本文介绍使用DataV开发工具完成组件开发的方法。")。 
 
 ## 为什么我的组件发布不成功？
 
@@ -23,7 +23,7 @@
 
 ## 如何写一个ECharts组件？
 
-详情请参见[ECharts组件封装指南](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/echarts-component-packaging-guide#concept-fdp-2yl-q2b)。 
+详情请参见[ECharts组件封装指南](/zh/datav/datav-6-0/user-guide/echarts-component-packaging-guide#concept-fdp-2yl-q2b)。 
 
 ## 为什么本地的图片上传后不成功？
 
@@ -58,8 +58,8 @@
 
 ## 为什么我的组件被购买后，购买者无法找到？
 
-因为组件分类的设置不对，详情请参见[type字段](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1#concept-yhh-qcl-q2b "package.json文件是组件的配置文件。本文档介绍package.json文件的字段详情，您可以参考本文档的字段说明，根据自身需求，灵活修改package.json文件，自定义组件样式。")。 
+因为组件分类的设置不对，详情请参见[type字段](/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1#concept-yhh-qcl-q2b "package.json文件是组件的配置文件。本文档介绍package.json文件的字段详情，您可以参考本文档的字段说明，根据自身需求，灵活修改package.json文件，自定义组件样式。")。 
 
 ## 桌面版开发工具登录时，使用什么用户名？
 
-DataV控制台右上角显示的阿里云账号用户名，详情请参见[桌面版开发工具使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-desktop-developer-tool#task-2378897 "本文介绍桌面版开发工具的使用方法，包括下载和安装、登录、工作区管理和组件管理，帮助您快速使用桌面版开发工具开发组件，并进行发布。")。
+DataV控制台右上角显示的阿里云账号用户名，详情请参见[桌面版开发工具使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-desktop-developer-tool#task-2378897 "本文介绍桌面版开发工具的使用方法，包括下载和安装、登录、工作区管理和组件管理，帮助您快速使用桌面版开发工具开发组件，并进行发布。")。

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 查看结果 %{#121901}% 
 
 本文档为您介绍验证数据同步结果的方法。
 
@@ -11,4 +11,4 @@
 
 可以看到，在源表中插入三条数据后，销售目标达成率由原来的2%变成了5%。
 
-使用同样的方式，配置其他组件的数据。配置完成后，参考[发布可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/publish-a-project#concept-hqf-22r-p2b)发布大屏，进行实时计算结果数据的在线展示。
+使用同样的方式，配置其他组件的数据。配置完成后，参考[发布可视化应用](/zh/datav/datav-6-0/user-guide/publish-a-project#concept-hqf-22r-p2b)发布大屏，进行实时计算结果数据的在线展示。

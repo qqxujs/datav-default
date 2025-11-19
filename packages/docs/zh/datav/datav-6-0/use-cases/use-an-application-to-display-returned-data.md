@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 使用DataV可视化应用展示数据返回结果 %{#106955}% 
 
 本文为您介绍如何在DataV中调用DataWorks的数据服务API，并将数据返回结果展示在DataV可视化应用中。
 
 ## 前提条件
 
-在开始本案例前，您需要首先完成[准备工作](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/preparations-for-calling-dataworks-api-to-display-data#concept-q3d-5l2-qgb)，并已经[生成了数据服务API](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#task-qdq-1lf-qgb)。
+在开始本案例前，您需要首先完成[准备工作](/zh/datav/datav-6-0/use-cases/preparations-for-calling-dataworks-api-to-display-data#concept-q3d-5l2-qgb)，并已经[生成了数据服务API](/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#task-qdq-1lf-qgb)。
 
 ## 背景信息
 
@@ -31,14 +31,14 @@
 |    **自定义数据源名称**    |    数据源的显示名称，可以自由命名。    |
 |    **项目**    |    DataWorks项目（工作空间）。    |
 |    **Region**    |    需要与您的DataWorks项目在同一Region下。    |
-|    **AppKey**/**AppSecret**    |    参考[使用DataWorks数据服务生成API中的第三步](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#step3)，获取**AppKey**和**AppSecret**。    |
+|    **AppKey**/**AppSecret**    |    参考[使用DataWorks数据服务生成API中的第三步](/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#step3)，获取**AppKey**和**AppSecret**。    |
 2. 在可视化应用中调用数据服务API。
 
   1. 在DataV控制台中，单击**我的可视化** \> **PC端创建**。
   2. 选择一个模板，单击**创建项目**。
   3. 在**创建数据大屏**对话框中，输入**数据大屏名称**，单击**创建**。  
   示例选择如下模板。![7d88658c0194faaaefc1ad24c7fa384a](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2928733371/p883343.png)  
-  模板中的组件自带了静态数据，本案例以模板中的**基本折线图**组件为例，将组件数据配置为[查询成交金额增长趋势的API](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#task-qdq-1lf-qgb)。
+  模板中的组件自带了静态数据，本案例以模板中的**基本折线图**组件为例，将组件数据配置为[查询成交金额增长趋势的API](/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#task-qdq-1lf-qgb)。
   4. 单击模板中的**基本折线图**组件，在右侧的**数据**配置面板中，单击**配置数据源**。
   5. 在**设置数据源**页面中，选择**数据源类型**为**DataWorks数据服务**，**已有数据源**为您第一步中添加的数据源，**API**为您已经发布的API。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0138733371/p883585.png)
 

@@ -1,11 +1,11 @@
-<!DOCTYPE html> 
+# 热力图（v5.0.x版本） %{#423482}% 
 
 热力图使用颜色来代表数据分布，绘制的过程根据数据点在画布上的影响范围进行颜色的设置。本文介绍热力图各配置项的含义。
 
 ## 配置
 
 ![热力图面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2934126461/p385433.jpg)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -21,7 +21,7 @@
 |    ****图表边距**    |    单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制图表边距的显隐。打开开关后，可配置热力图区域与组件上下左右四个边界之间的距离，单位默认px。    |
 |    ****热力形状**    |    选择热力图显示的形状，可选****圆形**、****正方形**和****长方形**。    |
 |    ****尺寸映射**    |    热力的尺寸映射样式，包括设置热力映射的比例值，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制尺寸映射的显隐，尺寸映射开启时，需要在数据中配置radiusField字段，类型为number。    |
-|    ****热力颜色**    |    热力的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同热力的映射颜色样式。    |
+|    ****热力颜色**    |    热力的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同热力的映射颜色样式。    |
 |    ****热力描边**    |    热力图形的描边样式，包括描边线的线型样式、粗的细值和线颜色。**说明** 当线的类型选择****虚线**或****点线**时，还可以配置线的间断长度值和每一个间断线之间的距离。    |
 |    ****热力标注**    |    热力的标注样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制热力标注配置项的显隐。****标注字段**：标注的内容需要和数据面板中字段的内容对应，可选x、y、colorField和radiusField，默认获取radiusField字段内容。x：您可以自定义设置x字段的前后缀内容。y：您可以自定义设置y字段的前后缀内容。colorField：您可以自定义设置colorField字段的前后缀内容。radiusField：您可以自定义设置radiusField字段的前后缀内容，且设置字段的数值显示格式的样式。****相对偏移**：热力标注相对热力在垂直和水平方向偏移量，单位为px。****文本样式**：热力标注的文本样式，包括文本的字体样式、文字粗细、字号和颜色。****文本描边**：热力标注的文本描边样式，包括描边线的粗细值和颜色。    |
 * ****坐标**：组件坐标轴包括****X轴**和****Y轴**两种。  
@@ -124,7 +124,7 @@
 * ****条件**：数据条件系列样式说明。![条件样式面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4934126461/p385824.png)
 
 ****条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式系列。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式系列的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中条件样式系列配置内容并新增一个同样配置的条件样式系列。  
-具体每系列下条件样式配置说明，请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
+具体每系列下条件样式配置说明，请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
@@ -153,15 +153,15 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 数据（分析模式）
 
 ![分析面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9747139461/p385833.jpg)
 
-BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
+BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
 
 __表 2\. 热力图图表配置字段说明__
 |    **字段**    |    **说明**    |
@@ -183,8 +183,8 @@ __表 2\. 热力图图表配置字段说明__
 
 |    **交互事件**    |    **说明**    |
 |    ----    |    ----    |
-|    ****当数据项选中时**    |    选中****启用**，开启组件交互功能。当单击热力图的热力选项时，会触发数据请求，抛出回调值，动态加载不同热力选项的数据。默认抛出数据中的X、y和r值，具体配置请参见[如何使用回调ID实现图表联动功能](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#task-2516077)。    |
-|    ****当图例被点击时**    |    选中****启用**，开启组件交互功能。当单击热力图的图例时，会触发数据请求，抛出回调值，动态加载不同热力的数据。默认抛出数据中的value和checked值，具体配置请参见[如何使用回调ID实现图表联动功能](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#task-2516077)。    |
+|    ****当数据项选中时**    |    选中****启用**，开启组件交互功能。当单击热力图的热力选项时，会触发数据请求，抛出回调值，动态加载不同热力选项的数据。默认抛出数据中的X、y和r值，具体配置请参见[如何使用回调ID实现图表联动功能](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#task-2516077)。    |
+|    ****当图例被点击时**    |    选中****启用**，开启组件交互功能。当单击热力图的图例时，会触发数据请求，抛出回调值，动态加载不同热力的数据。默认抛出数据中的value和checked值，具体配置请参见[如何使用回调ID实现图表联动功能](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#task-2516077)。    |
 
 ## 蓝图编辑器交互配置
 

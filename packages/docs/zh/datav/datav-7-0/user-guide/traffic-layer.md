@@ -6,11 +6,11 @@
 
 **说明** 
 
-如果图层列表中没有**路况层**，说明您还未添加**路况层**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
+如果图层列表中没有**路况层**，说明您还未添加**路况层**图层，请参见[添加子组件](/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7822239861/p693995.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **通用**：通用配置参数说明。
 
 |    **参数**    |    **说明**    |
@@ -53,7 +53,7 @@
 
 **说明** 
 
-还可将图层数据接口作为区块数据接口，在数据看板中配置更丰富的数据源类型或实现与普通图表组件的数据交互，详情请参见[一键生成区块接口](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-configuration-items-for-datav-7#section-7sz-kpw-0b3)。
+还可将图层数据接口作为区块数据接口，在数据看板中配置更丰富的数据源类型或实现与普通图表组件的数据交互，详情请参见[一键生成区块接口](/zh/datav/datav-7-0/user-guide/layer-configuration-items-for-datav-7#section-7sz-kpw-0b3)。
 
 如果您在创建三维城市构建器项目时，使用了**空间数据项目**模式，并且项目内包含了数据图元图层数据内容。在场景编辑器内配置数据面板时，您还可以使用**空间构建数据源**获取空间地图数据， 具体步骤如下：
 
@@ -62,7 +62,7 @@
 3. 选择完数据项目后，在**数据集**下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
 **说明**  
-如果**数据项目**和**数据集**配置项内没有任何可供配置数据类型的内容，请您单击面板内**前往空间构建平台管理数据**处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-spatial-data-management)。
+如果**数据项目**和**数据集**配置项内没有任何可供配置数据类型的内容，请您单击面板内**前往空间构建平台管理数据**处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/datav-7-0/user-guide/overview-of-spatial-data-management)。
 
 ## 蓝图交互
 

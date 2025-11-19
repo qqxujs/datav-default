@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 创建、预览与发布可视化应用 %{#54227}% 
 
 DataV支持通过模板创建PC端和移动端可视化应用。本文将详细介绍如何创建、预览和发布这些可视化应用。
 
@@ -26,7 +26,7 @@ DataV支持通过模板创建PC端和移动端可视化应用。本文将详细�
 创建成功后，系统会跳转到可视化应用编辑器页面。  
 
 **说明**  
-您也可以在**创建数据大屏**对话框中选择**大屏分组**，前提是已经[创建分组](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/group-function-and-move-function/#e0e555ac04gch)。
+您也可以在**创建数据大屏**对话框中选择**大屏分组**，前提是已经[创建分组](/zh/datav/datav-6-0/user-guide/group-function-and-move-function/#e0e555ac04gch)。
 4. 可选，返回**我的可视化**页面，查看创建成功的可视化应用。
 
 ## **预览可视化应用**
@@ -180,7 +180,7 @@ Token验证开启后，再次打开可视化应用的分享页面，会收到一
 5. 将它们依次放入`URL`的querystring中。
 
 **重要**  
-如果您的可视化应用URL中需要使用GET的方式传递参数，为了安全性，建议您使用DataV提供的Token参数签名校验，详情请参见[DataV分享页Token参数签名校验](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/check-the-validity-of-digitally-signed-parameters-in-a-token#concept-354588)。  
+如果您的可视化应用URL中需要使用GET的方式传递参数，为了安全性，建议您使用DataV提供的Token参数签名校验，详情请参见[DataV分享页Token参数签名校验](/zh/datav/datav-6-0/user-guide/check-the-validity-of-digitally-signed-parameters-in-a-token#concept-354588)。  
 示例代码如下：  
 
   * PHP：  
@@ -386,4 +386,4 @@ DataV可视化应用在分享发布链接时提供了可自定义设置加载页
 
 ## **相关文档**
 
-创建可视化应用后，您可以进行[功能管理](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/group-function-and-move-function/#e0e555ac04gch)，以优化和维护应用。
+创建可视化应用后，您可以进行[功能管理](/zh/datav/datav-6-0/user-guide/group-function-and-move-function/#e0e555ac04gch)，以优化和维护应用。

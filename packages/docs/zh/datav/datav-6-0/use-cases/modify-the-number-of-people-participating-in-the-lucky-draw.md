@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 修改名单抽奖人数 %{#406485}% 
 
 名单抽奖可视化应用创建完成后，您可以通过以下方式修改组件配置项，自定义设置名单抽奖的人数。
 
 ## 前提条件
 
-已完成可视化应用的创建，详情请参见[创建模板可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/create-list-draw-template-applications#task-2040709 "本文为您介绍使用名单抽奖模板创建可视化应用的方法。")。 
+已完成可视化应用的创建，详情请参见[创建模板可视化应用](/zh/datav/datav-6-0/getting-started/create-list-draw-template-applications#task-2040709 "本文为您介绍使用名单抽奖模板创建可视化应用的方法。")。 
 
 ## 背景信息
 

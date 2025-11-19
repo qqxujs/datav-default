@@ -22,7 +22,7 @@
   2. 设置数据源类型为数据库，选择已有数据源。在SQL输入框中输入以下语句。![2024-10-15_11-30-16 (1)](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3003409271/p859373.gif)
 
 **说明**  
-  此处需要使用英文冒号引入全局变量，详情请参见[全局变量自动补全](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables#1ca3d5d366qbu)。
+  此处需要使用英文冒号引入全局变量，详情请参见[全局变量自动补全](/zh/datav/datav-7-0/user-guide/use-global-variables#1ca3d5d366qbu)。
   3. 查看数据返回结果和通用标题组件展示的即为全局变量设置的初始值。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1545379861/p695189.png)
 4. 配置时间选择器交互。
 

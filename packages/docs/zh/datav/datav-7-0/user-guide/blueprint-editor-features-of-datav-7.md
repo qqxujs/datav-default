@@ -10,7 +10,7 @@
 
 当组件被添加至画布编辑器后，**蓝图编辑器** \> **图层节点**列表会同步展示当前看板已使用的组件。若组件间存在业务交互，您可将所需组件拖拽至蓝图编辑器的主画布，配置交互行为。
 
-[配置组件交互行为](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)前，您需先了解蓝图编辑器的[界面布局](#section-lh4-o9o-299)及[操作介绍](#section-w05-9to-kmy)。
+[配置组件交互行为](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)前，您需先了解蓝图编辑器的[界面布局](#section-lh4-o9o-299)及[操作介绍](#section-w05-9to-kmy)。
 
 ## 界面布局
 
@@ -20,7 +20,7 @@ DataV-Board 7.0的蓝图编辑器界面布局如下。![61ff6e48c30f882b5be2395e
 
 |    **序号**    |    **描述**    |    **操作详情**    |
 |    ----    |    ----    |    ----    |
-|    1    |    工具栏，用于切换画布编辑器、搜索节点、控制是否展示右侧面板、开启参数提示、切换界面背景颜色、查看错误信息、新增快照、预览及发布看板等。    |    [常用管理](https://help.aliyun.com/zh/datav/management-of-common-features)[全局搜索](#93d8769ba1ukz)    |
+|    1    |    工具栏，用于切换画布编辑器、搜索节点、控制是否展示右侧面板、开启参数提示、切换界面背景颜色、查看错误信息、新增快照、预览及发布看板等。    |    [常用管理](/zh/datav/management-of-common-features)[全局搜索](#93d8769ba1ukz)    |
 |    2    |    蓝图编辑器配置交互行为的主体对象，可添加至主画布进行编辑。包括：图层节点：本质为组件。画布编辑器中添加的组件，在蓝图编辑器中自动生成相应图层节点。逻辑节点：用于配置看板内组件及变量间的交互逻辑。逻辑组合：用于封装部分节点和连线，便于相同场景下进行复用。全局变量：用于定义全局参数，可在目标组件中关联，实现组件间的参数传递，进行组件交互。过滤器：用于自定义过滤代码，实现数据结构转换、数据筛选、展示和简单的计算。    |    [节点操作](#0ad88c439cmu3)    |
 |    3    |    包含蓝图工具栏和主画布操作页面，用于配置、展示组件间的交互关系，可通过拖拽、连线等方式进行编辑。    |    [蓝图工具栏](#29d89cf65cpx6)[主画布操作](#d777870f4914m)    |
 |    4    |    右侧面板，单击对应节点，即可展示相应配置面板，进行相关功能的参数配置。**说明** 不同节点或锚点的配置项存在差异，具体请以实际界面为准。    |    不涉及    |
@@ -53,11 +53,11 @@ DataV-Board 7.0的蓝图编辑器界面布局如下。![61ff6e48c30f882b5be2395e
 
 |    **类型**    |    **操作**    |
 |    ----    |    ----    |
-|    **图层节点**    |    在图层节点面板，可查看从画布编辑器导入的所有组件。您可按需执行筛选节点、在画布编辑器中快速定位当前节点、添加节点至主画布、移动当前节点至主画布中心位置等操作。在主画布单击相应图层节点，可在右侧面板配置节点信息，详情请参见[配置图层节点](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-layer-nodes)。    |
-|    **逻辑节点**    |    逻辑节点面板，包含全局节点、条件判断、串行数据处理等多种逻辑处理节点，鼠标悬停至相应节点，单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6177979661/p526740.png)图标，即可将该节点添加至主画布。您也可直接将相应节点通过拖动方式添加至主画布。添加节点后，在主画布单击该节点，可在右侧面板配置节点信息，详情请参见[配置逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-udd-zr2-49f)。    |
-|    **逻辑组合**    |    在逻辑组合面板，可查看已创建的逻辑组合列表。您可按需执行新建、编辑、删除、[下钻](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-logical-combinations#2668ecc0670wa)逻辑组合，以及将当前逻辑组合添加至主画布等操作。在主画布单击相应逻辑组合，可在右侧面板配置锚点信息，详情请参见[逻辑组合配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/logical-combination-configuration#9f89ebf066nnr)。    |
-|    **全局变量**    |    在全局变量面板，可查看已创建的全局变量列表，并按需执行全局变量的新增、配置处理逻辑、编辑名称、复制、单个删除、添加至画布、跨项目复制、批量删除等操作。详情请参见[全局变量配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/global-variable-configuration)、[全局变量使用](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/global-variable/)。    |
-|    **过滤器**    |    在过滤器面板，可查看已创建的过滤器列表，并按需执行过滤器的新增、配置处理逻辑、编辑名称、单个删除、搜索、批量删除等操作。详情请参见[过滤器在蓝图中的应用](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-filters-in-blueprint-editor-on-pcs)。    |
+|    **图层节点**    |    在图层节点面板，可查看从画布编辑器导入的所有组件。您可按需执行筛选节点、在画布编辑器中快速定位当前节点、添加节点至主画布、移动当前节点至主画布中心位置等操作。在主画布单击相应图层节点，可在右侧面板配置节点信息，详情请参见[配置图层节点](/zh/datav/datav-7-0/user-guide/configure-layer-nodes)。    |
+|    **逻辑节点**    |    逻辑节点面板，包含全局节点、条件判断、串行数据处理等多种逻辑处理节点，鼠标悬停至相应节点，单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6177979661/p526740.png)图标，即可将该节点添加至主画布。您也可直接将相应节点通过拖动方式添加至主画布。添加节点后，在主画布单击该节点，可在右侧面板配置节点信息，详情请参见[配置逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-udd-zr2-49f)。    |
+|    **逻辑组合**    |    在逻辑组合面板，可查看已创建的逻辑组合列表。您可按需执行新建、编辑、删除、[下钻](/zh/datav/datav-7-0/user-guide/manage-logical-combinations#2668ecc0670wa)逻辑组合，以及将当前逻辑组合添加至主画布等操作。在主画布单击相应逻辑组合，可在右侧面板配置锚点信息，详情请参见[逻辑组合配置](/zh/datav/datav-7-0/user-guide/logical-combination-configuration#9f89ebf066nnr)。    |
+|    **全局变量**    |    在全局变量面板，可查看已创建的全局变量列表，并按需执行全局变量的新增、配置处理逻辑、编辑名称、复制、单个删除、添加至画布、跨项目复制、批量删除等操作。详情请参见[全局变量配置](/zh/datav/datav-7-0/user-guide/global-variable-configuration)、[全局变量使用](/zh/datav/datav-7-0/user-guide/global-variable/)。    |
+|    **过滤器**    |    在过滤器面板，可查看已创建的过滤器列表，并按需执行过滤器的新增、配置处理逻辑、编辑名称、单个删除、搜索、批量删除等操作。详情请参见[过滤器在蓝图中的应用](/zh/datav/datav-7-0/user-guide/use-filters-in-blueprint-editor-on-pcs)。    |
 
 ### **蓝图工具栏**
 

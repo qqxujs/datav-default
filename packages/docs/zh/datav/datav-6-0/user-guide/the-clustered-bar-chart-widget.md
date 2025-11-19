@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 分组柱状图（v3.0及以上版本） %{#154392}% 
 
 本文介绍分组柱状图的图表样式和配置面板的功能。
 
 **重要** 
 
-本文介绍v3.0及以上版本的分组柱状图的配置项，如需查看v3.0以下版本，请参见[分组柱图（v3.0以下版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/clustered-column-chart-of-v3-0-and-earlier#concept-ygf-wgk-bfb)。
+本文介绍v3.0及以上版本的分组柱状图的配置项，如需查看v3.0以下版本，请参见[分组柱图（v3.0以下版本）](/zh/datav/datav-6-0/user-guide/clustered-column-chart-of-v3-0-and-earlier#concept-ygf-wgk-bfb)。
 
 ## **图表样式**
 
@@ -14,7 +14,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1800696761/p571132.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -131,7 +131,7 @@
 
 ## 交互面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1800696761/p571166.png)
 
-选中**启用**，开启组件交互功能。当单击分组柱状图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的x、y和s值，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。 
+选中**启用**，开启组件交互功能。当单击分组柱状图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的x、y和s值，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。 
 
 ## 蓝图编辑器交互配置
 

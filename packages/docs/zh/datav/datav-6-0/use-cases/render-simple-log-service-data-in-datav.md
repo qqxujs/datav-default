@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 使用DataV可视化应用展示日志服务数据 %{#86926}% 
 
 本文档为您介绍如何使用DataV完成日志服务数据的展示，实现实时业务监控。
 
@@ -11,7 +11,7 @@
 
 ## 准备工作
 
-完成[为Kubernetes和日志服务配置Log4JAppender](https://help.aliyun.com/zh/ack/ack-managed-and-ack-dedicated/user-guide/configure-log4jappender-for-kubernetes-and-log-service#concept-eky-j3b-wdb)中的步骤，并且服务运行正常。
+完成[为Kubernetes和日志服务配置Log4JAppender](/zh/ack/ack-managed-and-ack-dedicated/user-guide/configure-log4jappender-for-kubernetes-and-log-service#concept-eky-j3b-wdb)中的步骤，并且服务运行正常。
 
 ## 配置日志服务
 
@@ -44,7 +44,7 @@
 |    **自定义数据源名称**    |    数据源的显示名称，您可以自由命名。    |
 |    **AppKey**    |    拥有目标SLS访问权限的账号的AccessKey ID。    |
 |    **AppSecret**    |    拥有目标SLS访问权限的账号的AccessKey Secret。    |
-|    **EndPoint**    |    填写SLS服务的EndPoint。请参见[日志服务入口文档](https://help.aliyun.com/zh/sls/endpoints#reference-wgx-pwq-zdb)，根据您SLS服务的网络类型和所在区域进行填写。 例如VPC网络下，上海区域的**EndPoint** 填写为**https://cn-shanghai-intranet.log.aliyuncs.com**。    |
+|    **EndPoint**    |    填写SLS服务的EndPoint。请参见[日志服务入口文档](/zh/sls/endpoints#reference-wgx-pwq-zdb)，根据您SLS服务的网络类型和所在区域进行填写。 例如VPC网络下，上海区域的**EndPoint** 填写为**https://cn-shanghai-intranet.log.aliyuncs.com**。    |
 9. 选择添加完成的数据源，并在数据查询框中输入如下示例脚本进行查询。  
 ```  
 {  

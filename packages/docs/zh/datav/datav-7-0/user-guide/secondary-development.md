@@ -14,7 +14,7 @@ DataV-Board（数据看板）提供二次开发功能，实现更复杂和灵活
 
 ## 使用限制
 
-仅限尊享版用户，若您还不是尊享版用户请先进行[产品升级](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/service-upgrades-and-downgrades)。
+仅限尊享版用户，若您还不是尊享版用户请先进行[产品升级](/zh/datav/datav-7-0/product-overview/service-upgrades-and-downgrades)。
 
 ## **操作流程**
 

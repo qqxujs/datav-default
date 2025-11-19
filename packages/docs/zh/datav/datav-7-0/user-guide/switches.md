@@ -19,8 +19,8 @@
 
 ## **前提条件**
 
-* 已创建数据看板，支持[使用模板创建](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布创建](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)、[使用AI智能生成](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)。
-* 已准备业务数据，详情请参见[数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/data-source/)。
+* 已创建数据看板，支持[使用模板创建](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布创建](/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)、[使用AI智能生成](/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)。
+* 已准备业务数据，详情请参见[数据源](/zh/datav/datav-7-0/user-guide/data-source/)。
 
 ## **添加**开关
 
@@ -28,7 +28,7 @@
 2. 在**工作台**页面的**数据看板**区域，鼠标悬停至目标看板，单击**编辑**，进入看板的画布编辑页面。
 3. 在左侧导航栏，按下图步骤添加**开关**组件至画布。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1461657571/p1006012.png)
 
-您也可[使用全局搜索](https://help.aliyun.com/zh/datav/global-search)添加相关组件。
+您也可[使用全局搜索](/zh/datav/global-search)添加相关组件。
 
 ## **接入业务数据**
 
@@ -65,8 +65,8 @@
 
 |    **配置项**    |    **描述**    |
 |    ----    |    ----    |
-|    **选择数据源**    |    支持接入CSV文件、API、各类数据库等多种类型数据，详情请参见[支持的数据源类型](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-data-source/)。您可使用可视化表格或代码方式编辑数据字段。    |
-|    **配置过滤器（可选）**    |    用于自定义过滤代码，实现数据的结构转换、筛选、展示和简单的计算，详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **选择数据源**    |    支持接入CSV文件、API、各类数据库等多种类型数据，详情请参见[支持的数据源类型](/zh/datav/datav-7-0/user-guide/add-a-data-source/)。您可使用可视化表格或代码方式编辑数据字段。    |
+|    **配置过滤器（可选）**    |    用于自定义过滤代码，实现数据的结构转换、筛选、展示和简单的计算，详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **配置数据映射**    |    用于将所选数据源中的字段映射至组件对应的字段上，实现数据的实时匹配。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标可配置字段样式。    |
 |    **查看响应结果**    |    用于实时展示组件所接入的数据。当组件数据源发生变化时，此处会对应展示最新数据。单击数据响应结果，可查看编写的数据字段代码。单击查看示例，可查看数据源接收的数组类型及代码示例。您可参考示例编写相关字段。其他数据请求配置：**禁止加载态**：勾选后，在组件更新或预览数据看板时，将不呈现组件初始化时的加载内容。**受控模式**：勾选后，组件在初始化状态下不会请求数据。此时仅支持通过蓝图编辑器或全局变量事件发起数据请求。**自动更新请求**：勾选后，平台会根据您设置的轮询时间，动态轮询更新数据；不勾选，则需手动刷新页面，或通过蓝图编辑器和全局变量事件来触发请求更新数据。    |
 
@@ -80,14 +80,14 @@
 
 **说明** 
 
-您也可单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879258.png)图标，通过关键词搜索，快速定位到所需配置项，搜索支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+您也可单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879258.png)图标，通过关键词搜索，快速定位到所需配置项，搜索支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 
 相关配置项介绍如下。
 
 |    **配置项**    |    **描述**    |    **图示**    |
 |    ----    |    ----    |    ----    |
 |    全局配置    |    定义组件在数据看板中的位置分布、透明程度、交互穿透。**不透明度**：数值越小，组件越透明。取值范围为0\~1内的数值。**交互穿透**：开启后，鼠标可穿透该组件，避免看板中组件较多时，该组件会遮挡鼠标与下层组件的交互。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9710946371/p902483.png)    |
-|    基础样式配置    |    定义开关的默认选中状态、背景颜色及边框的线条、[颜色](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)、粗细、圆角等样式。相关说明如下：默认选中状态：开启后，添加的开关组件默认为打开状态。**说明** 此处的配置优先级低于数据源中state字段的取值，优先以state的配置状态为准。背景颜色：需分别配置开关打开状态及关闭状态的背景颜色。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9710946371/p902486.png)    |
+|    基础样式配置    |    定义开关的默认选中状态、背景颜色及边框的线条、[颜色](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)、粗细、圆角等样式。相关说明如下：默认选中状态：开启后，添加的开关组件默认为打开状态。**说明** 此处的配置优先级低于数据源中state字段的取值，优先以state的配置状态为准。背景颜色：需分别配置开关打开状态及关闭状态的背景颜色。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9710946371/p902486.png)    |
 |    开关把手配置    |    定义开关把手的颜色、边框样式、宽度、高度，以及垂直方向的位置偏移。通常使用开关把手控制开关的打开及关闭。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9710946371/p902558.png)    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9710946371/p902488.png)    |
 
 ### **高级配置**
@@ -96,12 +96,12 @@
 
 |    **配置项**    |    **描述**    |    **图示**    |
 |    ----    |    ----    |    ----    |
-|    交互事件    |    定义与其他组件间的[交互行为](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)，实现组件联动。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879478.png)图标，即可定义相关交互事件及交互动作。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9710946371/p902587.png)    |
-|    关联全局变量    |    可在组件中关联全局参数，实现组件间的参数传递，进行组件交互。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879477.png)图标，即可开启相应指令，并为该指令关联所需[全局变量](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables)。当开关的状态变化时（即打开或关闭开关），触发数据请求，抛出数据源面板中的配置值。打开开关，抛出onValue值；关闭开关，抛出offValue值。配置详情请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |    |
+|    交互事件    |    定义与其他组件间的[交互行为](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)，实现组件联动。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879478.png)图标，即可定义相关交互事件及交互动作。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9710946371/p902587.png)    |
+|    关联全局变量    |    可在组件中关联全局参数，实现组件间的参数传递，进行组件交互。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879477.png)图标，即可开启相应指令，并为该指令关联所需[全局变量](/zh/datav/datav-7-0/user-guide/use-global-variables)。当开关的状态变化时（即打开或关闭开关），触发数据请求，抛出数据源面板中的配置值。打开开关，抛出onValue值；关闭开关，抛出offValue值。配置详情请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |    |
 
 ### **蓝图交互**
 
-可通过[蓝图编辑器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/what-is-blueprint-editor-1)使用可视化连线方式，定义组件间的交互关系及行为逻辑。
+可通过[蓝图编辑器](/zh/datav/datav-7-0/user-guide/what-is-blueprint-editor-1)使用可视化连线方式，定义组件间的交互关系及行为逻辑。
 
 #### **操作步骤**
 

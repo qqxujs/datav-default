@@ -4,7 +4,7 @@
 
 ## **组件收藏**
 
-当前页签只支持查看收藏后的组件，具体组件收藏方法请参见[图层管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-management-of-canvas-editor-in-pc-of-datav-7)。
+当前页签只支持查看收藏后的组件，具体组件收藏方法请参见[图层管理](/zh/datav/datav-7-0/user-guide/layer-management-of-canvas-editor-in-pc-of-datav-7)。
 
 ## **组件分组**
 
@@ -15,7 +15,7 @@
 
 ## **管理项目配额**
 
-组件配额设置，详情请参见[新增工作空间](https://help.aliyun.com/zh/datav/create-a-workspace-1)。
+组件配额设置，详情请参见[新增工作空间](/zh/datav/create-a-workspace-1)。
 
 ## **组件搜索**
 

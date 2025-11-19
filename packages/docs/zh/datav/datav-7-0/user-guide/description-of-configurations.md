@@ -2,7 +2,7 @@
 
 为了避免对外透露出的组件配置项过多，区块设置开放或隐藏某些配置项的设置面板。当您在区块中新增组件后，默认对外隐藏组件样式面板，需在区块配置项设置面板中将隐藏项打开，最终可在区块预览中才能看到该组件的样式设置。本文介绍区块配置项设置面板的功能。
 
-前提条件：已创建一个区块，具体创建区块的方法，请参见[创建空白区块](https://help.aliyun.com/zh/datav/create-blank-blocks)。
+前提条件：已创建一个区块，具体创建区块的方法，请参见[创建空白区块](/zh/datav/create-blank-blocks)。
 
 ## 配置项设置功能说明
 
@@ -21,8 +21,8 @@
 
 1. 单击区块编辑器页面右上角的![预览区块图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4123054261/p254797.jpg)图标预览区块。
 2. 在预览页面，单击样式面板，可以查看区块内组件的所有样式内容，并可以在样式面板内配置区块不同组件的样式配置项。![查看全量组件样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4090903461/p284179.png)
-3. 在区块编辑器中，对配置的组件样式内容进行预览后，单击发布区块，详情请参见[预览区块](https://help.aliyun.com/zh/datav/preview-blocks)和[发布区块](https://help.aliyun.com/zh/datav/publish-blocks)。![预览测试样式功能](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8853813461/p392334.png)
+3. 在区块编辑器中，对配置的组件样式内容进行预览后，单击发布区块，详情请参见[预览区块](/zh/datav/preview-blocks)和[发布区块](/zh/datav/publish-blocks)。![预览测试样式功能](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8853813461/p392334.png)
 4. 切换到控制台上的**我的可视化**页面，将鼠标悬浮至一个可视化应用上方，单击**编辑**进入画布编辑器。
 5. 单击![资产列表](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4643285261/p292278.png)图标展开**全部资产**列表，选择**区块**模块，在区块列表内可查看到发布后的所有区块内容。
 6. 单击所需区块，即可添加该区块到画布编辑器中。
-7. 单击选中画布中的区块，在右侧配置面板中选择**配置**页签，即可查看该区块的配置面板中的所有样式配置信息，您可以参见[配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)，修改区块的配置项内容。
+7. 单击选中画布中的区块，在右侧配置面板中选择**配置**页签，即可查看该区块的配置面板中的所有样式配置信息，您可以参见[配置项说明](/zh/datav/datav-7-0/user-guide/configuration-items)，修改区块的配置项内容。

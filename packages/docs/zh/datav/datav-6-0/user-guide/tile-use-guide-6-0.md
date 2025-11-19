@@ -12,21 +12,21 @@ DataV-Board（数据看板）中的三维城市构建器采用空间数据瓦片
 
 |    瓦片类型    |    说明    |    格式    |    典型应用案例    |    版本支持    |
 |    ----    |    ----    |    ----    |    ----    |    ----    |
-|    栅格瓦片    |    栅格瓦片是将地图数据切割为等大小的图片块（如256×256像素），就像把大地图分割成许多小拼图。每个瓦片包含特定区域和缩放级别的图像信息，具有加载速度快、兼容性强的特点，是互联网地图服务的基础技术。    |    [XYZ栅格瓦片](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/xyz-raster-tiles)    |    互联网地图服务    |    DataV-Board专业版和尊享版    |
-|    [ArcGIS栅格瓦片](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/arcgis-raster-tiles)    |    智慧城市管理系统    |    DataV-Board尊享版    |    |    |
-|    [超图REST栅格瓦片](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/rest-raster-tiles)    |    国产化GIS项目    |    |    |    |
-|    [WMS栅格瓦片](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/wms-raster-tiles)    |    环境监测热力图    |    |    |    |
-|    [WMTS栅格瓦片](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/wmts-raster-tiles)    |    国家地理信息公共服务平台    |    |    |    |
-|    地形瓦片    |    地形瓦片专门处理高程数据，将地表起伏信息转化为网格化的高度图或量化地形块。它会根据观看距离自动调整细节程度，既能展现整体地貌，又能清晰显示局部地形特征，常用于三维地理场景的基底数据。    |    [高度图地形瓦片](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/heightmaps)    |    地形地貌分析    |    |
-|    [量化地形瓦片](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/quantized-meshes)    |    三维城市基底地形    |    |    |    |
-|    三维瓦片    |    三维瓦片是用来加载建筑物、桥梁等立体模型的技术。它采用3D Tiles或S3M格式，将大场景模型分割为空间单元并附加属性信息。根据用户视角智能加载，既能流畅展示整个城市全景，又能清晰呈现单个建筑的细节，是数字城市和三维仿真的关键技术。    |    [3D Tiles 倾斜摄影](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/3d-tiles-oblique-photography)    |    旅游景区数字化    |    |
-|    [S3M倾斜摄影](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/s3m-oblique-photography-of-premium-edition)    |    智慧园区实景模型    |    |    |    |
-|    [S3M BIM](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/s3m-bim-of-premium-edition)    |    智慧工地监管    |    |    |    |
-|    [S3M管网](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/s3m-pipe-network-of-premium-edition)    |    城市地下管网管理    |    |    |    |
+|    栅格瓦片    |    栅格瓦片是将地图数据切割为等大小的图片块（如256×256像素），就像把大地图分割成许多小拼图。每个瓦片包含特定区域和缩放级别的图像信息，具有加载速度快、兼容性强的特点，是互联网地图服务的基础技术。    |    [XYZ栅格瓦片](/zh/datav/datav-6-0/user-guide/xyz-raster-tiles)    |    互联网地图服务    |    DataV-Board专业版和尊享版    |
+|    [ArcGIS栅格瓦片](/zh/datav/datav-6-0/user-guide/arcgis-raster-tiles)    |    智慧城市管理系统    |    DataV-Board尊享版    |    |    |
+|    [超图REST栅格瓦片](/zh/datav/datav-6-0/user-guide/rest-raster-tiles)    |    国产化GIS项目    |    |    |    |
+|    [WMS栅格瓦片](/zh/datav/datav-6-0/user-guide/wms-raster-tiles)    |    环境监测热力图    |    |    |    |
+|    [WMTS栅格瓦片](/zh/datav/datav-6-0/user-guide/wmts-raster-tiles)    |    国家地理信息公共服务平台    |    |    |    |
+|    地形瓦片    |    地形瓦片专门处理高程数据，将地表起伏信息转化为网格化的高度图或量化地形块。它会根据观看距离自动调整细节程度，既能展现整体地貌，又能清晰显示局部地形特征，常用于三维地理场景的基底数据。    |    [高度图地形瓦片](/zh/datav/datav-6-0/user-guide/heightmaps)    |    地形地貌分析    |    |
+|    [量化地形瓦片](/zh/datav/datav-6-0/user-guide/quantized-meshes)    |    三维城市基底地形    |    |    |    |
+|    三维瓦片    |    三维瓦片是用来加载建筑物、桥梁等立体模型的技术。它采用3D Tiles或S3M格式，将大场景模型分割为空间单元并附加属性信息。根据用户视角智能加载，既能流畅展示整个城市全景，又能清晰呈现单个建筑的细节，是数字城市和三维仿真的关键技术。    |    [3D Tiles 倾斜摄影](/zh/datav/datav-7-0/user-guide/3d-tiles-oblique-photography)    |    旅游景区数字化    |    |
+|    [S3M倾斜摄影](/zh/datav/datav-6-0/user-guide/s3m-oblique-photography-of-premium-edition)    |    智慧园区实景模型    |    |    |    |
+|    [S3M BIM](/zh/datav/datav-6-0/user-guide/s3m-bim-of-premium-edition)    |    智慧工地监管    |    |    |    |
+|    [S3M管网](/zh/datav/datav-6-0/user-guide/s3m-pipe-network-of-premium-edition)    |    城市地下管网管理    |    |    |    |
 
 ## **添加瓦片**
 
-操作前，您需要登录[DataV控制台](https://datav.aliyun.com/v/console/)并[创建三维城市项目](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/create-3d-city-projects)。
+操作前，您需要登录[DataV控制台](https://datav.aliyun.com/v/console/)并[创建三维城市项目](/zh/datav/datav-6-0/user-guide/create-3d-city-projects)。
 
 1. 在**三维城市构建器**页签下，鼠标悬停至目标三维城市项目上，单击**编辑**进入场景编辑器。
 2. 在场景编辑器中，单击图层面板右上角的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0761085161/p240116.jpg)，选择右侧弹窗的**选择组件**，进入**选择组件**对话框。

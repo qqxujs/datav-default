@@ -8,21 +8,21 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3687741961/p703530.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **高度**：区域热力层在球体层中的相对高度，取值范围1.5\~10。
 * **只显示边界**：打开开关，只显示区域边界线。关闭开关，显示区域面及边界线，并且可配置其样式。
-* **最小值**：组件数据中最小的value值所对应区域的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
+* **最小值**：组件数据中最小的value值所对应区域的颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
 * **最大值**：组件数据中最大的value值所对应区域的颜色。
 * **无值**：系统在获取区域热力边界数据时，如果缺少了某个区域的数据（当区域热力图数据中没有对应的地理边界数据中的adcode值时），这个区域的颜色就会展示为无值的颜色。
 * **面透明度**：区域面的透明度。
-* **边线颜色**：区域边界线的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修。
+* **边线颜色**：区域边界线的颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修。
 * **边线透明度**：区域边界线的透明度，取值范围0\~1。
 * **边线宽度**：区域边界线的宽度，取值范围0\~0.2。
 * **交互开关**：打开交互开关，可以设置鼠标点击时的点击颜色。
 
 ## 数据源面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3687741961/p703533.png)
 
-* **地理边界geojson数据接口**：通过配置地理边界geojson数据接口，可将提取到的区域GeoJSON边界数据应用到DataV中。配置方法同**基础平面地图**组件的**区域热力层**配置，具体请参见[数据源面板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/choropleth-layers-of-v3-x#section-o43-iy9-rlf)。
+* **地理边界geojson数据接口**：通过配置地理边界geojson数据接口，可将提取到的区域GeoJSON边界数据应用到DataV中。配置方法同**基础平面地图**组件的**区域热力层**配置，具体请参见[数据源面板](/zh/datav/datav-7-0/user-guide/choropleth-layers-of-v3-x#section-o43-iy9-rlf)。
 * **区域面数据接口**
 
 |    **字段**    |    **说明**    |
@@ -34,7 +34,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -42,7 +42,7 @@
 
 ## 高级面板
 
-打开开关，开启组件交互功能。区域激活或激活恢复时，触发数据请求，抛出临时变量，实现在区域激活或激活恢复时，动态加载不同区域的数据。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+打开开关，开启组件交互功能。区域激活或激活恢复时，触发数据请求，抛出临时变量，实现在区域激活或激活恢复时，动态加载不同区域的数据。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
 
 ## 蓝图交互
 

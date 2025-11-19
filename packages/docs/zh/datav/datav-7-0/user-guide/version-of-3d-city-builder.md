@@ -9,8 +9,8 @@
 * 更强大的CIM能力。
 * 更丰富的基底与图元组件。
 
-您只需要使用[DataV专业版](https://common-buy.aliyun.com/?spm=a2c4g.11186623.0.0.ae213e06b5BevX&commodityCode=datav&request=%7B%22versionType%22:%22devVersion%22,%22ord%5Ftime%22:%22%5B%5Cn%20%201,%5Cn%20%20%5C%22Month%5C%22%5Cn%5D%22%7D#/buy)及以上版本，即可解锁**三维城市构建器**的强大功能，创建属于您自己的三维城市项目，新版的入门使用详情，请参见[快速入门](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/getting-started-with-3d-city-builder-of-datav-7)。
+您只需要使用[DataV专业版](https://common-buy.aliyun.com/?spm=a2c4g.11186623.0.0.ae213e06b5BevX&commodityCode=datav&request=%7B%22versionType%22:%22devVersion%22,%22ord%5Ftime%22:%22%5B%5Cn%20%201,%5Cn%20%20%5C%22Month%5C%22%5Cn%5D%22%7D#/buy)及以上版本，即可解锁**三维城市构建器**的强大功能，创建属于您自己的三维城市项目，新版的入门使用详情，请参见[快速入门](/zh/datav/datav-7-0/user-guide/getting-started-with-3d-city-builder-of-datav-7)。
 
 **说明** 
 
-如果您目前使用或想了解2022年3月底之前购买的旧版**城市三维场景构建器**组件的详细功能使用，请参见[城市三维场景构建器快速入门](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/getting-started-with-3d-city-builder-of-datav-6)。
+如果您目前使用或想了解2022年3月底之前购买的旧版**城市三维场景构建器**组件的详细功能使用，请参见[城市三维场景构建器快速入门](/zh/datav/datav-6-0/user-guide/getting-started-with-3d-city-builder-of-datav-6)。

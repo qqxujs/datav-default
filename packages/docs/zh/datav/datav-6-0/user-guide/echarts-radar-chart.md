@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# Echarts 雷达图 %{#449970}% 
 
 本文介绍Echarts 雷达图的图表样式和配置面板的功能。
 
@@ -8,7 +8,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3961847761/p573697.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -40,7 +40,7 @@
   * **元素间距**：单击**+**或**\-**号，或手动输入数值，调整图例每项之间的距离。横向布局时为水平间隔，纵向布局时为纵向间隔。
   * **文本样式**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例文本的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例文本的颜色。
     * **字体样式**：图例文本的字体风格。
     * **字体粗细**：图例文本的字体粗细。
     * **字体**：图例文本的字体系列。
@@ -54,7 +54,7 @@
   * **起始角度**：雷达图逆时针旋转的起始角度，单位为弧度。
   * **名称**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改名称的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改名称的颜色。
     * **字体样式**：名称的字体风格。
     * **字体粗细**：名称的字体粗细。
     * **字体**：名称的字体系列。
@@ -68,7 +68,7 @@
 
     * **线样式**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改轴线的颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改轴线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改轴线的宽度。
       * **类型**：坐标轴轴线的类型。可选，包括**实线**、**虚线**和**点线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改轴线的透明度。范围为 \[0,1\]。
@@ -78,7 +78,7 @@
     * **长度**：单击**+**或**\-**号，或手动输入数值，修改坐标轴刻度的长度。
     * **线样式**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改刻度线的颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改刻度线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改刻度线的宽度。
       * **类型**：坐标轴轴线的类型。可选，包括**实线**、**虚线**和**点线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改刻度线的透明度。范围为 \[0,1\]。
@@ -86,7 +86,7 @@
 
     * **线样式**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线的颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改分割线的线宽。
       * **类型**：坐标轴轴线的类型。可选，包括**实线**、**虚线**和**点线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改分割线的透明度，范围为 \[0,1\]。
@@ -94,15 +94,15 @@
 
     * **区域样式**
 
-      * **颜色**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个颜色样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个颜色样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中的颜色样式配置并新增一个同样配置的颜色样式。参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线的颜色。
+      * **颜色**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个颜色样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个颜色样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中的颜色样式配置并新增一个同样配置的颜色样式。参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线的颜色。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改分割区域的透明度，范围为 \[0,1\]。
   * **维度**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个维度样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个维度色样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中的维度样式配置并新增一个同样配置的维度色样式。
 * **提示框**：单击右侧的**眼睛**图标显示提示框。![提示框](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4609311661/p479404.jpg)
 
-  * **背景色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的背景颜色。
+  * **背景色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的背景颜色。
   * **文本样式**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框文本的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框文本的颜色。
     * **字体样式**：提示框文本的字体风格。
     * **字体粗细**：提示框文本的字体粗细。
     * **字体**：提示框文本的字体系列。
@@ -117,24 +117,24 @@
     * **位置**：设置标签相当对于雷达图的位置，包括但不限于**top**、**left**和**inside**。
     * **定位距离**：单击**+**或**\-**号，或手动输入数值，修改标签相当对于雷达图的距离。
     * **旋转**：单击**+**号或者**\-**号，或者手动输入数字，调整雷达图的旋转角度。
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标签的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标签的颜色。
     * **字体样式**：普通项标签文本的字体风格。
     * **字体粗细**：普通项标签文本的字体粗细。
     * **字体**：普通项标签文本的字体系列。
     * **字号**：普通项标签文本的字体大小。
   * **元素样式**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改元素的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改元素的颜色。
     * **透明度**：单击**+**或**\-**号，或手动输入数值，修改元素的透明度，范围为 \[0,1\]。
   * **线样式**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改线的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改线的颜色。
     * **宽度**：单击**+**或**\-**号，或手动输入数值，修改线的宽度。
     * **类型**：线的描边类型，可选，包括**实线**和**虚线**。
     * **透明度**：单击**+**或**\-**号，或手动输入数值，修改线的透明度。范围为 \[0,1\]。
   * **区域样式**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改区域样式的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改区域样式的颜色。
     * **透明度**：单击**+**或**\-**号，或手动输入数值，修改区域交叉的透明度，范围为 \[0,1\]。
 * **动画**：勾选后，开启动画效果。
 * **动画时长**：单击**+**或**\-**号，或手动输入数值，修改初始动画的时长，单位为毫秒。
@@ -160,9 +160,9 @@
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击数据项时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的value和dim字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
-|    **当点击坐标轴标签时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击某个坐标轴标签时抛出回调值，默认抛出数据中的value和dim字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
-|    **当图例点击时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的selected字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    **当点击数据项时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的value和dim字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    **当点击坐标轴标签时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击某个坐标轴标签时抛出回调值，默认抛出数据中的value和dim字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    **当图例点击时**    |    选中**启用**，开启组件交互功能。**雷达图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的selected字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
 
 ## 蓝图编辑器交互配置
 

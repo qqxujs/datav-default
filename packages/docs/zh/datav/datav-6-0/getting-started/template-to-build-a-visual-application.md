@@ -1,11 +1,11 @@
-<!DOCTYPE html> 
+# 模板搭建可视化应用 %{#87811}% 
 
 本文以搭建**双11狂欢节**可视化应用为例，为您演示如何使用DataV提供的模板来开发可视化应用项目。
 
 ## 背景信息
 
-* 示例使用**静态数据源**，因此可以直接在组件的数据配置区域粘贴准备好的数据。如果您的数据源为**CSV文件**、**数据库**等其他类型，需要先[添加数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-data-sources/)。
-* 如果您需要使用**API**数据源，可直接在数据配置栏输入API地址。具体配置时，如需启用**服务器代理请求**等操作，请参见[配置跨域数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-configure-cross-domain-data#concept-k5l-ckz-q2b)。
+* 示例使用**静态数据源**，因此可以直接在组件的数据配置区域粘贴准备好的数据。如果您的数据源为**CSV文件**、**数据库**等其他类型，需要先[添加数据源](/zh/datav/datav-6-0/user-guide/add-data-sources/)。
+* 如果您需要使用**API**数据源，可直接在数据配置栏输入API地址。具体配置时，如需启用**服务器代理请求**等操作，请参见[配置跨域数据](/zh/datav/datav-6-0/user-guide/how-to-configure-cross-domain-data#concept-k5l-ckz-q2b)。
 
 ## **效果展示**
 
@@ -24,7 +24,7 @@
 
 1. 登录[DataV控制台](https://datav.aliyun.com/)。
 2. 在**我的可视化**页面中，单击**PC端创建**。选择一个合适的模板，此处以选择**2017双11狂欢节**模板为例，单击**创建项目**。
-3. 在**创建数据大屏**对话框中，输入可视化应用名称并选择[项目分组](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/group-function-and-move-function/#e0e555ac04gch)，未创建分组时可选择**未分组**。
+3. 在**创建数据大屏**对话框中，输入可视化应用名称并选择[项目分组](/zh/datav/datav-6-0/user-guide/group-function-and-move-function/#e0e555ac04gch)，未创建分组时可选择**未分组**。
 4. 单击**创建**。  
 应用创建成功后跳转到画布编辑器页面，可以看到一款满足展示企业新零售业务相关数据且设计精良的模板。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2867504761/p551396.png)
 
@@ -62,5 +62,5 @@
 3. 在发布页面中单击**分享链接**右侧的![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7824997471/p960080.png)图标复制链接。
 
 **说明**  
-在发布页面中，可以按需进行[发布信息和快照管理](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#d6096c2851ggr)。
+在发布页面中，可以按需进行[发布信息和快照管理](/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#d6096c2851ggr)。
 4. 打开浏览器，将复制的链接粘贴到地址栏中，即可在线观看发布成功的可视化应用。

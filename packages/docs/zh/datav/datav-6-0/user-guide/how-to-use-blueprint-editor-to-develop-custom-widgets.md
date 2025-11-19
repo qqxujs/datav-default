@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 如何使用蓝图编辑器自定义开发组件 %{#131295}% 
 
 本文档示例为开发者的自定义组件提供功能开发的参考，主要介绍三个蓝图编辑器内容的实现方法：**事件触发**、**导入数据接口**、**添加交互动作**。
 
 ## 前提条件
 
-本文需要操作使用桌面版开发工具，详情请参见开发工具使用说明中的[桌面版开发工具使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-desktop-developer-tool#task-2378897)。
+本文需要操作使用桌面版开发工具，详情请参见开发工具使用说明中的[桌面版开发工具使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-desktop-developer-tool#task-2378897)。
 
 ## 背景信息
 

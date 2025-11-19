@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 垂直胶囊柱图（v3.0以下版本） %{#90034}% 
 
 垂直胶囊柱图是柱状图的一种，与基本柱图相比，垂直胶囊柱图组件支持使用堆叠的方式展示多系列数据，因此可以在较小的可视化应用空间内，智能地展示多维的数据差异。本文介绍垂直胶囊柱图各配置项的含义。
 
@@ -6,9 +6,9 @@
 
 **重要** 
 
-本文介绍v3.0以下版本的垂直胶囊柱图的配置项，如需查看v3.0及以上版本，请参见[垂直胶囊柱状图（v3.0及以上版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/the-rounded-column-chart-widget#concept-2354384)。
+本文介绍v3.0以下版本的垂直胶囊柱图的配置项，如需查看v3.0及以上版本，请参见[垂直胶囊柱状图（v3.0及以上版本）](/zh/datav/datav-6-0/user-guide/the-rounded-column-chart-widget#concept-2354384)。
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -25,7 +25,7 @@
     * **柱间间距**：柱子之间的距离，取值范围为0\~1。
     * **柱外间距**：最左侧和最右侧柱子与组件边界的水平距离，取值范围为0\~1。
     * **柱内间距**：柱子到胶囊壳的距离。
-    * **外框颜色**：胶囊外部边框的颜色，可参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+    * **外框颜色**：胶囊外部边框的颜色，可参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
     * **外框粗细**：胶囊外部边框的粗细。
     * **边框颜色**：胶囊柱子边框的颜色。
   * **边距**
@@ -258,13 +258,13 @@
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互
 
-选中**启用**，开启组件交互功能。当单击垂直胶囊柱图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的x、y和s值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 
+选中**启用**，开启组件交互功能。当单击垂直胶囊柱图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的x、y和s值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 
 
 ## 蓝图编辑器交互配置
 

@@ -1,24 +1,24 @@
-<!DOCTYPE html> 
+# 区域下钻热力层（v1.x版本） %{#84587}% 
 
 区域下钻热力层是基础平面地图的子组件，支持独立的样式、数据和交互配置，包括下钻区域的标注、边线、鼠标交互事件以及位置信息等，可直接作为省或直辖市级、地市级区域热力层使用。本文介绍区域下钻热力层各配置项的含义。
 
 **重要** 
 
-当前为v1.x版本的**区域下钻热力层**子组件指导文档，如需查看该子组件v2.x版本的文档内容详情，请参见[区域下钻热力层（v2.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/drilldown-choropleth-layer-of-v2-x#concept-2404137)。
+当前为v1.x版本的**区域下钻热力层**子组件指导文档，如需查看该子组件v2.x版本的文档内容详情，请参见[区域下钻热力层（v2.x版本）](/zh/datav/datav-6-0/user-guide/drilldown-choropleth-layer-of-v2-x#concept-2404137)。
 
 单击**子组件管理**下方的**区域下钻热力层**，进入配置面板配置**区域下钻热力层**的样式和数据。 
 
 **说明** 
 
-如果**子组件管理**中没有**区域下钻热力层**，说明您还未添加**区域下钻热力层**子组件，请参见[地图容器（v1.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-container-2#concept-z4z-2f5-q2b)进行添加。
+如果**子组件管理**中没有**区域下钻热力层**，说明您还未添加**区域下钻热力层**子组件，请参见[地图容器（v1.x版本）](/zh/datav/datav-6-0/user-guide/map-container-2#concept-z4z-2f5-q2b)进行添加。
 
 ## 配置
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **标注**
 
   * **标注字段**：下钻区域的标注字段，需要与地理数据中字段名称匹配。
-  * **颜色**：标注的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+  * **颜色**：标注的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
   * **阴影色**：标注的阴影色。
   * **字体**：标注的字体。  
 
@@ -70,7 +70,7 @@ DataV默认显示全国范围内的各省和直辖市的URL链接，层级关系
     * 由于获取的JSON数据量比较大，不支持静态数据等配置，只能通过`URL`链接来访问。  
   下载完整[示例JSON文件](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn%5Fzh/1557287159809/zhejiang%5Farea%5Ftree.json)。
   3. 发布area\_json数据文件，并获取URL。  
-  通过在线静态数据服务，将area\_json发布成相应的文件，并获取URL，推荐您使用阿里云的OSS在线静态数据服务。关于文件URL的介绍请参见[上传Object后如何获取访问URL](https://help.aliyun.com/zh/oss/user-guide/how-to-obtain-the-url-of-a-single-object-or-the-urls-of-multiple-objects#concept-39607-zh)。  
+  通过在线静态数据服务，将area\_json发布成相应的文件，并获取URL，推荐您使用阿里云的OSS在线静态数据服务。关于文件URL的介绍请参见[上传Object后如何获取访问URL](/zh/oss/user-guide/how-to-obtain-the-url-of-a-single-object-or-the-urls-of-multiple-objects#concept-39607-zh)。  
 
 **重要**  
   通过该服务发布的`URL`链接，必须使用HTTPS协议，并且必须使用SSL证书的域名。
@@ -89,26 +89,26 @@ DataV默认显示全国范围内的各省和直辖市的URL链接，层级关系
     7. 将处理后的杭州市的topo\_json文件，复制粘贴到浙江省的topo\_json文件后面，用英文逗号隔开（注意括号要对应）。![添加杭州市的topo_json文件](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5168068951/p46951.png)  
       单击下载最终的[topo\_json文件](http://docs-aliyun.cn-hangzhou.oss.aliyun-inc.com/assets/attach/64800/cn%5Fzh/1557396165677/zhejiang.topojson)。
   5. 发布topo\_json数据文件，并获取URL。  
-  关于文件URL的介绍请参见[上传Object后如何获取访问URL](https://help.aliyun.com/zh/oss/user-guide/how-to-obtain-the-url-of-a-single-object-or-the-urls-of-multiple-objects#concept-39607-zh)。  
+  关于文件URL的介绍请参见[上传Object后如何获取访问URL](/zh/oss/user-guide/how-to-obtain-the-url-of-a-single-object-or-the-urls-of-multiple-objects#concept-39607-zh)。  
   重复步骤iii获取最终的topo\_json文件的**URL**链接。
   6. 配置下钻热力层的自定义区域数据。  
   使用新发布出来的两个文件的URL，替换下钻热力层的自定义区域数据的URL，单击**预览**查看地图上的效果，即可完成自定义数据配置。![配置下钻热力层的自定义区域数据](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5168068951/p46786.png)  
   预览成功的效果图如下，双击杭州市区域，可进入杭州市地图页面。双击空白处，可回到浙江省地图页面。![配置成功结果](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5168068951/p46776.png)
 
 **重要**  
-  如果预览时无法显示自定义的下钻区域，可能是所配置的URL存在跨域问题，可在OSS中进行跨域配置，详情请参见[设置跨域资源共享](https://help.aliyun.com/zh/oss/configure-cors-rules#concept-pbw-4df-vdb)。
+  如果预览时无法显示自定义的下钻区域，可能是所配置的URL存在跨域问题，可在OSS中进行跨域配置，详情请参见[设置跨域资源共享](/zh/oss/configure-cors-rules#concept-pbw-4df-vdb)。
   7. 预览成功后，可单击**发布**，发布大屏。  
 使用同样的方式可配置其他省市级的下钻区域数据，数据的规律为**国家** \> **省或直辖市** \> **地市级** \> **区县级**，即上一级必须包含下一级的区域数据（adcode和位置数据等）才可下钻。
-* **映射数据接口**：请参见[区域热力层](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/regional-thermal-layer#ol-trc-zsy-lfb)。
+* **映射数据接口**：请参见[区域热力层](/zh/datav/datav-6-0/user-guide/regional-thermal-layer#ol-trc-zsy-lfb)。
 
 ## 交互
 
 * **当区域被点击触发**  
 选中**启用**，开启组件交互功能。**区域下钻热力层**子组件拥有交互配置，可单击某个区域，触发数据请求，抛出回调值，实现在单击某个区域时，动态加载不同区域的数据。  
-默认抛出所单击区域的adcode值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。
+默认抛出所单击区域的adcode值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。
 * **当区域被双击触发**  
 选中**启用**，开启组件交互功能。**区域下钻热力层**子组件拥有交互配置，可双击某个区域，触发数据请求，抛出回调值，实现在双击某个区域时，动态加载不同区域的数据。  
-默认抛出所双击区域的adcode值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。
+默认抛出所双击区域的adcode值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。
 
 **说明**  
 此回调ID不需要跟数据中的字段对应，默认回传区域的adcode。例如双击浙江省，会回传330000。

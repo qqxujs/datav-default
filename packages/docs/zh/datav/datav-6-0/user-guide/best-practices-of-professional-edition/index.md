@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 最佳实践 %{#427617}% 
 
 * [使用三维城市构建器场景蓝图屏幕定位锚点功能教程](/zh/datav/datav-6-0/user-guide/use-the-blueprint-editor-anchor-feature-of-3d-city-builder-professional-edition)
 

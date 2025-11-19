@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 数据接口配置说明 %{#281127}% 
 
 本文介绍区块内部的数据接口的配置的方法，帮助您理解区块的数据接口功能。
 
@@ -11,7 +11,7 @@
 |    模式    |    说明    |
 |    ----    |    ----    |
 |    视图模式    |    在视图模式下，直观查看示例数据接口的样式，并按照示例样式自定义配置数据接口的内容，无需编写代码。 图 1\. 视图模式配置面板示例 ![视图模式配置面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6669864261/p283671.png)    |
-|    代码模式    |    在代码模式下，您可以根据示例接口代码，自定义编写所需数据接口的代码。实现新增或配置数据接口的内容。 图 2\. 代码模式面板示例 ![代码模式面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6669864261/p283672.png) **说明** 配置数据接口代码规范，请参见[组件开发规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/files-overview#concept-j52-1cl-q2b "本文介绍开发者在开发DataV组件时，需要遵循的文件结构。")。    |
+|    代码模式    |    在代码模式下，您可以根据示例接口代码，自定义编写所需数据接口的代码。实现新增或配置数据接口的内容。 图 2\. 代码模式面板示例 ![代码模式面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6669864261/p283672.png) **说明** 配置数据接口代码规范，请参见[组件开发规范](/zh/datav/datav-6-0/user-guide/files-overview#concept-j52-1cl-q2b "本文介绍开发者在开发DataV组件时，需要遵循的文件结构。")。    |
 
 ## 配置数据接口
 
@@ -39,11 +39,11 @@
 ## 可视化应用中查看并使用数据接口
 
 在区块编辑器中配置完数据接口后，您可以在画布编辑器中使用区块时，查看到区块的所有数据接口信息，具体在可视化应用中配置并查看接口信息的步骤如下。 
-1. 在区块编辑器中，对配置的数据接口内容，进行预览和测试数据接口内容，接口测试无误后，发布区块，详情请参见[预览区块](https://help.aliyun.com/zh/datav/preview-a-block#task-2062250 "预览区块的目的是为了测试区块的功能可用性，模拟使用时的各种操作。本文介绍如何预览并测试一个配置完成的区块，帮助您及时了解区块的可用性，便于区块的及时修改和完善。")和[发布区块](https://help.aliyun.com/zh/datav/publish-a-block#task-2062363 "本文介绍如何发布一个区块，帮助您升级区块版本，可供后续在可视化应用中使用。")。![测试区块并发布](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4643285261/p290517.png)
+1. 在区块编辑器中，对配置的数据接口内容，进行预览和测试数据接口内容，接口测试无误后，发布区块，详情请参见[预览区块](/zh/datav/preview-a-block#task-2062250 "预览区块的目的是为了测试区块的功能可用性，模拟使用时的各种操作。本文介绍如何预览并测试一个配置完成的区块，帮助您及时了解区块的可用性，便于区块的及时修改和完善。")和[发布区块](/zh/datav/publish-a-block#task-2062363 "本文介绍如何发布一个区块，帮助您升级区块版本，可供后续在可视化应用中使用。")。![测试区块并发布](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4643285261/p290517.png)
 2. 切换到控制台上的我的可视化页面，将鼠标悬浮至一个可视化应用上方，单击编辑进入画布编辑器。
 3. 单击![资产列表](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4643285261/p292278.png)图标展开全部资产列表，选择区块模块，在区块列表内可查看到发布后的所有区块内容。
 4. 单击所需区块，即可添加该区块到画布编辑器中。
-5. 单击选中画布中的区块，在右侧配置面板中选择数据页签，即可查看该区块的数据接口中的所有配置信息，您可以参见[配置组件数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875 "本文档介绍配置组件数据的方法，以及组件数据面板的内容，包括数据接口、数据源、数据过滤器和数据轮询频次等。")和[设置组件数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-the-data-source-for-a-widget#task-2376923 "本文档介绍DataV设置组件数据源的方法，以及设置数据源页面的内容，包括数据源、数据过滤器以及数据响应结果等。")，修改区块的数据内容。![查看区块数据接口内容](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5643285261/p290515.png)
+5. 单击选中画布中的区块，在右侧配置面板中选择数据页签，即可查看该区块的数据接口中的所有配置信息，您可以参见[配置组件数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875 "本文档介绍配置组件数据的方法，以及组件数据面板的内容，包括数据接口、数据源、数据过滤器和数据轮询频次等。")和[设置组件数据源](/zh/datav/datav-6-0/user-guide/configure-the-data-source-for-a-widget#task-2376923 "本文档介绍DataV设置组件数据源的方法，以及设置数据源页面的内容，包括数据源、数据过滤器以及数据响应结果等。")，修改区块的数据内容。![查看区块数据接口内容](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5643285261/p290515.png)
 
 ## 实时预览数据接口配置
 

@@ -47,7 +47,7 @@
   4. 去选中**验证有效期**，每次访问都需要输入密码。
 
 **重要**  
-如果您的数据看板URL中需要使用GET的方式传递参数，为了安全性，建议您使用DataV提供的Token参数签名校验，详情请参见[分享看板的Token访问方式](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-signature-authentication-to-verify-token-parameters-of-a-published-datav-project)。
+如果您的数据看板URL中需要使用GET的方式传递参数，为了安全性，建议您使用DataV提供的Token参数签名校验，详情请参见[分享看板的Token访问方式](/zh/datav/datav-7-0/user-guide/use-signature-authentication-to-verify-token-parameters-of-a-published-datav-project)。
 * IP白名单：设置启用IP白名单后，发布后的可视化应用仅允许在设置范围内的白名单IP下访问。
 
   1. 在**发布**对话框中，打开**IP白名单**。  

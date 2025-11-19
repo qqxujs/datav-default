@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 配置物联网平台设备 %{#92026}% 
 
 物联网平台主要负责获取设备端数据，并通过规则引擎将数据转发至Table Store、DataHub、RDS、Message Service、Message Queue、TSDB、FC以及另外一个Topic。
 
 ## 前提条件
 
-您已经完成了[DataHub项目的创建](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/create-a-datahub-project#task-dyg-dxh-ffb "阿里云流数据处理平台DataHub是流式数据（Streaming Data）的处理平台，提供对流式数据的发布（Publish），订阅（Subscribe）和分发功能，让您可以轻松构建基于流式数据的分析和应用。")。 
+您已经完成了[DataHub项目的创建](/zh/datav/datav-6-0/use-cases/create-a-datahub-project#task-dyg-dxh-ffb "阿里云流数据处理平台DataHub是流式数据（Streaming Data）的处理平台，提供对流式数据的发布（Publish），订阅（Subscribe）和分发功能，让您可以轻松构建基于流式数据的分析和应用。")。 
 
 ## 操作步骤
 

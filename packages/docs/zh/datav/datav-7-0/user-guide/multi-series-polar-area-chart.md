@@ -8,7 +8,7 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6286601071/p741923.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **尺寸**：包括组件的宽度和高度，单位为px。
 * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -24,11 +24,11 @@
 |    **图表边距**    |    单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制图表边距的显隐。打开开关后，可配置扇形区域与组件上下左右四个边界之间的距离，单位默认px。    |
 |    **展示形式**    |    扇形区域的展示形式，可选**堆叠**和**分组**。    |
 |    **扇形半径**    |    扇形区域的内外半径的大小百分比值。    |
-|    **扇形颜色**    |    扇形区域的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同扇形的映射颜色样式。    |
+|    **扇形颜色**    |    扇形区域的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同扇形的映射颜色样式。    |
 |    **扇形描边**    |    扇形区域的描边样式，包括描边线的类型、粗细值和颜色。**说明** 当线的类型选择**虚线**或**点线**时，还可以配置线的间断长度值和每一个间断线之间的距离。    |
 |    **扇形发光**    |    扇形的发光样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制扇形发光配置项的显隐。**发光颜色**：包括跟随扇区开关和不透明度。当关闭**跟随扇区**开关后，可以单独设置发光颜色。**模糊系数**：设置扇形发光的模糊系数，范围0\~50，数值越大扇形间的发光范围越模糊。    |
-|    **扇形标签**    |    扇形的标签样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制扇形标签配置项的显隐。**标签字段**：标签的内容需要和数据面板中字段的内容对应，默认获取r字段内容。**数值格式**：设置标签的数值格式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)，仅在标签字段选择r时显示。**前后缀**：设置扇形标签的前后缀内容。**相对偏移**：扇形标签相对扇形的偏移量，单位为px。**文本样式**：扇形标签的文本样式，包括文本的字体样式、文字粗细、字号和颜色。**文本描边**：扇形标签的文本描边样式，包括描边线的粗细值和颜色。    |
-|    **贴图**    |    扇形区域的贴图样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制贴图配置项的显隐。**说明** 贴图背景不支持渐变色。**类型**：贴图的类型，包括**点形**、**线形**、**方形**和**图片**。**填充样式**：设置贴图的填充样式。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置贴图的颜色样式。**描边样式**：设置贴图的描边样式。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置贴图的颜色样式。当类型选择为**点形**或**正方形**时显示。**额外样式**：贴图的其他样式，包括贴图的**图形尺寸**、**图形间距**、**线间距**、**旋转角度**和**是否交错**开关。当选择类型为**图片**时，可以设置**图片地址**、**平铺宽度**、**平铺高度**、**平铺间距**和**旋转角度**。    |
+|    **扇形标签**    |    扇形的标签样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制扇形标签配置项的显隐。**标签字段**：标签的内容需要和数据面板中字段的内容对应，默认获取r字段内容。**数值格式**：设置标签的数值格式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)，仅在标签字段选择r时显示。**前后缀**：设置扇形标签的前后缀内容。**相对偏移**：扇形标签相对扇形的偏移量，单位为px。**文本样式**：扇形标签的文本样式，包括文本的字体样式、文字粗细、字号和颜色。**文本描边**：扇形标签的文本描边样式，包括描边线的粗细值和颜色。    |
+|    **贴图**    |    扇形区域的贴图样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制贴图配置项的显隐。**说明** 贴图背景不支持渐变色。**类型**：贴图的类型，包括**点形**、**线形**、**方形**和**图片**。**填充样式**：设置贴图的填充样式。请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置贴图的颜色样式。**描边样式**：设置贴图的描边样式。请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置贴图的颜色样式。当类型选择为**点形**或**正方形**时显示。**额外样式**：贴图的其他样式，包括贴图的**图形尺寸**、**图形间距**、**线间距**、**旋转角度**和**是否交错**开关。当选择类型为**图片**时，可以设置**图片地址**、**平铺宽度**、**平铺高度**、**平铺间距**和**旋转角度**。    |
 * **坐标**：组件**半径轴**和**角度轴**的样式。
 
   * **半径轴**
@@ -56,7 +56,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **显示格式**    |    半径轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。仅在半径轴**数据类型**选择**数值型**时可配置。    |
+|    **显示格式**    |    半径轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。仅在半径轴**数据类型**选择**数值型**时可配置。    |
 |    **标签展示**    |    标签的展示样式，包括：半径轴轴标签的数量、前后缀内容、标签的角度值、偏移量和对齐方式。    |
 |    **文本样式**    |    半径轴轴标签文本的字体样式、文字粗细、字号和颜色。    |
     * **刻度线**：分类玫瑰图的半径轴刻度线样式，包括刻度线的长度值、粗细值和颜色，可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制半径轴刻度线样式的显隐。
@@ -141,7 +141,7 @@
     * **文本内容**：设置辅助线的内容样式，包括文本、数据显示开关、旋转角度、水平和垂直偏移和对齐位置。
     * **文本背景**：设置辅助线的文本背景，包括背景的填充色、圆角半径。
     * **文本样式**：设置辅助线的文本内容的文本样式。
-  * **扇形样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置并新增一个同样配置的条件样式。具体的条件样式配置说明，请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。  
+  * **扇形样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置并新增一个同样配置的条件样式。具体的条件样式配置说明，请参见[条件树使用说明](/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。  
 
     * **扇形颜色**：打开开关，配置该系列条件样式中的扇形颜色；关闭开关，无法配置该系列条件下的扇形颜色。
     * **扇形描边**：打开开关，配置该系列条件样式中的扇形描边线的样式，包括线的类型、线的粗细值和颜色；关闭开关，无法配置该系列条件下的扇形描边线样式。
@@ -173,7 +173,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -183,8 +183,8 @@
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当数据项选中时**    |    打开开关，开启组件交互功能。当单击选中某个数据项时抛出临时变量，默认抛出数据中的r、t和colorField字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
-|    **当图例被点击时**    |    打开开关，开启组件交互功能。当单击某个图例时抛出临时变量，默认抛出数据中的value和checked字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当数据项选中时**    |    打开开关，开启组件交互功能。当单击选中某个数据项时抛出临时变量，默认抛出数据中的r、t和colorField字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当图例被点击时**    |    打开开关，开启组件交互功能。当单击某个图例时抛出临时变量，默认抛出数据中的value和checked字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
 
 ## 蓝图交互
 

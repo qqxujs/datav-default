@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 智能主题 %{#2923977}% 
 
 本文档介绍DataV智能主题功能的使用方法。通过智能主题功能，您可以对移动端可视化应用进行合理的配色，快速解决在设计移动端可视化应用时遇到的配色困难的问题。
 
@@ -33,7 +33,7 @@
 ## 使用流程
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
-2. 在**工作台**页面，新建一个[使用模板创建移动端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)或者单击一个已有移动端可视化应用的**编辑**按钮。
+2. 在**工作台**页面，新建一个[使用模板创建移动端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)或者单击一个已有移动端可视化应用的**编辑**按钮。
 3. 在移动端画布编辑器页面，单击工具栏中的**美化工具箱**。  
 ![美化工具箱入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0844942061/p93745.png)
 4. 在美化工具箱面板，默认自动开启**智能主题**功能。  
@@ -71,4 +71,4 @@
       ![提示框提示不支持主体功能](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p129197.png)  
       如果您对主题效果不满意，可单击**取消**，取消当前的主题配色。
     6. 在对话框中单击**确定**，即可将选中的主题应用到移动端可视化应用中。
-6. 主题配置完成后，可[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#59ef2671632rx)，在线展示移动端数据看板的智能主题效果。
+6. 主题配置完成后，可[发布数据看板](/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#59ef2671632rx)，在线展示移动端数据看板的智能主题效果。

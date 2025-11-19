@@ -10,8 +10,8 @@
 
 ## **组件收藏数量扩展包**
 
-详情请参见[组件收藏数量扩展包](https://help.aliyun.com/zh/datav/extra-number-of-favorited-widgets)。
+详情请参见[组件收藏数量扩展包](/zh/datav/extra-number-of-favorited-widgets)。
 
 ## **屏幕数量扩展包**
 
-详情请参见[屏幕数量扩展包](https://help.aliyun.com/zh/datav/extra-screens)。
+详情请参见[屏幕数量扩展包](/zh/datav/extra-screens)。

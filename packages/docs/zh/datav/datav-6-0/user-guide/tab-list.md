@@ -1,12 +1,12 @@
-<!DOCTYPE html> 
+# Tab列表（v3.0以下版本） %{#92322}% 
 
 Tab列表是基础交互组件的一种，支持自定义Tab的颜色、数量、类型以及标签样式等，可以通过交互配置，与其他组件配合使用，在可视化应用中展示所选择Tab的标签内容。本文介绍Tab列表各配置项的含义。
 
 ## 配置
 
-**重要** 本文介绍v3.0以下版本的Tab列表的配置项，如需查看v3.0及以上版本，请参见[Tab列表（v3.0及以上版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/tab-list-of-v3-0-and-later#concept-wp5-zqs-gfb)。
+**重要** 本文介绍v3.0以下版本的Tab列表的配置项，如需查看v3.0及以上版本，请参见[Tab列表（v3.0及以上版本）](/zh/datav/datav-6-0/user-guide/tab-list-of-v3-0-and-later#concept-wp5-zqs-gfb)。
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -32,7 +32,7 @@ Tab列表是基础交互组件的一种，支持自定义Tab的颜色、数量�
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **字号**    |    组件标签的字号大小。    |
-|    **字体颜色**    |    组件标签的字体颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **字体颜色**    |    组件标签的字体颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    **字体粗细**    |    组件标签的字体粗细。    |
 |    **背景颜色**    |    Tab选项卡的背景颜色。    |
 |    **圆角半径**    |    Tab选项卡的圆角半径，值越大，边角越圆。默认为0，即为长方形。    |
@@ -78,13 +78,13 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互
 
-选中**启用**，开启组件交互功能。当单击Tab标签时，会触发数据请求，抛出回调值，动态加载标签的内容。默认抛出数据中的id和content值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。
+选中**启用**，开启组件交互功能。当单击Tab标签时，会触发数据请求，抛出回调值，动态加载标签的内容。默认抛出数据中的id和content值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。
 
 ## 蓝图编辑器交互配置
 

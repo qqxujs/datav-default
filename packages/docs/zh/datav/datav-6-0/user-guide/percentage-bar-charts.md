@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 百分比条形图 %{#297368}% 
 
 本文介绍百分比条形图的图表样式和配置面板的功能。
 
 **重要** 
 
-在画布编辑器中添加BI分析组件时，图层栏内会自动在当前BI组件上方对应生成一个分析器，且需要提前创建数据集以供BI分析组件选择并配置使用，创建数据集和分析器交互使用说明详情，请参见[添加数据集](https://help.aliyun.com/document%5Fdetail/215456.html#task-2060897)和[BI分析器交互使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#concept-2114138)。
+在画布编辑器中添加BI分析组件时，图层栏内会自动在当前BI组件上方对应生成一个分析器，且需要提前创建数据集以供BI分析组件选择并配置使用，创建数据集和分析器交互使用说明详情，请参见[添加数据集](https://help.aliyun.com/document%5Fdetail/215456.html#task-2060897)和[BI分析器交互使用说明](/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#concept-2114138)。
 
 ## **图表样式**
 
@@ -15,7 +15,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7386636761/p561741.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -30,10 +30,10 @@
 |    ----    |    ----    |
 |    **图表边距**    |    单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制图表边距的显隐。打开开关后，可配置柱图区域与组件上下左右四个边界之间的距离，单位默认px。    |
 |    **柱子宽度**    |    柱子的宽度值，单位px，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制柱子宽度配置项的显隐。    |
-|    **柱子颜色**    |    柱子的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同柱子的映射颜色样式。    |
+|    **柱子颜色**    |    柱子的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同柱子的映射颜色样式。    |
 |    **联通区域**    |    柱子不同类目同一个系列数据之间联通区域的样式，通过**悬浮**和**点击**这两种类型触发，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制联通区域配置项的显隐。    |
 |    **柱子标注**    |    柱子的标注样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制柱子标注配置项的显隐。**标注字段**：标注的内容需要和数据面板中字段的内容对应，默认获取x字段内容。**前后缀**：设置柱子标注的前后缀内容。**标注位置**：选择标注内容的显示位置，可选**顶部**、**中间**和**底部**。**相对偏移**：柱子标注相对柱子在垂直和水平方向偏移量，单位为px。**文本样式**：柱子标注的文本样式，包括文本的字体样式、文字粗细、字号和颜色。**文本描边**：柱子标注的文本描边样式，包括描边线的粗细值和颜色。    |
-|    **贴图**    |    柱子的贴图样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制贴图配置项的显隐。**类型**：贴图的类型，包括**点形**、**线形**和**正方形**。**填充样式**：设置贴图的填充样式。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，配置贴图的颜色样式。**描边样式**：设置贴图的描边样式。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，配置贴图的颜色样式。当类型选择为**点形**或**正方形**时显示。**额外样式**：贴图的其他样式，包括贴图的**图形尺寸**、**图形间距**、**线间距**、**旋转角度**和**是否交错**开关。    |
+|    **贴图**    |    柱子的贴图样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制贴图配置项的显隐。**类型**：贴图的类型，包括**点形**、**线形**和**正方形**。**填充样式**：设置贴图的填充样式。请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，配置贴图的颜色样式。**描边样式**：设置贴图的描边样式。请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，配置贴图的颜色样式。当类型选择为**点形**或**正方形**时显示。**额外样式**：贴图的其他样式，包括贴图的**图形尺寸**、**图形间距**、**线间距**、**旋转角度**和**是否交错**开关。    |
 * **坐标**：组件坐标轴包括**X轴**和**Y轴**两种。  
 
   * **X轴**![X轴面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5353490561/p433416.png)
@@ -55,7 +55,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **显示格式**    |    X轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。    |
+|    **显示格式**    |    X轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。    |
 |    **两端间距**    |    X轴标签距离轴线两端之间的距离，单位%。    |
 |    **标签展示**    |    标签的展示样式，包括：X轴轴标签的期望的刻度数量、标签的前后缀内容、标签的角度值、偏移量和标签展示时候的对齐方式。    |
 |    **文本样式**    |    X轴轴标签文本的字体样式、文字粗细、字号和颜色。    |
@@ -89,7 +89,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **显示格式**    |    Y轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。仅在Y轴**数据类型**选择**数值型**时可配置。    |
+|    **显示格式**    |    Y轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。仅在Y轴**数据类型**选择**数值型**时可配置。    |
 |    **两端间距**    |    Y轴标签距离轴线两端之间的距离，单位%。    |
 |    **标签展示**    |    标签的展示样式，包括：Y轴轴标签的数量、标签的前后缀内容、标签的角度值、偏移量和标签展示时候的对齐方式。    |
 |    **文本样式**    |    Y轴轴标签文本的字体样式、文字粗细、字号和颜色。    |
@@ -148,7 +148,7 @@
 |    **分类图例**    |    分类型图例的样式。只有当组件样式面板中的**图形柱子颜色映射类型**配置为**名词分类**时，图例才展示成分类型图例。**图例标记**：图例标记的形状和尺寸之大小。**图例间距**：不同分类图例之间在横向和纵向的距离。**最大宽度**：设置图例的最大宽度，单位为px。**允许翻页**：打开开关，开启图例翻页功能，可配置图例数量过多需要翻页显示时的页码样式和箭头样式；关闭开关，图例内容全部展示在一页中，无法翻页显示。**页码样式**：翻页页码的样式，包括页码的字体、文字的粗细、字号的大小和颜色。**箭头样式**：翻页样式内箭头的尺寸大小、箭头默认颜色及禁用颜色。    |
 * **条件**：条件样式说明。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7386636761/p561756.png)
 
-**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中数据系列配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
+**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中数据系列配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
 
 **柱子颜色**：打开开关，配置该系列条件样式中的柱子颜色；关闭开关，无法配置该系列条件下的柱子颜色。
 
@@ -170,8 +170,8 @@
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 数据面板（分析模式）
@@ -185,7 +185,7 @@
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7386636761/p561759.png)
 
-BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
+BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
 
 ### **配置字段说明**
 
@@ -207,8 +207,8 @@ BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当数据项选中时**    |    选中**启用**，开启组件交互功能。**百分比条形图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x和y字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
-|    **当图例被点击时**    |    选中**启用**，开启组件交互功能。**百分比条形图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的value和checked字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当数据项选中时**    |    选中**启用**，开启组件交互功能。**百分比条形图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x和y字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当图例被点击时**    |    选中**启用**，开启组件交互功能。**百分比条形图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的value和checked字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
 
 ## 蓝图编辑器交互配置
 

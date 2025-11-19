@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 条件树使用说明 %{#289072}% 
 
 条件树用于指定特定逻辑判断，用于组件进行条件样式修改或者设置筛选器样式。本文介绍如何使用条件树。
 
 ## **条件树结构**
 
-条件树采用两层嵌套的**并且**或者**或者**连接各个条件，以便组合成各种复杂的逻辑判断（使用合取范式或者析取范式可以组合出任意条件），具体使用详情可参见[配置筛选器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#section-ri4-pjm-jad)。![条件树样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0498737261/p261568.png)
+条件树采用两层嵌套的**并且**或者**或者**连接各个条件，以便组合成各种复杂的逻辑判断（使用合取范式或者析取范式可以组合出任意条件），具体使用详情可参见[配置筛选器](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#section-ri4-pjm-jad)。![条件树样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0498737261/p261568.png)
 
 ## 条件树示例说明
 

@@ -4,7 +4,7 @@
 
 ## 前提条件
 
-已准备好待添加的[DataWorks数据服务](https://help.aliyun.com/zh/dataworks/user-guide/getting-started-with-dataservice-studio)。
+已准备好待添加的[DataWorks数据服务](/zh/dataworks/user-guide/getting-started-with-dataservice-studio)。
 
 ## **使用限制**
 
@@ -13,7 +13,7 @@
 ## 背景信息
 
 * DataWorks数据服务生成的API默认不支持HTTPS协议，所以请您在HTTP协议下打开DataV，即单击[登录控制台](https://datav.aliyun.com/v/console/)打开DataV。
-* 如果您需要在HTTPS协议下使用DataWorks数据服务生成的API，请绑定证书到API网关，详细绑定过程请参见[如何使您的API支持HTTPS](https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/support/api-definition-issues#621cb3fdefule)。
+* 如果您需要在HTTPS协议下使用DataWorks数据服务生成的API，请绑定证书到API网关，详细绑定过程请参见[如何使您的API支持HTTPS](/zh/api-gateway/traditional-api-gateway/support/api-definition-issues#621cb3fdefule)。
 * DataWorks数据服务生成的API发布后会对接到API网关，直接使用API网关默认提供的二级域名会有每天限流1000次的限制，您可以在[API网关控制台](http://apigateway.console.aliyun.com)中为分组绑定独立域名来解除限流限制。
 
 ## 添加DataWorks数据服务数据源
@@ -41,14 +41,14 @@
 ## 使用DataWorks数据服务数据源
 
 1. 准备通过**DataWorks数据服务**生成的API数据。  
-登录[DataWorks数据服务控制台](http://ds-cn-shanghai.data.aliyun.com)，参见[生成API概述](https://help.aliyun.com/zh/dataworks/generate-api-overview#concept-rt5-k5h-r2b)，使用数据服务生成API。
+登录[DataWorks数据服务控制台](http://ds-cn-shanghai.data.aliyun.com)，参见[生成API概述](/zh/dataworks/generate-api-overview#concept-rt5-k5h-r2b)，使用数据服务生成API。
 2. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 3. 在**工作台**页面中，将鼠标移动至需要编辑的数据看板上，单击**编辑**。
 
 **重要**  
-如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
+如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
 4. 在画布编辑页面，单击画布中的某一组件。  
-如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
+如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
 5. 在画布右侧的组件配置面板中选择**数据源**。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0024312761/p539649.png)
 6. **数据源类型**选择**DataWorks数据服务**。
@@ -58,8 +58,8 @@
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置和使用常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置和使用常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

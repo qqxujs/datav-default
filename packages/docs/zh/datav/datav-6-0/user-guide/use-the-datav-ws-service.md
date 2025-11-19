@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 如何使用DataV-WS服务 %{#164991}% 
 
 本文您介绍DataV-WS服务的详细功能。
 
@@ -56,7 +56,7 @@ DataV-WS服务整合了静态文件服务和WebSocket服务。静态文件服务
 
     1. 在本地启动DataV-WS服务，详情请参见[启动与停止DataV-WS服务](#title-6zl-uwm-gj0)。
     2. 登录[DataV控制台](https://datav.aliyun.com/)。
-    3. 创建[空白可视化应用](https://help.aliyun.com/zh/datav/use-a-blank-template-to-create-a-project#task-2462286)。
+    3. 创建[空白可视化应用](/zh/datav/use-a-blank-template-to-create-a-project#task-2462286)。
     4. 单击**画布编辑器**页面左上角，单击**蓝图编辑器**图标，切换到**蓝图编辑器配置**页面。![蓝图编辑器界面入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7358788951/p66701.png)
     5. 在**蓝图编辑器配置**页面，将左侧逻辑节点栏内的**WebSocket**节点拖至画布中。
     6. 设置蓝图编辑器内**WebSocket**节点的**socket服务地址**为：`ws://127.0.0.1:8181`。![设置socket服务地址](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7788676261/p280732.png)
@@ -71,8 +71,8 @@ DataV-WS服务整合了静态文件服务和WebSocket服务。静态文件服务
     1. 在本地启动DataV-WS服务，详情请参见[启动与停止DataV-WS服务](#title-6zl-uwm-gj0)。
     2. 将模型放入DataV-WS服务中的`assets`文件夹内。![模型放入目录](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9530776261/p296749.png)
     3. 登录[DataV控制台](https://datav.aliyun.com/)。
-    4. 创建[空白可视化应用](https://help.aliyun.com/zh/datav/use-a-blank-template-to-create-a-project#task-2462286)。
-    5. 参见画布编辑器[添加资产](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-a-widget-1/#task-2375434)，在画布编辑器页面搭建所需要的**DataV 3D引擎**组件，并选择添加**模型加载器**子组件。  
+    4. 创建[空白可视化应用](/zh/datav/use-a-blank-template-to-create-a-project#task-2462286)。
+    5. 参见画布编辑器[添加资产](/zh/datav/datav-6-0/user-guide/add-a-widget-1/#task-2375434)，在画布编辑器页面搭建所需要的**DataV 3D引擎**组件，并选择添加**模型加载器**子组件。  
 
 **说明**  
 
@@ -88,10 +88,10 @@ DataV-WS服务整合了静态文件服务和WebSocket服务。静态文件服务
   1. 在本地启动DataV-WS服务，详情请参见[启动与停止DataV-WS服务](#title-6zl-uwm-gj0)。
   2. 将静态资源（如图片）放入DataV-WS服务中的`assets`文件夹内。![图片资源目录](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9530776261/p296756.png)
   3. 登录[DataV控制台](https://datav.aliyun.com/)。
-  4. 创建[空白可视化应用](https://help.aliyun.com/zh/datav/use-a-blank-template-to-create-a-project#task-2462286)。
-  5. 参见画布编辑器[添加资产](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-a-widget-1/#task-2375434)，在画布编辑器页面搭建所需要的**单张图片**组件。
+  4. 创建[空白可视化应用](/zh/datav/use-a-blank-template-to-create-a-project#task-2462286)。
+  5. 参见画布编辑器[添加资产](/zh/datav/datav-6-0/user-guide/add-a-widget-1/#task-2375434)，在画布编辑器页面搭建所需要的**单张图片**组件。
   6. 设置**单张图片**组件背景图编辑框的文件地址为：`http://IP地址:8181/p2544435894.webp`，即可直接获取服务上的图片内容。![图片地址](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7358788951/p103210.png)
 
 ## 相关文档
 
-其他相关文档链接：[自建WebSocket节点服务说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/process-data-1#section-lun-rky-rx9)。
+其他相关文档链接：[自建WebSocket节点服务说明](/zh/datav/datav-6-0/user-guide/process-data-1#section-lun-rky-rx9)。

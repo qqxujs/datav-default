@@ -6,11 +6,11 @@
 
 **说明** 
 
-如果图层列表中没有**烘托光柱**，说明您还未添加**烘托光柱**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
+如果图层列表中没有**烘托光柱**，说明您还未添加**烘托光柱**图层，请参见[添加子组件](/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7697139861/p693902.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **通用**：通用配置参数说明。
 
 |    **参数**    |    **说明**    |
@@ -26,9 +26,9 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **侧面分段数**    |    拖动滑块，设置烘托光柱侧面分段数值，取值范围3\~100，该值越大，横截面越趋近于圆，性能开销也越大。    |
-|    **侧面颜色**    |    柱子侧面颜色配置样式，详情请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)。    |
+|    **侧面颜色**    |    柱子侧面颜色配置样式，详情请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)。    |
 |    **是否渐变**    |    打开渐变开关，设置围烘托光柱颜色实现渐变色功能；关闭渐变开关，颜色不显示渐变。    |
-|    **侧面贴图**    |    在**贴图样式**区域：鼠标移动到图片位置，单击**删除**可删除当前贴图，然后单击图片区域或者拖动本地图片到区域内即可添加一个新的侧面贴图。鼠标移动到图片位置，单击**更改**可重新上传本地图片。您也可以输入贴图的URL地址，将远程服务器上的图片作为侧面贴图。**说明** 贴图仅支持使用PNG或者JPG格式的图片。**贴图颜色**：设置光柱侧面贴图的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改颜色。**UV平铺值**：调整光柱侧面贴图在x轴和y轴方向的UV平铺值大小。    |
+|    **侧面贴图**    |    在**贴图样式**区域：鼠标移动到图片位置，单击**删除**可删除当前贴图，然后单击图片区域或者拖动本地图片到区域内即可添加一个新的侧面贴图。鼠标移动到图片位置，单击**更改**可重新上传本地图片。您也可以输入贴图的URL地址，将远程服务器上的图片作为侧面贴图。**说明** 贴图仅支持使用PNG或者JPG格式的图片。**贴图颜色**：设置光柱侧面贴图的颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改颜色。**UV平铺值**：调整光柱侧面贴图在x轴和y轴方向的UV平铺值大小。    |
 |    **侧面叠加贴图**    |    在**贴图样式**区域：鼠标移动到图片位置，单击**删除**可删除当前贴图，然后单击图片区域或者拖动本地图片到区域内即可添加一个新的侧面叠加贴图。鼠标移动到图片位置，单击**更改**可重新上传本地图片。您也可以输入贴图的URL地址，将远程服务器上的图片作为侧面叠加贴图。**说明** 贴图仅支持使用PNG或者JPG格式的图片。**UV平铺值**：调整光柱侧面叠加贴图在x轴和y轴方向的UV平铺值大小。    |
 * **动效**：动效配置面板参数说明。
 
@@ -55,7 +55,7 @@
 
 **说明** 
 
-还可将图层数据接口作为区块数据接口，在数据看板中配置更丰富的数据源类型或实现与普通图表组件的数据交互，详情请参见[一键生成区块接口](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-configuration-items-for-datav-7#section-7sz-kpw-0b3)。
+还可将图层数据接口作为区块数据接口，在数据看板中配置更丰富的数据源类型或实现与普通图表组件的数据交互，详情请参见[一键生成区块接口](/zh/datav/datav-7-0/user-guide/layer-configuration-items-for-datav-7#section-7sz-kpw-0b3)。
 
 如果您在创建三维城市构建器项目时，使用了**空间数据项目**模式，并且项目内包含了数据图元图层数据内容。在场景编辑器内配置数据面板时，您还可以使用**空间构建数据源**获取空间地图数据， 具体步骤如下：
 
@@ -64,7 +64,7 @@
 3. 选择完数据项目后，在**数据集**下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
 **说明**  
-如果**数据项目**和**数据集**配置项内没有任何可供配置数据类型的内容，请您单击面板内**前往空间构建平台管理数据**处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-spatial-data-management)。
+如果**数据项目**和**数据集**配置项内没有任何可供配置数据类型的内容，请您单击面板内**前往空间构建平台管理数据**处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/datav-7-0/user-guide/overview-of-spatial-data-management)。
 
 ## 蓝图交互
 

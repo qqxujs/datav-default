@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# valuePath配置规则 %{#157253}% 
 
 当图形用户界面GUI（Graphical User Interface）的渲染结构和数据结构不一致时，您可以通过valuePath字段处理对应的关系，使配置和数据一一对应。
 

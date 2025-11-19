@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 配置项常见问题 %{#413261}% 
 
 本文介绍组件配置项的常见问题及解决方法。
 
@@ -24,7 +24,7 @@
 
 ## 如何配置交互功能？
 
-交互功能目前处于测试阶段。配置交互功能的方法请参见[图表联动](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 
+交互功能目前处于测试阶段。配置交互功能的方法请参见[图表联动](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 
 
 ## 如何通过URL传参控制显示的数据？
 

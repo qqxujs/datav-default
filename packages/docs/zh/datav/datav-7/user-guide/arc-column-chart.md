@@ -6,7 +6,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8594166761/p568986.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **图表**
 
   * **自定义边距**：柱形图区域与组件上下左右四个边界之间的距离，单位默认px，可单击![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标控制自定义边距的显隐。
@@ -147,13 +147,13 @@
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，组件初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[使用数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-filters-in-canvas-on-pcs)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[使用数据过滤器](/zh/datav/datav-7-0/user-guide/use-filters-in-canvas-on-pcs)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8594166761/p569009.png)
 
-选中**启用**，开启组件交互功能。当单击圆弧柱形图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的`x`值，具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。 
+选中**启用**，开启组件交互功能。当单击圆弧柱形图的柱子时，会触发数据请求，抛出回调值，动态加载不同柱子的数据。默认抛出数据中的`x`值，具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。 
 
 ## 蓝图交互
 

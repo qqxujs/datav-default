@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 高德底图层（v3.x版本） %{#313890}% 
 
 本文介绍高德底图层的图表样式和各配置项的含义。
 
@@ -10,7 +10,7 @@
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6252577761/p575306.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **通用**：高德底图层通用配置参数。
 
 |    **参数**    |    **说明**    |
@@ -49,7 +49,7 @@
 
 ## 交互面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6252577761/p575402.png)
 
-选中**启用**，开启组件交互功能。**高德底图层**子组件拥有交互配置，可单击某个室内地图楼层，触发数据请求，抛出回调值，实现在切换楼层时，动态加载不同楼层的数据。默认抛出`indoormapFloor`字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。 
+选中**启用**，开启组件交互功能。**高德底图层**子组件拥有交互配置，可单击某个室内地图楼层，触发数据请求，抛出回调值，实现在切换楼层时，动态加载不同楼层的数据。默认抛出`indoormapFloor`字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。 
 
 **说明** 
 

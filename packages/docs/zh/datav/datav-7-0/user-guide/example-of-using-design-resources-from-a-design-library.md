@@ -22,6 +22,6 @@
 
 **说明**  
 不同资源组件支持的配置项存在差异，具体请以实际界面为准。
-9. 在弹出的**请选择需要更改的资源**对话框中，选择一个需要更改的同类型设计资源即可完成配置项内容的更改。使用设计资源的具体操作详情，请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。  
-您还可以进入产品工作台的**资源管理**模块，在**设计资源**的管理面板，对当前工作空间内的设计资源进行各种管理操作，详情请参见[创建并管理设计资源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/description-of-features-on-the-management-page)。
-10. （可选）您可以在画布中添加素材，按照组件配置的使用方法，来自定义修改，包括可配置素材的位置移动、大小缩放、样式配置、数据源配置和蓝图配置等，详情请参见[配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)。
+9. 在弹出的**请选择需要更改的资源**对话框中，选择一个需要更改的同类型设计资源即可完成配置项内容的更改。使用设计资源的具体操作详情，请参见[使用界面功能说明](/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。  
+您还可以进入产品工作台的**资源管理**模块，在**设计资源**的管理面板，对当前工作空间内的设计资源进行各种管理操作，详情请参见[创建并管理设计资源](/zh/datav/datav-7-0/user-guide/description-of-features-on-the-management-page)。
+10. （可选）您可以在画布中添加素材，按照组件配置的使用方法，来自定义修改，包括可配置素材的位置移动、大小缩放、样式配置、数据源配置和蓝图配置等，详情请参见[配置项说明](/zh/datav/datav-7-0/user-guide/configuration-items)。

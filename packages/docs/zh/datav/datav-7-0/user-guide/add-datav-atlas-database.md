@@ -13,12 +13,12 @@
 
 ## 前提条件
 
-* [开通DataV Atlas服务](https://help.aliyun.com/zh/datav/datav-atlas/getting-started/activate-and-purchase-datav-atlas)。
-* DataV Atlas产品中创建项目、发布数据服务并添加数据服务令牌，请参见[创建及管理项目](https://help.aliyun.com/zh/datav/datav-atlas/user-guide/manage-projects-1)、[数据服务管理](https://help.aliyun.com/zh/datav/datav-atlas/user-guide/data-service-management)、[数据服务令牌管理](https://help.aliyun.com/zh/datav/datav-atlas/user-guide/data-service-token-management)。
+* [开通DataV Atlas服务](/zh/datav/datav-atlas/getting-started/activate-and-purchase-datav-atlas)。
+* DataV Atlas产品中创建项目、发布数据服务并添加数据服务令牌，请参见[创建及管理项目](/zh/datav/datav-atlas/user-guide/manage-projects-1)、[数据服务管理](/zh/datav/datav-atlas/user-guide/data-service-management)、[数据服务令牌管理](/zh/datav/datav-atlas/user-guide/data-service-token-management)。
 
 ## **使用限制**
 
-* **版本限制**：DataV Atlas地理数据服务功能仅支持 DataV-Board 企业版及以上版本使用。更多版本信息，请参见[规格说明](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/datav-editions#DAS)。
+* **版本限制**：DataV Atlas地理数据服务功能仅支持 DataV-Board 企业版及以上版本使用。更多版本信息，请参见[规格说明](/zh/datav/datav-7-0/product-overview/datav-editions#DAS)。
 * **图层限制**：DataV Atlas地理数据服务仅支持在基础平面地图4.0子组件中使用，包括点热力层、轨迹线层、符号聚合层、矢量散点层、帧动画层、图标散点层、信息标签层、等值面层、呼吸气泡层、飞线层、格网聚合层、基础多边形层、基础散点层。
 
 ## 添加DataV Atlas数据服务
@@ -43,8 +43,8 @@
 2. 在**工作台**页面中，将鼠标移动至需要编辑的数据看板上，单击**编辑**。
 
 **说明**  
-如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
-3. 在画布中添加基础平面地图4.0组件并添加矢量散点层子组件。添加组件操作请参见[组件画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
+如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
+3. 在画布中添加基础平面地图4.0组件并添加矢量散点层子组件。添加组件操作请参见[组件画布操作](/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
 4. 单击选中矢量散点层，在画布右侧的组件配置面板中选择**数据源**，配置数据源连接信息。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3769394371/p892283.png)
 
 |    **参数**    |    **说明**    |
@@ -54,6 +54,6 @@
 |    **选择API**    |    下拉选择已授权给服务令牌的数据服务。**重要** 数据服务必须在DataV Atlas中处于在线状态才能被选择。    |
 |    **要素ID字段**    |    配置该项作为地理要素唯一标识，以保证跨瓦片交互选中正常运行。    |
 |    **数据映射**    |    选择要可视化的数据字段，字段列表是在DataV Atlas中发布数据服务时勾选的统计字段。    |
-5. 进入**样式** \> **图形**页，对配置的映射字段开启视觉映射。颜色映射选择的是数值字段，需要选择数值连续或数值分区类型；形状映射选择的是文本字段，需要选择名词分类。数据映射相关配置，请参见[数据视觉映射](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/visual-mapping-of-data-of-datav-6/#DAS)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3769394371/p891302.png)
+5. 进入**样式** \> **图形**页，对配置的映射字段开启视觉映射。颜色映射选择的是数值字段，需要选择数值连续或数值分区类型；形状映射选择的是文本字段，需要选择名词分类。数据映射相关配置，请参见[数据视觉映射](/zh/datav/datav-6-0/user-guide/visual-mapping-of-data-of-datav-6/#DAS)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3769394371/p891302.png)
 
-如果您在使用DataV-Board产品时有任何疑惑或建议，请及时[联系我们](https://help.aliyun.com/zh/datav/datav-7-0/support/contact-us-for-datav-7)。
+如果您在使用DataV-Board产品时有任何疑惑或建议，请及时[联系我们](/zh/datav/datav-7-0/support/contact-us-for-datav-7)。

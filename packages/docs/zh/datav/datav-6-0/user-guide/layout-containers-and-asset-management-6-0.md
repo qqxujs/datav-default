@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 布局容器与资产管理 %{#2923979}% 
 
 布局容器与资产管理作为移动端画布编辑器的核心功能，支持可视化元素的层级化组织和精细化控制。本文详细介绍布局容器与资产的添加、管理及画布编辑操作。
 
 ## 进入画布编辑器
 
-如果页面中没有移动端数据看板，您需要先[创建移动端看板](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
+如果页面中没有移动端数据看板，您需要先[创建移动端看板](/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 在**我的可视化**界面，鼠标悬停至目标移动端看板，单击**编辑**，进入看板画布编辑器页面。
@@ -71,7 +71,7 @@ DataV支持在流式布局画布中对资产进行位置调整和复制等操作
 |    调整资产位置    |    在流式布局画布中，通过拖拽画布中的资产到空格子内，可以调整资产到指定的位置。在流式布局画布中，通过拖拽画布中的资产到已填充资产的格子内，可以交换两个资产的位置。选中流式布局画布中的某个资产，通过资产提示框中的![上移](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148369.png)、![下移](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148370.png)、![左移](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148371.png)、![右移](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148372.png)，在容器内调整资产的位置。![组件上移图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148365.png)    |
 |    复制资产    |    选中一个资产，您可以单击资产提示框中的![复制](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148374.png)，复制当前资产，复制后的资产将添加在当前资产的后方。![复制组件](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0349089951/p148387.png)选中一个资产，您可以通过Ctrl+C复制当前选中资产，如果在空格子内Ctrl+V粘贴，则新资产将添加于空格子内；如果在非空格子Ctrl+V粘贴，则在当前非空格子后添加新格子，存放被复制出来的新资产。    |
 |    删除资产    |    选中一个资产，您可以单击资产提示框中的![删除](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0349089951/p148392.png)，删除当前资产。选中资产，通过单击键盘上的**Delete**键，删除当前资产。    |
-|    更改资产配置、数据和交互    |    选中一个资产，您可以在右侧配置面板中，设置资产的**配置**、**数据**和**交互**面板，详细配置方法请参见[配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)。    |
+|    更改资产配置、数据和交互    |    选中一个资产，您可以在右侧配置面板中，设置资产的**配置**、**数据**和**交互**面板，详细配置方法请参见[配置项说明](/zh/datav/datav-7-0/user-guide/configuration-items)。    |
 
 ## **图层位置移动**
 

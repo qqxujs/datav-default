@@ -21,8 +21,8 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **自定义数据源名称**    |    数据源的显示名称，您可以自由命名。    |
-|    **EndPoint**    |    Open API的服务地址，需要您从云产品的API文档处获取。例如ECS的Open API服务地址为ecs.aliyuncs.com，云监控杭州region的Open API[服务地址](https://help.aliyun.com/zh/cms/developer-reference/request-methods#concept-hzl-jz5-zdb)为metrics.cn-hangzhou.aliyuncs.com。    |
-|    **APIVersion**    |    云产品的API版本，您可以从云产品的API文档获取，如云监控的[API版本](https://help.aliyun.com/zh/cms/developer-reference/request-methods#concept-hzl-jz5-zdb)为2017-03-01。    |
+|    **EndPoint**    |    Open API的服务地址，需要您从云产品的API文档处获取。例如ECS的Open API服务地址为ecs.aliyuncs.com，云监控杭州region的Open API[服务地址](/zh/cms/developer-reference/request-methods#concept-hzl-jz5-zdb)为metrics.cn-hangzhou.aliyuncs.com。    |
+|    **APIVersion**    |    云产品的API版本，您可以从云产品的API文档获取，如云监控的[API版本](/zh/cms/developer-reference/request-methods#concept-hzl-jz5-zdb)为2017-03-01。    |
 |    **AppKey**    |    可以调用Open API的账号的AccessKey ID。    |
 |    **AppSecret**    |    可以调用Open API的账号的AccessKey Secret。    |
 |    **请求风格**    |    支持选择RPC和ROA。    |
@@ -35,9 +35,9 @@
 2. 在**工作台**页面中，将鼠标移动至需要编辑的数据看板上，单击**编辑**。
 
 **重要**  
-如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
+如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
 3. 在画布编辑页面，单击画布中的某一组件。  
-如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
+如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
 4. 在画布右侧的组件配置面板中选择**数据源**。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0024312761/p539649.png)
 5. **数据源类型**选择**Open API**。
@@ -83,7 +83,7 @@
   * 查询参数为Open API的接口参数，以JSON对象的形式填写。
   * 参数名参考云产品API的入参说明。
   * 回调ID在JSON对象的value中填写。  
-以云监控的[DescribeMetricList ](https://help.aliyun.com/zh/cms/cloudmonitor-1-0/api-describemetriclist-new#doc-api-988976) API为例，查询参数如下所示。  
+以云监控的[DescribeMetricList ](/zh/cms/cloudmonitor-1-0/api-describemetriclist-new#doc-api-988976) API为例，查询参数如下所示。  
 ```  
 {  
   "MetricName": "cpu_idle",  
@@ -118,8 +118,8 @@
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置和使用常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置和使用常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

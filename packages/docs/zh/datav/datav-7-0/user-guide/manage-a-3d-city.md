@@ -18,7 +18,7 @@
 
 ## **移动到项目**
 
-三维城市**移动到项目**功能可以参考数据看板的**移动到项目**功能，具体操作请参见[项目分组管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-project-groups#af708e705ful5)。
+三维城市**移动到项目**功能可以参考数据看板的**移动到项目**功能，具体操作请参见[项目分组管理](/zh/datav/datav-7-0/user-guide/manage-project-groups#af708e705ful5)。
 
 ## **重命名三维城市**
 
@@ -42,7 +42,7 @@
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 在**工作台**页面，鼠标移动到某个三维城市上，单击**编辑**。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0912919661/p515453.png)
-3. 三维城市编辑操作请参见[场景编辑器概览](https://help.aliyun.com/zh/datav/datav-7/user-guide/overview-of-scene-editor)。
+3. 三维城市编辑操作请参见[场景编辑器概览](/zh/datav/datav-7/user-guide/overview-of-scene-editor)。
 
 ## **查看三维城市版本历史**
 
@@ -61,7 +61,7 @@
 |    **操作**    |    针对不同状态下的历史版本的项目，可对项目进行**上线**或**下线**的操作。**上线**：单击一个**未上线**状态下项目版本右侧的**上线**，在弹出的**上线版本**对话框中，单击**确定**即可上线该版本项目内容。![上线区块版本](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3664344261/p282363.jpg)**下线**：单击一个**已上线**状态下项目版本右侧的**下线**，在弹出的**下线版本**对话框中，单击**确定**即可下线该版本项目内容。![下架版本](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3664344261/p259310.jpg)    |
 
 **说明**  
-默认情况下，一个项目被发布后都处于**已上线**状态。项目上线后可以在数据看板画布编辑器中，单击**更新版本**，将项目升级到最新版本后继续使用。具体使用项目的方法请参见[场景编辑器概览](https://help.aliyun.com/zh/datav/datav-7/user-guide/overview-of-scene-editor)。
+默认情况下，一个项目被发布后都处于**已上线**状态。项目上线后可以在数据看板画布编辑器中，单击**更新版本**，将项目升级到最新版本后继续使用。具体使用项目的方法请参见[场景编辑器概览](/zh/datav/datav-7/user-guide/overview-of-scene-editor)。
 4. 单击历史版本面板右上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0912919661/p515506.png)图标，即可关闭历史版本面板。
 
 ## **三维城市其他操作**

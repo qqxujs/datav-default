@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 实现跨屏联动 %{#151313}% 
 
 本文档以数字大屏1上的**Tab列表**组件控制数字大屏2上的**通用标题**组件为例，实现跨屏联动功能。
 
@@ -25,7 +25,7 @@ return [{"value":data.content}];
 
 **说明**  
 
-**socket服务地址**请参见[如何使用DataV-WS服务](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-datav-ws-service)获取。
+**socket服务地址**请参见[如何使用DataV-WS服务](/zh/datav/datav-6-0/user-guide/use-the-datav-ws-service)获取。
 9. 重新选择一个可视化应用，重命名为副屏幕，单击编辑，进入画布编辑器页面。
 10. 添加**通用标题**组件并导出到蓝图。
 11. 添加WebSocket组件到蓝图画布中，连接组件。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3148950861/p619201.png)

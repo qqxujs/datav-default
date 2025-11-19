@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# Echarts 桑基图 %{#450009}% 
 
 本文介绍Echarts 桑基图的图表样式和配置面板的功能。
 
@@ -8,7 +8,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8627847761/p573780.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -36,14 +36,14 @@
     * ****位置**：设置标签相当对于桑基图的位置，包括但不限于****top**、****left**和****inside**。
     * ****定位距离**：设置标签相对于桑基图上边框线的距离。
     * ****旋转**：标签旋转的角度，在类目轴的类目标签显示不下的时候可以通过旋转防止标签之间重叠。旋转的角度从 -90 度到 90 度。
-    * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标签文本的颜色。
+    * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标签文本的颜色。
     * ****字体样式**：标签文本的字体风格。
     * ****字体粗细**：标签文本的字体粗细。
     * ****字体**：标签文本的字体系列。
     * ****字号**：标签文本的字体大小。
   * ****元素样式**
 
-    * ****边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改元素边框的颜色。
+    * ****边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改元素边框的颜色。
     * ****边框粗细**：单击****+**或****\-**号，或手动输入数值，调整元素边框粗细。
     * ****透明度**：单击****+**或****\-**号，或手动输入数值，修改指示交叉的透明度，范围为 \[0,1\]。
   * ****线样式**
@@ -58,7 +58,7 @@
     * ****背景色**：提示框文本标签的背景颜色。
     * ****文本样式**
 
-      * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框标签文本的颜色。
+      * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框标签文本的颜色。
       * ****字体样式**：提示框文本的字体风格。
       * ****字体粗细**：提示框标签文本的字体粗细。
       * ****字体**：提示框标签文本的字体系列。
@@ -84,8 +84,8 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板
@@ -96,9 +96,9 @@ __表 1\. 配置项说明__
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    ****当点击数据项时**    |    选中****启用**，开启组件交互功能。****桑基图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x和y字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
-|    ****当点击节点时**    |    选中****启用**，开启组件交互功能。****桑基图**组件拥有交互配置，当单击某个节点时抛出回调值，默认抛出数据中的name字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
-|    ****当点击连线时**    |    选中****启用**，开启组件交互功能。****桑基图**组件拥有交互配置，当单击某个节点时抛出回调值，默认抛出数据中的source字段和target字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    ****当点击数据项时**    |    选中****启用**，开启组件交互功能。****桑基图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x和y字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    ****当点击节点时**    |    选中****启用**，开启组件交互功能。****桑基图**组件拥有交互配置，当单击某个节点时抛出回调值，默认抛出数据中的name字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    ****当点击连线时**    |    选中****启用**，开启组件交互功能。****桑基图**组件拥有交互配置，当单击某个节点时抛出回调值，默认抛出数据中的source字段和target字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
 
 ## 蓝图编辑器交互配置
 

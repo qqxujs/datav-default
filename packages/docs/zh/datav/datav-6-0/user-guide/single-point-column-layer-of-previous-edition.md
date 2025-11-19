@@ -1,15 +1,15 @@
-<!DOCTYPE html> 
+# 单点柱状层 %{#214202}% 
 
 单点柱状层是三维城市构建器的图层，可表达三维空间的点数据的柱状样式。单点柱状层支持独立的样式和数据配置，包括单点柱状层的顶底部半径、边数和最大最小值颜色等。本文介绍单点柱状层配置项的含义。
 
 在场景编辑器左侧图层列表中，单击单点柱状层图层，进入配置面板配置单点柱状层图层的样式和数据。 
 
-**说明** 如果图层列表中没有单点柱状层，说明您还未添加单点柱状层图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
+**说明** 如果图层列表中没有单点柱状层，说明您还未添加单点柱状层图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
 
 ## 配置
 
 ![单点柱状层配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6716197461/p420349.png)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * 通用：通用配置参数说明。
 
 |    参数    |    说明    |
@@ -27,13 +27,13 @@
 |    柱体边数    |    拖动滑块，设置单点柱状层柱子的边数值，取值范围3\~30。    |
 |    顶部半径    |    拖动滑块，设置单点柱状层柱子顶部的半径值大小，取值范围0\~50000。    |
 |    底部半径    |    拖动滑块，设置单点柱状层柱子底部的半径值大小，取值范围0\~50000。    |
-|    柱体颜色    |    柱子的颜色配置样式，详情请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)。    |
+|    柱体颜色    |    柱子的颜色配置样式，详情请参见[颜色映射器使用说明](/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)。    |
 * 动效：动效配置面板参数说明。
 
 |    参数    |    说明    |
 |    ----    |    ----    |
 |    动画开关    |    打开开关，柱体侧面开启发光带自下而上循环运动的动画；关闭开关，不启用光圈动画效果。    |
-|    动画参数    |    当打开动画开关后可配置动画多个参数。发光带长度比：拖动滑块，设置动画的发光带长度比的值，取值范围0\~1。动画速度：拖动滑块，设置动画的速度，取值范围0\~0.2。发光带亮度：拖动滑块，设置动画的发光带亮度的值，取值范围0\~1。发光带颜色：发光带的颜色配置样式，详情请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)。    |
+|    动画参数    |    当打开动画开关后可配置动画多个参数。发光带长度比：拖动滑块，设置动画的发光带长度比的值，取值范围0\~1。动画速度：拖动滑块，设置动画的速度，取值范围0\~0.2。发光带亮度：拖动滑块，设置动画的发光带亮度的值，取值范围0\~1。发光带颜色：发光带的颜色配置样式，详情请参见[颜色映射器使用说明](/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)。    |
 
 ## 数据
 
@@ -51,7 +51,7 @@ __表 1\. 字段说明__
 2. 在面板下方的数据项目下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
 3. 选择完数据项目后，在数据集下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
-**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
+**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
 ![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)
 
 __表 2\. 配置项说明__
@@ -59,7 +59,7 @@ __表 2\. 配置项说明__
 |    ----    |    ----    |
 |    受控模式    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    自动更新请求    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
 |    数据结果    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 蓝图编辑器交互配置

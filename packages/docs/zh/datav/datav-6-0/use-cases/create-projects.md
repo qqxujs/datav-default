@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 创建可视化应用 %{#87666}% 
 
 本文档为您介绍创建DataV可视化应用的方法。
 
 ## 背景信息
 
-示例中使用的数据源是本地API文件，因此您不需要在DataV中添加数据源，直接在可视化项目的组件中调用API即可。如果您使用的是其他数据源，在创建可视化应用之前，需要先[添加数据源](https://help.aliyun.com/zh/datav/data-sources-overview#concept-ldr-4gp-p2b)。
+示例中使用的数据源是本地API文件，因此您不需要在DataV中添加数据源，直接在可视化项目的组件中调用API即可。如果您使用的是其他数据源，在创建可视化应用之前，需要先[添加数据源](/zh/datav/data-sources-overview#concept-ldr-4gp-p2b)。
 
 ## 操作步骤
 

@@ -1,15 +1,15 @@
-<!DOCTYPE html> 
+# 动态轨迹层 %{#194331}% 
 
 动态轨迹层是三维城市构建器的数据映射图层，以一系列三维空间点之间的顺序连线形式表示人或物体移动的轨迹。动态轨迹层图层支持独立的样式和数据配置，包括动态轨迹层是否动效、显示头部、叠加模式、飞线速度、飞线长宽和颜色等参数。本文介绍动态轨迹层配置项的含义。
 
 在场景编辑器左侧图层列表中，单击动态轨迹层图层，进入配置面板配置动态轨迹层图层的样式和数据。 
 
-**说明** 如果图层列表中没有动态轨迹层，说明您还未添加动态轨迹层图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
+**说明** 如果图层列表中没有动态轨迹层，说明您还未添加动态轨迹层图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
 
 ## 配置
 
 ![动态轨迹配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9616197461/p420221.png)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * 动态轨迹层配置面板中的参数说明。
   * 通用
 
@@ -25,7 +25,7 @@
 |    飞线长度    |    飞线占整个轨迹线的长度比例，取值范围为0.01\~1 。    |
 |    飞线宽度    |    设置动态轨迹飞线的宽度值，取值范围为0.1\~100。    |
 |    显示头部    |    打开开关后，动态轨迹飞线运行时显示头部样式；关闭开关后，动态轨迹飞线运行时候头部样式不显示。    |
-|    颜色    |    设置动态轨迹飞线的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
+|    颜色    |    设置动态轨迹飞线的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
   * 动效：设置动态轨迹层的动效效果。
 
 |    参数    |    说明    |
@@ -48,7 +48,7 @@ __表 1\. 字段说明__
 2. 在面板下方的数据项目下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
 3. 选择完数据项目后，在数据集下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
-**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
+**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
 ![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)
 
 __表 2\. 配置项说明__
@@ -56,7 +56,7 @@ __表 2\. 配置项说明__
 |    ----    |    ----    |
 |    受控模式    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    自动更新请求    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
 |    数据结果    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 蓝图编辑器交互配置

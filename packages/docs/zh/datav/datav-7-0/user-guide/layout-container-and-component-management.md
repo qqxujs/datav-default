@@ -4,7 +4,7 @@
 
 ## **前提条件**
 
-已[创建移动端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
+已[创建移动端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
 
 ## 进入画布编辑器
 
@@ -76,7 +76,7 @@ DataV支持在流式布局画布中对组件进行位置调整和复制等操作
 |    调整组件位置    |    在流式布局画布中，通过拖拽画布中的组件到空格子内，可以调整组件到指定的位置。在流式布局画布中，通过拖拽画布中的组件到已填充组件的格子内，可以交换两个组件的位置。选中流式布局画布中的某个组件，通过组件提示框中的![上移](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148369.png)、![下移](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148370.png)、![左移](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148371.png)、![右移](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148372.png)，在容器内调整组件的位置。![组件上移图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148365.png)    |
 |    复制组件    |    选中一个组件，您可以单击组件提示框中的![复制](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9249089951/p148374.png)，复制当前组件，复制后的组件将添加在当前组件的后方。![复制组件](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0349089951/p148387.png)选中一个组件，您可以通过**Ctrl+C**复制当前选中组件，如果在空格子内**Ctrl+V**粘贴，则新组件将添加于空格子内；如果在非空格子**Ctrl+V**粘贴，则在当前非空格子后添加新格子，存放被复制出来的新组件。    |
 |    删除组件    |    选中一个组件，您可以单击组件提示框中的![删除](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0349089951/p148392.png)，删除当前组件。选中组件，通过单击键盘上的**Delete**键，删除当前组件。    |
-|    更改组件配置、数据和交互    |    选中一个组件，您可以在右侧配置面板中，设置组件的**配置**、**数据**和**交互**面板，详细配置方法请参见[配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)。    |
+|    更改组件配置、数据和交互    |    选中一个组件，您可以在右侧配置面板中，设置组件的**配置**、**数据**和**交互**面板，详细配置方法请参见[配置项说明](/zh/datav/datav-7-0/user-guide/configuration-items)。    |
 
 ## **图层位置移动**
 

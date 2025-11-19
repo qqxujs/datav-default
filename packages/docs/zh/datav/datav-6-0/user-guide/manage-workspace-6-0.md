@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 工作空间管理 %{#143653}% 
 
 工作空间是DataV-Board 6.0（数据看板）进行项目管理、成员管理、数据源管理、配额管理的基本单元，所有项目开发工作都将在具体的工作空间内完成。本文为您介绍如何创建工作空间、调整空间配额、添加成员并授权，以及管理工作空间。
 
@@ -24,8 +24,8 @@
 
 ## **前提条件**
 
-* 已[开通DataV-Board服务](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/activate-datav)。
-* （可选）[创建RAM用户](https://help.aliyun.com/zh/ram/user-guide/create-a-ram-user)。若工作空间需要添加成员进行协同开发，请先创建相应RAM用户。
+* 已[开通DataV-Board服务](/zh/datav/datav-6-0/getting-started/activate-datav)。
+* （可选）[创建RAM用户](/zh/ram/user-guide/create-a-ram-user)。若工作空间需要添加成员进行协同开发，请先创建相应RAM用户。
 
 ## **进入工作空间管理**
 
@@ -38,7 +38,7 @@
 2. 在**新建空间**对话框中输入空间名称，单击**确定**，进入空间详情页。
 3. 在空间详情页，可按需配置工作空间的基本信息及成员信息。  
 ### **配置基本信息**  
-可查看当前工作空间的识别码，并配置相关配额。工作空间的识别码是空间的唯一标识，后续可通过识别码进行[拷屏](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/group-function-and-move-function/#53024cbcfcbey)操作。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9953391471/p927540.png)  
+可查看当前工作空间的识别码，并配置相关配额。工作空间的识别码是空间的唯一标识，后续可通过识别码进行[拷屏](/zh/datav/datav-6-0/user-guide/group-function-and-move-function/#53024cbcfcbey)操作。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9953391471/p927540.png)  
 工作空间涉及的配额如下。
 
 |    **参数**    |    **描述**    |    **配置原则**    |    **版本最大配额（即所有工作空间的配额总数上限）**    |
@@ -50,7 +50,7 @@
 您可将目标RAM用户添加为某工作空间的成员，并授予相应权限，以便使用此账号在该工作空间中进行协同开发。添加成员以工作空间为管控粒度，通过授予用户不同角色，实现对工作空间内各功能点的权限控制。
 
 **说明**  
-添加成员前，请先[创建RAM用户](https://help.aliyun.com/zh/ram/user-guide/create-a-ram-user)。
+添加成员前，请先[创建RAM用户](/zh/ram/user-guide/create-a-ram-user)。
 
   * **角色权限说明**：某成员加入工作空间后，即拥有该工作空间的相关操作权限，且不同角色拥有的权限存在差异。DataV-Board 支持的角色如下：
 
@@ -111,4 +111,4 @@
 
 ## **后续步骤**
 
-工作空间创建完成后，您可根据业务需要接入所需[数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-data-sources/)，并[通过模板搭建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/template-to-build-a-visual-application)。更多开发参考，请参见[功能概览](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/getting-started)、[空白画布搭建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/build-a-visual-application-on-a-blank-canvas)。
+工作空间创建完成后，您可根据业务需要接入所需[数据源](/zh/datav/datav-6-0/user-guide/add-data-sources/)，并[通过模板搭建可视化应用](/zh/datav/datav-6-0/getting-started/template-to-build-a-visual-application)。更多开发参考，请参见[功能概览](/zh/datav/datav-6-0/getting-started/getting-started)、[空白画布搭建可视化应用](/zh/datav/datav-6-0/getting-started/build-a-visual-application-on-a-blank-canvas)。

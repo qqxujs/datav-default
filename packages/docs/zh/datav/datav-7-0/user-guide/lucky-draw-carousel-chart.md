@@ -8,7 +8,7 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6166322961/p706812.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -21,9 +21,9 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **奖品**    |    奖品的样式。**布局方式**：奖品的布局方式，可选**水平**和**垂直**。**运动方向**：轮播抽奖时奖品的运动方向，可选**左**或**右**。**显示数量**：自定义设置轮播抽奖时奖品的显示数量，默认值为7。**奖品尺寸**：设置奖品展示时的宽度和高度值，单位px。**奖品内容**：设置展示奖品内容的样式，单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个奖品。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个奖品的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中奖品配置内容并新增一个同样配置的奖品。**标识**：设置奖品的标识数值。**名字**：自定义输入奖品的名称。**图片**：自定义设置奖品内容的图片。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。**说明** 当**数据源**面板中的data字段中配置了数据，则优先展示**数据源**面板中的内容。    |
+|    **奖品**    |    奖品的样式。**布局方式**：奖品的布局方式，可选**水平**和**垂直**。**运动方向**：轮播抽奖时奖品的运动方向，可选**左**或**右**。**显示数量**：自定义设置轮播抽奖时奖品的显示数量，默认值为7。**奖品尺寸**：设置奖品展示时的宽度和高度值，单位px。**奖品内容**：设置展示奖品内容的样式，单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个奖品。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个奖品的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中奖品配置内容并新增一个同样配置的奖品。**标识**：设置奖品的标识数值。**名字**：自定义输入奖品的名称。**图片**：自定义设置奖品内容的图片。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。**说明** 当**数据源**面板中的data字段中配置了数据，则优先展示**数据源**面板中的内容。    |
 |    **抽中区域**    |    设置抽中区域的样式。**模式**：选择抽中区域的模式，可选**调试模式**和**正常模式**。**位置**：选择抽中区域的位置，可选**头部**、**中间**和**尾部**，仅在**自定义位置**关闭开关时可配置。**自定义位置**：您可以自定义设置抽中区域的水平位置，单位px。单击![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标控制自定义位置的显隐。 **尺寸**：抽中区域的尺寸大小，包括宽度和高度值，单位px。**圆角**：设置抽中区域的圆角值，单位px。**填充色**：自定义设置抽中区域的填充色。**边框**：设置抽中区域的边框样式，包括边框线的线类型、线的粗细和线的颜色。    |
-|    **未抽中**    |    设置未抽中奖品时的样式。**标识**：设置未抽中奖品时的标识数值。**名字**：自定义设置未抽中时的展示名称。**图片**：自定义设置未抽中奖品时的图片。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。**说明** 未抽中奖品时，数据抛出值配置。    |
+|    **未抽中**    |    设置未抽中奖品时的样式。**标识**：设置未抽中奖品时的标识数值。**名字**：自定义设置未抽中时的展示名称。**图片**：自定义设置未抽中奖品时的图片。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。**说明** 未抽中奖品时，数据抛出值配置。    |
 * **动画**：设置抽奖轮播图的动画样式。
 
 |    **参数**    |    **说明**    |
@@ -50,7 +50,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -58,7 +58,7 @@
 
 ## 高级面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6166322961/p706815.png)
 
-打开开关，开启组件交互功能。当抽奖时，会触发数据请求，抛出临时变量，动态加载抽奖轮播图中的数据。默认抛出数据中的`id`、`title`和`url`值，具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+打开开关，开启组件交互功能。当抽奖时，会触发数据请求，抛出临时变量，动态加载抽奖轮播图中的数据。默认抛出数据中的`id`、`title`和`url`值，具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
 
 ## 蓝图交互
 

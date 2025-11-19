@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 图标 %{#195668}% 
 
 本文介绍图标组件的图表样式和各配置项的含义。
 
@@ -9,7 +9,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1056081861/p633207.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -27,18 +27,18 @@
 |    **自定义**    |    您可以在下方**图标类型**右侧输入框内输入图标对应的Unicode字体文件，即可在DataV中使用该自定义图标；也可参见上方**通用**类型的配置方法，选择下拉列表内的某个已有的图标资源。**说明** 您可在[www.iconfont.cn](https://www.iconfont.cn/)中自定义制作图标，并将制作的图标项目生成的Unicode字体文件输入到**图表类型**右侧自定义输入框内，即可在DataV中使用该自定义图标。    |
 * **图标样式**：图标的样式。  
 
-|    **颜色**    |    图标的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **颜色**    |    图标的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    ----    |    ----    |
 |    **边距**    |    图标与组件四边的距离百分比值，单位为%，取值范围为-100\~100。数值设置越小，图标显示越大，数值小到一定数值后图标会超出组件外框大小；数值大到一定值，图标会小到消失看不见。    |
 * **背景样式**：图标的背景样式 ，单击![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标控制背景的显隐。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **背景色**    |    图标的背景颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **背景色**    |    图标的背景颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    **背景圆角**    |    图标背景框的圆角大小，单位为px。数值为0的时候没有圆角，背景框为方形，设置值越大，背景框圆角弧度值越大。    |
 |    **边框粗细**    |    背景边框的粗细。    |
 |    **边框类型**    |    背景边框的类型，可选**实线**、**虚线**和**点线**。    |
-|    **边框颜色**    |    背景边框的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **边框颜色**    |    背景边框的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 * **旋转动画**：打开开关，图标开启绕中心点顺时针旋转的动画样式；关闭开关，图标无法旋转。
 
 ## 数据面板
@@ -49,9 +49,9 @@
 
 |    **交互事件**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击时**    |    选中**启用**，开启组件交互功能。当单击图标时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
-|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。当鼠标移入到图标位置时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
-|    **当鼠标移出时**    |    选中**启用**，开启组件交互功能。当鼠标从图标位置移出时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
+|    **当点击时**    |    选中**启用**，开启组件交互功能。当单击图标时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
+|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。当鼠标移入到图标位置时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
+|    **当鼠标移出时**    |    选中**启用**，开启组件交互功能。当鼠标从图标位置移出时，会触发数据请求，抛出回调值，动态加载当前图标的数据。默认抛出数据中的url和type值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
 
 ## 蓝图编辑器交互配置
 

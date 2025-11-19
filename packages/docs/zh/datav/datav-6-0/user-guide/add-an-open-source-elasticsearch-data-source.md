@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加开源Elastic Search数据源 %{#278720}% 
 
 通过开源Elastic Search和DataV结合使用，可以实现数据分析和搜索结果的大屏展示。本文介绍在DataV中添加并使用开源Elastic Search数据源的方法。
 
@@ -30,7 +30,7 @@
 1. 登录[DataV控制台](https://datav.aliyun.com/)。
 2. 在我的可视化页面中，将鼠标移动至需要编辑的可视化应用上，单击编辑。
 3. 在画布编辑页面，单击画布中的某一组件。  
-如果画布中还没有组件，请先添加组件，详情请参见[添加组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-a-widget-1/#task-2375434 "本文介绍在画布编辑器中添加组件的方法。通过添加组件功能，您可以在DataV可视化应用项目中添加可视化组件，配置所需要的应用样式。")。
+如果画布中还没有组件，请先添加组件，详情请参见[添加组件](/zh/datav/datav-6-0/user-guide/add-a-widget-1/#task-2375434 "本文介绍在画布编辑器中添加组件的方法。通过添加组件功能，您可以在DataV可视化应用项目中添加可视化组件，配置所需要的应用样式。")。
 4. 在画布右侧的组件配置面板中选择数据，并单击配置数据源。  
 ![配置数据源](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6028370261/p65745.png)
 5. 在设置数据源页面中，选择数据源类型为开源Elastic Search。

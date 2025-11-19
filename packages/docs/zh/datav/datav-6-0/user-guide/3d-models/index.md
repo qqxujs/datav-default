@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 三维模型 %{#432510}% 
 
 * [模型加载器](/zh/datav/datav-6-0/user-guide/model-loader-of-professional-edition)
 * [多点位模型](/zh/datav/datav-6-0/user-guide/multi-point-models)

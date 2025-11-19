@@ -8,7 +8,7 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0095772961/p709694.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -47,7 +47,7 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
   * **元素间距**：单击**+**或**\-**号，或手动输入数值，调整图例每项之间的距离。横向布局时为水平间隔，纵向布局时为纵向间隔。
   * **文本样式**
 
-    * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改图例文本的颜色。
+    * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改图例文本的颜色。
     * **字体样式**：图例文本的字体风格。
     * **字体粗细**：图例文本的字体粗细。
     * **字体**：图例文本的字体系列。
@@ -69,7 +69,7 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
   * **名称位置**：x轴名称的位置，可选，包括**起点**、**终点**或**居中**，默认值为 **终点**。
   * **名称样式**
 
-    * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改x轴名称文本的颜色。
+    * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改x轴名称文本的颜色。
     * **字体样式**：x轴名称的字体风格。
     * **字体粗细**：x轴名称的字体粗细。
     * **字体**：x轴名称的字体系列。
@@ -89,7 +89,7 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
     * **在零上**：x 轴或者 y 轴的轴线是否在另一个轴的 0 刻度上，只有在另一个轴为数值轴且包含 0 刻度时有效。
     * **线样式**
 
-      * **颜色**：单击下拉框，选择轴线颜色的填充样式，包括**颜色填充**和**渐变填充**。参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改x轴轴线的颜色。
+      * **颜色**：单击下拉框，选择轴线颜色的填充样式，包括**颜色填充**和**渐变填充**。参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改x轴轴线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改x轴轴线的宽度。
       * **类型**：坐标轴轴线的类型。可选，包括**实线**、**虚线**和**点线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改x轴轴线的透明度。范围为 \[0,1\]。
@@ -99,7 +99,7 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
     * **长度**：单击**+**或**\-**号，或手动输入数值，修改坐标轴刻度的长度。
     * **线样式**
 
-      * **颜色**：单击下拉框，选择刻度线颜色的填充样式，包括**颜色填充**和**渐变填充**。参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改刻度线的颜色。
+      * **颜色**：单击下拉框，选择刻度线颜色的填充样式，包括**颜色填充**和**渐变填充**。参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改刻度线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改刻度线的宽度。
       * **类型**：坐标轴轴线的类型。可选，包括**实线**、**虚线**和**点线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改刻度线的透明度。范围为 \[0,1\]。
@@ -111,7 +111,7 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
     * **格式器**：刻度标签的格式。包括**整数**、**1位小数**和**2位小数**。默认为**整数**。
     * **显示最小标签**：勾选后，显示最小的刻度标签。默认自动判定，即如果标签重叠，不会显示最小的刻度标签。
     * **显示最大标签**：勾选后，显示最大的刻度标签。默认自动判定，即如果标签重叠，不会显示最大的刻度标签。
-    * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改坐标轴刻度标签的颜色。
+    * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改坐标轴刻度标签的颜色。
     * **字体样式**：坐标轴刻度标签文字的字体风格。
     * **字体粗细**：坐标轴刻度标签文字的字体粗细。
     * **字体**：坐标轴刻度标签文字的字体系列。
@@ -120,7 +120,7 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
 
     * **线样式**
 
-      * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改x轴分割线的颜色。
+      * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改x轴分割线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改x轴分割线的线宽。
       * **类型**：x轴分割线的类型。可选，包括**实线**、**虚线**和**点线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改x轴分割线的透明度，范围为 \[0,1\]。
@@ -138,24 +138,24 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
     * **自动吸附**：勾选后，坐标轴指示器自动吸附到点上。这个功能在数值轴和时间轴上比较有意义，可以自动寻找细小的数值点。
     * **指示线样式**
 
-      * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改指示线的颜色。
+      * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改指示线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改指示线的线宽。
       * **类型**：指示线的类型。可选，包括**实线**、**虚线**和**点线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改指示线的透明度，范围为 \[0,1\]。
     * **指示阴影样式**
 
-      * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改指示阴影的颜色。
+      * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改指示阴影的颜色。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改指示阴影的透明度，范围为 \[0,1\]。
     * **指示交叉样式**
 
-      * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改指示交叉的颜色。
+      * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改指示交叉的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改指示交叉的线宽。
       * **类型**：指示交叉的类型。可选，包括**实线**、**虚线**和**点线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改指示交叉的透明度，范围为 \[0,1\]。
     * **背景色**：提示框文本标签的背景颜色。
     * **文本样式**
 
-      * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改提示框标签文本的颜色。
+      * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改提示框标签文本的颜色。
       * **字体样式**：提示框文本的字体风格。
       * **字体粗细**：提示框标签文本的字体粗细。
       * **字体**：提示框标签文本的字体系列。
@@ -169,14 +169,14 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
     * **位置**：设置标签相当于条形图的位置，包括但不限于**top**、**left**和**inside**。
     * **定位距离**：设置标签相当于条形图上边框线的距离。
     * **旋转**：标签旋转的角度，在类目轴的类目标签显示不下的时候可以通过旋转防止标签之间重叠。旋转的角度从 -90 度到 90 度。
-    * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改标签文本的颜色。
+    * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改标签文本的颜色。
     * **字体样式**：标签文本的字体风格。
     * **字体粗细**：标签文本的字体粗细。
     * **字体**：标签文本的字体系列。
     * **字号**：标签文本的字体大小。
   * **元素样式**
 
-    * **颜色**：参考[颜色选择器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改元素样式的颜色。
+    * **颜色**：参考[颜色选择器](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，修改元素样式的颜色。
     * **柱状图圆角**：单击**+**或**\-**号，或手动输入数值，修改柱状图的圆角。
     * **透明度**：单击**+**或**\-**号，或手动输入数值，修改指示交叉的透明度，范围为 \[0,1\]。
   * **堆叠图**：数据堆叠，同个类目轴上相同的 **stack** 值可以堆叠放置。例如：总量。
@@ -197,7 +197,7 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -207,8 +207,8 @@ Echarts 正负条形图是条形图的一种，支持自定义x轴、多系列�
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击数据项时**    |    打开开关，开启组件交互功能。当单击选中某个数据项时抛出回调值，默认抛出数据中的x、y和s字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
-|    **当图例点击时**    |    打开开关，开启组件交互功能。当单击某个图例时抛出回调值，默认抛出数据中的selected字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当点击数据项时**    |    打开开关，开启组件交互功能。当单击选中某个数据项时抛出回调值，默认抛出数据中的x、y和s字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当图例点击时**    |    打开开关，开启组件交互功能。当单击某个图例时抛出回调值，默认抛出数据中的selected字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
 
 ## 蓝图交互
 

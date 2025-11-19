@@ -8,7 +8,7 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0231511071/p742452.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -26,9 +26,9 @@
 |    **漏斗形状**    |    漏斗的形状样式，可选**漏斗**和**金字塔**样式。**说明** 仅在开启**数据分组**配置项并选择**多组数据**时可配置。当**数据分组**选择**两组对比**时，**漏斗形状**默认为**漏斗**。    |
 |    **漏斗宽度**    |    漏斗的宽度大小，取值范围0\~1。    |
 |    **漏斗方向**    |    漏斗的方向，可选**垂直**和**水平**两种方向。    |
-|    **颜色**    |    漏斗图的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置漏斗图组件中不同数据的映射颜色样式。    |
+|    **颜色**    |    漏斗图的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置漏斗图组件中不同数据的映射颜色样式。    |
 |    **描边**    |    漏斗图描边线的样式，包括描边线的类型、线粗细值和线的颜色。    |
-|    **漏斗标注**    |    漏斗图梯形区域数据的标注样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制数据点标注配置项的显隐。**标注字段**：标注的内容需要和数据面板中字段的内容对应，可选type、value和type+value。默认获取value字段内容。**value**：当**标注字段**选择value时，可自定义配置标注字段为value字段内容的前缀和后缀内容和**value格式**样式，可选择设置**value格式**样式为具体数值或数值的占比样式。**type**：当**标注字段**选择type时，可自定义配置标注字段为type字段内容的前缀和后缀。**type+value**：当**标注字段**选择type+value时，可自定义配置标注字段为type+value两个字段内容的前缀和后缀、可选择设置**value格式**样式为具体数值或占比样式以及数值或占比对应的格式样式。**说明** 当展示两个标签值时，可以打开**是否折行**配置项，可将标注折行展示。**value格式**：设置标注字段的格式，包括**数值**和**占比**。**数值格式**：设置标注的数值格式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)，仅在标注字段选择value或type+value时显示。**相对偏移**：漏斗标注相对梯形块区域在垂直和水平方向的偏移量，单位为px。**文本样式**：漏斗标注的文本样式，包括文本的字体样式、文字粗细、字号和颜色。**文本描边**：漏斗标注的文本描边样式，包括描边线的粗细值和颜色。    |
+|    **漏斗标注**    |    漏斗图梯形区域数据的标注样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制数据点标注配置项的显隐。**标注字段**：标注的内容需要和数据面板中字段的内容对应，可选type、value和type+value。默认获取value字段内容。**value**：当**标注字段**选择value时，可自定义配置标注字段为value字段内容的前缀和后缀内容和**value格式**样式，可选择设置**value格式**样式为具体数值或数值的占比样式。**type**：当**标注字段**选择type时，可自定义配置标注字段为type字段内容的前缀和后缀。**type+value**：当**标注字段**选择type+value时，可自定义配置标注字段为type+value两个字段内容的前缀和后缀、可选择设置**value格式**样式为具体数值或占比样式以及数值或占比对应的格式样式。**说明** 当展示两个标签值时，可以打开**是否折行**配置项，可将标注折行展示。**value格式**：设置标注字段的格式，包括**数值**和**占比**。**数值格式**：设置标注的数值格式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)，仅在标注字段选择value或type+value时显示。**相对偏移**：漏斗标注相对梯形块区域在垂直和水平方向的偏移量，单位为px。**文本样式**：漏斗标注的文本样式，包括文本的字体样式、文字粗细、字号和颜色。**文本描边**：漏斗标注的文本描边样式，包括描边线的粗细值和颜色。    |
 * **动画**：漏斗图的动画效果样式。
 
 |    **参数**    |    **说明**    |
@@ -67,7 +67,7 @@
 |    **分类图例**    |    分类型图例的样式。**图例标记**：图例标记的形状和尺寸之大小。**图例间距**：不同分类图例之间在横向和纵向的距离。**最大宽度**：设置图例的最大宽度，单位为px。**允许翻页**：打开开关，开启图例翻页功能，可配置图例数量过多需要翻页显示时的页码样式和箭头样式；关闭开关，图例内容全部展示在一页中，无法翻页显示。**页码样式**：翻页页码的样式，包括页码的字体、文字粗细、字号大小和颜色。**箭头样式**：翻页样式内箭头的尺寸大小、箭头默认颜色及禁用颜色。    |
 * **条件**：条件样式说明。
 
-**条件样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式系列。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式系列的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式系列配置内容并新增一个同样配置的条件样式系列。具体每个系列下的条件样式配置说明，请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
+**条件样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式系列。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式系列的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式系列配置内容并新增一个同样配置的条件样式系列。具体每个系列下的条件样式配置说明，请参见[条件树使用说明](/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
 
 **颜色**：打开开关，配置该系列条件样·式中的漏斗梯形块的颜色；关闭开关，无法配置该系列条件下的漏斗梯形块的颜色。
 
@@ -82,7 +82,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -92,8 +92,8 @@
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当选中数据项变化时**    |    打开开关，开启组件交互功能。当某个数据项发生变化时抛出临时变量，默认抛出数据中的type和value字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
-|    **当点击图例时**    |    打开开关，开启组件交互功能。当单击某个图例时抛出临时变量，默认抛出数据中的value和checked字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当选中数据项变化时**    |    打开开关，开启组件交互功能。当某个数据项发生变化时抛出临时变量，默认抛出数据中的type和value字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当点击图例时**    |    打开开关，开启组件交互功能。当单击某个图例时抛出临时变量，默认抛出数据中的value和checked字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
 
 ## 蓝图交互
 

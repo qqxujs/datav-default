@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 其他 %{#90681}% 
 
 * [子弹图](/zh/datav/datav-6-0/user-guide/bullet-chart)
 * [词云（v5.0及以上版本）](/zh/datav/datav-6-0/user-guide/word-cloud-of-v5-0-and-later)

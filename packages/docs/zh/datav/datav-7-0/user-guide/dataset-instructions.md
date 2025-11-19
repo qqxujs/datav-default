@@ -47,7 +47,7 @@ DataV数据集是基于原始数据源创建的、经过结构化处理的可视
 在使用数据集前需要先添加支持的数据源内容，下文介绍添加适配数据源的方法。如果通过上传本地数据源文件方式创建数据集请跳过本章节。
 
 1. 在数据源管理页面中，单击**添加数据**。
-2. 在弹出的添加**数据对话框**中，选择需要添加的数据源类型，支持添加[RDS for PostgreSQL数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-postgresql-data-source)、[RDS for MySQL数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-mysql-data-source)、[兼容MySQL数据库的数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-mysql-compatible-data-source)、[实时数仓Hologres数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-hologres-data-source)、[AnalyticDB for MySQL数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-analyticdb-for-mysql-data-source)。
+2. 在弹出的添加**数据对话框**中，选择需要添加的数据源类型，支持添加[RDS for PostgreSQL数据源](/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-postgresql-data-source)、[RDS for MySQL数据源](/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-mysql-data-source)、[兼容MySQL数据库的数据源](/zh/datav/datav-7-0/user-guide/add-a-mysql-compatible-data-source)、[实时数仓Hologres数据源](/zh/datav/datav-7-0/user-guide/add-a-hologres-data-source)、[AnalyticDB for MySQL数据源](/zh/datav/datav-7-0/user-guide/add-an-analyticdb-for-mysql-data-source)。
 
 ### **操作数据集**
 

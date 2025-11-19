@@ -8,7 +8,7 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1076841961/p703669.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **px/nx/py/ny/pz/nz**：该六个配置项分别表示盒模型六个贴面在坐标系中不同方向的贴图地址，如下图所示。手动输入贴图的URL地址，可设置盒模型样式。![盒模型原理图](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7668068951/p21732.png)
 * **S轴重复**：在横轴方向上贴图的重复数量。
 * **T轴重复**：在竖轴方向上贴图的重复数量。

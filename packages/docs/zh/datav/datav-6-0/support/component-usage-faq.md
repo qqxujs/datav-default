@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 组件使用常见问题 %{#413326}% 
 
 本文介绍使用DataV组件时可能会遇见的问题及解决方法。
 
@@ -8,7 +8,7 @@
 
 ## 当您在使用地图组件时，怎么画全球、各市县、各市区的边界？
 
-当您在使用地图组件时，您可以在阿里云提供的[小工具](http://datav.aliyun.com/static/tools/atlas/?spm=a2c4g.11186623.2.7.7Gt0W3#&lat=33.50475906922609&lng=104.2822265625&zoom=4)中找到相关地理边界的GeoJSON数据，粘贴到**基础平面地图**的**区域热力层**子组件的**区域面**数据接口中。并根据各个地区的编码，在**映射数据**里编辑各个地区的数值热力地图。小工具使用方法请参见：[DataV GeoAtlas地理小工具](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/datav-geoatlas-widget/)。
+当您在使用地图组件时，您可以在阿里云提供的[小工具](http://datav.aliyun.com/static/tools/atlas/?spm=a2c4g.11186623.2.7.7Gt0W3#&lat=33.50475906922609&lng=104.2822265625&zoom=4)中找到相关地理边界的GeoJSON数据，粘贴到**基础平面地图**的**区域热力层**子组件的**区域面**数据接口中。并根据各个地区的编码，在**映射数据**里编辑各个地区的数值热力地图。小工具使用方法请参见：[DataV GeoAtlas地理小工具](/zh/datav/datav-6-0/user-guide/datav-geoatlas-widget/)。
 
 ## 使用地图瓦片组件时的常见问题
 

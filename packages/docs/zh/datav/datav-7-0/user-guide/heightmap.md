@@ -6,12 +6,12 @@
 
 **说明** 
 * 当前组件目前仅供**DataV尊享版**用户使用。如需使用该组件，请先将版本升级至尊享版。
-* 如果图层列表中没有**高度图地形瓦片**，说明您还未添加**高度图地形瓦片**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
+* 如果图层列表中没有**高度图地形瓦片**，说明您还未添加**高度图地形瓦片**图层，请参见[添加子组件](/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
 
 ## 样式面板
 
 ![配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6326448461/p423340.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **通用**
 
 |    **参数**    |    **说明**    |

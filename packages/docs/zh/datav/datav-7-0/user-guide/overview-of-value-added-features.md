@@ -31,7 +31,7 @@ DataV提供将配置好的单个组件或者组件组合收藏起来（包括所
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 单击**工作台**页面右上角的**用户中心**。
 3. 在用户中心页面，单击**组件收藏数量扩展包**区域的**去购买**。
-4. 按照界面指引完成购买操作。计费详情，请参见[产品计费](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
+4. 按照界面指引完成购买操作。计费详情，请参见[产品计费](/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
 
 ## 屏幕数量扩展包
 
@@ -50,4 +50,4 @@ DataV提供屏幕数量扩展包，用来扩充可创建项目数量。
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 单击**工作台**页面右上角的**用户中心**。
 3. 在用户中心页面，单击**屏幕数量扩展包**区域的**去购买**。
-4. 按照界面指引完成购买操作。计费详情，请参见[产品计费](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
+4. 按照界面指引完成购买操作。计费详情，请参见[产品计费](/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。

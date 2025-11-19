@@ -65,7 +65,7 @@
 
 ## **可视化演播厅**
 
-[可视化演播厅](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/visual-studio)是DataV的专业数据可视化演示平台，支持预案创建、投屏及全流程管理。
+[可视化演播厅](/zh/datav/datav-7-0/user-guide/visual-studio)是DataV的专业数据可视化演示平台，支持预案创建、投屏及全流程管理。
 
 ## **我的看板**
 
@@ -73,7 +73,7 @@
 
 **说明** 
 
-如果不存在看板，请先[创建数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)并进行[发布](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#59ef26706323x)，即可在**我的看板**中查看。
+如果不存在看板，请先[创建数据看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)并进行[发布](/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#59ef26706323x)，即可在**我的看板**中查看。
 
 * **预览数据看板：**鼠标移动到目标数据看板上，单击查看，即可在新页面中预览当前看板。
 * **查看访问统计：**鼠标移动到目标数据看板上，单击![{CE5E9105-2C6A-4D3D-86A4-1BD730377AB0}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4076919471/p963880.png)图标，查看当前数据看板的访问统计详情。

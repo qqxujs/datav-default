@@ -10,7 +10,7 @@
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7853270071/p741171.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -28,16 +28,16 @@
 |    **展示形式**    |    设置区域图的展示形式。可选**折线**和**曲线**。    |
 |    **折线线型**    |    折线的类型，可选**实线**、**虚线**和**点线**。    |
 |    **折线粗细**    |    折线的粗细，单位px。    |
-|    **折线颜色**    |    折线的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同系列区域的映射颜色样式。    |
+|    **折线颜色**    |    折线的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同系列区域的映射颜色样式。    |
 |    **面积颜色同步**    |    面积颜色是否和折线颜色保持一致。可选**同步**和**不同步**。    |
-|    **面积颜色**    |    面积的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同系列面积的映射颜色样式。当**面积颜色同步**选择**不同步**时展示。    |
+|    **面积颜色**    |    面积的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同系列面积的映射颜色样式。当**面积颜色同步**选择**不同步**时展示。    |
 |    **不透明度**    |    折线和区域的不透明程度，数值越大，越不透明。    |
 |    **标记符号**    |    区域图内数据点的标记符号样式，包括标记符号的形状和大小，可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制数据点标记符号样式的显隐。    |
 |    **标记颜色同步**    |    标记颜色是否和折线颜色保持一致。可选**同步**和**不同步**。    |
-|    **标记颜色**    |    标记的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同系列点的映射颜色样式。当**标记颜色同步**选择**不同步**时展示。    |
+|    **标记颜色**    |    标记的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同系列点的映射颜色样式。当**标记颜色同步**选择**不同步**时展示。    |
 |    **标记描边**    |    区域图内数据点的标记的描边样式，包括标记描边线的线型、粗细值和线的颜色，可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制数据点标记描边样式的显隐。    |
-|    **折线标签**    |    折线的标签样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制折线标签配置项的显隐。**标签字段**：标签的内容需要和数据面板中字段的内容对应，默认获取y字段内容。**数值格式**：设置标签的数值格式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)，仅在标签字段选择y时显示。**前后缀**：设置折线标签的前后缀内容。**相对偏移**：折线标签相对折线在垂直和水平方向偏移量，单位为px。**旋转角度**：折线标签相对于折线的旋转角度。**布局优化**：自动优化被遮盖文字和边界文字。**文本样式**：折线标签的文本样式，包括文本的字体样式、文字粗细、字号和颜色。**文本描边**：折线标签的文本描边样式，包括描边线的粗细值和颜色。    |
-|    **贴图**    |    区域的贴图样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制贴图配置项的显隐。**说明** 贴图背景不支持渐变色。**类型**：贴图的类型，包括**点形**、**线形**、**方形**和**图片**。**填充样式**：设置贴图的填充样式。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置贴图的颜色样式。**描边样式**：设置贴图的描边样式。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置贴图的颜色样式。当类型选择为**点形**或**正方形**时显示。**额外样式**：贴图的其他样式，包括贴图的**图形尺寸**、**图形间距**、**线间距**、**旋转角度**和**是否交错**开关。当选择类型为**图片**时，可以设置**图片地址**、**平铺宽度**、**平铺高度**、**平铺间距**和**旋转角度**。    |
+|    **折线标签**    |    折线的标签样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制折线标签配置项的显隐。**标签字段**：标签的内容需要和数据面板中字段的内容对应，默认获取y字段内容。**数值格式**：设置标签的数值格式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)，仅在标签字段选择y时显示。**前后缀**：设置折线标签的前后缀内容。**相对偏移**：折线标签相对折线在垂直和水平方向偏移量，单位为px。**旋转角度**：折线标签相对于折线的旋转角度。**布局优化**：自动优化被遮盖文字和边界文字。**文本样式**：折线标签的文本样式，包括文本的字体样式、文字粗细、字号和颜色。**文本描边**：折线标签的文本描边样式，包括描边线的粗细值和颜色。    |
+|    **贴图**    |    区域的贴图样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制贴图配置项的显隐。**说明** 贴图背景不支持渐变色。**类型**：贴图的类型，包括**点形**、**线形**、**方形**和**图片**。**填充样式**：设置贴图的填充样式。请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置贴图的颜色样式。**描边样式**：设置贴图的描边样式。请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置贴图的颜色样式。当类型选择为**点形**或**正方形**时显示。**额外样式**：贴图的其他样式，包括贴图的**图形尺寸**、**图形间距**、**线间距**、**旋转角度**和**是否交错**开关。当选择类型为**图片**时，可以设置**图片地址**、**平铺宽度**、**平铺高度**、**平铺间距**和**旋转角度**。    |
 * **坐标**：组件坐标轴包括**X轴**和**Y轴**两种。  
 
   * **X轴**
@@ -83,7 +83,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **显示格式**    |    Y轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。    |
+|    **显示格式**    |    Y轴标签数值显示格式的样式，可选**默认**、**11（整数）**、**11.1（浮点数）**、**11.11（浮点数）**、**11%（百分比）**、**11.1%（百分比）**、**1,111（千分位）**和**1,111.1（千分位）**。更多数据显示格式请参见[数据显示格式说明](/zh/datav/datav-6-0/product-overview/terms-1#section-os5-b6i-tok)。    |
 |    **两端间距**    |    Y轴标签距离轴线两端之间的距离，单位%。    |
 |    **标签展示**    |    标签的展示样式，包括：轴标签的数量、标签的前后缀内容、标签的角度值、偏移量和标签展示时候的对齐方式。    |
 |    **文本样式**    |    轴标签文本的字体样式、文字粗细、字号和颜色。    |
@@ -174,13 +174,13 @@
     * **文本内容**：设置辅助框的内容样式，包括文本、水平和垂直偏移、旋转角度和显示位置。
     * **文本背景**：设置辅助框的文本背景，包括背景的填充色、圆角半径。
     * **文本样式**：设置辅助框的文本内容的文本样式。
-  * **区域**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个区域系列。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个区域系列的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中区域系列配置内容并新增一个同样配置的区域系列。具体每个系列下的区域配置说明，请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
+  * **区域**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个区域系列。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个区域系列的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中区域系列配置内容并新增一个同样配置的区域系列。具体每个系列下的区域配置说明，请参见[条件树使用说明](/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
 
     * **折线类型**：当前区域下折线的类型，可选**实线**、**虚线**和**点线**。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制折线类型的显隐。
     * **折线粗细**：当前区域下折线的粗细，单位px。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制折线粗细的显隐。
-    * **折线颜色**：当前区域下折线的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置不同系列折线的映射颜色样式。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制折线颜色的显隐。
-    * **标记颜色**：当前区域下折线的标记颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置不同系列折线的标记颜色样式。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制标记颜色的显隐。
-    * **面积颜色**：当前区域下的面积颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置不同系列区域的面积颜色样式。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制面积颜色的显隐。
+    * **折线颜色**：当前区域下折线的颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置不同系列折线的映射颜色样式。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制折线颜色的显隐。
+    * **标记颜色**：当前区域下折线的标记颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置不同系列折线的标记颜色样式。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制标记颜色的显隐。
+    * **面积颜色**：当前区域下的面积颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)，配置不同系列区域的面积颜色样式。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制面积颜色的显隐。
     * **不透明度**：当前区域下折线和区域的不透明程度，数值越大，越不透明。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制不透明度的显隐。
     * **符号标记**：当前区域下折线图内数据点的符号标记样式，包括符号标记的形状和大小，可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制数据点符号标记样式的显隐。
     * **标记描边**：当前区域下折线图内数据点的标记描边样式，包括线型、线的粗细和颜色。可单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标控制数据点标记描边样式的显隐。
@@ -205,7 +205,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -215,11 +215,11 @@
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当数据项选中时（点）**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x字段、y字段和colorField字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
-|    **当数据项选中时（线）**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x字段、y字段和colorField字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
-|    **当数据项选中时（面）**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x字段、y字段和colorField字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
-|    **当图例被点击时**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的value和checked字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
-|    **当线被点击时**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击某条折线时抛出回调值，默认抛出数据中的mappingData字段。具体配置请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当数据项选中时（点）**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x字段、y字段和colorField字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当数据项选中时（线）**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x字段、y字段和colorField字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当数据项选中时（面）**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x字段、y字段和colorField字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当图例被点击时**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的value和checked字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
+|    **当线被点击时**    |    选中**启用**，开启组件交互功能。**区域图**组件拥有交互配置，当单击某条折线时抛出回调值，默认抛出数据中的mappingData字段。具体配置请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |
 
 ## 蓝图交互
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 操作指南 %{#478043}% 
 
 * [控制台概览](/zh/datav/datav-6-0/user-guide/console-overview)
 * [工作空间管理](/zh/datav/datav-6-0/user-guide/manage-workspace-6-0)

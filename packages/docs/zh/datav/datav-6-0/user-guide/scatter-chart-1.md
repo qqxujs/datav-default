@@ -1,12 +1,12 @@
-<!DOCTYPE html> 
+# 散点图（v3.x版本） %{#154563}% 
 
 散点图是使用散点来展示数据的一种图表，支持自定义x轴、y轴以及散点的样式，支持多系列数据配置，支持提示框交互和动画效果展示，适用于展示不同时间下离散数据的差异。本文介绍散点图各配置项的含义。
 
 ## 配置
 
-**重要** 本文介绍v3.x版本的散点图的配置项，如需查看v3.0以下版本或者v4.0及以上版本，请参见[散点图（v3.0以下版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/scatter-plot#concept-ubc-lbt-cfb)或[基本散点图（v4.0及以上版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/the-scatter-chart-widget#concept-2456200)。
+**重要** 本文介绍v3.x版本的散点图的配置项，如需查看v3.0以下版本或者v4.0及以上版本，请参见[散点图（v3.0以下版本）](/zh/datav/datav-6-0/user-guide/scatter-plot#concept-ubc-lbt-cfb)或[基本散点图（v4.0及以上版本）](/zh/datav/datav-6-0/user-guide/the-scatter-chart-widget#concept-2456200)。
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -34,7 +34,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **文本**    |    设置图例文本的样式，包括文本字体样式、字号大小、字体颜色和字体粗细，参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改文本颜色。    |
+|    **文本**    |    设置图例文本的样式，包括文本字体样式、字号大小、字体颜色和字体粗细，参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改文本颜色。    |
 |    **布局**    |    各图例之间的位置关系。 **间距** **左右间距**：相邻图例之间左右两侧的距离，仅当有多个系列时该配置项才有效。**上下间距**：图例与组件上下边界的距离。**位置**：图例相对于组件起始坐标的位置，可选**顶部居左**、**顶部居中**、**顶部居右**、**底部居左**、**底部居中**、**底部居右**。    |
 * **坐标轴**：组件坐标轴包括**x轴**和**y轴**两种。  
   * **x轴**![x轴面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3158068951/p71567.png)
@@ -57,7 +57,7 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **显示格式**    |    期望显示的数据格式，仅对时间型和数值型的数据有效。时间请参照%m/%d%Y%H:%M:%S，整数参照d，浮点参照.1f。    |
-|    **文本**    |    x轴标签的文本，包括字体样式、字号大小、字体颜色和字体粗细，参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改文本颜色。    |
+|    **文本**    |    x轴标签的文本，包括字体样式、字号大小、字体颜色和字体粗细，参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改文本颜色。    |
 |    **轴标签展示**    |    x轴标签的展示样式，包括： **角度**：x轴标签的角度，可选：**水平**、**斜角**、**垂直**。**数量**：x轴标签的数量。**轴单位**：x轴标签的单位。    |
     * **轴线**：x轴轴线的样式，可单击![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标控制x轴轴线的显隐。  
 
@@ -237,13 +237,13 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互
 
-选中**启用**，开启组件交互功能。当单击散点图的散点时，会触发数据请求，抛出回调值，动态加载不同散点的数据。默认抛出数据中的x、y和s值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 
+选中**启用**，开启组件交互功能。当单击散点图的散点时，会触发数据请求，抛出回调值，动态加载不同散点的数据。默认抛出数据中的x、y和s值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。 
 
 ## 蓝图编辑器交互配置
 

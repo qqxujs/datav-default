@@ -1,5 +1,5 @@
-<!DOCTYPE html> 
+# 百分比柱状图（v5.0及以上版本） %{#348802}% 
 
 百分比柱状图，支持根据数据类目的多个系列自动显示其百分比占比情况，能够更加清晰智能地展示各数据占比值的差异。本文介绍百分比柱状图各配置项的含义。
 
-百分比柱状图（v5.0及以上版本）组件的具体配置和BI分析组件模块中的百分比柱状图组件保持一致，组件详细参数请参见[百分比柱状图](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/percentage-column-charts#concept-2090348)。
+百分比柱状图（v5.0及以上版本）组件的具体配置和BI分析组件模块中的百分比柱状图组件保持一致，组件详细参数请参见[百分比柱状图](/zh/datav/datav-6-0/user-guide/percentage-column-charts#concept-2090348)。

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 使用欢乐砸金蛋模板搭建可视化应用 %{#203658}% 
 
 DataV提供了**欢乐砸金蛋**抽奖模板，该模板可用于团队团建、年会等场景，交互方式简单，只需单击金蛋即可完成抽奖效果。本文介绍如何使用DataV**欢乐砸金蛋**抽奖模板可视化应用。
 
@@ -18,7 +18,7 @@ DataV提供了**欢乐砸金蛋**抽奖模板，该模板可用于团队团建�
 
 搭建一个可实现以上交互功能的欢乐砸金蛋模板，您需要完成以下几个步骤： 
 
-1. [创建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-happy-golden-egg-template#task-2041982)。
-2. [配置组件样式](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/configure-widget-styles-for-an-application-created-by-using-the-happy-golden-egg-template#task-2041983)。
-3. [配置蓝图交互](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/configure-interaction-effect-in-blueprint-editor#task-2042327)。
-4. [预览并发布可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/preview-and-publish-an-application-created-by-using-the-happy-golden-egg-template#task-2041984)。
+1. [创建可视化应用](/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-happy-golden-egg-template#task-2041982)。
+2. [配置组件样式](/zh/datav/datav-6-0/getting-started/configure-widget-styles-for-an-application-created-by-using-the-happy-golden-egg-template#task-2041983)。
+3. [配置蓝图交互](/zh/datav/datav-6-0/getting-started/configure-interaction-effect-in-blueprint-editor#task-2042327)。
+4. [预览并发布可视化应用](/zh/datav/datav-6-0/getting-started/preview-and-publish-an-application-created-by-using-the-happy-golden-egg-template#task-2041984)。

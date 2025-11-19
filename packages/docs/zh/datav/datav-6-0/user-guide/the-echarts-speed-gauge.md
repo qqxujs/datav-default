@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# Echarts 仪表盘 %{#450094}% 
 
 本文介绍Echarts 仪表盘的图表样式和配置面板的功能。
 
@@ -8,7 +8,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4936847761/p573899.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -21,13 +21,13 @@
 * ****提示框**：单击右侧的****眼睛**图标显示提示框。![提示框](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2673511661/p479529.jpg)
 
   * ****触发条件**：自定义触发类型，可选，包括****鼠标移动触发**、****鼠标点击触发**和****鼠标移动点击同时触发**
-  * ****背景色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的背景颜色。
-  * ****边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的边框颜色。
+  * ****背景色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的背景颜色。
+  * ****边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的边框颜色。
   * ****边框粗细**：单击****+**或****\-**号，或手动输入数值，修改背景框的边框粗细。
   * ****内边距**：单击****+**或****\-**号，或手动输入数值，修改背景框的内边距，单位px，默认各方向内边距为5。
   * ****文本样式**
 
-    * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框文本的颜色。
+    * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框文本的颜色。
     * ****字体样式**：提示框文本的字体风格。
     * ****字体粗细**：提示框文本的字体粗细。
     * ****字体**：提示框文本的字体系列。
@@ -50,7 +50,7 @@
       * ****轴线分段**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个分段样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个分段样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中的分段样式配置并新增一个同样配置的分段样式。
 
         * ****位置**：单击****+**或****\-**号，滑动或手动输入数值，修改仪表盘的分段显示位置。
-        * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分段的颜色。
+        * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分段的颜色。
       * ****宽度**：单击****+**或****\-**号，或手动输入数值，修改分段的宽度。
       * ****透明度**：单击****+**或****\-**号，或手动输入数值，修改分段的透明度。范围为 \[0,1\]。
   * ****分割线**：单击右侧的****眼睛**图标显示分割线。
@@ -58,7 +58,7 @@
     * ****长度**：单击****+**或****\-**号，或手动输入数值，修改分割线的长度。
     * ****轴线样式**
 
-      * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线的颜色。
+      * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线的颜色。
       * ****宽度**：单击****+**或****\-**号，或手动输入数值，修改分割线的线宽。
       * ****类型**：分割线轴线的类型。可选，包括****实线**和****虚线**。
       * ****透明度**：单击****+**或****\-**号，或手动输入数值，修改分割线的透明度，范围为 \[0,1\]。
@@ -68,7 +68,7 @@
     * ****长度**：单击****+**或****\-**号，或手动输入数值，修改坐标轴刻度的长度。
     * ****轴线样式**
 
-      * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改刻度线的颜色。
+      * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改刻度线的颜色。
       * ****宽度**：单击****+**或****\-**号，或手动输入数值，修改刻度线的宽度。
       * ****类型**：刻度线的类型。可选，包括****实线**和****虚线**。
       * ****透明度**：单击****+**或****\-**号，或手动输入数值，修改刻度线的透明度。范围为 \[0,1\]。
@@ -77,7 +77,7 @@
     * ****距离**：刻度标签与轴线之间的距离。
     * ****文本样式**
 
-      * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改刻度标签的颜色。
+      * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改刻度标签的颜色。
       * ****字体样式**：刻度标签文字的字体风格。
       * ****字体粗细**：刻度标签文字的字体粗细。
       * ****字体**：刻度标签文字的字体系列。
@@ -90,15 +90,15 @@
 
     * ****普通项**
 
-      * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项元素的颜色。
-      * ****边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项元素的边框色。
+      * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项元素的颜色。
+      * ****边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项元素的边框色。
       * ****边框粗细**：单击****+**或****\-**号，或手动输入数值，修改普通项元素的边框粗细。
       * ****边框样式**：自定义边框的描边类型，可选，包括****实线**和****虚线**。
       * ****透明度**：单击****+**或****\-**号，或手动输入数值，修改普通项元素的透明度，范围为 \[0,1\]。
     * ****重点项**
 
-      * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项元素的背景颜色。
-      * ****边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项元素的边框颜色。
+      * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项元素的背景颜色。
+      * ****边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项元素的边框颜色。
       * ****边框粗细**：单击****+**或****\-**号，或手动输入数值，修改重点项元素的边框粗细。
       * ****边框样式**：自定义边框的描边类型，可选，包括****实线**和****虚线**。
       * ****透明度**：单击****+**或****\-**号，或手动输入数值，修改普通项元素的透明度，范围为 \[0,1\]。
@@ -108,7 +108,7 @@
     * ****垂直偏移**：单击****+**或****\-**号，或手动输入数值，修改标题的垂直偏移，范围为\[-200\~200\]。
     * ****文本样式**
 
-      * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标题文本的颜色。
+      * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标题文本的颜色。
       * ****字体样式**：标题文本的字体风格。
       * ****字体粗细**：标题文本的字体粗细。
       * ****字体**：标题文本的字体系列。
@@ -120,12 +120,12 @@
     * ****高度**：单击****+**或****\-**号，或手动输入数值，修改详情的高度。
     * ****水平偏移**：单击****+**或****\-**号，或手动输入数值，修改详情的水平偏移，范围为\[-200\~200\]。
     * ****垂直偏移**：单击****+**或****\-**号，或手动输入数值，修改详情的垂直偏移，范围为\[-200\~200\]。
-    * ****背景色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改详情的背景颜色，默认透明。
+    * ****背景色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改详情的背景颜色，默认透明。
     * ****边框粗细**：单击****+**或****\-**号，或手动输入数值，调整详情边框粗细。
-    * ****边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改详情的边框颜色，默认透明。
+    * ****边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改详情的边框颜色，默认透明。
     * ****文本样式**
 
-      * ****颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改详情文本的颜色。
+      * ****颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改详情文本的颜色。
       * ****字体样式**：详情文本的字体风格。
       * ****字体粗细**：详情文本的字体粗细。
       * ****字体**：详情文本的字体系列。
@@ -151,8 +151,8 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板

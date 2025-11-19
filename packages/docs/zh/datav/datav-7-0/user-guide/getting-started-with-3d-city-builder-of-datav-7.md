@@ -27,7 +27,7 @@
 8. 在左侧框选工具处选择一个框选工具，在城市地图中框选所需的场景范围。
 9. 完成区域框选后，单击右下角的**确定**即可完成三维城市构建器项目的创建，并加载框选的数据范围区域。  
 ![1](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515555.jpg)  
-创建三维城市和框选数据范围的功能的详细介绍请参见[使用官方基底数据创建](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/create-a-3d-city#6623dda05fs3d)。使用空间构建数据创建三维城市的详细介绍请参见[使用空间构建数据创建](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/create-a-3d-city#515e24205fq6b)。
+创建三维城市和框选数据范围的功能的详细介绍请参见[使用官方基底数据创建](/zh/datav/datav-7-0/user-guide/create-a-3d-city#6623dda05fs3d)。使用空间构建数据创建三维城市的详细介绍请参见[使用空间构建数据创建](/zh/datav/datav-7-0/user-guide/create-a-3d-city#515e24205fq6b)。
 10. 等待几分钟后，即可进入场景编辑器页面。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515556.png)
 
@@ -36,22 +36,22 @@
 
 ## **编辑三维城市**
 
-1. 在场景编辑器页面，您可以新建或删除场景，场景管理具体操作请参见[场景管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/scene-management)。  
+1. 在场景编辑器页面，您可以新建或删除场景，场景管理具体操作请参见[场景管理](/zh/datav/datav-7-0/user-guide/scene-management)。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515726.png)
-2. 在三维视图与相机编辑面板中，通过拖动鼠标或者滑动滚轮，手动调整地图的视角和缩放大小，也可以通过**相机路径面板**与**相机高程面板**编辑出想要的任意空间曲线，具体视角调整及相机编辑功能详情请参见[场景编辑器概览](https://help.aliyun.com/zh/datav/datav-7/user-guide/overview-of-scene-editor)和[三维视图与相机编辑面板管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/3d-view-and-camera-editing-panel-management)。  
+2. 在三维视图与相机编辑面板中，通过拖动鼠标或者滑动滚轮，手动调整地图的视角和缩放大小，也可以通过**相机路径面板**与**相机高程面板**编辑出想要的任意空间曲线，具体视角调整及相机编辑功能详情请参见[场景编辑器概览](/zh/datav/datav-7/user-guide/overview-of-scene-editor)和[三维视图与相机编辑面板管理](/zh/datav/datav-7-0/user-guide/3d-view-and-camera-editing-panel-management)。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515731.png)
-3. 在场景编辑器左侧的**图层列表**内，您可以对图层栏内的**场景图层**和**全局图层**进行配置管理，图层管理功能详情请参见[图层面板管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management)。  
+3. 在场景编辑器左侧的**图层列表**内，您可以对图层栏内的**场景图层**和**全局图层**进行配置管理，图层管理功能详情请参见[图层面板管理](/zh/datav/datav-7-0/user-guide/layer-panel-management)。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515764.png)
-4. 在**场景编辑器**右侧面板内，可以对**三维城市构建器**的场景和每个图层进行配置，具体参数配置说明请参见[场景配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/scene-configuration-items)和[图层配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-configuration-items-for-datav-7)。  
+4. 在**场景编辑器**右侧面板内，可以对**三维城市构建器**的场景和每个图层进行配置，具体参数配置说明请参见[场景配置项说明](/zh/datav/datav-7-0/user-guide/scene-configuration-items)和[图层配置项说明](/zh/datav/datav-7-0/user-guide/layer-configuration-items-for-datav-7)。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515772.png)![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515774.png)
-5. 在**场景编辑器**下方的**分镜与关键帧面板**内，可以为当前场景设置多个不同的分镜和关键帧内容，并可以预览播放场景在不同关键帧时的动画样式。具体**分镜与关键帧面板**内功能说明，请参见[分镜与关键帧面板管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/storyboard-and-keyframe-panel-management)。  
+5. 在**场景编辑器**下方的**分镜与关键帧面板**内，可以为当前场景设置多个不同的分镜和关键帧内容，并可以预览播放场景在不同关键帧时的动画样式。具体**分镜与关键帧面板**内功能说明，请参见[分镜与关键帧面板管理](/zh/datav/datav-7-0/user-guide/storyboard-and-keyframe-panel-management)。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515775.png)
-6. 单击**场景编辑器**右上角的项目设置![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515776.png)，在弹窗内可设置包括项目尺寸大小、发布和预览时的页面缩放设置、缩略图等设置，详情请参见[项目设置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/project-settings-for-datav-7)。  
+6. 单击**场景编辑器**右上角的项目设置![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515776.png)，在弹窗内可设置包括项目尺寸大小、发布和预览时的页面缩放设置、缩略图等设置，详情请参见[项目设置](/zh/datav/datav-7-0/user-guide/project-settings-for-datav-7)。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515778.png)![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515779.png)
-7. 单击**场景编辑器**右上角的数据接口设置![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515781.png)、事件设置![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515782.png)与动作设置![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515783.png)，即可自定义配置项目接口内容，详情请参见[使用区块接口](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-block-interfaces)。  
+7. 单击**场景编辑器**右上角的数据接口设置![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515781.png)、事件设置![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515782.png)与动作设置![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515783.png)，即可自定义配置项目接口内容，详情请参见[使用区块接口](/zh/datav/datav-7-0/user-guide/use-block-interfaces)。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515787.png)![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515788.png)
-8. 当**场景编辑器**内场景配置完成后，可单击左上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515790.png)，切换进入**蓝图编辑器**页面进行蓝图交互配置，详情请参见[蓝图编辑器配置说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configurations-of-blueprint-editor)。
+8. 当**场景编辑器**内场景配置完成后，可单击左上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2279972761/p515790.png)，切换进入**蓝图编辑器**页面进行蓝图交互配置，详情请参见[蓝图编辑器配置说明](/zh/datav/datav-7-0/user-guide/configurations-of-blueprint-editor)。
 
 ## 使用三维城市
 
-请参见[使用三维城市](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/preview-publish-and-use-a-project#9d6b11d060wkn)。
+请参见[使用三维城市](/zh/datav/datav-7-0/user-guide/preview-publish-and-use-a-project#9d6b11d060wkn)。

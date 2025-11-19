@@ -1,17 +1,17 @@
-<!DOCTYPE html> 
+# 配置学区地图单选框交互 %{#406366}% 
 
 本文档为您介绍通过单选框实现不同类型学校的散点层数据的切换展示，以及Tab列表和单选框的双重触发判断方法。例如Tab列表选择小学，单选框选择公办，那么最终实现在可视化应用上展示所有公办小学的散点层信息。 
 
 ## 前提条件
 
-完成[配置学区地图Tab列表交互](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/configure-an-interactive-tab-list-for-a-school-map#task-1680728)操作，本文档将在其基础上继续添加节点和连线。 
+完成[配置学区地图Tab列表交互](/zh/datav/datav-6-0/use-cases/configure-an-interactive-tab-list-for-a-school-map#task-1680728)操作，本文档将在其基础上继续添加节点和连线。 
 
 ## 背景信息
 
 需要实现的交互：通过控制组件单选框内的全选/公办/私办选项和Tab列表内的小学/初中选项，控制目标组件散点层的显隐效果。 
 
 可实现方案有两种： 
-* 使用触发器控制对应散点层的显隐样式，本文使用此方案，操作步骤如下。您也可以通过转换器来实现，详情请参见[如何使用Tab列表控制组件显隐](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/realize-the-dynamic-display#task-1495953)。
+* 使用触发器控制对应散点层的显隐样式，本文使用此方案，操作步骤如下。您也可以通过转换器来实现，详情请参见[如何使用Tab列表控制组件显隐](/zh/datav/datav-6-0/user-guide/realize-the-dynamic-display#task-1495953)。
 * 切换散点层内的数据data/\[\]，比较复杂，不建议使用此方案。
 
 ## 操作步骤
@@ -22,7 +22,7 @@
 3. 按照以下说明进行连线。  
 将单选框的当前值变化时事件分别与公办小学点和公办初中点的显示动作连线。
 4. 在连线中添加两个串行数据处理节点，分别命名为小学和初中。  
-具体操作方法请参见[配置蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)。
+具体操作方法请参见[配置蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)。
 5. 按照以下说明继续添加其他连线和串行数据处理节点。
   1. 将小学的串行数据处理节点分别与民办小学的显示和隐藏动作连线。
   2. 在每条连线中分别添加一个串行数据处理节点，命名为全选、公办和民办。

@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 修改组件样式 %{#151672}% 
 
 可视化应用创建完成后，您可以通过以下方式修改可视化应用内的组件样式。
 
 ## 前提条件
 
-已完成可视化应用的创建，详情请参见[创建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-epidemic-situation-control-template#task-2477417 "本文档为您介绍使用疫情态势管控模板创建可视化应用的方法。")。 
+已完成可视化应用的创建，详情请参见[创建可视化应用](/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-epidemic-situation-control-template#task-2477417 "本文档为您介绍使用疫情态势管控模板创建可视化应用的方法。")。 
 
 ## 操作步骤
 
@@ -18,7 +18,7 @@
 5. 在画布编辑器中，右键单击画布中的组件，根据需求修改组件在图层栏内的层级关系，并完成组件的复制、删除等其他操作。  
 ![组件操作](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7256822951/p95920.png)
 6. 使用同样的方式调整其他组件的配置。  
-组件配置详情请参见[配置项说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#concept-lsz-bc4-t2b "本文档对DataV组件的配置项进行了概括性说明，帮助您快速了解各组件的通用和非通用的配置项，并参见对应的文档进行配置。")。
+组件配置详情请参见[配置项说明](/zh/datav/datav-6-0/user-guide/configure-item-description#concept-lsz-bc4-t2b "本文档对DataV组件的配置项进行了概括性说明，帮助您快速了解各组件的通用和非通用的配置项，并参见对应的文档进行配置。")。
 7. 单击画布空白处，在右侧页面设置中修改当前疫情模板的屏幕大小、背景颜色、背景图和缩略图等。  
 ![大屏页面设置](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7256822951/p81105.png)
 

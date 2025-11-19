@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 3D平面世界地图（组件已下线） %{#95747}% 
 
 * [地图容器](/zh/datav/datav-6-0/user-guide/map-container-old)
 * [飞线层](/zh/datav/datav-6-0/user-guide/flying-routes-layer-old)

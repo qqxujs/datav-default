@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 平行光层 %{#95598}% 
 
 本文介绍平行光层的图表样式和各配置项的含义。
 
@@ -9,9 +9,9 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8138578761/p582344.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **光照强度**：平行光的光照亮度，取值范围为0\~100。
-* **颜色**：平行光的光照颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+* **颜色**：平行光的光照颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
 * **位置X**、**位置Y**、**位置Z**：平行光层的坐标位置，位置X、Y、Z分别表示右手坐标系中的X、Y、Z分轴方向。
 
 ## 数据面板

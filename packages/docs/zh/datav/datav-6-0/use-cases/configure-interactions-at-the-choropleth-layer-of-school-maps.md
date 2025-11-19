@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 配置学区地图区域热力层交互 %{#406367}% 
 
 本文档为您介绍当鼠标划过地图的区域热力层子组件时，切换展示当前区域对应的学校数据的方法。 
 
 ## 前提条件
 
-完成[配置学区地图单选框交互](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/configure-interactive-radio-buttons-for-a-school-map#task-1681262 "本文档为您介绍通过单选框实现不同类型学校的散点层数据的切换展示，以及Tab列表和单选框的双重触发判断方法。例如Tab列表选择小学，单选框选择公办，那么最终实现在可视化应用上展示所有公办小学的散点层信息。")操作，本文档将在其基础上继续添加节点和连线。 
+完成[配置学区地图单选框交互](/zh/datav/datav-6-0/use-cases/configure-interactive-radio-buttons-for-a-school-map#task-1681262 "本文档为您介绍通过单选框实现不同类型学校的散点层数据的切换展示，以及Tab列表和单选框的双重触发判断方法。例如Tab列表选择小学，单选框选择公办，那么最终实现在可视化应用上展示所有公办小学的散点层信息。")操作，本文档将在其基础上继续添加节点和连线。 
 
 ## 背景信息
 
@@ -24,7 +24,7 @@
 3. 在蓝图编辑器页面，将左侧学校信息弹窗-L下的单张图片、name、children、address和type组件节点拖至画布中。
 4. 将公办小学的鼠标移入区域触发事件分别与上一步中添加的五个节点的导入数据接口动作连线。
 5. 连线完成后，每条连线中间会自动添加一个串行数据处理节点，将节点分别命名为logo、name、children、address和type。  
-具体操作方法请参见[配置蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085 "蓝图编辑器一般称为visual programming或者flow based programming，即通过可视化连线的方式，定义图层与图层之间的交互行为。本文为您介绍DataV蓝图编辑器的使用方法，帮助您自由管理可视化应用中多个组件之间的交互关系。")。
+具体操作方法请参见[配置蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085 "蓝图编辑器一般称为visual programming或者flow based programming，即通过可视化连线的方式，定义图层与图层之间的交互行为。本文为您介绍DataV蓝图编辑器的使用方法，帮助您自由管理可视化应用中多个组件之间的交互关系。")。
 6. 将公办初中的鼠标移入区域触发事件分别与上一步中添加的五个串行数据处理节点连线。  
 连线完成后的结果如下图所示。![区域面与具体信息组件连线样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2237716951/p54872.png)
 7. 配置串行数据处理节点。
@@ -192,4 +192,4 @@
   ] : [{ value: "" }];  
   ```
 
-**说明** 此步骤使用到了蓝图编辑器的数据分发功能，详情请参见[如何通过合并请求进行数据分发](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-do-i-merge-requests-to-distribute-data#task-2340806 "本文档以通用标题组件请求数据，并分发给数字翻牌器和多行文本组件，完成数据更新为例，介绍如何使用蓝图编辑器功能，通过合并请求进行数据分发。")。
+**说明** 此步骤使用到了蓝图编辑器的数据分发功能，详情请参见[如何通过合并请求进行数据分发](/zh/datav/datav-6-0/user-guide/how-do-i-merge-requests-to-distribute-data#task-2340806 "本文档以通用标题组件请求数据，并分发给数字翻牌器和多行文本组件，完成数据更新为例，介绍如何使用蓝图编辑器功能，通过合并请求进行数据分发。")。

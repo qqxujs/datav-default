@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 开通DataV服务 %{#141609}% 
 
 本文为您介绍开通DataV服务的方法。
 
@@ -20,4 +20,4 @@
 
 ## 后续步骤
 
-购买成功后，可进入DataV数据可视化控制台，使用[模板搭建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/template-overview)或者[空白画布搭建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/blank-template-overview)。
+购买成功后，可进入DataV数据可视化控制台，使用[模板搭建可视化应用](/zh/datav/datav-6-0/getting-started/template-overview)或者[空白画布搭建可视化应用](/zh/datav/datav-6-0/getting-started/blank-template-overview)。

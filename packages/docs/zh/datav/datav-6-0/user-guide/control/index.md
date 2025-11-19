@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 控件组件 %{#92228}% 
 
 * [轮播页面](/zh/datav/datav-6-0/user-guide/page-carousel-1)
 * [事件仪表盘](/zh/datav/datav-6-0/user-guide/event-dashboard)

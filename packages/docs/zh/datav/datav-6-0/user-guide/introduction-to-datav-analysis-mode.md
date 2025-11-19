@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# DataV分析模式介绍 %{#372517}% 
 
 本教程主要介绍DataV分析模式的基本概念，帮助用户以灵活、0代码、自动化的方式使用数据和分析数据，支持数据的下钻和联动分析。
 
 ## 前提条件
 
-在您了解组件分析模式这部分内容前，您需要提前了解DataV6.0数据集：请参见[DataV6.0数据集介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/datav-6-0-dataset#task-2138931)。
+在您了解组件分析模式这部分内容前，您需要提前了解DataV6.0数据集：请参见[DataV6.0数据集介绍](/zh/datav/datav-6-0/user-guide/datav-6-0-dataset#task-2138931)。
 
 ## 进入组件分析模式
 
@@ -93,7 +93,7 @@
 
 1. 登录[DataV控制台](https://datav.aliyun.com/)[](https://datav.alibabacloud.com/)。
 2. 在**我的可视化**页面，单击您创建的可视化应用项目上方的**编辑**按键，进入画布编辑器中。
-3. 单击选择**BI分析**模块，将**柱状图**组件拖拽到画布编辑器中，并选择配置一个数据集，具体设置方法请参见：[DataV6.0数据集介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/datav-6-0-dataset#task-2138931)。
+3. 单击选择**BI分析**模块，将**柱状图**组件拖拽到画布编辑器中，并选择配置一个数据集，具体设置方法请参见：[DataV6.0数据集介绍](/zh/datav/datav-6-0/user-guide/datav-6-0-dataset#task-2138931)。
 4. 在**图表配置**模块，通过拖拽方式设置`x`字段为**类别**，`y`轴为**价格**，`颜色映射`为**价格**，并设置对应的颜色，`拆分`设置为**日期**，除此之外，设置**类别**的下钻字段内容为**子类别**。![图表配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8238359361/p368666.png)
 5. 在可视化应用预览页查看您设置的效果，左上角为面包屑菜单。![预览柱状图下钻效果](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5870147461/p368672.png)
 6. 在画布编辑器页面，单击添加一个**条形图**组件，在分析数据面板中，选择和**柱状图**组件一样的数据集 ，在图表配置模块，设置`x`轴为**价格**，`y`轴为**类别**，并设置下钻字段内容为**订单状态**和**子类别**，`颜色映射`为**价格**，**`拆分`**为**日期**。![条形图配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8238359361/p368694.png)

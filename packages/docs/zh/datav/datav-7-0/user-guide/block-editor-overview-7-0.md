@@ -11,10 +11,10 @@
 |    **序号**    |    **名称**    |    **说明**    |
 |    ----    |    ----    |    ----    |
 |    1    |    工具栏    |    工具栏位于编辑器页面的最上方，您可以通过工具栏所提供的功能，切换编辑器页面、控制页面内模块显隐、配置区块设置以及预览或者发布制作好的区块。    |
-|    2    |    图层    |    在图层列表中，可以看到画布中各个组件的图层位置，您可以根据区块需要，手动调整每个组件图层的上下位置关系和图层组件的缩略图样式，区块编辑器中的图层功能与可视化应用内的画布编辑器功能基本一致，具体功能详情请参见[图层管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-management-of-canvas-editor-in-pc-of-datav-7)。    |
+|    2    |    图层    |    在图层列表中，可以看到画布中各个组件的图层位置，您可以根据区块需要，手动调整每个组件图层的上下位置关系和图层组件的缩略图样式，区块编辑器中的图层功能与可视化应用内的画布编辑器功能基本一致，具体功能详情请参见[图层管理](/zh/datav/datav-7-0/user-guide/layer-management-of-canvas-editor-in-pc-of-datav-7)。    |
 |    3    |    组件列表    |    在组件列表中，可以查看并搜索各种类型的组件，可以将组件拖动到区块画布中进行配置，完成区块的开发。    |
 |    4    |    区块设置    |    单击区块画布的空白处，页面右侧会显示区块编辑器的基本配置参数。 在区块配置参数处，您可以调整区块的常用尺寸及区块大小、设置区块的背景颜色和图片、选择区块适配缩放方式调整栅格间距。    |
-|    5    |    组件配置项    |    单击区块画布中任意一个组件，区块编辑器页面右侧会自动弹出组件配置项参数页面。区块编辑器内的组件配置项方法和可视化应用中的画布编辑器配置参数方法一致，具体配置方法请参见[配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)。    |
+|    5    |    组件配置项    |    单击区块画布中任意一个组件，区块编辑器页面右侧会自动弹出组件配置项参数页面。区块编辑器内的组件配置项方法和可视化应用中的画布编辑器配置参数方法一致，具体配置方法请参见[配置项说明](/zh/datav/datav-7-0/user-guide/configuration-items)。    |
 |    6    |    组件数据源    |    单击区块画布中任意一个组件，区块编辑器页面右侧会自动弹出组件数据源配置页面。区块编辑器内的组件数据源支持的类型，包括**静态数据源**和**API**两种类型。在区块数据源面板中支持自动更新数据源内容，且**API**类型数据支持**GET**、**POST**和**PUT**三种请求方式，数据源配置面板支持使用数据过滤器，同时支持通过蓝图重新发起请求。    |
 
 ## 区块设置
@@ -33,16 +33,16 @@
 
 ## **配置区块组件**
 
-区块编辑器支持[配置区块组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-block-components/)的样式、配置项、数据接口等信息。
+区块编辑器支持[配置区块组件](/zh/datav/datav-7-0/user-guide/configure-block-components/)的样式、配置项、数据接口等信息。
 
 ## **使用区块接口**
 
-以[区块示例说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/block-overview-7-0/#section-4kd-opa-5e3)中定义的区块需求为例，在区块编辑器中配置并[使用区块接口](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-block-interfaces)。
+以[区块示例说明](/zh/datav/datav-7-0/user-guide/block-overview-7-0/#section-4kd-opa-5e3)中定义的区块需求为例，在区块编辑器中配置并[使用区块接口](/zh/datav/datav-7-0/user-guide/use-block-interfaces)。
 
 ## 迭代器
 
-[迭代器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/description-of-iterator-features)即列表生成器。在区块编辑器面板中可先添加一个或多个组件组成的单元模板（即成组），再通过迭代器的数据驱动，生成一个列表，列表项的数量与迭代器数据中数组的长度一致。
+[迭代器](/zh/datav/datav-7-0/user-guide/description-of-iterator-features)即列表生成器。在区块编辑器面板中可先添加一个或多个组件组成的单元模板（即成组），再通过迭代器的数据驱动，生成一个列表，列表项的数量与迭代器数据中数组的长度一致。
 
 ## **发布与预览**
 
-在区块管理中，[发布与预览功能](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-blocks#e684d7186a2i7)使用户能够在正式发布前预览区块，确保内容和样式符合预期。通过预览区块，用户可以实时查看效果并进行必要的调整和优化，从而提升区块的质量和一致性。
+在区块管理中，[发布与预览功能](/zh/datav/datav-7-0/user-guide/manage-blocks#e684d7186a2i7)使用户能够在正式发布前预览区块，确保内容和样式符合预期。通过预览区块，用户可以实时查看效果并进行必要的调整和优化，从而提升区块的质量和一致性。

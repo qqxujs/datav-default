@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 什么是蓝图编辑器 %{#117859}% 
 
 本文为您介绍DataV蓝图编辑器的概念、优势和简单的操作步骤。
 
@@ -42,6 +42,6 @@
 如果左侧没有**导入节点**，可返回画布编辑器，选中图层，右键**导出到蓝图编辑器**。
 4. 根据交互逻辑进行节点连线。
 5. 在右侧的配置面板中，完成逻辑节点配置，包括节点名称、上下游事件、上下游动作以及处理方法等。  
-添加组件、组件连线、逻辑节点配置的详细操作方法，请参见[蓝图编辑器详细功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/features-1#concept-2334130)。
+添加组件、组件连线、逻辑节点配置的详细操作方法，请参见[蓝图编辑器详细功能介绍](/zh/datav/datav-6-0/user-guide/features-1#concept-2334130)。
 6. 配置完成后，单击页面右上角的**预览**（![预览图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9169713461/p66740.png)）图标，查看可视化应用交互效果。
 7. 预览成功后，单击页面右上角的**发布**（![发布图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2960888951/p66810.png)）图标，发布可视化应用。

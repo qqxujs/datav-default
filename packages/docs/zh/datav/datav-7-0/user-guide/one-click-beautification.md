@@ -5,7 +5,7 @@
 ## 使用流程
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
-2. 在**工作台**页面，[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)或者单击一个已有数据看板的**编辑**按钮。
+2. 在**工作台**页面，[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)或者单击一个已有数据看板的**编辑**按钮。
 3. 进入画布编辑器页面，单击编辑器页面上方的美化图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557990761/p532382.png)。
 4. 单击**一键美化**前的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557990761/p532383.png)图标，启用美化功能。
 

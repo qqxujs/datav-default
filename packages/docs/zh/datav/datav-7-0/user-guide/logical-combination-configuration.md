@@ -8,7 +8,7 @@
 
 ## **前提条件**
 
-已创建数据看板，支持[使用模板创建](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布创建](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)、[使用AI智能生成](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)。
+已创建数据看板，支持[使用模板创建](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布创建](/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)、[使用AI智能生成](/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)。
 
 ## **进入逻辑组合**
 
@@ -16,7 +16,7 @@
 2. 在**全部应用**界面，鼠标悬停至目标看板，单击**编辑**。
 3. 在数据看板的编辑页面，单击顶部菜单栏的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6259567271/p853682.png)图标，进入蓝图编辑器，单击主画布左侧的**逻辑组合**，显示逻辑组合配置**。**
 
-进行逻辑组合配置前，您需先了解蓝图编辑器的[界面布局](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#section-lh4-o9o-299)及[操作介绍](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#section-w05-9to-kmy)。
+进行逻辑组合配置前，您需先了解蓝图编辑器的[界面布局](/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#section-lh4-o9o-299)及[操作介绍](/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7#section-w05-9to-kmy)。
 
 ## **新增逻辑组合**
 

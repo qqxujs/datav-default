@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 表格组件 %{#346748}% 
 
 * [轮播列表](/zh/datav/datav-6-0/user-guide/list-carousel-2)
 * [键值表格](/zh/datav/datav-6-0/user-guide/key-table)

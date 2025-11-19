@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 桌面版开发工具使用说明 %{#111523}% 
 
 本文介绍桌面版开发工具的使用方法，包括下载和安装、登录、工作区管理和组件管理，帮助您快速使用桌面版开发工具开发组件，并进行发布。
 
@@ -12,7 +12,7 @@
 系统提供MAC、WIN、Terminal三种版本的工具供您选择：  
   * MAC：适用于macOS操作系统。
   * WIN：适用于Windows操作系统。
-  * Terminal：适用于Linux操作系统，单击下载后会跳转至开发指南的[组件开发快速入门](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/getting-started-for-developers#concept-k5c-j1l-q2b "本文介绍使用DataV开发工具完成组件开发的方法。")文档，请参考文档安装开发工具套件。
+  * Terminal：适用于Linux操作系统，单击下载后会跳转至开发指南的[组件开发快速入门](/zh/datav/datav-6-0/user-guide/getting-started-for-developers#concept-k5c-j1l-q2b "本文介绍使用DataV开发工具完成组件开发的方法。")文档，请参考文档安装开发工具套件。
 5. （MAC和WIN版本）下载完成后，双击应用进行安装。
 
 ## 登录桌面版开发工具
@@ -66,11 +66,11 @@
 |    ----    |    ----    |
 |    组件名称    |    输入组件名称。    |
 |    组件类型    |    单击下拉框选择组件类型。    |
-|    发布ID    |    单击下拉框选择可用的组件包，如果没有可用的组件包，可单击\+ 自定义，跳转到DataV控制台上创建组件包，具体方法请参见[管理组件包](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/manage-widget-groups#task-2376798 "通过组件包管理功能，您可以将开发完成的组件上传至组件包中进行管理，并对特定人员进行授权，实现组件共享。")。    |
+|    发布ID    |    单击下拉框选择可用的组件包，如果没有可用的组件包，可单击\+ 自定义，跳转到DataV控制台上创建组件包，具体方法请参见[管理组件包](/zh/datav/datav-6-0/user-guide/manage-widget-groups#task-2376798 "通过组件包管理功能，您可以将开发完成的组件上传至组件包中进行管理，并对特定人员进行授权，实现组件共享。")。    |
 |    组件ID    |    输入组件ID，例如basic-text。    |
 3. 信息填写完成后，单击创建即可完成组件的创建。  
 组件创建成功后，即可在中心画布区中查看组件，并在右侧的配置栏对组件进行配置。![查看已创建的组件界面](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8938829951/p41177.png)  
-组件创建成功后，在本地的组件包文件夹下会生成index.js和package.json文件，参考[文档结构](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/files-overview#concept-j52-1cl-q2b "本文介绍开发者在开发DataV组件时，需要遵循的文件结构。")编辑这两个文件，可自定义组件的配置项。![自定义组件配置项](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8938829951/p41181.png)
+组件创建成功后，在本地的组件包文件夹下会生成index.js和package.json文件，参考[文档结构](/zh/datav/datav-6-0/user-guide/files-overview#concept-j52-1cl-q2b "本文介绍开发者在开发DataV组件时，需要遵循的文件结构。")编辑这两个文件，可自定义组件的配置项。![自定义组件配置项](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8938829951/p41181.png)
 
 ## 预览组件
 

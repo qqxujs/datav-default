@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# BI分析模式的限制说明 %{#289073}% 
 
 本文介绍BI分析模式在使用中的限制、产生变化时的操作及默认自动化配置等说明。
 
@@ -16,7 +16,7 @@
 |    ----    |    ----    |
 |    图层移动    |    由于分析器内部有且仅有一个组件，因此将其它组件拖往分析器内部时的操作会失败并报错。同时，分析模式组件不可单独拖动，拖动后会提示是否需要连同分析器一并移动。    |
 |    复制和收藏    |    单独复制和收藏分析组件是不允许的，编辑器会提示是否需要连同分析器一并复制和收藏。    |
-|    导出到蓝图    |    分析模式组件无法导出到蓝图。此外，分析器可以导出到蓝图，详情请参见[分析器蓝图编辑器交互配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#section-e70-vfl-jwm)。    |
+|    导出到蓝图    |    分析模式组件无法导出到蓝图。此外，分析器可以导出到蓝图，详情请参见[分析器蓝图编辑器交互配置](/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#section-e70-vfl-jwm)。    |
 |    转为区块    |    分析模式组件及分析器不可转换为区块。包含分析模式组件的组或者表单组同样不可转为区块。    |
 * 产生变化的操作
 
@@ -57,7 +57,7 @@
   * 分类玫瑰
   * 雷达图
 
-**说明** BI分析详细组件说明，请参见[BI分析组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/bi-analysis-widgets/#concept-2089302)。
+**说明** BI分析详细组件说明，请参见[BI分析组件](/zh/datav/datav-6-0/user-guide/bi-analysis-widgets/#concept-2089302)。
 * 基础平面地图 3.0。
   * 矢量散点层
   * 图标散点层

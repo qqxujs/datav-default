@@ -4,7 +4,7 @@
 
 ## **概述**
 
-DataV大学生科研就业助力计划是阿里云DataV协同[云工开物](https://university.aliyun.com/)项目，面向高校学生的科研、就业竞争力提升的专项计划。DataV为全体在校大学生免费提供[DataV-Board](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/what-is-datav-1#undefined)和[DataV-Atlas](https://help.aliyun.com/zh/datav/datav-atlas/product-overview/what-is-datav-atlas#undefined)两款数据可视化产品，既可以用于科研数据展示、小组作业作品等学术需求；同时又能通过开发实际数据分析项目，积累实战经验，提升就业竞争力。
+DataV大学生科研就业助力计划是阿里云DataV协同[云工开物](https://university.aliyun.com/)项目，面向高校学生的科研、就业竞争力提升的专项计划。DataV为全体在校大学生免费提供[DataV-Board](/zh/datav/datav-7-0/product-overview/what-is-datav-1#undefined)和[DataV-Atlas](/zh/datav/datav-atlas/product-overview/what-is-datav-atlas#undefined)两款数据可视化产品，既可以用于科研数据展示、小组作业作品等学术需求；同时又能通过开发实际数据分析项目，积累实战经验，提升就业竞争力。
 
 **说明** 
 

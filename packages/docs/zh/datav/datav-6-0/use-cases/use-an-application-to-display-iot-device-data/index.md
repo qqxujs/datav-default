@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 使用DataV可视化应用展示IoT设备数据 %{#92025}% 
 
 本文介绍如何基于阿里云产品和服务实现设备数据大屏展示。
 
@@ -19,9 +19,9 @@
 
 本案例的整体步骤如下： 
 
-1. [创建RDS MySQL数据库表](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/create-an-apsaradb-rds-for-mysql-database-table#task-srh-hxh-ffb)。
-2. [创建DataHub项目](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/create-a-datahub-project#task-dyg-dxh-ffb)。
-3. [配置物联网平台设备](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/configure-iot-platform-devices#task-e55-rnh-ffb)。
-4. [运行MQTT客户端](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/run-mqtt-client#task-zms-4xh-ffb)。
-5. [配置DataV数据源](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/configure-a-datav-data-source#task-arn-mxh-ffb)。
-6. [查看结果](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/view-the-results#task-nps-rxh-ffb)。
+1. [创建RDS MySQL数据库表](/zh/datav/datav-6-0/use-cases/create-an-apsaradb-rds-for-mysql-database-table#task-srh-hxh-ffb)。
+2. [创建DataHub项目](/zh/datav/datav-6-0/use-cases/create-a-datahub-project#task-dyg-dxh-ffb)。
+3. [配置物联网平台设备](/zh/datav/datav-6-0/use-cases/configure-iot-platform-devices#task-e55-rnh-ffb)。
+4. [运行MQTT客户端](/zh/datav/datav-6-0/use-cases/run-mqtt-client#task-zms-4xh-ffb)。
+5. [配置DataV数据源](/zh/datav/datav-6-0/use-cases/configure-a-datav-data-source#task-arn-mxh-ffb)。
+6. [查看结果](/zh/datav/datav-6-0/use-cases/view-the-results#task-nps-rxh-ffb)。

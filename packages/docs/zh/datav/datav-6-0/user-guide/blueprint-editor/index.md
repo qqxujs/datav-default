@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 蓝图编辑器 %{#125627}% 
 
 * [什么是蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor)
 * [节点编程差异对比](/zh/datav/datav-6-0/user-guide/comparison-of-node-programming-differences)

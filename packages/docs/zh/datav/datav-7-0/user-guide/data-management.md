@@ -4,8 +4,8 @@
 
 ## **前提条件**
 
-* 已将所需数据添加为DataV-Board 7.0的数据源，详情请参见[数据源分类](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/data-source-categories)。
-* 已创建数据看板并添加相应组件。详情请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[配置组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)。
+* 已将所需数据添加为DataV-Board 7.0的数据源，详情请参见[数据源分类](/zh/datav/datav-7-0/user-guide/data-source-categories)。
+* 已创建数据看板并添加相应组件。详情请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[配置组件](/zh/datav/datav-7-0/user-guide/configuration-items)。
 
 ## **进入数据管理**
 
@@ -27,7 +27,7 @@
 您可按需配置单个数据源信息，也可批量更改数据源信息。
 
 * **配置单个数据源**  
-单击目标数据源类型下的组件，即可在右侧**数据源**页签按需配置数据源的数据类型、过滤器、数据映射等信息，详情请参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9067047271/p853236.png)
+单击目标数据源类型下的组件，即可在右侧**数据源**页签按需配置数据源的数据类型、过滤器、数据映射等信息，详情请参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9067047271/p853236.png)
 * **批量修改数据源**  
 通常，如需统一多个组件的数据来源（例如，将所有使用静态数据的组件，更改为使用同一个RDS for MySQL数据库数据），可通过批量操作快速实现，操作步骤如下图。
 

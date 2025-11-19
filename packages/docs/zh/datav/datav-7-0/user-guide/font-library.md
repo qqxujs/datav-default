@@ -34,18 +34,18 @@
 3. 单击目标组件，在右侧**样式**页签配置字体信息。
 
 **说明**  
-在**样式**页签中，不同组件设置字体的位置可能存在差异，具体请以实际界面为准，或参考具体[组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widgets-on-pcs/)的配置页面。
+在**样式**页签中，不同组件设置字体的位置可能存在差异，具体请以实际界面为准，或参考具体[组件](/zh/datav/datav-7-0/user-guide/widgets-on-pcs/)的配置页面。
 
 ### **批量修改组件字体**
 
 批量修改可通过如下两种方式操作：
 
-* 通过[全局搜索](https://help.aliyun.com/zh/datav/global-search)修改，操作步骤如下图。
+* 通过[全局搜索](/zh/datav/global-search)修改，操作步骤如下图。
 
 **说明**  
 该方式仅支持修改组件的字体样式及文字粗细。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808379271/p862578.png)
-* 通过[美化工具](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/smart-theme-for-canvas-on-pcs#f059156079qzm)修改，操作步骤如下图。
+* 通过[美化工具](/zh/datav/datav-7-0/user-guide/smart-theme-for-canvas-on-pcs#f059156079qzm)修改，操作步骤如下图。
 
 **说明**  
 部分组件暂不支持主题功能，具体请以实际界面显示为准。  

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 条形图 %{#216576}% 
 
 * [条形图（v5.0及以上版本）](/zh/datav/datav-6-0/user-guide/bar-chart-of-v5-0-and-later)
 * [水平基本柱状图（v4.0及以上版本）](/zh/datav/datav-6-0/user-guide/the-horizontal-stacked-bar-chart-widget)

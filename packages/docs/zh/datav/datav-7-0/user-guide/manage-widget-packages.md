@@ -25,7 +25,7 @@
   * 如果审核成功，您可以单击**组件开发 > 组件包 > 组件包开发**，查看审核通过的组件包并上传您的组件。  
 
 **重要**  
-  组件包创建成功后，您会获取到一个**开发者识别码**，请妥善保管，此信息为您登录DataV开发者控制台的凭证，详情请参见[组件开发快速入门](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/get-started-with-widget-development-of-datav-7)。
+  组件包创建成功后，您会获取到一个**开发者识别码**，请妥善保管，此信息为您登录DataV开发者控制台的凭证，详情请参见[组件开发快速入门](/zh/datav/datav-7-0/user-guide/get-started-with-widget-development-of-datav-7)。
   * 如果审核失败，排查您在填写组件包信息时，是否出现了以下错误。  
 
     * 英文名ID使用了非法字符或者是产品锁定的关键字。

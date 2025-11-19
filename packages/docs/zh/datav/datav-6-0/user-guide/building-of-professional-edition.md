@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 建筑 %{#422797}% 
 
 建筑是三维城市构建器的基底图层，可配置选择L1和L2两种数据精度，本文分别从L1和L2两种精度介绍建筑的样式和数据配置，包括建筑的阴影、发光强度和建筑类型等样式配置。建筑是程序化生成的几何增强的建筑体。本文介绍建筑配置项的含义。
 
@@ -6,7 +6,7 @@
 
 **说明** 
 
-如果图层列表中没有**建筑**，说明您还未添加**建筑**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。
+如果图层列表中没有**建筑**，说明您还未添加**建筑**图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。
 
 ## 配置
 
@@ -40,7 +40,7 @@
 
 ![建筑-L1精度](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0629657461/p416424.png)
 
-**重新选择数据**：在数据面板内可以单击下方**重新选择数据**，打开**选择范围**对话框，重新选择仅针对建筑图层的数据范围，详情请参见[使用官方基底数据方式创建](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/create-3d-city-projects#section-bsj-xjl-qx7)中的选择场景范围区域的操作步骤。
+**重新选择数据**：在数据面板内可以单击下方**重新选择数据**，打开**选择范围**对话框，重新选择仅针对建筑图层的数据范围，详情请参见[使用官方基底数据方式创建](/zh/datav/datav-6-0/user-guide/create-3d-city-projects#section-bsj-xjl-qx7)中的选择场景范围区域的操作步骤。
 
 ## 蓝图编辑器交互配置
 

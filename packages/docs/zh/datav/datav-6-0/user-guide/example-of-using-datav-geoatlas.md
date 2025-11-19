@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 案例演示 %{#607556}% 
 
 本文通过**行政区下钻到区县**和**自定义区域下钻**两个案例结合基础平面地图，演示如何使用地理小工具。
 
@@ -46,7 +46,7 @@
   6. 在地图面板左侧单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4621567761/p574872.png)图标，使用多边形工具框选出**杭州西湖风景名胜区**，修改`name`字段为**西湖景区**。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4621567761/p574874.png)
   7. 重复上一步，在西湖景区内使用多边形工具框选灵隐寺附近区域并放大，修改`name`字段为**灵隐寺**。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4621567761/p574880.png)
   8. 选择对应区域，单击属性表面板的**导出GeoJSON**，分别导出杭州市、杭州市东北部、西湖景区、灵隐寺的GeoJSON文件到本地。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4621567761/p574884.png)
-  9. 选择**层级生成器**，参考[层级树面板功能详解](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-a-layer-generator#section-fgj-tld-qb1)，依次绑定浙江省、杭州市、杭州市东北部、西湖景区和灵隐寺的GeoJSON文件到层级节点中。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4621567761/p574893.png)
+  9. 选择**层级生成器**，参考[层级树面板功能详解](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-a-layer-generator#section-fgj-tld-qb1)，依次绑定浙江省、杭州市、杭州市东北部、西湖景区和灵隐寺的GeoJSON文件到层级节点中。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4621567761/p574893.png)
   10. 单击**导出层级（DataV专有）**，将已制作的层级数据保存到本地。
 7. 选择**自定义区域下钻层**的**数据**面板下的**自定义topojson数据接口**，单击**配置数据源**。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4621567761/p574786.png)
 8. 设置**数据源类型**为静态数据。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4621567761/p574787.png)

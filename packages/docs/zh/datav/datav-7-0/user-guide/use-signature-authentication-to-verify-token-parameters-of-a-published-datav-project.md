@@ -4,7 +4,7 @@
 
 ## 使用流程
 
-1. **生成Token**：在数据看板开发完成后，使用Token验证的方式发布数据看板，具体请参见[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3390807271/p851124.png)
+1. **生成Token**：在数据看板开发完成后，使用Token验证的方式发布数据看板，具体请参见[发布数据看板](/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3390807271/p851124.png)
 2. **请求签名：**参见[携带自定义签名参数的URL计算](#section-sma-f4e-4vb)或者[不携带自定义签名参数的URL计算](#a71887dc69iy6)，计算数据看板的URL。
 
   1. 将screenID与当前时间（毫秒）拼接起来，并用    |（竖线）分隔开。
@@ -24,7 +24,7 @@
 
 在使用Token自定义参数签名校验前，请确保： 
 
-* 数据看板使用Token验证的方式进行发布，具体请参见[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。
+* 数据看板使用Token验证的方式进行发布，具体请参见[发布数据看板](/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management#47b5aa3064p7x)。
 * 数据看板以GET方式在URL中传递参数（直接在URL后面加参数）。
 * 数据看板URL中传递的参数要求不能被篡改。
 

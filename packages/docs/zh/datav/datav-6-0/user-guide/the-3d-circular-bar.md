@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 3D环图 %{#427580}% 
 
 本文介绍3D环图的图表样式和配置面板的功能。
 
@@ -10,7 +10,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0869127761/p573052.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -30,7 +30,7 @@
   * **内外径比例**：拖动滑块设置环图内外径比例值。
   * **高度映射**：设置3D环图的高度映射，当开启高度映射开关时，环图各部分高度根据数据中的value值进行映射；当关闭高度映射开关时，环图各部分高度都相等。
   * **高度比例**：设置3D环图的高度比例。
-  * **环图颜色**：设置3D环图的颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同环形饼块的映射颜色样式。
+  * **环图颜色**：设置3D环图的颜色，请参见[颜色映射器使用说明](/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同环形饼块的映射颜色样式。
   * **小数合并**：限制展现的切片数量，并将剩下的切片合并成一个总的切片，同时可以设置合并后的分类名。单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808332271/p274464.jpg)图标可开启或关闭小数合并 。
   * **环图标注**：环图的标注样式，单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808332271/p274464.jpg)图标，控制环图标注配置项的显隐。
 
@@ -84,7 +84,7 @@
 |    **后期效果**    |    设置三维图形的后期效果。高光：设置后期效果中高光的光晕强度。景深：设置后期效果中景深的大小和模糊半径。    |
 * **条件**：条件样式说明。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0869127761/p573065.png)
 
-**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中条件样式配置并新增一个同样配置的条件样式。具体配置说明请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
+**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中条件样式配置并新增一个同样配置的条件样式。具体配置说明请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
 
 **扇形颜色**：打开开关，配置该系列条件样式中的扇形颜色；关闭开关，无法配置该系列条件下的扇形颜色。
 
@@ -105,8 +105,8 @@
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 数据面板（分析模式）
@@ -120,7 +120,7 @@
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0869127761/p573074.png)
 
-BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
+BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
 
 ### **配置字段说明**
 
@@ -139,8 +139,8 @@ BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数
 
 |    **交互事件**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击环图时**    |    选中**启用**，开启组件交互功能。当单击3D环图的环形块时，会触发数据请求，抛出回调值，动态加载不同扇形的数据。默认抛出数据中的name和value值，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
-|    **当图例被点击时**    |    选中**启用**，开启组件交互功能。当单击3D环图的图例时，会触发数据请求，抛出回调值，动态加载不同图例的数据。默认抛出数据中的name和checked值，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当点击环图时**    |    选中**启用**，开启组件交互功能。当单击3D环图的环形块时，会触发数据请求，抛出回调值，动态加载不同扇形的数据。默认抛出数据中的name和value值，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当图例被点击时**    |    选中**启用**，开启组件交互功能。当单击3D环图的图例时，会触发数据请求，抛出回调值，动态加载不同图例的数据。默认抛出数据中的name和checked值，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
 
 ## 蓝图编辑器交互配置
 

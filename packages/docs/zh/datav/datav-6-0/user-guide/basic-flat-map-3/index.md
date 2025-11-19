@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 基础平面地图 3.0 %{#313887}% 
 
 * [地图容器（v3.x版本）](/zh/datav/datav-6-0/user-guide/map-container-of-v3-x-for-datav-6)
 * [高德底图层（v3.x版本）](/zh/datav/datav-6-0/user-guide/amap-basemap-layer-of-v3-x)

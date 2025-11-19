@@ -8,7 +8,7 @@
 
 ## **样式面板**![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6895666071/p764138.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -23,13 +23,13 @@
 |    ----    |    ----    |
 |    **图表边距**    |    单击![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，控制图表边距的显隐。打开开关后，可配置进度环图区域与组件上下左右四个边界之间的距离，单位默认px。    |
 |    **半径尺寸**    |    设置进度环图的内径尺寸和外径尺寸，单位%。    |
-|    **环形颜色**    |    设置进度环图存在进度时的背景色和无进度时的背景色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
+|    **环形颜色**    |    设置进度环图存在进度时的背景色和无进度时的背景色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
 |    **环形描边**    |    设置进度环图的环形描边的描边样式，包括描边的线型、描边粗细和描边颜色。    |
 |    **投影样式**    |    设置进度环图组件的平面投影样式，包括模糊颜色、模糊半径以及环图圆心相对于组件边框中心的X轴和Y轴上的偏移量。    |
-|    **中心内容**    |    设置进度环图的中心内容的文本样式和图形样式。**文本** **标题**：设置中心内容文本的标题名称。**标题样式**：设置中心内容文本的标题的标题样式，包括字体、文字粗细、字号和颜色。**位置**：设置中心内容文本相对于组件中心点的X轴偏移量和Y轴偏移量。**数字**：设置数字内容的前缀样式和后缀样式。**数字样式**：设置数字内容的数字样式，包括字体、文字粗细、字号和颜色。**位置**：设置数字内容文本相对于组件中心点的X轴偏移量和Y轴偏移量。**图形** **图片链接**：设置进度环图中心的图片链接。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片输入框下方的**更改**或**删除**，更改或删除图片。其他设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。**图片样式**：设置进度环图中心的图片样式。包括图片的宽度、高度、透明度和圆角样式。**偏移量**：设置进度环图中心的图片相对于组件图表边界的水平位置、垂直位置、水平偏移量和垂直偏移量。    |
+|    **中心内容**    |    设置进度环图的中心内容的文本样式和图形样式。**文本** **标题**：设置中心内容文本的标题名称。**标题样式**：设置中心内容文本的标题的标题样式，包括字体、文字粗细、字号和颜色。**位置**：设置中心内容文本相对于组件中心点的X轴偏移量和Y轴偏移量。**数字**：设置数字内容的前缀样式和后缀样式。**数字样式**：设置数字内容的数字样式，包括字体、文字粗细、字号和颜色。**位置**：设置数字内容文本相对于组件中心点的X轴偏移量和Y轴偏移量。**图形** **图片链接**：设置进度环图中心的图片链接。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片输入框下方的**更改**或**删除**，更改或删除图片。其他设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。**图片样式**：设置进度环图中心的图片样式。包括图片的宽度、高度、透明度和圆角样式。**偏移量**：设置进度环图中心的图片相对于组件图表边界的水平位置、垂直位置、水平偏移量和垂直偏移量。    |
 * **条件**：条件样式说明。
 
-**条件样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体的条件样式配置说明，请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
+**条件样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的排列样式。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体的条件样式配置说明，请参见[条件树使用说明](/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
 
 **进度颜色**：打开开关，配置该系列条件样式中的进度颜色；关闭开关，无法配置该系列条件下的颜色。
 
@@ -41,7 +41,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |

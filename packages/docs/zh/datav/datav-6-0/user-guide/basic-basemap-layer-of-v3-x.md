@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 基础底图层（v3.x版本） %{#313906}% 
 
 本文介绍基础底图层的图表样式和各配置项的含义。
 
@@ -11,7 +11,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2310628761/p580180.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * ****通用**：基础底图层通用配置参数。
 
 |    **参数**    |    **说明**    |
@@ -44,7 +44,7 @@
   当您使用的瓦片服务为高德热力或高德实时路况时，需开启此选项，用来自动刷新获取最新的瓦片数据。
 
 ****刷新间隔**：瓦片自动刷新的时间间隔，单位为分钟。
-  * ****叠加蒙版**：单击左侧![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，即可开启叠加蒙版后底图层的蒙版颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+  * ****叠加蒙版**：单击左侧![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，即可开启叠加蒙版后底图层的蒙版颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
   * ****风格滤镜**：单击左侧![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1986941261/p274464.jpg)图标，即可开启滤镜配置。开启后，可以为底图层添加滤镜效果，可设置滤镜的****亮度**、****对比度**、****灰度**、****色相**、****反转**、****饱和度**和****墨度**。
 
 ## 数据面板

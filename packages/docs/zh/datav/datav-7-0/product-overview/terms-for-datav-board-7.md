@@ -4,23 +4,23 @@
 
 ## 工作空间
 
-[工作空间](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/workspace-overview)是DataV-Board管理数据看板的基本单元，您的数据源、数据集、数据看板、组件、设计资源等所有资源均在单个工作空间下进行。您可以使用工作空间管理功能，自由管理不同类别的可视化应用和工作空间的使用权限。
+[工作空间](/zh/datav/datav-7-0/user-guide/workspace-overview)是DataV-Board管理数据看板的基本单元，您的数据源、数据集、数据看板、组件、设计资源等所有资源均在单个工作空间下进行。您可以使用工作空间管理功能，自由管理不同类别的可视化应用和工作空间的使用权限。
 
 ## 数据看板
 
-使用DataV-Board创建的基于数据生成的看板，即为数据看板。DataV-Board能将数据由单一的数字转化为各种动态的可视化图表，从而实时地将数据展示给用户。如果您想快速创建一个数据看板，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
+使用DataV-Board创建的基于数据生成的看板，即为数据看板。DataV-Board能将数据由单一的数字转化为各种动态的可视化图表，从而实时地将数据展示给用户。如果您想快速创建一个数据看板，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
 
 ## 数据源
 
-在使用DataV-Board创建数据看板时，需要先指定原始数据所在的数据源。DataV-Board支持数据库、文件、API等多种类型的数据源。如果您想了解如何添加数据源，请参见[添加数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-mysql-data-source)。
+在使用DataV-Board创建数据看板时，需要先指定原始数据所在的数据源。DataV-Board支持数据库、文件、API等多种类型的数据源。如果您想了解如何添加数据源，请参见[添加数据源](/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-mysql-data-source)。
 
 ## 画布
 
-画布也叫画布编辑器，是DataV-Board最主要的视觉功能区域。通过画布可以实现页面的布局与配色，各图表的大小位置排布，以及看板的可视化预览。如果您想了解如何使用画布，请参见[PC端画布编辑器概览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-pcs)。
+画布也叫画布编辑器，是DataV-Board最主要的视觉功能区域。通过画布可以实现页面的布局与配色，各图表的大小位置排布，以及看板的可视化预览。如果您想了解如何使用画布，请参见[PC端画布编辑器概览](/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-pcs)。
 
 ## 蓝图
 
-蓝图也叫蓝图编辑器，是DataV-Board最主要的逻辑功能区域。通过蓝图可以实现节点之间的逻辑连线和交互配置，并在调试预览页面进行日志管理。如果您想了解如何使用蓝图，请参见[什么是蓝图编辑器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/what-is-blueprint-editor-1)。
+蓝图也叫蓝图编辑器，是DataV-Board最主要的逻辑功能区域。通过蓝图可以实现节点之间的逻辑连线和交互配置，并在调试预览页面进行日志管理。如果您想了解如何使用蓝图，请参见[什么是蓝图编辑器](/zh/datav/datav-7-0/user-guide/what-is-blueprint-editor-1)。
 
 ## 组件
 
@@ -28,11 +28,11 @@
 
 ## 区块
 
-[区块](https://help.aliyun.com/zh/datav/block-overview)是基于基础组件封装的一个黑盒工具，定义内部外部的数据传输，对内可以封装业务相关的组件样式、组件布局、默认数据（仅支持静态数据和API数据源）和蓝图逻辑，对外可定义业务相关的区块数据接口。
+[区块](/zh/datav/block-overview)是基于基础组件封装的一个黑盒工具，定义内部外部的数据传输，对内可以封装业务相关的组件样式、组件布局、默认数据（仅支持静态数据和API数据源）和蓝图逻辑，对外可定义业务相关的区块数据接口。
 
 ## 设计资源
 
-[设计资源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-design-resources)是指用以增强数据看板视觉效果的设计元素，包括图片、视频和模型等。
+[设计资源](/zh/datav/datav-7-0/user-guide/overview-of-design-resources)是指用以增强数据看板视觉效果的设计元素，包括图片、视频和模型等。
 
 ## 空间数据管理
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 天空盒层 %{#95981}% 
 
 本文介绍天空盒层的图表样式和各配置项的含义。
 
@@ -9,7 +9,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8455778761/p582934.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **px/nx/py/ny/pz/nz**：该六个配置项分别表示盒模型六个贴面在坐标系中不同方向的贴图地址，如下图所示。手动输入贴图的URL地址，可设置盒模型样式。![盒模型原理图](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7668068951/p21732.png)
 * **S轴重复**：在横轴方向上贴图的重复数量。
 * **T轴重复**：在竖轴方向上贴图的重复数量。

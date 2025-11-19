@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 我的数据 %{#290827}% 
 
 在我的数据模块中，您可以管理数据页面、上传数据等。本文为您详细介绍这些功能。
 
 ## **进入我的数据**
 
-在[空间构建平台](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/spatial-data-construction-platform-for-datav-6/#section-2u1-gkv-0nt)的左侧标签栏中选择**我的数据**。
+在[空间构建平台](/zh/datav/datav-6-0/user-guide/spatial-data-construction-platform-for-datav-6/#section-2u1-gkv-0nt)的左侧标签栏中选择**我的数据**。
 
 ## **数据分组管理**
 
@@ -23,7 +23,7 @@
 
 |    **功能**    |    **说明**    |
 |    ----    |    ----    |
-|    **上传数据**    |    数据管理页面中支持[上传数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/upload-data-for-datav-6)的类型有**矢量**、**栅格**、**地理服务**、**三维模型**、**三维瓦片**和**业务数据**六大类，不同类型的数据可上传的数据格式互不相同。    |
+|    **上传数据**    |    数据管理页面中支持[上传数据](/zh/datav/datav-6-0/user-guide/upload-data-for-datav-6)的类型有**矢量**、**栅格**、**地理服务**、**三维模型**、**三维瓦片**和**业务数据**六大类，不同类型的数据可上传的数据格式互不相同。    |
 |    **预览数据**    |    鼠标移动到某个数据上方，单击该数据中的**预览**，在预览页面您可以切换两种模式查看数据的显示样式。![预览数据](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0090242561/p438743.png)空间地图数据展示方式共两种，可以单击数据预览页面右上角的![图形预览](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4453360261/p262470.png)或![表格预览](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4453360261/p262474.png)图标进行切换。**图形预览**：数据会以图形的样式展示在地图上。单击地图上的某个图形会显示当前图形的**属性信息**浮窗内容。![图形展示](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4453360261/p243083.png)**表格明细数据预览**：数据以明细条列的表格样式展示。![数据明细展示](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4453360261/p243086.jpg)    |
 |    **编辑数据**    |    鼠标移动到某个数据上方，单击![重命名](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0512128161/p243133.jpg)图标，打开弹窗后自定义修改数据名称，单击**OK**完成修改。    |
 |    **删除数据**    |    鼠标移动到某个数据上方，单击![删除](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0512128161/p243142.jpg)图标，打开弹窗后单击**OK**即可删除当前数据。    |

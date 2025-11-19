@@ -1,22 +1,22 @@
-<!DOCTYPE html> 
+# 混合散点层（v2.x版本） %{#153633}% 
 
 混合散点层是基础平面地图的子组件，能够以散点的形式表现地理位置上的点数据信息。混合散点层支持独立的样式、数据和交互配置，包括混合散点层的散点样式、标注样式、弹框样式以及交互配置等。本文介绍混合散点层各配置项的含义。
 
 **重要** 
 
-当前为v2.x版本的混合散点层子组件指导文档，如需查看该子组件v1.x版本的文档内容详情，请参见[散点层（v1.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/scatter-layer-2#concept-z1d-fzm-cgb)。
+当前为v2.x版本的混合散点层子组件指导文档，如需查看该子组件v1.x版本的文档内容详情，请参见[散点层（v1.x版本）](/zh/datav/datav-6-0/user-guide/scatter-layer-2#concept-z1d-fzm-cgb)。
 
 单击**子组件管理**下方的**混合散点层**，进入配置面板配置**混合散点层**的样式和数据。 
 
 **说明** 
 
-如果**子组件管理**中没有**混合散点层**，说明您还未添加**混合散点层**子组件，请参见[地图容器（v2.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-container#concept-2400968)进行添加。
+如果**子组件管理**中没有**混合散点层**，说明您还未添加**混合散点层**子组件，请参见[地图容器（v2.x版本）](/zh/datav/datav-6-0/user-guide/map-container#concept-2400968)进行添加。
 
 ## 配置
 
 ![4014c82a655f496d6b54e5fd573ba6a1](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8580833371/p883379.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **可见级别**：设置混合散点层的可见级别值，在设定的级别范围内混合散点层可见，级别之外不可见。
 * **默认散点配置**：设置散点类型、半径、颜色和边线选项等参数。  
 
@@ -55,7 +55,7 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **显示字段**    |    与数据面板中的数据源配合使用，需要与数据中的某个字段名匹配。例如设置为**name**，那么可视化应用上的散点标注会显示为name字段的值。 图 3\. 混合散点层的标注字段![混合散点层的标注字段](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5801884261/p81432.png)图 4\. 混合散点层数据![混合散点层数据源](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2758068951/p81428.png)    |
-|    **文本样式**    |    设置标注文字的字体、文字粗细、字号、颜色和阴影色。请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改文本颜色。    |
+|    **文本样式**    |    设置标注文字的字体、文字粗细、字号、颜色和阴影色。请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改文本颜色。    |
 |    **相对位置**    |    标注文字相对于散点的位置，包括**中心**、**顶部**、**底部**、**左侧**和**右侧**。    |
   * **弹框**：在预览或发布页面，单击散点出现的弹框样式。单击左侧的![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808332271/p274464.jpg)图标，可控制弹框的显隐。  
 
@@ -71,7 +71,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **文本样式**    |    设置弹框内文本的字体、文字粗细、字号、颜色和阴影色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行颜色修改。    |
+|    **文本样式**    |    设置弹框内文本的字体、文字粗细、字号、颜色和阴影色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行颜色修改。    |
 |    **行高比例**    |    设置弹框格式的行高比例值。    |
 |    **圆角半径**    |    设置弹框的圆角半径值，数值越大圆角越圆。    |
 |    **外边距**    |    设置弹框内文本与弹框四边的距离。    |
@@ -101,16 +101,16 @@
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 |    **配置项**    |    **说明**    |
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互
@@ -121,8 +121,8 @@
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击点时**    |    选中**启用**，开启组件交互功能。**混合散点层**子组件拥有交互配置，当单击某个散点时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
-|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。**混合散点层**子组件拥有交互配置，当鼠标移入到散点位置时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    **当点击点时**    |    选中**启用**，开启组件交互功能。**混合散点层**子组件拥有交互配置，当单击某个散点时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
+|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。**混合散点层**子组件拥有交互配置，当鼠标移入到散点位置时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。    |
 
 ## 蓝图编辑器交互配置
 

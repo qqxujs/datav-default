@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加OceanBase for MySQL数据源 %{#297361}% 
 
 本文为您介绍在DataV中添加OceanBase for MySQL数据源的方法，以及相关参数配置说明。OceanBase具有数据强一致、高可用、高性能、在线扩展、高度兼容SQL标准和主流关系型数据库、低成本等特点。
 

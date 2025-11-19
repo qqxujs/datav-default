@@ -6,16 +6,16 @@
 
 **说明** 
 * 当前组件目前仅供**DataV专业版**及以上版本用户使用。如需使用该组件，请先将版本升级至专业版及以上版本。
-* 如果图层列表中没有**环境光层**，说明您还未添加**环境光层**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
+* 如果图层列表中没有**环境光层**，说明您还未添加**环境光层**图层，请参见[添加子组件](/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5286469861/p694398.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * 环境光层配置面板中的参数说明。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **光照颜色**    |    环境光的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)修改颜色。    |
+|    **光照颜色**    |    环境光的颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)修改颜色。    |
 |    **光照强度**    |    拖动滑块设置环境光层的光照强度系数，取值范围为0\~10。    |
 
 ## 数据面板

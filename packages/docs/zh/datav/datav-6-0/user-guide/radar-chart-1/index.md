@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 雷达图 %{#252784}% 
 
 * [雷达图（v5.0及以上版本）](/zh/datav/datav-6-0/user-guide/radar-chart-of-v5-0-and-later)
 * [基本雷达图（v3.x版本）](/zh/datav/datav-6-0/user-guide/the-radar-chart-widget)

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 文字标签 %{#154402}% 
 
 文字标签是三维城市地图的子组件，支持独立的样式和数据配置，包括文字标签的显示大小配置、文字间距、文字背景等参数。文字标签用标签的形式在三维空间中展示文字。本文介绍文字标签配置项的含义。
 
@@ -12,10 +12,10 @@
 |    ----    |    ----    |
 |    显示大小    |    拖动滑块修改数据来设置文字标签的显示大小，取值范围在0.01\~1000之间。    |
 |    间距    |    拖动滑块修改数据来设置标签内文字距离标签框的左右上下距离值、文本之间的距离值和标签内图标与文字之间的距离值。    |
-|    背景    |    设置文字标签的背景颜色、背景边框的宽度和颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改颜色。    |
-|    标题文本    |    设置标签的标题文本样式，包括文本字体样式、字号大小、字体颜色和字体粗细，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标题文本颜色。    |
-|    文本分割线    |    设置标题文本和内容文本直接的分割线的颜色和线宽度值，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线颜色。    |
-|    内容文本    |    设置标签的内容文本样式，包括文本字体样式、字号大小、字体颜色和字体粗细，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改内容文本颜色。    |
+|    背景    |    设置文字标签的背景颜色、背景边框的宽度和颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改颜色。    |
+|    标题文本    |    设置标签的标题文本样式，包括文本字体样式、字号大小、字体颜色和字体粗细，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标题文本颜色。    |
+|    文本分割线    |    设置标题文本和内容文本直接的分割线的颜色和线宽度值，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改分割线颜色。    |
+|    内容文本    |    设置标签的内容文本样式，包括文本字体样式、字号大小、字体颜色和字体粗细，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改内容文本颜色。    |
 |    图标    |    设置图标的宽度和高度值，通过宽度和高度值控制图标的大小。    |
 
 ## 数据

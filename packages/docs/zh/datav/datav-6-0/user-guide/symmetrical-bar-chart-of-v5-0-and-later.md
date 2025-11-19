@@ -1,5 +1,5 @@
-<!DOCTYPE html> 
+# 对称条形图（v5.0及以上版本） %{#394460}% 
 
 对称条形图是条形图的一种，支持根据数据两个分类的对称比较样式，能够更加清晰智能地展示各数据的差异。本文介绍对称条形图各配置项的含义。
 
-对称条形图（v5.0及以上版本）组件的具体配置和BI分析组件模块中的对称条形图组件保持一致，组件详细参数请参见[对称条形图](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/symmetrical-bar-charts)。
+对称条形图（v5.0及以上版本）组件的具体配置和BI分析组件模块中的对称条形图组件保持一致，组件详细参数请参见[对称条形图](/zh/datav/datav-6-0/user-guide/symmetrical-bar-charts)。

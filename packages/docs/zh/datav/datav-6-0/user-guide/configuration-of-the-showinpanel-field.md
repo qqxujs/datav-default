@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# showInPanel配置规则 %{#157252}% 
 
 通过showInPanel字段，您可以定义对应控件（组件配置项）的显隐规则。
 

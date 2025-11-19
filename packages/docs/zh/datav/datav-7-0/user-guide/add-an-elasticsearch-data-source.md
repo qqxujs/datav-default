@@ -54,14 +54,14 @@
       "Version": "1"  
   }  
   ```  
-  如果您需要删除AliyunServiceRoleForDataVDataSourceES（服务关联角色），请参见[删除服务关联角色](https://help.aliyun.com/zh/ram/user-guide/service-linked-roles#concept-2448621/section-b9f-8dv-b5q)。  
-  更多关于服务关联角色的信息，请参见[服务关联角色](https://help.aliyun.com/zh/ram/user-guide/service-linked-roles#concept-2448621)。
+  如果您需要删除AliyunServiceRoleForDataVDataSourceES（服务关联角色），请参见[删除服务关联角色](/zh/ram/user-guide/service-linked-roles#concept-2448621/section-b9f-8dv-b5q)。  
+  更多关于服务关联角色的信息，请参见[服务关联角色](/zh/ram/user-guide/service-linked-roles#concept-2448621)。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **自定义数据源名称**    |    数据源的显示名称，可以自由命名。    |
 |    **Region**    |    Elastic Search实例的地域（默认选择**华东1区**）。    |
-|    **实例ID**    |    用于查询可用的Elastic Search实例ID。单击**获取实例列表**即可获取到Elastic Search的实例列表并进行查询，单击右侧下拉框选择列表中某一实例（或直接输入数据库名称选择已有实例）。 当单击**获取实例列表**时会自动创建角色访问权限，授权允许DataV使用此角色访问Elastic Search。 请参见[查看实例的基本信息](https://help.aliyun.com/zh/es/user-guide/view-the-basic-information-of-a-cluster-1#task-2449896)获取Elastic Search实例的ID。    |
+|    **实例ID**    |    用于查询可用的Elastic Search实例ID。单击**获取实例列表**即可获取到Elastic Search的实例列表并进行查询，单击右侧下拉框选择列表中某一实例（或直接输入数据库名称选择已有实例）。 当单击**获取实例列表**时会自动创建角色访问权限，授权允许DataV使用此角色访问Elastic Search。 请参见[查看实例的基本信息](/zh/es/user-guide/view-the-basic-information-of-a-cluster-1#task-2449896)获取Elastic Search实例的ID。    |
 |    **密码**    |    所选Elastic Search实例在被创建时设置的密码，不同实例的密码不同。    |    
 配置成功后，系统会自动进行测试连接。
 5. 信息填写完成后，单击**确定**，完成数据源的添加。  
@@ -73,9 +73,9 @@
 2. 在**工作台**页面中，将鼠标移动至需要编辑的数据看板上，单击**编辑**。
 
 **重要**  
-如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
+如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
 3. 在画布编辑页面，单击画布中的某一组件。  
-如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
+如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
 4. 在画布右侧的组件配置面板中选择**数据源**。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0024312761/p539649.png)
 5. 在**设置数据源**模块中，选择**数据源类型**为**Elastic Search**。
@@ -87,8 +87,8 @@
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加静态JSON %{#59776}% 
 
 本文档介绍在DataV中添加静态JSON文件的方法。
 
@@ -9,7 +9,7 @@
 ## 操作步骤
 
 1. 登录[DataV控制台](https://datav.aliyun.com/)。
-2. 参见[创建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/use-a-template-to-create-a-project#task-2462091)，创建一个可视化应用项目。
+2. 参见[创建可视化应用](/zh/datav/datav-6-0/getting-started/use-a-template-to-create-a-project#task-2462091)，创建一个可视化应用项目。
 3. 单击应用画布中的一个组件，在右侧的配置面板中，单击**数据**。
 4. 在**数据**面板中，单击**配置数据源**。  
 ![配置数据源页面](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6794964951/p51970.png)

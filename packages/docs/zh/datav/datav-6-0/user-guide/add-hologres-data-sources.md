@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加实时数仓Hologres数据源 %{#166546}% 
 
 本文档介绍如何在DataV中添加并使用实时数仓Hologres数据源。 
 

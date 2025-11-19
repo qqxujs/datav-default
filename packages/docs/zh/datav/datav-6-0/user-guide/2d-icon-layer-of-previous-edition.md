@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 二维图标层 %{#214203}% 
 
 二维图标层是三维城市构建器的数据映射图层，二维图标层支持独立的样式和数据配置，包括二维图标层的叠加模式、样式映射和状态等样式配置。本文介绍二维图标层配置项的含义。
 
@@ -6,12 +6,12 @@
 
 **说明** 
 
-如果图层列表中没有**二维图标层**，说明您还未添加**二维图标层**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
+如果图层列表中没有**二维图标层**，说明您还未添加**二维图标层**图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
 
 ## 配置
 
 ![二维图标配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3823397461/p421127.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * 二维图标层配置面板中配置项参数说明。
 
   * **通用**
@@ -27,7 +27,7 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **图标样式**    |    图标样式，可选**通用图标**、**工业图标**、**医疗图标**、**航空图标**、**消防图标**或**交通图标**。    |
-|    **图标颜色**    |    设置二维图标的默认颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
+|    **图标颜色**    |    设置二维图标的默认颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
 |    **图标尺寸**    |    拖动滑块修改数据，设置二维图标的尺寸大小值。取值范围0\~100，可与**固定尺寸**配置项搭配使用控制二维图标的尺寸值。    |
 
 **说明**  
@@ -67,7 +67,7 @@ __表 1\. 字段说明__
 2. 在面板下方的**数据项目**下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
 3. 选择完数据项目后，在**数据集**下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
-**说明** 如果**数据项目**和**数据集**配置项内没有任何可供配置数据类型的内容，请您单击面板内**前往空间构建平台管理数据**处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
+**说明** 如果**数据项目**和**数据集**配置项内没有任何可供配置数据类型的内容，请您单击面板内**前往空间构建平台管理数据**处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937)。  
 ![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)
 
 __表 2\. 配置项说明__
@@ -75,7 +75,7 @@ __表 2\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
 |    **数据结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 蓝图编辑器交互配置

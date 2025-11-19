@@ -4,7 +4,7 @@
 
 ## **前提条件**
 
-已[添加数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-data-source/)。
+已[添加数据源](/zh/datav/datav-7-0/user-guide/add-a-data-source/)。
 
 ## **进入数据源管理页面**
 

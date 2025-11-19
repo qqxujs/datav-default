@@ -8,7 +8,7 @@
 
 使用场景：**导航**节点在跳转新页面时使用较多。例如以下场景，单击地图上的一个区域，即可跳转到已配置的区域下级页面内。当单击地图区域时，可通过**数据处理**节点得到当前区域的adcode字段值，返回参数数据为`return {adcode: data.area_id};`，然后在**导航节点**的配置面板中，设置好下级跳转页面链接地址为`https://www.other-page.com`，同时自定义带入的参数变量名adcode，最后将串行数据处理返回的结果输入**导航**节点的**打开页面**即可。
 
-添加**导航**节点至蓝图画布中，可查看**导航**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**导航**节点至蓝图画布中，可查看**导航**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 ### **节点配置面板**
 

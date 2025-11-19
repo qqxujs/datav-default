@@ -1,15 +1,15 @@
-<!DOCTYPE html> 
+# 高度图地形瓦片 %{#422837}% 
 
 高度图地形瓦片是三维城市构建器的全局图层，支持独立的样式和数据配置，包括高度图地形瓦片的通用配置和交互配置样式。本文介绍高度图地形瓦片配置项的含义。
 
 在场景编辑器左侧图层列表中，单击高度图地形瓦片图层，进入配置面板配置高度图地形瓦片图层的样式和数据。 
 
-**说明** 如果图层列表中没有高度图地形瓦片，说明您还未添加高度图地形瓦片图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层列表中没有高度图地形瓦片，说明您还未添加高度图地形瓦片图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
 ![配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6326448461/p423340.png)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
 * 高度图地形瓦片配置面板中的参数说明。  
   * 通用
 

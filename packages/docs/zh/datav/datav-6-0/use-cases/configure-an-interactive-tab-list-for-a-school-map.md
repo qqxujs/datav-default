@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 配置学区地图Tab列表交互 %{#130130}% 
 
 本文档为您介绍通过单击Tab列表选项，切换展示小学和初中的统计信息（包括学校数量、区位占比等）和地理位置信息的方法。
 
@@ -13,7 +13,7 @@
 需要实现的交互：当单击Tab列表的选项时，可视化应用中切换小学和初中2类学校的统计信息。
 
 可实现方案： 
-* Tab列表控制成组组件的显隐样式，详情请参见[实现动态显隐](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/realize-the-dynamic-display#task-1495953)。
+* Tab列表控制成组组件的显隐样式，详情请参见[实现动态显隐](/zh/datav/datav-6-0/user-guide/realize-the-dynamic-display#task-1495953)。
 * 控制成组组件的位置显示，本文以此为例，具体操作步骤如下。
 
 1. 在画布编辑器图层栏内，选中左侧小学组、初中组和地图&固定内容组中的Tab列表组件，右键单击选择导出到蓝图编辑器。  
@@ -23,7 +23,7 @@
 4. 按照以下说明进行连线。  
 将Tab列表的当Tab点击时事件分别与小学组和初中组的显示在指定位置动作连线。
 5. 连线完成后，每条连线中间会自动添加一个串行数据处理节点，将节点分别命名为小学位置判断和初中位置判断。  
-具体操作方法请参见[什么是蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)。转换器添加完成的效果如下图所示。![位置连线样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2607716951/p54669.png)
+具体操作方法请参见[什么是蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)。转换器添加完成的效果如下图所示。![位置连线样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2607716951/p54669.png)
 6. 配置串行数据处理节点。
   1. 右键单击名称为小学位置判断的串行数据处理节点，进入右侧配置面板，选择面板内其他配置栏下方的处理方法，单击右侧箭头打开脚本编辑区域。
   2. 在脚本编辑区域，输入代码，完成后单击保存。![小学位置判断转换器编辑](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2607716951/p54670.png)  
@@ -61,7 +61,7 @@
 
 需要实现的交互：当单击Tab列表的选项时，可视化应用中的基础平面地图组件切换小学和初中2个区域热力层样式，并显示对应的散点。
 
-实现方案：使用Tab列表和触发器控制地图子组件的显隐样式，具体操作步骤如下。您也可以通过转换器实现，详情请参见[实现动态显隐](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/realize-the-dynamic-display#task-1495953)。
+实现方案：使用Tab列表和触发器控制地图子组件的显隐样式，具体操作步骤如下。您也可以通过转换器实现，详情请参见[实现动态显隐](/zh/datav/datav-6-0/user-guide/realize-the-dynamic-display#task-1495953)。
 
 1. 在蓝图编辑器页面，将左侧节点中的公办小学、公办初中、公办小学点、公办初中点、民办小学和民办初中六个节点拖至画布中。
 
@@ -69,10 +69,10 @@
 2. 按照以下说明进行节点连线，并添加逻辑节点。
   1. 将Tab列表中的当Tab点击时事件与公办小学的显示动作连线。
   2. 在上述连线中添加串行数据处理节点，命名为id=1：小学。  
-  详细操作方法请参见[什么是蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)。
+  详细操作方法请参见[什么是蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)。
   3. 将Tab列表中的当Tab点击时事件与公办初中的显示动作连线。
   4. 在上述连线中添加串行数据处理节点，命名为id=2：初中。  
-  详细操作方法请参见[什么是蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)。
+  详细操作方法请参见[什么是蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)。
 3. 按照以下说明完成串行数据处理节点和组件节点之间的连线。
 
   * 将id=1：小学的串行数据处理节点与公办小学点和民办小学的显示动作连线；与公办初中点和民办初中的隐藏动作连线。

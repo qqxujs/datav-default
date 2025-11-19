@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 箭头标绘 %{#123318}% 
 
 本文介绍箭头标绘组件的图表样式和各配置项的含义。
 
@@ -9,7 +9,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7553271861/p632899.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -30,7 +30,7 @@
 |    **虚线**    |    线条中端点和端点之间的间隔组成的虚线样式。    |
 |    **动画方向**    |    线条的动画走向，可选，包括**向左**和**向右**。    |
 |    **虚线速度**    |    虚线的运动速度，取值范围在0\~300之间，取值越大，速度越快。    |
-|    **填充颜色**    |    线条的填充颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **填充颜色**    |    线条的填充颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 * **箭头样式**：箭头标绘中箭头的样式。 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7553271861/p632902.png)
 
 |    **参数**    |    **说明**    |
@@ -39,7 +39,7 @@
 |    **显示右箭头**    |    打开开关，显示右侧箭头样式；关闭开关，隐藏右侧箭头样式。    |
 |    **宽度**    |    箭头的宽度值，取值范围在0\~100之间，单位为px。取值越大，箭头宽度越大。    |
 |    **高度**    |    箭头的高度值，取值范围在0\~100之间，单位为px。取值越大，箭头高度越大。    |
-|    **填充颜色**    |    箭头的填充颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **填充颜色**    |    箭头的填充颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 * **文本样式**：箭头标绘中文本的样式。 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7553271861/p632903.png)
 
 |    **参数**    |    **说明**    |
@@ -50,7 +50,7 @@
 |    **动画方向**    |    文本动画播放的方向，可选，包括**向左** **向右**。    |
 |    **动画时间间隔**    |    文字播放完一遍动画的时间，取值范围为0\~10之间，单位为秒。数值越大，动画播放一圈所用的时间越长。    |
 |    **字号**    |    文本的字号大小。    |
-|    **字体颜色**    |    文本的字体颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **字体颜色**    |    文本的字体颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    **字体粗细**    |    字体的粗细。    |
 |    **字体**    |    字体的样式，默认微软雅黑。    |
 
@@ -72,8 +72,8 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板

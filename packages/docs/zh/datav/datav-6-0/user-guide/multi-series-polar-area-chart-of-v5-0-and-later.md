@@ -1,5 +1,5 @@
-<!DOCTYPE html> 
+# 分类玫瑰图（v5.0及以上版本） %{#348792}% 
 
 分类玫瑰图是饼图的一种，能够清晰智能地展示各类别的占比情况。分类玫瑰图支持图表外部的标签展示，支持分类型展示和多系列数据配置。本文介绍分类玫瑰图各配置项的含义。
 
-分类玫瑰图（v5.0及以上版本）组件的具体配置和BI分析组件模块中的分类玫瑰图组件保持一致，组件详细参数请参见[分类玫瑰图](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/multi-series-polar-area-charts#concept-2090354)。
+分类玫瑰图（v5.0及以上版本）组件的具体配置和BI分析组件模块中的分类玫瑰图组件保持一致，组件详细参数请参见[分类玫瑰图](/zh/datav/datav-6-0/user-guide/multi-series-polar-area-charts#concept-2090354)。

@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 创建DataHub项目 %{#92034}% 
 
 阿里云流数据处理平台DataHub是流式数据（Streaming Data）的处理平台，提供对流式数据的发布（Publish），订阅（Subscribe）和分发功能，让您可以轻松构建基于流式数据的分析和应用。
 
 ## 前提条件
 
-您已经完成了[创建RDS MySQL数据库表](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/create-an-apsaradb-rds-for-mysql-database-table)。
+您已经完成了[创建RDS MySQL数据库表](/zh/datav/datav-6-0/use-cases/create-an-apsaradb-rds-for-mysql-database-table)。
 
 ## 操作步骤
 

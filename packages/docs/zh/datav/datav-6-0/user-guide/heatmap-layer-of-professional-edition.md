@@ -1,15 +1,15 @@
-<!DOCTYPE html> 
+# 热力层 %{#422814}% 
 
 热力层是三维城市构建器的数据映射图层，能够使用热力网格点的形式表现地理位置上的点数据信息。热力层图层支持独立的样式和数据配置，包括热力层网格数、透明度、热力半径和色带等参数。本文介绍热力层配置项的含义。
 
 在场景编辑器左侧图层列表中，单击热力层图层，进入配置面板配置热力层图层的样式和数据。 
 
-**说明** 如果图层列表中没有热力层，说明您还未添加热力层图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层列表中没有热力层，说明您还未添加热力层图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
 ![热力层配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3716197461/p420681.png)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
 * 热力层配置面板参数说明。  
   * 通用
 
@@ -26,7 +26,7 @@
 |    拉升高度    |    热力层拉升的高度值。    |
 |    热力模糊    |    热力模糊因子大小程度。    |
 |    网格设置    |    设置热力层网格样式。 横向网格数 ：热力层在横向的网格数量。 纵向网格数 ：热力层在纵向的网格数量。 网格间距：热力层内网格之间的距离。    |
-|    热力颜色    |    热力层映射值最高的颜色。 高值颜色：热力层映射值最高的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。 低值颜色：热力层映射值最低的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
+|    热力颜色    |    热力层映射值最高的颜色。 高值颜色：热力层映射值最高的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。 低值颜色：热力层映射值最低的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
 |    不透明度    |    设置热力层的不透明度。 起始不透明度：热力层最小透明度值。 整体不透明度：热力层整体的透明度值。    |
 
 ## 数据
@@ -45,7 +45,7 @@ __表 1\. 字段说明__
 2. 在面板下方的数据项目下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
 3. 选择完数据项目后，在数据集下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
-**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937 "空间数据管理页面内提供了我的项目、我的数据和空间档案三大功能模块，用户可以在这里创建项目，上传数据和添加模型等。本文为您介绍空间数据管理页面的结构与功能，帮助您快速使用空间构建平台。")。  
+**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937 "空间数据管理页面内提供了我的项目、我的数据和空间档案三大功能模块，用户可以在这里创建项目，上传数据和添加模型等。本文为您介绍空间数据管理页面的结构与功能，帮助您快速使用空间构建平台。")。  
 ![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)
 
 __表 2\. 配置项说明__
@@ -53,7 +53,7 @@ __表 2\. 配置项说明__
 |    ----    |    ----    |
 |    受控模式    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    自动更新请求    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875 "本文档介绍配置资产数据的方法，以及资产数据面板的内容，包括数据接口、数据源、数据过滤器和数据轮询频次等。")。    |
+|    数据源    |    单击配置数据源，可在设置数据源面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875 "本文档介绍配置资产数据的方法，以及资产数据面板的内容，包括数据接口、数据源、数据过滤器和数据轮询频次等。")。    |
 |    数据结果    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 蓝图编辑器交互配置

@@ -8,7 +8,7 @@
 
 **重要** 
 
-您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV-Board能正常访问您的数据库。详情请参见[配置数据库白名单](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
+您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV-Board能正常访问您的数据库。详情请参见[配置数据库白名单](/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
 
 ## 使用限制
 
@@ -28,7 +28,7 @@
   2. 填写数据库信息。  
 
 **说明**  
-  如果您需要新建数据库，请参见[创建数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/create-a-database-for-an-apsaradb-rds-for-mysql-instance#concept-cg3-ljq-wdb)。
+  如果您需要新建数据库，请参见[创建数据库](/zh/rds/apsaradb-rds-for-mysql/create-a-database-for-an-apsaradb-rds-for-mysql-instance#concept-cg3-ljq-wdb)。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
@@ -47,7 +47,7 @@
   2. 填写数据库信息。
 
 **说明**  
-  如果您需要新建数据库，请参见[创建数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/create-a-database-for-an-apsaradb-rds-for-mysql-instance#concept-cg3-ljq-wdb)。
+  如果您需要新建数据库，请参见[创建数据库](/zh/rds/apsaradb-rds-for-mysql/create-a-database-for-an-apsaradb-rds-for-mysql-instance#concept-cg3-ljq-wdb)。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
@@ -66,7 +66,7 @@
 2. 在**工作台**页面，单击左侧导航栏中的**数据准备** \> **数据源**，进入**数据源**页面，单击**新建数据源**。
 3. 从**类型**列表中，选择**RDS for MySQL**。
 4. 在列表中选择**外网**。  
-如果需要设置外网地址，请参见[设置连接地址](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/configure-endpoints-1#concept-tv3-pq1-ydb)。
+如果需要设置外网地址，请参见[设置连接地址](/zh/rds/apsaradb-rds-for-mysql/configure-endpoints-1#concept-tv3-pq1-ydb)。
 5. 填写数据库信息。
 
 |    **参数**    |    **说明**    |
@@ -83,8 +83,8 @@
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置和使用常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置和使用常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

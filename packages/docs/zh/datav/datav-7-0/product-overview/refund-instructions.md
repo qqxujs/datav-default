@@ -4,7 +4,7 @@
 
 ## **退订影响**
 
-* 产品退订后，实例将会被立即释放，之前已保存的可视化项目及其他生产内容将无法使用，但相关数据会保留**15**天。在此期间若[新购](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/activate-datav-1)实例，该数据将自动同步至新购实例中，届时可恢复相关数据的使用。若15天内未新购，项目数据将会被永久删除，且无法恢复。
+* 产品退订后，实例将会被立即释放，之前已保存的可视化项目及其他生产内容将无法使用，但相关数据会保留**15**天。在此期间若[新购](/zh/datav/datav-7-0/getting-started/activate-datav-1)实例，该数据将自动同步至新购实例中，届时可恢复相关数据的使用。若15天内未新购，项目数据将会被永久删除，且无法恢复。
 
 **重要**  
 如需退订，请务必确认相关数据已完成迁移或备份。
@@ -15,7 +15,7 @@
 DataV-Board 7.0支持**五天无理由退订**和**非全额退订**两种退订类型。
 
 * 五天无理由退订：购买产品后的五天内，支持全额退款。
-* 非全额退订：若您使用一段时间后需要退订，则可选择该类型。平台将退还剩余可用时长的相应费用，费用金额请以实际界面为准。各版本计费标准，请参见[计费方式](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
+* 非全额退订：若您使用一段时间后需要退订，则可选择该类型。平台将退还剩余可用时长的相应费用，费用金额请以实际界面为准。各版本计费标准，请参见[计费方式](/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
 
 ## 退订操作
 
@@ -45,4 +45,4 @@ DataV-Board 7.0支持**进入控制台自助退订**及**提交工单人工退�
 
 ## **相关文档**
 
-更多退订介绍，请参见[退订规则说明](https://help.aliyun.com/zh/user-center/user-guide/unsubscription-rules)。
+更多退订介绍，请参见[退订规则说明](/zh/user-center/user-guide/unsubscription-rules)。

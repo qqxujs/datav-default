@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 进入组件分析模式 %{#312362}% 
 
 DataV组件分析模式提供与原有组件的数据和样式配置不同的创作模式，采用以数据为核心、自动化样式配置、探索式构建视图的流程设计。通过优化数据视图绑定操作，方便您使用基于数据生成的模型创作可视化应用。本文介绍三种使组件进入BI分析模式的方法。
 
@@ -16,7 +16,7 @@ DataV组件分析模式提供与原有组件的数据和样式配置不同的创
 图 5\. 进入子组件分析模式![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2435833371/p882629.png)
 
 **说明**  
-当前**BI分析**模块下的图表组件和子组件较少，后续会逐步新增其他类型的BI分析组件，具体组件详细说明请参见[BI分析组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/bi-analysis-widgets/#concept-2089302)。
+当前**BI分析**模块下的图表组件和子组件较少，后续会逐步新增其他类型的BI分析组件，具体组件详细说明请参见[BI分析组件](/zh/datav/datav-6-0/user-guide/bi-analysis-widgets/#concept-2089302)。
 * 地图子组件类：单击资产面板中的**地图**模块，单击或拖拽**基础平面地图 3.0**组件到画布中，通过在地图的子组件管理面板中，选择打开**以分析模式创建**，并在分析模式创建面板中选择需要添加的子组件即可进入地图子组件分析模式。  
 图 6\. 选择基础平面地图 3.0组件![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2435833371/p883768.png)  
 图 7\. 添加分析模式子组件![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2435833371/p883777.png)  
@@ -42,11 +42,11 @@ DataV组件分析模式提供与原有组件的数据和样式配置不同的创
 
 单击支持分析模式的组件数据面板，右上角显示可切换两种模式，分别为**默认模式**和**分析模式**。
 
-* **默认模式**：可按普通组件的数据配置方法配置当前组件的数据内容，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。
-* **分析模式**：可采用以数据为核心、自动化样式配置、探索式构建组件视图的流程设计，详情请参见[BI分析模式数据面板功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
+* **默认模式**：可按普通组件的数据配置方法配置当前组件的数据内容，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。
+* **分析模式**：可采用以数据为核心、自动化样式配置、探索式构建组件视图的流程设计，详情请参见[BI分析模式数据面板功能介绍](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
 
 **说明** 
 
-当画布中支持分析模式的组件首次转成分析模式时，将同步创建分析器，分析器的详细功能说明，请参见[BI分析器交互使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#concept-2114138)。
+当画布中支持分析模式的组件首次转成分析模式时，将同步创建分析器，分析器的详细功能说明，请参见[BI分析器交互使用说明](/zh/datav/datav-6-0/user-guide/bi-analyzer-interaction-instructions#concept-2114138)。
 
 ![创建分析器](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4168832361/p325956.jpg)

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 图层管理 %{#87498}% 
 
 本文介绍PC端画布编辑器中的图层管理功能。
 
@@ -6,11 +6,11 @@
 
 ### **前提条件**
 
-已经创建[可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
+已经创建[可视化应用](/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
 
 ### **进入画布编辑器**
 
-进行图层管理配置等相关操作前，请先依照以下步骤进入[画布编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/overview-of-canvas-editor-on-pc)：
+进行图层管理配置等相关操作前，请先依照以下步骤进入[画布编辑器](/zh/datav/datav-6-0/user-guide/overview-of-canvas-editor-on-pc)：
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 在**我的可视化**页面，将鼠标悬停至目标应用上，单击**编辑**进入画布编辑器页面。

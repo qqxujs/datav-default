@@ -1,14 +1,14 @@
-<!DOCTYPE html> 
+# 什么是DataV-Board %{#30360}% 
 
 **重要** 
 
-DataV-Board 6.0功能已停止更新，若您使用最新7.0版本，请前往 [DataV-Board 7.0](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/release-notes-of-datav-7)了解相关内容。
+DataV-Board 6.0功能已停止更新，若您使用最新7.0版本，请前往 [DataV-Board 7.0](/zh/datav/datav-7-0/product-overview/release-notes-of-datav-7)了解相关内容。
 
 本文为您介绍DataV-Board（数据看板）的产品定位、发展历程、适用群体、应用场景、核心功能、产品优势，让您快速了解产品。
 
 ## **产品定位**
 
-DataV-Board（数据看板）是[DataV系列](https://help.aliyun.com/zh/datav/getting-started-datav)下的数据看板搭建工具，旨在通过图形化界面帮助不同专业背景的用户快速搭建具备专业水准的数据看板。无论是面对新兴数字孪生场景的创新探索，还是在传统数据场景的持续深挖，DataV-Board 致力于让用户更高效、灵活地完成数据的查看、分析及表达，以数据可视化技术解决数据场景最后一公里的问题。
+DataV-Board（数据看板）是[DataV系列](/zh/datav/getting-started-datav)下的数据看板搭建工具，旨在通过图形化界面帮助不同专业背景的用户快速搭建具备专业水准的数据看板。无论是面对新兴数字孪生场景的创新探索，还是在传统数据场景的持续深挖，DataV-Board 致力于让用户更高效、灵活地完成数据的查看、分析及表达，以数据可视化技术解决数据场景最后一公里的问题。
 
 ## **适用群体**
 
@@ -58,7 +58,7 @@ DataV-Board（数据看板）是[DataV系列](https://help.aliyun.com/zh/datav/g
 
 ### DataV-Board和DataV 什么关系？
 
-DataV-Board产品即原DataV产品。产品品牌升级之后，DataV成为主品牌名称。该产品系列包含DataV-Board（数据看板）、DataV-Note（智能分析）、DataV-Atlas（分析地图）、DataV-TwinFabric（数字孪生），具体子产品选型请参见[快速入门](https://help.aliyun.com/zh/datav/getting-started-datav)。
+DataV-Board产品即原DataV产品。产品品牌升级之后，DataV成为主品牌名称。该产品系列包含DataV-Board（数据看板）、DataV-Note（智能分析）、DataV-Atlas（分析地图）、DataV-TwinFabric（数字孪生），具体子产品选型请参见[快速入门](/zh/datav/getting-started-datav)。
 
 ### DataV-Board**是否支持多终端展示？**
 
@@ -70,6 +70,6 @@ DataV-Board产品即原DataV产品。产品品牌升级之后，DataV成为主�
 
 ### **DataV-Board和BI产品有什么区别？**
 
-DataV-Board产品提供了强大的页面搭建、组件渲染、交互开发和设计辅助能力，而BI产品更偏向于数据准备、建模和多维分析的能力，可视化搭建、渲染和交互能力较弱。详细对比请参见[选型指南](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/differences-between-datav-and-bi-products)。
+DataV-Board产品提供了强大的页面搭建、组件渲染、交互开发和设计辅助能力，而BI产品更偏向于数据准备、建模和多维分析的能力，可视化搭建、渲染和交互能力较弱。详细对比请参见[选型指南](/zh/datav/datav-6-0/product-overview/differences-between-datav-and-bi-products)。
 
 ## 视频介绍

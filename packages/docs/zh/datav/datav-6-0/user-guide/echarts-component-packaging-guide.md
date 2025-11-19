@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# ECharts组件封装指南 %{#86893}% 
 
 您可在ECharts官网找到适合自己需求的图表，例如本教程的案例柱状图动画延迟。
 
@@ -88,7 +88,7 @@ option = {
 
 ## 填写package.json
 
-将梳理的配置和数据按照 [package.json 规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1#concept-yhh-qcl-q2b "package.json文件是组件的配置文件。本文档介绍package.json文件的字段详情，您可以参考本文档的字段说明，根据自身需求，灵活修改package.json文件，自定义组件样式。") 写入package.json，需要注意以下几点。 
+将梳理的配置和数据按照 [package.json 规范](/zh/datav/datav-6-0/user-guide/specifications-of-a-package-json-file-1#concept-yhh-qcl-q2b "package.json文件是组件的配置文件。本文档介绍package.json文件的字段详情，您可以参考本文档的字段说明，根据自身需求，灵活修改package.json文件，自定义组件样式。") 写入package.json，需要注意以下几点。 
 
 * 可以删除自己组件不需要的配置。
 * 若需要案例代码中没有的配置，可从[ECharts配置项手册](https://echarts.apache.org/zh/option.html?spm=a2c4g.11186623.2.5.wQf3kR#title)中获取。
@@ -1327,7 +1327,7 @@ option = {
 
 ## 编写index.js
 
-参见[index.js规范](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1#concept-bmf-nxl-q2b "index.js文件是组件的主入口文件。本文档提供了一个示例供您参考，并介绍了index.js文件中的常用函数。")文档，按照以下方法编写index.js文件： 
+参见[index.js规范](/zh/datav/datav-6-0/user-guide/specifications-of-an-index-js-file-1#concept-bmf-nxl-q2b "index.js文件是组件的主入口文件。本文档提供了一个示例供您参考，并介绍了index.js文件中的常用函数。")文档，按照以下方法编写index.js文件： 
 1. 在初始化方法中，执行 EChart.init。
 2. 在渲染方法中，执行 chart.setOption。
 3. 在缩放方法中，执行 chart.resize。

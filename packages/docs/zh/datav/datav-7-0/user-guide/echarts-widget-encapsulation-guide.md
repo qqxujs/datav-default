@@ -88,7 +88,7 @@ option = {
 
 ## 填写package.json
 
-将梳理的配置和数据按照 [package.json规范](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-a-package-json-file) 写入_package.json_，需要注意以下几点。
+将梳理的配置和数据按照 [package.json规范](/zh/datav/datav-7/user-guide/specifications-of-a-package-json-file) 写入_package.json_，需要注意以下几点。
 
 * 可以删除自己组件不需要的配置。
 * 若需要案例代码中没有的配置，可从[ECharts配置项手册](https://echarts.apache.org/zh/option.html?spm=a2c4g.11186623.2.5.wQf3kR#title)中获取。
@@ -1328,7 +1328,7 @@ option = {
 
 ## 编写index.js
 
-参见[index.js规范](https://help.aliyun.com/zh/datav/datav-7/user-guide/specifications-of-an-index-js-file)文档，按照以下方法编写_index.js_文件： 
+参见[index.js规范](/zh/datav/datav-7/user-guide/specifications-of-an-index-js-file)文档，按照以下方法编写_index.js_文件： 
 
 1. 在初始化方法中，执行 _EChart.init_。
 2. 在渲染方法中，执行 _chart.setOption_。

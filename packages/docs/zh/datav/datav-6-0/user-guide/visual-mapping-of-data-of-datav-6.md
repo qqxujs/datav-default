@@ -20,7 +20,7 @@ DataV深度融合样式配置与数据映射能力，提供包括颜色映射器
 
 |    **功能**    |    **说明**    |
 |    ----    |    ----    |
-|    颜色映射器    |    [颜色映射器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions)用于设置组件中各种颜色和数据值之间的映射配置效果。    |
-|    形状映射器    |    [形状映射器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-shape-mapper)的映射配置方法与颜色映射器类似，用于映射组件中数据值和图形之间的映射内容，图形包括矢量和图标两种。    |
-|    尺寸映射器    |    [尺寸映射器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-dimension-mapper)用于调整图元尺寸，通过使用范围滑块决定图元尺寸范围，您可以自定义数据值和尺寸的映射关系。    |
-|    条件树    |    [条件树](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree)用于指定特定逻辑判断，用于进行条件样式修改或者设置筛选器样式。    |
+|    颜色映射器    |    [颜色映射器](/zh/datav/datav-6-0/user-guide/color-mapper-instructions)用于设置组件中各种颜色和数据值之间的映射配置效果。    |
+|    形状映射器    |    [形状映射器](/zh/datav/datav-6-0/user-guide/instructions-of-shape-mapper)的映射配置方法与颜色映射器类似，用于映射组件中数据值和图形之间的映射内容，图形包括矢量和图标两种。    |
+|    尺寸映射器    |    [尺寸映射器](/zh/datav/datav-6-0/user-guide/instructions-of-dimension-mapper)用于调整图元尺寸，通过使用范围滑块决定图元尺寸范围，您可以自定义数据值和尺寸的映射关系。    |
+|    条件树    |    [条件树](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree)用于指定特定逻辑判断，用于进行条件样式修改或者设置筛选器样式。    |

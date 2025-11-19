@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 地形 %{#422798}% 
 
 地形是三维城市构建器的基底图层，用于表示程序化生成的山体体形。地形支持独立的样式和数据配置，包括地形的阴影、环境贴图强度系数和混合贴图等样式配置。本文介绍地形配置项的含义。
 
 在场景编辑器左侧图层列表中，单击地形图层，进入配置面板配置地形图层的样式和数据。 
 
-**说明** 如果图层列表中没有地形，说明您还未添加地形图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层列表中没有地形，说明您还未添加地形图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
@@ -28,7 +28,7 @@
 
 ![地形面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3616197461/p419711.png)
 
-重新选择数据：在数据面板内可以单击下方重新选择数据，打开选择范围对话框，重新选择仅针对地形图层的数据范围，详情请参见[使用官方基底数据方式创建](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/create-3d-city-projects#section-bsj-xjl-qx7)中的选择场景范围区域的操作步骤。 
+重新选择数据：在数据面板内可以单击下方重新选择数据，打开选择范围对话框，重新选择仅针对地形图层的数据范围，详情请参见[使用官方基底数据方式创建](/zh/datav/datav-6-0/user-guide/create-3d-city-projects#section-bsj-xjl-qx7)中的选择场景范围区域的操作步骤。 
 
 ## 蓝图编辑器交互配置
 

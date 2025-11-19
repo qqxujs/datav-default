@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 水体 %{#422800}% 
 
 水体是三维城市构建器的基底图层，用于展示程序化生成的河流湖泊水体样貌。可配置选择L1和L2两种数据精度，本文分别从L1和L2两种精度介绍水体的样式和数据配置，包括水体的贴图样式、水体颜色、水体高光强度和水体流向等样式配置。本文介绍水体配置项的含义。
 
 在场景编辑器左侧图层列表中，单击水体图层，进入配置程序化生成的河流湖泊水体面板配置水体图层的样式和数据。 
 
-**说明** 如果图层列表中没有水体，说明您还未添加水体图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层列表中没有水体，说明您还未添加水体图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
@@ -13,7 +13,7 @@
 
 |    参数    |    说明    |
 |    ----    |    ----    |
-|    水体颜色    |    水体的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    水体颜色    |    水体的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    颜色贴图    |    在颜色贴图区域： 鼠标移动到图片位置，单击删除可删除当前图片，然后单击图片区域或者拖动本地图片到区域内即可添加一个贴图。 鼠标移动到图片位置，单击更改可重新上传本地图片。 您也可以输入图片的URL地址，将远程服务器上的图片作为贴图。    |
 |    法线贴图    |    在法线贴图区域： 鼠标移动到图片位置，单击删除可删除当前图片，然后单击图片区域或者拖动本地图片到区域内即可添加一个贴图。 鼠标移动到图片位置，单击更改可重新上传本地图片。 您也可以输入图片的URL地址，将远程服务器上的图片作为贴图。    |
 |    波纹    |    设置水体的波纹，包括低频尺寸和高频尺寸，取值范围为0\~100。    |
@@ -28,7 +28,7 @@
 
 ![水体数据面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5616197461/p419939.png)
 
-重新选择数据：在数据面板内可以单击下方重新选择数据，打开选择范围对话框，重新选择仅针对水体图层的数据范围，详情请参见[使用官方基底数据方式创建](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/create-3d-city-projects#section-bsj-xjl-qx7)中的选择场景范围区域的操作步骤。 
+重新选择数据：在数据面板内可以单击下方重新选择数据，打开选择范围对话框，重新选择仅针对水体图层的数据范围，详情请参见[使用官方基底数据方式创建](/zh/datav/datav-6-0/user-guide/create-3d-city-projects#section-bsj-xjl-qx7)中的选择场景范围区域的操作步骤。 
 
 ## 蓝图编辑器交互配置
 

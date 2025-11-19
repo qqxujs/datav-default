@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 3D平面地图（v2.x版本） %{#170362}% 
 
 * [地图容器](/zh/datav/datav-6-0/user-guide/map-containers)
 * [区域热力层](/zh/datav/datav-6-0/user-guide/choropleth-layer-1)

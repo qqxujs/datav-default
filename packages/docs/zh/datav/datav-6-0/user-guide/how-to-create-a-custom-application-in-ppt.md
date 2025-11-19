@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 如何创建自定义PPT应用 %{#372542}% 
 
 本教程主要以数据集为数据源，用分析模式来实现可交互的可视化应用。
 
@@ -19,7 +19,7 @@ DataV小课堂直播视频：[数据源管理-自定义PPT应用](https://cloud.
 1. 登录[DataV控制台](https://datav.aliyun.com/)。
 2. 在控制台首页，单击**我的数据** \> **数据集管理**，选择您创建的数据源。![选择数据源](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6057469361/p365637.png)
 3. 在**我的可视化**页面，单击**编辑**，进入到画布编辑器页面，由于时间关系，直播视频已经提前设置好组件的摆放位置和样式。![配置样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7991933371/p365927.png)
-4. 单击选择**发货日期**对应的**柱状图**组件，配置数据源，详细配置方法请参见： [案例讲解：数据集组件生成-柱状图](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/datav-6-0-dataset#task-2138931/section-jjr-fqo-2o0)。其中x字段配置为**发货日期**，并对其设置下钻，完成后分别由上往下依次设置粒度为**年**、**月**、**日**，对**年**的发货日期字段设置**权重**及**排序**效果；y字段设置为**销售额**。![发货日期柱状图图表配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6057469361/p365977.png)
+4. 单击选择**发货日期**对应的**柱状图**组件，配置数据源，详细配置方法请参见： [案例讲解：数据集组件生成-柱状图](/zh/datav/datav-6-0/user-guide/datav-6-0-dataset#task-2138931/section-jjr-fqo-2o0)。其中x字段配置为**发货日期**，并对其设置下钻，完成后分别由上往下依次设置粒度为**年**、**月**、**日**，对**年**的发货日期字段设置**权重**及**排序**效果；y字段设置为**销售额**。![发货日期柱状图图表配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6057469361/p365977.png)
 5. 单击选择**类别/子类别**对应的**气泡图**组件，将x字段配置为**销售额**，y字段配置为**利润**，大小映射字段配置为**数量**，颜色映射字段配置为**类别**，形状映射字段配置为**子类别**后，将其形状配置为圆形。![类别子类别气泡图图表配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6057469361/p365979.png)
 6. 单击选择**基础平面地图 3.0**组件，在**数据**面板中，将区域编号字段配置为**省/自治区**，设置下钻字段并配置为**城市**，将颜色映射字段配置为**销售额**。![地图图表配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6057469361/p365990.png)
 7. 选择**地区**对应的**饼图**组件，将类字段配置为**地区**；值字段配置为**销售额**；颜色映射字段配置为**地区**。![地区饼图图表配置](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6057469361/p365992.png)

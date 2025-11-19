@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 逻辑节点配置 %{#142626}% 
 
 逻辑节点可以帮助您设置组件和组件、组件和变量或变量和变量之间的交互逻辑，实现看板内所有元素的交互。本文介绍在蓝图编辑器中，如何配置和使用逻辑节点。
 
@@ -13,9 +13,9 @@
 
 **说明**  
   * 如果逻辑节点面板已经显示，可忽略此步骤。
-  * 在配置逻辑节点前，请确保您已经添加了对应的导入节点。如果还未添加，请参见[什么是蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)进行添加。
+  * 在配置逻辑节点前，请确保您已经添加了对应的导入节点。如果还未添加，请参见[什么是蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor#task-2517085)进行添加。
 5. 在**逻辑节点**面板中，将需要使用的逻辑节点拖入中间画布中。  
-逻辑节点包括了**全局节点**、**流程控制**、**数据处理**以及**输入设备**。各节点的使用方法以及参数详情，请分别参见[全局节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/global-nodes#concept-2333443)、[流程控制](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/process-control-1#concept-2333444)、[数据处理](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/process-data-1#concept-2333445)和[输入设备](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/input-devices#concept-2333446)。
+逻辑节点包括了**全局节点**、**流程控制**、**数据处理**以及**输入设备**。各节点的使用方法以及参数详情，请分别参见[全局节点](/zh/datav/datav-6-0/user-guide/global-nodes#concept-2333443)、[流程控制](/zh/datav/datav-6-0/user-guide/process-control-1#concept-2333444)、[数据处理](/zh/datav/datav-6-0/user-guide/process-data-1#concept-2333445)和[输入设备](/zh/datav/datav-6-0/user-guide/input-devices#concept-2333446)。
 
 ## 配置逻辑节点
 

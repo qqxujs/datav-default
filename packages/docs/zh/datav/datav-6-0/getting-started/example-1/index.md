@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 案例演示 %{#203656}% 
 
 * [使用名单抽奖模板搭建可视化应用](/zh/datav/datav-6-0/getting-started/use-a-list-draw-template-to-create-an-application/)
 * [使用快乐转转转模板搭建可视化应用](/zh/datav/datav-6-0/getting-started/use-the-happy-rotation-template-to-create-an-application/)

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 使用DataV调用DataWorks数据服务API展示数据 %{#106824}% 
 
 本文为您介绍当需要通过DataV展示海量数据的分析结果时，如何使用DataWorks的数据服务开发数据API，并快速在DataV中调用API，最终将来自MaxCompute的数据成果展示在DataV大屏中，数据开发到数据服务再到数据分析展现一气呵成。
 
@@ -14,13 +14,13 @@ DataWorks数据服务与DataV进行无缝打通后，就不再需要使用DataV�
 
 本案例以在DataV中展示成交金额增长速度为例，为您介绍在DataV中配置DataWorks数据服务API的方法，整体步骤如下。 
 
-1. [准备工作](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/preparations-for-calling-dataworks-api-to-display-data#concept-q3d-5l2-qgb)。
-2. [使用DataWorks的数据服务功能生成数据API](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#task-qdq-1lf-qgb)。
-3. [在DataV中调用数据服务API](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/use-an-application-to-display-returned-data#task-sdl-nfg-qgb)。
+1. [准备工作](/zh/datav/datav-6-0/use-cases/preparations-for-calling-dataworks-api-to-display-data#concept-q3d-5l2-qgb)。
+2. [使用DataWorks的数据服务功能生成数据API](/zh/datav/datav-6-0/use-cases/use-dataworks-dataservice-studio-to-generate-apis#task-qdq-1lf-qgb)。
+3. [在DataV中调用数据服务API](/zh/datav/datav-6-0/use-cases/use-an-application-to-display-returned-data#task-sdl-nfg-qgb)。
 
 ## 参考文档
 
 * [一分钟零代码生成API，DataWorks数据服务上手指南](https://yq.aliyun.com/articles/662126)。
-* [DataWorks数据服务帮助文档](https://help.aliyun.com/zh/dataworks/user-guide/data-services-overview/)。
-* [MaxCompute Lightning帮助文档](https://help.aliyun.com/zh/maxcompute/overview-17)。
+* [DataWorks数据服务帮助文档](/zh/dataworks/user-guide/data-services-overview/)。
+* [MaxCompute Lightning帮助文档](/zh/maxcompute/overview-17)。
 * [DataV帮助文档](https://help.aliyun.com/product/43570.html)。

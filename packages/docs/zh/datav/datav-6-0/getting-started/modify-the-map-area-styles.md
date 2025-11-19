@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 修改地图区域样式 %{#151671}% 
 
 可视化应用创建完成后，您可以通过本文的操作步骤，将可视化应用的地图组件修改为您所需的区域地图的样式。
 
 ## 前提条件
 
-已完成可视化应用的创建，详情请参见[创建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-epidemic-situation-control-template#task-2477417)。
+已完成可视化应用的创建，详情请参见[创建可视化应用](/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-epidemic-situation-control-template#task-2477417)。
 
 ## 背景信息
 
@@ -38,7 +38,7 @@
     }  
   ]  
   ```  
-  如果您想将地图自定义下钻到一个小范围的区域，请参见[区域下钻热力层文档](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/drilldown-choropleth-layer-of-v1-x)进行配置。
+  如果您想将地图自定义下钻到一个小范围的区域，请参见[区域下钻热力层文档](/zh/datav/datav-6-0/user-guide/drilldown-choropleth-layer-of-v1-x)进行配置。
 8. 修改**映射数据**数据。
 
   1. 在**设置数据源**页面，单击右上角的![关闭](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0456822951/p95902.png)图标返回**数据**配置页签。

@@ -38,7 +38,7 @@ DataV Proxy是DataV数据代理服务的配置工具，可帮助DataV访问本�
 
 **重要** 
 
-您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV-Board能正常访问您的数据库。详情请参见[配置数据库白名单](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
+您必须先将对应区域的白名单IP地址添加到您的数据源白名单中，以确保DataV-Board能正常访问您的数据库。详情请参见[配置数据库白名单](/zh/datav/datav-7-0/user-guide/configure-a-database-whitelist-for-datav-7)。
 
 ## 配置DataV Proxy
 
@@ -89,7 +89,7 @@ DataV Proxy是DataV数据代理服务的配置工具，可帮助DataV访问本�
 不同数据源的参数存在差异，具体请以实际界面为准。
 
 1. 数据库添加白名单。  
-为避免DataV Proxy访问数据库存在限制，您需将DataV Proxy服务所在IP地址添加至RDS MySQL数据库的[白名单](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/configure-an-ip-address-whitelist-for-an-apsaradb-rds-for-mysql-instance#concept-rpj-hs4-ydb)。
+为避免DataV Proxy访问数据库存在限制，您需将DataV Proxy服务所在IP地址添加至RDS MySQL数据库的[白名单](/zh/rds/apsaradb-rds-for-mysql/configure-an-ip-address-whitelist-for-an-apsaradb-rds-for-mysql-instance#concept-rpj-hs4-ydb)。
 2. 在DataV Proxy配置页面的左侧导航栏，单击**数据源配置**，选择**mysql**，单击**新增**。
 3. 在**新建数据源**对话框配置参数信息。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5753912471/p926561.png)
 
@@ -166,7 +166,7 @@ Linux及Mac查询时支持指定日志行数范围、匹配关键字。
 |    **名称**    |    自定义的数据源名称。    |
 |    **域名**    |    DataV Proxy启动时的IP地址或域名。若您使用的是ECS服务器，则此处配置为ECS服务器的公网IP。    |
 |    **端口**    |    DataV Proxy启动时的端口号，默认为8001。    |
-|    **路径**    |    （可选）DataV Proxy启动时指定的[prefix](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-proxy-requests#5559e6ee008a9)值。若未指定，则不填。**说明** Prefix是一个URL路径的前缀，指定后，所有匹配该前缀的请求都会被转发到DataV Proxy服务。    |
+|    **路径**    |    （可选）DataV Proxy启动时指定的[prefix](/zh/datav/datav-7-0/support/faq-about-data-proxy-requests#5559e6ee008a9)值。若未指定，则不填。**说明** Prefix是一个URL路径的前缀，指定后，所有匹配该前缀的请求都会被转发到DataV Proxy服务。    |
 |    **Method**    |    （可选）请求的方法。默认为GET，当请求参数过长时建议选择POST。    |
 |    **Key**和**Secret**    |    DataV Proxy生成的**Access Key**和**Access Secret**。可参见[密钥配置](#bdb67e7c16k1m)。    |
 |    **数据库**    |    单击**获取数据列表**，选择DataV Proxy中已添加的数据库。该数据库即为DataV通过数据代理服务所访问的数据库。    |
@@ -174,7 +174,7 @@ Linux及Mac查询时支持指定日志行数范围、匹配关键字。
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## **常见问题**
 
@@ -182,4 +182,4 @@ Linux及Mac查询时支持指定日志行数范围、匹配关键字。
 * **解决方案**：由于浏览器安全限制，HTTP网站会自动跳转至HTTPS。请进入`chrome://net-internals/#hsts`，删除该域名的安全策略，并在新页签下重新访问。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2995659271/p860243.png)
 
-更多添加数据代理服务的常见问题，请参见[数据代理请求常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-proxy-requests)。
+更多添加数据代理服务的常见问题，请参见[数据代理请求常见问题](/zh/datav/datav-7-0/support/faq-about-data-proxy-requests)。

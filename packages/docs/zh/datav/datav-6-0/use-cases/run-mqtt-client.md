@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 运行MQTT客户端 %{#92042}% 
 
 MQTT是基于TCP/IP协议栈构建的异步通信消息协议，是一种轻量级的发布/订阅信息传输协议。本文档为您介绍通过阿里云物联网平台提供的设备端Java SDK，运行MQTT客户端的方法。
 
@@ -9,7 +9,7 @@ MQTT是基于TCP/IP协议栈构建的异步通信消息协议，是一种轻量�
 
 ## 操作步骤
 
-1. 参考[下载设备端SDK](https://help.aliyun.com/zh/iot/user-guide/download-device-sdks#concept-jlk-mjl-vdb "物联网平台提供各类设备端SDK，简化开发过程，使设备快速上云。")，下载[iotx-sdk-mqtt-java](https://aliyun-iot.oss-cn-hangzhou.aliyuncs.com/iotx-sdk-java/iotx-sdk-mqtt-java-20170526.zip?spm=a2c4g.11186623.2.11.641652276CMj67&file=iotx-sdk-mqtt-java-20170526.zip)并解压。
+1. 参考[下载设备端SDK](/zh/iot/user-guide/download-device-sdks#concept-jlk-mjl-vdb "物联网平台提供各类设备端SDK，简化开发过程，使设备快速上云。")，下载[iotx-sdk-mqtt-java](https://aliyun-iot.oss-cn-hangzhou.aliyuncs.com/iotx-sdk-java/iotx-sdk-mqtt-java-20170526.zip?spm=a2c4g.11186623.2.11.641652276CMj67&file=iotx-sdk-mqtt-java-20170526.zip)并解压。
 2. 打开Eclipse应用，选择file \> import \> Existing Maven Projects，导入上一步解压后的Java SDK文件。![打开应用导入Java SDK文件](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0372044751/p12652.png)
 3. 双击打开SimpleClient4IOT.java文件。![双击打开文件](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0372044751/p12656.png)
 4. 配置设备证书（ProductKey、DeviceName、DeviceSecret）和topic。修改deviceName、productKey、secret、subTopic、pubTopic变量，如下图所示。![修改变量](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0372044751/p12658.png)

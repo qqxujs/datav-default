@@ -14,8 +14,8 @@ DataV提供了**名单抽奖**模板，该模板可用于团队团建、年会�
 
 搭建一个可实现以上交互功能的名单抽奖模板，您需要完成以下几个步骤： 
 
-1. [创建模板可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/create-list-draw-template-applications#task-2040709)。
-2. [修改名单抽奖数据](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/modify-data-of-a-list-draw-template#task-2040697)。
-3. [修改名单抽奖人数](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/modify-the-number-of-people-involved-in-the-lucky-draw#task-2040699)。
-4. [配置蓝图交互逻辑](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/configure-interaction-logic-in-blueprint-editor#task-2040701)。
-5. [预览并发布可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/preview-and-publish-an-application-created-by-using-a-list-draw#task-2040703)。
+1. [创建模板可视化应用](/zh/datav/datav-6-0/getting-started/create-list-draw-template-applications#task-2040709)。
+2. [修改名单抽奖数据](/zh/datav/datav-6-0/getting-started/modify-data-of-a-list-draw-template#task-2040697)。
+3. [修改名单抽奖人数](/zh/datav/datav-6-0/getting-started/modify-the-number-of-people-involved-in-the-lucky-draw#task-2040699)。
+4. [配置蓝图交互逻辑](/zh/datav/datav-6-0/getting-started/configure-interaction-logic-in-blueprint-editor#task-2040701)。
+5. [预览并发布可视化应用](/zh/datav/datav-6-0/getting-started/preview-and-publish-an-application-created-by-using-a-list-draw#task-2040703)。

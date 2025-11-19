@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 符号聚合层（v3.x版本） %{#313905}% 
 
 本文介绍符号聚合层的图表样式和各配置项的含义。
 
@@ -12,7 +12,7 @@
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2257528761/p580102.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **通用**：设置符号聚合层的通用配置项。
 
 |    **参数**    |    **说明**    |
@@ -26,11 +26,11 @@
 |    **聚合形状**    |    设置符号聚合形状的样式，可选**矢量**和**符号**。**说明** 矢量类型支持描边；符号类型不支持描边。    |
 |    **矢量形状**    |    设置矢量型聚合图型的形状样式，可选**圆形**和**六边形**两种。仅在**聚合形状**选中为**矢量**时可配置。    |
 |    **符号形状**    |    设置符号型聚合图型的形状样式，内置多种图形样式。仅在**聚合形状**选中为**符号**时可配置。    |
-|    **形状半径**    |    设置矢量型聚合图型的形状半径大小值，请参见[尺寸映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-dimension-mapper#concept-2067399)，配置不同符号的映射半径尺寸样式。    |
-|    **填充颜色**    |    设置矢量型聚合图型的填充颜色，请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同符号的映射颜色样式。    |
+|    **形状半径**    |    设置矢量型聚合图型的形状半径大小值，请参见[尺寸映射器使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-dimension-mapper#concept-2067399)，配置不同符号的映射半径尺寸样式。    |
+|    **填充颜色**    |    设置矢量型聚合图型的填充颜色，请参见[颜色映射器使用说明](/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同符号的映射颜色样式。    |
 |    **矢量描边**    |    设置矢量聚合图型的描边线的颜色和描边线的粗细值，取值范围为0\~20，单位px。仅在**聚合形状**选中为**矢量**时可配置。    |
 |    **聚合标注**    |    符号聚合时标注的文本样式，包括标注的字体样式、文字粗细、字号大小和颜色。    |
-|    **单点图标**    |    设置单个符号点图标的样式。**图标形状**：设置单点图标的形状样式，可参见[形状映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-shape-mapper#concept-2067398)，配置不同符号的映射形状样式。**图标尺寸**：拖动滑块设置单点图标的尺寸，包括图标的宽度和高度的值，单位px。**相对位置**：设置图标与符号点的相对位置样式，包括**底部**和**中心**。**相对偏移**：设置图标在水平和垂直方向的相对偏移值，取值范围为-100\~100，单位px。    |
+|    **单点图标**    |    设置单个符号点图标的样式。**图标形状**：设置单点图标的形状样式，可参见[形状映射器使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-shape-mapper#concept-2067398)，配置不同符号的映射形状样式。**图标尺寸**：拖动滑块设置单点图标的尺寸，包括图标的宽度和高度的值，单位px。**相对位置**：设置图标与符号点的相对位置样式，包括**底部**和**中心**。**相对偏移**：设置图标在水平和垂直方向的相对偏移值，取值范围为-100\~100，单位px。    |
 * **标签**：设置符号聚合层内标签的样式参数。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2257528761/p580105.png)
 
 |    **参数**    |    **说明**    |
@@ -51,7 +51,7 @@
 |    **点击聚焦**    |    拖动滑块，设置当点击符号时的视角聚焦的范围值，取值范围为1\~10。    |
 * **条件**：条件样式说明。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2257528761/p580106.png)
 
-**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
+**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
 
 **图形**：打开开关，配置该样式中的图形配置项；关闭开关，无法配置该样式下的图形配置项。
 
@@ -95,15 +95,15 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 数据面板（分析模式）
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7540433371/p580111.png)
 
-**符号聚合层**子组件BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
+**符号聚合层**子组件BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
 
 ### **配置字段说明**
 
@@ -127,8 +127,8 @@ __表 1\. 配置项说明__
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击点时**    |    选中**启用**，开启组件交互功能。**符号聚合层**子组件拥有交互配置，当单击某个符号点时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
-|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。**符号聚合层**子组件拥有交互配置，当鼠标移入到符号点位置时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当点击点时**    |    选中**启用**，开启组件交互功能。**符号聚合层**子组件拥有交互配置，当单击某个符号点时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。**符号聚合层**子组件拥有交互配置，当鼠标移入到符号点位置时抛出回调值，默认抛出数据中的lng和lat字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
 
 ## 蓝图编辑器交互配置
 

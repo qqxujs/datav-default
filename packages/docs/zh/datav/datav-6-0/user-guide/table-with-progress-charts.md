@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 进度条表格 %{#156582}% 
 
 本文介绍进度条表格组件的图表样式和各配置项的含义。
 
@@ -8,7 +8,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612570.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -66,7 +66,7 @@
 |    **选项**    |    设置特色项展示的图片类型或文本类型。    |
 |    **图片样式**    |    设置特色项的图片宽度、高度和圆角。仅当选项为**图片**时可设置。    |
 |    **文本样式**    |    设置特色项的文本样式，包括文本颜色和背景颜色。仅当选项为**文本**时可设置。    |
-|    **默认图片**    |    设置特色项的默认展示图片，如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-interface-function-description)。如果**配置**页签和**数据**页签都配置了图片，则优先使用**数据**页签中的图片配置。仅当选项为**图片**时可设置。    |
+|    **默认图片**    |    设置特色项的默认展示图片，如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-6-0/user-guide/use-interface-function-description)。如果**配置**页签和**数据**页签都配置了图片，则优先使用**数据**页签中的图片配置。仅当选项为**图片**时可设置。    |
 |    **列字段名**    |    此配置只在数据中增加图片字段生效；数据中设置图片字段优先级高于配置中设置。    |
 |    **自定义图片**    |    序列号可以设置为图片，动态的图片可以在数据中增加图片字段。单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612687.png)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612689.png)图标，添加或删除一个图片数据。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612688.png)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612690.png)图标配置多个自定义图片数据的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612691.png)图标，即可复制当前选中图片数据系列配置内容并新增一个同样配置的图片数据系列。    |
 * **翻页器**![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612704.png)
@@ -154,7 +154,7 @@
 
 **说明**  
   请确保数据的ID值唯一。
-* **条件**：条件样式说明。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612824.png)**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612825.png)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612826.png)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612828.png)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612827.png)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612829.png)图标，即可复制当前选中条件样式配置并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree)。
+* **条件**：条件样式说明。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612824.png)**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612825.png)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612826.png)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612828.png)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612827.png)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612829.png)图标，即可复制当前选中条件样式配置并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree)。
 
   * **选定范围**：设置单元格或整行的样式。
   * **文本**：设置表格中单元格或整行的文本样式，包括文本字体样式、文字粗细、字号和颜色。
@@ -180,19 +180,19 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0562800861/p612838.png)
 
 |    **交互事件**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击单行时**    |    选中**启用**，开启组件交互功能。可单击进度条表格某一行时抛出回调值，默认抛出数据中的id、value、sales、proportion和city字段，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
-|    **当点击分页时**    |    选中**启用**，开启组件交互功能。可单击进度条表格分页时抛出回调值，默认抛出数据中自定义的current字段，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
-|    **当点击排序时**    |    选中**启用**，开启组件交互功能。可单击进度条表格排序按键时抛出回调值，默认抛出数据中自定义的columnName和order字段，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
-|    **当点击多选时**    |    选中**启用**，开启组件交互功能。可单击进度条表格选择列进行多选时抛出回调值，默认抛出数据中自定义的id、value、sales、proportion和city字段具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
-|    **当点击操作项时**    |    选中**启用**，开启组件交互功能。可单击进度条表格操作项时抛出回调值，默认抛出数据中自定义的operateType和dataltem字段，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当点击单行时**    |    选中**启用**，开启组件交互功能。可单击进度条表格某一行时抛出回调值，默认抛出数据中的id、value、sales、proportion和city字段，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当点击分页时**    |    选中**启用**，开启组件交互功能。可单击进度条表格分页时抛出回调值，默认抛出数据中自定义的current字段，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当点击排序时**    |    选中**启用**，开启组件交互功能。可单击进度条表格排序按键时抛出回调值，默认抛出数据中自定义的columnName和order字段，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当点击多选时**    |    选中**启用**，开启组件交互功能。可单击进度条表格选择列进行多选时抛出回调值，默认抛出数据中自定义的id、value、sales、proportion和city字段具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当点击操作项时**    |    选中**启用**，开启组件交互功能。可单击进度条表格操作项时抛出回调值，默认抛出数据中自定义的operateType和dataltem字段，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
 
 ## 蓝图编辑器交互配置
 

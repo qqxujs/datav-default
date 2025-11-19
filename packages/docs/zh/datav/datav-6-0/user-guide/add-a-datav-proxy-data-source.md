@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加DataV数据代理服务 %{#59774}% 
 
 本文档介绍在DataV中添加DataV数据代理服务数据源的方法，以及相关参数配置说明。使用DataV数据代理服务，您无需暴露数据库的公网IP，就可以连接自建的数据库，提高数据安全性。
 
@@ -21,10 +21,10 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **名称**    |    数据源的显示名称，可以自由命名。    |
-|    **域名**    |    DataV Proxy服务器所在IP地址或域名，如果您使用的是ECS服务器，则应该配置为ECS服务器的公网IP。详情请参见[如何使用DataV Proxy](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。    |
-|    **端口**    |    DataV Proxy安装完成后，系统会自动生成端口号，一般为8001。详情请参见[如何使用DataV Proxy](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。    |
-|    **Key**    |    DataV Proxy安装完成后，系统会自动生成Key。详情请参见[如何使用DataV Proxy](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。    |
-|    **Secret**    |    DataV Proxy安装完成后，系统会自动生成Secret。详情请参见[如何使用DataV Proxy](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。    |
+|    **域名**    |    DataV Proxy服务器所在IP地址或域名，如果您使用的是ECS服务器，则应该配置为ECS服务器的公网IP。详情请参见[如何使用DataV Proxy](/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。    |
+|    **端口**    |    DataV Proxy安装完成后，系统会自动生成端口号，一般为8001。详情请参见[如何使用DataV Proxy](/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。    |
+|    **Key**    |    DataV Proxy安装完成后，系统会自动生成Key。详情请参见[如何使用DataV Proxy](/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。    |
+|    **Secret**    |    DataV Proxy安装完成后，系统会自动生成Secret。详情请参见[如何使用DataV Proxy](/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)。    |
 |    **数据库**    |    展示DataV Proxy应用中，已经添加的数据源的ID。    |    
 数据库信息填写完成后，系统会自动进行测试连接，验证数据库是否能连通正常。
 5. 连接成功后，单击**确定**，完成数据源添加。

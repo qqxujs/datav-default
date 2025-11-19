@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 区域图 %{#250280}% 
 
 * [区域图（v5.0及以上版本）](/zh/datav/datav-6-0/user-guide/area-chart-of-v5-0-and-later)
 * [区域图（v4.0及以上版本）](/zh/datav/datav-6-0/user-guide/the-area-chart-widget)

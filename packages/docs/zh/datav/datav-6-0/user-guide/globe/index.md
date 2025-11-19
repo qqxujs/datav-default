@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 3D球形地图 %{#146586}% 
 
 * [地图容器](/zh/datav/datav-6-0/user-guide/map-container-3d)
 * [区域热力层](/zh/datav/datav-6-0/user-guide/choropleth-layer-3d)

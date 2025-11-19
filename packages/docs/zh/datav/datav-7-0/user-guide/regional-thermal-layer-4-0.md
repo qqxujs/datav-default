@@ -12,7 +12,7 @@
 
 样式面板中设置交互效果时，点击和悬浮显示方式相关配置仅在预览、发布或启用交互模式时可见。
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **快速样式**：区域热力层子组件具备快速样式功能，您可以根据实际应用场景选择不同的样式。
 * **通用**：设置区域热力层的通用配置参数项。
 
@@ -24,9 +24,9 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **填充颜色**    |    数据中最大、最小及为空的value值对应区域的颜色。请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同区域的映射颜色样式。    |
+|    **填充颜色**    |    数据中最大、最小及为空的value值对应区域的颜色。请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同区域的映射颜色样式。    |
 |    **描边样式**    |    区域热力层各区域边线的颜色、粗细和线的类型。**说明** 线型支持数字输入，如：4,4，第一个数字表示实线长度，第二个数字表示间隔长度。    |
-|    **填充纹理**    |    单击**填充纹理**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制区域块的填充纹理样式显隐。**纹理形状**：区域纹理的形状样式，请参见[形状映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/shape-mapper-instructions)，配置不同区域的填充纹理的映射形状样式。**填充颜色**：请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同区域的纹理映射颜色样式。**纹理缩放比例**：区域纹理的缩放倍数，范围为0.1\~10。    |
+|    **填充纹理**    |    单击**填充纹理**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制区域块的填充纹理样式显隐。**纹理形状**：区域纹理的形状样式，请参见[形状映射器使用说明](/zh/datav/datav-7-0/user-guide/shape-mapper-instructions)，配置不同区域的填充纹理的映射形状样式。**填充颜色**：请参见[颜色映射器使用说明](/zh/datav/datav-7-0/user-guide/instructions-of-color-mapper)，配置不同区域的纹理映射颜色样式。**纹理缩放比例**：区域纹理的缩放倍数，范围为0.1\~10。    |
 * **标签**：设置区域热力层的区域的标签配置项参数。
 
   * **显示标签**：区域的标签样式，单击**显示标签**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**显示标签**的显隐。
@@ -65,7 +65,7 @@
 |    **悬浮态**    |    设置图形和标签，可通过![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，确认在**图形交互**悬浮态是否启用。**图形**：设置**悬浮态**时区域热力层图形样式，包括**填充颜色**、**描边样式**、**填充纹理**。**标签**：设置**悬浮态**时区域热力层标签，包括**显示标签**、**相对位置**、**相对偏移**、**内容样式**、**背景样式**。    |
 * **条件**：条件样式说明。
 
-**条件样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的页面布局。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体样式配置说明，请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
+**条件样式**：单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，添加或删除一个条件样式。 单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标配置多个条件样式的页面布局。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体样式配置说明，请参见[条件树使用说明](/zh/datav/datav-7-0/user-guide/conditional-tree-instructions)。
 
 **图形**：打开开关，配置该样式中的图形配置项；关闭开关，无法配置该样式下的图形配置项。
 
@@ -139,7 +139,7 @@
 |    ----    |    ----    |
 |    **数据源**    |    组件的数据源中通过**代码编辑**或**可视化编辑**展示了组件所包含的数据字段。也可以修改**数据类型**，灵活配置组件数据。    |
 |    **数据映射**    |    当您需要自定义图表字段配置时，可以在**数据映射**模块设置不同的字段映射内容，将这些字段映射到组件对应的字段上。无需修改数据源中的字段，就可以实现数据的实时匹配。也可以单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标对字段分别样式配置。    |
-|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **过滤器**    |    打开**过滤器**，选择已创建的数据过滤器或新建数据过滤器，并配置数据过滤器脚本，实现数据的筛选功能。详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **数据响应结果**    |    实时展示了组件所使用的数据。当组件数据源发生变化时，数据响应结果会对应展示最新的数据。如果系统反应延迟，您可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538806.png)图标，查看数据响应结果，也可以单击右侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8276202761/p538808.png)图标，获取组件的最新数据。您也可以单击查看示例，查看当前组件的响应结果示例。    |
 |    **禁止加载态**    |    勾选复选框，在组件更新和预览数据看板时，将看不到组件初始化时的加载内容，去勾选则相反。默认为去勾选状态。    |
 |    **受控模式**    |    勾选复选框，组件初始化状态下不请求数据，仅通过全局变量或蓝图编辑器配置的方法发起请求数据；去勾选复选框，可以使用自动更新请求数据。默认为去勾选状态。    |
@@ -147,7 +147,7 @@
 
 ## 高级面板![{6A2CEB51-E8F9-4BDB-90AD-B44AEE688AB9}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7999088371/p901681.png)
 
-通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
 
 ## 蓝图交互
 

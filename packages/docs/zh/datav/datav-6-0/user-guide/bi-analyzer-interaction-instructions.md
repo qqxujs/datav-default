@@ -1,8 +1,8 @@
-<!DOCTYPE html> 
+# BI分析器交互使用说明 %{#312363}% 
 
 在DataV数据集和组件分析模式的基础上，分析器交互给组件附加了下钻、联动筛选等交互式动态数据查询的能力，将基于您交互反馈的数据模型变更纳入可视化应用的交互，形成完整的可视化分析循环。所有交互可在预览模式和发布结果中进行。本文介绍分析器具体交互功能的使用说明。
 
-配置分析器交互需先创建一个分析模式的组件，具体创建支持分析模式的组件且进入分析模式请参见[进入组件分析模式](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/enable-the-widget-analysis-mode#concept-2115149)。分析组件创建后会被分析器包裹，在层级树上显示为如下样式。![分析器树状结构](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8558781361/p326662.jpg)
+配置分析器交互需先创建一个分析模式的组件，具体创建支持分析模式的组件且进入分析模式请参见[进入组件分析模式](/zh/datav/datav-6-0/user-guide/enable-the-widget-analysis-mode#concept-2115149)。分析组件创建后会被分析器包裹，在层级树上显示为如下样式。![分析器树状结构](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8558781361/p326662.jpg)
 
 **说明** 
 * 使用分析器交互前，请先关闭扫光动画。
@@ -90,7 +90,7 @@
 
 **说明** 
 
-不同的组件的配置项参数上略有区别，具体请参见[BI分析组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/column-chart-for-datav-6#concept-2090347)。
+不同的组件的配置项参数上略有区别，具体请参见[BI分析组件](/zh/datav/datav-6-0/user-guide/column-chart-for-datav-6#concept-2090347)。
 
 ## 分析组件配置面板快捷跳转至分析器配置面板
 

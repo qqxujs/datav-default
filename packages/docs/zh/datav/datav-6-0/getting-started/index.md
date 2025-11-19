@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 快速入门 %{#57578}% 
 
 * [从这里开始](/zh/datav/datav-6-0/getting-started/getting-started)
 * [开通DataV服务](/zh/datav/datav-6-0/getting-started/activate-datav)

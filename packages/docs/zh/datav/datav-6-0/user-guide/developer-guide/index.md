@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 自定义组件开发 %{#70445}% 
 
 * [组件开发快速入门](/zh/datav/datav-6-0/user-guide/getting-started-for-developers)
 * [组件开发包文件介绍](/zh/datav/datav-6-0/user-guide/document-structure/)

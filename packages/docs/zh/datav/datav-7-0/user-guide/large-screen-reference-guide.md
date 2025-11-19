@@ -42,17 +42,17 @@
 
 ## **使用限制**
 
-* 仅支持**专业版**及以上版本的用户使用大屏嵌入功能。若您的产品版本较低，可参考[产品升级](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/service-upgrades-and-downgrades#54e7660095c9p)操作。
-* 仅支持嵌入当前工作空间内已[发布](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#59ef26706323x)的数据看板。
+* 仅支持**专业版**及以上版本的用户使用大屏嵌入功能。若您的产品版本较低，可参考[产品升级](/zh/datav/datav-7-0/product-overview/service-upgrades-and-downgrades#54e7660095c9p)操作。
+* 仅支持嵌入当前工作空间内已[发布](/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#59ef26706323x)的数据看板。
 * 不支持循环引用。若出现循环引用，编辑页面会提示报错，预览和发布状态下会自动隐藏产生循环引用的内容。例如，当前有A、B、C三个看板，A引用B，B引用C，则C无法再去引用A、B，B无法再去引用A。
 
 ## **前提条件**
 
-* 已[开通](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/activate-datav-1)专业版及以上版本的DataV-Board 7.0产品。
+* 已[开通](/zh/datav/datav-7-0/getting-started/activate-datav-1)专业版及以上版本的DataV-Board 7.0产品。
 * 已规划并创建相关看板。
 
-  * 子看板：作为在主看板中被嵌入的目标看板。请按需创建并完成配置及发布操作，详情请参见[操作指引](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/function-overview)。
-  * 主看板：作为大屏嵌入的操作方。请按需选择[使用模板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)或[使用AI智能生成](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)等方式创建。
+  * 子看板：作为在主看板中被嵌入的目标看板。请按需创建并完成配置及发布操作，详情请参见[操作指引](/zh/datav/datav-7-0/getting-started/function-overview)。
+  * 主看板：作为大屏嵌入的操作方。请按需选择[使用模板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布](/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)或[使用AI智能生成](/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)等方式创建。
 
 ## **操作流程**
 
@@ -60,7 +60,7 @@
 
 **说明** 
 
-在主看板中，除了嵌入子看板外，您也可添加其他组件并进行相关配置，该操作与通用数据看板操作一致，不在此处过多介绍。相关操作可参见[配置数据看板](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/function-overview#99c3f41a51699)。
+在主看板中，除了嵌入子看板外，您也可添加其他组件并进行相关配置，该操作与通用数据看板操作一致，不在此处过多介绍。相关操作可参见[配置数据看板](/zh/datav/datav-7-0/getting-started/function-overview#99c3f41a51699)。
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6439792471/CAEQVRiBgICTx_7drRkiIDdiNjc3NzI0M2U2ODRlNzg4OGIyODQ1YzNhYjJhMTky4980673_20250318110201.438.svg)
 1. [步骤一：嵌入子看板](#b39f148ab9ngs)
@@ -113,12 +113,12 @@
 
 |    **配置项**    |    **描述**    |    **图示**    |
 |    ----    |    ----    |    ----    |
-|    交互事件    |    定义与其他子看板/组件间的[交互行为](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)，实现联动。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879478.png)图标，即可定义相关交互事件及交互动作。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6529792471/p930264.png)    |
-|    关联全局变量    |    可在子看板中关联全局参数，实现看板/组件间的参数传递，进行交互。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879477.png)图标，即可开启相应指令，并为该指令关联所需[全局变量](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables)。开启**抛出数据**，默认将看板数据传递给相应全局变量，配置详情请参见[交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |    |
+|    交互事件    |    定义与其他子看板/组件间的[交互行为](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)，实现联动。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879478.png)图标，即可定义相关交互事件及交互动作。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6529792471/p930264.png)    |
+|    关联全局变量    |    可在子看板中关联全局参数，实现看板/组件间的参数传递，进行交互。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879477.png)图标，即可开启相应指令，并为该指令关联所需[全局变量](/zh/datav/datav-7-0/user-guide/use-global-variables)。开启**抛出数据**，默认将看板数据传递给相应全局变量，配置详情请参见[交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |    |
 
 ## **步骤三：配置蓝图交互**
 
-通过[蓝图交互](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/what-is-blueprint-editor-1)，可实现**组件与子看板**、**不同子看板间**的数据交互或事件透传。
+通过[蓝图交互](/zh/datav/datav-7-0/user-guide/what-is-blueprint-editor-1)，可实现**组件与子看板**、**不同子看板间**的数据交互或事件透传。
 
 ### **操作步骤**
 
@@ -172,7 +172,7 @@
 
 ## **步骤四：预览及发布主看板**
 
-主看板配置完成后，单击看板编辑页面右上角的预览，即可预览数据看板的效果。您可将其[发布](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)上线，部署至相关设备使用。
+主看板配置完成后，单击看板编辑页面右上角的预览，即可预览数据看板的效果。您可将其[发布](/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)上线，部署至相关设备使用。
 
 ## **查看引用关系**
 

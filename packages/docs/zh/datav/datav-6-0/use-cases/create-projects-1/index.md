@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 制作可视化应用 %{#87882}% 
 
 * [创建可视化应用](/zh/datav/datav-6-0/use-cases/create-projects)
 * [添加组件](/zh/datav/datav-6-0/use-cases/add-a-widget)

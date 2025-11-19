@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 转盘抽奖 %{#382159}% 
 
 本文介绍转盘抽奖组件的图表样式和各配置项的含义。
 
@@ -9,7 +9,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0142099761/p610616.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -26,7 +26,7 @@
 |    ----    |    ----    |
 |    **按钮尺寸**    |    按钮的尺寸大小，包括按钮的宽度和高度值，单位px。    |
 |    **垂直间距**    |    设置按钮在组件转盘内离中心点垂直方向的距离值，单位px。    |
-|    **按钮图片**    |    自定义按钮图片的内容。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。    |
+|    **按钮图片**    |    自定义按钮图片的内容。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。    |
 * **转盘**：转盘抽奖转盘部分内容的样式。
 
 |    **参数**    |    **说明**    |
@@ -38,7 +38,7 @@
 |    **扇形颜色**    |    设置转盘内每一个系列内容的扇形颜色样式，单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个颜色系列。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个颜色系列的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中颜色系列配置内容并新增一个同样配置的颜色系列。**颜色**：设置当前系列下转盘内对应模块中的扇形填充颜色。    |
 |    **奖品图片是否显示**    |    打开开关， 转盘内对应模块的奖品图片显示在转盘上；关闭开关，奖品图片不显示。**图片尺寸**：奖品图片的尺寸值，包括图片的宽度和高度值，单位px。**图片间距**：奖品图之间的间距值，包括**水平间距**和**垂直间距**两种，单位px。    |
 |    **描边颜色**    |    转盘内描边线的颜色。    |
-|    **背景图**    |    自定义转盘背景图片的内容。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览转盘背景图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。    |
+|    **背景图**    |    自定义转盘背景图片的内容。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览转盘背景图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。    |
 
 ## 数据面板
 
@@ -56,15 +56,15 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0142099761/p610621.png)
 
-**当点击抽奖时**：选中**启用**，开启组件交互功能。当单击转盘抽奖的抽奖按钮时，会触发数据请求，抛出回调值，动态加载抽奖转盘中的数据。默认抛出数据中的`name`和`imgSrc`值，具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。
+**当点击抽奖时**：选中**启用**，开启组件交互功能。当单击转盘抽奖的抽奖按钮时，会触发数据请求，抛出回调值，动态加载抽奖转盘中的数据。默认抛出数据中的`name`和`imgSrc`值，具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。
 
 ## 蓝图编辑器交互配置
 

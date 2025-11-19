@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 创建DataV大屏（模板篇） %{#380970}% 
 
 宜搭在酷数据方面，正式“牵手”DataV，可实现发布宜搭大屏的能力。宜搭结合DataV在产品侧充分融合，让宜搭用户一键掌握专业炫酷的数据可视化表现力。本文主要介绍如何使用宜搭系统，通过创建空白应用后创建模板大屏，并配置应用中模板大屏的数据源和修改大屏标题的功能。
 
@@ -65,6 +65,6 @@
 
 1. 在画布编辑器，左侧**图层**栏选中需要交互的组件，本文以**通用标题**和**Tab列表**组件为例，分别右键单击**导出到蓝图编辑器**。
 2. 导出成功后，单击左上角![蓝图编辑器按钮](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7959772561/p439871.png)按钮，进入蓝图编辑器。![蓝图编辑器](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7959772561/p439876.png)
-3. 在蓝图编辑器页面，将**导入节点**面板中的Tab列表和通用标题，拖至画布上并连线。具体的配置方法请参见[配置蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor)。  
+3. 在蓝图编辑器页面，将**导入节点**面板中的Tab列表和通用标题，拖至画布上并连线。具体的配置方法请参见[配置蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor)。  
 ![蓝图编辑器连线](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7959772561/p439881.gif)
 4. 配置完成后，您可以在画布编辑器右上角单击预览按钮，预览设置的效果。

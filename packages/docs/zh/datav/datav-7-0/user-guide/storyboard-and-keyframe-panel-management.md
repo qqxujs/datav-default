@@ -29,7 +29,7 @@
 
 * **选中当前帧**：单击时间轴画布中任意一处即可选中此处为当前场景下对应的某一帧，用蓝色线条展示，选中当前帧后可在左侧关键帧属性中添加或修改关键帧属性。![选择关键帧](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8000259161/p180384.png)
 * **拖动当前帧**：单击时间轴画布中任意一处选中此处为当前场景下对应的某一帧后，您可以随意拖动当前帧，即可调整当前帧在时间轴上的位置。![拖动当前帧](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8000259161/p266085.gif)
-* **配置关键帧属性**：默认状态下的关键帧属性仅为**相机**和**时间系统**属性。您还可以在图层管理列表中添加图层到关键帧属性，并调整每个图层在当前关键帧内的属性，详情请参见图层面板管理中的[添加和移除关键帧属性](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management#section-9xq-95p-hu7)。
+* **配置关键帧属性**：默认状态下的关键帧属性仅为**相机**和**时间系统**属性。您还可以在图层管理列表中添加图层到关键帧属性，并调整每个图层在当前关键帧内的属性，详情请参见图层面板管理中的[添加和移除关键帧属性](/zh/datav/datav-7-0/user-guide/layer-panel-management#section-9xq-95p-hu7)。
 
   * **相机**：展开**相机**列表，您可以自定义拖动滑块调整**经度**、**纬度**、**高度**、**倾斜**、**平移**和**视角**的参数。![完成保存](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9406648461/p421239.png)
   * **时间系统**：展开**时间系统**列表，在**时间**参数配置项，您可以自定义为当前场景内的当前帧选择一个具体的所处时间。![配置时间系统](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9406648461/p421242.jpg)  

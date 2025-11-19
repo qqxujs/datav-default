@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 数据源操作 %{#59264}% 
 
 本文介绍添加数据源后，如何执行数据源的列表查看、筛选、编辑、删除等管理操作。
 
 ## **前提条件**
 
-已[添加数据源](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-data-sources/)。
+已[添加数据源](/zh/datav/datav-6-0/user-guide/add-data-sources/)。
 
 ## **进入数据源管理页面**
 
@@ -37,4 +37,4 @@
 
 ## **相关文档**
 
-数据源配置完成后，可通过画布编辑器[配置为资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data)。
+数据源配置完成后，可通过画布编辑器[配置为资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data)。

@@ -22,8 +22,8 @@
 |    ----    |    ----    |
 |    **名称**    |    数据源的显示名称，您可以自由命名。    |
 |    **域名**    |    API网关的调用域名。您可以进入[API网关控制台](https://apigateway.console.aliyun.com/)查看。    |
-|    **AppKey**    |    API网关接口的调用AppKey。请参见[通过API网关访问HTTP协议的后端服务](https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/getting-started/create-an-api-with-a-backend-service-of-the-http)，获取相关接口的AppKey。    |
-|    **AppSecret**    |    API 网关接口的调用AppSecret。请参见[通过API网关访问HTTP协议的后端服务](https://help.aliyun.com/zh/api-gateway/traditional-api-gateway/getting-started/create-an-api-with-a-backend-service-of-the-http)，获取相关接口的AppSecret 。    |
+|    **AppKey**    |    API网关接口的调用AppKey。请参见[通过API网关访问HTTP协议的后端服务](/zh/api-gateway/traditional-api-gateway/getting-started/create-an-api-with-a-backend-service-of-the-http)，获取相关接口的AppKey。    |
+|    **AppSecret**    |    API 网关接口的调用AppSecret。请参见[通过API网关访问HTTP协议的后端服务](/zh/api-gateway/traditional-api-gateway/getting-started/create-an-api-with-a-backend-service-of-the-http)，获取相关接口的AppSecret 。    |
 5. 信息填写完成后，单击**确定**，完成数据源的添加。  
 新添加的数据源会自动显示在数据源列表中。
 
@@ -33,9 +33,9 @@
 2. 在**工作台**页面中，将鼠标移动至需要编辑的数据看板上，单击**编辑**。
 
 **重要**  
-如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
+如果您的**工作台**页面内还没有创建任何数据看板，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)，创建一个数据看板。
 3. 在画布编辑页面，单击画布中的某一组件。  
-如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
+如果画布中还没有组件，请先添加组件，详情请参见[组件画布操作](/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas#title-1c7-abe-n0m)。
 4. 在画布右侧的组件配置面板中选择**数据源**。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0024312761/p539649.png)
 5. 在**设置数据源**模块中，选择**数据源类型**为**阿里云API网关**。
@@ -51,8 +51,8 @@
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置和使用常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置和使用常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

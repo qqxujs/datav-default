@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# DataV地图边界和自定义弹窗介绍 %{#393582}% 
 
 本文通过基础内容及实操演示两部分介绍基础平面地图自定义边界以及自定义弹窗样式实现的方法。
 
@@ -122,7 +122,7 @@ type: "ok", container:q.container});
   * 对于windows系统，复制组ID的快捷键为：ctrl+c+i。
   * 对于mac操作系统，复制组ID的快捷键为：cmd+c+i。
   * 您也可以打开浏览器控制台，在控制台中找到Console信息，单击组件，可以查看并复制组的ID。
-4. 复制成功后，打开Hook页面，配置组ID和区域热力层ID。登录Hook页面的方法请参见：[DataV二次开发教程使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/datav-custom-development-instructions)。
+4. 复制成功后，打开Hook页面，配置组ID和区域热力层ID。登录Hook页面的方法请参见：[DataV二次开发教程使用说明](/zh/datav/datav-6-0/user-guide/datav-custom-development-instructions)。
 
 **说明**  
 hook页面中详细代码说明如下：  

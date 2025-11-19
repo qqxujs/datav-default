@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 数据源管理 %{#125625}% 
 
 * [配置数据库白名单](/zh/datav/datav-6-0/user-guide/configure-a-database-whitelist-for-datav-6)
 * [配置VPC数据源](/zh/datav/datav-6-0/user-guide/add-a-data-source-from-a-vpc)

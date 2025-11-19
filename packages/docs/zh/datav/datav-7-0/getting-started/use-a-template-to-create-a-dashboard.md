@@ -6,8 +6,8 @@
 
 ## 背景信息
 
-* 本文以使用**静态数据源**为例，因此可以直接在组件的数据源配置区域粘贴准备好的数据。如果您的数据源为**CSV文件**、**数据库**等其他类型的数据，需要首先[添加数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-data-sources-1)。
-* 如果您需要使用的数据源为**API**，直接在数据源配置栏输入API即可。具体配置API数据源时，是否选中**服务器代理请求**等操作，详情请参见[如何配置跨域数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-configure-cross-domain-data#concept-k5l-ckz-q2b)。
+* 本文以使用**静态数据源**为例，因此可以直接在组件的数据源配置区域粘贴准备好的数据。如果您的数据源为**CSV文件**、**数据库**等其他类型的数据，需要首先[添加数据源](/zh/datav/datav-7-0/user-guide/manage-data-sources-1)。
+* 如果您需要使用的数据源为**API**，直接在数据源配置栏输入API即可。具体配置API数据源时，是否选中**服务器代理请求**等操作，详情请参见[如何配置跨域数据](/zh/datav/datav-6-0/user-guide/how-to-configure-cross-domain-data#concept-k5l-ckz-q2b)。
 
 ## **操作流程**
 
@@ -25,7 +25,7 @@
 1. 登录[DataV-Board控制台](https://datav.aliyun.com/v/console/)。
 2. 在**工作台**页面中，鼠标移动到**创建PC端看板**上，单击**+选择模板**。
 3. 选择一个合适的模板（例如：**碧玺绿地球通用模板**），鼠标悬浮至模板上方，单击弹出的**创建看板**按钮。
-4. 在**创建看板**对话框中，输入看板名称并选择[项目分组](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-project-groups)，未创建分组时可选择**未分组**。
+4. 在**创建看板**对话框中，输入看板名称并选择[项目分组](/zh/datav/datav-7-0/user-guide/manage-project-groups)，未创建分组时可选择**未分组**。
 5. 单击**创建看板**。  
 看板创建成功后跳转到画布编辑器页面，可以看到一款满足展示地理信息相关数据且设计精良的模板。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0765468961/p732703.png)
 
@@ -62,5 +62,5 @@
 3. 在发布页面中单击**分享链接**右侧的**复制**图标![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7824997471/p960080.png)。
 
 **说明**  
-在发布页面中，可以按需进行[发布信息和快照的管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)。
+在发布页面中，可以按需进行[发布信息和快照的管理](/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)。
 4. 打开浏览器，将复制的链接粘贴到地址栏中，即可在线观看发布成功的数据看板。

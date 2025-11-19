@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 动态轨迹层（v3.x版本） %{#415039}% 
 
 本文介绍动态轨迹层的图表样式和各配置项的含义。
 
@@ -9,7 +9,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5288768761/p581986.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **通用**：设置动态轨迹层的通用配置参数项。
 
 |    **参数**    |    **说明**    |
@@ -20,7 +20,7 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **随距衰减**    |    打开开关，设置随距衰减；关闭开关，关闭随距衰减。推荐开启，开启后支持符号展示。    |
-|    **轨迹样式**    |    设置动态轨迹层的轨迹样式。**轨迹线型**：单击下拉框，选择一种轨迹线类型样式。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5288768761/p581990.png)**轨迹颜色**：请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同轨迹线的映射颜色样式。**轨迹粗细**：设置轨迹线的粗细大小值，参见[尺寸映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-dimension-mapper#concept-2067399)，配置不同轨迹线的粗细大小映射样式。**轨迹长度**：拖动滑块设置飞线的粗细值，取值范围为0\~100，单位px。**边缘模糊**：拖动滑块设置虚化宽度比例值，取值范围为0\~1。    |
+|    **轨迹样式**    |    设置动态轨迹层的轨迹样式。**轨迹线型**：单击下拉框，选择一种轨迹线类型样式。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5288768761/p581990.png)**轨迹颜色**：请参见[颜色映射器使用说明](/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387)，配置不同轨迹线的映射颜色样式。**轨迹粗细**：设置轨迹线的粗细大小值，参见[尺寸映射器使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-dimension-mapper#concept-2067399)，配置不同轨迹线的粗细大小映射样式。**轨迹长度**：拖动滑块设置飞线的粗细值，取值范围为0\~100，单位px。**边缘模糊**：拖动滑块设置虚化宽度比例值，取值范围为0\~1。    |
 |    **线头样式**    |    设置轨迹线线头的样式。单击**线头样式**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**线头样式**的显隐。 **线头颜色**：轨迹线线头的颜色。**线头比例**：拖动滑块设置线头比例，取值范围为0\~100。    |
 |    **符号样式**    |    设置动态轨迹层的符号样式。单击**符号样式**左侧的![眼睛图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8648413261/p89095.jpg)图标，可控制**符号样式**的显隐。仅在打开**随距衰减**开关时，可显示该配置项。**符号颜色**：动态轨迹层的符号颜色。**符号贴图**：设置符号贴图的类型。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5288768761/p581991.png)    |
 * **动效**：设置动态轨迹层的动效参数。  
@@ -31,7 +31,7 @@
 |    **符号速度**    |    拖动滑块，设置动态轨迹层中正负控制方向的符号速度，取值范围为-100\~100。    |
 * **条件**：条件样式说明。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5288768761/p581988.png)
 
-**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
+**条件样式**：单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个条件样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个条件样式的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中条件样式配置内容并新增一个同样配置的条件样式。具体配置请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938)。
 
 **图形**：打开开关，配置该条件样式中的图形配置项；关闭开关，无法配置该条件样式下的图形配置项。
 
@@ -60,8 +60,8 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板

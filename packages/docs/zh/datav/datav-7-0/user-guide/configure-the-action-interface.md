@@ -11,7 +11,7 @@
 |    **模式**    |    **说明**    |
 |    ----    |    ----    |
 |    **视图模式**    |    在视图模式下，直观查看示例动作的样式，并按照示例样式自定义配置动作的内容，无需编写代码。 视图模式下的动作面板示例。![视图模式下的动作面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3949222571/p283790.png)    |
-|    **代码模式**    |    在代码模式下，您可以根据示例动作代码，自定义编写所需动作的代码，实现新增或配置动作的内容。 代码模式下的动作面板示例![代码模式下的动作面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3949222571/p283791.png)**说明** 配置动作接口代码规范，请参见[组件开发包文件概览](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-widget-development-package)。    |
+|    **代码模式**    |    在代码模式下，您可以根据示例动作代码，自定义编写所需动作的代码，实现新增或配置动作的内容。 代码模式下的动作面板示例![代码模式下的动作面板示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3949222571/p283791.png)**说明** 配置动作接口代码规范，请参见[组件开发包文件概览](/zh/datav/datav-7-0/user-guide/overview-of-widget-development-package)。    |
 
 ## 配置动作接口
 
@@ -39,12 +39,12 @@
 
 在区块编辑器中配置完动作接口后，您可以在可视化应用中使用区块时，在蓝图编辑器内查看到区块的所有动作接口信息，具体在可视化应用中配置并查看接口信息的步骤如下。
 
-1. 在区块编辑器中，对配置的动作接口内容，进行预览和测试数据接口内容，接口测试无误后，发布区块，详情请参见[预览区块](https://help.aliyun.com/zh/datav/preview-blocks)和[发布区块](https://help.aliyun.com/zh/datav/publish-blocks)。![测试修改动作参数样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4123054261/p283996.png)
+1. 在区块编辑器中，对配置的动作接口内容，进行预览和测试数据接口内容，接口测试无误后，发布区块，详情请参见[预览区块](/zh/datav/preview-blocks)和[发布区块](/zh/datav/publish-blocks)。![测试修改动作参数样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4123054261/p283996.png)
 2. 切换到**工作台**页面，将鼠标悬浮至一个数据看板上方，单击**编辑**进入画布编辑器。
 3. 单击**组件库**页签，选择**区块**模块，在区块列表内可查看到发布后的所有区块内容。
 4. 单击所需区块，即可添加该区块到画布编辑器中。
 5. 右键单击画布中的区块，选择**进入蓝图编辑器**，即可在蓝图编辑器中查看区块内所有事件和动作接口的信息。  
-区块蓝图参数中的事件动作接口，可以在蓝图编辑器内通过连线和配置逻辑节点的方法，被其他组件调用，详情请参见[功能介绍](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7)。![区块动作信息面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2204285261/p290537.jpg)
+区块蓝图参数中的事件动作接口，可以在蓝图编辑器内通过连线和配置逻辑节点的方法，被其他组件调用，详情请参见[功能介绍](/zh/datav/datav-7-0/user-guide/blueprint-editor-features-of-datav-7)。![区块动作信息面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2204285261/p290537.jpg)
 
 ## 实时预览动作配置
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加数据 %{#87674}% 
 
 本文档为您介绍在DataV可视化应用中，为组件添加数据的方法。
 
@@ -13,8 +13,8 @@
 4. 在**插值点数据接口**的配置页面，单击**配置数据源**。
 5. 在**设置数据源**页面，按照以下说明配置数据源。
 
-  * **数据源类型**：选择**API**。由于[处理接口](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/process-apis#concept-lgr-rtq-p2b)章节已经写好了对应的API，也已经测试了数据获取，所以修改**等值面层**组件的插值点的**数据源类型**为**API**。
-  * **URL**：填写[处理接口](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/process-apis#concept-lgr-rtq-p2b)中测试的地址（本文测试http://127.0.0.1:8888/aqi?date=2017012722）。
+  * **数据源类型**：选择**API**。由于[处理接口](/zh/datav/datav-6-0/use-cases/process-apis#concept-lgr-rtq-p2b)章节已经写好了对应的API，也已经测试了数据获取，所以修改**等值面层**组件的插值点的**数据源类型**为**API**。
+  * **URL**：填写[处理接口](/zh/datav/datav-6-0/use-cases/process-apis#concept-lgr-rtq-p2b)中测试的地址（本文测试http://127.0.0.1:8888/aqi?date=2017012722）。
 6. 单击**预览数据源返回结果**，查看数据返回结果。
 7. 单击**数据响应结果**右侧的**刷新**图标，查看数据响应结果。  
 数据响应成功后，组件将在画布上展示对应的数据样式。
@@ -120,7 +120,7 @@
 ![配置数据源](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9431839061/p9293.png)
 4. 在**选择已有数据源**列表中，选择一个数据库。
 
-**说明** 如果没有可选的数据库，您可以单击**新建**，按照系统提示，新建一个数据库。详情请参见[配置数据源](https://help.aliyun.com/zh/datav/data-sources-overview#concept-ldr-4gp-p2b)。
+**说明** 如果没有可选的数据库，您可以单击**新建**，按照系统提示，新建一个数据库。详情请参见[配置数据源](/zh/datav/data-sources-overview#concept-ldr-4gp-p2b)。
 5. 在**SQL**编辑区域，输入以下SQL脚本。  
 ```  
 select to_char(to_timestamp(:date,'YYYYMMDDHH24'),'YYYY年mm月DD日HH24时')||'空气质量' as value;  

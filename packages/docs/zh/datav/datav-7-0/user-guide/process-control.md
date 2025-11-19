@@ -16,7 +16,7 @@
 
 ### 使用方法
 
-添加**单路判断**节点至蓝图画布中，可查看**单路判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**单路判断**节点至蓝图画布中，可查看**单路判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 #### **节点配置**
 
@@ -46,7 +46,7 @@
 
 ### 使用方法
 
-添加**条件判断**节点至蓝图画布中，可查看**条件判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**条件判断**节点至蓝图画布中，可查看**条件判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 #### **节点配置**
 
@@ -79,7 +79,7 @@
 
 ### 使用方法
 
-添加**多路判断**节点至蓝图画布中，可查看**多路判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**多路判断**节点至蓝图画布中，可查看**多路判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3332680861/p624348.png)
 
@@ -107,7 +107,7 @@
 
 ### 使用方法
 
-添加**计时器**节点至蓝图画布中，可查看**计时器**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**计时器**节点至蓝图画布中，可查看**计时器**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 #### **节点配置**
 
@@ -142,7 +142,7 @@
 
 ### 使用方法
 
-添加**序列执行**节点至蓝图画布中，可查看**序列执行**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**序列执行**节点至蓝图画布中，可查看**序列执行**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3332680861/p624347.png)
 
@@ -169,7 +169,7 @@
 
 ### 使用方法
 
-添加**websocket**节点至蓝图画布中，可查看websocket节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**websocket**节点至蓝图画布中，可查看websocket节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 #### **节点配置**
 
@@ -197,7 +197,7 @@
 
 ### 自建socket服务
 
-我们提供了DataV-WS工具包来自建服务，具体操作请参见[如何使用DataV-WS服务](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/how-to-use-datav-ws)。自建的websocket服务需要符合以下格式。
+我们提供了DataV-WS工具包来自建服务，具体操作请参见[如何使用DataV-WS服务](/zh/datav/datav-7-0/user-guide/how-to-use-datav-ws)。自建的websocket服务需要符合以下格式。
 
 #### 配置示例
 
@@ -273,7 +273,7 @@ websocket节点接收消息格式如下。
 
 ### **使用方法**
 
-添加**websocket-pro**节点至蓝图画布中，可查看**websocket-pro**节点的配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
+添加**websocket-pro**节点至蓝图画布中，可查看**websocket-pro**节点的配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。
 
 #### **节点配置**
 
@@ -281,7 +281,7 @@ websocket节点接收消息格式如下。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **服务地址**    |    socket后端服务的地址。我们提供了DataV-WS工具包供您选择，具体操作请参见[如何使用DataV-WS服务](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/how-to-use-datav-ws)。    |
+|    **服务地址**    |    socket后端服务的地址。我们提供了DataV-WS工具包供您选择，具体操作请参见[如何使用DataV-WS服务](/zh/datav/datav-7-0/user-guide/how-to-use-datav-ws)。    |
 |    **分组**    |    **websocket-pro**节点消息只在同socket服务下的同分组中进行广播。一般同一项目约定一个分组名称。    |
 |    **屏幕ID**    |    该**websocket-pro**节点所在屏幕的ID号，自定义输入。    |
 |    **屏幕名称**    |    该**Websocket-pro**节点所在屏幕的名称，自定义输入。    |
@@ -303,7 +303,7 @@ websocket节点接收消息格式如下。
 
 ### 自建socket服务
 
-我们提供了DataV-WS工具包来自建服务，具体操作请参见[如何使用DataV-WS服务](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/how-to-use-datav-ws)。自建的WebSocket服务需要符合以下格式。
+我们提供了DataV-WS工具包来自建服务，具体操作请参见[如何使用DataV-WS服务](/zh/datav/datav-7-0/user-guide/how-to-use-datav-ws)。自建的WebSocket服务需要符合以下格式。
 
 #### **配置示例**
 

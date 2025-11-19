@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 图表组件 %{#414560}% 
 
 * [柱状图](/zh/datav/datav-6-0/user-guide/column-chart/)
 * [条形图](/zh/datav/datav-6-0/user-guide/bar-chart/)

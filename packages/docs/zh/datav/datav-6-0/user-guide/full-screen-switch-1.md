@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 全屏切换 %{#92231}% 
 
 本文介绍全屏切换组件的图表样式和各配置项的含义。
 
@@ -8,7 +8,7 @@
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7835520861/p614051.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -17,9 +17,9 @@
   * 单击![左右翻转图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53669.png)图标，控制组件左右翻转样式。
   * 单击![上下翻转图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1429559951/p53670.png)图标，控制组件上下翻转样式。
 * **不透明度**：取值范围为0\~1。为**0**时，图表隐藏；为**1**时，图表全部显示。默认为**1**。
-* **全屏显示**：配置全屏显示的图标。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片。设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。
-* **退出全屏**：配置退出全屏的图标。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片。设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。
-* **背景颜色**：图片底部的填充色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+* **全屏显示**：配置全屏显示的图标。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片。设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。
+* **退出全屏**：配置退出全屏的图标。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片。设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。
+* **背景颜色**：图片底部的填充色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
 * **圆角**：配置组件的背景形状。默认为**50%**显示为圆形。如果为**0%**，则显示为正方形。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7835520861/p614062.png)![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7835520861/p614063.png)
 
 **说明**  

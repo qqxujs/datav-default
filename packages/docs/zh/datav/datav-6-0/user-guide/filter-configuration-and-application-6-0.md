@@ -20,11 +20,11 @@
 
 ### **前提条件**
 
-已经创建[可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
+已经创建[可视化应用](/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
 
 ### **进入画布编辑器**
 
-进行过滤器配置等相关操作前，请先依照以下步骤进入[画布编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/overview-of-canvas-editor-on-pc)：
+进行过滤器配置等相关操作前，请先依照以下步骤进入[画布编辑器](/zh/datav/datav-6-0/user-guide/overview-of-canvas-editor-on-pc)：
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 在**我的可视化**页面，将鼠标悬停至目标应用上，单击**编辑**进入画布编辑器页面。
@@ -145,4 +145,4 @@ return data.data.list.map(item => {
 
 ## **相关文档**
 
-[过滤器在不同组件中的更多用法](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/common-cases-1)。
+[过滤器在不同组件中的更多用法](/zh/datav/datav-6-0/user-guide/common-cases-1)。

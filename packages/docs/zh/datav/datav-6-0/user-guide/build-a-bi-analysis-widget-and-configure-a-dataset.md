@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 搭建BI分析组件并配置数据集案例 %{#289063}% 
 
 本文以创建气泡图为例，按步骤介绍搭建一个BI分析组件并使用数据集字段数据的方法。 
 
@@ -48,18 +48,18 @@
 2. 单击大小映射右侧的![配置映射图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9090447261/p270231.jpg)图标，在气泡尺寸映射对话框中，您可以调整气泡尺寸的范围，如下图所示设置数据映射最小值为0；设置映射数据最大值为50。  
 ![设置气泡映射范围](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9090447261/p270238.png)
 
-**说明** 大小映射具体使用说明请参见[尺寸映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-dimension-mapper#concept-2067399 "尺寸映射器用于调整图元尺寸大小，通过使用范围滑块决定图元尺寸范围，本文以配置基础平面地图-抢鲜版组件中的散点半径为例，为您介绍如何自定义数据值和尺寸的映射关系。")。
+**说明** 大小映射具体使用说明请参见[尺寸映射器使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-dimension-mapper#concept-2067399 "尺寸映射器用于调整图元尺寸大小，通过使用范围滑块决定图元尺寸范围，本文以配置基础平面地图-抢鲜版组件中的散点半径为例，为您介绍如何自定义数据值和尺寸的映射关系。")。
 3. 单击颜色映射右侧的![配置映射图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9090447261/p270231.jpg)图标，在气泡颜色映射对话框中，您可以设置映射的类型为数值连续，在颜色模板中选择红蓝双向色板。如下图所示。  
 图 1\. 配置气泡颜色映射1  
 ![配置气泡颜色映射1](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9090447261/p270239.png)  
 图 2\. 配置气泡颜色映射2  
 ![配置颜色映射2](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9090447261/p270240.png)
 
-**说明** 颜色映射具体使用说明请参见[颜色映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387 "颜色映射器适用于设置组件内各种颜色和数据数值之间的映射配置样式，内置十余种颜色模板，同时支持自定义颜色和颜色的对应值，以满足用户不同的定制需求。本文以配置基础平面地图-抢鲜版组件中矢量散点层子组件的散点颜色为例，为您介绍如何使用颜色映射器实现数据与颜色之间的映射匹配。")。
+**说明** 颜色映射具体使用说明请参见[颜色映射器使用说明](/zh/datav/datav-6-0/user-guide/color-mapper-instructions#concept-2067387 "颜色映射器适用于设置组件内各种颜色和数据数值之间的映射配置样式，内置十余种颜色模板，同时支持自定义颜色和颜色的对应值，以满足用户不同的定制需求。本文以配置基础平面地图-抢鲜版组件中矢量散点层子组件的散点颜色为例，为您介绍如何使用颜色映射器实现数据与颜色之间的映射匹配。")。
 4. 单击形状映射右侧的![配置映射图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9090447261/p270231.jpg)图标，在气泡形状映射对话框中，您可以调整所用气泡形状的个数和样式。如下图所示可将三角形改为菱形或六边形等。  
 ![改动气泡形状](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0190447261/p270243.png)
 
-**说明** 形状映射具体使用说明请参见[形状映射器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-shape-mapper#concept-2067398 "形状映射器用于映射组件中数据值和图形之间的内容映射，图形包括矢量和图标两种。本文以配置基础平面地图-抢鲜版组件中的矢量散点层内的散点形状为例，为您介绍如何使用形状映射器实现数据与图形之间的映射匹配。")。  
+**说明** 形状映射具体使用说明请参见[形状映射器使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-shape-mapper#concept-2067398 "形状映射器用于映射组件中数据值和图形之间的内容映射，图形包括矢量和图标两种。本文以配置基础平面地图-抢鲜版组件中的矢量散点层内的散点形状为例，为您介绍如何使用形状映射器实现数据与图形之间的映射匹配。")。  
 配置结果示例：![](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0190447261/p270244.jpg)
 
 ## 步骤五：添加筛选器
@@ -70,7 +70,7 @@
 3. 您还可以双击当前筛选器系列内的条件名称处，自定义设置筛选器的名称。  
 ![设置筛选器条件样例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0190447261/p270256.png)
 
-**说明** 筛选器具体使用说明请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938 "条件树用于指定特定逻辑判断，用于组件进行条件样式修改或者设置筛选器样式。本文介绍条件树的具体使用方法。")。  
+**说明** 筛选器具体使用说明请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938 "条件树用于指定特定逻辑判断，用于组件进行条件样式修改或者设置筛选器样式。本文介绍条件树的具体使用方法。")。  
 筛选器条件配置结果示例：![添加赛选条件后的结果示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0190447261/p270257.jpg)
 
 ## 步骤六：添加条件样式
@@ -83,5 +83,5 @@
 4. 您可以对满足当前Y大于200条件下的气泡点数据，配置细节样式。打开面板下方的所需配置样式的![眼睛开关](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0190447261/p270259.jpg)开关图标，即可开启气泡点的配置样式功能。例如您可以设置成如下图所示的将气泡点描边调整为黄色，且气泡线条为10px的粗细。  
 ![](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0190447261/p270274.png)
 
-**说明** 数据条件系列具体使用说明请参见[条件树使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938 "条件树用于指定特定逻辑判断，用于组件进行条件样式修改或者设置筛选器样式。本文介绍条件树的具体使用方法。")。  
+**说明** 数据条件系列具体使用说明请参见[条件树使用说明](/zh/datav/datav-6-0/user-guide/instructions-of-conditional-tree#task-2099938 "条件树用于指定特定逻辑判断，用于组件进行条件样式修改或者设置筛选器样式。本文介绍条件树的具体使用方法。")。  
 条件配置结果示例：![设置样式及条件示例](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0190447261/p270275.jpg)

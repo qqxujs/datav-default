@@ -1,17 +1,17 @@
-<!DOCTYPE html> 
+# 点光源 %{#214212}% 
 
 点光源是三维城市构建器增加额外光照的图层，用于模拟从一个点向周围空间均匀发光的光照及颜色效果。点光源支持独立的样式配置，包括光的强度、颜色和点光源所处的经纬度等。本文介绍点光源各配置项的含义。
 
 在场景编辑器左侧图层列表中，单击点光源图层，进入配置面板配置点光源图层的样式和数据。 
 
-**说明** 如果图层列表中没有点光源，说明您还未添加点光源图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
+**说明** 如果图层列表中没有点光源，说明您还未添加点光源图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。
 
 ## 配置
 
 **说明** 避免添加多个点光源，会使性能开销过大。
 
 ![配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1743458461/p424105.png)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * 点光源配置面板中的通用参数说明。
   * 通用
 
@@ -22,7 +22,7 @@
 
 |    参数    |    说明    |
 |    ----    |    ----    |
-|    光照颜色    |    点光源的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
+|    光照颜色    |    点光源的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
 |    光照距离    |    点光源能够辐射的半径。拖动滑块设置点光源光照距离，取值范围为0\~5000，默认为0，表示无限远。    |
 |    光照强度    |    拖动滑块设置点光源光照强度系数，取值范围为0\~100。    |
 |    投射阴影    |    打开开关，开启点光源投射阴影效果；关闭开关，点光源不投射阴影效果。**说明** 开启点光源投射阴影效果，需要其他组件材质支持接受阴影，而且光影会影响所有支持该光源的材质，使用投射阴影会使得电脑配置性能开销变大，请谨慎使用该功能。    |

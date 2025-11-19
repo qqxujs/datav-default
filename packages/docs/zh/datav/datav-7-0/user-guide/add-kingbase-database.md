@@ -53,9 +53,9 @@
 数据源创建完成后，您可按需执行如下操作：
 
 * 使用数据源：您可进入目标项目的编辑页面，添加组件并使用数据源。
-* 管理数据源：根据需要执行数据源的编辑、删除等管理操作，详情请参见[数据源管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-data-sources-1)。
+* 管理数据源：根据需要执行数据源的编辑、删除等管理操作，详情请参见[数据源管理](/zh/datav/datav-7-0/user-guide/manage-data-sources-1)。
 
 ## **相关文档**
 
-* 如果您在使用DataV-Board产品时有任何疑惑或建议，请及时[联系我们](https://help.aliyun.com/zh/datav/datav-7-0/support/contact-us-for-datav-7)。
-* 更多数据源的介绍，请参见[数据源说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/data-source/)。
+* 如果您在使用DataV-Board产品时有任何疑惑或建议，请及时[联系我们](/zh/datav/datav-7-0/support/contact-us-for-datav-7)。
+* 更多数据源的介绍，请参见[数据源说明](/zh/datav/datav-7-0/user-guide/data-source/)。

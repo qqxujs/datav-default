@@ -22,7 +22,7 @@
 
 **说明**  
 
-**服务地址**请参见[如何使用DataV-WS服务](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-datav-ws-service)获取。
+**服务地址**请参见[如何使用DataV-WS服务](/zh/datav/datav-6-0/user-guide/use-the-datav-ws-service)获取。
   7. 连接组件。![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2356610961/p696638.png)
   8. 配置串行数据处理节点处理方法。  
   ```  

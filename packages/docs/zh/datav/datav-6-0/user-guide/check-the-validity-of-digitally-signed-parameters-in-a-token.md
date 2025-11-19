@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# DataV分享页Token参数签名校验 %{#120299}% 
 
 本文介绍在发布DataV数据可视化大屏如何使用**Token参数签名校验**。通过Token参数签名校验功能，您可以对大屏交互时传递的参数进行签名鉴权，保证大屏的URL访问链接的参数不能被篡改，从而提高大屏数据以及用户信息的安全性。
 
@@ -6,7 +6,7 @@
 
 在使用**Token参数签名校验**前，请确保： 
 
-* 数据可视化大屏使用Token验证的方式进行发布，具体请参见[发布PC端可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/publish-a-project#section-wfx-iph-pfi)。
+* 数据可视化大屏使用Token验证的方式进行发布，具体请参见[发布PC端可视化应用](/zh/datav/datav-6-0/user-guide/publish-a-project#section-wfx-iph-pfi)。
 * 数据可视化大屏以Get的方式在URL中传递参数（直接在URL后面加参数）。
 * 数据可视化大屏URL中传递的参数要求不能被篡改。
 
@@ -70,7 +70,7 @@ console.log(url);
 ## 使用流程
 
 1. 确定需要签名计算的参数名（即不允许被篡改的参数）。
-2. 在数据可视化大屏开发完成后，使用Token验证的方式发布数据可视化大屏，具体请参见[发布PC端可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/publish-a-project#section-wfx-iph-pfi)。
+2. 在数据可视化大屏开发完成后，使用Token验证的方式发布数据可视化大屏，具体请参见[发布PC端可视化应用](/zh/datav/datav-6-0/user-guide/publish-a-project#section-wfx-iph-pfi)。
 3. 参见[带签名参数的URL计算](#section-sma-f4e-4vb)，计算数据可视化大屏的URL。
 4. 使用上一步中计算得到的URL访问数据可视化大屏，在访问过程中，系统会自动进行参数签名校验。  
 如果参数签名校验功能正常，当您修改了签名参数，再次访问此URL时，访问会被拒绝。

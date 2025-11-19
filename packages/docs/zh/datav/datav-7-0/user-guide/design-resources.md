@@ -12,7 +12,7 @@
 
 ## 设计资源使用界面
 
-数据看板画布中添加了可关联使用设计资源内容的组件，并在您更改组件所使用的设计资源时，会弹出设计资源的对话框。您可以在对话框中上传、检索和使用资源，详情请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。
+数据看板画布中添加了可关联使用设计资源内容的组件，并在您更改组件所使用的设计资源时，会弹出设计资源的对话框。您可以在对话框中上传、检索和使用资源，详情请参见[使用界面功能说明](/zh/datav/datav-7-0/user-guide/features-on-the-usage-page)。
 
 目前，支持使用设计资源功能的组件及样式配置如下表格所示。
 
@@ -24,7 +24,7 @@
 
 ## 设计资源管理界面
 
-DataV不仅在数据看板中为资源可关联使用设计资源，同时在工作台的**资源管理**模块，也提供了**设计资源**的管理页面，在管理页面中支持设计资源的查看、重命名和分组等功能操作，详情请参见[管理界面功能说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/description-of-features-on-the-management-page)。
+DataV不仅在数据看板中为资源可关联使用设计资源，同时在工作台的**资源管理**模块，也提供了**设计资源**的管理页面，在管理页面中支持设计资源的查看、重命名和分组等功能操作，详情请参见[管理界面功能说明](/zh/datav/datav-7-0/user-guide/description-of-features-on-the-management-page)。
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7518022761/p539898.png)
 
@@ -34,7 +34,7 @@ DataV不仅在数据看板中为资源可关联使用设计资源，同时在工
 
 **重要**  
 这种资源使用方式需要您在本地进行管理数据看板所需要的所有资源。您在使用时，需要重新上传或者贴入地址等操作。一方面对本地电脑空间造成了很大冗余；另外一方面，本地资源也没有同步功能，在您更换工作环境（电脑等）后，就无法再次使用。
-* 设计资源功能方法：您在使用组件右侧**配置**面板中关联了设计资源功能的配置项时，可直接在设计资源对话框中快速使用所需的设计资源内容，具体使用设计资源功能的方法请参见[素材或模型调用设计资源操作示例](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/example-of-using-design-resources-from-a-design-library)。
+* 设计资源功能方法：您在使用组件右侧**配置**面板中关联了设计资源功能的配置项时，可直接在设计资源对话框中快速使用所需的设计资源内容，具体使用设计资源功能的方法请参见[素材或模型调用设计资源操作示例](/zh/datav/datav-7-0/user-guide/example-of-using-design-resources-from-a-design-library)。
 
 **说明**  
 这种资源使用方式无需将所需资源存放在本地工作环境，您可以将您现有的资源上传到资源管理页面内，在您后续使用中将会跟随您的账号在任何工作环境内直接调用，提高了资源使用的效率及便捷程度。

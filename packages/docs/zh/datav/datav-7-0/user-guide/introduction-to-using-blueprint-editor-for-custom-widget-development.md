@@ -2,7 +2,7 @@
 
 ## 前提条件
 
-本文需要操作使用桌面版开发工具，详情请参见开发工具使用说明中的[桌面版开发工具使用说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/desktop-developer-tool-instructions)。
+本文需要操作使用桌面版开发工具，详情请参见开发工具使用说明中的[桌面版开发工具使用说明](/zh/datav/datav-7-0/user-guide/desktop-developer-tool-instructions)。
 
 ## 背景信息
 

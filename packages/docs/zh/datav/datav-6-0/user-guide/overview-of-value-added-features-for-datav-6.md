@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 增值功能 %{#424691}% 
 
 本文介绍DataV产品现有的增值功能，您可以通过付费购买，享有增值功能权益。
 
@@ -30,7 +30,7 @@ DataV提供将配置好的单个组件或者组件组合收藏起来（包括所
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 单击控制台右上角账号后面的下拉框，选择**用户中心**。![用户中心](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3603440561/p431855.png)
-3. 在用户中心页面，**其他资源**模块选择**组件收藏数量扩展包**，单击**购买**，详细请参考[产品计费](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/product-billing-datav-6/)。
+3. 在用户中心页面，**其他资源**模块选择**组件收藏数量扩展包**，单击**购买**，详细请参考[产品计费](/zh/datav/datav-6-0/product-overview/product-billing-datav-6/)。
 
 **说明**  
 您也可以通过单击**组件收藏数量扩展包**右下角的**详情**按键，查看组件收藏数量扩展包的详细介绍，并在此页面购买。![组件收藏数量扩展包详情](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7383299461/p430109.png)
@@ -55,7 +55,7 @@ DataV提供屏幕数量扩展包，用来扩充可创建项目的数量。
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 单击控制台右上角账号后面的下拉框，选择**用户中心**。![用户中心](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7122440561/p431857.png)
-3. 在用户中心页面，**其他资源**模块选择**屏幕数量扩展包**，单击**购买**，详细请参考[产品计费](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/product-billing-datav-6/)。
+3. 在用户中心页面，**其他资源**模块选择**屏幕数量扩展包**，单击**购买**，详细请参考[产品计费](/zh/datav/datav-6-0/product-overview/product-billing-datav-6/)。
 
 **说明**  
 您也可以通过单击**屏幕数量扩展包**右下角的**详情**按钮，查看屏幕数量扩展包的详细介绍，并在此页面购买。![屏幕数量扩展包详情](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0583299461/p430101.png)

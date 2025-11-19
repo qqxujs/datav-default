@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 单张图片 %{#92190}% 
 
 本文介绍单张图片组件的图表样式和各配置项的含义。
 
@@ -9,7 +9,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3256081861/p633257.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -19,11 +19,11 @@
   * 单击![上下翻转图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1429559951/p53670.png)图标，控制组件上下翻转样式。
 * **不透明度**：取值范围为0\~1。为**0**时，图表隐藏；为**1**时，图表全部显示。默认为**1**。
 * **图片类型**：组件可选择的图片类型，包括：**位图**和**矢量图**。
-* **背景图**：当**图片类型**配置项选择**位图**时，您可以自定义背景图片的内容。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。如果**配置**页签和**数据**页签都配置了图片，则优先使用**数据**页签中的图片配置。
+* **背景图**：当**图片类型**配置项选择**位图**时，您可以自定义背景图片的内容。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。如果**配置**页签和**数据**页签都配置了图片，则优先使用**数据**页签中的图片配置。
 
 **说明**  
 目前背景图配置项内支持添加**PNG**、**JPG**、**GIF**、**JPEG**等格式的位图图片。
-* **矢量图**：当**图片类型**配置项选择**矢量图**时，您可以自定义背景图片的内容。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。如果**配置**页签和**数据**页签都配置了图片，则优先使用**数据**页签中的图片配置。
+* **矢量图**：当**图片类型**配置项选择**矢量图**时，您可以自定义背景图片的内容。如果您需要使用远程服务器上的图片，请在上方的输入框中输入图片的URL地址；单击图片框内的**预览**，即可预览按钮图片的大图样式；单击图片输入框下方的虚线框内的**更改**，更改图片设计资产详细功能请参见[使用界面功能说明](/zh/datav/datav-6-0/user-guide/use-interface-function-description#concept-2094777)。如果**配置**页签和**数据**页签都配置了图片，则优先使用**数据**页签中的图片配置。
 
 **说明**  
 目前矢量图配置项内仅支持添加**SVG**格式的矢量图片。
@@ -58,8 +58,8 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 数据面板（分析模式）
@@ -73,7 +73,7 @@ __表 1\. 配置项说明__
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3256081861/p633302.png)
 
-BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
+BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数据面板功能介绍](/zh/datav/datav-6-0/user-guide/introduction-to-features-of-the-data-panel-in-bi-analysis-mode#task-2098468)。
 
 ### **配置字段说明**
 
@@ -92,9 +92,9 @@ BI分析数据配置面板中的详细操作说明，请参见[BI分析模式数
 
 |    **交互事件**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击图片时**    |    选中**启用**，开启组件交互功能。当单击图片时，会触发数据请求，抛出回调值，动态加载图片的数据。默认抛出数据中的img和url值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
-|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。当鼠标移入到图片时，会触发数据请求，抛出回调值，动态加载图片的数据。默认抛出数据中的img和url值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
-|    **当鼠标移出时**    |    选中**启用**，开启组件交互功能。当鼠标移出图片时，会触发数据请求，抛出回调值，动态加载图片的数据。默认抛出数据中的img和url值，具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
+|    **当点击图片时**    |    选中**启用**，开启组件交互功能。当单击图片时，会触发数据请求，抛出回调值，动态加载图片的数据。默认抛出数据中的img和url值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
+|    **当鼠标移入时**    |    选中**启用**，开启组件交互功能。当鼠标移入到图片时，会触发数据请求，抛出回调值，动态加载图片的数据。默认抛出数据中的img和url值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
+|    **当鼠标移出时**    |    选中**启用**，开启组件交互功能。当鼠标移出图片时，会触发数据请求，抛出回调值，动态加载图片的数据。默认抛出数据中的img和url值，具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/how-to-use-callback-ids-to-implement-component-linkage#concept-pbb-2vk-q2b)。    |
 
 ## 蓝图编辑器交互配置
 

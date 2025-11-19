@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 地球容器 %{#95529}% 
 
 本文介绍3D地球组件地图容器的图标样式和各配置项的含义。
 
@@ -18,7 +18,7 @@
     4. 单击已添加的子组件，配置子组件参数。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8234968761/p582083.png)
     5. 配置完成后，单击![返回](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8558068951/p134118.png)图标，返回到3D地球配置面板，配置其他子组件。
   * 复制、重命名、删除子组件：鼠标移至已经添加的子组件上，单击右侧的![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6278068951/p39964.png)图标，复制子组件。单击![编辑图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7278068951/p39965.png)图标，修改子组件名称。单击![删除图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7278068951/p39966.png)图标，删除子组件。
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -40,7 +40,7 @@
 |    **bloom阈值**    |    bloom阈值，范围为0\~1。    |
 |    **bloom半径**    |    bloom半径，范围为0\~5。    |
 |    **bloom强度**    |    bloom强度，范围为0\~1。    |
-* **背景设置**：3D地球的背景颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
+* **背景设置**：3D地球的背景颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。
 * **视点设置**：视点包含了**视角**、**经度**、**纬度**和**距离**四个参数，您可以根据摄像机原理调整这些参数，使地球按照您期望的大小和方向展示在可视化应用中。  
 
 |    **参数**    |    **说明**    |

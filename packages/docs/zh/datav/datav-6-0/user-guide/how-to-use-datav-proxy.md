@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 如何使用DataV Proxy %{#111123}% 
 
 DataV Proxy应用是一个可视化的DataV Proxy（DataV数据代理服务）配置工具，您可以通过DataV Proxy应用访问本地或内网等不对外开放且无外网访问地址的数据库，保证数据的安全性。本文档为您介绍DataV Proxy应用的启动方法和相关功能，帮助您快速准确地使用DataV Proxy应用来配置DataV数据代理服务。
 
@@ -49,7 +49,7 @@ DataV Proxy应用是一个可视化的DataV Proxy（DataV数据代理服务）�
 配置用户数据库的基本信息。配置完成后，可进行**链接数据库测试**和**SQL测试**，确保数据源的可靠性。  
 
 **重要**  
-在新增数据源前，您需要首先在您数据库的白名单中添加DataV Proxy服务的IP地址。以RDS MySQL为例，您需要将第一步中的`服务器所在IP地址`添加到RDS MySQL的白名单中，详情请参见[通过客户端、命令行连接RDS MySQL实例](https://help.aliyun.com/zh/rds/use-a-database-client-or-the-cli-to-connect-to-an-apsaradb-rds-for-mysql-instance-2#concept-pdr-k2f-vdb)。
+在新增数据源前，您需要首先在您数据库的白名单中添加DataV Proxy服务的IP地址。以RDS MySQL为例，您需要将第一步中的`服务器所在IP地址`添加到RDS MySQL的白名单中，详情请参见[通过客户端、命令行连接RDS MySQL实例](/zh/rds/use-a-database-client-or-the-cli-to-connect-to-an-apsaradb-rds-for-mysql-instance-2#concept-pdr-k2f-vdb)。
 
   1. 单击**数据源配置**，选择数据源类型，单击**新增**。![配置数据源](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0710153951/p40925.png)
   2. 在弹出的对话框中，填写数据源的配置信息。![填写数据源配置信息](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0710153951/p40926.png)
@@ -99,4 +99,4 @@ Windows下只有查看日志功能，无法进行指定行数和关键字匹配�
 **重要**  
 根据浏览器的安全策略，HTTPS页面中不允许发起任何HTTP请求，而DataV Proxy是通过浏览器端访问的，所以需要与打开页面的请求响应协议保持一致。如果您使用的是IP地址或者没有HTTPS域名，就需要用HTTP协议下的[DataV控制台](http://datav.aliyun.com/)地址打开DataV，并访问DataV Proxy应用。如果您想要通过HTTPS打开的DataV上访问DataV Proxy，需要有DataV Proxy的HTTPS访问地址。
 5. 单击**确定**，完成数据源的添加。  
-数据源添加完成后，您就可以将该数据源配置到组件中进行展示了，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。
+数据源添加完成后，您就可以将该数据源配置到组件中进行展示了，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。

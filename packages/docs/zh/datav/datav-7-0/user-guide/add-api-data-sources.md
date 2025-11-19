@@ -12,7 +12,7 @@
 
 **说明**  
 支持HTTP/HTTPS协议API，返回格式和数据类型无特殊要求。API 可由第三方直接提供，或者根据业务自行生成。API自行生成由选择数据来源、设计API、实现API、测试API、部署API等步骤组成，具体可咨询相关研发人员。
-* 已创建数据看板并添加相应组件。详情请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[组件画布操作](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas)、[配置组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)。
+* 已创建数据看板并添加相应组件。详情请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[组件画布操作](/zh/datav/datav-7-0/user-guide/widget-operations-in-a-canvas)、[配置组件](/zh/datav/datav-7-0/user-guide/configuration-items)。
 
 ## 使用限制
 
@@ -112,8 +112,8 @@ Access-Control-Allow-Origin: *
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

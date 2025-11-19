@@ -6,7 +6,7 @@
 
 **说明** 
 
-如果图层列表中没有**水体**，说明您还未添加**水体**图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
+如果图层列表中没有**水体**，说明您还未添加**水体**图层，请参见[添加子组件](/zh/datav/datav-7-0/user-guide/layer-panel-management#section-1yb-xd4-pfe)进行添加。
 
 ## 样式面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7203039861/p693746.png)
 
@@ -14,7 +14,7 @@
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **水体颜色**    |    水体的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
+|    **水体颜色**    |    水体的颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。    |
 |    **颜色贴图**    |    在**颜色贴图**区域：鼠标移动到图片位置，单击**删除**可删除当前图片，然后单击图片区域或者拖动本地图片到区域内即可添加一个贴图。鼠标移动到图片位置，单击**更改**可重新上传本地图片。您也可以输入图片的URL地址，将远程服务器上的图片作为贴图。    |
 |    **法线贴图**    |    在**法线贴图**区域：鼠标移动到图片位置，单击**删除**可删除当前图片，然后单击图片区域或者拖动本地图片到区域内即可添加一个贴图。鼠标移动到图片位置，单击**更改**可重新上传本地图片。您也可以输入图片的URL地址，将远程服务器上的图片作为贴图。    |
 |    **波纹**    |    设置水体的波纹，包括低频尺寸和高频尺寸，取值范围为0\~100。    |
@@ -27,7 +27,7 @@
 
 ## 数据面板![image.png](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8203039861/p693748.png)
 
-**重新选择数据**：在数据面板内可以单击下方**重新选择数据**，打开**选择范围**对话框，重新选择仅针对水体图层的数据范围，详情请参见[使用官方基底数据创建](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/create-a-3d-city#6623dda05fs3d)中的选择场景范围区域的操作步骤。
+**重新选择数据**：在数据面板内可以单击下方**重新选择数据**，打开**选择范围**对话框，重新选择仅针对水体图层的数据范围，详情请参见[使用官方基底数据创建](/zh/datav/datav-7-0/user-guide/create-a-3d-city#6623dda05fs3d)中的选择场景范围区域的操作步骤。
 
 **刷新数据**：刷新数据面板上已添加的数据内容。
 

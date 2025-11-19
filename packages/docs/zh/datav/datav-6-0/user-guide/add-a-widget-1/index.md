@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 资产管理（企业版） %{#59278}% 
 
 资产是数据可视化项目中的核心资源，包括图表、地图、文本、图片等多种组件。作为可视化应用管理的关键模块，资产管理功能涵盖添加、搜索、收藏等操作，旨在帮助用户高效管理和维护项目资源。本文将详细介绍如何添加和管理资产，提供从基础到高级的操作指南，助力用户高效完成资产设计与应用，提升可视化项目的开发效率与展示效果。
 
 ## 前提条件
 
-已创建[可视化应用项目](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
+已创建[可视化应用项目](/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application#0a0ccb98baplq)。
 
 ## **进入资产管理**
 
@@ -148,7 +148,7 @@
 
 ## **升级收藏资产为区块**
 
-将鼠标移至收藏的资产上，单击**升级成区块**图标即可选择[升级收藏资产为区块](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/manage-a-block#a60066dd8eeb1)。
+将鼠标移至收藏的资产上，单击**升级成区块**图标即可选择[升级收藏资产为区块](/zh/datav/datav-6-0/user-guide/manage-a-block#a60066dd8eeb1)。
 
 ## **资产成组**
 

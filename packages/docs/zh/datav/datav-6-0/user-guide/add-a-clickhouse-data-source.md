@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加ClickHouse数据源 %{#459644}% 
 
 本文档介绍在DataV中添加ClickHouse数据源的方法，以及相关参数配置说明。
 
@@ -18,7 +18,7 @@
 |    ----    |    ----    |
 |    **名称**    |    数据源的显示名称，可以自由命名。    |
 |    **VPC ID**    |    VPC实例的ID，此VPC为您的ClickHouse实例所在的VPC。可进入[云数据库ClickHouse控制台](https://clickhouse.console.aliyun.com/)，在**集群列表** **\>基本信息>** **网络类型**中获取。    |
-|    **VPC实例ID**    |    VPC下数据库实例的ID，可在[云数据库ClickHouse控制台](https://clickhouse.console.aliyun.com/)的实例基本信息页面获取。**说明** 通常您可以直接在数据库产品的控制台查看数据库实例的VPC实例ID。但是由于VPC网络实现机制的原因，有时控制台显示的实例ID并不是DataV数据源配置VPC网络需要的实例ID。因此您需要通过数据库产品的OpenAPI获取DataV需要的VPC实例ID，通常为数据库实例详情中的**VPCCloudInstanceId**或**VPCInstanceId**，具体数据库产品获取VPC实例ID的接口，请使用[DescribeDBClusterAttribute - 查看集群的详细属性](https://help.aliyun.com/zh/clickhouse/developer-reference/api-clickhouse-2019-11-11-describedbclusterattribute)接口获取VPC实例ID。    |
+|    **VPC实例ID**    |    VPC下数据库实例的ID，可在[云数据库ClickHouse控制台](https://clickhouse.console.aliyun.com/)的实例基本信息页面获取。**说明** 通常您可以直接在数据库产品的控制台查看数据库实例的VPC实例ID。但是由于VPC网络实现机制的原因，有时控制台显示的实例ID并不是DataV数据源配置VPC网络需要的实例ID。因此您需要通过数据库产品的OpenAPI获取DataV需要的VPC实例ID，通常为数据库实例详情中的**VPCCloudInstanceId**或**VPCInstanceId**，具体数据库产品获取VPC实例ID的接口，请使用[DescribeDBClusterAttribute - 查看集群的详细属性](/zh/clickhouse/developer-reference/api-clickhouse-2019-11-11-describedbclusterattribute)接口获取VPC实例ID。    |
 |    **域名**    |    连接数据库的地址。 **重要** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。例如使用内网环境下的阿里云ClickHouse，域名示例为：rm-bpxxxxxxxxx33150.clickhouse.aliyuncs.com，可在[云数据库ClickHouse控制台](https://clickhouse.console.aliyun.com/)的实例基本信息页面获取。    |
 |    **端口**    |    数据库设置的端口，默认为8123。    |
 |    **用户名**    |    登录数据库的用户名。    |

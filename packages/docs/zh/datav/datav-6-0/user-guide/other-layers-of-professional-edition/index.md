@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 其他 %{#422840}% 
 
 * [环境光层](/zh/datav/datav-6-0/user-guide/ambient-light-of-professional-edition)
 * [平行光](/zh/datav/datav-6-0/user-guide/directional-light-of-professional-edition)

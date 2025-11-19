@@ -16,8 +16,8 @@
 
 ## **前提条件**
 
-* 已创建数据看板，支持[使用模板创建](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布创建](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)、[使用AI智能生成](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)。
-* 已准备业务数据，详情请参见[数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/data-source/)。
+* 已创建数据看板，支持[使用模板创建](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用空白画布创建](/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard#639c36877c6jr)、[使用AI智能生成](/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban)。
+* 已准备业务数据，详情请参见[数据源](/zh/datav/datav-7-0/user-guide/data-source/)。
 
 ## **添加**轮播列表
 
@@ -25,7 +25,7 @@
 2. 在**工作台**页面的**数据看板**区域，鼠标悬停至目标看板，单击**编辑**，进入看板的画布编辑页面。
 3. 在左侧导航栏，按下图步骤添加**轮播列表**组件至画布。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8792847571/p1005697.png)
 
-您也可[使用全局搜索](https://help.aliyun.com/zh/datav/global-search)添加相关组件。
+您也可[使用全局搜索](/zh/datav/global-search)添加相关组件。
 
 ## **接入业务数据**
 
@@ -65,8 +65,8 @@
 
 |    **配置项**    |    **描述**    |
 |    ----    |    ----    |
-|    **选择数据源**    |    支持接入CSV文件、API、各类数据库等多种类型数据，详情请参见[支持的数据源类型](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-data-source/)。您可使用可视化表格或代码方式编辑数据字段。    |
-|    **配置过滤器（可选）**    |    用于自定义过滤代码，实现数据的结构转换、筛选、展示和简单的计算，详情请参见[管理数据过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **选择数据源**    |    支持接入CSV文件、API、各类数据库等多种类型数据，详情请参见[支持的数据源类型](/zh/datav/datav-7-0/user-guide/add-a-data-source/)。您可使用可视化表格或代码方式编辑数据字段。    |
+|    **配置过滤器（可选）**    |    用于自定义过滤代码，实现数据的结构转换、筛选、展示和简单的计算，详情请参见[管理数据过滤器](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 |    **配置数据映射**    |    用于将所选数据源中的字段映射至组件对应的字段上，实现数据的实时匹配。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9633269661/p524955.png)图标可配置字段样式。    |
 |    **查看响应结果**    |    用于实时展示组件所接入的数据。当组件数据源发生变化时，此处会对应展示最新数据。单击数据响应结果，可查看编写的数据字段代码。单击查看示例，可查看数据源接收的数组类型及代码示例。您可参考示例编写相关字段。其他数据请求配置：**禁止加载态**：勾选后，在组件更新或预览数据看板时，将不呈现组件初始化时的加载内容。**受控模式**：勾选后，组件在初始化状态下不会请求数据。此时仅支持通过蓝图编辑器或全局变量事件发起数据请求。**自动更新请求**：勾选后，平台会根据您设置的轮询时间，动态轮询更新数据；不勾选，则需手动刷新页面，或通过蓝图编辑器和全局变量事件来触发请求更新数据。    |
 
@@ -80,14 +80,14 @@
 
 **说明** 
 
-您也可单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879258.png)图标，通过关键词搜索，快速定位到所需配置项，搜索支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+您也可单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879258.png)图标，通过关键词搜索，快速定位到所需配置项，搜索支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 
 |    **配置项**    |    **描述**    |    **图示**    |
 |    ----    |    ----    |    ----    |
 |    全局配置    |    定义组件在数据看板中的位置分布、透明程度、交互穿透。**不透明度**：数值越小，组件越透明。取值范围为0\~1内的数值。**交互穿透**：开启后，鼠标可穿透该组件，避免看板中组件较多时，该组件会遮挡鼠标与下层组件的交互。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p907435.png)    |
 |    快速样式    |    平台内置了多种轮播列表样式，您可根据实际场景快速切换使用。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p907506.png)    |
 |    全局样式配置    |    定义轮播列表的表格行数、列间距、字体样式、轮播控制及动画样式、高亮显示等配置。是否轮播：开启后，轮播列表才会以动画样式进行轮播。可设置轮播的动画类型、间隔时间，以及单页是否需要轮播等。**轮播动画**：支持设置为逐条滚动和全部滚动。全部滚动是以当前页面为单位进行轮播，类似翻页效果。**单页不轮播**：开启后，若数据条数达不到表格行数（即数据只有一页），则不进行轮播。高亮配置：开启后，轮播到指定行时，该行将按照当前高亮样式配置（字体、背景色、边框等样式）进行高亮呈现。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p913391.png)**自动依次高亮**：开启后，每一行内容轮播时自动依次高亮显示；关闭后，可指定某行高亮展示。**指定高亮序列号**：输入轮播列表某行的序列号，该序列号的行内容将高亮显示。仅在关闭**自动依次高亮**配置项时生效。其他配置：可设置空值行隐藏、溢出文本滚动样式、视图渲染更新时间、自定义列的图片配置等。**空值隐藏行**：开启后，若某行数据内容为空，则该行将自动隐藏。**溢出文本滚动**：若某字段数据内容较长，可设置溢出文本是否滚动呈现，以及滚动的速率或时长。若关闭滚动开关，则溢出的文本将会被截断，不会呈现。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p913397.png)**即刻更新**：开启后，当数据更新时将立即更新视图渲染；关闭后，当数据更新时，视图将在下次轮播时更新。**默认图片**：当自定义列的内容类型为图片时，相应列内容所显示的默认图片。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p913421.png)**说明** 图片支持**PNG**、**JPG**、**GIF**、**JPEG**等格式。此处的图片非真实图片地址，仅作为默认图片显示，您可在数据源中配置您实际需要展示的内容。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p907439.png)    |
-|    表头配置    |    定义轮播列表是否需要添加表头，以及设置表头的行高（占整个轮播列表高度的比例）、背景[颜色](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)、文本样式（字体大小、颜色、粗细等）。关闭后，轮播列表将没有表头。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p913441.png)    |
+|    表头配置    |    定义轮播列表是否需要添加表头，以及设置表头的行高（占整个轮播列表高度的比例）、背景[颜色](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)、文本样式（字体大小、颜色、粗细等）。关闭后，轮播列表将没有表头。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p913441.png)    |
 |    行配置    |    可分别设置奇数行、偶数行的背景颜色，以及所有行的回调字段（该字段将作为回调参数的取数字段）。**说明** 回调ID新版已迁移至交互面板中，样式面板交互功能将弃用，请尽快升级。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p907451.png)    |
 |    序号列配置    |    开启后，将在轮播列表最左侧生成一个序号列。可设置序号列的背景颜色、列宽、序号图标（即圆圈）半径，以及文本的字体、大小、颜色等样式。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p913451.png)    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p907450.png)    |
 |    自定义列配置    |    定义轮播列表的列内容及样式。该配置项为一个数组，可配置多个标签（一个标签为一列），编辑器会遍历数据，使数据通过自定义列的配置循环渲染。标签的先后顺序即为列的展示顺序，您可按需调整相应顺序。支持定义列的字段名称、显示名称、列宽、内容类型（文本或图片）、是否换行、文本样式、图片样式等。列字段名：需要来源于数据源中的字段名称。配置后，轮播列表中该列才会获取数据源相应字段的内容进行显示。列显示名：作为该列的表头内容显示。文本样式：当**内容类型**选择**文本**时生效。可设置文本的对齐方式、字体、大小、颜色，以及是否自动换行等。开启自动换行后，当前列的数据内容溢出时，将进行换行展示。否则，溢出数据可能会被截断。图片样式：当**内容类型**选择**图片**时生效。可设置图片的宽度、边距等。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528933.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528934.png)图标，可添加或删除一个标签列；单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528936.png)或![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528937.png)图标，可更改自定义列配置区域的排列样式；单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1161599661/p528938.png)图标，可复制当前选中的标签列。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p907449.png)    |
@@ -98,12 +98,12 @@
 
 |    **配置项**    |    **描述**    |    **图示**    |
 |    ----    |    ----    |    ----    |
-|    交互事件    |    定义与其他组件间的[交互行为](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)，实现组件联动。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879478.png)图标，即可定义相关交互事件及交互动作。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p913523.png)    |
-|    关联全局变量    |    可在组件中关联全局参数，实现组件间的参数传递，进行组件交互。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879477.png)图标，即可开启相应指令，并为该指令关联所需[全局变量](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables)。**当点击单行时**：可单击轮播列表中的某一行抛出临时变量，默认抛出area、pv和attribute字段。**说明** 仅当您的轮播列表**列字段名**使用默认字段area、pv和attribute时，当前指令生效。若您的**列字段名**使用自定义字段，则请进入蓝图编辑器使用**当点击单行时**功能。蓝图编辑器中**当点击单行时**的字段配置操作示例如下。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1546159371/p916788.png)**当数据滚动时**：当列表中的数据进行翻动时，会抛出临时变量，默认抛出data和index（索引值）字段。**当高亮时**：当列表中的数据行内容高亮显示时，会抛出临时变量，默认抛出data和index（索引值）字段。**一轮滚动结束**：当列表中的数据行滚动完一轮时，会抛出临时变量，默认抛出message和isEnding字段。配置详情请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |    |
+|    交互事件    |    定义与其他组件间的[交互行为](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)，实现组件联动。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879478.png)图标，即可定义相关交互事件及交互动作。    |    ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9958239371/p913523.png)    |
+|    关联全局变量    |    可在组件中关联全局参数，实现组件间的参数传递，进行组件交互。单击![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1907643371/p879477.png)图标，即可开启相应指令，并为该指令关联所需[全局变量](/zh/datav/datav-7-0/user-guide/use-global-variables)。**当点击单行时**：可单击轮播列表中的某一行抛出临时变量，默认抛出area、pv和attribute字段。**说明** 仅当您的轮播列表**列字段名**使用默认字段area、pv和attribute时，当前指令生效。若您的**列字段名**使用自定义字段，则请进入蓝图编辑器使用**当点击单行时**功能。蓝图编辑器中**当点击单行时**的字段配置操作示例如下。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1546159371/p916788.png)**当数据滚动时**：当列表中的数据进行翻动时，会抛出临时变量，默认抛出data和index（索引值）字段。**当高亮时**：当列表中的数据行内容高亮显示时，会抛出临时变量，默认抛出data和index（索引值）字段。**一轮滚动结束**：当列表中的数据行滚动完一轮时，会抛出临时变量，默认抛出message和isEnding字段。配置详情请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。    |    |
 
 ### **蓝图交互**
 
-可通过[蓝图编辑器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/what-is-blueprint-editor-1)使用可视化连线方式，定义组件间的交互关系及行为逻辑。
+可通过[蓝图编辑器](/zh/datav/datav-7-0/user-guide/what-is-blueprint-editor-1)使用可视化连线方式，定义组件间的交互关系及行为逻辑。
 
 #### **操作步骤**
 

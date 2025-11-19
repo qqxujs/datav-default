@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 私有部署 %{#147273}% 
 
 私有部署是指将DataV-Board 6.0（数据看板）开发的页面整体打包下载，并安装部署到您的企业内网中运行。例如，若您的企业内网中有一个数据库，仅能在企业内网中访问，无法通过公网访问，则线上页面便无法连接到该数据库。在这种情况下，私有部署将有效地解决您的问题。
 
@@ -172,7 +172,7 @@
 |    screen-new.json    |    修改后的可视化应用配置项，已加密。    |
 |    interaction-new.json    |    修改后的蓝图编辑器配置文件。    |
 3. 连接数据源。  
-私有部署采用DatavProxy数据源方式（⽀持MySQL、SQLServer、Oracle和PostgreSQL），详情请参见[如何使用DataV Proxy](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)和[添加DataV数据代理服务](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/add-a-datav-proxy-data-source#task-2470476)。
+私有部署采用DatavProxy数据源方式（⽀持MySQL、SQLServer、Oracle和PostgreSQL），详情请参见[如何使用DataV Proxy](/zh/datav/datav-6-0/user-guide/how-to-use-datav-proxy#concept-wws-yvg-chb)和[添加DataV数据代理服务](/zh/datav/datav-6-0/user-guide/add-a-datav-proxy-data-source#task-2470476)。
 4. 配置数据源。  
 进入画布编辑页，单击组件，在数据配置面板，为组件配置内网数据源。  
 数据相关的配置会写入名称中包含`-new`的几个文件中。如果需要调整样式，只需要线上重新下载打包可视化应用，直接覆盖本地文件即可。

@@ -62,12 +62,12 @@
 |    **操作**    |    针对不同状态下的历史版本的项目，可对项目进行**上线**或**下线**的操作。**上线**：单击一个**未上线**状态下项目版本右侧的![上线](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3664344261/p282361.jpg)图标，在弹出的**上线版本**对话框中，单击**确定**即可上线该版本项目内容。![上线区块版本](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3664344261/p282363.jpg)**下线**：单击一个**已上线**状态下项目版本右侧的![下线图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3664344261/p282362.jpg)图标，在弹出的**下线版本**对话框中，单击**确定**即可下线该版本项目内容。![下架版本](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3664344261/p259310.jpg)    |
 
 **说明**  
-默认情况下，一个项目被发布后都处于**已上线**状态。项目上线后可以在可视化应用画布编辑器中，单击**更新版本**按键，将项目升级到最新版本后继续使用。具体使用项目的方法请参见[查看并添加使用项目](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/publish-and-use-dashboards#section-9rd-8jq-d1t)。
+默认情况下，一个项目被发布后都处于**已上线**状态。项目上线后可以在可视化应用画布编辑器中，单击**更新版本**按键，将项目升级到最新版本后继续使用。具体使用项目的方法请参见[查看并添加使用项目](/zh/datav/datav-6-0/user-guide/publish-and-use-dashboards#section-9rd-8jq-d1t)。
 3. 单击历史版本面板左上角的**收起**，即可关闭历史版本面板。
 
 ## **创建项目**
 
-三维城市构建器项目支持通过**官方基底数据**和**空间构建数据**两种方式，灵活添加多个城市基底子组件和数据映射子组件。如需了解更多操作细节，请参见[创建三维城市场景项目](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/create-3d-city-projects)。
+三维城市构建器项目支持通过**官方基底数据**和**空间构建数据**两种方式，灵活添加多个城市基底子组件和数据映射子组件。如需了解更多操作细节，请参见[创建三维城市场景项目](/zh/datav/datav-6-0/user-guide/create-3d-city-projects)。
 
 ## **项目操作**
 
@@ -76,7 +76,7 @@
 ### **编辑项目**
 
 1. 在**三维城市构建器**页面中，选择一个三维城市构建器项目，单击**编辑**图标。
-2. 在三维城市构建器的**场景编辑器**页面中，您可以修改项目场景内容、配置场景样式、添加数据组件，并设置关键帧与分镜，从而完成三维城市项目的场景编辑。有关场景编辑器的详细功能说明，请参见[场景编辑器管理](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/scene-editor-management-of-professional-edition/)。此外，您还可以配置项目的数据、事件和动作接口，或切换到**蓝图编辑器**中设计项目的交互效果。如需了解蓝图交互功能的详细信息，请参考[蓝图编辑器配置说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/blueprint-editor-configuration#concept-2193562)**。**
+2. 在三维城市构建器的**场景编辑器**页面中，您可以修改项目场景内容、配置场景样式、添加数据组件，并设置关键帧与分镜，从而完成三维城市项目的场景编辑。有关场景编辑器的详细功能说明，请参见[场景编辑器管理](/zh/datav/datav-6-0/user-guide/scene-editor-management-of-professional-edition/)。此外，您还可以配置项目的数据、事件和动作接口，或切换到**蓝图编辑器**中设计项目的交互效果。如需了解蓝图交互功能的详细信息，请参考[蓝图编辑器配置说明](/zh/datav/datav-6-0/user-guide/blueprint-editor-configuration#concept-2193562)**。**
 
 ### **重命名项目**
 

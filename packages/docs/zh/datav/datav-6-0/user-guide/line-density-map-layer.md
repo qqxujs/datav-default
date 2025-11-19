@@ -1,23 +1,23 @@
-<!DOCTYPE html> 
+# 线热力层（v1.x版本） %{#74197}% 
 
 线热力层是基础平面地图的子组件，支持独立的样式、数据和交互配置，能够以热力线的形式表现地理位置上的线路信息，适用于地图上线路图的大屏展示，例如展示地铁线路图。本文介绍线热力层各配置项的含义。
 
 **重要** 
 
-当前为v1.x版本的线热力层子组件指导文档，如需查看该子组件v2.x版本的文档内容详情，请参见[线热力层（v2.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/line-density-map-layer-1#concept-2402801)。
+当前为v1.x版本的线热力层子组件指导文档，如需查看该子组件v2.x版本的文档内容详情，请参见[线热力层（v2.x版本）](/zh/datav/datav-6-0/user-guide/line-density-map-layer-1#concept-2402801)。
 
 单击**子组件管理**下方的**线热力层**，进入配置面板配置**线热力层**的样式和数据。 
 
 **说明** 
 
-如果**子组件管理**中没有**线热力层**，说明您还未添加**线热力层**子组件，请参见[地图容器（v1.x版本）](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/map-container-2#concept-z4z-2f5-q2b)进行添加。
+如果**子组件管理**中没有**线热力层**，说明您还未添加**线热力层**子组件，请参见[地图容器（v1.x版本）](/zh/datav/datav-6-0/user-guide/map-container-2#concept-z4z-2f5-q2b)进行添加。
 
 ## 配置
 
 * **边线选项**
 
-  * **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
-  * **颜色**：数据value值最大、最小、为空时对应的线的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。处于最大值和最小值之间的线，根据value值映射成最大值到最小值之间的渐变颜色。  
+  * **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+  * **颜色**：数据value值最大、最小、为空时对应的线的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。处于最大值和最小值之间的线，根据value值映射成最大值到最小值之间的渐变颜色。  
 
 **重要**  
   如果数据中设置了color字段，则线的颜色以color字段为准。
@@ -87,13 +87,13 @@ __表 2\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互
 
-选中**启用**，开启组件交互功能。线热力层子组件拥有交互配置，可单击某个热力线抛出回调值，默认抛出数据中的link\_id字段。具体配置请参见[组件回调ID配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。
+选中**启用**，开启组件交互功能。线热力层子组件拥有交互配置，可单击某个热力线抛出回调值，默认抛出数据中的link\_id字段。具体配置请参见[组件回调ID配置](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards#concept-m2n-fy3-52b)。
 
 ## 蓝图编辑器交互配置
 

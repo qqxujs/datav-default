@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 添加Oracle数据源 %{#59771}% 
 
 本文档介绍在DataV中添加Oracle数据源的方法，以及相关参数配置说明。
 

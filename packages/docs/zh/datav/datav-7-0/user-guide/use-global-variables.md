@@ -127,7 +127,7 @@
 
 您可以参考以下案例了解更多全局变量能力：
 
-* [全局变量案例演示](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/example-of-using-global-variables)
-* [如何使用全局变量实现按日期查询](https://help.aliyun.com/zh/datav/datav-7/videos/how-to-use-global-variables-to-query-by-date)
-* [如何使用全局变量实现数据筛选](https://help.aliyun.com/zh/datav/datav-7/videos/how-to-use-global-variables-to-filter-data)
-* [如何使用全局变量实现数据分发和数据相加](https://help.aliyun.com/zh/datav/datav-7/videos/how-to-use-global-variables-to-distribute-data-and-sum-data)
+* [全局变量案例演示](/zh/datav/datav-7-0/user-guide/example-of-using-global-variables)
+* [如何使用全局变量实现按日期查询](/zh/datav/datav-7/videos/how-to-use-global-variables-to-query-by-date)
+* [如何使用全局变量实现数据筛选](/zh/datav/datav-7/videos/how-to-use-global-variables-to-filter-data)
+* [如何使用全局变量实现数据分发和数据相加](/zh/datav/datav-7/videos/how-to-use-global-variables-to-distribute-data-and-sum-data)

@@ -1,17 +1,17 @@
-<!DOCTYPE html> 
+# 模型加载器 %{#432511}% 
 
 模型加载器是三维城市构建器创建模型的图层，支持独立的样式配置，包括模型加载器的通用样式、动效样式和交互样式等。本文介绍模型加载器各配置项的含义。
 
 在场景编辑器左侧图层列表中，单击模型加载器图层，进入配置面板配置模型加载器图层的样式和数据。 
 
-**说明** 如果图层列表中没有模型加载器，说明您还未添加模型加载器图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层列表中没有模型加载器，说明您还未添加模型加载器图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
 **说明** 避免添加多个模型加载器，免得性能开销过大。 
 
 ![模型加载器](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7663587561/p437646.png)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
 * 模型加载器配置面板中的参数说明。  
   * 通用
 
@@ -30,7 +30,7 @@
 |    播放动画    |    打开开关，可以播放模型动画；关闭开关，关闭模型动画播放。    |
 |    循环模式    |    设置模型动画播放的循环模式，可选重复播放、单次播放和反向播放。    |
 |    动画速率    |    拖动滑块设置模型加载器加载的模型动画速率，取值范围为-1.5\~1.5。    |
-|    扫光动画    |    打开开关，设置扫光动画样式。 锋面类型：设置扫光动画的锋面类型，包括平面类型和曲面类型。 扫描轴向：当锋面类型选择平面时，扫描轴向包括X、Y和Z轴。 正负方向：设置扫光动画的正负方向，包括正方向和负方向。 颜色：设置扫光动画的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。 扫光长度：拖动滑块设置扫光动画的长度比例，取值范围为0.01\~1。 扫光速度：拖动滑块设置扫光动画的速度比例，取值范围为0\~0.05。    |
+|    扫光动画    |    打开开关，设置扫光动画样式。 锋面类型：设置扫光动画的锋面类型，包括平面类型和曲面类型。 扫描轴向：当锋面类型选择平面时，扫描轴向包括X、Y和Z轴。 正负方向：设置扫光动画的正负方向，包括正方向和负方向。 颜色：设置扫光动画的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。 扫光长度：拖动滑块设置扫光动画的长度比例，取值范围为0.01\~1。 扫光速度：拖动滑块设置扫光动画的速度比例，取值范围为0\~0.05。    |
 |    模型展开    |    单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个模型展开样式。 单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个模型展开样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中模型展开样式并新增一个同样配置的模型展开样式。 面id：输入模型需要展开的对象名称。 偏移量：拖动滑块设置模型需要展开对象的偏移量。 偏移方向：设置模型需要展开的对象在X轴、Y轴和Z轴的偏移方向。 持续时间：拖动滑块设置模型展开动画的持续时间。    |
   * 交互：设置模型加载器的交互样式。  
 
@@ -58,7 +58,7 @@ __表 1\. 字段说明__
 2. 在面板下方的数据项目下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
 3. 选择完数据项目后，在数据集下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
-**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937 "空间数据管理页面内提供了我的主页、我的项目、我的数据和空间档案四大功能模块，用户可以在这里创建项目，上传数据和添加模型等。本文为您介绍空间数据管理页面的结构与功能，帮助您快速使用空间构建平台。")。  
+**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937 "空间数据管理页面内提供了我的主页、我的项目、我的数据和空间档案四大功能模块，用户可以在这里创建项目，上传数据和添加模型等。本文为您介绍空间数据管理页面的结构与功能，帮助您快速使用空间构建平台。")。  
 ![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)
 
 ## 蓝图编辑器交互配置

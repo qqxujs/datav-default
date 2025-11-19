@@ -1,15 +1,15 @@
-<!DOCTYPE html> 
+# 倾斜摄影 %{#214207}% 
 
 倾斜摄影是城市三维场景构建器的图层，是地理场景的数据接入组件，可以接入倾斜摄影数据。倾斜摄影支持独立的样式配置。本文介绍倾斜摄影各配置项的含义。
 
 单击图层管理下方的倾斜摄影图层，进入配置面板配置倾斜摄影图层的样式和数据。 
 
-**说明** 如果图层管理中没有倾斜摄影，说明您还未添加倾斜摄影图层，请参见[使用默认基底数据方式创建组件后添加图层](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层管理中没有倾斜摄影，说明您还未添加倾斜摄影图层，请参见[使用默认基底数据方式创建组件后添加图层](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-previous-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
 ![配置面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2777049161/p267681.png)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置对话框中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索组件配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索组件配置功能，您可以快速定位到组件的对应配置项、在搜索配置页面直接修改配置样式、以及复用同类型的配置样式。")。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置对话框中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索组件配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索组件配置功能，您可以快速定位到组件的对应配置项、在搜索配置页面直接修改配置样式、以及复用同类型的配置样式。")。
 * 数据
 
 |    参数    |    说明    |

@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 通过DTS采集数据 %{#94287}% 
 
 通过阿里数据传输中的数据同步（DTS），将RDS的数据实时传输至DataHub中。
 
@@ -30,4 +30,4 @@
 **注意**  
     * DataHub同步的是增量数据，您的数据库中必须插入、删除或更新一条或多条数据后，才会同步到DataHub中。本案例采用手动插入数据的方法，但在实际情况中，都是将用户的购买行为，通过程序的方式动态同步到数据库中的。
     * 进行数据抽样时，指定的时间必须在您插入数据之前。
-    * 参考[创建 MySQL 到 MaxCompute 数据实时同步作业](https://help.aliyun.com/zh/dts/user-guide/synchronize-data-from-an-apsaradb-rds-for-mysql-instance-to-a-maxcompute-project)的同步原理章节，了解DataHub中各字段的含义。
+    * 参考[创建 MySQL 到 MaxCompute 数据实时同步作业](/zh/dts/user-guide/synchronize-data-from-an-apsaradb-rds-for-mysql-instance-to-a-maxcompute-project)的同步原理章节，了解DataHub中各字段的含义。

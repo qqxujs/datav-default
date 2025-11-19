@@ -1,22 +1,22 @@
-<!DOCTYPE html> 
+# 基本概念 %{#59175}% 
 
 本文为您介绍DataV产品文档中涉及的一些基本名词概念，了解这些后有助于您更好地使用本产品。
 
 ## 可视化应用
 
-使用DataV创建出的基于数据生成的看板，即为可视化应用。DataV能将数据由单一的数字转化为各种动态的可视化图表，从而实时地将数据展示给用户。如果您想快速创建一个可视化应用，请参见[使用模板创建PC端可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application)。
+使用DataV创建出的基于数据生成的看板，即为可视化应用。DataV能将数据由单一的数字转化为各种动态的可视化图表，从而实时地将数据展示给用户。如果您想快速创建一个可视化应用，请参见[使用模板创建PC端可视化应用](/zh/datav/datav-6-0/user-guide/use-a-template-to-create-a-pc-side-visual-application)。
 
 ## 数据源
 
-在使用DataV创建可视化应用时，需要先指定原始数据所在的数据源。DataV支持多种类型的数据源：数据库类、文件类、API类等。如果您想了解如何添加数据源，请参见[添加数据源](https://help.aliyun.com/zh/datav/data-sources-overview#concept-ldr-4gp-p2b)。
+在使用DataV创建可视化应用时，需要先指定原始数据所在的数据源。DataV支持多种类型的数据源：数据库类、文件类、API类等。如果您想了解如何添加数据源，请参见[添加数据源](/zh/datav/data-sources-overview#concept-ldr-4gp-p2b)。
 
 ## 画布
 
-画布也叫画布编辑器，是DataV最主要的视觉功能区域。通过画布可以实现页面的布局与配色，各图表的大小位置排布，以及应用的可视化预览。如果您想了解如何使用画布，请参见[画布操作](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/widget-layout#concept-j4y-trg-t2b)。
+画布也叫画布编辑器，是DataV最主要的视觉功能区域。通过画布可以实现页面的布局与配色，各图表的大小位置排布，以及应用的可视化预览。如果您想了解如何使用画布，请参见[画布操作](/zh/datav/datav-6-0/user-guide/widget-layout#concept-j4y-trg-t2b)。
 
 ## 蓝图
 
-蓝图也叫蓝图编辑器，是DataV最主要的逻辑功能区域。通过蓝图可以实现节点之间的逻辑连线和交互配置并在调试预览页面进行日志管理。如果您想了解如何使用蓝图，请参见[配置蓝图编辑器](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor)。
+蓝图也叫蓝图编辑器，是DataV最主要的逻辑功能区域。通过蓝图可以实现节点之间的逻辑连线和交互配置并在调试预览页面进行日志管理。如果您想了解如何使用蓝图，请参见[配置蓝图编辑器](/zh/datav/datav-6-0/user-guide/what-is-blueprint-editor)。
 
 ## 工具栏
 

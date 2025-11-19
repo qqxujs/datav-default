@@ -1,9 +1,9 @@
-<!DOCTYPE html> 
+# 通过实时计算订阅数据 %{#94288}% 
 
 订阅DataHub数据进行实时计算，插入到RDS实例的目标表中。
 
 1. 在RDS数据库中，按照源表结构创建相应的表。![创建表格](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2578205851/p13877.png)
-2. 参考[数据存储配置白名单](https://help.aliyun.com/zh/flink/configure-a-whitelist-for-accessing-storage-resources-1)，配置RDS数据库白名单。  
+2. 参考[数据存储配置白名单](/zh/flink/configure-a-whitelist-for-accessing-storage-resources-1)，配置RDS数据库白名单。  
 由于本案例的RDS数据库位于华东1区，而流计算项目位于华东2区，所以需要在RDS数据库中配置流计算的白名单。
 3. 创建流计算开发作业，将DataHub中的数据实时同步到RDS的目标表中。  
   1. 进入[阿里云流计算开发平台](https://stream.console.aliyun.com/)，单击开发 \> 作业开发 \> 新建作业，创建一个名称为test的开发作业。![创建开发作业](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2578205851/p13883.png)
@@ -12,7 +12,7 @@
 |    参数    |    说明    |
 |    ----    |    ----    |
 |    数据存储类型    |    DataHub数据存储。    |
-|    EndPoint    |    通过[DataHub访问域名](https://help.aliyun.com/zh/datahub/product-overview/endpoints)获取。    |
+|    EndPoint    |    通过[DataHub访问域名](/zh/datahub/product-overview/endpoints)获取。    |
 |    Project    |    DataHub的项目名称，可在[DataHub控制台](https://datahub.console.aliyun.com/)中获取。    |
   3. 使用同样的方式注册RDS数据存储，参数说明如下。![注册RDS存储](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3578205851/p13897.png)  
 
@@ -27,7 +27,7 @@
   5. 依次双击RDS 数据存储 \> 数据库名称（datav\_test） \> 表名（target\_table），选择右侧的作为结果表引用，在开发作业中引用目标表。![引用目标表](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3578205851/p13907.png)
   6. 通过`INSERT INTO`语句，将实时计算后的源表数据插入目标表中。![将源表数据插入目标表](//help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3578205851/p13908.png)  
 
-**说明** 如果数据格式不匹配，需要进行相应的[数据格式转换](https://help.aliyun.com/zh/flink/data-type-conversion)工作，例如使用`from_unixtime`函数等。  
+**说明** 如果数据格式不匹配，需要进行相应的[数据格式转换](/zh/flink/data-type-conversion)工作，例如使用`from_unixtime`函数等。  
   示例代码如下：  
   ```  
   INSERT INTO  

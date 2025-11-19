@@ -1,14 +1,14 @@
-<!DOCTYPE html> 
+# 修改组件数据 %{#151673}% 
 
 本文档为您介绍在DataV疫情模板可视化应用中修改组件数据的方法。
 
 ## 前提条件
 
-已完成可视化应用的创建，详情请参见[创建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-epidemic-situation-control-template#task-2477417 "本文档为您介绍使用疫情态势管控模板创建可视化应用的方法。")。 
+已完成可视化应用的创建，详情请参见[创建可视化应用](/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-epidemic-situation-control-template#task-2477417 "本文档为您介绍使用疫情态势管控模板创建可视化应用的方法。")。 
 
 ## 背景信息
 
-* 本案例使用的是静态数据源，因此可以直接在组件的数据配置区域粘贴准备好的数据。如果您的数据源为CSV文件、数据库等其他类型的数据，需要首先添加数据源，详情请参见[添加数据源](https://help.aliyun.com/zh/datav/data-sources-overview#concept-ldr-4gp-p2b "本文档为您介绍DataV支持的所有数据源，帮助您选择合适的数据源进行大屏项目的开发。")。
+* 本案例使用的是静态数据源，因此可以直接在组件的数据配置区域粘贴准备好的数据。如果您的数据源为CSV文件、数据库等其他类型的数据，需要首先添加数据源，详情请参见[添加数据源](/zh/datav/data-sources-overview#concept-ldr-4gp-p2b "本文档为您介绍DataV支持的所有数据源，帮助您选择合适的数据源进行大屏项目的开发。")。
 * 如果您需要使用数据源为API，直接在数据配置栏输入API即可。具体配置API数据源时，是否勾选服务器代理请求等操作，详情请参见[跨域数据配置](https://help.aliyun.com/document%5Fdetail/64140.html?spm=a2c4g.11186623.6.791.28d524a3MrlT6u)。
 
 ## 操作步骤

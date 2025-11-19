@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 流程控制 %{#142629}% 
 
 流程控制内的逻辑节点包括**定时器**、**分支判断**和**多路判断**。本文介绍在蓝图编辑器中，配置流程控制类节点的方法。
 
@@ -8,7 +8,7 @@
 
 **使用场景**：**定时器**适用于需要定时的场景需求。当时间计数到达配置项设定的时间点时，定时器节点抛出**当计时结束时**事件，输出上游节点的输出结果，触发后续动作。
 
-添加**定时器**节点至画布中，可查看**定时器**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#section-5b3-w0u-ud7)。
+添加**定时器**节点至画布中，可查看**定时器**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#section-5b3-w0u-ud7)。
 
 ![定时器](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3250972261/p280486.png)
 
@@ -22,7 +22,7 @@
 
 表 2\. 配置项说明
 
-表格中仅提供**其他配置**中的参数说明，其他参数配置请参见[公共参数说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#table-d04-vmz-ldb)。
+表格中仅提供**其他配置**中的参数说明，其他参数配置请参见[公共参数说明](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#table-d04-vmz-ldb)。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
@@ -39,7 +39,7 @@
 
 **使用场景**：例如，根据开关状态触发两个图层的显隐效果场景。可以通过**分支判断**节点来判断当前开关的状态。处于打开状态，则显示图层A，隐藏图层B；处于关闭状态，则显示图层B，隐藏图层A。
 
-添加**分支判断**节点至画布中，可查看**分支判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#section-5b3-w0u-ud7)。
+添加**分支判断**节点至画布中，可查看**分支判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#section-5b3-w0u-ud7)。
 
 ![分支判断节点面板样式](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6511888951/p66493.png)
 
@@ -53,12 +53,12 @@
 
 表 4\. 配置项说明
 
-表格中仅提供**其他配置**中的参数说明，其他参数配置请参见[公共参数说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#table-d04-vmz-ldb)。
+表格中仅提供**其他配置**中的参数说明，其他参数配置请参见[公共参数说明](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#table-d04-vmz-ldb)。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **判断类型**    |    **同时满足所有条件**：当上游节点的输出结果满足所有设定的条件时，抛出**满足**事件；只要有一个条件不满足，则抛出**不满足**事件。**满足任一条件**：当上游节点输出结果满足任一设定的条件时，抛出**满足**事件；全部不满足抛出**不满足**事件。    |
-|    **处理方法**    |    使用JavaScript编写处理方法，返回结果为BOOLEAN型。返回结果为TRUE时，则满足该处理方法的执行条件；返回结果为FALSE时，则不满足该处理方法的执行条件。处理方法可新增叠加。示例：当点击Tab列表时，若标签ID（即代码中的id）等于1，通用标题为显示状态；若标签ID不等于1，通用标题为隐藏状态。处理方法的代码如下。详细操作指引，可参考[流程控制节点说明](https://help.aliyun.com/zh/datav/datav-6-0/videos/description-of-process-control-node)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4508844371/p889727.png)return data.id == 1;    |
+|    **处理方法**    |    使用JavaScript编写处理方法，返回结果为BOOLEAN型。返回结果为TRUE时，则满足该处理方法的执行条件；返回结果为FALSE时，则不满足该处理方法的执行条件。处理方法可新增叠加。示例：当点击Tab列表时，若标签ID（即代码中的id）等于1，通用标题为显示状态；若标签ID不等于1，通用标题为隐藏状态。处理方法的代码如下。详细操作指引，可参考[流程控制节点说明](/zh/datav/datav-6-0/videos/description-of-process-control-node)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4508844371/p889727.png)return data.id == 1;    |
 
 **输出结果**：不改变上游节点的输出结果。触发分支判断时，输出满足条件的上游节点的输出结果。
 
@@ -68,7 +68,7 @@
 
 **使用场景**：例如，根据**数字输入框**内，当前的输入值设置地图散点的颜色。可通过**多路判断**节点，判断当前的输入值处于哪个范围，进而触发散点颜色的设置。例如在配置项中设置，当数值大于100时，为红色；50\~100之间，为黄色；小于50，为蓝色。
 
-添加**多路判断**节点至画布中，可查看**多路判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#section-5b3-w0u-ud7)。
+添加**多路判断**节点至画布中，可查看**多路判断**节点支持的事件/动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#section-5b3-w0u-ud7)。
 
 ![多路判断面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6511888951/p66536.png)
 
@@ -82,10 +82,10 @@
 
 表 6\. 配置项说明
 
-表格中仅提供**其他配置**中的参数说明，其他参数配置请参见[公共参数说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#table-d04-vmz-ldb)。
+表格中仅提供**其他配置**中的参数说明，其他参数配置请参见[公共参数说明](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#table-d04-vmz-ldb)。
 
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
-|    **处理方法**    |    使用JavaScript编写处理方法，返回结果为BOOLEAN型，且处理方法可新增叠加。返回结果为TRUE时，则满足当前处理方法的执行条件，抛出对应事件，且不再执行后续处理方法；返回结果为FALSE时，则不满足当前处理方法的执行条件。当不满足所有处理方法的执行条件时，则抛出平台给定的默认条件对应的事件。示例：当点击Tab列表时，若标签ID（即代码中的id）等于1，通用标题为显示状态；若标签ID等于2，通用标题为隐藏状态；若标签ID不等于1或2，通用标题为显示状态（即执行默认条件对应的显示事件）。处理方法的代码如下。详细操作指引，请参见[流程控制节点说明](https://help.aliyun.com/zh/datav/datav-6-0/videos/description-of-process-control-node)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4508844371/p889777.png)return data.id == 1; //case-0的处理方法代码。 return data.id == 2; //case-1的处理方法代码。    |
+|    **处理方法**    |    使用JavaScript编写处理方法，返回结果为BOOLEAN型，且处理方法可新增叠加。返回结果为TRUE时，则满足当前处理方法的执行条件，抛出对应事件，且不再执行后续处理方法；返回结果为FALSE时，则不满足当前处理方法的执行条件。当不满足所有处理方法的执行条件时，则抛出平台给定的默认条件对应的事件。示例：当点击Tab列表时，若标签ID（即代码中的id）等于1，通用标题为显示状态；若标签ID等于2，通用标题为隐藏状态；若标签ID不等于1或2，通用标题为显示状态（即执行默认条件对应的显示事件）。处理方法的代码如下。详细操作指引，请参见[流程控制节点说明](/zh/datav/datav-6-0/videos/description-of-process-control-node)。![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4508844371/p889777.png)return data.id == 1; //case-0的处理方法代码。 return data.id == 2; //case-1的处理方法代码。    |
 
 **输出结果**：不改变上游节点的输出结果。触发多路判断时，输出满足条件的上游节点的输出结果。

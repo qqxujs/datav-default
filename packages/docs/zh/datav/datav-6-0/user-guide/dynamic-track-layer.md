@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 动态轨迹线层 %{#154404}% 
 
 动态轨迹层是三维城市地图的子组件，支持独立的样式和数据配置，包括动态轨迹层叠加模式、飞线速度、飞线长宽和颜色等参数。动态轨迹线层子组件以两点之间的水平连线的形式表示人或物体移动的轨迹。本文介绍动态轨迹层配置项的含义。
 
@@ -16,7 +16,7 @@
 |    飞线速度    |    设置动态轨迹飞线的运行速度。    |
 |    飞线长度    |    设置动态轨迹飞线的长度值。    |
 |    飞线宽度    |    设置动态轨迹飞线的宽度值。    |
-|    颜色    |    设置动态轨迹飞线的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
+|    颜色    |    设置动态轨迹飞线的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)修改颜色。    |
 
 ## 数据
 

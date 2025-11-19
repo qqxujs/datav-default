@@ -8,7 +8,7 @@
 
 ## 样式面板![{6F803309-52D8-4446-9D20-876A9A4C735F}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7769088371/p903402.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * **快速样式**：栅格瓦片层子组件具备快速样式功能，您可以根据实际应用场景选择不同的样式。
 * **通用**：栅格瓦片层通用配置参数。
 
@@ -44,14 +44,14 @@
   当您使用的瓦片服务为高德热力或高德实时路况时，需开启此选项，用来自动刷新获取最新的瓦片数据。
 
 **刷新间隔**：瓦片自动刷新的时间间隔，范围为1\~100，单位为分钟。
-  * **叠加蒙版**：单击左侧![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808332271/p274464.jpg)图标，即可开启叠加蒙版后瓦片层的蒙版颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
+  * **叠加蒙版**：单击左侧![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808332271/p274464.jpg)图标，即可开启叠加蒙版后瓦片层的蒙版颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
   * **风格滤镜**：单击左侧![开关图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8808332271/p274464.jpg)图标，即可开启滤镜配置。开启后，可以为瓦片层添加滤镜效果，可设置滤镜的**亮度**、**对比度**、**灰度**、**色相**、**反转**、**饱和度**和**墨度**。
 
 ## 高级面板
 
 ![{73BCE2E7-9CD1-4026-A7C3-7A6AAE22A1B6}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7769088371/p907115.png)
 
-通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
+通过高级面板配置交互事件或关联全局变量，实现组件之间的联动。具体操作请参见[组件交互配置](/zh/datav/datav-7-0/user-guide/widget-interaction-configuration)。
 
 ## 蓝图交互
 

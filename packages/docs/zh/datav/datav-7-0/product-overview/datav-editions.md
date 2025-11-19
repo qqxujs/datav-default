@@ -13,7 +13,7 @@ DataV-Board 7.0（数据看板）提供了**个人版**、**企业版（新）**
 
 试用版仅用于体验产品功能，建议您选择正式版本使用。
 
-不同版本的计费详情，请参见[产品计费](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
+不同版本的计费详情，请参见[产品计费](/zh/datav/datav-7-0/product-overview/product-billing-datav-7/)。
 
 ## **各版本支持的功能详情**
 
@@ -60,4 +60,4 @@ DataV-Board 7.0（数据看板）提供了**个人版**、**企业版（新）**
 * 用户数：所有用户总数不能超过购买版本的最大数量。如果需要更多的用户，可**购买扩展包**实现。
 * 可视化组件：数据看板是由多个组件构成，您可以通过对组件进行配置来完成您的看板设计，同时DataV产品也开通了自定义组件开发功能，您可以根据自己的需求进行组件开发。
 * 本地部署：即私有化部署，仅尊享版支持。您可将DataV开发的页面打包下载，安装部署到企业内网中运行，部署均在线下完成，数据完全隔离，保障了数据的安全性。同时尊享版共提供100台服务器的部署授权（不包含硬件），保障产品更好地在企业内网中运行。
-* 二次开发：请参见[DataV-Board 二次开发教程说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/secondary-development)。
+* 二次开发：请参见[DataV-Board 二次开发教程说明](/zh/datav/datav-7-0/user-guide/secondary-development)。

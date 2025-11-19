@@ -6,7 +6,7 @@
 
 ### **前提条件**
 
-已经创建[数据看板项目](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
+已经创建[数据看板项目](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
 
 ### **进入逻辑节点**
 
@@ -20,7 +20,7 @@
 
 **说明** 
 
-在配置逻辑节点前，请确保您已经添加了对应的图层节点。如果还未添加，请参见[图层节点配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configure-layer-nodes)进行添加。
+在配置逻辑节点前，请确保您已经添加了对应的图层节点。如果还未添加，请参见[图层节点配置](/zh/datav/datav-7-0/user-guide/configure-layer-nodes)进行添加。
 
 ### **节点配置面板**
 
@@ -31,7 +31,7 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **判断类型**    |    选择不同的判断类型，可以**同时满足所有条件**触发或者**满足任一条件**触发。    |
-|    **条件列表**    |    设置不同的数据过滤器达到设置条件的目的，具体操作请参见[过滤器配置与应用](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
+|    **条件列表**    |    设置不同的数据过滤器达到设置条件的目的，具体操作请参见[过滤器配置与应用](/zh/datav/datav-7-0/user-guide/manage-filters-1)。    |
 
 ### **锚点配置面板**
 
@@ -51,7 +51,7 @@
 
 1. 在蓝图编辑器的左侧导航栏中单击**逻辑节点**，进入逻辑节点页面。![{F2BEA415-299F-4AE8-B4C1-23C787978D2B}](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1090475471/p916735.png)
 2. 在**逻辑节点**面板中，将需要使用的逻辑节点拖入蓝图画布中。  
-逻辑节点包括**全局管理**、**流程控制**、**数据处理**、**设备输入**和**工具方法**等类别。各节点的使用方法以及参数详情，请分别参见[全局管理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/global-management)、[流程控制](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/process-control)、[数据处理](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/data-processing)、[设备输入](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/device-input)和[工具方法](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/tools-and-methods)。
+逻辑节点包括**全局管理**、**流程控制**、**数据处理**、**设备输入**和**工具方法**等类别。各节点的使用方法以及参数详情，请分别参见[全局管理](/zh/datav/datav-7-0/user-guide/global-management)、[流程控制](/zh/datav/datav-7-0/user-guide/process-control)、[数据处理](/zh/datav/datav-7-0/user-guide/data-processing)、[设备输入](/zh/datav/datav-7-0/user-guide/device-input)和[工具方法](/zh/datav/datav-7-0/user-guide/tools-and-methods)。
 
 ## **操作案例**
 

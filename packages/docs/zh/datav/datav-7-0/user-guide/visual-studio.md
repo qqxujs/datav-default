@@ -10,7 +10,7 @@
 
 **说明** 
 
-若创建预案时提示配额不足，请单击**管理配额**以[配置预案配额](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/workspace-overview#b623d3725ehc4)。
+若创建预案时提示配额不足，请单击**管理配额**以[配置预案配额](/zh/datav/datav-7-0/user-guide/workspace-overview#b623d3725ehc4)。
 
 1. 在可视化应用中心的**可视化演播厅**模块查看是否存在预案信息。
 
@@ -72,4 +72,4 @@
 * 预览预案：鼠标移动到任一预案上，单击右上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4676919471/p963839.png)图标预览预案。
 * 编辑预案：鼠标移动到任一预案上，单击**编辑**。
 * 删除演示预案：鼠标移动到任一预案上，单击右上角的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4676919471/p963842.png)图标删除预案。
-* 管理预案配额：单击**管理配额**可以[配置预案配额](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/workspace-overview#b623d3725ehc4)。
+* 管理预案配额：单击**管理配额**可以[配置预案配额](/zh/datav/datav-7-0/user-guide/workspace-overview#b623d3725ehc4)。

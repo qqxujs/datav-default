@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 通过DataV展示数据 %{#94289}% 
 
 通过DataV的SQL语句功能，处理数据，并将结果展示在大屏上。
 
 1. 添加DataV数据源。  
 
-  1. 参考[配置数据库白名单](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-a-database-whitelist-for-datav-6#concept-hcq-ymz-q2b)，根据您数据库的网络类型，将DataV的白名单添加到您的RDS数据库中。
+  1. 参考[配置数据库白名单](/zh/datav/datav-6-0/user-guide/configure-a-database-whitelist-for-datav-6#concept-hcq-ymz-q2b)，根据您数据库的网络类型，将DataV的白名单添加到您的RDS数据库中。
   2. 登录[DataV控制台](https://datav.aliyun.com/)。
   3. 选择**我的数据** \> **添加数据**。
   4. 填写RDS实例的相关信息，单击**确定**。

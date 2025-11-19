@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 美化工具箱 %{#157981}% 
 
 * [智能主题](/zh/datav/datav-6-0/user-guide/smart-themes)
 * [一键美化](/zh/datav/datav-6-0/user-guide/one-click-beautification-1)

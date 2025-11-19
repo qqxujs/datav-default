@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 时间器 %{#92532}% 
 
 本文介绍时间器组件的图表样式和各配置项的含义。
 
@@ -9,7 +9,7 @@
 ## 配置面板
 
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3902939761/p606972.png)
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -23,7 +23,7 @@
 |    **参数**    |    **说明**    |
 |    ----    |    ----    |
 |    **大小**    |    图标的大小，若不需要图标则设置为0。    |
-|    **颜色**    |    图标的颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
+|    **颜色**    |    图标的颜色，请参见[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)进行修改。    |
 |    **边距**    |    图标与时间器文本之间的距离。    |
 * **时间器**
 
@@ -51,8 +51,8 @@
 
 |    **交互事件**    |    **说明**    |
 |    ----    |    ----    |
-|    **当时间变化时**    |    选中**启用**，开启组件交互功能。在当前时间发生变化时，系统会自动抛出回调值，默认抛出time（当前时间）字段值。详细配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。**重要** 在当前时间发生变化时，系统会隔一段时间再抛出回调值，此时间可在配置面板的**回调配置**  \>   **回调抛出间隔**中设置，默认为3000ms。    |
-|    **当时间到设置时间时**    |    选中**启用**，开启组件交互功能。当时间到设置的时间时，系统会自动抛出回调值，默认抛出time（当前时间）字段值。详细配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当时间变化时**    |    选中**启用**，开启组件交互功能。在当前时间发生变化时，系统会自动抛出回调值，默认抛出time（当前时间）字段值。详细配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。**重要** 在当前时间发生变化时，系统会隔一段时间再抛出回调值，此时间可在配置面板的**回调配置**  \>   **回调抛出间隔**中设置，默认为3000ms。    |
+|    **当时间到设置时间时**    |    选中**启用**，开启组件交互功能。当时间到设置的时间时，系统会自动抛出回调值，默认抛出time（当前时间）字段值。详细配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
 
 ## 蓝图编辑器交互配置
 

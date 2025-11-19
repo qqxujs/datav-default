@@ -38,11 +38,11 @@
 2. 在**工作台**页面中，将鼠标移动至需要编辑的数据看板上，单击**编辑**。
 
 **说明**  
-如果您的**工作台**页面内还没有创建任何数据看板，请先[创建数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
+如果您的**工作台**页面内还没有创建任何数据看板，请先[创建数据看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
 3. 在画布编辑页面，单击画布中的某个组件（示例中使用柱状图）。
 
 **说明**  
-如果画布中没有组件，请先[添加组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-widget-2)。
+如果画布中没有组件，请先[添加组件](/zh/datav/datav-7-0/user-guide/add-a-widget-2)。
 4. 在画布右侧的组件配置面板中选择**数据源**。  
 ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0024312761/p539649.png)
 5. 在**设置数据源**模块中，选择**数据源类型**为**宜搭数据源**。
@@ -56,8 +56,8 @@
 
 ## 后续步骤
 
-获取原始数据后，可参见[组件数据源配置](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
+获取原始数据后，可参见[组件数据源配置](/zh/datav/datav-7-0/user-guide/widget-data-source-configuration)进行组件数据的适配。
 
 ## 常见问题
 
-更多问题，请参见[数据源配置和使用常见问题](https://help.aliyun.com/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。
+更多问题，请参见[数据源配置和使用常见问题](/zh/datav/datav-7-0/support/faq-about-data-source-configuration)。

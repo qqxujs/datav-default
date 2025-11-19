@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 如何区分导入数据接口和请求数据接口 %{#423967}% 
 
 本文介绍在蓝图编辑器内，导入数据接口和请求数据接口的区别。
 
@@ -9,7 +9,7 @@
 ## 接口区别详细介绍
 
 * ### **请求数据接口**  
-重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如数字翻牌器配置了API数据源为`https://api.test`，传到请求数据接口动作的数据为`{ id:"1" }`，则最终请求接口为`https://api.test?id=1`。蓝图请求接口示例详细请参见[如何在请求数据接口时传递动态参数](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/how-do-i-pass-dynamic-parameters-when-a-data-interface-is-requested)。  
+重新请求服务端数据，上游数据处理节点或图层节点抛出的数据将作为参数。例如数字翻牌器配置了API数据源为`https://api.test`，传到请求数据接口动作的数据为`{ id:"1" }`，则最终请求接口为`https://api.test?id=1`。蓝图请求接口示例详细请参见[如何在请求数据接口时传递动态参数](/zh/datav/datav-6-0/user-guide/how-do-i-pass-dynamic-parameters-when-a-data-interface-is-requested)。  
 图 1\. 数字翻牌器数据源配置示例![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2126132861/p636642.png)  
 图 2\. 请求数据接口示例图![请求数据接口示例图](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4480769461/p428308.png)
 * ### **导入数据接口**  

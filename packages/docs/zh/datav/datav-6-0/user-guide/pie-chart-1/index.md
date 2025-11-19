@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 饼环图 %{#87876}% 
 
 * [3D环图](/zh/datav/datav-6-0/user-guide/the-3d-circular-bar)
 * [仪表盘（v5.0及以上版本）](/zh/datav/datav-6-0/user-guide/gauge-of-v5-0-and-later)

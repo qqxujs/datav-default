@@ -4,7 +4,7 @@
 
 ## 背景信息
 
-了解专有网络VPC，详情请参见[什么是专有网络VPC](https://help.aliyun.com/zh/vpc/what-is-vpc#concept-kbk-cpz-ndb)。
+了解专有网络VPC，详情请参见[什么是专有网络VPC](/zh/vpc/what-is-vpc#concept-kbk-cpz-ndb)。
 
 ## 操作步骤
 
@@ -24,6 +24,6 @@
 配置完成后，系统会自动进行测试连接，验证数据库是否能正常连通。  
 
 **重要**  
-如果您的RDS for MySQL数据库是从经典网络切换到专有网络VPC网络的，且通过以上方法无法连通数据源，则可调用RDS for MySQL的[查询实例详情](https://help.aliyun.com/zh/rds/api-query-instance-details#doc-api-Rds-DescribeDBInstanceAttribute)接口，获取**VPC ID**和**VPC 实例 ID**再重新测试连接。如果依然无法连通，可联系阿里云技术支持工程师解决。
+如果您的RDS for MySQL数据库是从经典网络切换到专有网络VPC网络的，且通过以上方法无法连通数据源，则可调用RDS for MySQL的[查询实例详情](/zh/rds/api-query-instance-details#doc-api-Rds-DescribeDBInstanceAttribute)接口，获取**VPC ID**和**VPC 实例 ID**再重新测试连接。如果依然无法连通，可联系阿里云技术支持工程师解决。
 6. 测试连接通过后，单击**确定**，完成数据源添加。  
 配置完成后，您就可以使用该专有网络VPC内的数据库作为组件的数据源了。

@@ -4,7 +4,7 @@
 
 ## **背景信息**
 
-为更好地支持数据看板分享功能，DataV-Board计划于**2024年11月20日**起将[发布分享页](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)的域名由**datav.aliyuncs.com**变更为**b.datav.run**。详情请参见[分享页域名变更公告](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/product-bulletin)。
+为更好地支持数据看板分享功能，DataV-Board计划于**2024年11月20日**起将[发布分享页](/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)的域名由**datav.aliyuncs.com**变更为**b.datav.run**。详情请参见[分享页域名变更公告](/zh/datav/datav-7-0/product-overview/product-bulletin)。
 
 域名变更后，如下场景可能会因存在跨域访问限制，导致新域名无法正常访问，您可参考本文按需进行排查处理：
 
@@ -14,7 +14,7 @@
 
 ## **组件使用API作为数据源**
 
-组件使用[API](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-api-data-sources)作为数据源，可能会因域名变更导致跨域请求被拦截。您可根据组件配置数据源时是否勾选**需要cookie**进行排查处理：
+组件使用[API](/zh/datav/datav-7-0/user-guide/add-api-data-sources)作为数据源，可能会因域名变更导致跨域请求被拦截。您可根据组件配置数据源时是否勾选**需要cookie**进行排查处理：
 
 **说明** 
 * 需要cookie，表示调用API时不选择代理且需要获取cookie信息进行身份验证或保存状态。
@@ -33,9 +33,9 @@
 
 ## 组件使用DataV 数据代理服务作为数据源
 
-组件使用[DataV 数据代理服务](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-datav-proxy-service)作为数据源，可能会因域名变更导致跨域请求被拦截。您可按照如下步骤排查处理：
+组件使用[DataV 数据代理服务](/zh/datav/datav-7-0/user-guide/add-a-datav-proxy-service)作为数据源，可能会因域名变更导致跨域请求被拦截。您可按照如下步骤排查处理：
 
-* 若DataV数据代理服务中未配置[跨域Origins](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-a-datav-proxy-service#02633cda34oqr)（即该配置为空），则无需更改。
+* 若DataV数据代理服务中未配置[跨域Origins](/zh/datav/datav-7-0/user-guide/add-a-datav-proxy-service#02633cda34oqr)（即该配置为空），则无需更改。
 
 **说明**  
 跨域Origin是指在不同域名、协议或端口之间进行网络请求，实现资源共享。
@@ -51,7 +51,7 @@
 
 ## 使用轮播页面或iframe组件
 
-使用[轮播页面](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/page-carousel)或[iframe](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/iframe)组件，可能会因为跨域限制，导致页面无法在新域名**b.datav.run**下被访问，内面内容无法正常加载。
+使用[轮播页面](/zh/datav/datav-7-0/user-guide/page-carousel)或[iframe](/zh/datav/datav-7-0/user-guide/iframe)组件，可能会因为跨域限制，导致页面无法在新域名**b.datav.run**下被访问，内面内容无法正常加载。
 
 **说明** 
 

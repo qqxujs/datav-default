@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 媒体组件 %{#92187}% 
 
 * [阿里云流播放器](/zh/datav/datav-6-0/user-guide/alibaba-cloud-stream-player)
 * [箭头标绘](/zh/datav/datav-6-0/user-guide/arrow-drawing)

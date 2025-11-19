@@ -1,17 +1,17 @@
-<!DOCTYPE html> 
+# 多点位模型 %{#440518}% 
 
 多点位模型是三维城市构建器创建模型的图层，支持独立的样式配置，包括多点位模型的通用样式、图形样式、动效样式和交互样式等。本文介绍多点位模型各配置项的含义。
 
 在场景编辑器左侧图层列表中，单击多点位模型图层，进入配置面板配置多点位模型图层的样式和数据。 
 
-**说明** 如果图层列表中没有多点位模型，说明您还未添加多点位模型图层，请参见[添加子组件](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
+**说明** 如果图层列表中没有多点位模型，说明您还未添加多点位模型图层，请参见[添加子组件](/zh/datav/datav-6-0/user-guide/layer-panel-management-of-professional-edition#section-1yb-xd4-pfe)进行添加。 
 
 ## 配置
 
 **说明** 避免添加多个多点位模型，免得性能开销过大。 
 
 ![多点位模型](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1202877561/p466729.jpg)
-* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
+* 搜索配置：单击配置面板右上角的搜索配置，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842 "通过搜索资产配置功能，您可以快速定位到资产的对应配置项，在搜索配置页面直接修改配置样式，也可以复用同类型的配置样式。")。
 * 多点位模型配置面板中的参数说明。  
   * 通用
 
@@ -62,7 +62,7 @@ __表 1\. 字段说明__
 2. 在面板下方的数据项目下拉列表中，选择一个空间构建平台内已有的数据项目。![选择数据项目](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p264408.png)
 3. 选择完数据项目后，在数据集下拉列表中，选择一个匹配的数据。![数据集面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/8542019161/p266156.png)
 
-**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](https://help.aliyun.com/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937 "空间数据管理页面内提供了我的主页、我的项目、我的数据和空间档案四大功能模块，用户可以在这里创建项目，上传数据和添加模型等。本文为您介绍空间数据管理页面的结构与功能，帮助您快速使用空间构建平台。")。  
+**说明** 如果数据项目和数据集配置项内没有任何可供配置数据类型的内容，请您单击面板内前往空间构建平台管理数据处，进入空间构建平台配置数据。详情请参见[空间数据管理概览](/zh/datav/overview-of-spatial-data-management-for-datav-6#concept-2042937 "空间数据管理页面内提供了我的主页、我的项目、我的数据和空间档案四大功能模块，用户可以在这里创建项目，上传数据和添加模型等。本文为您介绍空间数据管理页面的结构与功能，帮助您快速使用空间构建平台。")。  
 ![管理构建平台入口](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7516197461/p419763.png)
 
 ## 蓝图编辑器交互配置

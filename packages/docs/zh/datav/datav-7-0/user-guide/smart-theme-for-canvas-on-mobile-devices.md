@@ -4,7 +4,7 @@
 
 ## **前提条件**
 
-已[创建移动端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
+已[创建移动端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)。
 
 ## **背景信息**
 
@@ -82,4 +82,4 @@
       ![提示框提示不支持主体功能](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/1557929951/p129197.png)  
       如果您对主题效果不满意，可单击**取消**，取消当前的主题配色。
     6. 在对话框中单击**确定**，即可将选中的主题应用到移动端可视化应用中。
-3. 主题配置完成后，可[发布数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#59ef2671632rx)，在线展示移动端数据看板的智能主题效果。
+3. 主题配置完成后，可[发布数据看板](/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#59ef2671632rx)，在线展示移动端数据看板的智能主题效果。

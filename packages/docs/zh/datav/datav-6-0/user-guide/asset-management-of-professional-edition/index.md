@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 资产管理（专业版） %{#406194}% 
 
 * [组件导出成区块](/zh/datav/datav-6-0/user-guide/export-widgets-as-blocks)
 * [收藏资产](/zh/datav/datav-6-0/user-guide/favorite-assets)

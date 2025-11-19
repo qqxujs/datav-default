@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# Echarts 堆叠柱状图 %{#102062}% 
 
 本文介绍Echarts 堆叠柱状图的图表样式和配置面板的功能。
 
@@ -10,7 +10,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
 
 ## 配置面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0519496761/p570096.png)
 
-* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
+* **搜索配置**：单击**配置**面板右上角的**搜索配置**，可在**搜索配置**面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索资产配置](/zh/datav/datav-6-0/user-guide/search-for-configurations#task-2376842)。
 * **图表尺寸**：包括组件的宽度和高度，单位为px。可单击![锁定长宽比按键](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0429559951/p53660.png)图标锁定组件的宽高比，等比例修改组件的宽高。再次单击进行解锁，解锁后宽高比不受限制。
 * **图表位置**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
 * **旋转角度**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -39,16 +39,16 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
   * **图形宽度**：单击**+**或**\-**号，或手动输入数值，调整图例标记的图形宽度。
   * **图形高度**：单击**+**或**\-**号，或手动输入数值，调整图例标记的图形高度。
   * **选择模式**：单击右侧的**眼睛**图标显示选择模式。
-  * **关闭颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例关闭时的颜色。仅在预览或发布页面，单击图例元素时，可看到效果。
+  * **关闭颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例关闭时的颜色。仅在预览或发布页面，单击图例元素时，可看到效果。
   * **文本样式**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例文本的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例文本的颜色。
     * **字体样式**：图例文本的字体风格。
     * **字体粗细**：图例文本的字体粗细。
     * **字体**：图例文本的字体系列。
     * **字号**：单击**+**或**\-**号，或手动输入数值，改变图例字体的大小。
-  * **背景色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例的背景颜色。
-  * **边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例的边框颜色。
+  * **背景色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例的背景颜色。
+  * **边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改图例的边框颜色。
   * **边框粗细**：单击**+**或**\-**号，或手动输入数值，调整图例边框的粗细。
   * **对齐**：单击下拉列表，选择图例标记和图表的对齐方式。根据组件的位置和朝向决定。  
 
@@ -80,8 +80,8 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
   * **宽度**：网格的宽度，值默认值为 **auto**，宽度自适应。
   * **高度**：网格的高度，值默认值为 **auto**，高度自适应。
   * **自适应布局**：勾选后，柱状图进行自适应布局；去勾选，柱状图根据您配置的样式进行布局。
-  * **背景色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改网格的背景颜色，默认透明。
-  * **边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改网格的边框颜色，默认透明。
+  * **背景色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改网格的背景颜色，默认透明。
+  * **边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改网格的边框颜色，默认透明。
   * **边框粗细**：单击**+**或**\-**号，或手动输入数值，调整网格边框粗细。
 * **x轴**：单击右侧的**眼睛**图标显示x轴样式。 ![x轴](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2573611661/p479720.jpg)
 
@@ -90,7 +90,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
   * **名称位置**：x轴名称的位置，可选，包括**起点**、**居中**或**终点**，默认值为**终点**。
   * **名称样式**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改x轴名称文本的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改x轴名称文本的颜色。
     * **字体样式**：x轴名称的字体风格。
     * **字体粗细**：x轴名称的字体粗细。
     * **字体**：x轴名称的字体系列。
@@ -110,7 +110,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
     * **在零上**：x 轴或者 y 轴的轴线是否在另一个轴的 0 刻度上，只有在另一个轴为数值轴且包含 0 刻度时有效。
     * **轴线样式**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改x轴轴线的颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改x轴轴线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改x轴轴线的宽度。
       * **类型**：x轴分割线轴线的类型。可选，包括**实线**和**虚线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改x轴轴线的透明度。范围为 \[0,1\]。
@@ -122,7 +122,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
     * **长度**：单击**+**或**\-**号，或手动输入数值，修改坐标轴刻度的长度。
     * **轴线样式**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改刻度线的颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改刻度线的颜色。
       * **宽度**：单击**+**或**\-**号，或手动输入数值，修改刻度线的宽度。
       * **类型**：坐标轴轴线的类型。可选，包括**实线**和**虚线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改刻度线的透明度。范围为 \[0,1\]。
@@ -136,7 +136,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
     * **显示最大标签**：勾选后，显示最大的刻度标签。默认自动判定，即如果标签重叠，不会显示最大的刻度标签。
     * **文本样式**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改坐标轴刻度标签的颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改坐标轴刻度标签的颜色。
       * **字体样式**：坐标轴刻度标签文字的字体风格。
       * **字体粗细**：坐标轴刻度标签文字的字体粗细。
       * **字体**：坐标轴刻度标签文字的字体系列。
@@ -174,7 +174,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
       * **外间距**：勾选后，坐标轴指示器标签与坐标轴之间有一定间距。去勾选，坐标轴指示器标签与坐标轴之间没有间距。
       * **文本样式**
 
-        * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改坐标轴指示器标签文本的颜色。
+        * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改坐标轴指示器标签文本的颜色。
         * **字体样式**：坐标轴指示器标签文本的字体风格。
         * **字体粗细**：坐标轴指示器标签文本的字体粗细。
         * **字体**：坐标轴指示器标签文本的字体系列。
@@ -184,7 +184,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
       * **边框粗细**：坐标轴指示器文本标签的边框粗细。
     * **阴影样式**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改阴影样式的颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改阴影样式的颜色。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改阴影的透明度，范围为 \[0,1\]。
     * **拖拽手柄**：单击右侧的**眼睛**图标显示拖拽手柄。
 
@@ -196,13 +196,13 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
 * **提示框**：单击右侧的**眼睛**图标显示提示框。 ![提示框](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/2573611661/p479734.jpg)
 
   * **触发条件**：自定义触发类型，可选，包括**鼠标移动触发**、**鼠标点击触发**和**鼠标移动点击同时触发**。
-  * **背景色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的背景颜色。
-  * **边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的边框颜色。
+  * **背景色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的背景颜色。
+  * **边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框的边框颜色。
   * **边框粗细**：单击**+**或**\-**号，或手动输入数值，修改背景框的边框粗细。
   * **内边距**：单击**+**或**\-**号，或手动输入数值，修改背景框的内边距，单位px，默认各方向内边距为5。
   * **文本样式**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框文本的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改提示框文本的颜色。
     * **字体样式**：提示框文本的字体风格。
     * **字体粗细**：提示框文本的字体粗细。
     * **字体**：提示框文本的字体系列。
@@ -222,7 +222,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
       * **位置**：设置标签相当于柱状图的位置，包括但不限于**top**、**left**和**inside**。
       * **文本样式**
 
-        * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项标签文本的颜色。
+        * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项标签文本的颜色。
         * **字体样式**：普通项标签文本的字体风格。
         * **字体粗细**：普通项标签文本的字体粗细。
         * **字体**：普通项标签文本的字体系列。
@@ -232,7 +232,7 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
       * **位置**：设置标签相当于柱状图的位置，包括但不限于**top**、**left**和**inside**。
       * **文本样式**
 
-        * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项标签文本的颜色。
+        * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项标签文本的颜色。
         * **字体样式**：重点项标签文本的字体风格。
         * **字体粗细**：重点项标签文本的字体粗细。
         * **字体**：重点项标签文本的字体系列。
@@ -241,22 +241,22 @@ Echarts 堆叠柱状图是柱状图的一种，可以在较小的可视化应用
 
     * **普通项**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项元素的背景颜色。
-      * **边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项元素的边框颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项元素的背景颜色。
+      * **边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改普通项元素的边框颜色。
       * **边框粗细**：单击**+**或**\-**号，或手动输入数值，修改普通项元素的边框粗细。
       * **边框样式**：自定义边框的描边类型，包括**实线**和**虚线**。默认值为**实线**。
       * **柱状图圆角**：单击**+**或**\-**号，或手动输入数值，修改普通项柱状图的圆角。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改普通项元素的透明度，范围为 \[0,1\]。
     * **重点项**
 
-      * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项元素的背景颜色。
-      * **边框色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项元素的边框颜色。
+      * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项元素的背景颜色。
+      * **边框色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改重点项元素的边框颜色。
       * **边框粗细**：单击**+**或**\-**号，或手动输入数值，修改重点项元素的边框粗细。
       * **边框样式**：自定义边框的描边类型，包括**实线**和**虚线**。默认值为**实线**。
       * **透明度**：单击**+**或**\-**号，或手动输入数值，修改普通项元素的透明度，范围为 \[0,1\]。
   * **标线**
 
-    * **颜色**：参考[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标线的颜色。
+    * **颜色**：参考[颜色选择器说明](/zh/datav/datav-6-0/user-guide/configure-item-description#section-kdw-vj4-t2b)，修改标线的颜色。
     * **样式**：自定义边框的描边类型，包括**实线**和**虚线**。默认值为**实线**。
 * **动画**：勾选后，开启动画效果。
 * **动画阈值**：单击**+**或**\-**号，或手动输入数值，修改动画的阈值，单位为毫秒。当单个系列显示的图形数量大于您设置的阈值后，系统会关闭动画效果，防止组件崩溃。
@@ -280,8 +280,8 @@ __表 1\. 配置项说明__
 |    ----    |    ----    |
 |    **受控模式**    |    打开开关，资产初始化状态下不请求数据，仅通过回调ID或蓝图编辑器配置的方法发起请求数据；关闭开关，可以使用自动更新请求数据。开关默认为关闭状态。    |
 |    **自动更新请求**    |    选中后可以设置动态轮询，还可以手动输入轮询的时间频次。取消选中后则不会自动更新，需要手动刷新页面，或通过蓝图编辑器和回调ID事件来触发请求更新数据。    |
-|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
-|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
+|    **数据源**    |    单击**配置数据源**，可在**设置数据源**面板中修改数据源类型和数据查询代码、预览数据源返回结果以及查看数据响应结果，详情请参见[配置资产数据](/zh/datav/datav-6-0/user-guide/configure-widget-data#task-2376875)。    |
+|    **数据过滤器**    |    数据过滤器提供数据结构转换、筛选和一些简单的计算功能。单击**添加过滤器**，可在**设置数据源**面板配置数据过滤器脚本，详情请参见[过滤器使用说明](/zh/datav/datav-6-0/user-guide/use-the-data-filter#task-1322674)。    |
 |    **数据响应结果**    |    展示数据请求的响应结果。当数据源发生改变时，可单击右侧的![刷新图标 ](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0376703061/p89093.png)图标，实时查看数据响应结果。    |
 
 ## 交互面板
@@ -292,8 +292,8 @@ __表 1\. 配置项说明__
 
 |    **交互**    |    **说明**    |
 |    ----    |    ----    |
-|    **当点击数据项时**    |    选中**启用**，开启组件交互功能。**堆叠柱状图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x和y字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
-|    **当图例点击时**    |    选中**启用**，开启组件交互功能。**堆叠柱状图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的selected字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当点击数据项时**    |    选中**启用**，开启组件交互功能。**堆叠柱状图**组件拥有交互配置，当单击选中某个数据项时抛出回调值，默认抛出数据中的x和y字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
+|    **当图例点击时**    |    选中**启用**，开启组件交互功能。**堆叠柱状图**组件拥有交互配置，当单击某个图例时抛出回调值，默认抛出数据中的selected字段。具体配置请参见[如何配置数字翻牌器组件的回调ID](/zh/datav/datav-6-0/user-guide/configure-callback-ids-for-ticker-boards)。    |
 
 ## 蓝图编辑器交互配置
 

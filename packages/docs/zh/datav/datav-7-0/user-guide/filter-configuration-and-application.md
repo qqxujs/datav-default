@@ -20,11 +20,11 @@
 
 ### **前提条件**
 
-已经创建[数据看板项目](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
+已经创建[数据看板项目](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。
 
 ### **进入画布编辑器**
 
-进行过滤器配置等相关操作前，请先依照以下步骤进入[画布编辑器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-pcs)：
+进行过滤器配置等相关操作前，请先依照以下步骤进入[画布编辑器](/zh/datav/datav-7-0/user-guide/overview-of-canvas-editor-on-pcs)：
 
 1. 登录[DataV控制台](https://datav.aliyun.com/v/console/)。
 2. 在**工作台**页面，将鼠标悬停至目标项目上，单击**编辑**进入画布编辑器页面。
@@ -152,4 +152,4 @@ return data.splice(0,3)//过滤出前三项数据
 
 ## **相关操作**
 
-过滤器中引用全局变量的方法**getLocalValue**和**getCallbackValue**请参见[过滤器引用](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-global-variables#6215b1f0d7p0f)。
+过滤器中引用全局变量的方法**getLocalValue**和**getCallbackValue**请参见[过滤器引用](/zh/datav/datav-7-0/user-guide/use-global-variables#6215b1f0d7p0f)。

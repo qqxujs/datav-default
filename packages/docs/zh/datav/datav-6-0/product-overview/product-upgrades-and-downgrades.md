@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 产品升级与降配 %{#478797}% 
 
 本文为您介绍如何进行产品的升级和降配，以及此类操作对您正常使用的产品有什么影响。
 
@@ -19,8 +19,8 @@
 
 ## **产品降配**
 
-1. 请参见[自助退订操作流程](https://help.aliyun.com/zh/datav/datav-6-0/product-overview/how-to-refund#section-3z0-wdo-6ap)，退订当前高版本实例。
-2. 请参见[开通DataV服务](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/activate-datav)，重新购买其他低版本的实例。
+1. 请参见[自助退订操作流程](/zh/datav/datav-6-0/product-overview/how-to-refund#section-3z0-wdo-6ap)，退订当前高版本实例。
+2. 请参见[开通DataV服务](/zh/datav/datav-6-0/getting-started/activate-datav)，重新购买其他低版本的实例。
 
 **重要**  
 实例退订之后其正在使用的内容不会立即清理，默认**保存15天**，实例新购之后会自动同步退订前实例的工作内容，但由于低版本和高版本包含的项目配额、工作空间等规格不同，可能会导致部分功能和内容锁定，请谨慎操作。

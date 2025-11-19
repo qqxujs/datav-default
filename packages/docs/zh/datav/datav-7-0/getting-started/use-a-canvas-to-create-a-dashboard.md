@@ -26,9 +26,9 @@
 
 ### **云数据库RDS MySQL侧**
 
-1. [创建RDS MySQL实例](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/step-1-create-an-apsaradb-rds-for-mysql-instance-and-configure-databases)。  
+1. [创建RDS MySQL实例](/zh/rds/apsaradb-rds-for-mysql/step-1-create-an-apsaradb-rds-for-mysql-instance-and-configure-databases)。  
 示例在华东1（杭州）地域创建实例，且使用平台自动创建的专有网络及交换机。
-2. 在实例中创建所需[数据库账号](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/step-1-create-an-apsaradb-rds-for-mysql-instance-and-configure-databases#dfcaa5aa632wq)及[数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/step-1-create-an-apsaradb-rds-for-mysql-instance-and-configure-databases#c8c8beda5dwet)，并准备示例数据。  
+2. 在实例中创建所需[数据库账号](/zh/rds/apsaradb-rds-for-mysql/step-1-create-an-apsaradb-rds-for-mysql-instance-and-configure-databases#dfcaa5aa632wq)及[数据库](/zh/rds/apsaradb-rds-for-mysql/step-1-create-an-apsaradb-rds-for-mysql-instance-and-configure-databases#c8c8beda5dwet)，并准备示例数据。  
 本文示例创建内容如下：
 
   * 数据库账号：`user_test`。
@@ -68,14 +68,14 @@
 本文示例数据库部署在**华东1（杭州）**地域，且使用内网VPC网络，因此需添加的白名单为`100.104.70.0/24`。
 
 **说明**  
-可参考[配置数据库白名单](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/configure-a-database-whitelist-for-datav-6)，查看各地域白名单地址。添加白名单操作，请参见[设置IP白名单](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/configure-an-ip-address-whitelist-for-an-apsaradb-rds-for-mysql-instance)。
+可参考[配置数据库白名单](/zh/datav/datav-6-0/user-guide/configure-a-database-whitelist-for-datav-6)，查看各地域白名单地址。添加白名单操作，请参见[设置IP白名单](/zh/rds/apsaradb-rds-for-mysql/configure-an-ip-address-whitelist-for-an-apsaradb-rds-for-mysql-instance)。
 
 您也可根据业务需要配置实例及数据库信息。
 
 ### **DataV-Board 7.0侧**
 
-1. [开通DataV-Board服务](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/activate-datav-1)。
-2. [创建RDS MySQL数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-mysql-data-source)。  
+1. [开通DataV-Board服务](/zh/datav/datav-7-0/getting-started/activate-datav-1)。
+2. [创建RDS MySQL数据源](/zh/datav/datav-7-0/user-guide/add-an-apsaradb-rds-for-mysql-data-source)。  
 数据源的核心参数配置如下。
 
 |    **参数**    |    **描述**    |
@@ -108,8 +108,8 @@
 您需先确定接入数据的组件，后续会通过该组件适配数据并配置展示样式。本文以折线图、轮播列表、通用标题组件为例，展示如何接入数据，具体操作如下。
 
 **说明** 
-* 本文以RDS MySQL数据示例，实际使用时，您可按需选择[数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/data-source/)。
-* 本文配置的组件样式仅用作介绍功能，若组件样式不符合您的业务需要，您可参考[组件配置项说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items)修改。
+* 本文以RDS MySQL数据示例，实际使用时，您可按需选择[数据源](/zh/datav/datav-7-0/user-guide/data-source/)。
+* 本文配置的组件样式仅用作介绍功能，若组件样式不符合您的业务需要，您可参考[组件配置项说明](/zh/datav/datav-7-0/user-guide/configuration-items)修改。
 
 ### **使用折线图接入数据**
 
@@ -146,7 +146,7 @@
       ```  
   ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9892409271/p859010.png)
   2. 使用过滤器适配数据源数据。  
-  若您的数据表字段与组件字段不一致，需使用[过滤器](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/filter-configuration-and-application/)自定义过滤代码，将数据源数据适配至组件中。  
+  若您的数据表字段与组件字段不一致，需使用[过滤器](/zh/datav/datav-7-0/user-guide/filter-configuration-and-application/)自定义过滤代码，将数据源数据适配至组件中。  
   勾选**过滤器**，即可通过手动**新建**或**智能推荐**方式自定义过滤代码，配置完成后单击**保存**。  
   ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9892409271/p859011.png)  
   本文示例的过滤代码如下。  
@@ -210,7 +210,7 @@
 
 ## **步骤**四**：发布及部署数据看板**
 
-数据看板创建完成后，需将其[发布](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)上线，部署至相关设备使用。
+数据看板创建完成后，需将其[发布](/zh/datav/datav-7-0/user-guide/publish-and-snapshot-management)上线，部署至相关设备使用。
 
 1. 单击看板编辑页面右上角的**发布**，选择**发布大屏**。
 2. 获取看板访问信息并配置访问限制。  
@@ -224,7 +224,7 @@
 
 ## 步骤五：投屏展示数据看板
 
-数据看板发布后，您可进入[可视化应用中心](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/features)，投屏展示看板。
+数据看板发布后，您可进入[可视化应用中心](/zh/datav/datav-7-0/user-guide/features)，投屏展示看板。
 
 1. 进入可视化应用中心。
 
@@ -234,5 +234,5 @@
 
 ## **相关文档**
 
-* 更多看板的创建方式，请参见[使用模板创建PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用模板创建移动端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)、[使用AI智能生成PC端看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban#t2727273.html)。
-* 更多看板的配置操作（例如，组件配置、蓝图应用、全局变量），请参见[可视化工作台](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/visualization-console/)、[进阶教程](https://help.aliyun.com/zh/datav/datav-7/videos/advanced-tutorials/)。
+* 更多看板的创建方式，请参见[使用模板创建PC端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)、[使用模板创建移动端看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-a-mobile-device)、[使用AI智能生成PC端看板](/zh/datav/datav-7-0/user-guide/use-ai-to-intelligently-generate-pc-side-kanban#t2727273.html)。
+* 更多看板的配置操作（例如，组件配置、蓝图应用、全局变量），请参见[可视化工作台](/zh/datav/datav-7-0/user-guide/visualization-console/)、[进阶教程](/zh/datav/datav-7/videos/advanced-tutorials/)。

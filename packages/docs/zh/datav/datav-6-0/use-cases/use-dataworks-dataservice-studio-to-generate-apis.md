@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+# 使用DataWorks数据服务生成API %{#106874}% 
 
 本文为您介绍如何通过DataWorks的数据服务，生成并发布数据API，用于在DataV中进行调用并展示。
 
 ## 前提条件
 
-在开始本案例前，您需要首先完成[准备工作](https://help.aliyun.com/zh/datav/datav-6-0/use-cases/preparations-for-calling-dataworks-api-to-display-data#concept-q3d-5l2-qgb "本文为您介绍在使用 DataV 调用 DataWorks 数据服务 API 展示数据成果前，需要完成的准备工作。")。 
+在开始本案例前，您需要首先完成[准备工作](/zh/datav/datav-6-0/use-cases/preparations-for-calling-dataworks-api-to-display-data#concept-q3d-5l2-qgb "本文为您介绍在使用 DataV 调用 DataWorks 数据服务 API 展示数据成果前，需要完成的准备工作。")。 
 
 ## 背景信息
 
@@ -24,7 +24,7 @@
   3. 在新增数据源弹出框中，单击大数据存储模块下的Lightning。
   4. 在新增Lightning数据源弹出框中，输入数据源名称、Lightning Endpoint等相关信息，完成后单击测试连通性，连通性测试通过后即可完成数据源的创建。  
 
-**说明** 参考[配置 JDBC 连接](https://help.aliyun.com/zh/maxcompute/configure-a-jdbc-connection#table-qwb-xkk-z2b)获取Lightning的连接信息，如Lightning Endpoint、Port等。  
+**说明** 参考[配置 JDBC 连接](/zh/maxcompute/configure-a-jdbc-connection#table-qwb-xkk-z2b)获取Lightning的连接信息，如Lightning Endpoint、Port等。  
   本案例的配置如下图所示。  
   ![案例配置样式](http://help-static-aliyun-doc.aliyuncs.com/assets/img/122941/156455593638478_zh-CN.png)  
 

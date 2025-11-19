@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 栅格瓦片 %{#422830}% 
 
 * [XYZ栅格瓦片](/zh/datav/datav-6-0/user-guide/xyz-raster-tiles)
 

@@ -8,7 +8,7 @@
 
 使用场景：例如，小数0.835要转换成整数百分比83%，可经过：单位转换（83.5） -> 取整（83）-> 添加字符串后缀（83%），一系列串行操作完成。
 
-添加**串行数据处理**节点至蓝图画布中，可查看**串行数据处理**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。 
+添加**串行数据处理**节点至蓝图画布中，可查看**串行数据处理**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/overview-of-logical-node-configurations#section-5b3-w0u-ud7)。 
 
 ### **节点配置面板**
 

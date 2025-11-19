@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+# 数据处理 %{#142630}% 
 
 数据处理类节点包括页面导航节点、并行数据处理节点、串行数据处理节点、序列执行节点和WebSocket节点。本文介绍在蓝图编辑器中，配置数据处理类节点的方法。
 
@@ -8,7 +8,7 @@
 
 使用场景：****页面导航**节点在跳转新页面时使用较多。例如以下场景，单击地图上的一个区域，即可跳转到已配置的区域下级页面内。当单击地图区域时，可通过****串行数据处理**节点得到当前区域的adcode字段值，返回参数数据为`return {adcode: data.area_id};`，然后在****导航节点**的配置面板中，设置好下级跳转页面链接地址为`https://www.other-page.com`，同时自定义带入的参数变量名adcode，最后将串行数据处理返回的结果输入****页面导航**节点的****打开页面**即可。
 
-添加****页面导航**节点至画布中，可查看****页面导航**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。
+添加****页面导航**节点至画布中，可查看****页面导航**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。
 
 ![页面导航处理面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5195329461/p426528.jpg)
 
@@ -18,7 +18,7 @@
 |    ****新开页面**    |    打开开关，新开一个网页页面打开跳转链接地址；关闭开关，在原有网页页面打开跳转链接地址。    |
 |    ****请求参数**    |    跳转页面时可自定义请求参数的****参数名**和****参数值**内容。单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个请求参数。单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个请求参数的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中请求参数配置内容并新增一个同样配置的请求参数。    |
 
-表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
+表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
 
 输出结果：无。
 
@@ -28,7 +28,7 @@
 
 使用场景：****并行数据处理**节点在数据分发场景中使用较多。例如一个组件接口返回的数据为`{name: '蓝图编辑器', version: 'v1.0' }`，分发到2个通用标题组件中，一个取的是name字段，另一个取的是version字段。可以使用该节点新增两个处理方法，一个为`return [{value: data.name}]`，另一个为`return [{value: data.version}]`。
 
-添加****并行数据处理**节点至画布中，可查看****并行数据处理**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。
+添加****并行数据处理**节点至画布中，可查看****并行数据处理**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。
 
 ![并行数据处理面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7911888951/p66549.png)
 
@@ -40,7 +40,7 @@
 |    ----    |    ----    |
 |    ****处理方法**    |    编写JavaScript函数体，返回结果可为任意类型。    |
 
-表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
+表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
 
 输出结果：每个处理方法对相应上游节点的输出结果进行计算后，得到的输出结果。
 
@@ -50,7 +50,7 @@
 
 使用场景：例如，小数0.835要转换成整数百分比83%，可经过：单位转换（83.5） -> 取整（83）-> 添加字符串后缀（83%），一系列串行操作完成。
 
-添加****串行数据处理**节点至画布中，可查看****串行数据处理**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。 
+添加****串行数据处理**节点至画布中，可查看****串行数据处理**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。 
 
 ![串行数据处理面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/7911888951/p66543.png)
 
@@ -62,7 +62,7 @@
 |    ----    |    ----    |
 |    ****处理方法**    |    编写JavaScript函数体，返回结果可为任意类型。    |
 
-表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
+表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
 
 输出结果：上游节点的输出结果经过所有处理方法计算后，得到的输出结果。
 
@@ -72,7 +72,7 @@
 
 使用场景：例如，当您需要切换不同场景的数据面板时，每个场景有很多数据面板，先把场景A相关的数据面板切出，再把场景B相关的数据面板切进。可使用****序列执行**节点，对不同场景的数据面板进行分组，再按照先A后B的顺序执行。
 
-添加****序列执行**节点至画布中，可查看****序列执行**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。
+添加****序列执行**节点至画布中，可查看****序列执行**节点支持的事件或动作，以及配置参数。添加方式请参见[使用逻辑节点](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。
 
 ![序列执行面板](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6720082261/p66539.png)
 
@@ -85,7 +85,7 @@
 |    ----    |    ----    |
 |    ****处理方法**    |    编写JavaScript函数体，返回结果支持任意类型。可叠加，每个处理方法独立计算，输入均为上一个节点的输出结果，输出为每个处理方法自己的计算结果，相互不影响。    |
 
-表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
+表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
 
 输出结果：每个处理方法按照顺序，对上游节点的输出结果进行计算后，得到的输出结果。
 
@@ -95,20 +95,20 @@
 
 使用场景：****WebSocket**节点用于多端之间的命令和数据传输。例如大屏与移动端、大屏与触摸屏端的数据传输等。
 
-添加****WebSocket**节点至画布中，可查看****WebSocket**节点的配置参数。添加方式请参见[使用逻辑节点](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。
+添加****WebSocket**节点至画布中，可查看****WebSocket**节点的配置参数。添加方式请参见[使用逻辑节点](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#task-2518858/section-5b3-w0u-ud7)。
 
 ![websocket](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/6720082261/p280491.png)
 
 |    参数    |    说明    |
 |    ----    |    ----    |
-|    ****socket服务地址**    |    socket后端服务的地址。我们提供了DataV-WS工具包供您选择，具体操作请参见[如何使用DataV-WS服务](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/use-the-datav-ws-service)。    |
+|    ****socket服务地址**    |    socket后端服务的地址。我们提供了DataV-WS工具包供您选择，具体操作请参见[如何使用DataV-WS服务](/zh/datav/datav-6-0/user-guide/use-the-datav-ws-service)。    |
 |    ****屏幕ID**    |    该****WebSocket**节点所在屏幕的ID号，自定义输入。    |
 |    ****屏幕名称**    |    该****WebSocket**节点所在屏幕的名称，自定义输入。    |
 |    ****分组**    |    ****WebSocket**节点消息只在同socket服务下的同分组中进行广播。一般同一项目约定一个分组名称。    |
 |    ****接收消息**    |    该****WebSocket**节点接收来自其他端的消息名称。 单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个接受消息。单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个接收消息的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中接收消息配置内容并新增一个同样配置的接收消息。    |
 |    ****发送消息**    |    该****WebSocket**节点发送到其他端的消息名称。单击右侧的![加号图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p89097.jpg)或![垃圾桶图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/3208049161/p89098.jpg)图标，添加或删除一个发送消息。单击![横排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p95437.jpg)或![竖排列图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/0201929951/p94077.jpg)图标配置多个发送消息的排列样式。单击![复制图标](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5896941261/p271562.jpg)图标，即可复制当前选中发送消息配置内容并新增一个同样配置的发送消息。    |
 
-表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](https://help.aliyun.com/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
+表格中仅提供****其他配置**中的参数说明，其他参数配置请参见[公共参数说明](/zh/datav/datav-6-0/user-guide/logic-nodes-overview#concept-2333441/table-d04-vmz-ldb)。
 
 输出结果：无。
 

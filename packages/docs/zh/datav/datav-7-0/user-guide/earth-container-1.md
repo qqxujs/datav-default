@@ -6,11 +6,11 @@
 
 * 添加子组件：单击**3D地球**左侧的![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4974082761/p542180.png)**图标**，打开**子组件面板**和**子组件管理面板**。在**子组件面板**中，单击添加一个或多个子组件。添加成功后，子组件会显示在**子组件管理面板**中。
 * 复制、删除和重命名子组件：鼠标移至已经添加的子组件上，右键单击复制、删除，即可完成子组件的复制和删除操作。双击子组件名称，即可完成重命名操作。
-* 更多子组件管理操作，请参见[管理地图子组件](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-components-of-a-map-widget)。
+* 更多子组件管理操作，请参见[管理地图子组件](/zh/datav/datav-7-0/user-guide/manage-components-of-a-map-widget)。
 
 ## 样式面板![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/4974082761/p542168.png)
 
-* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
+* **搜索配置**：单击**样式**面板右上角的搜索配置项图标![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5013889661/p527384.png)，可在搜索配置面板中输入您需要搜索的配置项名称，快速定位到该配置项，系统支持模糊匹配。详情请参见[搜索配置项](/zh/datav/datav-7-0/user-guide/configuration-items#b14c340069fac)。
 * * **尺寸**：包括组件的宽度和高度，单位为px。
   * **定位**：包括组件的**横坐标**和**纵坐标**，单位为px。**横坐标**为组件左上角距离页面左边界的像素距离，**纵坐标**为组件左上角距离页面上边界的像素距离。
   * **旋转**：以组件的中心为中心点，进行旋转，单位为度（°）。  
@@ -32,7 +32,7 @@
 |    **bloom阈值**    |    bloom阈值，范围为0\~1。    |
 |    **bloom半径**    |    bloom半径，范围为0\~5。    |
 |    **bloom强度**    |    bloom强度，范围为0\~1。    |
-* **背景设置**：3D地球的背景颜色，请参见[颜色选择器说明](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
+* **背景设置**：3D地球的背景颜色，请参见[颜色选择器说明](/zh/datav/datav-7-0/user-guide/configuration-items#section-kdw-vj4-t2b)进行修改。
 * **视点设置**：视点包含了**视角**、**经度**、**纬度**和**距离**四个参数，您可以根据摄像机原理调整这些参数，使地球按照您期望的大小和方向展示在可视化应用中。  
 
 |    **参数**    |    **说明**    |

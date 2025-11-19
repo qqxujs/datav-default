@@ -28,8 +28,8 @@
 
 ## **前提条件**
 
-* 已[开通DataV-Board服务](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/activate-datav-1)。
-* （可选）[创建RAM用户](https://help.aliyun.com/zh/ram/user-guide/create-a-ram-user)。若工作空间需要添加成员进行协同开发，请先创建相应RAM用户。
+* 已[开通DataV-Board服务](/zh/datav/datav-7-0/getting-started/activate-datav-1)。
+* （可选）[创建RAM用户](/zh/ram/user-guide/create-a-ram-user)。若工作空间需要添加成员进行协同开发，请先创建相应RAM用户。
 
 ## **进入工作空间管理**
 
@@ -52,7 +52,7 @@
 4. 在空间详情页，可按需配置工作空间的基本信息及成员信息。
 
   * **配置基本信息**  
-  可查看当前工作空间的识别码，并配置相关配额。工作空间的识别码是空间的唯一标识，不支持修改，后续可通过识别码进行[拷屏](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#d3e7b59063o77)操作。  
+  可查看当前工作空间的识别码，并配置相关配额。工作空间的识别码是空间的唯一标识，不支持修改，后续可通过识别码进行[拷屏](/zh/datav/datav-7-0/user-guide/manage-a-data-dashboard#d3e7b59063o77)操作。  
   ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9953391471/p927540.png)
 
 **说明**  
@@ -64,12 +64,12 @@
 |    **数据看板配额**    |    当前工作空间可创建的数据看板数量。    |    所有类型的配额均需遵循如下原则：当前已购买的DataV-Board 7.0版本中所有工作空间的配额总数，不超过该版本支持的最大配额。**说明** 例如，您购买的**企业版**产品中，所有工作空间的**数据看板配额**总数不得超过20个。当前工作空间的配额，不超过所购版本的剩余配额数量。**说明** 例如，您购买了**企业版**产品，其**数据看板配额**上限为20个。若您当前的产品中已有工作空间所配置的**数据看板配额**总数为15个，则该版本**剩余的数据看板配额**为5个。此时，若您新建一个工作空间，则该工作空间的**数据看板配额**不得超过5个。    |    **专业版试用：**5个**个人版**：5个**企业版**：20个**专业版**：40个**尊享版：**1000个    |
 |    **收藏组件配额**    |    当前工作空间可收藏的组件数量。    |    **专业版试用**：5个**个人版**：不支持**企业版：**20个**专业版**：40个**尊享版**：1000个    |    |
 |    **三维城市配额**    |    当前工作空间可创建的三维城市数量。    |    **专业版试用**：1个**个人版**：不支持**企业版**：不支持**专业版：**10个**尊享版：**50个    |    |
-|    **预案配额**    |    当前工作空间可配置的[预案](https://help.aliyun.com/zh/datav/datav-7-0/product-overview/terms-for-datav-board-7#a7e9f61fc5x44)数量。    |    **专业版试用**：5个**个人版**：不支持**企业版**：20个**专业版：**40个尊享版：100个    |    |
+|    **预案配额**    |    当前工作空间可配置的[预案](/zh/datav/datav-7-0/product-overview/terms-for-datav-board-7#a7e9f61fc5x44)数量。    |    **专业版试用**：5个**个人版**：不支持**企业版**：20个**专业版：**40个尊享版：100个    |    |
   * **（可选）添加成员并授权**  
   您可将目标RAM用户添加为某工作空间的成员，并授予相应权限，以便使用此账号在该工作空间中进行协同开发。添加成员以工作空间为管控粒度，通过授予用户不同角色，实现对工作空间内各功能点的权限控制。
 
 **说明**  
-  添加成员前，请先[创建RAM用户](https://help.aliyun.com/zh/ram/user-guide/create-a-ram-user)。
+  添加成员前，请先[创建RAM用户](/zh/ram/user-guide/create-a-ram-user)。
 
     * **角色权限说明**：某成员加入工作空间后，即拥有该工作空间的相关操作权限，且不同角色拥有的权限存在差异。DataV-Board 7.0支持的角色如下：
 
@@ -125,4 +125,4 @@
 
 ## **后续步骤**
 
-工作空间创建完成后，您可根据业务需要接入所需[数据源](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/data-source/)，并[创建数据看板](https://help.aliyun.com/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。更多开发参考，请参见[核心功能概览](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/introduction-to-core-competencies)、[操作指引](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/function-overview)、[空白画布搭建数据看板](https://help.aliyun.com/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard)。
+工作空间创建完成后，您可根据业务需要接入所需[数据源](/zh/datav/datav-7-0/user-guide/data-source/)，并[创建数据看板](/zh/datav/datav-7-0/user-guide/use-a-template-to-create-a-project-on-pc)。更多开发参考，请参见[核心功能概览](/zh/datav/datav-7-0/getting-started/introduction-to-core-competencies)、[操作指引](/zh/datav/datav-7-0/getting-started/function-overview)、[空白画布搭建数据看板](/zh/datav/datav-7-0/getting-started/use-a-canvas-to-create-a-dashboard)。

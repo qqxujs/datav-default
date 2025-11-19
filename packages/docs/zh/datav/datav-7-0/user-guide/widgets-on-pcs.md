@@ -1,9 +1,9 @@
 <!DOCTYPE html> 
 
 * [柱状图](/zh/datav/datav-7-0/user-guide/column-chart-for-datav-7/)
-* [条形图](/zh/datav/datav-7-0/user-guide/bar-charts/)
-* [折线图](/zh/datav/datav-7-0/user-guide/line-chart/)
-* [区域图](/zh/datav/datav-7-0/user-guide/area-chart/)
+* [条形图](/zh/datav/datav-7-0/user-guide/bar-charts)
+* [折线图](/zh/datav/datav-7-0/user-guide/line-chart)
+* [区域图](/zh/datav/datav-7-0/user-guide/area-chart)
 * [饼环图](/zh/datav/datav-7-0/user-guide/doughnut-chart/)
 * [散点图](/zh/datav/datav-7-0/user-guide/scatter-chart/)
 * [雷达图](/zh/datav/datav-7-0/user-guide/radar-chart-on-pcs/)

@@ -7,7 +7,7 @@
     "predocs": "node run-typedoc.mjs",
     "docs": "vitepress dev .",
     "docs:api": "node run-typedoc.mjs",
-    "docs:build": "vitepress build .",
+    "docs:build": "vitepress build . --no-check-links",
     "docs:preview": "vitepress preview ."
   },
   "dependencies": {

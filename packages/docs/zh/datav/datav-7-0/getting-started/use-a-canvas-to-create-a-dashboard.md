@@ -146,7 +146,7 @@
       ```  
   ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9892409271/p859010.png)
   2. 使用过滤器适配数据源数据。  
-  若您的数据表字段与组件字段不一致，需使用[过滤器](/zh/datav/datav-7-0/user-guide/filter-configuration-and-application/)自定义过滤代码，将数据源数据适配至组件中。  
+  若您的数据表字段与组件字段不一致，需使用[过滤器](/zh/datav/datav-7-0/user-guide/filter-configuration-and-application)自定义过滤代码，将数据源数据适配至组件中。  
   勾选**过滤器**，即可通过手动**新建**或**智能推荐**方式自定义过滤代码，配置完成后单击**保存**。  
   ![image](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/9892409271/p859011.png)  
   本文示例的过滤代码如下。  

@@ -1,7 +1,6 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 import datav from './datav/zh'
 
-console.log(datav)
 export const META_URL = 'https://pinia.vuejs.org'
 export const META_TITLE = 'Pinia 🍍'
 export const META_DESCRIPTION = '值得你喜欢的 Vue Store'

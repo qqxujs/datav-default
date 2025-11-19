@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+
+DataV提供了**欢乐砸金蛋**抽奖模板，该模板可用于团队团建、年会等场景，交互方式简单，只需单击金蛋即可完成抽奖效果。本文介绍如何使用DataV**欢乐砸金蛋**抽奖模板可视化应用。 
+
+欢乐砸金蛋模板在年会或团建抽奖场景时，包含多个交互功能：
+
+* 当单击大屏中某个金蛋时，刷新金蛋动态样式初始状态，并展示金蛋碎裂动画。
+* 当单击大屏某个金蛋时，显示全屏半透明遮挡层。
+* 当单击金蛋且播放金蛋碎裂动画两秒后，大屏显示对应金蛋内的奖品图片。
+* 当单击奖品弹窗页面内的弹窗图时，关闭奖品弹窗页面及遮挡层。
+* 当单击奖品弹窗页面内的弹窗图时，关闭金蛋碎裂动态图样式的交互功能。
+
+![欢乐砸金蛋预览](https://help-static-aliyun-doc.aliyuncs.com/assets/img/zh-CN/5489862161/p239565.gif)
+
+搭建一个可实现以上交互功能的欢乐砸金蛋模板，您需要完成以下几个步骤： 
+
+1. [创建可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/create-an-application-by-using-the-happy-golden-egg-template#task-2041982)。
+2. [配置组件样式](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/configure-widget-styles-for-an-application-created-by-using-the-happy-golden-egg-template#task-2041983)。
+3. [配置蓝图交互](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/configure-interaction-effect-in-blueprint-editor#task-2042327)。
+4. [预览并发布可视化应用](https://help.aliyun.com/zh/datav/datav-6-0/getting-started/preview-and-publish-an-application-created-by-using-the-happy-golden-egg-template#task-2041984)。

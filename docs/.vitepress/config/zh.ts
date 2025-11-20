@@ -54,7 +54,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         text: '生态系统',
         items: [
           { text: 'CubeX Core', link: 'https://github.com/cubexjs/cubex-core' },
-          { text: 'CubeX UI', link: 'https://github.com/cubexjs/cubex-default' },
+          { text: 'CubeX Design', link: 'https://github.com/cubexjs/cubex-design' },
           { text: 'CubeX Default', link: 'https://github.com/cubexjs/cubex-default' },
           { text: 'CubeX Server', link: 'https://github.com/cubexjs/cubex-ui' },
           { text: 'CubeX Cli', link: 'https://github.com/cubexjs/cubex-cli' },

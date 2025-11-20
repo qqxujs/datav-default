@@ -1,42 +1,41 @@
 {
-  "name": "datav-default",
+  "name": "cubex-default",
   "private": false,
-  "version": "0.0.7",
+  "version": "0.0.2",
   "type": "module",
   "author": "qqxu",
   "description": "不要问我这个干啥用的?我也不知道(破音!!!!!!!!!!)",
   "keywords": [
-    "datav",
+    "cubex",
     "vue",
     "Cube",
     "screen",
-    "lowCode",
-    "datav"
+    "lowCode"
   ],
   "license": "MIT",
   "mail": "861236969@qq.com",
   "github": "https://github.com/cubexjs",
   "main": "index.cjs",
-  "module": "dist/datav-default.mjs",
-  "unpkg": "dist/datav-default.iife.js",
-  "jsdelivr": "dist/datav-default.iife.js",
-  "types": "dist/datav-default.d.ts",
+  "module": "dist/cubex-default.mjs",
+  "unpkg": "dist/cubex-default.iife.js",
+  "jsdelivr": "dist/cubex-default.iife.js",
+  "types": "dist/cubex-default.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/datav-default.d.ts",
+      "types": "./dist/cubex-default.d.ts",
       "node": {
         "import": {
-          "production": "./dist/datav-default.prod.cjs",
-          "development": "./dist/datav-default.mjs",
-          "default": "./dist/datav-default.mjs"
+          "production": "./dist/cubex-default.prod.cjs",
+          "development": "./dist/cubex-default.mjs",
+          "default": "./dist/cubex-default.mjs"
         },
         "require": {
-          "production": "./dist/datav-default.prod.cjs",
-          "development": "./dist/datav-default.cjs",
+          "production": "./dist/cubex-default.prod.cjs",
+          "development": "./dist/cubex-default.cjs",
           "default": "./index.cjs"
         }
       },
-      "import": "./dist/datav-default.mjs",
+      "import": "./dist/cubex-default.mjs",
       "require": "./index.cjs"
     },
     "./package.json": "./package.json"
@@ -44,6 +43,7 @@
   "scripts": {
     "start": "vite && npm run docs",
     "dev": "vite",
+    "publish": "npm publish",
     "build": "tsc && vue-tsc -b && vite build",
     "preview": "vite preview",
     "type-check": "tsc --noEmit",
@@ -55,7 +55,7 @@
     "dist/*.js",
     "dist/*.mjs",
     "dist/*.cjs",
-    "dist/datav-default.d.ts",
+    "dist/cubex-default.d.ts",
     "index.cjs",
     "LICENSE",
     "README.md"

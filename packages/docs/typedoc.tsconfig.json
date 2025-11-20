@@ -1,9 +1,7 @@
 {
-  "include": ["../pinia/src/global.d.ts", "../*/src/**/*.ts"],
+  "include": ["../*/src/**/*.ts"],
   "exclude": [
     "../test-vue-2",
-    "../pinia/__tests__/test-utils.ts",
-    "../pinia/test-dts",
     "../*/__tests__/**/*.ts",
     "../*/src/*.spec.ts",
     "../nuxt/playground",
@@ -19,8 +17,6 @@
     "sourceMap": false,
     "noEmit": true,
     "paths": {
-      "@pinia/*": ["../*/src"],
-      "pinia": ["../pinia/src"]
     },
 
     "target": "esnext",

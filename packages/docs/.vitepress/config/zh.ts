@@ -34,15 +34,11 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
     },
 
     nav: [
-      // { text: 'Config', link: '/config/' },
-      // { text: 'Plugins', link: '/plugins/' },
       {
-        text: '指南',
-        link: '/core-concepts/',
-        activeMatch: '^/core-concepts/',
+        text: '手册',
+        link: '/zh/datav/datav-7-0',
+        activeMatch: '^/zh/datav/datav-7-0',
       },
-      // { text: 'API', link: '/api/', activeMatch: '^/api/' },
-      { text: '手册', link: '/cookbook/', activeMatch: '^/cookbook/' },
       {
         text: '相关链接',
         items: [
@@ -72,77 +68,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
             },
           ],
         },
-        {
-          text: '自定义组件开发',
-          items: [
-            { text: '控件类型配置', link: '/user-guide/control-type-configuration/' },
-            { text: 'State', link: '/core-concepts/state.html' },
-            { text: 'Getter', link: '/core-concepts/getters.html' },
-            { text: 'Action', link: '/core-concepts/actions.html' },
-            { text: '插件', link: '/core-concepts/plugins.html' },
-            {
-              text: '组件外的 Store',
-              link: '/core-concepts/outside-component-usage.html',
-            },
-          ],
-        },
-        {
-          text: '服务端渲染 (SSR)',
-          collapsed: false,
-          items: [
-            {
-              text: 'Vue 与 Vite',
-              link: '/ssr/',
-            },
-            {
-              text: 'Nuxt',
-              link: '/ssr/nuxt.html',
-            },
-          ],
-        },
         datav,
-        {
-          text: '手册',
-          collapsed: false,
-          items: [
-            {
-              text: '目录',
-              link: '/cookbook/',
-            },
-            {
-              text: '从 Vuex ≤4 迁移',
-              link: '/cookbook/migration-vuex.html',
-            },
-            {
-              text: '热更新',
-              link: '/cookbook/hot-module-replacement.html',
-            },
-            {
-              text: '测试',
-              link: '/cookbook/testing.html',
-            },
-            {
-              text: '不使用 setup() 的用法',
-              link: '/cookbook/options-api.html',
-            },
-            {
-              text: '组合式 Stores',
-              link: '/cookbook/composing-stores.html',
-            },
-            {
-              text: 'VSCode 代码片段',
-              link: '/cookbook/vscode-snippets.html',
-            },
-            {
-              text: '从 v0/v1 迁移至 v2',
-              link: '/cookbook/migration-v1-v2.html',
-            },
-            {
-              text: '处理组合式函数',
-              link: '/cookbook/composables.html',
-            },
-          ],
-        },
       ],
     },
   },

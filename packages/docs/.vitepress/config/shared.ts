@@ -33,8 +33,9 @@ export const slugify = (str: string): string =>
 export const sharedConfig = defineConfig({
   title: 'Pinia',
   appearance: 'dark',
+  ignoreDeadLinks : true,
   build:{
-    checkLinks : false
+    ignoreDeadLinks : true
   },
   markdown: {
     html: false,

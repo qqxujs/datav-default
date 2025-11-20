@@ -19,8 +19,8 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/vuejs/pinia/edit/v3/packages/docs/:path',
-      text: '对本页提出修改建议',
+      pattern: 'https://github.com/qqxujs/datav-default/tree/main/packages/docs/:path',
+      text: '在 GitHub 上编辑此页面',
     },
 
     outline: {

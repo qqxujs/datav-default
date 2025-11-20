@@ -15,7 +15,7 @@
   ],
   "license": "MIT",
   "mail": "861236969@qq.com",
-  "github": "https://github.com/qqxujs",
+  "github": "https://github.com/cubexjs",
   "main": "index.cjs",
   "module": "dist/datav-default.mjs",
   "unpkg": "dist/datav-default.iife.js",

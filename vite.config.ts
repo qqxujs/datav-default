@@ -22,7 +22,7 @@ export default defineConfig({
     // 库模式配置
     lib: {
       entry: resolve(__dirname, 'src/lib/index.ts'), // 入口文件
-      name: 'DatavDefault', // UMD 全局变量名
+      name: 'CubeXDefault', // UMD 全局变量名
       fileName: (format) => `index.${format}.js`, // 输出文件名
       formats: ['es' ,'cjs' ,'umd','iife']
     },

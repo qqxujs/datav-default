@@ -1,11 +1,9 @@
 import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 import datav from './datav/zh'
 
-export const META_URL = 'https://pinia.vuejs.org'
-export const META_TITLE = 'Pinia 🍍'
-export const META_DESCRIPTION = '值得你喜欢的 Vue Store'
-// TODO: translation of this
-// 'Intuitive, type safe, light and flexible Store for Vue'
+export const META_URL = 'https://cubex.qqxu.com'
+export const META_TITLE = 'CubeX 🍍'
+export const META_DESCRIPTION = '值得你喜欢的低代码构建平台'
 
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
   description: META_DESCRIPTION,
@@ -19,7 +17,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
 
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/qqxujs/datav-default/tree/main/packages/docs/:path',
+      pattern: 'https://github.com/cubexjs/datav-default/tree/main/packages/docs/:path',
       text: '在 GitHub 上编辑此页面',
     },
 
@@ -43,14 +41,26 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         text: '相关链接',
         items: [
           {
+            text: '演示',
+            link: 'cubex.qqxu.com',
+          },
+          {
             text: '博客专栏',
-            link: '//blog.qqxu.com',
+            link: 'blog.qqxu.com',
           },
         ],
       },
       {
-        text: 'v3.x',
-        items: [{ text: 'v2.x', link: 'https://v2.pinia.vuejs.org' }],
+        text: '生态系统',
+        items: [
+          { text: 'CubeX Core', link: 'https://github.com/cubexjs/cubex-core' },
+          { text: 'CubeX UI', link: 'https://github.com/cubexjs/cubex-default' },
+          { text: 'CubeX Default', link: 'https://github.com/cubexjs/cubex-default' },
+          { text: 'CubeX Server', link: 'https://github.com/cubexjs/cubex-ui' },
+          { text: 'CubeX Cli', link: 'https://github.com/cubexjs/cubex-cli' },
+          { text: 'CubeX Board', link: 'https://github.com/cubexjs/cubex-board' },
+          { text: 'CubeX EventEmitter', link: 'https://github.com/cubexjs/cubex-event-emitter' },
+        ],
       },
     ],
     sidebar: {

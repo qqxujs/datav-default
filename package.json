@@ -1,75 +1,76 @@
 {
-  "name": "@pinia/root",
-  "packageManager": "pnpm@10.20.0",
+  "name": "datav-default",
+  "private": false,
+  "version": "0.0.7",
   "type": "module",
-  "private": true,
-  "workspaces": [
-    "packages/*"
+  "author": "qqxu",
+  "description": "不要问我这个干啥用的?我也不知道(破音!!!!!!!!!!)",
+  "keywords": [
+    "datav",
+    "vue",
+    "Cube",
+    "screen",
+    "lowCode",
+    "datav"
   ],
+  "license": "MIT",
+  "mail": "861236969@qq.com",
+  "github": "https://github.com/qqxujs",
+  "main": "index.cjs",
+  "module": "dist/datav-default.mjs",
+  "unpkg": "dist/datav-default.iife.js",
+  "jsdelivr": "dist/datav-default.iife.js",
+  "types": "dist/datav-default.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/datav-default.d.ts",
+      "node": {
+        "import": {
+          "production": "./dist/datav-default.prod.cjs",
+          "development": "./dist/datav-default.mjs",
+          "default": "./dist/datav-default.mjs"
+        },
+        "require": {
+          "production": "./dist/datav-default.prod.cjs",
+          "development": "./dist/datav-default.cjs",
+          "default": "./index.cjs"
+        }
+      },
+      "import": "./dist/datav-default.mjs",
+      "require": "./index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
   "scripts": {
-    "release": "node scripts/release.mjs",
-    "size": "pnpm run -r size",
-    "build": "pnpm run -C packages/datav-default build",
-    "docs": "pnpm run --filter ./packages/docs -r docs",
-    "docs:api": "pnpm run --filter ./packages/docs -r docs:api",
-    "docs:build": "pnpm run docs:api && pnpm run --filter ./packages/docs -r docs:build",
-    "docs:preview": "pnpm run --filter ./packages/docs -r docs:preview",
-    "build:dts": "pnpm run -r --parallel build:dts",
-    "lint": "prettier -c --parser typescript \"packages/*/{src,__tests__,e2e}/**/*.[jt]s?(x)\" \"packages/docs/**/*.[jt]s\"",
-    "lint:fix": "pnpm run lint --write",
-    "test": "pnpm run -r dev:prepare && pnpm run test:types && pnpm run test:vitest run && pnpm run -r test && pnpm run build && pnpm run build:dts && pnpm test:dts",
-    "test:vitest": "vitest --coverage",
-    "test:types": "tsc --build ./tsconfig.json",
-    "test:dts": "pnpm run -r test:dts"
+    "start": "vite && npm run docs",
+    "dev": "vite",
+    "build": "tsc && vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit",
+    "docs": "vitepress dev ./docs",
+    "docs:build": "vitepress build ./docs",
+    "docs:preview": "vitepress preview ./docs"
+  },
+  "files": [
+    "dist/*.js",
+    "dist/*.mjs",
+    "dist/*.cjs",
+    "dist/datav-default.d.ts",
+    "index.cjs",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "lodash-es": "^4.17.21"
   },
   "devDependencies": {
-    "@posva/prompts": "^2.4.4",
-    "@rollup/plugin-alias": "^6.0.0",
-    "@rollup/plugin-commonjs": "^29.0.0",
-    "@rollup/plugin-node-resolve": "^16.0.3",
-    "@rollup/plugin-replace": "^6.0.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@types/lodash.kebabcase": "^4.1.9",
-    "@types/node": "^24.10.0",
-    "@vitest/ui": "^3.2.4",
-    "@vue/compiler-sfc": "~3.5.22",
-    "@vue/server-renderer": "~3.5.22",
-    "chalk": "^5.6.2",
-    "conventional-changelog-cli": "^2.2.2",
-    "execa": "^9.6.0",
-    "globby": "^15.0.0",
-    "happy-dom": "^20.0.10",
-    "lint-staged": "^16.2.6",
-    "lodash.kebabcase": "^4.1.1",
-    "minimist": "^1.2.8",
-    "p-series": "^3.0.0",
-    "pascalcase": "^2.0.0",
-    "prettier": "^3.6.2",
-    "rimraf": "^6.1.0",
-    "rollup": "^4.52.5",
-    "rollup-plugin-typescript2": "^0.36.0",
-    "semver": "^7.7.3",
-    "typedoc": "^0.28.14",
-    "typedoc-plugin-markdown": "~4.9.0",
+    "@types/node": "^24.6.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
     "typescript": "~5.9.3",
-    "vitest": "^3.2.4",
-    "vue": "~3.5.22"
-  },
-  "lint-staged": {
-    "*.{js,mjs,json,cjs}": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "prettier --parser=typescript --write"
-    ]
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "vue-demi"
-    ],
-    "ignoredBuiltDependencies": [
-      "@parcel/watcher"
-    ]
+    "vite": "^7.1.7",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.22",
+    "vue-tsc": "^3.1.0"
   }
 }

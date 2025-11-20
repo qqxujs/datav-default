@@ -1,13 +1,13 @@
 ---
 layout: home
 
-title: datav-default
-titleTemplate: The intuitive store for Vue.js
+title: DataV
+titleTemplate: 低代码数据孪生可视化平台
 
 hero:
-  name: datav-default
-  text: "符合直觉的 \nVue.js 状态管理库"
-  tagline: "类型安全、可扩展性以及模块化设计。\n甚至让你忘记正在使用的是一个状态库。"
+  name: DataV
+  text: "低代码数据孪生可视化平台"
+  tagline: "纯粹学习过程中的记录"
   image:
     src: /logo.svg
     alt: datav-default
@@ -18,31 +18,19 @@ hero:
     - theme: alt
       text: Demo 演示
       link: https://stackblitz.com/github/datav-defaultjs/example-vue-3-vite
-    - theme: cta rulekit
-      text: RuleKit
-      link: https://rulekit.dev?from=datav-default
-    - theme: cta mastering-datav-default
-      text: ' '
-      link: https://masteringdatav-default.com
-    - theme: cta vueschool
-      text: 观看视频介绍
-      link: https://vueschool.io/lessons/introduction-to-datav-default?friend=vuerouter&utm_source=datav-default&utm_medium=link&utm_campaign=homepage
-    - theme: cta vue-mastery
-      text: 获取 datav-default 速查表
-      link: https://www.vuemastery.com/datav-default?coupon=datav-default-DOCS&via=eduardo
 
 features:
-  - title: 💡 所见即所得
-    details: 与组件类似的 Store。其 API 的设计旨在让你编写出更易组织的 store。
-  - title: 🔑 类型安全
-    details: 类型可自动推断，即使在 JavaScript 中亦可为你提供自动补全功能！
-  - title: ⚙️ 开发工具支持
-    details: 不管是 Vue 2 还是 Vue 3，支持 Vue devtools 钩子的 datav-default 都能给你更好的开发体验。
-  - title: 🔌 可扩展性
-    details: 可通过事务、同步本地存储等方式扩展 datav-default，以响应 store 的变更以及 action。
-  - title: 🏗 模块化设计
-    details: 可构建多个 Store 并允许你的打包工具自动拆分它们。
-  - title: 📦 极致轻量化
-    details: datav-default 大小只有 1kb 左右，你甚至可能忘记它的存在！
+  - title: 💡 专业丰富的可视化组件
+    details: 产品包含160多种可视化组件、100多种地理图元，帮助用户实现数据精准表达，呈现数据之美。
+  - title: 🔑 可视化生成与智能设计
+    details: 携手大模型，只需一句话，即可将您的创意跃然大屏之上，一扫往昔繁复设计的困扰。
+  - title: ⚙️ 蓝图低代码交互搭建
+    details: 图形化交互逻辑编排，帮您快速构建数据时代人机交互界面。
+  - title: 🔌 可视化演播厅
+    details: 数据大屏一键投屏、秒级切换，为数据汇报带来全新高性能体验。
+  - title: 🏗 大模型驱动的智能分析
+    details: AI 自动规划数据分析任务，一键生成分析报告，完成从取数、分析、展示到洞察的全流程工作。
+  - title: 📦 全场景数字孪生应用
+    details: 支持多源数据接入能力，能够基于 GIS、BIM、IOT 数据进行全场景的数字孪生应用开发。
 ---
 
